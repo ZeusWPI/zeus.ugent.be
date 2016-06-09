@@ -12,6 +12,11 @@ compile '/**/*.erb' do
   filter :erb
 end
 
+compile '/**/*.coffee' do
+  filter :coffeescript
+  write "#{item.identifier.without_ext}.js"
+end
+
 # Markdown
 compile '/**/*.md' do
   filter :kramdown
