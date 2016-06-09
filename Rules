@@ -15,7 +15,7 @@ route '/**/*.{html,md}' do
   if item.identifier =~ '/index.*'
     '/index.html'
   else
-    item.identifier.without_ext + '/index.html'
+    "#{item.identifier.without_ext}/index.html"
   end
 end
 
