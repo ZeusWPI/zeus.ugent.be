@@ -1,8 +1,15 @@
 #!/usr/bin/env ruby
 
 # HTML
+# compile '/**/*.html' do
+#  layout '/default.*'
+# end
+
 compile '/**/*.html' do
-  layout '/default.*'
+end
+
+compile '/**/*.erb' do
+  filter :erb
 end
 
 # Markdown
@@ -11,12 +18,12 @@ compile '/**/*.md' do
   layout '/default.*'
 end
 
+route '/index.erb' do
+  '/index.html'
+end
+
 route '/**/*.{html,md}' do
-  if item.identifier =~ '/index.*'
-    '/index.html'
-  else
-    "#{item.identifier.without_ext}/index.html"
-  end
+  "#{item.identifier.without_ext}/index.html"
 end
 
 compile '/**/*' do
