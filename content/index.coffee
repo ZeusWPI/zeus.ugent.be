@@ -6,4 +6,6 @@ $.get 'https://api.github.com/orgs/ZeusWPI/events', (data) ->
         $('<img />',
           style: 'width: 50px;',
           src: e.actor.avatar_url
-    )))
+        )
+      ).append e.type
+    )

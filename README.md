@@ -2,7 +2,9 @@
 
 ## Installation
 
-`bundle install`
+```bash
+bundle install
+```
 
 ## Developing
 
