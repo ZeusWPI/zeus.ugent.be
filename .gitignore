@@ -9,3 +9,5 @@ tmp/
 
 # Crash Log
 crash.log
+
+.idea/
