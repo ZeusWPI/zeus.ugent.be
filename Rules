@@ -5,11 +5,9 @@
 #  layout '/default.*'
 # end
 
-compile '/**/*.html' do
-end
-
-compile '/**/*.erb' do
+compile '/index.erb' do
   filter :erb
+  layout '/index.erb'
 end
 
 compile '/**/*.coffee' do

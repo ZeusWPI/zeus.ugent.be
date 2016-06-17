@@ -1,0 +1,93 @@
+header {
+    position: absolute;
+    top: 0;
+    height: 75px;
+    line-height: 75px;
+
+    background-color: rgb(255, 109, 0);
+    color: white;
+
+    width: 100%;
+}
+
+header #logo {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 45px;
+}
+
+main {
+    padding: 15px;
+    position: absolute;
+    top: 75px;
+    /* header-height, footer-height, padding-top, padding-bottom */
+    height: calc(100% - 75px - 30px - 15px - 15px);
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+}
+#events {
+    padding-right: 15px;
+}
+#event-main {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 200px;
+
+    overflow: hidden;
+
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.event {
+    background: black;
+    color: white;
+
+    padding: 20px;
+}
+
+.event-bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.event-title {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    font-size: 35px;
+    height: 40px;
+    line-height: 40px;
+    padding: 15px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+#github-feed ul {
+    height: 100%;
+}
+#github-feed {
+    overflow: auto;
+}
+
+/* Fixes adding borders and padding, but breaks IE7 */
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.l-box {
+    border: 2px solid black;
+}
