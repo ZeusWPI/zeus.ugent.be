@@ -1,6 +1,8 @@
+$.getJSON 'http://cors.io/?u=https://zeus.ugent.be/game/top4/show.json', (data) ->
+  $('#top-coder-name').text(data[0].github_name)
+
 $.get 'https://api.github.com/orgs/ZeusWPI/events', (data) ->
   for e in data
-    console.log e
     $('#github-feed ul').append(
       $('<li />').append(
         $('<img />',

@@ -15,6 +15,11 @@ compile '/**/*.coffee' do
   write "#{item.identifier.without_ext}.js"
 end
 
+compile '/**/*.scss' do
+  filter :sass, syntax: :scss
+  write "#{item.identifier.without_ext}.css"
+end
+
 # Markdown
 compile '/**/*.md' do
   filter :kramdown

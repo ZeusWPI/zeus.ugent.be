@@ -11,3 +11,5 @@ tmp/
 crash.log
 
 .idea/
+
+.sass-cache/

@@ -1,10 +1,12 @@
+$zeus_orange: rgb(255, 109, 0);
+
 header {
     position: absolute;
     top: 0;
     height: 75px;
     line-height: 75px;
 
-    background-color: rgb(255, 109, 0);
+    background-color: $zeus_orange;
     color: white;
 
     width: 100%;

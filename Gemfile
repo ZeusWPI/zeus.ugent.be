@@ -7,6 +7,7 @@ ruby '2.3.1'
 gem 'nanoc'
 gem 'kramdown'
 gem 'coffee-script'
+gem 'sass'
 
 group :development do
   gem 'adsf'
