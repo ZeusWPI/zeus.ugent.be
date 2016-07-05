@@ -50,13 +50,9 @@ $navbar-border-color: #CCC;
 }
 
 .main-event {
-  background: #8e9eab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   height: 250px;
-  padding: 10px;
   margin-bottom: $event-padding;
+  overflow: hidden;
 }
 
 #all-events {
@@ -64,13 +60,27 @@ $navbar-border-color: #CCC;
   margin-right: -10px;
 
   .event {
-    background: #8e9eab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid #DDD;
+    position: relative;
 
-    padding: 10px;
+    overflow: hidden;
 
     height: 200px;
     margin: $event-padding;
+
   }
+}
+
+.event:after {
+  content: '\A';
+  position: absolute;
+  width: 100%; height:100%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.6);
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.event:hover:after {
+  opacity: 1;
 }
