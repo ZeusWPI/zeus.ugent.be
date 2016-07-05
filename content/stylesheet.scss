@@ -15,11 +15,22 @@ $navbar-border-color: #CCC;
   display: inline-block;
   color: black;
 
+  a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: currentColor;
+  }
+
   .logo-link {
     margin-left: 10px;
-  }
-  .logo-link:hover {
-    color: $zeus_orange;
+    transition: 0.2s;
+
+    &:hover {
+      color: $zeus_orange;
+      transition: 0.2s;
+    }
   }
 }
 
@@ -33,8 +44,8 @@ $navbar-border-color: #CCC;
 #navbar {
   border-top: 1px solid $navbar-border-color;
   border-bottom: 1px solid $navbar-border-color;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 
   color: black;
 
@@ -44,8 +55,17 @@ $navbar-border-color: #CCC;
   margin-bottom: $event-padding * 2;
   margin-top: $event-padding * 2;
 
+
+  .navlink {
+    padding: 8px;
+    transition: 0.2s;
+  }
+
   .navlink:hover {
-    color: $zeus_orange;
+    background-color: $zeus_orange;
+    color: white;
+
+    transition: 0.2s;
   }
 }
 
