@@ -2,6 +2,13 @@ $zeus_orange: #FF7F00;
 $event-padding: 10px;
 $navbar-border-color: #CCC;
 
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Arimo', sans-serif;
+}
+
 #container {
   height: 700px;
   margin-top: 35px;
@@ -100,4 +107,30 @@ $navbar-border-color: #CCC;
 }
 .event:hover:after {
   opacity: 1;
+}
+
+
+#event-banner {
+  position: fixed;
+}
+
+#event-content {
+  position: absolute;
+  top: 500px;
+  background-color: white;
+  height: 100vh;
+}
+
+#event-title {
+  text-align: center;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+#sticky.stick {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  background-color: white;
 }

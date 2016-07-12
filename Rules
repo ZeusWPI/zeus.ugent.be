@@ -5,9 +5,10 @@
 #  layout '/default.*'
 # end
 
-compile '/index.erb' do
+compile '/**/*.erb' do
   filter :erb
   layout '/index.erb'
+  write "#{@item.identifier.without_ext}.html"
 end
 
 compile '/**/*.coffee' do
@@ -24,10 +25,6 @@ end
 compile '/**/*.md' do
   filter :kramdown
   layout '/default.*'
-end
-
-route '/index.erb' do
-  '/index.html'
 end
 
 route '/**/*.{html,md}' do
