@@ -2,11 +2,11 @@ $zeus_orange: #FF7F00;
 $event-padding: 10px;
 $navbar-border-color: #CCC;
 
-@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #container {
@@ -112,6 +112,15 @@ html, button, input, select, textarea,
 
 #event-banner {
   position: fixed;
+  min-width: 100%;
+}
+
+#event-description {
+  padding: 20px;
+}
+
+#event-info {
+  padding-top: 20px;
 }
 
 #event-content {
@@ -119,12 +128,14 @@ html, button, input, select, textarea,
   top: 500px;
   background-color: white;
   height: 100vh;
+
+  border-top: 2px solid $navbar-border-color;
 }
 
 #event-title {
   text-align: center;
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 #sticky.stick {

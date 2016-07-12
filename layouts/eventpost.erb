@@ -1,0 +1,30 @@
+<img class="pure-img" id="event-banner" src="<%= item[:banner] %>" alt="" />
+
+<div id="event-content">
+  <div id="sticky-anchor"></div>
+  <div id="sticky">
+    <h1 id="event-title"><%= item[:title] %></h1>
+    <nav id="navbar">
+      <span class="navlink">About</span>
+      <span class="navlink">All posts</span>
+      <span class="navlink">Contact</span>
+      <span class="navlink">Cammie</span>
+    </nav>
+  </div>
+  <div class="pure-g">
+    <!-- Wrapper needed to add some padding to the grid class -->
+    <div id="event-description-wrapper" class="pure-u-3-4">
+      <div id="event-description">
+        <%= yield %>
+      </div>
+    </div>
+    <div id="event-info" class="pure-u-1-4">
+      <ul class="fa-ul">
+        <li><i class="fa-li fa fa-clock-o"></i><%= item[:time] %></li>
+        <li><i class="fa-li fa fa-globe"></i><%= item[:location] %></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="/index.js"></script>

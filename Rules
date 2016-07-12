@@ -24,7 +24,10 @@ end
 # Markdown
 compile '/**/*.md' do
   filter :kramdown
-  layout '/default.*'
+  layout '/eventpost.erb'
+  filter :erb
+  layout '/index.erb'
+  filter :erb
 end
 
 route '/**/*.{html,md}' do
