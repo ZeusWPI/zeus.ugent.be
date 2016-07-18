@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.3.1
+
+install:
+  - bundle install --without development
+
+script:
+  - bundle exec nanoc
