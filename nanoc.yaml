@@ -95,4 +95,4 @@ deploy:
   public:
     kind: rsync
     dst:  zeusweb-beta@zeus.ugent.be:/home/zeusweb-beta/public
-    options: [ '-glpPrtvz', '-e', 'ssh -p 2222' ]
+    options: [ '-glpPrtvz', '-e', 'ssh -p 2222', '--delete']
