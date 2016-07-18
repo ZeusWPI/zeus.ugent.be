@@ -30,7 +30,11 @@ compile '/**/*.md' do
   filter :relativize_paths, type: :html
 end
 
-route '/**/*.{erb, html,md}' do
+route '/index.erb' do
+  "/index.html"
+end
+
+route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
 
