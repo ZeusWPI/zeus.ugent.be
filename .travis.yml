@@ -1,6 +1,8 @@
 language: ruby
+cache: bundler
 rvm:
 - 2.3.1
+
 notifications:
   slack:
     secure: tej68wbYns4DYg488iz+4ncU3/CHJvG/5c1qntGcEjti6vZp24atuH32BzNMY+gqa5ftZtcRfqIiJ0I0tkbiFWEDzjSk89bgjG4sgwXq1gMqi/Fj4bqEpjU5m7QLa786q4UfYyTF+srca1fHPLVS5REdGjRr2wxX+bcFnTRxreGCIrlNdWhoZPPJyS37R4RR9k+l5ZWZnqWgUN6bD448O8EzMRVRWoUSxQcJ6+u4QLpinEvem4iXe+WcHOyFfsNmavxGGMMpkOSed/tzA1l+gNpl224qOJl3yAk2qrGi4N6SOnSkeJFfUO5RzX56KDC/tcCL1oJpamhDmzDvRrbDNnCjSriv+g+PkXEjiwBF/tkZwIe7nMKyc9QF698Zvdgb6Ffbq21obsRnkkddkxijthdbUKMAIREPQuU7pXRL4ykPkBeB5GkNjPlErOooxvUHvQEVElJ8NMD4ychQqW6relaYJ0W0uy0QMvrtS+cHkpprZAOZzWLa3AdEOvD50kiS2hDhJway5JHJg/LMl3I6XVVMx6fNGdNWBcezeCqkDZM+nuMJqgAtQ+Tz8bwrHLCJgS5u0lQq/MbrDkYdpmmzvA5LXxn2SpjfOAlgiFKnSIwKSuuuwzW/zCEGdPo1pfBba2VfYAN4y1l863j5ph+eMtlHf7JG8mzIWTo3k+Jx8lQ=
@@ -19,4 +21,5 @@ script:
 after_success:
 - mv deploy_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
-- bundle exec nanoc deploy --target public
+- chmod +x .travis/deploy.sh
+- .travis/deploy.sh
