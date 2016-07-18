@@ -10,11 +10,11 @@ install:
 - bundle install --without development
 
 script:
+- bundle exec nanoc
 - bundle exec nanoc check elinks
 - bundle exec nanoc check ilinks
 - bundle exec nanoc check stale
 - bundle exec nanoc check mixed_content
-- bundle exec nanoc
 
 after_success:
 - bundle exec nanoc deploy --target public
