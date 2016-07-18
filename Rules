@@ -31,7 +31,7 @@ compile '/**/*.md' do
 end
 
 route '/index.erb' do
-  "/index.html"
+  '/index.html'
 end
 
 route '/**/*.{erb,html,md}' do
