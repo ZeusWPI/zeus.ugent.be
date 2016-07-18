@@ -9,12 +9,7 @@
   <div id="sticky-anchor"></div>
   <div id="sticky">
     <h1 id="event-title"><%= item[:title] %></h1>
-    <nav id="navbar">
-      <span class="navlink">About</span>
-      <span class="navlink">All posts</span>
-      <span class="navlink">Contact</span>
-      <span class="navlink">Cammie</span>
-    </nav>
+    <%= render '/_navbar.*' %>
   </div>
   <div class="pure-g">
     <!-- Wrapper needed to add some padding to the grid class -->
