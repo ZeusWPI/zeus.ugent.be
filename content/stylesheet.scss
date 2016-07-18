@@ -2,11 +2,18 @@ $zeus_orange: #FF7F00;
 $event-padding: 10px;
 $navbar-border-color: #CCC;
 
+$cammie-controls-color: rgba(0, 0, 0, 0.60);
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
 }
 
 #container {
@@ -144,4 +151,59 @@ html, button, input, select, textarea,
   z-index: 10000;
   width: 100%;
   background-color: white;
+}
+
+#cammie {
+  width: 100%;
+}
+.fullpage {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.ctrl {
+  background-color: $cammie-controls-color;
+  color: white;
+  position: absolute;
+  z-index: 100;
+
+  // Chevron centering
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $zeus_orange;
+    z-index: 200;
+  }
+}
+
+#left {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  left: 0;
+}
+
+#right {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  right: 0;
+}
+
+#up {
+  height: 100px;
+  width: 100%;
+  top: 0;
+}
+
+#down {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
 }

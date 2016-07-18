@@ -1,14 +1,10 @@
 #!/usr/bin/env ruby
 
-# HTML
-# compile '/**/*.html' do
-#  layout '/default.*'
-# end
-
 compile '/**/*.erb' do
   filter :erb
-  layout '/index.erb'
-  write "#{@item.identifier.without_ext}.html"
+  layout '/default.erb'
+
+  filter :relativize_paths, type: :html
 end
 
 compile '/**/*.coffee' do
@@ -24,13 +20,17 @@ end
 # Markdown
 compile '/**/*.md' do
   filter :kramdown
+
   layout '/eventpost.erb'
   filter :erb
-  layout '/index.erb'
+
+  layout '/default.erb'
   filter :erb
+
+  filter :relativize_paths, type: :html
 end
 
-route '/**/*.{html,md}' do
+route '/**/*.{erb, html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
 

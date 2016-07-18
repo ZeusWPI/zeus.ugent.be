@@ -7,6 +7,8 @@ ruby '2.3.1'
 gem 'nanoc'
 gem 'kramdown'
 gem 'coffee-script'
+# Needed for relativize_urls
+gem 'nokogiri'
 gem 'sass'
 
 group :development do
