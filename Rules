@@ -1,24 +1,28 @@
 #!/usr/bin/env ruby
 
+# ERB
 compile '/**/*.erb' do
   filter :erb
   layout '/default.erb'
+end
 
+# relativize_paths
+compile '/**/*.{erb,html}' do
   filter :relativize_paths, type: :html
 end
 
+# Coffeescript
 compile '/**/*.coffee' do
   filter :coffeescript
-  write "#{item.identifier.without_ext}.js"
 end
 
+# SCSS
 compile '/**/*.scss' do
   filter :sass, syntax: :scss
-  write "#{item.identifier.without_ext}.css"
 end
 
-# Markdown
-compile '/**/*.md' do
+# Compile all posts
+compile '/posts/**/*.md' do
   filter :kramdown
 
   layout '/eventpost.erb'
@@ -30,16 +34,23 @@ compile '/**/*.md' do
   filter :relativize_paths, type: :html
 end
 
-route '/index.erb' do
+route '/index.*' do
   '/index.html'
 end
+
+route '/assets/stylesheets/**/*' do
+  "#{item.identifier.without_ext}.css"
+end
+
+route '/assets/scripts/**/*' do
+  "#{item.identifier.without_ext}.js"
+end
+
+passthrough '/**/*.png'
 
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
 
-compile '/**/*' do
-  write item.identifier.to_s
-end
 
 layout '/**/*', :erb

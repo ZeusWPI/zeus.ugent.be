@@ -2,7 +2,7 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-gem 'nanoc'
+gem 'nanoc', git: 'https://github.com/werthen/nanoc.git', branch: 'add-resources-to-ilinks-check'
 gem 'kramdown'
 gem 'coffee-script'
 # Needed for relativize_urls

@@ -8,8 +8,10 @@
 <div id="event-content">
   <div id="sticky-anchor"></div>
   <div id="sticky">
-    <h1 id="event-title"><%= item[:title] %></h1>
-    <%= render '/_navbar.*' %>
+    <h1 id="event-title">
+      <%= item[:title] %>
+    </h1>
+    <%= render '/partials/_navbar.*' %>
   </div>
   <div class="pure-g">
     <!-- Wrapper needed to add some padding to the grid class -->
@@ -30,4 +32,4 @@
   </div>
 </div>
 
-<script src="/index.js"></script>
+<script src="/assets/scripts/eventpost.js"></script>
