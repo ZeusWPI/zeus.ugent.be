@@ -1,4 +1,5 @@
 # zeus.ugent.be
+[![Build Status](https://travis-ci.org/ZeusWPI/zeus.ugent.be.svg?branch=master)](https://travis-ci.org/ZeusWPI/zeus.ugent.be)
 
 ## Installation
 
