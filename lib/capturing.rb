@@ -1,1 +1,0 @@
-include Nanoc::Helpers::Capturing

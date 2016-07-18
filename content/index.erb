@@ -30,11 +30,13 @@
       </div>
       <div id="all-events">
         <div class="pure-g">
-          <% 9.times do |n| %>
+          <% articles.each do |article| %>
           <div class="pure-u-1-3">
-            <div class="event">
-              <img class="pure-img" src='<%= "http://lorempixel.com/400/#{400 + n}/" %>' alt="" />
-            </div>
+            <a href="<%= relative_path_to(article) %>">
+              <div class="event">
+                <img class="pure-img" src='<%= article[:banner] %>' alt="" />
+              </div>
+            </a>
           </div>
           <% end %>
         </div>
