@@ -11,6 +11,9 @@ gem 'coffee-script'
 gem 'nokogiri'
 gem 'sass'
 
+# Checks
+gem 'w3c_validators'
+
 group :development do
   gem 'adsf'
   gem 'guard-nanoc'

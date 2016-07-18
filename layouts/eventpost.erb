@@ -1,3 +1,7 @@
+<% content_for :head do %>
+<meta property="og:image" content="<%= item[:banner] %>" />
+<% end %>
+
 <img class="pure-img" id="event-banner" src="<%= item[:banner] %>" alt="" />
 
 <div id="event-content">
