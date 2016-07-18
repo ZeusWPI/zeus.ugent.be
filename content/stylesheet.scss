@@ -1,6 +1,7 @@
 $zeus_orange: #FF7F00;
 $event-padding: 10px;
 $navbar-border-color: #CCC;
+$event-border-color: #DDD;
 
 $cammie-controls-color: rgba(0, 0, 0, 0.60);
 
@@ -23,6 +24,10 @@ html, body {
 
 #logo {
   height: 150px;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+  color: $zeus_orange;
 }
 
 #logos {
@@ -70,13 +75,20 @@ html, body {
   .navlink {
     padding: 8px;
     transition: 0.2s;
+
+    a, a:hover, a:visited, a:link, a:active {
+      text-decoration: none;
+      color: black;
+    }
   }
 
   .navlink:hover {
     background-color: $zeus_orange;
-    color: white;
-
     transition: 0.2s;
+
+    a {
+      color: white;
+    }
   }
 }
 
@@ -84,6 +96,7 @@ html, body {
   height: 250px;
   margin-bottom: $event-padding;
   overflow: hidden;
+  border: 2px solid $event-border-color;
 }
 
 #all-events {
@@ -91,7 +104,7 @@ html, body {
   margin-right: -10px;
 
   .event {
-    border: 2px solid #DDD;
+    border: 2px solid $event-border-color;
     position: relative;
 
     overflow: hidden;
