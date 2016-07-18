@@ -19,4 +19,5 @@ script:
 - bundle exec nanoc check mixed_content
 after_success:
 - chmod 600 ~/.ssh/id_rsa
-- bundle exec nanoc deploy --target public
+- chmod +x .travis/deploy.sh
+- .travis/deploy.sh
