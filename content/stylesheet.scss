@@ -72,21 +72,17 @@ a, a:hover, a:visited, a:link, a:active {
   margin-top: $event-padding * 2;
 
 
-  .navlink {
+  a {
     padding: 8px;
     transition: 0.2s;
 
-    a, a:hover, a:visited, a:link, a:active {
+    &, &:hover, &:visited, &:link, &:active {
       text-decoration: none;
       color: black;
     }
-  }
-
-  .navlink:hover {
-    background-color: $zeus_orange;
-    transition: 0.2s;
-
-    a {
+    &:hover {
+      background-color: $zeus_orange;
+      transition: 0.2s;
       color: white;
     }
   }
@@ -167,7 +163,7 @@ a, a:hover, a:visited, a:link, a:active {
 }
 
 #cammie {
-  width: 100%;
+  object-fit: contain;
 }
 .fullpage {
   min-width: 100%;
