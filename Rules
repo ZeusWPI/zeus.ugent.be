@@ -2,37 +2,32 @@
 # frozen_string_literal: true
 
 # ERB
-compile '/**/*.erb' do
-  filter :erb
-  layout '/default.erb'
-  filter :relativize_paths, type: :html
-end
+compile '/*.erb' do
+  layout '/default.*'
 
-# relativize_paths
-compile '/**/*.html' do
+  filter :erb
   filter :relativize_paths, type: :html
 end
 
 # Coffeescript
-compile '/**/*.coffee' do
+compile '/assets/scripts/**/*.coffee' do
   filter :coffeescript
 end
 
 # SCSS
-compile '/**/*.scss' do
+compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
 end
 
 # Compile all posts
 compile '/posts/**/*.md' do
+  # Every post is an article, needed for blogging helper
   @item.attributes[:kind] = 'article'
 
   filter :kramdown
 
-  layout '/eventpost.erb'
-  filter :erb
-
-  layout '/default.erb'
+  layout '/eventpost.*'
+  layout '/default.*'
   filter :erb
 
   filter :relativize_paths, type: :html
@@ -50,7 +45,7 @@ route '/assets/scripts/**/*' do
   "#{item.identifier.without_ext}.js"
 end
 
-passthrough '/**/*.png'
+passthrough '/assets/images/*.{png}'
 
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
