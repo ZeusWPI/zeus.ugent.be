@@ -76,6 +76,9 @@ a, a:hover, a:visited, a:link, a:active {
     padding: 8px;
     transition: 0.2s;
 
+    font-variant: small-caps;
+    font-size: 1.25em;
+
     &, &:hover, &:visited, &:link, &:active {
       text-decoration: none;
       color: black;

@@ -1,13 +1,15 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # ERB
 compile '/**/*.erb' do
   filter :erb
   layout '/default.erb'
+  filter :relativize_paths, type: :html
 end
 
 # relativize_paths
-compile '/**/*.{erb,html}' do
+compile '/**/*.html' do
   filter :relativize_paths, type: :html
 end
 
@@ -23,6 +25,8 @@ end
 
 # Compile all posts
 compile '/posts/**/*.md' do
+  @item.attributes[:kind] = 'article'
+
   filter :kramdown
 
   layout '/eventpost.erb'
@@ -51,6 +55,5 @@ passthrough '/**/*.png'
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
-
 
 layout '/**/*', :erb
