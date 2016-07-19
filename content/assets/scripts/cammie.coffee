@@ -63,6 +63,7 @@ $(document).mousemove ->
     set_timer()
 
 $('.ctrl').mouseover(block_hide)
+$('.ctrl').mouseout(unblock_hide)
 
 # Timeout when we leave the window
 $(document).mouseleave(unblock_hide)
