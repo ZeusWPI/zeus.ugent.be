@@ -1,6 +1,9 @@
 <% content_for :head do %>
 <meta property="og:image" content="<%= item[:banner] %>" />
 <meta property="og:title" content="<%= item[:title] %>" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="<%= url_for(item) %>" />
+<meta property="og:author" content="<%= item[:author] %>" />
 <% end %>
 
 <img class="pure-img" id="event-banner" src="<%= item[:banner] %>" alt="" />

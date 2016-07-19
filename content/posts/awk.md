@@ -4,6 +4,7 @@ banner: https://zeus.ugent.be/wp-content/uploads/2016/02/awkles-768x1007.jpg
 created_at: 01-02-2016
 time: 23-02-2016
 location: Auditorium A1, Campus Sterre, Gebouw S9
+author: Lorin Werthen
 ---
 
 Op **dinsdag 23 februari 18:00** (na de les Scriptingtalen) in **Auditorium A1** organiseren we een **AWK-les** gegeven door **professor Peter Dawyndt**.
