@@ -22,7 +22,9 @@ bundle exec nanoc view
 
 ## Deploying
 
-Ask your local sysadmin for SSH access. Afterwards run
+The latest builds on master get deployed automatically using [travis](https://travis-ci.org).
+
+For manual deployment, run
 
 ```bash
 bundle exec nanoc deploy --target public
