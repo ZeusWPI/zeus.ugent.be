@@ -20,6 +20,15 @@
       <%= render '/partials/_navbar.*' %>
     </header>
     <main>
+      <form action="?">
+        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+      </form>
+      <div id="tipue_search_content"></div>
+      <script>
+      $(document).ready(function() {
+        $('#tipue_search_input').tipuesearch();
+      });
+      </script>
       <div id="all-events">
         <%= render '/partials/_tile.*', article: sorted_articles[0] %>
         <div class="pure-g">
