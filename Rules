@@ -5,7 +5,7 @@ require 'json'
 
 preprocess do
   # Tag all posts with 'article'
-  @items.find_all('/posts/**/*.md').each do |i|
+  @items.find_all('/posts/**/*').each do |i|
     i.attributes[:kind] = 'article'
   end
 
@@ -34,7 +34,7 @@ compile '/assets/stylesheets/**/*.scss' do
 end
 
 # Compile all posts
-compile '/posts/**/*.md' do
+compile '/posts/**/*' do
   filter :kramdown
 
   layout '/eventpost.*'
@@ -42,6 +42,11 @@ compile '/posts/**/*.md' do
   filter :erb
 
   filter :relativize_paths, type: :html
+end
+
+compile '/posts/**/*', rep: :text do
+  filter :kramdown
+  filter :strip_html
 end
 
 route '/index.*' do
@@ -69,7 +74,7 @@ postprocess do
     {
       title: e[:title],
       url: url_for(e),
-      text: '',
+      text: e.reps[:text].compiled_content,
       tags: ''
     }
   end
