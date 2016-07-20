@@ -3,7 +3,9 @@
   <div id="container" class="pure-u-xl-3-5 pure-u-lg-2-3 pure-u-md-3-4 pure-u-sm-5-6 pure-u-11-12">
     <header>
       <div class="header-top">
-        <img id="logo" src="https://zeus.ugent.be/wp-content/uploads/2009/05/logo-new.png" alt="" />
+        <a href="/">
+          <img id="logo" src="https://zeus.ugent.be/wp-content/uploads/2009/05/logo-new.png" alt="" />
+        </a>
         <div id="logos">
           <a href="https://github.com/ZeusWPI" target="_blank">
             <i class="logo-link fa fa-github fa-3x"></i>
@@ -20,15 +22,6 @@
       <%= render '/partials/_navbar.*' %>
     </header>
     <main>
-      <form action="?">
-        <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-      </form>
-      <div id="tipue_search_content"></div>
-      <script>
-      $(document).ready(function() {
-        $('#tipue_search_input').tipuesearch();
-      });
-      </script>
       <div id="all-events">
         <%= render '/partials/_tile.*', article: sorted_articles[0] %>
         <div class="pure-g">

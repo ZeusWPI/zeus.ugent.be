@@ -74,7 +74,7 @@ postprocess do
     {
       title: e[:title],
       url: url_for(e),
-      text: e.reps[:text].compiled_content,
+      text: excerptize(e.reps[:text].compiled_content, length: 200),
       tags: ''
     }
   end
