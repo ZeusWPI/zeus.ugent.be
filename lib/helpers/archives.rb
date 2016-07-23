@@ -2,7 +2,7 @@ module ArchiveHelper
   def academic_years
     academic_years = Set.new
 
-    @items.find_all('/posts/**/*').each do |i|
+    items.find_all('/posts/**/*').each do |i|
       academic_year = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
       academic_years << academic_year.to_i
     end
