@@ -3,6 +3,12 @@
 
 require 'json'
 
+#
+#
+# PREPROCESS
+#
+#
+
 preprocess do
   @items.find_all('/posts/**/*').each do |i|
     year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
@@ -33,7 +39,15 @@ end
 # This makes sure this tipuesearch_content doesn't get deleted
 passthrough '/tipuesearch_content.js'
 
-# ERB
+#
+#
+# COMPILATION
+#
+#
+
+#
+# CAMMIE
+#
 compile '/cammie.*' do
   layout '/default.*'
   filter :erb
@@ -41,6 +55,9 @@ compile '/cammie.*' do
   filter :relativize_paths, type: :html
 end
 
+#
+# ARCHIVES
+#
 compile '/archives/*' do
   layout '/archive_page.*'
   layout '/generic.*'
@@ -50,17 +67,9 @@ compile '/archives/*' do
   filter :relativize_paths, type: :html
 end
 
-# Coffeescript
-compile '/assets/scripts/**/*.coffee' do
-  filter :coffeescript
-end
-
-# SCSS
-compile '/assets/stylesheets/**/*.scss' do
-  filter :sass, syntax: :scss
-end
-
-# Compile all posts
+#
+# POSTS
+#
 compile '/posts/**/*' do
   filter :kramdown
 
@@ -76,6 +85,9 @@ compile '/posts/**/*', rep: :text do
   filter :strip_html
 end
 
+#
+# GENERIC ERB PAGES
+#
 compile '/*.erb' do
   layout '/generic.*'
   layout '/default.*'
@@ -84,10 +96,35 @@ compile '/*.erb' do
   filter :relativize_paths, type: :html
 end
 
+#
+# ASSETS
+#
+compile '/assets/scripts/**/*.coffee' do
+  filter :coffeescript
+end
+
+compile '/assets/stylesheets/**/*.scss' do
+  filter :sass, syntax: :scss
+end
+
+passthrough '/assets/images/*.{png}'
+
+#
+#
+# ROUTES
+#
+#
+
+#
+# HOMEPAGE
+#
 route '/index.*' do
   '/index.html'
 end
 
+#
+# ASSETS
+#
 route '/assets/stylesheets/**/*' do
   "#{item.identifier.without_ext}.css"
 end
@@ -96,13 +133,24 @@ route '/assets/scripts/**/*' do
   "#{item.identifier.without_ext}.js"
 end
 
-passthrough '/assets/images/*.{png}'
-
+# TEXT
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
 
+#
+#
+# LAYOUTS
+#
+#
+
 layout '/**/*', :erb
+
+#
+#
+# POSTPROCESS
+#
+#
 
 postprocess do
   tmp = articles.map do |e|
