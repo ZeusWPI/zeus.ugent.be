@@ -1,6 +1,20 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'json'
+
+preprocess do
+  # Tag all posts with 'article'
+  @items.find_all('/posts/**/*').each do |i|
+    i.attributes[:kind] = 'article'
+  end
+
+  @items.create('', {}, '/tipuesearch_content.js', binary: false)
+end
+
+# This makes sure this tipuesearch_content doesn't get deleted
+passthrough '/tipuesearch_content.js'
+
 # ERB
 compile '/*.erb' do
   layout '/default.*'
@@ -20,10 +34,7 @@ compile '/assets/stylesheets/**/*.scss' do
 end
 
 # Compile all posts
-compile '/posts/**/*.md' do
-  # Every post is an article, needed for blogging helper
-  @item.attributes[:kind] = 'article'
-
+compile '/posts/**/*' do
   filter :kramdown
 
   layout '/eventpost.*'
@@ -31,6 +42,11 @@ compile '/posts/**/*.md' do
   filter :erb
 
   filter :relativize_paths, type: :html
+end
+
+compile '/posts/**/*', rep: :text do
+  filter :kramdown
+  filter :strip_html
 end
 
 route '/index.*' do
@@ -52,3 +68,20 @@ route '/**/*.{erb,html,md}' do
 end
 
 layout '/**/*', :erb
+
+postprocess do
+  tmp = articles.map do |e|
+    {
+      title: e[:title],
+      url: url_for(e),
+      text: excerptize(e.reps[:text].compiled_content, length: 200),
+      tags: ''
+    }
+  end
+
+  tmp = { pages: tmp }
+
+  File.open('output/tipuesearch_content.js', 'w') do |f|
+    f.write("var tipuesearch = #{tmp.to_json};")
+  end
+end

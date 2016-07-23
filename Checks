@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+deploy_check :elinks
+deploy_check :html
+deploy_check :ilinks
+deploy_check :mixed_content
+deploy_check :stale

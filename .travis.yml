@@ -12,13 +12,9 @@ before_install:
 - echo -e "Host zeus.ugent.be\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 script:
 - bundle exec nanoc
-- bundle exec nanoc check elinks
-- bundle exec nanoc check html
-- bundle exec nanoc check ilinks
-- bundle exec nanoc check mixed_content
-- bundle exec nanoc check stale
+- bundle exec nanoc check --deploy
 after_success:
 - mv deploy_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
 - chmod +x .travis/deploy.sh
-- .travis/deploy.sh
+- '[[ $TRAVIS_BRANCH == "master" ]] && echo "Deploying site"'
