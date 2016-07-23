@@ -2,7 +2,8 @@
 # frozen_string_literal: true
 
 deploy_check :elinks
-deploy_check :html
+# The w3c validators go offline often, not great for our build CI
+# deploy_check :html
 deploy_check :ilinks
 deploy_check :mixed_content
 deploy_check :stale
