@@ -4,9 +4,27 @@
 require 'json'
 
 preprocess do
-  # Tag all posts with 'article'
   @items.find_all('/posts/**/*').each do |i|
-    i.attributes[:kind] = 'article'
+    year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
+    academic_year = year_str.to_i
+
+    attr_hash = {
+      # Tag all posts with article (for Blogging helper)
+      kind: 'article',
+      academic_year: academic_year
+    }
+
+    i.update_attributes(attr_hash)
+  end
+
+  # academic_years is defined in archives.rb
+  academic_years.each do |year|
+    @items.create(
+      '',
+      { academic_year: year },
+      "/archives/#{year}-#{year + 1}.html",
+      binary: false
+    )
   end
 
   @items.create('', {}, '/tipuesearch_content.js', binary: false)
@@ -17,9 +35,22 @@ passthrough '/tipuesearch_content.js'
 
 # ERB
 compile '/*.erb' do
+  layout '/generic.*'
   layout '/default.*'
-
   filter :erb
+
+  filter :relativize_paths, type: :html
+end
+
+compile '/archives/*' do
+  posts = items.find_all('/posts/**/*').select do |post|
+    post[:academic_year] == item[:academic_year]
+  end
+
+  layout '/generic.*'
+  layout '/default.*'
+  filter :erb
+
   filter :relativize_paths, type: :html
 end
 

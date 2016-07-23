@@ -16,5 +16,4 @@ script:
 after_success:
 - mv deploy_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
-- chmod +x .travis/deploy.sh
 - '[[ $TRAVIS_BRANCH == "master" ]] && bundle exec nanoc deploy --target public'

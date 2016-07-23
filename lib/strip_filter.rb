@@ -1,5 +1,3 @@
-include Nanoc::Helpers::Text
-
 class StripFilter < Nanoc::Filter
   identifier :strip_html
 

@@ -1,0 +1,7 @@
+<ul>
+  <% academic_years_items.each do |year, item| %>
+  <li>
+    <%= link_to pretty_year(year), item %>
+  </li>
+  <% end %>
+</ul>
