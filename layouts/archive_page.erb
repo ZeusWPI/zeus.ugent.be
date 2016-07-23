@@ -1,0 +1,10 @@
+<% posts_in_year(item[:academic_year]).each do |post| %>
+<a href="<%= relative_path_to(post) %>">
+  <div class="tipue_search_content_title">
+    <%= post[:title] %>
+  </div>
+  <div class="tipue_search_content_text">
+    <%= excerptize(post.reps[:text].compiled_content, length: 200) %>
+  </div>
+</a>
+<% end %>

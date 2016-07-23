@@ -34,8 +34,7 @@ end
 passthrough '/tipuesearch_content.js'
 
 # ERB
-compile '/*.erb' do
-  layout '/generic.*'
+compile '/cammie.*' do
   layout '/default.*'
   filter :erb
 
@@ -43,10 +42,7 @@ compile '/*.erb' do
 end
 
 compile '/archives/*' do
-  posts = items.find_all('/posts/**/*').select do |post|
-    post[:academic_year] == item[:academic_year]
-  end
-
+  layout '/archive_page.*'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
@@ -78,6 +74,14 @@ end
 compile '/posts/**/*', rep: :text do
   filter :kramdown
   filter :strip_html
+end
+
+compile '/*.erb' do
+  layout '/generic.*'
+  layout '/default.*'
+  filter :erb
+
+  filter :relativize_paths, type: :html
 end
 
 route '/index.*' do

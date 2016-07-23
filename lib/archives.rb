@@ -14,7 +14,13 @@ module ArchiveHelper
     academic_years.map { |y| [y, items["/archives/#{y}-#{y + 1}.html"]] }.to_h
   end
 
-  def pretty_year(y)
-    "'#{y} - '#{y + 1}"
+  def pretty_year(year)
+    "'#{year} - '#{year + 1}"
+  end
+
+  def posts_in_year(academic_year)
+    items.find_all('/posts/**/*').select do |post|
+      post[:academic_year] == academic_year
+    end
   end
 end
