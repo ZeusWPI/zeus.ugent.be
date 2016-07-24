@@ -32,12 +32,7 @@ preprocess do
       binary: false
     )
   end
-
-  @items.create('', {}, '/tipuesearch_content.js', binary: false)
 end
-
-# This makes sure this tipuesearch_content doesn't get deleted
-passthrough '/tipuesearch_content.js'
 
 #
 #
@@ -88,6 +83,10 @@ end
 #
 # GENERIC ERB PAGES
 #
+compile '/tipuesearch_content.js.erb' do
+  filter :erb
+end
+
 compile '/*.erb' do
   layout '/generic.*'
   layout '/default.*'
@@ -122,6 +121,9 @@ route '/index.*' do
   '/index.html'
 end
 
+route '/tipuesearch_content.js.erb' do
+  '/tipuesearch_content.js'
+end
 #
 # ASSETS
 #
@@ -145,26 +147,3 @@ end
 #
 
 layout '/**/*', :erb
-
-#
-#
-# POSTPROCESS
-#
-#
-
-postprocess do
-  tmp = articles.map do |e|
-    {
-      title: e[:title],
-      url: url_for(e),
-      text: excerptize(e.reps[:text].compiled_content, length: 200),
-      tags: ''
-    }
-  end
-
-  tmp = { pages: tmp }
-
-  File.open('output/tipuesearch_content.js', 'w') do |f|
-    f.write("var tipuesearch = #{tmp.to_json};")
-  end
-end
