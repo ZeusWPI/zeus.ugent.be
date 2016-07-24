@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # gem 'nanoc', git: 'https://github.com/werthen/nanoc.git', branch: 'add-resources-to-ilinks-check'
-gem 'nanoc', '4.2.3'
+gem 'nanoc', '4.2.4'
 gem 'kramdown'
 gem 'coffee-script'
 # Needed for relativize_urls
