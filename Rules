@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require 'json'
+require 'icalendar'
 
 #
 #
@@ -83,10 +84,18 @@ compile '/posts/**/*', rep: :text do
   filter :strip_html
 end
 
+compile '/posts/**/*', rep: :ical do
+  filter :ical
+end
+
 #
 # GENERIC ERB PAGES
 #
 compile '/tipuesearch_content.js.erb' do
+  filter :erb
+end
+
+compile '/**/*.ics.erb' do
   filter :erb
 end
 
@@ -142,6 +151,15 @@ route '/assets/scripts/**/*' do
 end
 
 # TEXT
+route '/*.ics.erb' do
+  item.identifier.without_ext
+end
+
+# POSTS
+route '/posts/**/*', rep: :ical do
+  "#{item.identifier.without_ext}.ics"
+end
+
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end

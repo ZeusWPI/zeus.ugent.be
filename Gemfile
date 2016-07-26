@@ -13,6 +13,9 @@ gem 'builder'
 # Checks
 gem 'w3c_validators'
 
+# ical files
+gem 'icalendar'
+
 group :development do
   gem 'adsf'
   gem 'guard-nanoc'
