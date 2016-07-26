@@ -1,14 +1,14 @@
 # frozen_string_literal: true
-# A sample Gemfile
 source 'https://rubygems.org'
 
-# gem 'nanoc', git: 'https://github.com/werthen/nanoc.git', branch: 'add-resources-to-ilinks-check'
 gem 'nanoc', '4.2.4'
 gem 'kramdown'
 gem 'coffee-script'
 # Needed for relativize_urls
 gem 'nokogiri'
 gem 'sass'
+# Needed for atom_feed in blogging helper
+gem 'builder'
 
 # Checks
 gem 'w3c_validators'

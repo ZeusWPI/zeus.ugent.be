@@ -1,5 +1,9 @@
-#base_url: https://zeus.ugent.be/beta
-base_url: http://localhost:3000
+title: Zeus WPI
+# Needed for atom_feed
+author_name: ''
+author_uri: ''
+
+base_url: https://zeus.ugent.be/beta
 
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`
 # (default) or `"legacy"`. The former will enable glob patterns, which behave
