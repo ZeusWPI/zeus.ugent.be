@@ -214,3 +214,33 @@ a, a:hover, a:visited, a:link, a:active {
   width: 100%;
   bottom: 0;
 }
+
+
+.project-card {
+  background-color: #2D5CB4;
+  color: white;
+  height: 300px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: space-between;
+
+  .project-title {
+    background: #1e3c72; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 4em;
+    padding: 20px;
+    flex-grow: 1;
+  }
+
+  .project-description {
+    background-color: #1e3c72;
+    text-align: right;
+    padding: 20px;
+    width: 700px;
+  }
+}
