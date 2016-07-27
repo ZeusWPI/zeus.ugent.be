@@ -1,31 +1,17 @@
-<div class="pure-g">
-  <div class="pure-u-1-24"></div>
-  <div id="container" class="pure-u-11-12">
-    <header>
-      <div class="header-top">
-        <a href="/">
-          <img id="logo" src="https://zeus.ugent.be/wp-content/uploads/2009/05/logo-new.png" alt="" />
-        </a>
-        <div id="logos">
-          <a href="https://github.com/ZeusWPI" target="_blank">
-            <i class="logo-link fa fa-github fa-3x"></i>
-          </a>
-          <a href="https://www.facebook.com/zeus.wpi/" target="_blank">
-            <i class="logo-link fa fa-facebook fa-3x"></i>
-          </a>
-          <a href="/feed.xml" target="_blank">
-            <i class="logo-link fa fa-rss fa-3x"></i>
-          </a>
-          <a href="/ical.ics">
-            <i class="logo-link fa fa-calendar fa-3x"></i>
-          </a>
-        </div>
-      </div>
-
-      <%= render '/partials/_navbar.*' %>
-    </header>
-    <main>
-      <%= yield %>
-    </main>
-  </div>
+<div class="container">
+  <header class="section">
+    <%= render '/partials/_navbar.*' %>
+  </header>
+  <main class="section">
+    <%= yield %>
+  </main>
 </div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+        Made with <i class="fa fa-heart"></i> by Zeus WPI
+      </p>
+    </div>
+  </div>
+</footer>

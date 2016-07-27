@@ -5,33 +5,41 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
+<!--
 <img class="pure-img" id="event-banner" src="<%= item[:banner] %>" alt="" />
-
-<div id="event-content">
-  <div id="sticky-anchor"></div>
-  <div id="sticky">
-    <h1 id="event-title">
-      <%= item[:title] %>
-    </h1>
+-->
+<section class="hero is-medium is-primary is-bold">
+  <div class="hero-head">
     <%= render '/partials/_navbar.*' %>
   </div>
-  <div class="pure-g">
-    <!-- Wrapper needed to add some padding to the grid class -->
-    <div id="event-description-wrapper" class="pure-u-3-4">
-      <div class="pure-u-1-6"></div>
-      <div class="pure-u-2-3">
-        <div id="event-description">
-          <%= yield %>
-        </div>
-      </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <%= item[:title] %>
+      </h1>
+      <h2 class="subtitle">
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-clock-o"></i><%= item[:time] %></li>
+          <li><i class="fa-li fa fa-globe"></i><%= item[:location] %></li>
+        </ul>
+      </h2>
     </div>
-    <div id="event-info" class="pure-u-1-4">
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns">
+    <!-- Wrapper needed to add some padding to the grid class -->
+    <div class="content container">
+      <%= yield %>
+    </div>
+    <div id="event-info" class="column is-one-quarter content">
       <ul class="fa-ul">
         <li><i class="fa-li fa fa-clock-o"></i><%= item[:time] %></li>
         <li><i class="fa-li fa fa-globe"></i><%= item[:location] %></li>
       </ul>
     </div>
   </div>
-</div>
+</section>
 
 <script src="/assets/scripts/eventpost.js"></script>
