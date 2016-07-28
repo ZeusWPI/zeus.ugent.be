@@ -1,9 +1,15 @@
-<div id="all-events">
-  <%= render '/partials/_tile.*', article: sorted_articles[0] %>
-  <div class="pure-g">
+<div class="tile is-vertical is-ancestor">
+  <div class="tile is-parent is-12">
+    <div class="tile is-child box">
+      <%= render '/partials/_tile.*', article: sorted_articles[0] %>
+    </div>
+  </div>
+  <div class="tile">
     <% sorted_articles[1..-1].each do |article| %>
-    <div class="pure-u-1-3">
-      <%= render '/partials/_tile.*', article: article %>
+    <div class="tile is-parent is-4">
+      <div class="tile is-child box">
+        <%= render '/partials/_tile.*', article: article %>
+      </div>
     </div>
     <% end %>
   </div>
