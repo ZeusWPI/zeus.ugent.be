@@ -1,9 +1,16 @@
 $zeus-orange: #FF7F00;
+
 $orange: $zeus-orange;
 $primary: $orange;
+$link-visited: $orange;
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 $family-sans-serif: 'Open Sans', sans-serif;
 
 @import "old";
 @import "../../../node_modules/bulma/bulma";
+
+.fa-inline {
+  font-size: inherit;
+  vertical-align: inherit;
+}

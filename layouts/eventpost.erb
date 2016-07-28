@@ -5,10 +5,7 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
-<!--
-<img class="pure-img" id="event-banner" src="<%= item[:banner] %>" alt="" />
--->
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-medium is-danger">
   <div class="hero-head">
     <%= render '/partials/_navbar.*' %>
   </div>
@@ -29,17 +26,21 @@
 
 <section class="section">
   <div class="columns">
-    <!-- Wrapper needed to add some padding to the grid class -->
-    <div class="content container">
-      <%= yield %>
+
+    <div class="container">
+      <div id="event-info" class="is-pulled-right">
+        <div class="box">
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-clock-o"></i><%= item[:time] %></li>
+            <li><i class="fa-li fa fa-globe"></i><%= item[:location] %></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content">
+        <%= yield %>
+      </div>
     </div>
-    <div id="event-info" class="column is-one-quarter content">
-      <ul class="fa-ul">
-        <li><i class="fa-li fa fa-clock-o"></i><%= item[:time] %></li>
-        <li><i class="fa-li fa fa-globe"></i><%= item[:location] %></li>
-      </ul>
-    </div>
+
   </div>
 </section>
-
-<script src="/assets/scripts/eventpost.js"></script>

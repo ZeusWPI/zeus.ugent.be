@@ -17,26 +17,6 @@ img {
   }
 }
 
-#logos {
-  display: inline-block;
-  color: black;
-
-  a, a:hover, a:visited, a:link, a:active {
-    text-decoration: none;
-    color: currentColor;
-  }
-
-  .logo-link {
-    margin-left: 10px;
-    transition: 0.2s;
-
-    &:hover {
-      color: $zeus_orange;
-      transition: 0.2s;
-    }
-  }
-}
-
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -45,88 +25,16 @@ img {
 }
 
 #navbar {
-  a {
-    padding: 8px;
+  .nav-item {
     transition: 0.2s;
 
     font-variant: small-caps;
     font-size: 1.25em;
 
-    &, &:hover, &:visited, &:link, &:active {
-      text-decoration: none;
-    }
     &:hover {
-      background-color: $zeus_orange;
       transition: 0.2s;
-      color: white;
     }
   }
-}
-
-/*#all-events {
-  margin-left: -10px;
-  margin-right: -10px;
-
-  .event {
-    border: 2px solid $event-border-color;
-    position: relative;
-
-    overflow: hidden;
-
-    height: 200px;
-    margin: $event-padding;
-
-    &:after {
-      content: '\A';
-      position: absolute;
-      width: 100%; height:100%;
-      top:0; left:0;
-      background:rgba(0,0,0,0.6);
-      opacity: 0;
-      transition: all 0.5s;
-      -webkit-transition: all 0.5s;
-    }
-    &:hover:after {
-      opacity: 1;
-    }
-  }
-}*/
-
-
-#event-banner {
-  position: fixed;
-  min-width: 100%;
-}
-
-#event-description {
-  padding: 20px;
-}
-
-#event-info {
-  padding-top: 20px;
-}
-
-#event-content {
-  position: absolute;
-  top: 400px;
-  background-color: white;
-  height: 100vh;
-
-  border-top: 2px solid $navbar-border-color;
-}
-
-#event-title {
-  text-align: center;
-  font-size: 50px;
-  line-height: 50px;
-}
-
-#sticky.stick {
-  position: fixed;
-  top: 0;
-  z-index: 10000;
-  width: 100%;
-  background-color: white;
 }
 
 #cammie {
@@ -134,6 +42,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .fullpage {
   min-width: 100%;
   min-height: 100%;
@@ -185,34 +94,4 @@ img {
   height: 100px;
   width: 100%;
   bottom: 0;
-}
-
-
-.project-card {
-  background-color: #2D5CB4;
-  color: white;
-  height: 300px;
-
-  margin-top: 5px;
-  margin-bottom: 5px;
-
-  display: flex;
-  justify-content: space-between;
-
-  .project-title {
-    background: #1e3c72; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1e3c72 , #2a5298); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1e3c72 , #2a5298); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    font-size: 4em;
-    padding: 20px;
-    flex-grow: 1;
-  }
-
-  .project-description {
-    background-color: #1e3c72;
-    text-align: right;
-    padding: 20px;
-    width: 700px;
-  }
 }
