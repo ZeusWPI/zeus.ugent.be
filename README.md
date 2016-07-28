@@ -5,6 +5,7 @@
 
 ```bash
 bundle install
+npm install
 ```
 
 ## Developing
