@@ -4,21 +4,11 @@
       <img id="logo" src="https://zeus.ugent.be/wp-content/uploads/2009/05/logo-new.png" alt="" />
     </a>
 
-    <a class="nav-item is-tab" href="/about">
-      About
-    </a>
-    <a class="nav-item is-tab" href="/archives">
-      Archief
-    </a>
-    <a class="nav-item is-tab" href="/projects">
-      Projecten
-    </a>
-    <a class="nav-item is-tab" href="/cammie">
-      Cammie
-    </a>
-    <a class="nav-item is-tab" href="/search">
-      Zoeken
-    </a>
+    <% nav_items do |item, active| %>
+      <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= relative_path_to(item) %>">
+        <%= item[:title] %>
+      </a>
+    <% end %>
   </div>
 
   <div class="nav-right">

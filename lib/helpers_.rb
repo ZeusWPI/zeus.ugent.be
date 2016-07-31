@@ -6,3 +6,4 @@ include Nanoc::Helpers::Text
 
 include ArchiveHelper
 include IcalHelper
+include NavigationHelper
