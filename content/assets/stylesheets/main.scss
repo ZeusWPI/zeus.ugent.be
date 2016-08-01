@@ -14,3 +14,41 @@ $family-sans-serif: 'Open Sans', sans-serif;
   font-size: inherit;
   vertical-align: inherit;
 }
+
+// Issue 27 archive list styling
+
+.archive_list {
+list-style-type: none;
+font-family: family-sans-serif;
+}
+
+.archive_list > li {
+display: inline-block;
+position: relative;
+
+padding: 2em;
+border: 2px solid darkgrey;
+border-radius: 8px;
+
+
+font-size: 2em;
+font-weight:bold;
+}
+
+.archive_list > li:hover{
+  border-color: rgb(66,66,66);
+}
+
+.archive_list > li:first-child{
+  margin-left:15%;
+  margin-right:25%; // momenteel hard-coded, betere opl zou dynamische herberekening zijn om meer future-proof te zijn
+
+}
+
+.archive_list_ref{
+  border:  2px solid darkgrey;
+}
+
+.archive_list_item{
+  font-family: family-sans-serif;
+}
