@@ -16,6 +16,9 @@ gem 'w3c_validators'
 # ical files
 gem 'icalendar'
 
+# Autoprefixing for class
+gem 'autoprefixer-rails'
+
 group :development do
   gem 'adsf'
   gem 'guard-nanoc'
