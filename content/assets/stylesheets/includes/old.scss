@@ -1,0 +1,97 @@
+$zeus_orange: #FF7F00;
+$event-padding: 10px;
+$navbar-border-color: #CCC;
+$event-border-color: #DDD;
+
+$cammie-controls-color: rgba(0, 0, 0, 0.60);
+
+img {
+  max-width: 200px;
+}
+
+.fa-ul {
+  list-style: none !important;
+
+  .fa {
+    font-size: inherit;
+  }
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+#navbar {
+  .nav-item {
+    transition: 0.2s;
+
+    font-variant: small-caps;
+    font-size: 1.25em;
+
+    &:hover {
+      transition: 0.2s;
+    }
+  }
+}
+
+#cammie {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.fullpage {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.ctrl {
+  background-color: $cammie-controls-color;
+  color: white;
+  position: absolute;
+  z-index: 100;
+
+  // Chevron centering
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $zeus_orange;
+    z-index: 200;
+    cursor: pointer;
+  }
+}
+
+#left {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  left: 0;
+}
+
+#right {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  right: 0;
+}
+
+#up {
+  height: 100px;
+  width: 100%;
+  top: 0;
+}
+
+#down {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
