@@ -1,0 +1,24 @@
+img {
+  max-width: 200px;
+}
+
+.fa-ul {
+  list-style: none !important;
+
+  .fa {
+    font-size: inherit;
+  }
+}
+
+#navbar {
+  .nav-item {
+    transition: 0.2s;
+
+    font-variant: small-caps;
+    font-size: 1.25em;
+
+    &:hover {
+      transition: 0.2s;
+    }
+  }
+}
