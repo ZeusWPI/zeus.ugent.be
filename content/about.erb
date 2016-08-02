@@ -22,7 +22,7 @@ title: About
   Het bestuur zorgt ervoor dat alle wieltjes blijven draaien en organiseert regelmatig activiteiten voor de leden. Het bestuur voor het academiejaar 2016-2017 van Zeus WPI is.
 
   <ul>
-    <% data_from('bestuur').each do |lid| %>
+    <% data_from(:bestuur).each do |lid| %>
     <li>
       <%= lid['rol'] %>:
       <a href="mailto:<%= lid['mail'] %>">
