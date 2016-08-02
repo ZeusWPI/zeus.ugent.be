@@ -1,0 +1,58 @@
+#cammie {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+.fullpage {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+.ctrl {
+  background-color: $cammie-controls-color;
+  color: white;
+  position: absolute;
+  z-index: 100;
+
+  // Chevron centering
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $zeus_orange;
+    z-index: 200;
+    cursor: pointer;
+  }
+}
+
+#left {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  left: 0;
+}
+
+#right {
+  height: 100%;
+  width: 100px;
+  top: 0;
+  right: 0;
+}
+
+#up {
+  height: 100px;
+  width: 100%;
+  top: 0;
+}
+
+#down {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+}
