@@ -3,6 +3,8 @@ GEM
   specs:
     adsf (1.2.1)
       rack (>= 1.0.0)
+    autoprefixer-rails (6.3.7)
+      execjs
     builder (3.2.2)
     coderay (1.1.1)
     coffee-script (2.4.1)
@@ -77,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   adsf
+  autoprefixer-rails
   builder
   coffee-script
   guard-nanoc
