@@ -22,24 +22,14 @@ title: About
   Het bestuur zorgt ervoor dat alle wieltjes blijven draaien en organiseert regelmatig activiteiten voor de leden. Het bestuur voor het academiejaar 2016-2017 van Zeus WPI is.
 
   <ul>
+    <% data_from(:bestuur).each do |lid| %>
     <li>
-      Voorzitter: Wout Schellaert
+      <%= lid['rol'] %>:
+      <a href="mailto:<%= lid['mail'] %>">
+        <%= lid['naam'] %>
+      </a>
     </li>
-    <li>
-      Vice-voorzitter: Isaura Claeys
-    </li>
-    <li>
-      Penning: Jeroen De Clerck
-    </li>
-    <li>
-      Systeembeheerders: Rien Maertens &amp; Lorin Werthen
-    </li>
-    <li>
-      Activiteiten: Eloïse Piret
-    </li>
-    <li>
-      Project: Feliciaan De Palmenaer
-    </li>
+    <% end %>
   </ul>
 
   <h2>Zeus waar? Zeus daar!</h2>
