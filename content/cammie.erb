@@ -2,24 +2,23 @@
 navigable: true
 title: Cammie
 ---
-<div class="fullpage">
-  <img
-    id="cammie"
-    src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2"
-    alt=""
-   />
-  <div id="left" class="ctrl">
-    <i class="fa fa-chevron-left fa-2x"></i>
-  </div>
-  <div id="right" class="ctrl">
-    <i class="fa fa-chevron-right fa-2x"></i>
-  </div>
-  <div id="up" class="ctrl">
-    <i class="fa fa-chevron-up fa-2x"></i>
-  </div>
-  <div id="down" class="ctrl">
-    <i class="fa fa-chevron-down fa-2x"></i>
-  </div>
+
+<img id="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2" alt="" />
+
+<div id="left" class="ctrl">
+  <i class="fa fa-chevron-left fa-2x"></i>
 </div>
 
-<script src="/assets/scripts/cammie.js"></script>
+<div id="right" class="ctrl">
+  <i class="fa fa-chevron-right fa-2x"></i>
+</div>
+
+<div id="up" class="ctrl">
+  <i class="fa fa-chevron-up fa-2x"></i>
+</div>
+
+<div id="down" class="ctrl">
+  <i class="fa fa-chevron-down fa-2x"></i>
+</div>
+
+<%= asset :js, :cammie %>

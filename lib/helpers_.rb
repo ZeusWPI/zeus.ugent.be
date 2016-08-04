@@ -5,6 +5,7 @@ include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::Text
 
 include ArchiveHelper
+include AssetHelper
 include IcalHelper
 include NavigationHelper
 include DataHelper
