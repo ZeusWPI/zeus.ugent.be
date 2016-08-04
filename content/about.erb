@@ -19,17 +19,23 @@ title: About
 
   <h2>Het bestuur</h2>
 
-  Het bestuur zorgt ervoor dat alle wieltjes blijven draaien en organiseert regelmatig activiteiten voor de leden. Het bestuur voor het academiejaar 2016-2017 van Zeus WPI is.
+  Het bestuur zorgt ervoor dat alle wieltjes blijven draaien en organiseert regelmatig activiteiten voor de leden.
+  Het bestuur voor het academiejaar 2016-2017 van Zeus WPI is:
 
-  <ul>
+  <table class="table">
     <% data_from(:bestuur).each do |lid| %>
-    <li>
-      <%= lid['rol'] %>:
-      <a href="mailto:<%= lid['mail'] %>">
-        <%= lid['naam'] %>
-      </a>
-    </li>
+    <tr>
+      <td>
+        <%= lid['rol'] %>
+      </td>
+      <td>
+        <a href="mailto:<%= lid['mail'] %>">
+          <%= lid['naam'] %>
+        </a>
+      </td>
+    </tr>
     <% end %>
+  </table>
   </ul>
 
   <h2>Zeus waar? Zeus daar!</h2>
@@ -51,7 +57,7 @@ title: About
       stuur een gele briefkaart naar “Zeus WPI – Krijgslaan 281, S9 – 9000 Gent”
     </li>
     <li>
-      bezoek ons IRC-kanaal. (server: wina.ugent.be, kanaal: #zeus)
+      bezoek ons <a href="irc://wina.ugent.be/#zeus">IRC-kanaalserver</a>
     </li>
     <li>
       bel naar <a href="tel://+3292644751">09 264 4751</a> (intern: 4751)
