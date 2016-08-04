@@ -152,6 +152,10 @@ route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}.html"
 end
 
+route '/**/*' do
+  item.identifier.to_s
+end
+
 #
 #
 # LAYOUTS
