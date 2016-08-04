@@ -23,18 +23,34 @@ title: About
   Het bestuur voor het academiejaar 2016-2017 van Zeus WPI is:
 
   <table class="table">
-    <% data_from(:bestuur).each do |lid| %>
-    <tr>
-      <td>
-        <%= lid['rol'] %>
-      </td>
-      <td>
-        <a href="mailto:<%= lid['mail'] %>">
+    <thead>
+      <th>
+        Functie
+      </th>
+      <th>
+        Naam
+      </th>
+      <th>
+        
+      </th>
+    </thead>
+    <tbody>
+      <% data_from(:bestuur).each do |lid| %>
+      <tr>
+        <td>
+          <%= lid['rol'] %>
+        </td>
+        <td>
           <%= lid['naam'] %>
-        </a>
-      </td>
-    </tr>
-    <% end %>
+        </td>
+        <td>
+          <a href="mailto:<%= lid['mail'] %>">
+            <%= fa :envelope %>
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
   </table>
   </ul>
 

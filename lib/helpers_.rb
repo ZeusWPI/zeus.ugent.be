@@ -9,3 +9,4 @@ include AssetHelper
 include IcalHelper
 include NavigationHelper
 include DataHelper
+include FontAwesomeHelper
