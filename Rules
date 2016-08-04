@@ -40,8 +40,9 @@ end
 # COMPILATION
 #
 #
-compile '/feed.*' do
+compile '/feed.xml' do
   filter :erb
+  write '/feed.xml'
 end
 
 #
@@ -91,11 +92,11 @@ end
 #
 # GENERIC ERB PAGES
 #
-compile '/tipuesearch_content.js.erb' do
+compile '/tipuesearch_content.js' do
   filter :erb
 end
 
-compile '/**/*.ics.erb' do
+compile '/**/*.ics' do
   filter :erb
 end
 
@@ -128,15 +129,9 @@ passthrough '/assets/images/*.{png}'
 #
 #
 
-route '/feed.*' do
-  '/feed.xml'
-end
 #
 # HOMEPAGE
 #
-route '/tipuesearch_content.js.erb' do
-  '/tipuesearch_content.js'
-end
 #
 # ASSETS
 #
@@ -146,11 +141,6 @@ end
 
 route '/assets/scripts/**/*' do
   "#{item.identifier.without_ext}.js"
-end
-
-# TEXT
-route '/*.ics.erb' do
-  item.identifier.without_ext
 end
 
 # POSTS
