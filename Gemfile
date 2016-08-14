@@ -22,4 +22,5 @@ gem 'autoprefixer-rails'
 group :development do
   gem 'adsf'
   gem 'guard-nanoc'
+  gem 'highline'
 end

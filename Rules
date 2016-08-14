@@ -130,9 +130,6 @@ passthrough '/assets/images/*.{png}'
 #
 
 #
-# HOMEPAGE
-#
-#
 # ASSETS
 #
 route '/assets/stylesheets/**/*' do

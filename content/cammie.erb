@@ -3,22 +3,66 @@ navigable: true
 title: Cammie
 ---
 
-<img id="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2" alt="" />
+<section class="hero is-fullheight">
+  <!-- Hero header: will stick at the top -->
+  <div class="hero-head">
+    <%= render '/partials/_navbar.*' %>
+  </div>
 
-<div id="left" class="ctrl">
-  <%= fa 'chevron-left', size: '2x' %>
-</div>
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <!--
+    <div id="cammie-container">
+      <img id="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2" alt="" />
+    </div>
+  -->
 
-<div id="right" class="ctrl">
-  <%= fa 'chevron-right', size: '2x' %>
-</div>
+    <div class="columns">
+      <div class="column">top</div>
+      <div class="column">top</div>
+      <div class="column">top</div>
+    </div>
+    <div class="columns">
+      <div class="column">mid</div>
+      <div class="column">mid</div>
+      <div class="column">mid</div>
+    </div>
+    <div class="columns">
+      <div class="column">bot</div>
+      <div class="column">bot</div>
+      <div class="column">bot</div>
+    </div>
 
-<div id="up" class="ctrl">
-  <%= fa 'chevron-up', size: '2x' %>
-</div>
+    <div id="left" class="ctrl">
+      <%= fa 'chevron-left', size: '2x' %>
+    </div>
 
-<div id="down" class="ctrl">
-  <%= fa 'chevron-down', size: '2x' %>
-</div>
+    <div id="right" class="ctrl">
+      <%= fa 'chevron-right', size: '2x' %>
+    </div>
+
+    <div id="up" class="ctrl">
+      <%= fa 'chevron-up', size: '2x' %>
+    </div>
+
+    <div id="down" class="ctrl">
+      <%= fa 'chevron-down', size: '2x' %>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+        <ul>
+          <li><a>Kleine Tafel</a></li>
+          <li><a>Grote Tafel</a></li>
+          <li><a>Zetel</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+
 
 <%= asset :js, :cammie %>

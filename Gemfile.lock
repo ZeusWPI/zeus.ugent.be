@@ -34,6 +34,7 @@ GEM
       nanoc (~> 4.0)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
+    highline (1.7.8)
     icalendar (2.4.0)
     json (2.0.2)
     kramdown (1.11.1)
@@ -83,6 +84,7 @@ DEPENDENCIES
   builder
   coffee-script
   guard-nanoc
+  highline
   icalendar
   kramdown
   nanoc (= 4.2.4)

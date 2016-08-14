@@ -1,7 +1,10 @@
-#cammie {
-  object-fit: contain;
-  max-width: 100%;
-  height: auto;
+#cammie-container {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  width: 100%;
 }
 
 .fullpage {
