@@ -10,16 +10,11 @@ npm install
 
 ## Developing
 
-In one session:
 ```bash
-bundle exec guard
+bundle exec nanoc live
 ```
-Guard will watch for file changes and automatically recompile the site
-
-In another session:
-```bash
-bundle exec nanoc view
-```
+This will spawn a webserver, and automatically recompile the site
+when files get changed.
 
 ## Deploying
 

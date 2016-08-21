@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '4.2.4'
+gem 'nanoc', '~>4.2'
 gem 'kramdown'
 gem 'coffee-script'
 # Needed for relativize_urls
@@ -21,6 +21,9 @@ gem 'autoprefixer-rails'
 
 group :development do
   gem 'adsf'
-  gem 'guard-nanoc'
   gem 'highline'
+end
+
+group :nanoc do
+  gem 'guard-nanoc'
 end
