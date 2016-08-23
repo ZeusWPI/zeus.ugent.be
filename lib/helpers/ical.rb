@@ -2,15 +2,16 @@ module IcalHelper
   def event_calendar
     cal = Icalendar::Calendar.new
 
-    events = items.find_all('/posts/**/*').map { |i| event_for(i) }
-    events.each { |e| cal.add_event(e) }
+    items.find_all('/events/*/*.md').each do |i|
+      cal.add_event(event_for(i))
+    end
 
     cal.to_ical
   end
 
-  def event_for(i)
+  def event_for(item)
     event = Icalendar::Event.new
-    event.dtstart = Date.parse(i[:time])
+    event.dtstart = Date.parse(item[:time])
     event.summary = 'A great event!'
 
     event

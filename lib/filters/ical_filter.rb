@@ -1,3 +1,5 @@
+# This doesn't use the new define syntax yet because item
+# is not available there
 class IcalFilter < Nanoc::Filter
   identifier :ical
 

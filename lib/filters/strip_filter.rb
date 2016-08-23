@@ -1,7 +1,3 @@
-class StripFilter < Nanoc::Filter
-  identifier :strip_html
-
-  def run(content, _params = {})
-    strip_html(content)
-  end
+Nanoc::Filter.define(:strip_html) do |content, _params|
+  strip_html(content)
 end

@@ -68,9 +68,9 @@ compile '/archives/*' do
 end
 
 #
-# POSTS
+# EVENTS
 #
-compile '/posts/**/*' do
+compile '/events/**/*' do
   filter :kramdown
 
   layout '/eventpost.*'
@@ -80,13 +80,34 @@ compile '/posts/**/*' do
   filter :relativize_paths, type: :html
 end
 
-compile '/posts/**/*', rep: :text do
+compile '/events/**/*', rep: :text do
   filter :kramdown
   filter :strip_html
 end
 
-compile '/posts/**/*', rep: :ical do
+compile '/events/**/main.md', rep: :ical do
+end
+
+compile '/events/**/*', rep: :ical do
   filter :ical
+end
+
+#
+# POSTS
+#
+compile '/posts/**/*' do
+  filter :kramdown
+
+  layout '/blogpost.*'
+  layout '/generic.*'
+  layout '/default.*'
+
+  filter :relativize_paths, type: :html
+end
+
+compile '/posts/**/*', rep: :text do
+  filter :kramdown
+  filter :strip_html
 end
 
 #
@@ -141,7 +162,7 @@ route '/assets/scripts/**/*' do
 end
 
 # POSTS
-route '/posts/**/*', rep: :ical do
+route '/events/**/*', rep: :ical do
   "#{item.identifier.without_ext}.ics"
 end
 
