@@ -1,0 +1,25 @@
+---
+navigable: true
+title: Events
+---
+
+<div>
+  <div class="content">
+    <h1>Upcoming events</h1>
+  </div>
+
+  <% all_events.each do |event| %>
+  <div class="box">
+    <a href="<%= relative_path_to(event) %>">
+      <%= event[:title] %>
+    </a>
+    <% sub_events(event).each do |sub_event| %>
+    [
+    <a href="<%= relative_path_to(sub_event) %>">
+      <%= sub_event[:title] %>
+    </a>
+    ]
+    <% end %>
+  </div>
+  <% end %>
+</div>
