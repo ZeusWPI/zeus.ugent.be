@@ -16,46 +16,53 @@
   background-color: black;
 }
 
-.ctrl {
-  background-color: $cammie-controls-color;
-  color: white;
-  position: absolute;
-  z-index: 100;
-
-  // Chevron centering
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &:hover {
-    background-color: $zeus_orange;
-    z-index: 200;
-    cursor: pointer;
+#cammie-section {
+  position: relative;
+  height: 100%;
+  #cammie-body {
+    position: relative;
+    height: 100%;
   }
-}
 
-#left {
-  height: 100%;
-  width: 100px;
-  top: 0;
-  left: 0;
-}
+  .ctrl {
+    background-color: $cammie-controls-color;
+    color: white;
+    z-index: 100;
+    position: absolute;
 
-#right {
-  height: 100%;
-  width: 100px;
-  top: 0;
-  right: 0;
-}
+    // Chevron centering
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#up {
-  height: 100px;
-  width: 100%;
-  top: 0;
-}
+    &:hover {
+      background-color: $zeus_orange;
+      z-index: 200;
+      cursor: pointer;
+    }
+  }
 
-#down {
-  height: 100px;
-  width: 100%;
-  bottom: 0;
+  .left {
+    height: 100%;
+    width: 50px;
+    left: 0;
+  }
+
+  .right {
+    height: 100%;
+    width: 100px;
+    right: 0;
+  }
+
+  .up {
+    height: 100px;
+    width: 100%;
+    top: 0;
+  }
+
+  .down {
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+  }
 }

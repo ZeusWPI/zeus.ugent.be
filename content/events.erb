@@ -14,11 +14,11 @@ title: Events
       <%= event[:title] %>
     </a>
     <% sub_events(event).each do |sub_event| %>
-    [
-    <a href="<%= relative_path_to(sub_event) %>">
-      <%= sub_event[:title] %>
-    </a>
-    ]
+    <div class="subevent">
+      <a href="<%= relative_path_to(sub_event) %>">
+        <%= sub_event[:title] %>
+      </a>
+    </div>
     <% end %>
   </div>
   <% end %>

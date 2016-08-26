@@ -3,36 +3,14 @@ navigable: true
 title: Cammie
 ---
 
-<section class="hero is-fullheight">
+<section id="cammie-section" class="hero is-fullheight">
   <!-- Hero header: will stick at the top -->
   <div class="hero-head">
     <%= render '/partials/_navbar.*' %>
   </div>
 
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <!--
-    <div id="cammie-container">
-      <img id="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2" alt="" />
-    </div>
-  -->
-
-    <div class="columns">
-      <div class="column">top</div>
-      <div class="column">top</div>
-      <div class="column">top</div>
-    </div>
-    <div class="columns">
-      <div class="column">mid</div>
-      <div class="column">mid</div>
-      <div class="column">mid</div>
-    </div>
-    <div class="columns">
-      <div class="column">bot</div>
-      <div class="column">bot</div>
-      <div class="column">bot</div>
-    </div>
-
+  <!--
+  <div id="cammie-body">
     <div id="left" class="ctrl">
       <%= fa 'chevron-left', size: '2x' %>
     </div>
@@ -49,7 +27,37 @@ title: Cammie
       <%= fa 'chevron-down', size: '2x' %>
     </div>
   </div>
+  -->
 
+  <div id="cammie-body">
+    <div class="columns">
+      <div class="column">
+        <div class="ctrl left">
+          diag up left
+        </div>
+      </div>
+      <div class="column">
+        <div class="ctrl up">
+          up
+        </div>
+      </div>
+      <div class="column">
+        <div class="ctrl right">
+          diag up right
+        </div>
+      </div>
+    </div>
+    <div class="columns cammie-ctrls">
+      <div class="column ctrl left">left</div>
+      <div class="column ctrl center">home?</div>
+      <div class="column ctrl right">right</div>
+    </div>
+    <div class="columns cammie-ctrls">
+      <div class="column ctrl left">diag down left</div>
+      <div class="column ctrl center">down</div>
+      <div class="column ctrl right">diag down right</div>
+    </div>
+  </div>
   <!-- Hero footer: will stick at the bottom -->
   <div class="hero-foot">
     <nav class="tabs is-boxed is-fullwidth">
