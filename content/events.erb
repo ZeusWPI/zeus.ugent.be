@@ -9,17 +9,39 @@ title: Events
   </div>
 
   <% all_events.each do |event| %>
-  <div class="box">
-    <a href="<%= relative_path_to(event) %>">
-      <%= event[:title] %>
-    </a>
-    <% sub_events(event).each do |sub_event| %>
-    <div class="subevent">
-      <a href="<%= relative_path_to(sub_event) %>">
-        <%= sub_event[:title] %>
-      </a>
+    <div class="box event-preview">
+      <div class="image-holder">
+        <img src="http://placehold.it/150x150" alt="" class="image" />
+      </div>
+
+      <div class="box info">
+        <div class="title">
+          <a href="<%= relative_path_to(event) %>">
+            <%= event[:title] %>
+          </a>
+        </div>
+        <div class="location">
+          <a href="#">
+            <%= event[:location] %>
+          </a>
+        </div>
+
+        <div class="description">
+          <%= event[:description] %>
+        </div>
+
+        <div class="time">
+          <%= event[:time] %>
+        </div>
+
+        <% sub_events(event).each do |sub_event| %>
+          <div class="subevent">
+            <a href="<%= relative_path_to(sub_event) %>">
+              <%= sub_event[:title] %>
+            </a>
+          </div>
+        <% end %>
+      </div>
     </div>
-    <% end %>
-  </div>
   <% end %>
 </div>
