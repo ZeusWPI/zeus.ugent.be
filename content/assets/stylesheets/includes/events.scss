@@ -1,3 +1,10 @@
+.divider {
+  align-items:flex-start;
+  border: 1px solid lighten(gray, 45%);
+  width: 67%;
+  margin: 0 30% 0 3%;
+}
+
 .box.event-preview {
   border-radius: 0px;
   display: flex;
@@ -5,7 +12,9 @@
   box-shadow : none;
   margin-bottom: 0px;
 
-  border-top: 1px solid lighten(gray, 15%);
+  // border-top: 1px solid lighten(gray, 40%);
+
+
 
   .image-holder {
     border-radius: 50%;
