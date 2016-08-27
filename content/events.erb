@@ -14,7 +14,7 @@ title: Events
       <%= render '/partials/_event_preview.*', event: event %>
     <% else %>
       <% sub_events(event).each do |sub_event| %>
-        <%= render '/partials/_event_preview.*', event: sub_event %>
+        <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
       <% end %>
     <% end %>
   <% end %>

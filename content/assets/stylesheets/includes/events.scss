@@ -33,6 +33,7 @@
   .info {
     margin: 1.5em;
     box-shadow : none;
+    width: 60%;
 
     .title {
       font-size: 1.7em;
@@ -64,9 +65,22 @@
       font-size: 1.6em;
       font-weight: 400;
     }
+  }
 
-    .subevent {
-      margin-left: 20px;
+  .main-event {
+    border-left: 1px solid gray;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 8em;
+    // display: flex;
+    // align-items: center;
+
+    ul {
+      padding-left: .7em;
+    }
+
+    .active {
+      color: #FF7F00;
     }
   }
 }

@@ -5,8 +5,8 @@
 
   <div class="box info">
     <div class="title">
-      <a href="<%= relative_path_to(@event) %>">
-        <%= @event[:title] %>
+      <a href="<%= relative_path_to(event) %>">
+        <%= event[:title] %>
       </a>
     </div>
     <div class="location">
@@ -23,12 +23,21 @@
       <%= event[:time] %>
     </div>
 
-    <% sub_events(event).each do |sub_event| %>
-      <div class="subevent">
-        <a href="<%= relative_path_to(sub_event) %>">
-          <%= sub_event[:title] %>
-        </a>
-      </div>
-    <% end %>
   </div>
+
+  <% if @main_event %>
+    <div class="box main-event">
+      <p>
+        <%= main_event[:title] %>
+      </p>
+
+      <ul>
+        <% sub_events(main_event).each do |sub_event| %>
+            <li class="<%= "active" if sub_event[:title] == (event[:title])%>" >
+              <%= sub_event[:title] %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 </div>
