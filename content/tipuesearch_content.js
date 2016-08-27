@@ -3,8 +3,8 @@ var tipuesearch = { "pages": [
     {
       "title": "<%= e[:title] %>",
       "url": "<%= url_for(e) %>",
-      "text": "<%= excerptize(e.reps[:text].compiled_content, length: 200).gsub(/\n/, ' ') %>",
+      "text": '<%= excerptize(e.reps[:text].compiled_content, length: 200).gsub(/\n/, ' ') %>',
       "tags": ""
     },
   <% end %>
-]};
+]}

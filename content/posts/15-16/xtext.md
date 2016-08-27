@@ -1,6 +1,7 @@
 ---
 title: Xtext Workshop
 created_at: 01-04-2016
+description: Xtext is een ding, en heeft een workshop
 ---
 
 Op **26 april om 18:00 in Auditorium A2, Campus Sterre, Gebouw S9** organiseren we een workshop over [Xtext](https://eclipse.org/Xtext/). **Xtext** is een framework om nieuwe domein-specifieke computertalen (**DSLs**) mee te ontwerpen. Een **DSL** kan een nieuwe programmeertaal zijn, maar is meestal erg specifiek: bijvoorbeeld voor het besturen van robots, voor controle van wasmachines of voor sturing van de on-board computer in auto’s. Mensen die deze machines maken zijn vaak geen programmeurs, en zij kunnen veel vlotter werken met een DSL dan met een algemene programmeertaal.
