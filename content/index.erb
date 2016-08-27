@@ -1,16 +1,83 @@
 <div class="tile is-vertical is-ancestor">
   <div class="tile is-parent is-12">
-    <div class="tile is-child">
-      <%= render '/partials/_tile.*', article: sorted_articles[0] %>
+    <div class="tile is-child notification is-primary">
+      <%= render '/partials/_tile.*', article: all_events[0] %>
     </div>
   </div>
   <div class="tile">
-    <% sorted_articles[1..-1].each do |article| %>
     <div class="tile is-parent is-4">
-      <div class="tile is-child">
-        <%= render '/partials/_tile.*', article: article %>
+      <div class="tile is-child notification is-info">
+        <%= render '/partials/_tile.*', article: all_events[1] %>
       </div>
     </div>
-    <% end %>
+    <div class="tile is-parent is-4">
+      <div class="tile is-child notification is-danger">
+        IDK LOL
+      </div>
+    </div>
+    <div class="tile is-vertical is-2">
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-warning has-text-centered">
+          <%= fa 'wikipedia-w' %>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-warning has-text-centered">
+          <%= fa 'video-camera' %>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-vertical is-2">
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-warning has-text-centered">
+          <%= fa 'github' %>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-warning has-text-centered">
+          <%= fa 'facebook-official' %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tile">
+    <div class="tile is-4 is-parent">
+      <div class="tile is-child notification is-success">
+        <div class="content">
+          <h1><%= sorted_articles.first[:title] %></h1>
+          <%= sorted_articles.first[:description] %>
+        </div>
+      </div>
+    </div>
+    <div class="tile is-vertical">
+      <div class="tile is-parent">
+        <div class="tile is-child notification is-primary">
+          <p>
+            Numero uno: @werthen
+          </p>
+          <p>
+            Numero dos: @myncke
+          </p>
+          <p>
+            Numero tres: @iepoev
+          </p>
+          <p>
+            Numero quatro: @becousae
+          </p>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="tile is-6 is-parent">
+          <div class="tile is-child notification">
+            GITHUB
+          </div>
+        </div>
+        <div class="tile is-6 is-parent">
+          <div class="tile is-child notification is-info">
+            GITHUB
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

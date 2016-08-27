@@ -1,6 +1,7 @@
 ---
 title: AWK-les
 banner: https://zeus.ugent.be/wp-content/uploads/2016/02/awkles-768x1007.jpg
+description: Een AWK-les voor AWK gerelateerde dingen
 created_at: 01-02-2016
 time: 23-02-2016
 location: Auditorium A1, Campus Sterre, Gebouw S9

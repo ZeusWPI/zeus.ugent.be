@@ -26,21 +26,21 @@
 
 <section class="section">
   <div class="columns">
-
-    <div class="container">
-      <div id="event-info" class="is-pulled-right">
-        <div class="box">
-          <ul class="fa-ul">
-            <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-            <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-          </ul>
-        </div>
+    <!--
+    <div id="event-info" class="column">
+      <div class="box">
+        <ul class="fa-ul">
+          <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
+          <li><%= fa 'globe', li: true %><%= item[:location] %></li>
+        </ul>
       </div>
+    </div>
+    -->
+    <div class="column is-8 is-offset-2">
 
       <div class="content">
         <%= yield %>
       </div>
     </div>
-
   </div>
 </section>

@@ -1,5 +1,8 @@
-.notification.is-info {
+.notification.is-info,
+.notification.is-success,
+.notification.is-primary {
   .content {
+    color: white;
     h1 {
       color: white;
       font-weight: bold;

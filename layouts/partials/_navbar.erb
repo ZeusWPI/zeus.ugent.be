@@ -1,6 +1,6 @@
 <div id="navbar">
   <div class="columns">
-    <div class="column is-narrow">
+    <div class="column is-narrow is-hidden-mobile">
       <a id="logo-link" href="/">
         <img id="logo" src="https://zeus.ugent.be/wp-content/uploads/2009/05/logo-new.png" alt="" />
       </a>
@@ -8,7 +8,6 @@
     <div class="column">
       <nav class="nav">
           <div class="nav-left">
-
             <% nav_items do |item, active| %>
             <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= relative_path_to(item) %>">
               <%= item[:title] %>
@@ -16,7 +15,7 @@
             <% end %>
           </div>
 
-          <div class="nav-right">
+          <div class="nav-right is-hidden-mobile">
               <a class="nav-item" href="https://github.com/ZeusWPI" target="_blank">
                   <span class="icon">
                       <i class="fa fa-github"></i>
