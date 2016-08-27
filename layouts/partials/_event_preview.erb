@@ -14,15 +14,12 @@
         <%= event[:location] %>
       </a>
     </div>
-
     <div class="description">
       <%= event[:description] %>
     </div>
-
     <div class="time">
       <%= event[:time] %>
     </div>
-
   </div>
 
   <% if @main_event %>
@@ -30,12 +27,11 @@
       <p>
         <%= main_event[:title] %>
       </p>
-
       <ul>
         <% sub_events(main_event).each do |sub_event| %>
-            <li class="<%= "active" if sub_event[:title] == (event[:title])%>" >
-              <%= sub_event[:title] %>
-            </li>
+          <li class="<%= "active" if sub_event[:title] == (event[:title])%>" >
+            <%= sub_event[:title] %>
+          </li>
         <% end %>
       </ul>
     </div>
