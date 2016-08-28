@@ -20,49 +20,50 @@
   position: relative;
   height: 100%;
   #cammie-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     position: relative;
     height: 100%;
-  }
 
-  .ctrl {
-    background-color: $cammie-controls-color;
-    color: white;
-    z-index: 100;
-    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
 
-    // Chevron centering
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &:hover {
-      background-color: $zeus_orange;
-      z-index: 200;
-      cursor: pointer;
+    &.display {
+      transition: opacity .5s ease-in-out;
+      opacity: 1;
     }
-  }
 
-  .left {
-    height: 100%;
-    width: 50px;
-    left: 0;
-  }
+    .ctrl {
 
-  .right {
-    height: 100%;
-    width: 100px;
-    right: 0;
-  }
+      background-color: $cammie-controls-color;
+      color: white;
+      &:hover {
+        background-color: $zeus_orange;
+        cursor: pointer;
+      }
+    }
 
-  .up {
-    height: 100px;
-    width: 100%;
-    top: 0;
-  }
+    .row {
+      display: flex;
+      justify-content: space-between;
 
-  .down {
-    height: 100px;
-    width: 100%;
-    bottom: 0;
+      // Space rows
+      &.top-row, &.middle-row, &.bottom-row {
+        flex-basis: 0;
+      }
+      &.top-row, &.bottom-row {
+        flex-grow: 1;
+      }
+
+      &.middle-row {
+        flex-grow: 8;
+      }
+
+      // Enlarge middle column
+      .center {
+        flex-grow: 8;
+      }
+    }
   }
 }
