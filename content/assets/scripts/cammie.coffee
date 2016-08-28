@@ -12,6 +12,7 @@ debounce = (func, wait, initial = () -> ) ->
     timeout = setTimeout later, wait
     initial.apply context, args if callNow
 
+# Display controls when moving mouse
 $ "#cammie-body"
   .mousemove debounce () ->
       $ this
@@ -19,3 +20,13 @@ $ "#cammie-body"
     , 3000, () ->
       $ this
         .addClass 'display'
+
+# Cammie controls
+$ '.ctrl'
+  .click ->
+    $context = $ this
+    $.ajax "//kelder.zeus.ugent.be/webcam/cgi/ptdc.cgi",
+      data:
+        command: 'set_relative_pos'
+        posX: $context.data 'x'
+        posY: $context.data 'y'
