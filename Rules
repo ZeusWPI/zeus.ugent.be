@@ -46,16 +46,6 @@ compile '/feed.xml' do
 end
 
 #
-# CAMMIE
-#
-compile '/cammie.*' do
-  layout '/default.*'
-  filter :erb
-
-  filter :relativize_paths, type: :html
-end
-
-#
 # ARCHIVES
 #
 compile '/archives/*' do
