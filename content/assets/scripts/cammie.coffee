@@ -13,7 +13,7 @@ debounce = (func, wait, initial = () -> ) ->
     initial.apply context, args if callNow
 
 # Display controls when moving mouse
-$ "#cammie-body"
+$ "#cammie-ctrls"
   .mousemove debounce () ->
       $ this
         .removeClass 'display'

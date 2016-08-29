@@ -20,49 +20,52 @@
   position: relative;
   height: 100%;
   #cammie-body {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
     height: 100%;
-
-    transition: opacity 1s ease-in-out;
-    opacity: 0;
-
-    &.display {
-      transition: opacity .5s ease-in-out;
-      opacity: 1;
-    }
-
-    .ctrl {
-
-      background-color: $cammie-controls-color;
-      color: white;
-      &:hover {
-        background-color: $zeus_orange;
-        cursor: pointer;
-      }
-    }
-
-    .row {
+    #cammie-ctrls {
       display: flex;
       justify-content: space-between;
+      flex-direction: column;
+      position: relative;
+      height: 100%;
 
-      // Space rows
-      &.top-row, &.middle-row, &.bottom-row {
-        flex-basis: 0;
-      }
-      &.top-row, &.bottom-row {
-        flex-grow: 1;
+      transition: opacity 1s ease-in-out;
+      opacity: 0;
+
+      &.display {
+        transition: opacity .5s ease-in-out;
+        opacity: 1;
       }
 
-      &.middle-row {
-        flex-grow: 8;
+      .ctrl {
+
+        background-color: $cammie-controls-color;
+        color: white;
+        &:hover {
+          background-color: $zeus_orange;
+          cursor: pointer;
+        }
       }
 
-      // Enlarge middle column
-      .center {
-        flex-grow: 8;
+      .row {
+        display: flex;
+        justify-content: space-between;
+
+        // Space rows
+        &.top-row, &.middle-row, &.bottom-row {
+          flex-basis: 0;
+        }
+        &.top-row, &.bottom-row {
+          flex-grow: 1;
+        }
+
+        &.middle-row {
+          flex-grow: 8;
+        }
+
+        // Enlarge middle column
+        .center {
+          flex-grow: 8;
+        }
       }
     }
   }
