@@ -45,11 +45,20 @@
 
       .ctrl {
 
+        // Center arrows
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
         background-color: $cammie-controls-color;
         color: white;
         &:hover {
           background-color: $zeus_orange;
           cursor: pointer;
+        }
+
+        &.diag i {
+          transform: rotate(45deg);
         }
       }
 
@@ -61,6 +70,7 @@
         &.top-row, &.middle-row, &.bottom-row {
           flex-basis: 0;
         }
+
         &.top-row, &.bottom-row {
           flex-grow: 1;
         }
