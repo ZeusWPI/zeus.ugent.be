@@ -20,13 +20,20 @@
   position: relative;
   height: 100%;
   #cammie-body {
-    height: 100%;
+    //background-image: url("//kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2");
+   // background-size: cover;
+
+    position: relative;
+
     #cammie-ctrls {
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      position: relative;
+      position: absolute;
+      top: 0;
+      z-index: 5;
       height: 100%;
+      width: 100%;
 
       transition: opacity 1s ease-in-out;
       opacity: 0;
