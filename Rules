@@ -132,7 +132,7 @@ compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
 end
 
-passthrough '/assets/images/*.{png}'
+passthrough '/assets/images/*.{png,svg}'
 
 #
 #
