@@ -9,17 +9,13 @@ title: Events
   </div>
 
   <% all_events.each do |event| %>
-  <div class="box">
-    <a href="<%= relative_path_to(event) %>">
-      <%= event[:title] %>
-    </a>
-    <% sub_events(event).each do |sub_event| %>
-    <div class="subevent">
-      <a href="<%= relative_path_to(sub_event) %>">
-        <%= sub_event[:title] %>
-      </a>
-    </div>
+    <!-- <hr class="divider"> -->
+    <% if (sub_events(event)).empty? %>
+      <%= render '/partials/_event_preview.*', event: event %>
+    <% else %>
+      <% sub_events(event).each do |sub_event| %>
+        <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
+      <% end %>
     <% end %>
-  </div>
   <% end %>
 </div>

@@ -1,0 +1,39 @@
+<div class="box event-preview">
+  <div class="image-holder">
+    <img src="https://placehold.it/150x150" alt="" class="image" />
+  </div>
+
+  <div class="box info">
+    <div class="title">
+      <a href="<%= relative_path_to(event) %>">
+        <%= event[:title] %>
+      </a>
+    </div>
+    <div class="location">
+      <a href="#">
+        <%= event[:location] %>
+      </a>
+    </div>
+    <div class="description">
+      <%= event[:description] %>
+    </div>
+    <div class="time">
+      <%= event[:time] %>
+    </div>
+  </div>
+
+  <% if @main_event %>
+    <div class="box main-event">
+      <p>
+        <%= main_event[:title] %>
+      </p>
+      <ul>
+        <% sub_events(main_event).each do |sub_event| %>
+          <li class="<%= "active" if sub_event[:title] == (event[:title])%>" >
+            <%= sub_event[:title] %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
