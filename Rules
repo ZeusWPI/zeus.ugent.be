@@ -4,6 +4,9 @@
 require 'json'
 require 'icalendar'
 
+# Please @NoctuaNivalis
+require 'socket'
+
 #
 #
 # PREPROCESS
@@ -140,7 +143,7 @@ ignore '/assets/stylesheets/includes/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
-  filter :autoprefixer
+  filter :autoprefixer if Socket.gethostname == 'abysm'
 end
 
 passthrough '/assets/images/*.{png}'
