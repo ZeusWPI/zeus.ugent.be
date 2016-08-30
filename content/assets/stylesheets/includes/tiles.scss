@@ -2,16 +2,18 @@ a.box {
   color: #000;
 }
 
-.box {
-  background-color: $box-colour;
+#homepage {
+  .box {
+    background-color: $box-colour;
 
-  &.highlighted {
-    background-color: $highlighted-box-colour;
-    color: $highlighted-text-colour;
+    &.highlighted {
+      background-color: $highlighted-box-colour;
+      color: $highlighted-text-colour;
 
-    .content {
-      h1 {
-        color: white;
+      .content {
+        h1 {
+          color: white;
+        }
       }
     }
   }
