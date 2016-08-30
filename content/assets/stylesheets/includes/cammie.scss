@@ -1,103 +1,51 @@
-#cammie-container {
-  display: flex;
-  justify-content: center;
-
+#cammie-body {
   position: relative;
 
-  width: 100%;
-}
+  #cammie-ctrls {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 
-.fullpage {
-  min-width: 100%;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: black;
-}
+    transition: opacity 1s ease-in-out;
+    z-index: 5;
+    opacity: 0;
 
-#cammie-section {
-  position: relative;
-  height: 100%;
-  #cammie-body {
-    //background-image: url("//kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2");
-    // background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-    position: relative;
+    .columns {
+      margin: 0;
+    }
 
-    #cammie-ctrls {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      position: absolute;
-      top: 0;
-      z-index: 5;
+    .center {
+      flex: 1;
+    }
+
+    &.display {
+      transition: opacity .5s ease-in-out;
+      opacity: 1;
+    }
+
+    .ctrl {
       height: 100%;
-      width: 100%;
 
-      transition: opacity 1s ease-in-out;
-      opacity: 0;
+      // Center arrows
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
 
-      &.display {
-        transition: opacity .5s ease-in-out;
-        opacity: 1;
+      background-color: $cammie-controls-color;
+      color: white;
+      &:hover {
+        background-color: $zeus_orange;
+        cursor: pointer;
       }
 
-      .ctrl {
-
-        // Center arrows
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-        background-color: $cammie-controls-color;
-        color: white;
-        &:hover {
-          background-color: $zeus_orange;
-          cursor: pointer;
-        }
-
-        &.diag i {
-          transform: rotate(45deg);
-        }
-      }
-
-      .row {
-        display: flex;
-        justify-content: space-between;
-
-        // Space rows
-        &.top-row, &.middle-row, &.bottom-row {
-          flex-basis: 0;
-        }
-
-        &.top-row, &.bottom-row {
-          flex-grow: 1;
-        }
-
-        &.middle-row {
-          flex-grow: 8;
-
-          .center {
-            .ctrl-half {
-              width: 100%;
-              height: 50%;
-              display: flex;
-              justify-content: space-around;
-              align-items: center;
-
-              .ctrl {
-                padding: 15px;
-                border-radius: 5px;
-              }
-            }
-          }
-        }
-
-        // Enlarge middle column
-        .center {
-          flex-grow: 8;
-        }
+      &.diag i {
+        transform: rotate(45deg);
       }
     }
   }

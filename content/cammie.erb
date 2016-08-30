@@ -2,94 +2,60 @@
 navigable: true
 title: Cammie
 ---
-
-<section id="cammie-section" class="hero is-fullheight">
-  <!-- Hero header: will stick at the top -->
-
-
-  <!--
-  <div id="cammie-body">
-    <div id="left" class="ctrl">
-      <%= fa 'chevron-left', size: '2x' %>
-    </div>
-
-    <div id="right" class="ctrl">
-      <%= fa 'chevron-right', size: '2x' %>
-    </div>
-
-    <div id="up" class="ctrl">
-      <%= fa 'chevron-up', size: '2x' %>
-    </div>
-
-    <div id="down" class="ctrl">
-      <%= fa 'chevron-down', size: '2x' %>
-    </div>
-  </div>
-  -->
-
+<section id="cammie-section">
   <div id="cammie-body">
     <img id="cammie-feed" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2">
     <div id="cammie-ctrls">
-      <div class="top-row row">
-        <div class="column ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="10">
+      <div class="columns">
+        <div class="column is-1 ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="10">
           <%= fa 'chevron-circle-left' %>
         </div>
         <div class="column ctrl center" data-command="set_relative_pos" data-x="0" data-y="10">
           <%= fa 'chevron-circle-up' %>
         </div>
-        <div class="column ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="10">
+        <div class="column is-1 ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="10">
           <%= fa 'chevron-circle-up' %>
         </div>
       </div>
 
-      <div class="row middle-row">
-        <div class="column ctrl left" data-command="set_relative_pos" data-x="-10" data-y="0">
+      <div class="columns center">
+        <div class="column is-1 ctrl left" data-command="set_relative_pos" data-x="-10" data-y="0">
           <%= fa 'chevron-circle-left' %>
         </div>
-        <div class="column center">
-          <div class="ctrl-half">
-            <div class="ctrl" data-command="set_pos" data-x="0" data-y="12">
-              Kleine tafel
-            </div>
-            <div class="ctrl" data-command="set_pos" data-x="50" data-y="10">
-              Grote tafel
-            </div>
-          </div>
-          <div class="ctrl-half">
-            <div class="ctrl" data-command="set_pos" data-x="50" data-y="22">
-              Zetel
-            </div>
-          </div>
+        <div class="column">
+        <!-- blank space -->
         </div>
-        <div class="column ctrl right" data-command="set_relative_pos" data-x="10" data-y="0">
+        <div class="column is-1 ctrl right" data-command="set_relative_pos" data-x="10" data-y="0">
           <%= fa 'chevron-circle-right' %>
         </div>
       </div>
-      <div class="row bottom-row">
-        <div class="column ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="-10">
+
+      <div class="columns">
+        <div class="column is-1 ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="-10">
           <%= fa 'chevron-circle-down' %>
         </div>
         <div class="column ctrl center" data-command="set_relative_pos" data-x="0" data-y="-10">
           <%= fa 'chevron-circle-down' %>
         </div>
-        <div class="column ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="-10">
+        <div class="column is-1 ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="-10">
           <%= fa 'chevron-circle-right' %>
         </div>
       </div>
     </div>
   </div>
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
-      <div class="container">
-        <ul>
-          <li><a>Kleine Tafel</a></li>
-          <li><a>Grote Tafel</a></li>
-          <li><a>Zetel</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <nav class="nav">
+    <div class="nav-center">
+      <a class="nav-item ctrl" href="#" data-command="set_pos" data-x="0" data-y="12">
+        Kleine tafel
+      </a>
+      <a class="nav-item ctrl" href="#" data-command="set_pos" data-x="50" data-y="10">
+        Grote tafel
+      </a>
+      <a class="nav-item ctrl" href="#" data-command="set_pos" data-x="50" data-y="22">
+        Zetel
+      </a>
+    </div>
+  </nav>
 </section>
 
 
