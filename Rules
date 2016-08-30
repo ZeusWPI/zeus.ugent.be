@@ -140,6 +140,7 @@ ignore '/assets/stylesheets/includes/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
+  filter :autoprefixer
 end
 
 passthrough '/assets/images/*.{png}'
