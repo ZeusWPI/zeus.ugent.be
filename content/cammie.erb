@@ -31,48 +31,48 @@ title: Cammie
     <img id="cammie-feed" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2">
     <div id="cammie-ctrls">
       <div class="top-row row">
-        <div class="column ctrl diag left" data-x="-10" data-y="10">
+        <div class="column ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="10">
           <%= fa 'chevron-circle-left' %>
         </div>
-        <div class="column ctrl center" data-x="0" data-y="10">
+        <div class="column ctrl center" data-command="set_relative_pos" data-x="0" data-y="10">
           <%= fa 'chevron-circle-up' %>
         </div>
-        <div class="column ctrl diag right" data-x="10" data-y="10">
+        <div class="column ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="10">
           <%= fa 'chevron-circle-up' %>
         </div>
       </div>
 
       <div class="row middle-row">
-        <div class="column ctrl left" data-x="-10" data-y="0">
+        <div class="column ctrl left" data-command="set_relative_pos" data-x="-10" data-y="0">
           <%= fa 'chevron-circle-left' %>
         </div>
         <div class="column center">
           <div class="ctrl-half">
-            <div class="ctrl">
+            <div class="ctrl" data-command="set_pos" data-x="0" data-y="12">
               Kleine tafel
             </div>
-            <div class="ctrl">
+            <div class="ctrl" data-command="set_pos" data-x="50" data-y="10">
               Grote tafel
             </div>
           </div>
           <div class="ctrl-half">
-            <div class="ctrl">
+            <div class="ctrl" data-command="set_pos" data-x="50" data-y="22">
               Zetel
             </div>
           </div>
         </div>
-        <div class="column ctrl right" data-x="10" data-y="0">
+        <div class="column ctrl right" data-command="set_relative_pos" data-x="10" data-y="0">
           <%= fa 'chevron-circle-right' %>
         </div>
       </div>
       <div class="row bottom-row">
-        <div class="column ctrl diag left" data-x="-10" data-y="-10">
+        <div class="column ctrl diag left" data-command="set_relative_pos" data-x="-10" data-y="-10">
           <%= fa 'chevron-circle-down' %>
         </div>
-        <div class="column ctrl center" data-x="0" data-y="-10">
+        <div class="column ctrl center" data-command="set_relative_pos" data-x="0" data-y="-10">
           <%= fa 'chevron-circle-down' %>
         </div>
-        <div class="column ctrl diag right" data-x="10" data-y="-10">
+        <div class="column ctrl diag right" data-command="set_relative_pos" data-x="10" data-y="-10">
           <%= fa 'chevron-circle-right' %>
         </div>
       </div>

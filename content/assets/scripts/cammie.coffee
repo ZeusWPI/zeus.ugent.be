@@ -27,6 +27,6 @@ $ '.ctrl'
     $context = $ this
     $.ajax "//kelder.zeus.ugent.be/webcam/cgi/ptdc.cgi",
       data:
-        command: 'set_relative_pos'
+        command: $context.data 'command'
         posX: $context.data 'x'
         posY: $context.data 'y'
