@@ -21,7 +21,7 @@
   height: 100%;
   #cammie-body {
     //background-image: url("//kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2");
-   // background-size: cover;
+    // background-size: cover;
 
     position: relative;
 
@@ -77,6 +77,20 @@
 
         &.middle-row {
           flex-grow: 8;
+
+          .center {
+            .ctrl-half {
+              width: 100%;
+              height: 50%;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+
+              .ctrl {
+                padding: 15px;
+              }
+            }
+          }
         }
 
         // Enlarge middle column
