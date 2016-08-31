@@ -1,0 +1,16 @@
+/*# sourceMappingURL=projects.css.map */
+/* line 4, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
+.imgspace {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+/* line 10, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
+.imgcenter {
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+  /* align vertical */ }
+
+/*# sourceMappingURL=projects.css.map */
