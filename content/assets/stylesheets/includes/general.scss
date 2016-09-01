@@ -1,7 +1,3 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
 .fa-ul {
   list-style: none !important;
 
@@ -10,10 +6,17 @@ html, body {
   }
 }
 
+.has-text-justified {
+  text-align: justify;
+}
+
 
 #navbar {
   align-items: flex-end;
 
+  #inline-logo {
+    min-width: 38.703px;
+  }
   #logo-link {
     #logo {
       padding-top: 10px;

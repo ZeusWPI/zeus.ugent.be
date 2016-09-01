@@ -5,42 +5,52 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
-<section class="hero is-medium is-info">
+<section class="hero is-medium is-info is-bold">
   <div class="hero-head">
-    <%= render '/partials/_navbar.*', white: true %>
+    <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
   </div>
   <div class="hero-body">
     <div class="container">
-      <h1 class="title">
+      <p class="title is-1">
+        <b>
         <%= item[:title] %>
-      </h1>
-      <h2 class="subtitle">
+        </b>
+      </p>
+      <p class="subtitle is-3">
+        <%= item[:description] %>
+      </p>
+      <p class="subtitle is-3">
         <ul class="fa-ul">
           <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
           <li><%= fa 'globe', li: true %><%= item[:location] %></li>
         </ul>
-      </h2>
+      </p>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="columns">
-    <!--
-    <div id="event-info" class="column">
-      <div class="box">
-        <ul class="fa-ul">
-          <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-          <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-        </ul>
-      </div>
-    </div>
-    -->
     <div class="column is-8 is-offset-2">
-
-      <div class="content">
+      <div class="content has-text-justified">
         <%= yield %>
       </div>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="column is-4 is-offset-1">
+      <div class="content has-text-right">
+        <blockquote>
+        Nadat u het auditorium (A3) verlaten hebt, ga links door de glazen deur. Vervolgens hebt u recht voor u opnieuw een glazen deur, ga ook door deze deur. Vervolgens wandelt u helemaal tot het einde van de gang. U komt dan aan de ingang uit van het pc-lokaal Zuse in S9
+        </blockquote>
+      </div>
+    </div>
+    <div class="google-maps column is-5 is-offset-1">
+      <iframe
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBDTmw7LtDG28o9QjCnNucAJv2zTZpLjJU
+          &q=Zeus+WPI,Ghent+Belgium" allowfullscreen>
+      </iframe>
     </div>
   </div>
 </section>

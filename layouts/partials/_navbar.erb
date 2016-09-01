@@ -2,12 +2,15 @@
   <div class="columns">
     <div class="column is-narrow is-hidden-mobile">
       <a id="logo-link" href="/">
-        <img id="logo" src="/assets/images/zeuslogo<%= '_white' if @white %>.svg" alt="" />
+        <img id="logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
       </a>
     </div>
     <div class="column">
       <nav class="nav">
           <div class="nav-left">
+            <a class="is-hidden-tablet nav-item" href="/">
+              <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
+            </a>
             <% nav_items do |item, active| %>
             <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= relative_path_to(item) %>">
               <%= item[:title] %>
