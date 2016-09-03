@@ -8,6 +8,6 @@ module AssetHelper
   end
 
   def zeus_logo_url(color: :black)
-    "/assets/images/zeuslogo#{'_white' if color == :white}.svg"
+    "https://werthen.com/zinc/zeuslogo.svg?color=#{color}"
   end
 end
