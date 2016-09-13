@@ -5,6 +5,7 @@ description: Zeus' vijfde LAN-Party
 created_at: 13-09-2016
 time: 4-11-2016
 location: Therminal, Hoveniersberg 24 9000 Gent
+locationlink: Therminal,Ghent Belgium
 description: Zeus' vijfde LAN-Party
 ---
 

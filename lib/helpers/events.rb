@@ -1,3 +1,4 @@
+require 'uri'
 module EventsHelper
   def all_events
     @items.find_all('/events/*/*') + grouped_events
@@ -16,5 +17,9 @@ module EventsHelper
     else
       []
     end
+  end
+
+  def locationlink(location)
+    "https://www.google.com/maps/embed/v1/place?key=AIzaSyBDTmw7LtDG28o9QjCnNucAJv2zTZpLjJU&q=#{URI.escape(location)}" if location
   end
 end

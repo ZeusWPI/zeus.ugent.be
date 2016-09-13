@@ -5,6 +5,7 @@ description: Een AWK-les voor AWK gerelateerde dingen
 created_at: 01-02-2016
 time: 23-02-2016
 location: Auditorium A1, Campus Sterre, Gebouw S9
+locationlink: Zeus WPI,Ghent Belgium
 description: Dit is een description van het awk event!
 ---
 
