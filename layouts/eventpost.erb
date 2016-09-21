@@ -9,22 +9,33 @@
   <div class="hero-head">
     <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
   </div>
-  <div class="hero-body">
+  <div class="hero-body ">
+
     <div class="container">
-      <p class="title is-1">
-        <b>
-        <%= item[:title] %>
-        </b>
-      </p>
-      <p class="subtitle is-3">
-        <%= item[:description] %>
-      </p>
-      <p class="subtitle is-3">
-        <ul class="fa-ul">
-          <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-          <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-        </ul>
-      </p>
+      <div class="columns">
+
+        <div class="column">
+          <p class="title is-1">
+          <b>
+            <%= item[:title] %>
+          </b>
+          </p>
+          <p class="subtitle is-3">
+          <%= item[:description] %>
+          </p>
+          <p class="subtitle is-3">
+          <ul class="fa-ul">
+            <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
+            <li><%= fa 'globe', li: true %><%= item[:location] %></li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="is-narrow column banner-image">
+          <img src=<%= item[:banner] %>  >
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
@@ -41,8 +52,7 @@
     <div class="google-maps column is-8 is-offset-2">
       <iframe
         frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBDTmw7LtDG28o9QjCnNucAJv2zTZpLjJU
-          &q=Zeus+WPI,Ghent+Belgium" allowfullscreen>
+        src="<%= locationlink item[:locationlink] %>" allowfullscreen>
       </iframe>
     </div>
   </div>
