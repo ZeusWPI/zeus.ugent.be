@@ -28,11 +28,13 @@ preprocess do
   academic_years.each do |year|
     @items.create(
       '',
-      { academic_year: year },
+      { academic_year: year, title: "Blog" },
       "/archives/#{year}-#{year + 1}.html",
       binary: false
     )
   end
+
+  academic_years_items[academic_years.max][:navigable] = true
 end
 
 #
