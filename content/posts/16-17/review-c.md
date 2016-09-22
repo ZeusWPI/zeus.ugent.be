@@ -1,4 +1,5 @@
 ---
+banner: http://dailydropcap.com/images/C-9.jpg
 title: C review
 description: We hebben even wat dingen in C geschreven, en dit zijn onze meningen
 created_at: 23-10-2016
