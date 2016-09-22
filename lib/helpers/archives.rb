@@ -11,7 +11,7 @@ module ArchiveHelper
   end
 
   def academic_years_items
-    academic_years.to_a.reverse.map { |y| [y, items["/archives/#{y}-#{y + 1}.html"]] }.to_h
+    academic_years.to_a.reverse.map { |y| [y, items["/blog/#{y}-#{y + 1}.html"]] }.to_h
   end
 
   def pretty_year(year)
