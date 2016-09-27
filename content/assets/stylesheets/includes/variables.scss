@@ -1,6 +1,17 @@
-$zeus_orange: #FF7F00;
-$event-padding: 10px;
+// Colours
+$zeus-orange: #FF7F00;
 $navbar-border-color: #CCC;
 $event-border-color: #DDD;
+$orange: $zeus-orange;
+$primary: $orange;
+
+$link-visited: inherit;
+
+$box-colour: #EEE;
+$highlighted-box-colour: $zeus-orange;
+$highlighted-text-colour: white;
+$highlighted-link-colour: #222324;
 
 $cammie-controls-color: rgba(0, 0, 0, 0.60);
+
+$event-padding: 10px;

@@ -28,6 +28,10 @@ For manual deployment, run
 bundle exec nanoc deploy --target public
 ```
 
+## Posts
+
+Posts should be written in [kramdown](http://kramdown.gettalong.org/index.html), a markdown superset which has a very complete [syntax guide](http://kramdown.gettalong.org/syntax.html).
+
 ## Events
 
 Example structure:

@@ -1,11 +1,20 @@
-.notification.is-info,
-.notification.is-success,
-.notification.is-primary {
-  .content {
-    color: white;
-    h1 {
-      color: white;
-      font-weight: bold;
+a.box {
+  color: #000;
+}
+
+#homepage {
+  .box {
+    background-color: $box-colour;
+
+    &.highlighted {
+      background-color: $highlighted-box-colour;
+      color: $highlighted-text-colour;
+
+      .content {
+        h1 {
+          color: white;
+        }
+      }
     }
   }
 }

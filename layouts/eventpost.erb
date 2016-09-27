@@ -5,42 +5,55 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
-<section class="hero is-medium is-info">
+<section class="hero is-medium is-info is-bold">
   <div class="hero-head">
-    <%= render '/partials/_navbar.*' %>
+    <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
   </div>
-  <div class="hero-body">
+  <div class="hero-body ">
+
     <div class="container">
-      <h1 class="title">
-        <%= item[:title] %>
-      </h1>
-      <h2 class="subtitle">
-        <ul class="fa-ul">
-          <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-          <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-        </ul>
-      </h2>
+      <div class="columns">
+
+        <div class="column">
+          <p class="title is-1">
+          <b>
+            <%= item[:title] %>
+          </b>
+          </p>
+          <p class="subtitle is-3">
+          <%= item[:description] %>
+          </p>
+          <p class="subtitle is-3">
+          <ul class="fa-ul">
+            <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
+            <li><%= fa 'globe', li: true %><%= item[:location] %></li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="is-narrow column banner-image">
+          <img src=<%= item[:banner] %>  >
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="columns">
-    <!--
-    <div id="event-info" class="column">
-      <div class="box">
-        <ul class="fa-ul">
-          <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-          <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-        </ul>
-      </div>
-    </div>
-    -->
     <div class="column is-8 is-offset-2">
-
-      <div class="content">
+      <div class="content has-text-justified">
         <%= yield %>
       </div>
+    </div>
+  </div>
+  <div class="columns">
+    <div class="google-maps column is-8 is-offset-2">
+      <iframe
+        frameborder="0" style="border:0"
+        src="<%= locationlink item[:locationlink] %>" allowfullscreen>
+      </iframe>
     </div>
   </div>
 </section>

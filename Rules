@@ -46,16 +46,6 @@ compile '/feed.xml' do
 end
 
 #
-# CAMMIE
-#
-compile '/cammie.*' do
-  layout '/default.*'
-  filter :erb
-
-  filter :relativize_paths, type: :html
-end
-
-#
 # ARCHIVES
 #
 compile '/archives/*' do
@@ -142,7 +132,7 @@ compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
 end
 
-passthrough '/assets/images/*.{png}'
+passthrough '/assets/images/*.{png,svg}'
 
 #
 #
@@ -167,7 +157,11 @@ route '/events/**/*', rep: :ical do
 end
 
 route '/**/*.{erb,html,md}' do
-  "#{item.identifier.without_ext}.html"
+  if item.identifier.without_ext.to_s =~ %r{/index$}
+    "#{item.identifier.without_ext}.html"
+  else
+    "#{item.identifier.without_ext}/index.html"
+  end
 end
 
 route '/**/*' do

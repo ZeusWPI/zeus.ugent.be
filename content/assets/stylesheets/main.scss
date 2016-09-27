@@ -1,12 +1,8 @@
-$zeus-orange: #FF7F00;
 
-$orange: $zeus-orange;
-$primary: $orange;
-$link-visited: $orange;
+@import "includes/variables";
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
-$family-sans-serif: 'Open Sans', sans-serif;
-
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400';
+$family-sans-serif: 'Lato', sans-serif;
 
 @import "../../../node_modules/bulma/bulma";
 
@@ -14,11 +10,23 @@ $family-sans-serif: 'Open Sans', sans-serif;
   flex: none;
 }
 
-@import "includes/variables";
+// Sticky footer
+body.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .wrapper {
+    flex: 1;
+  }
+}
+
+
 @import "includes/cammie";
 @import "includes/events";
 @import "includes/tiles";
 @import "includes/blogpost";
 @import "includes/general";
+@import "includes/eventpage";
 @import "includes/404";
 @import "includes/projects";

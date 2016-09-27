@@ -6,4 +6,8 @@ module AssetHelper
       css: "<link rel='stylesheet' type='text/css' href='/assets/stylesheets/#{identifier}.css'>"
     }[type]
   end
+
+  def zeus_logo_url(color: :black)
+    "https://werthen.com/zinc/zeuslogo.svg?color=#{color}"
+  end
 end
