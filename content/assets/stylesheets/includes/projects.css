@@ -3,9 +3,10 @@
 .imgspace {
   display: flex;
   justify-content: space-around;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
-/* line 10, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
+/* line 11, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
 .imgcenter {
   display: flex;
   justify-content: center;
@@ -13,11 +14,11 @@
   align-items: center;
   /* align vertical */ }
 
-/* line 17, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
+/* line 18, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
 .pad {
-  padding-top: 75px; }
+  padding-bottom: 15px; }
 
-/* line 23, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
+/* line 24, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
 .kek {
   padding-top: 18px;
   padding-left: 18px; }
