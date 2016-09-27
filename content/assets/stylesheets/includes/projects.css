@@ -15,12 +15,11 @@
   /* align vertical */ }
 
 /* line 18, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
-.pad {
+.padbot {
   padding-bottom: 15px; }
 
 /* line 24, /Users/mehmet/Projects/zeus.ugent.be/content/assets/stylesheets/includes/projects.scss */
-.kek {
-  padding-top: 18px;
-  padding-left: 18px; }
+.padtop {
+  padding-top: 25px; }
 
 /*# sourceMappingURL=projects.css.map */
