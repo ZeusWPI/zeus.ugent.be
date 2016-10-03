@@ -37,7 +37,10 @@ preprocess do
     )
   end
 
-  academic_years_items[academic_years.max][:navigable] = true
+  academic_years_items[academic_years.max].update_attributes(
+    navigable: true,
+    order: 10
+  )
 
   all_events.each do |event|
     event[:time] = Date.parse(event[:time])
@@ -53,6 +56,8 @@ compile '/feed.xml' do
   filter :erb
   write '/feed.xml'
 end
+
+passthrough '/quotes.json'
 
 #
 # ARCHIVES

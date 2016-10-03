@@ -14,21 +14,26 @@
         <%= render '/partials/_tile.*', article: all_events[1], small_text: "Upcoming event" %>
       </div>
       <div class="tile is-parent is-4">
-        <div class="tile is-child box highlighted centering">
-          <img src="//thecatapi.com/api/images/get?format=src&type=gif&size=small">
+        <div class="tile is-child box highlighted">
+          <!-- <img src="//thecatapi.com/api/images/get?format=src&type=gif&size=small"> -->
+          <div class="content has-text-centered">
+            <blockquote id="quote" >
+              <!-- INTENTIONALLY LEFT BLANK -->
+            </blockquote>
+          </div>
         </div>
       </div>
       <div class="tile is-vertical is-2">
         <a class="tile" href="https://zeus.ugent.be/wiki">
           <div class="tile is-parent">
-            <div class="tile is-child box has-text-centered" >
+            <div class="tile is-child box imgcenter" >
               <%= fa 'wikipedia-w' %>
             </div>
           </div>
         </a>
         <a class="tile" href="/cammie">
           <div class="tile is-parent">
-            <div class="tile is-child box has-text-centered">
+            <div class="tile is-child box imgcenter">
               <%= fa 'video-camera' %>
             </div>
           </div>
@@ -37,14 +42,14 @@
       <div class="tile is-vertical is-2">
         <a class="tile" href="https://github.com/ZeusWPI">
           <div class="tile is-parent">
-            <div class="tile is-child box has-text-centered">
+            <div class="tile is-child box imgcenter">
               <%= fa 'github' %>
             </div>
           </div>
         </a>
         <a class="tile" href="https://www.facebook.com/zeus.wpi/?fref=ts">
           <div class="tile is-parent">
-            <div class="tile is-child box has-text-centered">
+            <div class="tile is-child box imgcenter">
               <%= fa 'facebook-official' %>
             </div>
           </div>
@@ -71,3 +76,4 @@
   </div>
 </div>
 <%= asset :js, :gamification %>
+<%= asset :js, :quote %>
