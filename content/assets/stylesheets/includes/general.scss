@@ -50,5 +50,6 @@ footer.footer {
 }
 
 ::selection {
-  background: $zeus-orange; /* WebKit/Blink Browsers */
+  color: white;
+  background: rgba(255, 127, 0, 0.99);
 }
