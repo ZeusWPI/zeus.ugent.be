@@ -11,4 +11,4 @@ locationlink: Sterre,Ghent Belgium
 Zeus WPI organiseert in samenwerking met de medewerkers van de HPC een rondleiding in  de S10.
 Hier bevindt zich het datacenter en sinds enkele jaren de supercomputer.
 Een echte must-see voor elke informaticus.
-Inschrijven is verplicht en kunt u doen op https://event.fkgent.be/events/111 .
+Inschrijven is verplicht en kunt u  [hier](https://event.fkgent.be/events/111) doen .
