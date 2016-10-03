@@ -1,19 +1,32 @@
-<% posts_in_year(item[:academic_year]).each do |post| %>
-<a href="<%= relative_path_to(post) %>">
-  <div class="box">
-    <article class="media">
-      <figure class="media-left">
-        <p class="image is-64x64">
-          <img src="<%= post[:banner] %>">
-        </p>
-      </figure>
-      <div class="media-content">
-        <div class="content">
-          <h2><%= post[:title] %></h2>
-          <%= excerptize(post.reps[:text].compiled_content, length: 200) %>
-        </div>
+<div class="columns" >
+  <div class="column">
+  <% posts_in_year(item[:academic_year]).each do |post| %>
+    <a href="<%= relative_path_to(post) %>" >
+      <div class="box padbox">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+            <img src="<%= post[:banner] %>">
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h2><%= post[:title] %></h2>
+              <%= excerptize(post.reps[:text].compiled_content, length: 200) %>
+            </div>
+          </div>
+        </article>
       </div>
-    </article>
+    </a>
+  <% end %>
   </div>
-</a>
-<% end %>
+  <div class="column is-narrow">
+    <ul class = "archive_list">
+      <% academic_years_items.each do |year, item| %>
+        <li class="bolder">
+          <%= link_to pretty_year(year), item %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

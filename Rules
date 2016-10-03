@@ -4,6 +4,9 @@
 require 'json'
 require 'icalendar'
 
+# Please @NoctuaNivalis
+require 'socket'
+
 #
 #
 # PREPROCESS
@@ -28,11 +31,13 @@ preprocess do
   academic_years.each do |year|
     @items.create(
       '',
-      { academic_year: year },
-      "/archives/#{year}-#{year + 1}.html",
+      { academic_year: year, title: "Blog" },
+      "/blog/#{year}-#{year + 1}.html",
       binary: false
     )
   end
+
+  academic_years_items[academic_years.max][:navigable] = true
 end
 
 #
@@ -48,7 +53,7 @@ end
 #
 # ARCHIVES
 #
-compile '/archives/*' do
+compile '/blog/*' do
   layout '/archive_page.*'
   layout '/generic.*'
   layout '/default.*'
@@ -130,6 +135,7 @@ ignore '/assets/stylesheets/includes/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
+  filter :autoprefixer if Socket.gethostname == 'abysm'
 end
 
 passthrough '/assets/images/*.{png,svg}'
