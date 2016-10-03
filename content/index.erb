@@ -15,7 +15,7 @@
       </div>
       <div class="tile is-parent is-4">
         <div class="tile is-child box highlighted">
-          <img src="//thecatapi.com/api/images/get?format=src&type=gif">
+          <img src="//thecatapi.com/api/images/get?format=src&type=gif&size=small">
         </div>
       </div>
       <div class="tile is-vertical is-2">
@@ -53,12 +53,7 @@
     </div>
     <div class="tile">
       <div class="tile is-4 is-parent">
-        <a class="tile is-child box" href="<%= relative_path_to(sorted_articles.first) %>">
-          <div class="content">
-            <h1><%= sorted_articles.first[:title] %></h1>
-            <%= sorted_articles.first[:description] %>
-          </div>
-        </a>
+        <%= render '/partials/_tile.*', article: sorted_articles.first %>
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
