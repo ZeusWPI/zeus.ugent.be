@@ -1,20 +1,16 @@
 a.box {
-  color: #000;
+  &:hover {
+    box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $blue
+  }
 }
 
 #homepage {
   .box {
-    background-color: $box-colour;
-
-    &.highlighted {
-      background-color: $highlighted-box-colour;
-      color: $highlighted-text-colour;
-
-      .content {
-        h1 {
-          color: white;
-        }
-      }
-    }
+    border-radius: 0;
   }
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
 }

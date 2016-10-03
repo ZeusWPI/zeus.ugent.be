@@ -25,7 +25,7 @@ $ "#cammie-ctrls"
 $ '.ctrl'
   .click ->
     $context = $ this
-    $.ajax "//kelder.zeus.ugent.be/webcam/cgi/ptdc.cgi",
+    $.ajax "https://kelder.zeus.ugent.be/webcam/cgi/ptdc.cgi",
       data:
         command: $context.data 'command'
         posX: $context.data 'x'

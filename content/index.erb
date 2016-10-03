@@ -7,77 +7,67 @@
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
     <div class="tile is-parent is-12">
-      <%= render '/partials/_tile.*', article: all_events[0] %>
+      <%= render '/partials/_tile.*', article: all_events[0], htmlclass: "highlighted", small_text: "Upcoming event" %>
     </div>
     <div class="tile">
       <div class="tile is-parent is-4">
-        <%= render '/partials/_tile.*', article: all_events[1], htmlclass: "highlighted" %>
+        <%= render '/partials/_tile.*', article: all_events[1], small_text: "Upcoming event" %>
       </div>
       <div class="tile is-parent is-4">
         <div class="tile is-child box highlighted">
-          IDK LOL
-        </div>
-      </div>
-      <div class="tile is-vertical is-2">
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <%= fa 'wikipedia-w' %>
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <%= fa 'video-camera' %>
+          <!-- <img src="//thecatapi.com/api/images/get?format=src&type=gif&size=small"> -->
+          <div class="content has-text-centered">
+            <blockquote id="quote" >
+              <!-- INTENTIONALLY LEFT BLANK -->
+            </blockquote>
           </div>
         </div>
       </div>
       <div class="tile is-vertical is-2">
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <%= fa 'github' %>
+        <a class="tile" href="https://zeus.ugent.be/wiki">
+          <div class="tile is-parent">
+            <div class="tile is-child box imgcenter" >
+              <%= fa 'wikipedia-w' %>
+            </div>
           </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <%= fa 'facebook-official' %>
+        </a>
+        <a class="tile" href="/cammie">
+          <div class="tile is-parent">
+            <div class="tile is-child box imgcenter">
+              <%= fa 'video-camera' %>
+            </div>
           </div>
-        </div>
+        </a>
+      </div>
+      <div class="tile is-vertical is-2">
+        <a class="tile" href="https://github.com/ZeusWPI">
+          <div class="tile is-parent">
+            <div class="tile is-child box imgcenter">
+              <%= fa 'github' %>
+            </div>
+          </div>
+        </a>
+        <a class="tile" href="https://www.facebook.com/zeus.wpi/?fref=ts">
+          <div class="tile is-parent">
+            <div class="tile is-child box imgcenter">
+              <%= fa 'facebook-official' %>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
     <div class="tile">
       <div class="tile is-4 is-parent">
-        <div class="tile is-child box">
-          <div class="content">
-            <h1><%= sorted_articles.first[:title] %></h1>
-            <%= sorted_articles.first[:description] %>
-          </div>
-        </div>
+        <%= render '/partials/_tile.*', article: sorted_articles.first, small_text: "Latest blogpost" %>
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
           <div class="tile is-child box">
-            <p>
-              Numero uno: @werthen
-            </p>
-            <p>
-              Numero dos: @myncke
-            </p>
-            <p>
-              Numero tres: @iepoev
-            </p>
-            <p>
-              Numero quatro: @becousae
-            </p>
-          </div>
-        </div>
-        <div class="tile">
-          <div class="tile is-6 is-parent">
-            <div class="tile is-child box">
-              GITHUB
-            </div>
-          </div>
-          <div class="tile is-6 is-parent">
-            <div class="tile is-child box">
-              GITHUB
+            <div class="content">
+            <h1><a href="https://zeus.ugent.be/game">Top Zeus WPI coders this week</a></h1>
+              <div id="gamification-coders">
+              <!-- EMPTY -->
+              </div>
             </div>
           </div>
         </div>
@@ -85,3 +75,5 @@
     </div>
   </div>
 </div>
+<%= asset :js, :gamification %>
+<%= asset :js, :quote %>

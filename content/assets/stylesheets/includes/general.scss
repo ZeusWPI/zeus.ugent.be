@@ -48,3 +48,8 @@ footer.footer {
     vertical-align: inherit;
   }
 }
+
+::selection {
+  color: white;
+  background: rgba(255, 127, 0, 0.99);
+}

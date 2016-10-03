@@ -1,19 +1,17 @@
 <a href="<%= relative_path_to(@article) %>" class="tile is-child box <%= @htmlclass %>">
-  <div class="main-tile">
-    <div class="content">
-      <div class="columns">
-        <div class="column">
-          <h1>
-            <%= @article[:title] %>
-          </h1>
-        </div>
-        <div class="column is-narrow">
-          <small>
-            <%= @article[:created_at] %>
-          </small>
-        </div>
+  <div class="content">
+    <div class="columns">
+      <div class="column">
+        <h2>
+          <%= @article[:title] %>
+        </h2>
       </div>
-      <%= @article[:description] %>
+      <div class="column is-narrow">
+        <small>
+          <%= @small_text %>
+        </small>
+      </div>
     </div>
+    <%= @article[:description] %>
   </div>
 </a>
