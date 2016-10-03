@@ -11,7 +11,7 @@ module IcalHelper
 
   def event_for(item)
     event = Icalendar::Event.new
-    event.dtstart = Date.parse(item[:time])
+    event.dtstart = item[:time]
     event.summary = 'A great event!'
 
     event
