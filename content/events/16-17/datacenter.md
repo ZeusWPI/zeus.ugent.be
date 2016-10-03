@@ -1,6 +1,6 @@
 ---
 title: Bezoek datacenter
-banner: http://www.dcd-converged.com/wp-content/uploads/2016/08/datacenter.jpg
+banner: https://www.dcd-converged.com/wp-content/uploads/2016/08/datacenter.jpg
 description: Zeus bezoekt het datacenter en de supercomputer in S10!
 created_at: 3-10-2016
 time: 10-10-2016
