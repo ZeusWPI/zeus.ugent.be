@@ -19,36 +19,36 @@
         </div>
       </div>
       <div class="tile is-vertical is-2">
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered" >
-            <a href="https://zeus.ugent.be/wiki">
+        <a class="tile" href="https://zeus.ugent.be/wiki">
+          <div class="tile is-parent">
+            <div class="tile is-child box has-text-centered" >
               <%= fa 'wikipedia-w' %>
-            </a>
+            </div>
           </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <a href="/cammie">
-            <%= fa 'video-camera' %>
-            </a>
+        </a>
+        <a class="tile" href="/cammie">
+          <div class="tile is-parent">
+            <div class="tile is-child box has-text-centered">
+              <%= fa 'video-camera' %>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
       <div class="tile is-vertical is-2">
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <a href="https://github.com/ZeusWPI">
+        <a class="tile" href="https://github.com/ZeusWPI">
+          <div class="tile is-parent">
+            <div class="tile is-child box has-text-centered">
               <%= fa 'github' %>
-            </a>
+            </div>
           </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box has-text-centered">
-            <a href="https://www.facebook.com/zeus.wpi/?fref=ts">
+        </a>
+        <a class="tile" href="https://www.facebook.com/zeus.wpi/?fref=ts">
+          <div class="tile is-parent">
+            <div class="tile is-child box has-text-centered">
               <%= fa 'facebook-official' %>
-            </a>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
     <div class="tile">
@@ -58,29 +58,11 @@
       <div class="tile is-vertical">
         <div class="tile is-parent">
           <div class="tile is-child box">
-            <p>
-              Numero uno: @werthen
-            </p>
-            <p>
-              Numero dos: @myncke
-            </p>
-            <p>
-              Numero tres: @iepoev
-            </p>
-            <p>
-              Numero quatro: @becousae
-            </p>
-          </div>
-        </div>
-        <div class="tile">
-          <div class="tile is-6 is-parent">
-            <div class="tile is-child box">
-              GITHUB
-            </div>
-          </div>
-          <div class="tile is-6 is-parent">
-            <div class="tile is-child box">
-              GITHUB
+            <div class="content">
+            <h1><a href="https://zeus.ugent.be/game">Top Zeus WPI coders this week</a></h1>
+              <div id="gamification-coders">
+              <!-- EMPTY -->
+              </div>
             </div>
           </div>
         </div>
@@ -88,3 +70,4 @@
     </div>
   </div>
 </div>
+<%= asset :js, :gamification %>
