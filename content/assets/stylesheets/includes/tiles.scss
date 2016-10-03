@@ -1,19 +1,12 @@
+a.box {
+  &:hover {
+    box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $blue
+  }
+}
 
 #homepage {
   .box {
-    background-color: $box-colour;
-
-    &.highlighted {
-      background-color: $highlighted-box-colour;
-
-      .content {
-        color: $highlighted-text-colour;
-
-        h1, h2 {
-          color: $highlighted-text-colour;
-        }
-      }
-    }
+    border-radius: 0;
   }
 }
 
