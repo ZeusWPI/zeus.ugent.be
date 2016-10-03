@@ -9,17 +9,35 @@
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
-
 }
 
 .padbot {
-
     padding-bottom: 15px;
-
 }
 
 .padtop {
-
     padding-top: 25px;
+}
 
+.project {
+  background-color: $body-background;
+  margin-top: 30px;
+}
+
+.logo {
+  height:  10vw;
+  width: 10vw;
+  min-width: 100px;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo-initial {
+  margin: auto;
+  color: white;
+  font-size: 6vw;
+  font-family: $family-sans-serif;
 }
