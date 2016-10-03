@@ -14,4 +14,10 @@ Op de nieuwe site kunt u alles terugvinden van de oude site, inclusief cammie ui
 De events en de blogposts zijn in een nieuw jasje gegoten en op de projecten pagina vindt U alle info van uw favoriete zeus-project.
 
 Merk je een foutje op , of heb je een verbetering? Laat het ons weten als issue, of maak zelf een Pull request aan.
-Meer info vind je hier https://github.com/ZeusWPI/zeus.ugent.be.
+Meer info vind je [hier](https://github.com/ZeusWPI/zeus.ugent.be) .
+
+
+
+
+xoxo
+met dank aan: elo
