@@ -100,6 +100,15 @@ compile '/posts/**/*', rep: :text do
   filter :strip_html
 end
 
+
+#
+# PROJECTS
+#
+compile '/projects/*' do
+  filter :kramdown
+  filter :relativize_paths, type: :html
+end
+
 #
 # GENERIC ERB PAGES
 #
