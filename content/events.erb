@@ -8,7 +8,22 @@ title: Events
     <h1>Upcoming events</h1>
   </div>
 
-  <% all_events.each do |event| %>
+  <% upcoming_events.each do |event| %>
+    <!-- <hr class="divider"> -->
+    <% if (sub_events(event)).empty? %>
+      <%= render '/partials/_event_preview.*', event: event %>
+    <% else %>
+      <% sub_events(event).each do |sub_event| %>
+        <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
+      <% end %>
+    <% end %>
+  <% end %>
+
+  <div class="content">
+    <h1>Past events</h1>
+  </div>
+
+  <% past_events.each do |event| %>
     <!-- <hr class="divider"> -->
     <% if (sub_events(event)).empty? %>
       <%= render '/partials/_event_preview.*', event: event %>

@@ -38,6 +38,10 @@ preprocess do
   end
 
   academic_years_items[academic_years.max][:navigable] = true
+
+  all_events.each do |event|
+    event[:time] = Date.parse(event[:time])
+  end
 end
 
 #

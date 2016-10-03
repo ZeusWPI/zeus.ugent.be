@@ -1,7 +1,15 @@
 require 'uri'
 module EventsHelper
   def all_events
-    @items.find_all('/events/*/*') + grouped_events
+    @items.find_all('/events/*/*').sort_by { |x| x[:time] }
+  end
+
+  def upcoming_events
+    all_events.reject { |x| x[:time] < Date.today }
+  end
+
+  def past_events
+    all_events.reject { |x| x[:time] >= Date.today }
   end
 
   def grouped_events
