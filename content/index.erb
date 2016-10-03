@@ -7,14 +7,14 @@
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
     <div class="tile is-parent is-12">
-      <%= render '/partials/_tile.*', article: all_events[0] %>
+      <%= render '/partials/_tile.*', article: all_events[0], htmlclass: "highlighted", small_text: "Upcoming event" %>
     </div>
     <div class="tile">
       <div class="tile is-parent is-4">
-        <%= render '/partials/_tile.*', article: all_events[1], htmlclass: "highlighted" %>
+        <%= render '/partials/_tile.*', article: all_events[1], small_text: "Upcoming event" %>
       </div>
       <div class="tile is-parent is-4">
-        <div class="tile is-child box highlighted">
+        <div class="tile is-child box highlighted centering">
           <img src="//thecatapi.com/api/images/get?format=src&type=gif&size=small">
         </div>
       </div>
@@ -53,7 +53,7 @@
     </div>
     <div class="tile">
       <div class="tile is-4 is-parent">
-        <%= render '/partials/_tile.*', article: sorted_articles.first %>
+        <%= render '/partials/_tile.*', article: sorted_articles.first, small_text: "Latest blogpost" %>
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
