@@ -7,6 +7,6 @@
   "license": "MIT",
   "repository": "https://github.com/ZeusWPI/zeus.ugent.be",
   "dependencies": {
-    "bulma": "^0.1.2"
+    "bulma": "^0.2.1"
   }
 }

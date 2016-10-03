@@ -5,36 +5,33 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
-<section class="hero is-medium is-info is-bold">
+<section class="hero is-medium is-info">
   <div class="hero-head">
     <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
   </div>
-  <div class="hero-body ">
-
+  <div class="hero-body">
     <div class="container">
       <div class="columns">
-
         <div class="column">
           <p class="title is-1">
-          <b>
-            <%= item[:title] %>
-          </b>
+            <b>
+              <%= item[:title] %>
+            </b>
           </p>
           <p class="subtitle is-3">
-          <%= item[:description] %>
+            <%= item[:description] %>
           </p>
           <p class="subtitle is-3">
-          <ul class="fa-ul">
-            <li><%= fa 'clock-o', li: true %><%= item[:time] %></li>
-            <li><%= fa 'globe', li: true %><%= item[:location] %></li>
-          </ul>
+            <ul class="fa-ul">
+              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y' %></li>
+              <li><%= fa 'globe', li: true %><%= item[:location] %></li>
+            </ul>
           </p>
         </div>
 
         <div class="is-narrow column banner-image">
-          <img src=<%= item[:banner] %>  >
+          <img src="<%= item[:banner] %>"  >
         </div>
-
       </div>
     </div>
   </div>
@@ -43,7 +40,7 @@
 <section class="section">
   <div class="columns">
     <div class="column is-8 is-offset-2">
-      <div class="content has-text-justified">
+      <div class="content has-text-justified is-medium">
         <%= yield %>
       </div>
     </div>

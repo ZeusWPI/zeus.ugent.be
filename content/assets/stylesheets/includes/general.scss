@@ -48,3 +48,7 @@ footer.footer {
     vertical-align: inherit;
   }
 }
+
+::selection {
+  background: $zeus-orange; /* WebKit/Blink Browsers */
+}

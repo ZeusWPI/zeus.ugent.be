@@ -1,6 +1,3 @@
-a.box {
-  color: #000;
-}
 
 #homepage {
   .box {
@@ -8,11 +5,12 @@ a.box {
 
     &.highlighted {
       background-color: $highlighted-box-colour;
-      color: $highlighted-text-colour;
 
       .content {
+        color: $highlighted-text-colour;
+
         h1, h2 {
-          color: white;
+          color: $highlighted-text-colour;
         }
       }
     }
