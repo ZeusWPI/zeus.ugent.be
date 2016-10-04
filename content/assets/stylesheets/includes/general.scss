@@ -10,6 +10,14 @@
   text-align: justify;
 }
 
+header.section {
+  padding-bottom: 10px;
+}
+
+main.section {
+  padding-top: 20px;
+}
+
 
 #navbar {
   align-items: flex-end;
@@ -66,6 +74,10 @@ footer.footer {
 
 .lana-tile {
   background-color: $tile-orange;
+}
+
+.project-tile {
+  background-color: $turquoise;
 }
 
 #tipue_search_input {
