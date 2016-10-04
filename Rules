@@ -126,8 +126,9 @@ end
 #
 # GENERIC ERB PAGES
 #
-compile '/tipuesearch_content.js' do
+compile '/*_search.json' do
   filter :erb
+  write @item.identifier.to_s
 end
 
 compile '/**/*.ics' do
@@ -157,6 +158,7 @@ compile '/assets/stylesheets/**/*.scss' do
 end
 
 passthrough '/assets/images/*.{png,svg}'
+passthrough '/assets/**/*.js'
 
 #
 #
