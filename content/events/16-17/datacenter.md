@@ -4,7 +4,7 @@ banner: https://emergingtechblog.emc.com/wp-content/uploads/2015/10/AdobeStock_8
 description: Zeus bezoekt het datacenter en de supercomputer in S10!
 created_at: 3-10-2016
 time: 10-10-2016
-location: hpc gent
+location: Datacenter UGent, S10, Sterre
 locationlink: 51.023650, 3.712018
 ---
 

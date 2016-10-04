@@ -8,9 +8,19 @@
   margin-bottom:10px;
 }
 
-.bolder a{
-  color:#565C5E;
-  font-weight: bold;
-  font-size: 20pt;
-  font-family: 'Avenir';
+.bolder {
+  > * {
+    color:#565C5E;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Avenir';
+
+    border-left: 3px solid $zeus-orange;
+
+    padding-left: 10px;
+  }
+
+  a {
+    border-left: none;
+  }
 }

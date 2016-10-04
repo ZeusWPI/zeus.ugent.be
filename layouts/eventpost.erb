@@ -16,13 +16,14 @@
           <p class="title is-1">
             <b>
               <%= item[:title] %>
+              <%= fa :search %>
             </b>
           </p>
           <p class="subtitle is-3">
             <%= item[:description] %>
           </p>
           <p class="subtitle is-3">
-            <ul class="fa-ul">
+            <ul class="fa-ul event-attributes">
               <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y' %></li>
               <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
             </ul>
