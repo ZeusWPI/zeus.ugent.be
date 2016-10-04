@@ -14,6 +14,8 @@ require 'socket'
 #
 
 preprocess do
+  `npm install`
+
   @items.find_all('/posts/**/*').each do |i|
     year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
     academic_year = year_str.to_i

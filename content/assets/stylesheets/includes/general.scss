@@ -72,6 +72,39 @@ footer.footer {
   background-color: #1E64C8;
 }
 
+.lana-tile {
+  background-color: $tile-orange;
+}
+
 .project-tile {
   background-color: $turquoise;
+}
+
+#tipue_search_input {
+  background: none;
+  padding: 12px;
+  font: inherit;
+  color: inherit;
+
+  display: flex;
+  flex-direction: row;
+
+  input {
+    background: none;
+    border: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    outline: 0;
+    margin: 0;
+
+    color: inherit;
+  }
+
+  &::before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f002 ";
+    color: inherit;
+    padding-right: 5px;
+  }
 }

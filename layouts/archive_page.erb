@@ -6,8 +6,8 @@
         <article class="media">
           <div class="media-content">
             <div class="content">
-              <h2><%= post[:title] %></h2>
-              <%= excerptize(post.reps[:text].compiled_content, length: 200) %>
+              <h2><%= post[:title] %> <small> <%= post[:created_at] %></small></h2>
+              <%= post[:description] %>
             </div>
           </div>
         </article>
@@ -19,7 +19,7 @@
     <ul class = "archive_list">
       <% academic_years_items.each do |year, item| %>
         <li class="bolder">
-          <%= link_to pretty_year(year), item %>
+          <%= link_to_unless_current pretty_year(year), item %>
         </li>
       <% end %>
     </ul>
