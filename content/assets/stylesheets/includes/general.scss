@@ -10,6 +10,14 @@
   text-align: justify;
 }
 
+header.section {
+  padding-bottom: 10px;
+}
+
+main.section {
+  padding-top: 20px;
+}
+
 
 #navbar {
   align-items: flex-end;
@@ -52,4 +60,18 @@ footer.footer {
 ::selection {
   color: white;
   background: rgba(255, 127, 0, 0.99);
+}
+
+.imgcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hydra-tile {
+  background-color: #1E64C8;
+}
+
+.lana-tile {
+  background-color: $tile-orange;
 }
