@@ -14,3 +14,23 @@ a.box {
   display: flex;
   justify-content: center;
 }
+.highlighted{
+  background: $tile-orange;
+  .content {
+    color: white;
+
+    h1, h2 {
+      color: inherit;
+    }
+    a {
+      color:inherit;
+    }
+  }
+}
+#quote{
+  font-style: italic;
+}
+
+.icon a{
+  color:$tile-orange;
+}
