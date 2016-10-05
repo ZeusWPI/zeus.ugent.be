@@ -1,11 +1,3 @@
-PATH
-  remote: /Users/don/Projects/nanoc
-  specs:
-    nanoc (4.3.4)
-      cri (~> 2.3)
-      hamster (~> 3.0)
-      ref (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -53,6 +45,10 @@ GEM
     lumberjack (1.0.10)
     method_source (0.8.2)
     mini_portile2 (2.1.0)
+    nanoc (4.3.4)
+      cri (~> 2.3)
+      hamster (~> 3.0)
+      ref (~> 2.0)
     nenv (0.3.0)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
@@ -91,7 +87,7 @@ DEPENDENCIES
   highline
   icalendar
   kramdown
-  nanoc!
+  nanoc (~> 4.3.3)
   nokogiri
   sass
   w3c_validators
