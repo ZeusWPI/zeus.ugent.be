@@ -35,6 +35,11 @@ main.section {
   .nav {
     height: 100%;
     align-items: flex-end;
+
+    .nav-right.social-icons {
+        padding-left: 10px;
+    }
+
     .nav-item {
       transition: 0.2s;
 
@@ -43,6 +48,11 @@ main.section {
 
       &:hover {
         transition: 0.2s;
+      }
+
+      &.social-icon {
+          padding-left: 5px;
+          padding-right: 5px;
       }
     }
   }
