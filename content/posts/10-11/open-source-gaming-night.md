@@ -1,12 +1,12 @@
 ---
 title: Open-source gaming night
-banner: http://zeus.ugent.be/wp-content/uploads/2010/10/08102010071.jpg
+banner: https://zeus.ugent.be/wp-content/uploads/2010/10/08102010071.jpg
 created_at: 08-10-2010
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<img src="http://zeus.ugent.be/wp-content/uploads/2010/10/08102010071.jpg" alt="" title="08102010071" width="200" height="267" class="alignright size-full wp-image-565" />
+<img src="https://zeus.ugent.be/wp-content/uploads/2010/10/08102010071.jpg" alt="" title="08102010071" width="200" height="267" class="alignright size-full wp-image-565" />
 
 Naast coden en proffessional trolling wordt er in de kelder ook wel eens gegamed. Omdat uren zitten gamen op de Atari nogal asociaal is (volgens sommigen) leek het ons een goed idee om alle leden erbij te betrekken.
 
@@ -17,9 +17,9 @@ Omdat het een open-source gaming night is, zullen we uiteraard niet de zwaarste 
 Aangezien we zo veel mogelijk willen gamen is het best om de games al op voorhand te installeren:
 
 <ul>
-<li><a href="http://www.wesnoth.org/">Battle for Wesnoth</a> (versie 1.8)</li>
-<li><a href="http://alientrap.org/nexuiz/">Nexuiz</a> (versie 2.5)</li>
-<li><a href="http://armagetronad.net/">Armagetron Advanced</a> (versie 2.8)</li>
-<li><a href="http://www.teeworlds.com/">Teeworlds</a> (versie 0.5)</li>
-<li><a href="http://www.urbanterror.info/news/home/">UrbanTerror</a> (versie 4.1)</li>
+<li><a href="https://www.wesnoth.org/">Battle for Wesnoth</a> (versie 1.8)</li>
+<li><a href="https://alientrap.org/nexuiz/">Nexuiz</a> (versie 2.5)</li>
+<li><a href="https://armagetronad.net/">Armagetron Advanced</a> (versie 2.8)</li>
+<li><a href="https://www.teeworlds.com/">Teeworlds</a> (versie 0.5)</li>
+<li><a href="https://www.urbanterror.info/news/home/">UrbanTerror</a> (versie 4.1)</li>
 </ul>

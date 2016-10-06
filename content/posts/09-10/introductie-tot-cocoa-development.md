@@ -6,7 +6,7 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-(<em>Overgenomen van de <a href="http://lievendekeyser.net/index.php?module=messagebox&action=message&msg_id=1396">blog van Lieven Dekeyser</a></em>)
+(<em>Overgenomen van de <a href="https://lievendekeyser.net/index.php?module=messagebox&action=message&msg_id=1396">blog van Lieven Dekeyser</a></em>)
 
 Over the past few months, quite a few people have started to show interest in learning Cocoa development. Most of these people are not traditional Mac developers, but the success of the iPhone has captured their imagination. "Oh it'd be cool if I could write something that could do ... and I could always have with me". 
 
@@ -27,4 +27,4 @@ Hope to see you there!
 
 [gallery]
 
-Slides en codevoorbeelden kunnen teruggevonden worden op <a href="http://planetreesoftware.com/cocoadevintro/">planetreesoftware.com/cocoadevintro/</a> na elke les.
+Slides en codevoorbeelden kunnen teruggevonden worden op <a href="https://planetreesoftware.com/cocoadevintro/">planetreesoftware.com/cocoadevintro/</a> na elke les.

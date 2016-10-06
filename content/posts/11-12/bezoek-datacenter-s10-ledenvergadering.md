@@ -1,12 +1,12 @@
 ---
 title: Bezoek datacenter S10 & Ledenvergadering
-banner: http://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png
+banner: https://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png
 created_at: 25-09-2011
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2011/09/Poster3OctDesign.png"><img src="http://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png" alt="" title="Datacenter en Ledenvergadering" width="212" height="300" class="alignright size-medium wp-image-545" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2011/09/Poster3OctDesign.png"><img src="https://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png" alt="" title="Datacenter en Ledenvergadering" width="212" height="300" class="alignright size-medium wp-image-545" /></a>
 
 Op maandag 3 oktober gaat de eerste Zeus activiteit van het nieuwe academiejaar door. We beginnen met een rondleiding in het gloednieuwe datacenter in S10.
 

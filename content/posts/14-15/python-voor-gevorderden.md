@@ -27,5 +27,5 @@ De eerste les, waarin we de complexere built-in features van Python bekijken, za
 doorgaan op 26 maart. De tweede (geheel onafhankelijke) les gaat een week later door.
 Dan bekijken we een aantal coole tools, libraries en andere toevoegingen aan Python.
 
-<b>EDIT:</b> <a href="http://kelder.zeus.ugent.be/~stijns/python-indoctrinatie.pdf">De slides staan online!</a>
+<b>EDIT:</b> <a href="https://kelder.zeus.ugent.be/~stijns/python-indoctrinatie.pdf">De slides staan online!</a>
 <b>EDIT2:</b> <a href="https://github.com/FelixVanderJeugt/pythonles2">De voorbeelden van les 2 nu ook!</a>

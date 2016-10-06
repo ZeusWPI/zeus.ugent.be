@@ -1,12 +1,12 @@
 ---
 title: Android-development introductie
-banner: http://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png
 created_at: 22-10-2010
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail.png"><img src="http://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png" alt="" title="android-thumbnail" width="212" height="300" class="alignright size-medium wp-image-586" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail.png"><img src="https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png" alt="" title="android-thumbnail" width="212" height="300" class="alignright size-medium wp-image-586" /></a>
 
 Iedereen lijkt de dag van vandaag wel een smartphone te hebben. Het is uiteraard zeer gemakkelijk om hiermee berichten te sturen, je mail te checken, te bellen, een paar blogposts te lezen op de trein... Maar wat het pas echt interessant maakt -- voor informatici -- is dat het ook zeer eenvoudig is om zelf applicaties te ontwikkelen.
 

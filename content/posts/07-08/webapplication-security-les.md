@@ -6,7 +6,7 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-Edit (15/11/07): Enric heeft de <a href="http://ciri.be/blog/?p=26">files en slides</a> on-line gezet op zijn persoonlijke blog. Enjoy!
+Edit (15/11/07): Enric heeft de <a href="https://ciri.be/blog/?p=26">files en slides</a> on-line gezet op zijn persoonlijke blog. Enjoy!
 
 
 Zeus geeft les! Woensdagavond om 18u00 zal Enric Junqué de Fortuny ons 

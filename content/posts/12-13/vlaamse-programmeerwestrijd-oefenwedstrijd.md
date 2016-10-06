@@ -1,17 +1,17 @@
 ---
 title: Vlaamse Programmeerwedstrijd & oefenwedstrijd
-banner: http://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png
 created_at: 25-02-2013
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0.png"><img src="http://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png" alt="Poster" width="211" height="300" class="alignright size-medium wp-image-1521" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0.png"><img src="https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png" alt="Poster" width="211" height="300" class="alignright size-medium wp-image-1521" /></a>
 
 Op woensdag 17 april vindt de Vlaamse Programmeerwedstrijd opnieuw plaats, ditmaal in Brussel. Net zoals vorig jaar leggen we een bus in. Daarnaast organiseren we dit jaar ook een eigen oefenwedstrijd; zo weet je direct wat je moet verwachten op zo’n wedstrijd.
 
 <strong>VPW</strong>
-De Vlaamse Programmeerwedstrijd is een wedstrijd tussen teams van verschillende universiteiten en hogescholen, waarbij je per groep van drie personen op één namiddag zoveel mogelijk informaticaproblemen probeert op te lossen. Je neemt deel binnen je eigen niveau, dus iedereen maakt kans om te winnen. Elk lid van de beste drie teams krijgt een mooie prijs (uit een immense prijzenpot van €5.000). Je mag onder andere programmeren in Java, Haskell, Prolog, C, C++, C#, Python, enzovoort. Meer informatie, mogelijkheid tot inschrijven en voorbeeldvragen vind je op <a href="http://www.vlaamseprogrammeerwedstrijd.be" title="http://www.vlaamseprogrammeerwedstrijd.be">http://www.vlaamseprogrammeerwedstrijd.be</a>.
+De Vlaamse Programmeerwedstrijd is een wedstrijd tussen teams van verschillende universiteiten en hogescholen, waarbij je per groep van drie personen op één namiddag zoveel mogelijk informaticaproblemen probeert op te lossen. Je neemt deel binnen je eigen niveau, dus iedereen maakt kans om te winnen. Elk lid van de beste drie teams krijgt een mooie prijs (uit een immense prijzenpot van €5.000). Je mag onder andere programmeren in Java, Haskell, Prolog, C, C++, C#, Python, enzovoort. Meer informatie, mogelijkheid tot inschrijven en voorbeeldvragen vind je op <a href="https://www.vlaamseprogrammeerwedstrijd.be" title="https://www.vlaamseprogrammeerwedstrijd.be">https://www.vlaamseprogrammeerwedstrijd.be</a>.
 
 <strong>Vervoer</strong>
 Ook dit jaar voorzien we met Zeus WPI gratis busvervoer naar Brussel voor studenten van de UGent. Wil je met ons mee? Schrijf je team dan ook in bij ons via het formulier hieronder. Dankzij de medewerking van de onderzoeksgroep Multimedia Lab (ELIS) kunnen we jullie deze busreis volledig gratis aanbieden.

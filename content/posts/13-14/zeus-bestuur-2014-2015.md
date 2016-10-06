@@ -17,4 +17,4 @@ Afgelopen ledenvergadering verkozen we een nieuw bestuur! Met trots stellen we j
 
 <strong>Vaste medewerker:</strong> Mats Myncke
 
-Met z'n allen zullen we jullie het komende academiejaar tal van toffe Zeusactiviteiten voorschotelen en alles in goede banen proberen te leiden! Ideëen voor activiteiten mogen altijd <a href="http://zeus.ugent.be/contact/">via mail</a> worden doorgestuurd of via een van de bovenstaande mensen.
+Met z'n allen zullen we jullie het komende academiejaar tal van toffe Zeusactiviteiten voorschotelen en alles in goede banen proberen te leiden! Ideëen voor activiteiten mogen altijd <a href="https://zeus.ugent.be/contact/">via mail</a> worden doorgestuurd of via een van de bovenstaande mensen.

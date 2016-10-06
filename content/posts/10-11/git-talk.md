@@ -1,18 +1,18 @@
 ---
 title: Beheer je source code met Git!
-banner: http://zeus.ugent.be/wp-content/uploads/2010/11/git-212x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2010/11/git-212x300.png
 created_at: 23-11-2010
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2010/11/git.png"><img class="alignright size-medium wp-image-643" src="http://zeus.ugent.be/wp-content/uploads/2010/11/git-212x300.png" alt="" width="212" height="300" /></a> Als informaticus kan het wel eens gebeuren dat je met verschillende versies van je broncode zit. In het begin valt dit misschien nog te onderhouden, maar hoe wat gebeurt er als je stukjes code uit de ene versie naar de andere wil brengen zonder dat het een complete chaos wordt? En wat als je met verschillende mensen wil samenwerken? Het antwoord hierop is <strong>version control</strong>.
+<a href="https://zeus.ugent.be/wp-content/uploads/2010/11/git.png"><img class="alignright size-medium wp-image-643" src="https://zeus.ugent.be/wp-content/uploads/2010/11/git-212x300.png" alt="" width="212" height="300" /></a> Als informaticus kan het wel eens gebeuren dat je met verschillende versies van je broncode zit. In het begin valt dit misschien nog te onderhouden, maar hoe wat gebeurt er als je stukjes code uit de ene versie naar de andere wil brengen zonder dat het een complete chaos wordt? En wat als je met verschillende mensen wil samenwerken? Het antwoord hierop is <strong>version control</strong>.
 
-Daarom geven we op 2 december een interactieve introductie tot <a href="http://git-scm.com/">Git</a>, een software-tool om je code te beheren. Die zal doorgaan in PC-lokaal Turing om 19u00. Op <a href="http://help.github.com/git-installation-redirect">help.github.com</a> vind je instructies om Git te installeren wat aan te raden is als je wil meevolgen in de les.
+Daarom geven we op 2 december een interactieve introductie tot <a href="https://git-scm.com/">Git</a>, een software-tool om je code te beheren. Die zal doorgaan in PC-lokaal Turing om 19u00. Op <a href="https://help.github.com/git-installation-redirect">help.github.com</a> vind je instructies om Git te installeren wat aan te raden is als je wil meevolgen in de les.
 
-<strong>Update:</strong> De slides van Jasper en Toon kan je <a href="http://jaspervdj.be/files/2010-zeus-git.pdf">hier</a> terugvinden.
+<strong>Update:</strong> De slides van Jasper en Toon kan je <a href="https://jaspervdj.be/files/2010-zeus-git.pdf">hier</a> terugvinden.
 
-Ook hebben we een nieuw boek in de <a href="http://zeus.ugent.be/kelder/bibliotheek/">Zeus-bib</a>: '<a href="http://oreilly.com/catalog/9780596520137">Version Control with Git</a>'. Deze hebben we gekregen van O'Reilly als User Group om te reviewen (die je hieronder vindt). Moest je dit boek willen uitlenen, kom dan gerust eens langs in de kelder.
+Ook hebben we een nieuw boek in de <a href="https://zeus.ugent.be/kelder/bibliotheek/">Zeus-bib</a>: '<a href="https://oreilly.com/catalog/9780596520137">Version Control with Git</a>'. Deze hebben we gekregen van O'Reilly als User Group om te reviewen (die je hieronder vindt). Moest je dit boek willen uitlenen, kom dan gerust eens langs in de kelder.
 
 <!--more-->
 'Version Control with Git' is een uitstekende introductie voor iedereen die nog nooit gewerkt heeft met een VCS (Version Control System). Het geeft niet enkel een overzicht van de meest belangrijke Git commando's, maar gaat tot in detail uitleggen hoe Git intern werkt.

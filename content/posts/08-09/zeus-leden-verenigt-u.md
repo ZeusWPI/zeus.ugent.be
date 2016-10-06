@@ -1,12 +1,12 @@
 ---
 title: Zeus-leden, verenigt u!
-banner: http://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg
+banner: https://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg
 created_at: 22-08-2009
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<img src="http://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg" alt="Ledenvergadering" title="Ledenvergadering" width="221" height="300" class="alignright size-full wp-image-275" />
+<img src="https://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg" alt="Ledenvergadering" title="Ledenvergadering" width="221" height="300" class="alignright size-full wp-image-275" />
 
 Een nieuw academiejaar, een nieuw praesidium, een nieuwe reeks activiteiten en hopelijk ook een reeks nieuwe leden.
 

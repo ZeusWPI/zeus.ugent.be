@@ -1,12 +1,12 @@
 ---
 title: Durf Ondernemen Speeddating
-banner: http://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png
 created_at: 20-03-2012
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3.png"><img src="http://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png" alt="" title="Speeddating" width="212" height="300" class="alignright size-medium wp-image-1063" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3.png"><img src="https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png" alt="" title="Speeddating" width="212" height="300" class="alignright size-medium wp-image-1063" /></a>
 
 Omdat het niet evident is om een onderneming op te starten en niet in het minst om daarvoor een goed startidee te hebben, hebben we besloten jullie op woensdag 28 maart om 19u een handje te helpen.
 

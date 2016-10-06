@@ -12,10 +12,10 @@ Nu Pasen er al een weekje op zit en iedereen zijn chocolade-eitjes opgegeten hee
 
 De lezing gaat door op Woensdag 16 april om 18:00 in het gebouw van IBBT. Zeker afkomen, want het wordt superinteressant. Wie weet mogen we met de speeltjes van het IBBT spelen[2].
 
-[0] <a href="http://www.ibcn.intec.ugent.be/">http://www.ibcn.intec.ugent.be/</a>
-[1] <a href="http://www.ibbt.be">IBBT</a>
+[0] <a href="https://www.ibcn.intec.ugent.be/">https://www.ibcn.intec.ugent.be/</a>
+[1] <a href="https://www.ibbt.be">IBBT</a>
 Zuiderpoort Office Park
 Gaston Crommenlaan 8
 B-9050 Gent-Ledeberg
 Belgium
-[2] <a href="http://n00.be/archives/650/">http://n00.be/archives/650/</a>
+[2] <a href="https://n00.be/archives/650/">https://n00.be/archives/650/</a>

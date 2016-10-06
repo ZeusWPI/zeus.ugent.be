@@ -14,6 +14,6 @@ Op <strong>woensdag 5 maart</strong> organiseert Zeus in samenwerking met VTK en
 
 Deze introductie vindt plaats in de <strong>Jozef Plateauzaal in de Plateau en begint om 19:00</strong>. Iedereen is welkom!
 
-Ben je zelf een mentor of heb je ooit meegedaan aan GSoC? En ben je geïnteresseerd om je project voor te stellen of ervaringen te delen op deze avond? <a href="http://zeus.ugent.be/contact/" title="Contact">Laat het ons weten</a>!
+Ben je zelf een mentor of heb je ooit meegedaan aan GSoC? En ben je geïnteresseerd om je project voor te stellen of ervaringen te delen op deze avond? <a href="https://zeus.ugent.be/contact/" title="Contact">Laat het ons weten</a>!
 
-De activiteit is inmiddels afgelopen. Een blogpost over deze avond is <a href="http://ruleant.blogspot.be/2014/03/google-summer-of-code-2014-meetup-at.html">hier</a> te vinden!
+De activiteit is inmiddels afgelopen. Een blogpost over deze avond is <a href="https://ruleant.blogspot.be/2014/03/google-summer-of-code-2014-meetup-at.html">hier</a> te vinden!

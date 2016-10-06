@@ -6,11 +6,11 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-<em>(Bericht overgenomen van <a href="http://zeus.ugent.be/~blackskad/blog/">Blackskad's blog</a>)</em>
+<em>(Bericht overgenomen van <a href="https://zeus.ugent.be/~blackskad/blog/">Blackskad's blog</a>)</em>
 
 When I became an active member of zeus, we inherited a little network. It contained some desktops and several servers. They all had an ip in the subnet 10.1.1.0/24, and were connected to the internet using a single IP. (well, not completely true, there was a spare gateway. But that didn’t make any difference.)
 
-We had a problem though: we couldn’t reach our webserver from internal clients using the normal url. When we wanted to surf to <a href="http://zeus.ugent.be">zeus.ugent.be</a>, it just hang on “connecting to server”.
+We had a problem though: we couldn’t reach our webserver from internal clients using the normal url. When we wanted to surf to <a href="https://zeus.ugent.be">zeus.ugent.be</a>, it just hang on “connecting to server”.
 
 Well, tcpdump and wireshark to the rescue! Using those tools, we noticed this problem:
 

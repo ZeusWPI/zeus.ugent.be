@@ -6,7 +6,7 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="http://zeus.ugent.be/2016/02/26/badass-battle-bots/battlebots_small/" rel="attachment wp-att-2448"><img src="https://zeus.ugent.be/wp-content/uploads/2016/02/battlebots_small-300x212.jpg" alt="battlebots_small" width="300" height="212" class="alignright size-medium wp-image-2448" /></a>
+<a href="https://zeus.ugent.be/2016/02/26/badass-battle-bots/battlebots_small/" rel="attachment wp-att-2448"><img src="https://zeus.ugent.be/wp-content/uploads/2016/02/battlebots_small-300x212.jpg" alt="battlebots_small" width="300" height="212" class="alignright size-medium wp-image-2448" /></a>
 
 At the beginning of this semester, we, Zeus WPI, <a href="https://zeus.ugent.be/2016/02/26/badass-battle-bots/">announced the start</a> of our first programming AI competition, <strong>Badass Battle Bots</strong>. A few weeks after the initial brainstorming session, we are proud to announce that the updated website has launched in beta mode. As of now, it is possible to upload your own Badass Battle Bot and see it partake in battles of epic proportions. 
 

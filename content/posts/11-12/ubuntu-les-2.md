@@ -1,12 +1,12 @@
 ---
 title: Ubuntu-les
-banner: http://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png
 created_at: 16-11-2011
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu.png"><img src="http://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png" alt="" title="ubuntu" width="212" height="300" class="alignright size-medium wp-image-968" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu.png"><img src="https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png" alt="" title="ubuntu" width="212" height="300" class="alignright size-medium wp-image-968" /></a>
 
 Bezoekers van de Zeus-kelder weten ondertussen wel dat wij niet het wijdverspreide Windows-besturingssysteem draaien maar het vrije Ubuntu. Voor velen is Ubuntu een veiliger, stabieler en eenvoudiger alternatief voor Windows, en dat allemaal nog gratis ook.
 

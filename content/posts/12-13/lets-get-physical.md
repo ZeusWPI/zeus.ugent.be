@@ -1,12 +1,12 @@
 ---
 title: Let's get physical!
-banner: http://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6-212x300.png
+banner: https://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6-212x300.png
 created_at: 02-10-2012
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6.png"><img src="http://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6-212x300.png" alt="" title="Speeddating" width="212" height="300" class="alignright size-medium wp-image-1063" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6.png"><img src="https://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6-212x300.png" alt="" title="Speeddating" width="212" height="300" class="alignright size-medium wp-image-1063" /></a>
 
 Het nieuwe academiejaar is begonnen en ook de Zeus activiteiten starten weer! We beginnen met een <strong>ledenvergadering</strong> waarin we kort Zeus, het bestuur en de komende activiteiten zullen voorstellen. Deze wordt meteen gevolgd door een <strong>hands-on hardware-avond</strong> waarin we de Zeus kelder een upgrade zullen geven:
 

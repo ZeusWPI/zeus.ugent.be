@@ -10,6 +10,6 @@ Tussen alle informaticagerichte activiteiten in mogen we ook wel eens ontspannen
 
 Op <strong>8 en 9 november</strong> kunnen de gamers onder ons het opnemen tegen medestudenten en misschien wel enkele mooie prijzen in de wacht slepen tijdens de toernooitjes. We spelen onder meer League of Legends, Trackmania, Teeworlds, Unreal Tournament 2004 en nog vele andere games.
 
-<strong>Meer info</strong> is te vinden <strong>op</strong> <a href="http://www.zeus.ugent.be/lan/lan-praktisch">http://www.zeus.ugent.be/lan/</a>. <strong>Inschrijven is verplicht</strong> op <a href="http://zeus.ugent.be/lan/inschrijven/" title="http://zeus.ugent.be/lan/inschrijven/">deze link</a></strong>! De kostprijs bedraagt €2. Hiervoor krijg je een gratis drankje aangeboden!
+<strong>Meer info</strong> is te vinden <strong>op</strong> <a href="https://www.zeus.ugent.be/lan/lan-praktisch">https://www.zeus.ugent.be/lan/</a>. <strong>Inschrijven is verplicht</strong> op <a href="https://zeus.ugent.be/lan/inschrijven/" title="https://zeus.ugent.be/lan/inschrijven/">deze link</a></strong>! De kostprijs bedraagt €2. Hiervoor krijg je een gratis drankje aangeboden!
 
-Deze activiteit vindt plaats in de <strong>Trechterzaal van de Therminal</strong> (<a href="http://goo.gl/maps/BYjls" title="route" target="_blank">route</a>). Iedereen is welkom <strong>vanaf 16h</strong> om zijn systeem op te stellen!
+Deze activiteit vindt plaats in de <strong>Trechterzaal van de Therminal</strong> (<a href="https://goo.gl/maps/BYjls" title="route" target="_blank">route</a>). Iedereen is welkom <strong>vanaf 16h</strong> om zijn systeem op te stellen!

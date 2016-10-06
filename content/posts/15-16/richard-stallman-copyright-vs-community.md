@@ -12,6 +12,6 @@ location: Zeus kelder
 
 The global corporations that profit from copyright are lobbying to increase their copyright powers, while suppressing public access to technology. But if we seriously hope to serve the only legitimate purpose of copyright - to promote progress, for the benefit of the public - then we must make changes in the other direction.”
 
-More information at: <a href="http://freeasinfreedom.be">http://freeasinfreedom.be</a>
+More information at: <a href="https://freeasinfreedom.be">https://freeasinfreedom.be</a>
 Venue : <strong>Auditorium Quetelet - Tweekerkenstraat 2 - 9000 Gent</strong>
 Time : <strong>November 17 from 07:30 PM to 09:30 PM</strong>

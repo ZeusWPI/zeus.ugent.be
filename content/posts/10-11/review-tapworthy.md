@@ -1,16 +1,16 @@
 ---
 title: Review&#58; Tapworthy
-banner: http://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy-228x300.jpg
+banner: https://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy-228x300.jpg
 created_at: 15-05-2011
 time: 23-02-2016
 location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy.jpg"><img src="http://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy-228x300.jpg" alt="" title="Tapworthy" width="228" height="300" class="alignleft size-medium wp-image-689" /></a>
+<a href="https://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy.jpg"><img src="https://zeus.ugent.be/wp-content/uploads/2011/04/tapworthy-228x300.jpg" alt="" title="Tapworthy" width="228" height="300" class="alignleft size-medium wp-image-689" /></a>
 
-As an <a href="http://zeus.ugent.be/kelder/bibliotheek/">O'Reilly User Group</a> we regularly get to review books for them. This time, <a href="http://pictonation.com/">Nicolas Overloop</a> read <a href="http://oreilly.com/catalog/0636920001133">Tapworthy: Designing Great iPhone Apps</a> and wrote the following review.
+As an <a href="https://zeus.ugent.be/kelder/bibliotheek/">O'Reilly User Group</a> we regularly get to review books for them. This time, <a href="https://pictonation.com/">Nicolas Overloop</a> read <a href="https://oreilly.com/catalog/0636920001133">Tapworthy: Designing Great iPhone Apps</a> and wrote the following review.
 
-I haven’t developed a single mobile application in my life but I have wanted to do this for a long time. The possibilities of mobile and tablet applications are huge and we have only scratched the surface of its possibilities. I learned about tapworthy on <a href="http://www.inspireux.com/">inspireux.com</a> when I was learning about UX-design fundamentals.
+I haven’t developed a single mobile application in my life but I have wanted to do this for a long time. The possibilities of mobile and tablet applications are huge and we have only scratched the surface of its possibilities. I learned about tapworthy on <a href="https://www.inspireux.com/">inspireux.com</a> when I was learning about UX-design fundamentals.
 
 <strong>tl;dr:</strong> Tapworthy is a must-read if you want to build mobile applications.
 

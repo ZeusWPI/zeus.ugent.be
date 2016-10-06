@@ -13,4 +13,4 @@ Sigasi is een start-up dat Sigasi HDT maakt en verkoopt, Sigasi HDT is een "Inte
 Woensdag 10 februari om 20u
 campus De Sterre,
 Gebouw S9,
-Auditorium V3<a href="http://zeus.ugent.be/wp-content/uploads/2010/02/ondernemers.pdf"></a>
+Auditorium V3<a href="https://zeus.ugent.be/wp-content/uploads/2010/02/ondernemers.pdf"></a>
