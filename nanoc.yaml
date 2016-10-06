@@ -3,7 +3,7 @@ title: Zeus WPI
 author_name: ''
 author_uri: ''
 
-base_url: https://zeus.ugent.be/beta
+base_url: https://zeus.ugent.be
 
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`
 # (default) or `"legacy"`. The former will enable glob patterns, which behave
@@ -99,5 +99,5 @@ checks:
 deploy:
   public:
     kind: rsync
-    dst:  zeusweb-beta@zeus.ugent.be:/home/zeusweb-beta/public
+    dst:  zeusweb-new@zeus.ugent.be:/home/zeusweb-new/public
     options: [ '-glpPrtvz', '-e', 'ssh -p 2222', '--delete']

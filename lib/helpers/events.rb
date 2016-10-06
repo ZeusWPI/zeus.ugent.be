@@ -5,11 +5,11 @@ module EventsHelper
   end
 
   def upcoming_events
-    all_events.reject { |x| x[:time] < Date.today }
+    all_events.reject { |x| x[:time] <= Date.today }
   end
 
   def past_events
-    all_events.reject { |x| x[:time] >= Date.today }
+    all_events.reject { |x| x[:time] > Date.today }
   end
 
   def grouped_events
