@@ -1,0 +1,15 @@
+---
+title: Smalltalk/StratifiedJS
+banner: /logo.png
+created_at: 12-04-2011
+time: 23-02-2016
+location: Zeus kelder
+---
+
+Woensdag 27 april organiseert Zeus twee tech talks, met als bedoeling kennis te maken met twee alternatieve, interessante programmeertalen.
+
+Denis Defreyne van <a href="http://www.mediagenix.tv/">MediaGeniX</a> zal ons een inleiding geven tot Smalltalk. Smalltalk is een zeer dynamische object-georiënteerde taal die initieel is ontwikkeld voor educatieve doeleinden, maar die ook zeer nuttig bleek om grote projecten in te ontwikkelen. Bovendien had Smalltalk een zeer grote invloed op meer recente programmeertalen zoals Java, Ruby, Objective-C en Scala.
+
+De tweede talk van deze avond gaat over StratifiedJS, een taal die op een Javascript VM draait. Die VM's zijn de laatste tijd sterk in trek door sterke toenames in snelheid (denk maar aan Google V8) en worden dus een interessant target voor ontwikkelaars van talen en frameworks. Wij laten Alexander Fritze van <a href="http://onilabs.com/">OniLabs</a> aan het woord over hun project StratifiedJS, een uitbreiding op Javascript die het werken met concurrency en asynchrone activiteiten sterk vergemakkelijkt, op de server of in de browser.
+
+Iedereen is welkom om 19 uur in V2, gebouw S9, campus Sterre.
