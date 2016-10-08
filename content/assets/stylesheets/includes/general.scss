@@ -50,6 +50,15 @@ main.section {
           padding-left: 5px;
           padding-right: 5px;
       }
+
+      &.is-tab {
+          border-bottom: 3px solid transparent;
+          border-top: 3px solid transparent;
+
+          &:hover, &.is-active {
+              border-bottom-color: $zeus-orange;
+          }
+      }
     }
   }
 }
