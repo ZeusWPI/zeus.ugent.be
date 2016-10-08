@@ -1,14 +1,1 @@
-{ "pages": [
-  <% articles.each_with_index do |e, i| %>
-    {
-      "title": "<%= e[:title] %>",
-      "url": "<%= url_for(e) %>",
-      "text": "<%= excerptize(e.reps[:text].compiled_content, length: 200).gsub(/\n/, ' ') %>",
-      "tags": ""
-    <% if i < articles.size - 1 %>
-    },
-    <% else %>
-    }
-    <% end %>
-  <% end %>
-]}
+<%= blog_search_json %>

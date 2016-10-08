@@ -12,3 +12,4 @@ include NavigationHelper
 include DataHelper
 include FontAwesomeHelper
 include ProjectsHelper
+include SearchHelper

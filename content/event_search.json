@@ -1,14 +1,1 @@
-{ "pages": [
-  <% all_events.each_with_index do |e, i| %>
-    {
-      "title": "<%= e[:title] %>",
-      "url": "<%= url_for(e) %>",
-      "text": "<%= excerptize(e.reps[:text].compiled_content, length: 200).gsub(/\n/, ' ') %>",
-      "tags": ""
-    <% if i < articles.size %>
-    },
-    <% else %>
-    }
-    <% end %>
-  <% end %>
-]}
+<%= event_search_json %>
