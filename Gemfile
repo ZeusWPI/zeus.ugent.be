@@ -22,6 +22,7 @@ gem 'autoprefixer-rails'
 group :development do
   gem 'adsf'
   gem 'highline'
+  gem 'terminal-notifier-guard'
 end
 
 group :nanoc do

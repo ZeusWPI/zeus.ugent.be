@@ -21,13 +21,23 @@
             <b>
               <%= item[:title] %>
             </b>
+            <span class="event-social-icons">
+              <% if item[:facebook] %>
+              <a href="<%= item[:facebook] %>">
+                <%= fa :facebook %>
+              </a>
+              <% end %>
+              <a href="<%= item.path rep: :ical %>">
+                <%= fa :calendar %>
+              </a>
+            </span>
           </p>
           <p class="subtitle is-3">
             <%= item[:description] %>
           </p>
           <p class="subtitle is-3">
             <ul class="fa-ul event-attributes">
-              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y' %></li>
+              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
               <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
             </ul>
           </p>

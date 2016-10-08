@@ -70,6 +70,7 @@ GEM
     sass (3.4.22)
     shellany (0.0.1)
     slop (3.6.0)
+    terminal-notifier-guard (1.7.0)
     thor (0.19.1)
     w3c_validators (1.2)
       json
@@ -90,6 +91,7 @@ DEPENDENCIES
   nanoc (~> 4.3.3)
   nokogiri
   sass
+  terminal-notifier-guard
   w3c_validators
 
 BUNDLED WITH
