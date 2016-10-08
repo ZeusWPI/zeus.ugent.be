@@ -36,10 +36,6 @@ main.section {
     height: 100%;
     align-items: flex-end;
 
-    .nav-right.social-icons {
-        padding-left: 10px;
-    }
-
     .nav-item {
       transition: 0.2s;
 
@@ -102,6 +98,8 @@ footer.footer {
 
   display: flex;
   flex-direction: row;
+
+  justify-content: inherit;
 
   transition: all 0.5s;
 
