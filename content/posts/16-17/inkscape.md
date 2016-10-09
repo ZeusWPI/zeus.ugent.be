@@ -29,12 +29,12 @@ Als je een idee voor een poster (of om het even welke tekening/design) hebt, beg
 en google hetgeen je niet kent.
 Na een tijdje ken je dan wel de meeste functionaliteiten en kun je je er eens in verdiepen a.d.h.v. artikels.
 
-Maar als je genoeg zin en tijd hebt kun je natturlijk ook gewoon eraan beginnen en zoveel mogelijk uittesten!
+Maar als je genoeg zin en tijd hebt kun je natuurlijk ook gewoon eraan beginnen en zoveel mogelijk uittesten!
 
 Wat imo wel belangrijk om weten is zijn volgende zaken:
 
-* Je kunt met verschillende lagen werken, en je kunt lagen vastzetten. 
-  Als je verschillende zaken boveop elkaar wilt, kun je dus de onderste laag even vastzetten zodat je je niet kunt misklikken.
+* Je kunt met verschillende lagen werken en je kunt lagen vastzetten. 
+  Als je verschillende zaken bovenop elkaar wilt, kun je dus de onderste laag even vastzetten zodat je je niet kunt misklikken.
 
 * Bij *Bestand > Documenteigenschappen* kun je de grootte van je blad aanpassen,
   je hebt allerlei groottes, van standaard A4 tot poster formaat en business kaartjes en nog veel meer.
