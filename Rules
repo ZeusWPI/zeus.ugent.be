@@ -33,7 +33,7 @@ preprocess do
   academic_years.each do |year|
     @items.create(
       '',
-      { academic_year: year, title: "Blog" },
+      { academic_year: year, title: 'Blog' },
       "/blog/#{year}-#{year + 1}.html",
       binary: false
     )
@@ -45,7 +45,7 @@ preprocess do
   )
 
   all_events.each do |event|
-    event[:time] = Date.parse(event[:time])
+    event[:time] = DateTime.parse(event[:time])
   end
 end
 

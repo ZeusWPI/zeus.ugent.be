@@ -8,9 +8,6 @@
       Zeus WPI | <%= item[:title] || 'Werkgroep Informatica van de Universiteit Gent' %>
     </title>
 
-    <!-- Font Awesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
     <link rel="icon" href="/assets/images/favicon32.png" type="image/x-icon" />
 
     <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
@@ -39,6 +36,9 @@
     <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     <%= asset :css, :main %>
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <%= content_for(@item, :head) %>
   </head>

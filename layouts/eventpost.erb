@@ -1,11 +1,15 @@
 <% content_for :head do %>
-<meta property="og:image" content="<%= item[:banner] %>" />
+<meta property="og:image" content="<%= item[:image] %>" />
 <meta property="og:title" content="<%= item[:title] %>" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="<%= url_for(item) %>" />
 <% end %>
 
+<% if item[:banner] %>
+<section class="hero is-medium is-primary is-bold" style="background-image:url('<%= item[:banner] %>');">
+<% else %>
 <section class="hero is-medium is-primary is-bold">
+<% end %>
   <div class="hero-head">
     <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
   </div>
@@ -17,20 +21,30 @@
             <b>
               <%= item[:title] %>
             </b>
+            <span class="event-social-icons">
+              <% if item[:facebook] %>
+              <a href="<%= item[:facebook] %>">
+                <%= fa :facebook %>
+              </a>
+              <% end %>
+              <a href="<%= item.path rep: :ical %>">
+                <%= fa :calendar %>
+              </a>
+            </span>
           </p>
           <p class="subtitle is-3">
             <%= item[:description] %>
           </p>
           <p class="subtitle is-3">
             <ul class="fa-ul event-attributes">
-              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y' %></li>
+              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
               <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
             </ul>
           </p>
         </div>
 
         <div class="is-narrow column banner-image">
-          <img src="<%= item[:banner] %>"  >
+          <img src="<%= item[:image] %>"  >
         </div>
       </div>
     </div>
