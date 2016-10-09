@@ -20,4 +20,4 @@ Meer info vind je [hier](https://github.com/ZeusWPI/zeus.ugent.be) .
 
 
 xoxo
-met dank aan: elo
+elo
