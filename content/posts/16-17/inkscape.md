@@ -18,7 +18,7 @@ wat dus inhoudt dat je een kleine afbeelding op een grote poster kunt zetten, zo
 Daarnaast kan je er natuurlijk ook eenvoudiger dingen mee doen, onze LaTeX poster bvb bestaat uit een logo, een afbeelding (gephotoshopped door Don) en dan wat tekst met alle info.
 Ik vond dit alvast een goed begin ;)
 
-En hetgeen Inkscape helemaal fantastisch maakt is dat de gehele software Free en open source is, een zeus-approved sticker zou dus helemaal op z'n plaats zijn.
+En hetgeen Inkscape helemaal fantastisch maakt is dat de gehele software Free en open source is, een Zeus-approved sticker zou dus helemaal op z'n plaats zijn.
 
 
 ## Inkscape
