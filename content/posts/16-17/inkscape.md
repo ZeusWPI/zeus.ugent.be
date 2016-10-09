@@ -11,7 +11,7 @@ Ik had nog nooit een poster gemaakt en voor het eerste event kreeg ik dan ook hu
 die een zalige poster voor onze Linux Install party maakte. (Bekijk hem zeker!)
 
 Maar ja, ik moet toch ooit ook eens zelf een poster maken, nee?
-Op aanraden van Noctua ging ik dus aan de slag met ![Inkscape](//inkscape.org/),
+Op aanraden van Noctua ging ik dus aan de slag met [Inkscape](//inkscape.org/),
 een relatief simpel programma waar je heel toffe vectorafbeeldingen mee kunt maken.
 Hetgeen fantastisch is aan dit formaat (.svg) is dat je eindeloos kan zoomen,
 wat dus inhoudt dat je een kleine afbeelding op een grote poster kunt zetten, zonder dat je die vieze pixels te zien krijgt!
