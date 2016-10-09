@@ -19,8 +19,8 @@ module ArchiveHelper
   end
 
   def posts_in_year(academic_year)
-    items.find_all('/posts/**/*').select do |post|
+    items.find_all('/posts/**/*').sort_by { |x| Date.parse x[:created_at] }.select do |post|
       post[:academic_year] == academic_year
-    end
+    end.reverse
   end
 end
