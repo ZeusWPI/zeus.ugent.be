@@ -22,5 +22,5 @@ TL;DR
 Zeus wordt 25
 Receptie, bar en hapjes
 31 oktober, 20h, [Maaltebruggekasteel](http://www.maaltebruggekasteel.be/)
-Inschrijvingen [hier](gandalf-link), +1's toegelaten
+Inschrijvingen [hier](https://event.fkgent.be/events/115), +1's toegelaten
 Facebook [hier](facebook-link)
