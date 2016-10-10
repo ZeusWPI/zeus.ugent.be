@@ -24,10 +24,11 @@ In geval van vragen, contacteer ons zeker op bestuur@zeus.ugent.be.
 We hopen alvast dat je aanwezig kan zijn.
 
 ### TL;DR
-Zeus wordt 25  
+Zeus wordt 25   
 Receptie, bar en hapjes  
 31 oktober, 20h  
 +1's toegelaten  
+€5 inkom  
 [Maaltebruggekasteel](http://www.maaltebruggekasteel.be/)  
 [Inschrijven](https://event.fkgent.be/events/115)  
 [Facebook](https://www.facebook.com/events/1125772020841727/)  
