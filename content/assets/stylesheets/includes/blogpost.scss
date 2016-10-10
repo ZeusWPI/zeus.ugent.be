@@ -4,7 +4,23 @@
   }
 }
 
-.padbox{
+dl {
+  dt {
+    display: inline;
+    font-weight: bold;
+  }
+
+  dd {
+    display: inline;
+
+    &::after {
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+.padbox {
   margin-bottom:10px;
 }
 
