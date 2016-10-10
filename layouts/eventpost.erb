@@ -3,6 +3,13 @@
 <meta property="og:title" content="<%= item[:title] %>" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="<%= url_for(item) %>" />
+<meta property="og:description" content="<%= item[:description] %>" />
+<meta property="og:site_name" content="Zeus WPI" />
+<meta name="twitter:label1" value="Time" />
+<meta name="twitter:data1" value="<%= item[:time].strftime '%A %d %B %Y %H:%M' %>" />
+<meta name="twitter:label2" value="Place" />
+<meta name="twitter:data2" value="<%= item[:location] %>" />
+<meta name="twitter:card" content="summary_large_image" />
 <% end %>
 
 <% if item[:banner] %>
