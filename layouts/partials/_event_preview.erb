@@ -18,7 +18,7 @@
       <%= event[:description] %>
     </div>
     <div class="time">
-      <%= event[:time] %>
+      <%= event[:time].strftime '%A %d %B %Y %H:%M' %>
     </div>
   </div>
 
