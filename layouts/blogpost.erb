@@ -1,7 +1,12 @@
 <div class="content blogpost">
-  <h1 class="has-text-centered blogtitle">
-    <%= item[:title] %>
-  </h1>
+  <div class="has-text-centered">
+    <h1 class="title is-1">
+      <%= item[:title] %>
+    </h1>
+    <h2 class="subtitle is-3">
+      Author
+    </h2>
+  </div>
   <main class="blogwidth">
     <%= yield %>
   </main>
