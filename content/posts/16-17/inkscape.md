@@ -33,7 +33,7 @@ Maar als je genoeg zin en tijd hebt kun je natuurlijk ook gewoon eraan beginnen 
 
 Wat imo wel belangrijk om weten is zijn volgende zaken:
 
-* Je kunt met verschillende lagen werken en je kunt lagen vastzetten. 
+* Je kunt met verschillende lagen werken en je kunt lagen vastzetten.
   Als je verschillende zaken bovenop elkaar wilt, kun je dus de onderste laag even vastzetten zodat je je niet kunt misklikken.
 
 * Bij *Bestand > Documenteigenschappen* kun je de grootte van je blad aanpassen,

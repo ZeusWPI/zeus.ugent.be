@@ -29,7 +29,7 @@ functie: vice
 * favoriete OS: OSX
 * een van je quotes: [isaura]: emotioneel ben ik hard
 * insert favoriete gif: ![alt text](//i.imgur.com/ebvggMn.gif)
- 
+
 functie: penning
 
 * naam: Jeroen De Clerck
@@ -40,7 +40,7 @@ functie: penning
 * favoriete OS: archlinux
 * een van je quotes: <iepoev> tis nie omdat het maar half werkt dat het niet volledig kan werken
 * insert favoriete gif: ![alt text](//i.imgur.com/5c22RvF.gif)
- 
+
 functie: event
 
 * naam: eloïse
@@ -49,9 +49,9 @@ functie: event
 * favoriete teksteditor: vim
 * favoriete taal: Python
 * favoriete OS: OS X (pls don't kill me)
-* een van je quotes: elo 1:46pm: delen is hetzelfde als vermenigvuldigen, maar dan links in de plaats van rechts 
+* een van je quotes: elo 1:46pm: delen is hetzelfde als vermenigvuldigen, maar dan links in de plaats van rechts
 * insert favoriete gif: ![alt text](//media.tenor.co/images/6659f7a4dead984cdcc05903e7c9503f/tenor.gif)
- 
+
 functie: sysadmin
 
 * naam: Lorin
@@ -62,7 +62,7 @@ functie: sysadmin
 * favoriete OS: Arch Linux
 * een van je quotes: <don> Door slecht te zijn hebben we eigenlijk iets goe gedaan.
 * insert favoriete gif: ![alt text](//iruntheinternet.com/lulzdump/images/skateboarder-never-drops-it-keeps-running-runs-away-bye-14344846555.gif)
- 
+
 functie: sysadrien
 
 * naam: Rien Maertens
@@ -73,7 +73,7 @@ functie: sysadrien
 * favoriete OS: Arch Linux
 * een van je quotes: "Hoe gewenst is t om `/bin/nginx` te symlinken naar `/bin/vim`? Echt nadelen heeft dat niet echt zeker?"
 * insert favoriete gif: ![alt text](//i.imgur.com/RGITm8c.gif)
- 
+
 functie: projectman
 
 * naam: Feliciaan

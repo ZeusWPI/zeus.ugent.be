@@ -1,12 +1,12 @@
+<h1 class="title is-1 has-text-centered">
+  <%= item[:title] %>
+</h1>
+<% if item[:author] %>
+<h2 class="subtitle is-3 has-text-centered">
+  <%= item[:author] %>
+</h2>
+<% end %>
 <div class="content blogpost">
-  <div class="has-text-centered">
-    <h1 class="title is-1">
-      <%= item[:title] %>
-    </h1>
-    <h2 class="subtitle is-3">
-      Author
-    </h2>
-  </div>
   <main class="blogwidth">
     <%= yield %>
   </main>
