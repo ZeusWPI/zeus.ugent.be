@@ -12,8 +12,8 @@ locationlink: plateau, gent
 Heb je even genoeg van Word? Of wil je gewoon de alternatieven leren kennen?
 Kom eens langs op onze LaTeX les!
 
-Latex laat je toe om grote documenten te schrijven zoals thesissen, reports en papers met veel meer controle dan in word.
-Het is even wennen in het begin, maar hoe groter je document, hou blijer je zult zijn om hiermee te werken.
+LaTeX laat je toe grote documenten zoals thesissen, reports en papers te schrijven met veel meer controle dan in word.
+Het is even wennen in het begin, maar hoe groter je document, hoe blijer je zult zijn om hiermee te werken.
 Meer info vind je hier: [latex.ugent.be](//latex.ugent.be)
 
 
