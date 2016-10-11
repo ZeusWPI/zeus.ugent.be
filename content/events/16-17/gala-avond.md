@@ -17,7 +17,7 @@ Daarom houden we een receptie en gala-avond; en jij bent uitgenodigd!
 ### Waar en Wanneer?
 We verwachten je op 31 oktober vanaf 20h in het Maaltebruggekasteel, Kortrijksesteenweg 1023 in avondkledij.  
 Er is parking voorhanden, en er wordt 5 euro inkom gevraagd.  
-+1's zijn zeker toegelaten, maar gelieve bij aanwezigheid in [hier](https://event.fkgent.be/events/115) in te schrijven.
++1's zijn zeker toegelaten, maar gelieve bij aanwezigheid [hier](https://event.fkgent.be/events/115) in te schrijven.
 
 In geval van vragen, contacteer ons zeker op bestuur@zeus.ugent.be.
 
