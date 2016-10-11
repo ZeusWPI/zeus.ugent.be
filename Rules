@@ -4,9 +4,6 @@
 require 'json'
 require 'icalendar'
 
-# Please @NoctuaNivalis
-require 'socket'
-
 #
 #
 # PREPROCESS
