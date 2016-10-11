@@ -1,6 +1,6 @@
 ---
 title: RUST les
-image: 
+image: //upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2000px-Rust_programming_language_black_logo.svg.png
 description: Leer RUST kennen, een taal die je in de toekomst nog veel zult zien!
 created_at: 11-10-2016
 time: 26-10-2016 19:00
