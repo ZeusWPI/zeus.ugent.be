@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '~>4.3.3'
+gem 'nanoc', '4.3.4'
 gem 'kramdown'
 gem 'coffee-script'
 # Needed for relativize_urls
