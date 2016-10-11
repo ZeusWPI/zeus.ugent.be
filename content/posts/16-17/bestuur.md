@@ -27,8 +27,8 @@ Favoriete taal
 Favoriete OS
 : LFS
 
-Favoriete GIF
-: ![alt text](//media.giphy.com/media/1lop3XEoCngYg/giphy.gif)
+![alt text](//media.giphy.com/media/1lop3XEoCngYg/giphy.gif)
+{: .imgcenter }
 
 # Isaura Claeys | Vicevoorzitter
 
@@ -49,8 +49,8 @@ Favoriete taal
 Favoriete OS
 : OSX
 
-Favoriete GIF
-: ![alt text](//i.imgur.com/ebvggMn.gif)
+![alt text](//i.imgur.com/ebvggMn.gif)
+{: .imgcenter }
 
 # Jeroen De Clerck | Penningmeester
 
@@ -74,8 +74,8 @@ Favoriete OS
 Een van je quotes
 : <iepoev>
 
-Favoriete GIF
-: ![alt text](//i.imgur.com/5c22RvF.gif)
+![alt text](//i.imgur.com/5c22RvF.gif)
+{: .imgcenter }
 
 # Eloïse Piret | Eventverantwoordelijke
 
@@ -96,8 +96,8 @@ Favoriete taal
 Favoriete OS
 : OS X (pls don't kill me)
 
-Favoriete GIF
-: ![alt text](//media.tenor.co/images/6659f7a4dead984cdcc05903e7c9503f/tenor.gif)
+![alt text](//media.tenor.co/images/6659f7a4dead984cdcc05903e7c9503f/tenor.gif)
+{: .imgcenter }
 
 # Lorin Werthen | Systeemadministrator
 
@@ -118,8 +118,8 @@ Favoriete taal
 Favoriete OS
 : Arch Linux
 
-Favoriete GIF
-: ![alt text](//iruntheinternet.com/lulzdump/images/skateboarder-never-drops-it-keeps-running-runs-away-bye-14344846555.gif)
+![alt text](//iruntheinternet.com/lulzdump/images/skateboarder-never-drops-it-keeps-running-runs-away-bye-14344846555.gif)
+{: .imgcenter }
 
 # Rien Maertens | Systeemadministrator
 
@@ -140,10 +140,10 @@ Favoriete taal
 Favoriete OS
 : Arch Linux
 
-Favoriete GIF
-: ![alt text](//i.imgur.com/RGITm8c.gif)
+![alt text](//i.imgur.com/RGITm8c.gif)
+{: .imgcenter }
 
-# Feliciaan De Palmenstrand | Projectverantwoordelijke
+# Feliciaan De Palmenaer | Projectverantwoordelijke
 
 > En dat is dan de het!
 
@@ -162,5 +162,5 @@ Favoriete taal
 Favoriete OS
 : macOs
 
-Favoriete GIF
-: ![alt text](//emoji.slack-edge.com/T02E8K8GY/zeustux/19b65368560af6c2.jpg)
+![alt text](//emoji.slack-edge.com/T02E8K8GY/zeustux/19b65368560af6c2.jpg)
+{: .imgcenter }
