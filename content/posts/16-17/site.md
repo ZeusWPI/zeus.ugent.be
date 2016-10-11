@@ -2,6 +2,7 @@
 title: Nieuwe site
 created_at: 03-10-2016
 description: Het was eens tijd voor een nieuwe site...
+author: Elo
 ---
 Er werd reeds een tijd gesproken over een nieuwe zeus-site, een die geen gebruik maakt van Content Management Systemen zoals [Wordpress](//nl.wordpress.com).
 Deze zomer werd eraan begonnen, en nu (begin Oktober) zijn we klaar om hem te deployen.

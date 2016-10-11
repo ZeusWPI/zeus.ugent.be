@@ -2,6 +2,7 @@
 title: Posters maken!
 created_at: 09-10-2016
 description: HELP! Hoe werken posters?
+author: Elo
 ---
 
 Hoi hoi,
