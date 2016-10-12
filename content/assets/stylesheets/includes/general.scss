@@ -7,6 +7,18 @@
   background-size: cover;
 }
 
+.content {
+  a {
+    &:not(.button) {
+      border-bottom: none;
+    }
+
+    &:visited:hover {
+      color: $link-hover;
+    }
+  }
+}
+
 header.section {
   padding-bottom: 10px;
 }
