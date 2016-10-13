@@ -7,11 +7,18 @@
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
     <div class="tile is-parent is-12">
-      <%= render '/partials/_tile.*', article: upcoming_events[0], htmlclass: "highlighted", small_text: "Upcoming event" %>
+      <div class="tile is-child box highlighted">
+        <div class="content">
+          <h1 class="has-text-centered"><a href="https://zeus.ugent.be/game">Top Zeus WPI coders this week</a></h1>
+          <div id="gamification-coders" >
+            <!-- EMPTY -->
+          </div>
+        </div>
+      </div>
     </div>
     <div class="tile">
       <div class="tile is-parent is-4">
-        <%= render '/partials/_tile.*', article: upcoming_events[1], small_text: "Upcoming event" %>
+        <%= render '/partials/_tile.*', article: upcoming_events[0], small_text: "Upcoming event" %>
       </div>
       <div class="tile is-parent is-4">
         <div class="tile is-child box centering">
@@ -41,14 +48,7 @@
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
-          <div class="tile is-child box ">
-            <div class="content">
-            <h1><a href="https://zeus.ugent.be/game">Top Zeus WPI coders this week</a></h1>
-              <div id="gamification-coders">
-              <!-- EMPTY -->
-              </div>
-            </div>
-          </div>
+          <%= render '/partials/_tile.*', article: upcoming_events[1], small_text: "Upcoming event" %>
         </div>
       </div>
     </div>
