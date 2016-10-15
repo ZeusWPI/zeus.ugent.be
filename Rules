@@ -126,6 +126,9 @@ compile '/projects/*' do
   filter :kramdown
 end
 
+# Don't create specific project pages for now
+route  '/projects/*' do; end
+
 #
 # GENERIC ERB PAGES
 #
