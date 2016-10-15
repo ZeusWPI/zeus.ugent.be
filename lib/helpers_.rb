@@ -4,6 +4,7 @@ include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::Text
 
+include EnvironmentHelper
 include ArchiveHelper
 include AssetHelper
 include EventsHelper

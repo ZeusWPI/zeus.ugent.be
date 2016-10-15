@@ -14,7 +14,7 @@ before_install:
 - echo -e "Host zeus.ugent.be\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
 script:
-- bundle exec nanoc
+- ZEUS_PRODUCTION=1 bundle exec nanoc
 - bundle exec nanoc check --deploy
 after_success:
 - mv deploy_key ~/.ssh/id_rsa

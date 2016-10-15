@@ -13,6 +13,17 @@ require 'icalendar'
 preprocess do
   `npm install`
 
+  # We don't want to compile old blogposts in development
+  if development?
+    @items.delete_if do |item|
+      ident = item.identifier.to_s
+
+      next unless ident.to_s.start_with?('/posts/')
+
+      !ident.start_with?('/posts/16-17/')
+    end
+  end
+
   @items.find_all('/posts/**/*').each do |i|
     year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
     academic_year = year_str.to_i
@@ -66,8 +77,6 @@ compile '/blog/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-
-  filter :relativize_paths, type: :html
 end
 
 #
@@ -79,8 +88,6 @@ compile '/events/**/*' do
   layout '/eventpost.*'
   layout '/default.*'
   filter :erb
-
-  filter :relativize_paths, type: :html
 end
 
 compile '/events/**/*', rep: :text do
@@ -104,8 +111,6 @@ compile '/posts/**/*' do
   layout '/blogpost.*'
   layout '/generic.*'
   layout '/default.*'
-
-  filter :relativize_paths, type: :html
 end
 
 compile '/posts/**/*', rep: :text do
@@ -119,7 +124,6 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
-  filter :relativize_paths, type: :html
 end
 
 #
@@ -132,14 +136,13 @@ end
 
 compile '/**/*.ics' do
   filter :erb
+  write @item.identifier.to_s
 end
 
 compile '/*.erb' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-
-  filter :relativize_paths, type: :html
 end
 
 #
@@ -153,7 +156,7 @@ ignore '/assets/stylesheets/includes/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
-  filter :autoprefixer
+  filter :autoprefixer if production?
 end
 
 passthrough '/assets/images/*.{png,svg}'
@@ -176,7 +179,7 @@ route '/assets/scripts/**/*' do
   "#{item.identifier.without_ext}.js"
 end
 
-# POSTS
+# EVENTS
 route '/events/**/*', rep: :ical do
   "#{item.identifier.without_ext}.ics"
 end
@@ -187,10 +190,6 @@ route '/**/*.{erb,html,md}' do
   else
     "#{item.identifier.without_ext}/index.html"
   end
-end
-
-route '/**/*' do
-  item.identifier.to_s
 end
 
 #
