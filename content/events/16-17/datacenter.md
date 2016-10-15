@@ -1,6 +1,6 @@
 ---
 title: Bezoek datacenter
-image: https://emergingtechblog.emc.com/wp-content/uploads/2015/10/AdobeStock_86289688.jpeg
+image: https://zeus.ugent.be/zeuswpi/_Lv_m5Ng.jpeg
 description: Zeus bezoekt het datacenter en de supercomputer in S10!
 created_at: 3-10-2016
 time: 10-10-2016 17:45

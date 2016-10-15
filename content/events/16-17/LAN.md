@@ -1,7 +1,7 @@
 ---
 title: Geeks, Attack! V
-image: //i.imgur.com/sQPA5m3.png
-banner: //imgur.com/gVXvesA.png
+image: https://zeus.ugent.be/zeuswpi/3iUXxjNp.png
+banner: https://zeus.ugent.be/zeuswpi/AAXR-TiB.png
 description: Zeus' vijfde LAN-Party
 created_at: 13-09-2016
 time: 04-11-2016 16:00

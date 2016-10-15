@@ -1,6 +1,6 @@
 ---
 title: Latex les
-image: //puu.sh/rFa9H/8d568d4a54.png
+image: https://zeus.ugent.be/zeuswpi/47J781xu.png
 description: Introductie tot LaTeX
 created_at: 11-10-2016
 time: 25-10-2016 19:00

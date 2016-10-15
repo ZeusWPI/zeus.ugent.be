@@ -1,6 +1,6 @@
 ---
 title: Spelletjesavond I
-image: //scontent-bru2-1.xx.fbcdn.net/v/t1.0-9/12189731_1099052716772434_5895250155030155055_n.jpg?oh=65bcd6239a8897203b7a16bbdf6393c8&oe=586DF82A
+image: https://zeus.ugent.be/zeuswpi/fSIklQoj.jpg
 description: De eerste spelletjesavond van het academiejaar!
 created_at: 11-10-2016
 time: 19-10-2016 18:00

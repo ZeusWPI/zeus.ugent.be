@@ -6,8 +6,8 @@ time: 31-10-2016 20:00
 location: Maaltebruggekasteel, Kortrijksesteenweg 1023
 locationlink: 51.022429, 3.701612
 facebook: //www.facebook.com/events/1125772020841727/
-banner: //i.imgur.com/oDdRfJN.png
-image: //i.imgur.com/7hL4nwb.png
+banner: https://zeus.ugent.be/zeuswpi/vRX2hOYZ.png
+image: https://zeus.ugent.be/zeuswpi/FS1Hc2l8.png
 ---
 ### Wat
 Wij worden 25. Dat mag gevierd worden.  

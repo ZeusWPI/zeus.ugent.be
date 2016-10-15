@@ -1,6 +1,6 @@
 ---
 title: 25h codenight
-image: //i.imgur.com/7hL4nwb.png
+image: https://zeus.ugent.be/zeuswpi/FS1Hc2l8.png
 description: 1 uur voor elk levensjaar van Zeus!
 created_at: 11-10-2016
 time: 1-11-2016
