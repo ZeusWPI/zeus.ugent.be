@@ -1,19 +1,22 @@
-#flex-align-links {
-  width: 100%;
-  height: 60%;
-  padding-right: 5%;
-  display: flex;
-  justify-content: flex-end;
+.links {
+  flex: 1;
+  align-self: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
 }
 
-.links {
-  align-self: flex-end;
+.rows {
+  display: flex;
+  flex-direction: column;
 }
 
 .links > .column {
-  display: inline-block;
-  max-width: 160px;
+  max-width: 200px;
   align-items: center;
+}
+
+.links .column a img {
+  width: 100%;
 }
 
 .project {
