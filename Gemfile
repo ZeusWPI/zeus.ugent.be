@@ -4,8 +4,6 @@ source 'https://rubygems.org'
 gem 'nanoc', '4.3.5'
 gem 'kramdown'
 gem 'coffee-script'
-# Needed for relativize_urls
-gem 'nokogiri'
 gem 'sass'
 # Needed for atom_feed in blogging helper
 gem 'builder'

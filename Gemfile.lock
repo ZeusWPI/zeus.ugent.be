@@ -89,7 +89,6 @@ DEPENDENCIES
   icalendar
   kramdown
   nanoc (= 4.3.5)
-  nokogiri
   sass
   terminal-notifier-guard
   w3c_validators
