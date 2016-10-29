@@ -3,20 +3,21 @@
   align-self: flex-end;
   align-items: flex-end;
   padding-right: 20px;
+
+  div {
+    margin: 10px;
+  }
+}
+
+@media (max-width: #{$tablet}) {
+  .links {
+    align-self: center;
+  }
 }
 
 .rows {
   display: flex;
   flex-direction: column;
-}
-
-.links > .column {
-  max-width: 200px;
-  align-items: center;
-}
-
-.links .column a img {
-  width: 100%;
 }
 
 .project {
