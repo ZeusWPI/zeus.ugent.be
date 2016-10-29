@@ -11,39 +11,36 @@ def bold_say(str)
 end
 
 def bold_ask(str, *args)
-  ask "<%= color %(#{str}), :bold %>", *args
+  res = ask "<%= color %(#{str}), :bold %>", *args
+  puts
+  res
 end
 
 run do |_opts, _args, _cmd|
   result_hash = {}
+  post_directory = 'content/posts'
+  author_file = '.author-information'
 
   bold_say "Let's make a new post, shall we?"
   bold_say('-' * 20)
 
-  puts
-
-  bold_say 'What kind of post will it be?'
-
-  type = choose do |menu|
-    default = :event
-
-    menu.prompt = "(default #{default})"
-    menu.choice :blog
-    menu.choice :event
-    menu.default = default
-  end
-
-  puts
+  last_entry = "#{post_directory}/#{Dir.entries('content/posts').last}"
 
   result_hash['title'] = bold_ask 'What will the title be?'
 
-  puts
+  result_hash['description'] = bold_ask 'Give a description of the event'
 
-  result_hash['time'] = bold_ask 'When will the event take place?', Date
+  result_hash['author'] = if File.exist? author_file
+                            File.read(author_file).chomp
+                          else
+                            bold_ask 'What is your name?'
+                          end
 
-  puts
+  result_hash['created_at'] = Date.today
 
-  result_hash['banner'] = bold_ask 'Supply a link to the banner of the event, please' if type == :event
+  filename = result_hash['title'].downcase.tr(' ', '-').gsub(/[^0-9A-Za-z-]/, '')
 
-  puts result_hash.to_yaml
+  File.open("#{last_entry}/#{filename}.md", 'w') do |file|
+    file.write(result_hash.to_yaml + '---')
+  end
 end
