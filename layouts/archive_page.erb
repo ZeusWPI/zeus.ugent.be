@@ -15,13 +15,24 @@
     </a>
   <% end %>
   </div>
-  <div class="column is-narrow">
-    <ul class = "archive_list">
+  <aside class="menu">
+    <p class="menu-label">
+      Academic Year
+    </p>
+    <ul class="menu-list">
       <% academic_years_items.each do |year, item| %>
-        <li class="bolder">
-          <%= link_to_unless_current pretty_year(year), item %>
-        </li>
+      <% if @item_rep && @item_rep.path == item.path %>
+      <li>
+        <a href="#" class="is-active">
+          <%= pretty_year(year) %>
+        </a>
+      </li>
+      <% else %>
+      <li>
+        <%= link_to pretty_year(year), item %>
+      </li>
+      <% end %>
       <% end %>
     </ul>
-  </div>
+  </aside>
 </div>
