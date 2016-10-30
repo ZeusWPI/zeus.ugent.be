@@ -14,6 +14,8 @@ gem 'w3c_validators'
 # ical files
 gem 'icalendar'
 
+gem 'therubyracer'
+
 # Autoprefixing for class
 gem 'autoprefixer-rails'
 
