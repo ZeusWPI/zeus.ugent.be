@@ -3,10 +3,8 @@ title: How do I browser?
 description: Being a massive hipster, I tried out every obscure browser I could find. These are my opinions, for what it's worth.
 author: Lorin Werthen
 created_at: 25-10-2016
+toc: true
 ---
-
-* x
-{:toc .is-pulled-right}
 
 # Intro
 

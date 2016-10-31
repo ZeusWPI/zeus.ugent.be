@@ -106,9 +106,10 @@ end
 # POSTS
 #
 compile '/posts/**/*' do
+  layout '/blogpost.md'
   filter :kramdown
 
-  layout '/blogpost.*'
+  layout '/blogpost.erb'
   layout '/generic.*'
   layout '/default.*'
 end
