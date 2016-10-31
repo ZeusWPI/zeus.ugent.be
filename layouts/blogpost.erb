@@ -3,11 +3,18 @@
 </h1>
 <% if item[:author] %>
 <h2 class="subtitle is-3 has-text-centered">
+  <% if item[:lang] == :en %>
+  by
+  <% else %>
+  door
+  <% end %>
   <%= item[:author] %>
 </h2>
 <% end %>
-<div class="content blogpost">
-  <main class="blogwidth">
+<div class="content columns">
+  <div class="column is-2"></div>
+  <main class="column">
     <%= yield %>
   </main>
+  <div class="column is-2"></div>
 </div>
