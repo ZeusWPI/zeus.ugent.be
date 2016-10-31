@@ -18,13 +18,13 @@ preprocess do
     @items.delete_if do |item|
       ident = item.identifier.to_s
 
-      next unless ident.to_s.start_with?('/posts/')
+      next unless ident.to_s.start_with?('/blog/')
 
-      !ident.start_with?('/posts/16-17/')
+      !ident.start_with?('/blog/16-17/')
     end
   end
 
-  @items.find_all('/posts/**/*').each do |i|
+  @items.find_all('/blog/**/*').each do |i|
     year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
     academic_year = year_str.to_i
 
@@ -105,7 +105,7 @@ end
 #
 # POSTS
 #
-compile '/posts/**/*' do
+compile '/blog/*/*' do
   layout '/blogpost.md'
   filter :kramdown
 
@@ -114,7 +114,7 @@ compile '/posts/**/*' do
   layout '/default.*'
 end
 
-compile '/posts/**/*', rep: :text do
+compile '/blog/*/*', rep: :text do
   filter :kramdown
   filter :strip_html
 end
