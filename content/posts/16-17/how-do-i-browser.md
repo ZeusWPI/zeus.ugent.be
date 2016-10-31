@@ -5,7 +5,10 @@ author: Lorin Werthen
 created_at: 25-10-2016
 ---
 
-# Dingen
+* x
+{:toc}
+
+# Intro
 
 It's 2016. We have hoverboards, selfie sticks, way too many JavaScript package managers and an obsession for ironic humor. In these dark days, we should search for those things that truly make us happy, like finding that near perfect web browser.
 
@@ -18,6 +21,8 @@ In this post we compare the usual contenders, together with some cool, groovy, n
 * Internet Explorer
 * Brave
 * qutebrowser
+
+# Comparison
 
 ## Google Chrome/Chromium
 Ah good old Chrom{e,ium}. Whether you go for the open source or the corporate version, you're getting a damn good browser. Most websites seem to be designed with Chrome (or just WebKit browsers in general) in mind. The **Chrome Web Store** is without a doubt the most mature web store with thousands upon thousands of extensions.

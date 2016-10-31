@@ -4,6 +4,14 @@
   }
 }
 
+#markdown-toc {
+  @extend .menu-list;
+
+  &, ul {
+    list-style: none;
+  }
+}
+
 dl {
   dt {
     display: inline;
