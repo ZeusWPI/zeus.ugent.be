@@ -71,9 +71,6 @@ Favoriete taal
 Favoriete OS
 : archlinux
 
-Een van je quotes
-: <iepoev>
-
 ![alt text](//i.imgur.com/5c22RvF.gif)
 {: .imgcenter }
 

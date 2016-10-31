@@ -128,7 +128,7 @@ compile '/projects/*' do
 end
 
 # Don't create specific project pages for now
-route  '/projects/*' do; end
+route '/projects/*' do; end
 
 #
 # GENERIC ERB PAGES
