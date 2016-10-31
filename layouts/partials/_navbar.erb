@@ -12,7 +12,7 @@
               <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
             </a>
             <% nav_items do |item, active| %>
-            <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= relative_path_to(item) %>">
+            <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= item.path %>">
               <%= item[:title] %>
             </a>
             <% end %>
