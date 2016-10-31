@@ -107,6 +107,25 @@ footer.footer {
   background-color: $turquoise;
 }
 
+
+// For better centering on mobile
+@media screen and (max-width: 768px) {
+  #tipue_search_input {
+    margin: 5px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.30s ease-in-out;
+
+    &.open {
+      max-height: 250px;
+    }
+  }
+}
+
 #tipue_search_input {
   background: none;
   padding: 12px;

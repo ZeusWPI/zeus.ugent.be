@@ -7,16 +7,20 @@
     </div>
     <div class="column">
       <nav class="nav">
-          <div class="nav-left">
-            <a class="is-hidden-tablet nav-item" href="/">
-              <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
-            </a>
+          <a class="is-hidden-tablet nav-item" href="/">
+            <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
+          </a>
+          <div class="nav-menu nav-left">
             <% nav_items do |item, active| %>
             <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= item.path %>">
               <%= item[:title] %>
             </a>
             <% end %>
           </div>
+
+
+          <!-- Filler for when mobile -->
+          <div class="nav-left is-hidden-desktop"></div>
 
           <div class="nav-right">
             <form action="/search/?" method="get">
@@ -25,6 +29,12 @@
               </div>
             </form>
           </div>
+
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
 
           <div class="nav-right is-hidden-mobile social-icons">
               <a class="nav-item social-icon" href="https://github.com/ZeusWPI" target="_blank">
