@@ -2,6 +2,10 @@
   text-align: justify;
 }
 
+html, .footer {
+  background-color: white;
+}
+
 .hero {
   background-position: center;
   background-size: cover;
@@ -144,4 +148,8 @@ footer.footer {
     color: inherit;
     padding-right: 5px;
   }
+}
+
+.fa {
+  vertical-align: baseline;
 }
