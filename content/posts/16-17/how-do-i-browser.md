@@ -6,7 +6,7 @@ created_at: 25-10-2016
 ---
 
 * x
-{:toc}
+{:toc .is-pulled-right}
 
 # Intro
 

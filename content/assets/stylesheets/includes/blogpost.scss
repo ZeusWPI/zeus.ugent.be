@@ -7,8 +7,6 @@
 #markdown-toc {
   @extend .menu-list;
 
-  float: right;
-
   &, ul {
     list-style: none;
   }
