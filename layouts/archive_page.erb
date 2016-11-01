@@ -1,38 +1,52 @@
-<div class="columns is-flex-mobile" >
+<div class="columns" >
+  <div class="column is-2 is-narrow">
+    <aside class="menu">
+      <p class="menu-label">
+        Academic Year
+      </p>
+      <ul class="menu-list">
+        <% academic_years_items.each do |year, item| %>
+        <% if @item_rep && @item_rep.path == item.path %>
+        <li>
+          <a href="#" class="is-active">
+            <%= pretty_year(year) %>
+          </a>
+        </li>
+        <% else %>
+        <li>
+          <%= link_to pretty_year(year), item %>
+        </li>
+        <% end %>
+        <% end %>
+      </ul>
+    </aside>
+  </div>
   <div class="column">
-  <% posts_in_year(item[:academic_year]).each do |post| %>
-    <a href="<%= relative_path_to(post) %>" >
-      <div class="box padbox">
-        <article class="media">
-          <div class="media-content">
+    <% posts_in_year(item[:academic_year]).each do |post| %>
+    <a href="<%= relative_path_to(post) %>">
+      <article class="box padbox">
+        <div class="columns">
+          <div class="column">
+            <p class="title is-3"><%= post[:title] %></p>
+            <p class="subtitle is-5">
+              <% if post[:author] %>
+              by <%= post[:author] %>
+              <% end %>
+            </p>
             <div class="content">
-              <h2><%= post[:title] %> <small> <%= post[:created_at] %></small></h2>
               <%= post[:description] %>
+              <br>
+              <small><%= post[:created_at] %></small>
             </div>
           </div>
-        </article>
-      </div>
+          <div class="column">
+            <div class="content">
+              <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
+            </div>
+          </div>
+        </div>
+      </article>
     </a>
-  <% end %>
+    <% end %>
   </div>
-  <aside class="column is-narrow menu">
-    <p class="menu-label">
-      Academic Year
-    </p>
-    <ul class="menu-list">
-      <% academic_years_items.each do |year, item| %>
-      <% if @item_rep && @item_rep.path == item.path %>
-      <li>
-        <a href="#" class="is-active">
-          <%= pretty_year(year) %>
-        </a>
-      </li>
-      <% else %>
-      <li>
-        <%= link_to pretty_year(year), item %>
-      </li>
-      <% end %>
-      <% end %>
-    </ul>
-  </aside>
 </div>
