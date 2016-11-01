@@ -34,7 +34,10 @@
   padding-top:0px;
     box-shadow : none;
     width: 60%;
-
+    //for better spacing on mobile
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
     .title {
       font-size: 1.7em;
       font-weight: 500;
