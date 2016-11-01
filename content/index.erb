@@ -48,7 +48,9 @@
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
+          <% if upcoming_events[1] %>
           <%= render '/partials/_tile.*', article: upcoming_events[1], small_text: "Upcoming event" %>
+          <% end %>
         </div>
       </div>
     </div>
