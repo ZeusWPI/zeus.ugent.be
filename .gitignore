@@ -16,3 +16,5 @@ crash.log*
 
 node_modules/
 *.iml
+
+.author-information
