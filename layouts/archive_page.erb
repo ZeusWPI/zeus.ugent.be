@@ -1,21 +1,6 @@
-<div class="columns is-flex-mobile" >
-  <div class="column">
-  <% posts_in_year(item[:academic_year]).each do |post| %>
-    <a href="<%= relative_path_to(post) %>" >
-      <div class="box padbox">
-        <article class="media">
-          <div class="media-content">
-            <div class="content">
-              <h2><%= post[:title] %> <small> <%= post[:created_at] %></small></h2>
-              <%= post[:description] %>
-            </div>
-          </div>
-        </article>
-      </div>
-    </a>
-  <% end %>
-  </div>
-  <aside class="column is-narrow menu">
+<div class="columns" >
+<div class="column is-2 is-narrow">
+<aside class="menu">
     <p class="menu-label">
       Academic Year
     </p>
@@ -35,4 +20,36 @@
       <% end %>
     </ul>
   </aside>
-</div>
+  </div>
+  <div class="column">
+  <% posts_in_year(item[:academic_year]).each do |post| %>
+    <a href="<%= relative_path_to(post) %>">
+    <article class="box padbox">
+        <div class="columns">
+        <div class="column">
+        <p class="title is-3"><%= post[:title] %></p>
+        <p class="subtitle is-5"><% if post[:author] %>
+  <% if post[:lang] == :en %>
+  by
+  <% else %>
+  door
+  <% end %>
+  <%= post[:author] %>
+<% end %></p>
+        <div class="content">
+            <%= post[:description] %>
+            <br>
+            <small><%= post[:created_at] %></small>
+        </div>
+        </div>
+        <div class="column">
+            <div class="content">
+            <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
+            </div>
+        </div>
+        </div>
+    </article>
+    </a>
+  <% end %>
+    </div>
+    </div>
