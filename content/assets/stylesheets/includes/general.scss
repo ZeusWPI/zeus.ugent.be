@@ -23,6 +23,20 @@ html, .footer {
   }
 }
 
+#navbar {
+  margin-bottom: 10px;
+
+  .logo-wrapper {
+    padding-bottom: 0;
+  }
+
+  .actual-nav-bar {
+    padding-bottom: 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+
 header.section {
   padding-bottom: 10px;
 }
@@ -123,6 +137,10 @@ footer.footer {
     &.open {
       max-height: 250px;
     }
+  }
+
+  .is-narrow {
+    flex: none;
   }
 }
 
