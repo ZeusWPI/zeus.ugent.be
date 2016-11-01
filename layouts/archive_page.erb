@@ -1,4 +1,4 @@
-<div class="columns" >
+<div class="columns is-flex-mobile" >
   <div class="column">
   <% posts_in_year(item[:academic_year]).each do |post| %>
     <a href="<%= relative_path_to(post) %>" >
@@ -15,7 +15,7 @@
     </a>
   <% end %>
   </div>
-  <aside class="menu">
+  <aside class="column is-narrow menu">
     <p class="menu-label">
       Academic Year
     </p>
