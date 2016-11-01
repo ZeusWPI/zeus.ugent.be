@@ -124,6 +124,15 @@ footer.footer {
       max-height: 250px;
     }
   }
+
+  //for better spacing on mobile
+  header.section {
+    padding: 0px 0px;
+  }
+
+  main.section {
+    padding-top: 0px;
+  }
 }
 
 #tipue_search_input {
