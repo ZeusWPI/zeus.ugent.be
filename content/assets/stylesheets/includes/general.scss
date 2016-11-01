@@ -142,6 +142,7 @@ footer.footer {
   //for better spacing on mobile
   header.section {
     padding: 0px 0px;
+    padding-bottom: 15px;
   }
 
   main.section {
@@ -198,4 +199,8 @@ footer.footer {
 
 .fa {
   vertical-align: baseline;
+}
+
+.subnav {
+  margin-top: -20px;
 }
