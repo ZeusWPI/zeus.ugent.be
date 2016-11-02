@@ -136,7 +136,7 @@ footer.footer {
     overflow: hidden;
     transition: all 0.30s ease-in-out;
 
-    &.open {
+    &.is-active {
       max-height: 250px;
     }
   }
