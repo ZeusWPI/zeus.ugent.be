@@ -7,7 +7,7 @@ order: 30
   <article id="hydra" class="columns">
     <div class="column is-one-quarter" id="logo-column">
       <div class="hydra-scrot">
-        <img src="/assets/images/hydra.png">
+        <%= asset :img, 'hydra.png' %>
       </div>
     </div>
     <div class="column rows">
@@ -19,18 +19,23 @@ order: 30
       <div class="columns links">
         <div class="has-text-centered">
           <a href="https://itunes.apple.com/be/app/hydra/id602640924">
-            <%= svg 'apple' %>
+            <%= asset :img, 'apple.svg' %>
           </a>
+          <div class="clear"></div>
           <a href="https://github.com/ZeusWPI/hydra-iOS">iOS <span class="icon"><%= fa('github') %></span></a>
         </div>
         <div class="has-text-centered">
           <a href="http://play.google.com/store/apps/details?id=be.ugent.zeus.hydra">
-            <%= svg 'google' %>
+            <%= asset :img, 'google.svg' %>
           </a>
+          <div class="clear"></div>
           <a href="https://github.com/ZeusWPI/hydra-android">Android <span class="icon"><%= fa('github') %></span></a>
         </div>
         <div class="has-text-centered">
-          <a href="http://www.windowsphone.com/s?appId=08d3268e-aad6-48fa-ae83-5ccd1663e73a"><%= svg 'windows' %></a>
+          <a href="http://www.windowsphone.com/s?appId=08d3268e-aad6-48fa-ae83-5ccd1663e73a">
+            <%= asset :img, 'windows.svg' %>
+          </a>
+          <div class="clear"></div>
           <a href="https://github.com/ZeusWPI/hydra-windows">Windows 10 <span class="icon"><%= fa('github') %></span></a>
         </div>
       </div>
