@@ -24,6 +24,7 @@ html, .footer {
 }
 
 #navbar {
+  z-index: 100;
   margin-bottom: 10px;
 
   .logo-wrapper {
@@ -35,6 +36,10 @@ html, .footer {
     margin: 10px;
     margin-bottom: 0;
     border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu {
+    z-index: 20;
   }
 }
 
@@ -64,6 +69,7 @@ main.section {
   .nav {
     height: 100%;
     align-items: flex-end;
+    z-index: auto;
 
     .nav-item {
       transition: 0.2s;
