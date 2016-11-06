@@ -79,6 +79,7 @@ GEM
     w3c_validators (1.2)
       json
       nokogiri
+    words_counted (1.0.2)
 
 PLATFORMS
   ruby
@@ -97,6 +98,7 @@ DEPENDENCIES
   terminal-notifier-guard
   therubyracer
   w3c_validators
+  words_counted
 
 BUNDLED WITH
-   1.13.3
+   1.13.6

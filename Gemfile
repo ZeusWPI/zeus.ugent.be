@@ -19,6 +19,10 @@ gem 'therubyracer'
 # Autoprefixing for class
 gem 'autoprefixer-rails'
 
+# Word counting gem (which takes special characters into account)
+# for reading time
+gem 'words_counted'
+
 group :development do
   gem 'adsf'
   gem 'highline'
