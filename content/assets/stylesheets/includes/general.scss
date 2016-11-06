@@ -1,12 +1,21 @@
+// Small helper in bulma style
 .has-text-justified {
   text-align: justify;
 }
 
+// Override box styling without round corners
+.box {
+  margin-bottom:10px;
+  border-radius: 0 !important;
+}
+
+// Add some hero attributes to make backgrounds prettier
 .hero {
   background-position: center;
   background-size: cover;
 }
 
+// link borders are unnecessary
 .content {
   a {
     &:not(.button) {
@@ -19,27 +28,21 @@
   }
 }
 
-#navbar {
-  z-index: 100;
-  margin-bottom: 10px;
+footer .content a {
+  &:not(.button) {
+    color: $text-light;
 
-  .logo-wrapper {
-    padding-bottom: 0;
-  }
+    &:visited {
+      color: $text-light;
+    }
 
-  .actual-nav-bar {
-    padding: 0;
-    margin: 10px;
-    margin-bottom: 0;
-    border-bottom: 1px solid #eee;
-  }
-
-  .nav-menu {
-    z-index: 20;
+    &:hover {
+      color: $link-hover;
+    }
   }
 }
 
-
+// Proper padding of these sections
 header.section {
   padding-bottom: 10px;
 }
@@ -48,60 +51,11 @@ main.section {
   padding-top: 20px;
 }
 
-
-#navbar {
-  align-items: flex-end;
-
-  #inline-logo {
-    min-width: 38.703px;
-  }
-  #logo-link {
-    #logo {
-      padding-top: 10px;
-      padding-left: 10px;
-      width: 100px;
-    }
-  }
-  .nav {
-    height: 100%;
-    align-items: flex-end;
-    z-index: auto;
-
-    .nav-item {
-      transition: 0.2s;
-
-      font-variant: small-caps;
-      font-size: 1.15em;
-
-      &:hover {
-        transition: 0.2s;
-      }
-
-      &.social-icon {
-          padding-left: 5px;
-          padding-right: 5px;
-      }
-
-      &.is-tab {
-          border-bottom: 3px solid transparent;
-          border-top: 3px solid transparent;
-
-          &:hover, &.is-active {
-              border-bottom-color: $zeus-orange;
-          }
-      }
-    }
-  }
-}
-
 footer.footer {
   padding-bottom: 40px;
-
-  .fa {
-    vertical-align: inherit;
-  }
 }
 
+// Cursor highlight color
 ::selection {
   color: white;
   background: rgba(255, 127, 0, 0.99);
@@ -155,49 +109,6 @@ footer.footer {
 
   .is-narrow {
     flex: none;
-  }
-}
-
-#tipue_search_input {
-  background: none;
-  padding: 12px;
-  font: inherit;
-  color: inherit;
-
-  width: 40px;
-
-  border-color: rgba(0, 0, 0, 0);
-
-  display: flex;
-  flex-direction: row;
-
-  justify-content: inherit;
-
-  transition: all 0.5s;
-
-
-  input {
-    background: none;
-    border: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    box-shadow: none;
-    outline: 0;
-    margin: 0;
-
-    color: inherit;
-  }
-
-  &:hover, &:focus, &.focused {
-    width: 170px;
-    border: 1px solid #e2e2e2;
-  }
-
-  &::before {
-    font: normal normal normal 14px/1 FontAwesome;
-    content: "\f002 ";
-    color: inherit;
-    padding-right: 5px;
   }
 }
 
