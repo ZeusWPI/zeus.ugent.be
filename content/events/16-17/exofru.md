@@ -28,7 +28,8 @@ Het doel van deze ronde is het achterhalen van het doel van het programma.
 
 Hierna kan elke groep stemmen op de mooiste oplossing.
 
-Punten vallen als volgt te verdienen: 
+Punten vallen als volgt te verdienen:
+
 * door het correct implementeren van je opdracht, in de gegeven taal
 * door het ontcijferen van de code die je gekregen hebt
 * door de mooiste, origineelste of meest exotische code te schrijven, en zo stemmen te vergaren van de andere groepen
