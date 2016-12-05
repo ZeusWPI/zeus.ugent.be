@@ -3,12 +3,7 @@ navigable: true
 title: About
 order: 0
 ---
-<div class="subnav tabs">
-  <ul>
-    <li><a href="/about/statuten">Statuten</a></li>
-    <li class="is-disabled"><a>Historiek</a></li>
-  </ul>
-</div>
+  <%= render '/partials/_about_sub_navbar.*', :selected => 'about' %>
 <div class="content">
   <h1>Over Zeus WPI</h1>
 
