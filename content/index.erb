@@ -18,7 +18,7 @@
     </div>
     <div class="tile">
       <div class="tile is-parent is-4">
-        <%= render '/partials/_tile.*', article: upcoming_events[0] || all_events[-1], small_text: "Upcoming event" %>
+        <%= render '/partials/_tile.*', article: upcoming_events[0] || all_events[-1], small_text: if upcoming_events[0] then "Upcoming event" else "Past event" end %>
       </div>
       <div class="tile is-parent is-4">
         <div class="tile is-child box centering">
@@ -48,7 +48,7 @@
       </div>
       <div class="tile is-vertical">
         <div class="tile is-parent">
-          <%= render '/partials/_tile.*', article: upcoming_events[1] || all_events[-2], small_text: "Upcoming event" %>
+          <%= render '/partials/_tile.*', article: upcoming_events[1] || all_events[-2], small_text: if upcoming_events[1] then "Upcoming event" else "Past event" end %>
         </div>
       </div>
     </div>
