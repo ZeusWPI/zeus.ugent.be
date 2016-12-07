@@ -33,3 +33,7 @@ Punten vallen als volgt te verdienen:
 * door het correct implementeren van je opdracht, in de gegeven taal
 * door het ontcijferen van de code die je gekregen hebt
 * door de mooiste, origineelste of meest exotische code te schrijven, en zo stemmen te vergaren van de andere groepen
+
+
+Hier alvast een introductie tot de exotische talen die Zeus jullie op deze avond voorsteld: [bekijk ze hier!](https://docs.google.com/presentation/d/1OFkRIhn8C-Bij71c5Ahon6WjsYV8PEn5xbWnYN3Kj1Q/pub?start=false&loop=false&delayms=3000)
+
