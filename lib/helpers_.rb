@@ -15,3 +15,4 @@ include FontAwesomeHelper
 include ProjectsHelper
 include SearchHelper
 include BlogHelper
+include PreprocessHelper
