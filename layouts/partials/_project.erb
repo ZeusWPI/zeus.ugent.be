@@ -6,9 +6,9 @@
       </div>
     </div>
     <div class="column">
-      <p class="title"><a href="<%=project[:site]%>" target="_self"><%=project[:title]%></a></p>
-      <p class="description subtitle"><%=project[:description]%></p>
-      <div><a href="<%=project[:github]%>">GitHub<span class="icon"><i class="fa fa-github"></i></span></a></div>
+      <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:title] %></a></p>
+      <p class="description subtitle"><%= project.compiled_content %></p>
+      <div><a href="<%= project[:github] %>">GitHub<span class="icon"><i class="fa fa-github"></i></span></a></div>
     </div>
   </article>
 </div>
