@@ -8,9 +8,6 @@ gem 'sass'
 # Needed for atom_feed in blogging helper
 gem 'builder'
 
-# Checks
-gem 'w3c_validators'
-
 # ical files
 gem 'icalendar'
 
@@ -31,4 +28,9 @@ end
 
 group :nanoc do
   gem 'guard-nanoc'
+end
+
+group :test do
+  # Checks
+  gem 'w3c_validators'
 end
