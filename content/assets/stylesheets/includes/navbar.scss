@@ -41,6 +41,11 @@
       font-variant: small-caps;
       font-size: 1.15em;
 
+      &:not(.nav-search) {
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid transparent;
+      }
+
       &:hover {
         transition: 0.2s;
       }
@@ -50,13 +55,8 @@
           padding-right: 5px;
       }
 
-      &.is-tab {
-          border-bottom: 3px solid transparent;
-          border-top: 3px solid transparent;
-
-          &:hover, &.is-active {
-              border-bottom-color: $zeus-orange;
-          }
+      &:not(.nav-search):hover, &.is-active {
+        border-bottom-color: $zeus-orange;
       }
     }
   }
