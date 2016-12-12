@@ -3,6 +3,14 @@
     <%= render '/partials/_navbar.*' %>
   </header>
   <main class="section">
-    <%= yield %>
+    <% if item[:narrow_page] %>
+    <div class="columns">
+      <article class="column is-8 is-offset-2">
+    <% end %>
+        <%= yield %>
+    <% if item[:narrow_page] %>
+      </div>
+    </article>
+    <% end %>
   </main>
 </div>
