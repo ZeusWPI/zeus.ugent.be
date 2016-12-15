@@ -30,6 +30,10 @@
       width: 100px;
     }
   }
+
+  //Height of the line underneath when hovering over a menu item
+  $border-height: 3px;
+
   .nav {
     height: 100%;
     align-items: flex-end;
@@ -42,7 +46,7 @@
       font-size: 1.15em;
 
       &:not(.nav-search) {
-        border-bottom: 3px solid transparent;
+        border-bottom: $border-height solid transparent;
         border-top: 3px solid transparent;
       }
 
@@ -58,6 +62,10 @@
       &:not(.nav-search):hover, &.is-active {
         border-bottom-color: $zeus-orange;
       }
+    }
+
+    .nav-search {
+      margin-bottom: $border-height;
     }
   }
 }
