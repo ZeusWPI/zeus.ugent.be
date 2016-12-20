@@ -68,5 +68,35 @@ a.box {
       }
     }
   }
+}
 
+#blokmap-tile {
+  position: relative;
+
+  height: 200px;
+  //background-image: url("https://i.imgur.com/PMaIG7X.jpg");
+  background-image: url("https://cldup.com/-FmSDFbd07.jpg");
+
+  background-position: center;
+
+  .overlay {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .content {
+    position: relative;
+
+    h1, h2 {
+      color: white;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+  }
 }
