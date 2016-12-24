@@ -6,6 +6,16 @@
 
   .logo-wrapper {
     padding-bottom: 0;
+    position: relative;
+
+    #santa {
+      position: absolute;
+      z-index: 500;
+      left: 27px;
+      top: -1px;
+      width: 40px;
+      transform: scale(-1, 1);
+    }
   }
 
   .nav-menu {
