@@ -2,7 +2,7 @@
 title: FOSDEM
 description: Zeus gaat naar FOSDEM
 created_at: 27-12-2016
-time: 04-02-2017, 05-02-2017
+time: 04-02-2016
 location: ULB Campus Solbosch
 locationlink: 50.813014, 4.381760
 banner: //fosdem.org/2017/assets/style/fosdem-home-visual-a4f55964bc6492855a435b88874f4a7dddac0ea3c2927e64e0608adc18e24dd2.jpg
