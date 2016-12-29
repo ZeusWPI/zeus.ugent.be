@@ -38,7 +38,6 @@ compile '/blog/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-  filter :html_press if production?
 end
 
 #
@@ -50,7 +49,6 @@ compile '/events/**/*' do
   layout '/eventpost.*'
   layout '/default.*'
   filter :erb
-  filter :html_press if production?
 end
 
 compile '/events/**/*', rep: :text do
@@ -73,7 +71,6 @@ compile '/blog/*/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-  filter :html_press if production?
 end
 
 compile '/blog/*/*', rep: :text do
@@ -107,7 +104,6 @@ compile '/**/*.erb' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-  filter :html_press if production?
 end
 
 #
