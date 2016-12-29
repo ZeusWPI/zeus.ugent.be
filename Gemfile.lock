@@ -12,9 +12,13 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     colored (1.2)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.4)
     cri (2.7.1)
       colored (~> 1.2)
+    css_press (0.3.2)
+      csspool-st (= 3.1.2)
+      json
+    csspool-st (3.1.2)
     execjs (2.7.0)
     ffi (1.9.14)
     formatador (0.2.5)
@@ -35,6 +39,11 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     highline (1.7.8)
+    html_press (0.8.2)
+      htmlentities
+      multi_css (>= 0.1.0)
+      multi_js (>= 0.1.0)
+    htmlentities (4.3.4)
     icalendar (2.4.1)
     json (2.0.2)
     kramdown (1.13.0)
@@ -46,10 +55,13 @@ GEM
     lumberjack (1.0.10)
     method_source (0.8.2)
     mini_portile2 (2.1.0)
-    nanoc (4.4.3)
+    multi_css (0.1.0)
+      css_press
+    multi_js (0.1.0)
+      uglifier (~> 2)
+    nanoc (4.4.6)
       cri (~> 2.3)
       hamster (~> 3.0)
-      parallel (~> 1.9)
       ref (~> 2.0)
     nenv (0.3.0)
     nokogiri (1.6.8.1)
@@ -57,7 +69,6 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    parallel (1.10.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -76,6 +87,9 @@ GEM
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     w3c_validators (1.2)
       json
       nokogiri
@@ -91,9 +105,10 @@ DEPENDENCIES
   coffee-script
   guard-nanoc
   highline
+  html_press
   icalendar
   kramdown
-  nanoc (= 4.4.3)
+  nanoc (= 4.4.6)
   sass
   terminal-notifier-guard
   therubyracer

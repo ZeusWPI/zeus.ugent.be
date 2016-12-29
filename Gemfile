@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '4.4.3'
+gem 'nanoc', '4.4.6'
 gem 'kramdown'
 gem 'coffee-script'
 gem 'sass'
@@ -13,9 +13,6 @@ gem 'icalendar'
 
 gem 'therubyracer'
 
-# Autoprefixing for class
-gem 'autoprefixer-rails'
-
 # Word counting gem (which takes special characters into account)
 # for reading time
 gem 'words_counted'
@@ -24,6 +21,12 @@ group :development do
   gem 'adsf'
   gem 'highline'
   gem 'terminal-notifier-guard'
+end
+
+group :production do
+  # Autoprefixing for class
+  gem 'autoprefixer-rails'
+  gem 'html_press'
 end
 
 group :nanoc do
