@@ -59,7 +59,7 @@ GEM
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    nanoc (4.4.6)
+    nanoc (4.4.7)
       cri (~> 2.3)
       hamster (~> 3.0)
       ref (~> 2.0)
@@ -108,7 +108,7 @@ DEPENDENCIES
   html_press
   icalendar
   kramdown
-  nanoc (= 4.4.6)
+  nanoc (= 4.4.7)
   sass
   terminal-notifier-guard
   therubyracer
