@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '4.4.7'
+gem 'nanoc', '4.5.4'
 gem 'kramdown'
 gem 'coffee-script'
 gem 'sass'

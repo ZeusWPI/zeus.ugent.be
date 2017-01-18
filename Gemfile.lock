@@ -19,6 +19,7 @@ GEM
       csspool-st (= 3.1.2)
       json
     csspool-st (3.1.2)
+    ddplugin (1.0.0)
     execjs (2.7.0)
     ffi (1.9.14)
     formatador (0.2.5)
@@ -59,8 +60,9 @@ GEM
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    nanoc (4.4.7)
+    nanoc (4.5.4)
       cri (~> 2.3)
+      ddplugin (~> 1.0)
       hamster (~> 3.0)
       ref (~> 2.0)
     nenv (0.3.0)
@@ -108,7 +110,7 @@ DEPENDENCIES
   html_press
   icalendar
   kramdown
-  nanoc (= 4.4.7)
+  nanoc (= 4.5.4)
   sass
   terminal-notifier-guard
   therubyracer
