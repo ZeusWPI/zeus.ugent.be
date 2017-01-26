@@ -78,7 +78,6 @@ compile '/blog/*/*', rep: :text do
   filter :strip_html
 end
 
-
 #
 # PROJECTS
 #

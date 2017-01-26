@@ -2,15 +2,17 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '4.5.4'
-gem 'kramdown'
+
+# General filtering
 gem 'coffee-script'
+gem 'icalendar' # ical files
+gem 'kramdown'
 gem 'sass'
+
 # Needed for atom_feed in blogging helper
 gem 'builder'
 
-# ical files
-gem 'icalendar'
-
+# Faster css autoprefixing
 gem 'therubyracer'
 
 # Word counting gem (which takes special characters into account)
