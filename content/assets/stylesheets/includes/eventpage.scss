@@ -33,3 +33,17 @@
     vertical-align: baseline;
   }
 }
+
+.header-text {
+  float: left;
+  padding: 20px;
+
+  &.light-background {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.has-vertical-center {
+  display: flex;
+  align-items: center;
+}
