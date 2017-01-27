@@ -8,6 +8,7 @@ locationlink: Sterre,Ghent Belgium
 banner: https://hashcode.withgoogle.com/resources/images/hero_6.jpg
 image: https://zeus.ugent.be/zeuswpi/I9GAh7iy.png
 facebook: https://www.facebook.com/events/179465822503595/
+header_text_background: true
 ---
 
 # Google Hashcode
