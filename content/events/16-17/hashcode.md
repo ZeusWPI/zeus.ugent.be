@@ -18,7 +18,10 @@ De online kwalificatieronde vind plaats op 23 februari om 18:30. Je kan deelneme
 De best scorende teams worden uitgenodigd bij Google Parijs op 1 april om mee te doen aan de finale ronde van de competitie.
 
 ## Registratie
-Registreer je [hier](https://g.co/hashcode) om je in te schrijven. Daarna kun je ook onze hub selecteren en een team vormen. Vergeet ook niet om onze hub _Ghent University_ te selecteren. Hoe meer teams zich inschrijven voor 5 februari, hoe meer goodies we kunnen verdelen!
+Registreer je **voor 5 februari** op [g.co/hashcode](https://g.co/hashcode) en selecteer **onze hub _Ghent University_**. Hoe meer teams zich registreren bij onze hub, hoe meer goodies we kunnen uitdelen!
+
+## Benodigdheden
+Om alles optimaal te laten verlopen willen we jullie vragen om je eigen verdeelstekker mee te brengen. Wij zorgen voor drank en snacks.
 
 ## Begint het al te kriebelen?
 
