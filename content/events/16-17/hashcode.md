@@ -5,7 +5,7 @@ created_at: 27-01-2017
 time: 23-02-2017 18:30
 location: A3, S9
 locationlink: Sterre,Ghent Belgium
-banner: https://hashcode.withgoogle.com/resources/images/hero_6.jpg
+banner: https://hashcode.withgoogle.com/resources/images/hero_2.jpg
 image: https://zeus.ugent.be/zeuswpi/I9GAh7iy.png
 facebook: https://www.facebook.com/events/179465822503595/
 header_text_background: true
@@ -26,6 +26,6 @@ Om alles optimaal te laten verlopen willen we jullie vragen om je eigen verdeels
 
 ## Begint het al te kriebelen?
 
-Wil je je optimaal voorbereiden op de wedstrijd? Dan kun je het voorbeeldprobleem proberen op te lossen, die kan je zien zodra je je hebt geregistreerd. Vorig jaar kwam het optimaliseren van routes voor drones en satellieten aan bod. Opgaven van de vorige jaren kan je [hier](https://hashcode.withgoogle.com/past_editions.html) vinden.
+Bereid je optimaal voor op de wedstrijd door het voorbeeldprobleem op te lossen, die kan je zien zodra je je hebt geregistreerd. Vorig jaar kwam het optimaliseren van routes voor drones en satellieten aan bod. Opgaven van de vorige jaren kan je [hier](https://hashcode.withgoogle.com/past_editions.html) vinden.
 
 Tot dan!
