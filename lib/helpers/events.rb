@@ -1,7 +1,7 @@
 require 'uri'
 module EventsHelper
   def all_events
-    @items.find_all('/events/*/*').sort_by { |x| x[:time] }
+    @items.find_all('/events/*/*.md').sort_by { |x| x[:time] }
   end
 
   def upcoming_events
