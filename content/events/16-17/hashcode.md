@@ -14,7 +14,7 @@ header_text_background: true
 # Google Hashcode
 Ook dit jaar organiseren we een hub voor de Google Hashcode. Dit is een jaarlijkse programmeerwedstrijd van Google waarin je in een team van 2 tot 4 personen een probleem voorgeschoteld krijgt die je mag oplossen in een programmeertaal naar keuze. De wedstrijd is gericht op studenten en professionals.
 
-De online kwalificatieronde vind plaats op 23 februari om 18:30. Je kan deelnemen met je team in onze hub _Ghent University_ in gebouw S9 op Campus Sterre, lokaal A3.
+De online kwalificatieronde vindt plaats op 23 februari om 18:30. Je kan deelnemen met je team in onze hub _Ghent University_ in gebouw S9 op Campus Sterre, lokaal A3.
 
 De best scorende teams worden uitgenodigd bij Google Parijs op 1 april om mee te doen aan de finale ronde van de competitie.
 
