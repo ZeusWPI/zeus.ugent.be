@@ -6,5 +6,5 @@ $ ->
     $('#tipue_search_input').removeClass("focused")
 
   $('.nav-toggle').click ->
-    $('.nav-menu').toggleClass('open')
-    console.log 'heuj'
+    $('.nav-menu').toggleClass('is-active')
+    $('.nav-toggle').toggleClass('is-active')

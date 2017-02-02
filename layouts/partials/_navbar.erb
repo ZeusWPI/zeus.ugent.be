@@ -2,6 +2,9 @@
   <div class="columns">
     <div class="logo-wrapper column is-narrow is-hidden-mobile">
       <a id="logo-link" href="/">
+        <% if christmastime? %>
+          <img id="santa" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Santa_hat.svg">
+        <% end %>
         <img id="logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
       </a>
     </div>
@@ -24,7 +27,7 @@
 
           <div class="nav-right">
             <form action="/search/?" method="get">
-              <div id="tipue_search_input" class="nav-item">
+              <div id="tipue_search_input" class="nav-item nav-search">
                 <input type="text" name="q" id="tipue_search_input_field" autocomplete="off">
               </div>
             </form>
@@ -36,7 +39,7 @@
             <span></span>
           </span>
 
-          <div class="nav-right is-hidden-mobile social-icons">
+          <div class="nav-right is-hidden-mobile">
               <a class="nav-item social-icon" href="https://github.com/ZeusWPI" target="_blank">
                   <span class="icon">
                     <%= fa :github %>

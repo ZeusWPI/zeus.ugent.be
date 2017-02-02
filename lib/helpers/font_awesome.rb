@@ -1,12 +1,13 @@
 module FontAwesomeHelper
-  def fa(icon, size: nil, li: false, stack: nil, inverse: false)
+  def fa(icon, opts = {})
     classes = ['fa', "fa-#{icon}"]
 
-    classes << "fa-#{size}" if size
-    classes << 'fa-li' if li
-    classes << "fa-stack-#{stack}" if stack
-    classes << 'fa-inverse' if inverse
+    classes << "fa-#{opts[:size]}" if opts[:size]
+    classes << 'fa-li' if opts[:li]
+    classes << "fa-stack-#{opts[:stack]}" if opts[:stack]
+    classes << 'fa-inverse' if opts[:inverse]
+    classes << opts[:class]
 
-    "<i class='#{classes.join(' ')}'></i>"
+    "<i class='#{classes.reject(&:nil?).join(' ')}'></i>"
   end
 end

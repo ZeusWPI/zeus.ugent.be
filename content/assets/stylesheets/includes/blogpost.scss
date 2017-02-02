@@ -1,9 +1,3 @@
-.blogpost {
-  .blogtitle {
-    font-size: 4em;
-  }
-}
-
 #markdown-toc {
   @extend .menu-list;
 
@@ -13,6 +7,7 @@
   }
 }
 
+// Definition list is not defined in bulma
 dl {
   dt {
     display: inline;
@@ -27,10 +22,6 @@ dl {
       white-space: pre;
     }
   }
-}
-
-.padbox {
-  margin-bottom:10px;
 }
 
 .blogwidth{

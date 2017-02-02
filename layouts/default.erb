@@ -25,9 +25,6 @@
     <%= asset :js, :tipuesearch %>
     <%= asset :js, :search %>
 
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-
     <!-- Google Analytics -->
     <script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -35,6 +32,18 @@
     ga('send', 'pageview');
     </script>
     <script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <!-- Hotjar Tracking Code for zeus.ugent.be -->
+    <script>
+(function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+    h._hjSettings={hjid:392303,hjsv:5};
+    a=o.getElementsByTagName('head')[0];
+    r=o.createElement('script');r.async=1;
+    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
     <%= asset :css, :main %>
 
@@ -48,7 +57,7 @@
   <body class="site">
     <div class="wrapper">
       <%= yield %>
-    </div>
+      </div>
     <%= render '/partials/_footer.*' %>
   </body>
 </html>

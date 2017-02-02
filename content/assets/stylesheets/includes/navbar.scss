@@ -1,0 +1,81 @@
+#navbar {
+  align-items: flex-end;
+
+  z-index: 100;
+  margin-bottom: 10px;
+
+  .logo-wrapper {
+    padding-bottom: 0;
+    position: relative;
+
+    #santa {
+      position: absolute;
+      z-index: 500;
+      left: 27px;
+      top: -1px;
+      width: 40px;
+      transform: scale(-1, 1);
+    }
+  }
+
+  .nav-menu {
+    z-index: 20;
+  }
+
+  .actual-nav-bar {
+    padding: 0;
+    margin: 10px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  #inline-logo {
+    min-width: 38.703px;
+  }
+
+  #logo-link {
+    #logo {
+      padding-top: 10px;
+      padding-left: 10px;
+      width: 100px;
+    }
+  }
+
+  //Height of the line underneath when hovering over a menu item
+  $border-height: 3px;
+
+  .nav {
+    height: 100%;
+    align-items: flex-end;
+    z-index: auto;
+
+    .nav-item {
+      transition: 0.2s;
+
+      font-variant: small-caps;
+      font-size: 1.15em;
+
+      &:not(.nav-search) {
+        border-bottom: $border-height solid transparent;
+        border-top: 3px solid transparent;
+      }
+
+      &:hover {
+        transition: 0.2s;
+      }
+
+      &.social-icon {
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+
+      &:not(.nav-search):hover, &.is-active {
+        border-bottom-color: $zeus-orange;
+      }
+    }
+
+    .nav-search {
+      margin-bottom: $border-height;
+    }
+  }
+}

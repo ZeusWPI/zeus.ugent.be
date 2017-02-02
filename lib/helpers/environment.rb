@@ -1,6 +1,6 @@
 module EnvironmentHelper
   def production?
-    ENV['ZEUS_PRODUCTION']
+    ENV['NANOC_ENV'] == 'prod'
   end
 
   def development?

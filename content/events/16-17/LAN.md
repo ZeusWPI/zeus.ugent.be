@@ -26,3 +26,13 @@ Door je in te schrijven krijgen wij een beter beeld van hoeveel volk we kunnen v
 De deuren openen om 16:00. We vragen €2 inkom, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken.
 
 Uit ervaring weten we dat het soms wat kouder kan worden in de Therminal rondom die tijd, dus draag zeker een **trui** of iets dergelijks! We doen echter ons best om de verwarming in orde te krijgen.
+
+## Timetable
+
+| Tijdstip | Activiteit     |
+| :------------- | :------------- |
+| 18:00 | Competitie Trackmania Nations |
+| 20:00 | Competitie Nidhogg |
+| 22:00 | Competitie Counter-Strike: Global Offensive |
+| 00:00 | Competitie League of Legends |
+{: .table .is-striped}

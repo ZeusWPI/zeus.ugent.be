@@ -14,47 +14,10 @@ preprocess do
   `npm install`
 
   # We don't want to compile old blogposts in development
-  if development?
-    @items.delete_if do |item|
-      ident = item.identifier.to_s
-
-      next unless ident.to_s.start_with?('/blog/')
-
-      !ident.start_with?('/blog/16-17/')
-    end
-  end
-
-  @items.find_all('/blog/**/*').each do |i|
-    year_str = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
-    academic_year = year_str.to_i
-
-    attr_hash = {
-      # Tag all posts with article (for Blogging helper)
-      kind: 'article',
-      academic_year: academic_year
-    }
-
-    i.update_attributes(attr_hash)
-  end
-
-  # academic_years is defined in archives.rb
-  academic_years.each do |year|
-    @items.create(
-      '',
-      { academic_year: year, title: 'Blog' },
-      "/blog/#{year}-#{year + 1}.html",
-      binary: false
-    )
-  end
-
-  academic_years_items[academic_years.max].update_attributes(
-    navigable: true,
-    order: 10
-  )
-
-  all_events.each do |event|
-    event[:time] = DateTime.parse(event[:time])
-  end
+  ignore_old_blogposts if development?
+  update_blog_attributes
+  create_blog_items
+  convert_event_time_to_timestamps
 end
 
 #
@@ -66,8 +29,6 @@ compile '/feed.xml' do
   filter :erb
   write '/feed.xml'
 end
-
-passthrough '/quotes.json'
 
 #
 # ARCHIVES
@@ -95,9 +56,6 @@ compile '/events/**/*', rep: :text do
   filter :strip_html
 end
 
-compile '/events/**/main.md', rep: :ical do
-end
-
 compile '/events/**/*', rep: :ical do
   filter :ical
 end
@@ -112,13 +70,13 @@ compile '/blog/*/*' do
   layout '/blogpost.erb'
   layout '/generic.*'
   layout '/default.*'
+  filter :erb
 end
 
 compile '/blog/*/*', rep: :text do
   filter :kramdown
   filter :strip_html
 end
-
 
 #
 # PROJECTS
@@ -135,15 +93,13 @@ route '/projects/*' do; end
 #
 compile '/*_search.json' do
   filter :erb
-  write @item.identifier.to_s
 end
 
 compile '/**/*.ics' do
   filter :erb
-  write @item.identifier.to_s
 end
 
-compile '/*.erb' do
+compile '/**/*.erb' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
@@ -162,9 +118,6 @@ compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
   filter :autoprefixer if production?
 end
-
-passthrough '/assets/images/*.{png,svg}'
-passthrough '/assets/**/*.js'
 
 #
 #
@@ -195,6 +148,9 @@ route '/**/*.{erb,html,md}' do
     "#{item.identifier.without_ext}/index.html"
   end
 end
+
+# Let anything else simply pass through
+passthrough '/**/*'
 
 #
 #

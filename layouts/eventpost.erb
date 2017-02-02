@@ -23,31 +23,33 @@
   <div class="hero-body">
     <div class="container">
       <div class="columns">
-        <div class="column">
-          <p class="title is-1">
-            <b>
-              <%= item[:title] %>
-            </b>
-            <span class="event-social-icons">
-              <% if item[:facebook] %>
-              <a href="<%= item[:facebook] %>">
-                <%= fa :facebook %>
-              </a>
-              <% end %>
-              <a href="<%= item.path rep: :ical %>">
-                <%= fa :calendar %>
-              </a>
-            </span>
-          </p>
-          <p class="subtitle is-3">
-            <%= item[:description] %>
-          </p>
-          <p class="subtitle is-3">
-            <ul class="fa-ul event-attributes">
-              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
-              <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
-            </ul>
-          </p>
+        <div class="column has-vertical-center">
+          <div class="header-text <%= item[:header_text_background] ? 'light-background' : '' %>">
+            <p class="title is-1">
+              <b>
+                <%= item[:title] %>
+              </b>
+              <span class="event-social-icons">
+                <% if item[:facebook] %>
+                <a href="<%= item[:facebook] %>">
+                  <%= fa :facebook %>
+                </a>
+                <% end %>
+                <a href="<%= item.path rep: :ical %>">
+                  <%= fa :calendar %>
+                </a>
+              </span>
+            </p>
+            <p class="subtitle is-3">
+              <%= item[:description] %>
+            </p>
+            <p class="subtitle is-3">
+              <ul class="fa-ul event-attributes">
+                <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
+                <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
+              </ul>
+            </p>
+          </div>
         </div>
 
         <div class="is-narrow column banner-image">
@@ -68,10 +70,7 @@
   </div>
   <div class="columns">
     <div class="google-maps column is-8 is-offset-2">
-      <iframe
-        frameborder="0" style="border:0"
-        src="<%= locationlink item[:locationlink] %>" allowfullscreen>
-      </iframe>
+      <iframe frameborder="0" style="border:0" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
     </div>
   </div>
 </section>

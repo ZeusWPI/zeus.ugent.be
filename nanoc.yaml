@@ -3,7 +3,11 @@ title: Zeus WPI
 author_name: ''
 author_uri: ''
 
-base_url: https://zeus.ugent.be
+base_url: http://localhost:3000
+
+environments:
+  prod:
+    base_url: https://zeus.ugent.be
 
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`
 # (default) or `"legacy"`. The former will enable glob patterns, which behave

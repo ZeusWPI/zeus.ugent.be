@@ -32,6 +32,16 @@ bundle exec nanoc deploy --target public
 
 Posts should be written in [kramdown](http://kramdown.gettalong.org/index.html), a markdown superset which has a very complete [syntax guide](http://kramdown.gettalong.org/syntax.html).
 
+Meta-tags:
+
+| Name        | Type   | Required |
+|-------------|--------|----------|
+| :title      | String | yes      |
+| :created_at | Date   | yes      |
+| :description| String | no       |
+| :author     | String | no       |
+| :lang       | String | no       |
+
 ## Events
 
 Example structure:
@@ -57,27 +67,27 @@ content/
 
 Every event is a `.md` file with the following metadata tags:
 
-#### Required
+| Name         | Type   | Required |
+|--------------|--------|----------|
+| :title       | String | yes      |
+| :time        | Date   | yes      |
+| :location    | String | yes      |
+| :description | String | no       |
+| :created_at  | Date   | no       |
+| :locationlink| String | no       |
+| :facebook    | URL    | no       |
+| :banner      | URL    | no       |
+| :image       | URL    | no       |
 
-* title: String
-* time: Date
-* location: String
-
-#### Optional
-
-* banner: URL
 
 ### Grouped events
 
 If there's a series of events (for example summer code nights) these can be grouped by creating a folder containing a `main.md`, which will need the following metadata:
 
-#### Required
-
-* title: String
-
-#### Optional
-
-* location: String
-* banner: URL
+| Name         | Type   | Required |
+|--------------|--------|----------|
+| :title       | String | yes      |
+| :location    | String | no       |
+| :banner      | URL    | no       |
 
 Other `.md` files made in that folder are sub-events which need to fit the [metadata description listed earlier](#metadata)
