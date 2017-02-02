@@ -7,7 +7,7 @@ toc:
   depth: 1
 ---
 
-_Bij het begin van ieder schooljaar komt er een verse lading studentjes Informatica toe die in de lessen Computergebruik kennis maken met de wondere wereld van GNU/Linux.
+_Bij het begin van ieder schooljaar komt er een verse lading studentjes Informatica toe. In de lessen Computergebruik maken ze kennis met de wondere wereld van GNU/Linux.
 Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturingssysteem en groeien een verlangen om zich de kunst van het Unix-tovenaarschap eigen te maken._
 
 Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
@@ -16,27 +16,37 @@ Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het p
 ---
 
 ## Probeer eerst in een virtuele machine
-Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine).
-Zo komt niet alles in één keer op je af en kun je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je naast het OS installeren ook rekening moet houden met andere obstakels zoals een dualboot systeem opzetten.
+Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/).
+Op die manier komt niet alles in één keer op je af en kun je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je naast het OS installeren ook rekening moet houden met andere obstakels zoals een dualboot systeem opzetten. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
 
 ## Zit je vast? RTFM!
-Read The Fucking Manual (of forum, of wiki).
+_Read The Fucking Manual_ (of forum, of wiki).
 Krijg je een rare error, weet je niet wat de volgende stap is of weet je niet waar te beginnen? Panikeer niet onmiddellijk, ieder struikelblok is een kans om te leren.
 Foutmeldingen geven vaak een aanwijzing waar het probleem zou kunnen liggen, lees die dus goed.
 Indien dat geen verlichting brengt: zoek je specifiek probleem op.
-De kans is klein dat jij de eerste bent met hetzelfde probleem.
+De kans is klein dat jij de eerste of enige persoon bent met hetzelfde probleem.
 
 Enkele goede bronnen van informatie:
-- Google en [DuckDuckGo](https://duckduckgo.org) zijn uw vriend!
+- Zoekmachines zoals Google en [DuckDuckGo](https://duckduckgo.org) zijn uw vriend!
 - De [wiki](https://wiki.archlinux.org/) of het [forum](https://bbs.archlinux.org/) van Arch Linux.
-Veel algemene concepten en problemen worden hier uitgelegd die toepasbaar zijn op veel andere distro's.
+Veel algemene concepten en problemen die daar worden uitgelegd zijn toepasbaar op bijna alle distro's.
 - Een online [manpage](http://man.he.net/).
 
-## Kies een distro
-Er zijn veel verschillende Linux-distributies, elk met een verschillende _look & feel_, moeilijkheidsgraad en ideologie.
-Voor beginners kan ik *Linux Mint* of *Fedora* aanraden.
-Wie al wat meer ervaring heeft en niet bang is van een terminal kan eens een kijkje nemen naar *Arch Linux*.
-[Hier](https://linuxjourney.com/lesson/linux-history#) vind je uitleg over de courantste distro's en op [distrowatch](https://distrowatch.com/) staan de meeste distributies met een korte uitleg.
+Als je helemaal vast zit kun je ook even binnen springen in onze kelder. We helpen je graag verder op weg.
+
+## Kies een distributie
+Er zijn veel verschillende Linux-distributies, elk met een verschillende _look & feel_, moeilijkheidsgraad en ideologie. Enkele courante distributies:
+
+- **Linux Mint** is simpel, stabiel en gebruiksvriendelijk. Met enige oefening zou zelfs je grootmoeder hier mee kunnen leren werken. Voor absolute beginners die rustig willen beginnen is dit dus een aanrader. Het is gebaseerd op Ubuntu (ook een goede distro voor beginners).
+- **Fedora** richt zich meer op programmeurs maar blijft gebruiksvriendelijk. Het is een solide distro die elk half jaar een nieuwe uitbrengt (naast de regelmatige patches natuurlijk) en die een heel jaar blijft ondersteunen.
+- **Arch Linux** is voor zij die op zoek zijn naar een uitdaging.
+In tegenstelling tot de grafische installers van andere distro's moet je Arch Linux installeren van op de commandline. Gelukkig bestaat er een grote hoeveelheid aan informatie en een goed uitgewerkte installation guide op de wiki van Arch Linux.
+De basisinstallatie is heel minimalistisch (het bevat zelfs geen grafische omgeving) maar is heel gemakkelijk uit te breiden naar je eigen smaken en wensen.
+Daarom ga je Arch vinden op de computer van de meeste Zeusers.
+Als beginner is het met voldoende tijd, geduld en inzet zeker doenbaar om Arch Linux te installeren. Het geeft enorm veel voldoening en je verkrijgt het beste resultaat.
+
+
+[Hier](https://linuxjourney.com/lesson/linux-history#) vind je uitleg over de bekendste distro's en op [distrowatch](https://distrowatch.com/) staan de meeste distributies met een korte uitleg.
 
 
 # 1. Voorbereiding
@@ -52,8 +62,8 @@ Als je zeker wilt zijn is 50GB zeker genoeg.
 - [Schakel _fast startup_ uit.](https://www.tenforums.com/tutorials/4189-fast-startup-turn-off-windows-10-a.html) Dit geeft  op meerdere manieren problemen met Linux.
 Als je Windows-installatie op een SSD staat is het verschil in opstartsnelheid toch verwaarloosbaar.
 - [Stel je hardwaretijd in op UTC](https://wiki.archlinux.org/index.php/time#UTC_in_Windows).
-- **Secure Boot:** secure boot is een feature waarmee enkel goedgekeurde bestanden op je harde schijf kunnen gebruikt worden als bootloader: dit bestand wordt bij het opstarten als eerste aangesproken en heeft als taak het besturingssysteem in te laden.
-Indien je Linux wil kunnen opstarten zul je secure boot moeten uitschakelen of de bootloader in de BIOS moeten toevoegen als veilig.
+- **Secure Boot:** secure boot is een feature waarmee enkel "goedgekeurde" (gesigneerd door _Microsoft Windows_) bestanden op je harde schijf kunnen gebruikt worden als bootloader (verder in de blogpost geef ik wat meer uitleg over wat een bootloader precies is).
+Indien je Linux wil kunnen opstarten kun je secure boot uitschakelen. Dit is de simpelste oplossing, maar werkt niet altijd. Je kunt ook de bootloader in de UEFI toevoegen aan de lijst van vertrouwde bootloaders.
 Je zoekt best voor jouw specifieke machine op hoe je dit doet.
 
 ## Neem backups
@@ -104,13 +114,9 @@ Maar wees extra voorzichtig en weet wat je doet.
 Bootloaders zijn een soort programma's die de taak hebben om een besturingssysteem in te laden wanneer je computer wordt opgestart.
 Wanneer je Linux installeert heb je keuze tussen verschillende bootloaders: grub, grub2, refind, syslinux of andere.
 Bootloaders kunnen ingesteld worden zodat je tijdens het opstarten kunt kiezen welk besturingssysteem er wordt opstart: Windows of Linux.
-Sommige bootloaders detecteren automatisch wat de verschillende keuzes zijn, maar meestal moet je die zelf configureren of doet de installer dat voor jouw.
+Sommige bootloaders detecteren automatisch wat de verschillende keuzes zijn, maar meestal moet je die zelf configureren of doet een grafische installer dat voor jouw.
 
-### Secure boot
-TODO
-
-
-# 3. Na de installatie
+# 3. Achteraf
 ---
 
 Als alles goed is gegaan heb je normaal een werkende Linux installatie.
@@ -118,6 +124,6 @@ Proficiat! Wat je nu nog kunt doen:
 
 - Mount automatisch bij het opstarten je Windows partities in Linux
 - [Ricing](https://rizonrice.github.io/resources), het eeuwigdurende pimpen van je Linux-installatie.
-Kom gerust eens langs in de [Zeus kelder](https://zeus.ugent.be/about/) om installatie te showen en om tips en tricks te vragen.
+Kom gerust eens langs in de [Zeus kelder](https://zeus.ugent.be/about/) om installatie te showen en om tips en tricks uit te wisselen.
 - Backups maken van je huidige installatie, die je kunt terugzetten wanneer je je installatie breekt (vroeger of later is dit sowieso het geval).
 - Je installatie showen aan je vrienden, ouders, grootmoeder, proffen, buren ... om te tonen wat voor een badass computergoochelaar je wel niet bent.
