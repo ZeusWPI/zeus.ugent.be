@@ -17,7 +17,7 @@ Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het p
 
 ## Probeer eerst in een virtuele machine
 Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/).
-Op die manier komt niet alles in één keer op je af en kun je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je naast het OS installeren ook rekening moet houden met andere obstakels zoals een dualboot systeem opzetten. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
+Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je naast het OS installeren ook rekening moet houden met andere obstakels zoals een dualboot systeem opzetten. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
 
 ## Zit je vast? RTFM!
 _Read The Fucking Manual_ (of forum, of wiki).
@@ -32,7 +32,7 @@ Enkele goede bronnen van informatie:
 Veel algemene concepten en problemen die daar worden uitgelegd zijn toepasbaar op bijna alle distro's.
 - Een online [manpage](http://man.he.net/).
 
-Als je helemaal vast zit kun je ook even binnen springen in onze kelder. We helpen je graag verder op weg.
+Als je helemaal vast zit kan je ook even binnen springen in onze kelder. We helpen je graag verder op weg.
 
 ## Kies een distributie
 Er zijn veel verschillende Linux-distributies, elk met een verschillende _look & feel_, moeilijkheidsgraad en ideologie. Enkele courante distributies:
@@ -63,7 +63,7 @@ Als je zeker wilt zijn is 50GB zeker genoeg.
 Als je Windows-installatie op een SSD staat is het verschil in opstartsnelheid toch verwaarloosbaar.
 - [Stel je hardwaretijd in op UTC](https://wiki.archlinux.org/index.php/time#UTC_in_Windows).
 - **Secure Boot:** secure boot is een feature waarmee enkel "goedgekeurde" (gesigneerd door _Microsoft Windows_) bestanden op je harde schijf kunnen gebruikt worden als bootloader (verder in de blogpost geef ik wat meer uitleg over wat een bootloader precies is).
-Indien je Linux wil kunnen opstarten kun je secure boot uitschakelen. Dit is de simpelste oplossing, maar werkt niet altijd. Je kunt ook de bootloader in de UEFI toevoegen aan de lijst van vertrouwde bootloaders.
+Indien je Linux wil kunnen opstarten kan je secure boot uitschakelen. Dit is de simpelste oplossing, maar werkt niet altijd. Je kunt ook de bootloader in de UEFI toevoegen aan de lijst van vertrouwde bootloaders.
 Je zoekt best voor jouw specifieke machine op hoe je dit doet.
 
 ## Neem backups
