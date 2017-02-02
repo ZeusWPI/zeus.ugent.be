@@ -7,6 +7,15 @@
   }
 }
 
+$sel: '';
+@for $i from 1 through 9 {
+    $sel: if($i == 1, "ul", selector-nest($sel, "ul")) !global;
+
+    #markdown-toc.toc-depth-#{$i} #{$sel} {
+      display: none;
+    }
+}
+
 // Definition list is not defined in bulma
 dl {
   dt {
