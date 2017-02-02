@@ -4,7 +4,7 @@
     Table of Contents
   </p>
 * x
-{:toc}
+{:toc .toc-depth-<%= item[:toc][:depth] %>}
 </aside>
 <% end %>
 

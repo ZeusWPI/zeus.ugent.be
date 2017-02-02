@@ -3,6 +3,8 @@ title: "Linux: hoe doe?"
 created_at: 02-02-2017
 description: Uitleg en tips voor iedereen die linux wil installeren.
 author: Rien
+toc:
+  depth: 1
 ---
 
 _Tijdens het begin van ieder schooljaar komt er een verse lading studentjes Informatica toe die in de lessen Computergebruik kennis maken met de wondere wereld van GNU/Linux. Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturingssysteem en groeien een verlangen om de kunst van het Unix-tovenaarschap zich eigen te maken._
