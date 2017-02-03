@@ -7,7 +7,7 @@
 <% if item[:toc] %>
 <div class="menu column" markdown="1">
   <p class="menu-label">
-    Table of Contents
+    Inhoudstabel
   </p>
 <% if item[:toc].is_a? Hash %>
 * x
