@@ -7,17 +7,16 @@ toc:
   depth: 1
 ---
 
-_Bij het begin van ieder schooljaar komt er een verse lading studentjes Informatica toe. In de lessen Computergebruik maken ze kennis met de wondere wereld van GNU/Linux.
+_Bij het begin van ieder schooljaar komt er een verse lading studenten Informatica toe. In de lessen Computergebruik maken ze kennis met de wondere wereld van GNU/Linux.
 Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturingssysteem en groeien een verlangen om zich de kunst van het Unix-tovenaarschap eigen te maken._
 
 Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
 
 # Enkele tips voor je begint
----
 
 ## Probeer eerst in een virtuele machine
 Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/).
-Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je naast het OS installeren ook rekening moet houden met andere obstakels zoals een dualboot systeem opzetten. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
+Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je (naast het OS installeren) ook rekening moet houden met andere obstakels zoals het opzetten van een dualboot systeem. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
 
 ## Zit je vast? RTFM!
 _Read The Fucking Manual_ (of forum, of wiki).
@@ -27,7 +26,7 @@ Indien dat geen verlichting brengt: zoek je specifiek probleem op.
 De kans is klein dat jij de eerste of enige persoon bent met hetzelfde probleem.
 
 Enkele goede bronnen van informatie:
-- Zoekmachines zoals Google en [DuckDuckGo](https://duckduckgo.org) zijn uw vriend!
+- Gewoon jouw error plakken in een zoekmachine kan je al ver helpen: Google en [DuckDuckGo](https://duckduckgo.org) zijn je vriend!
 - De [wiki](https://wiki.archlinux.org/) of het [forum](https://bbs.archlinux.org/) van Arch Linux.
 Veel algemene concepten en problemen die daar worden uitgelegd zijn toepasbaar op bijna alle distro's.
 - Een online [manpage](http://man.he.net/).
@@ -38,19 +37,18 @@ Als je helemaal vast zit kan je ook even binnen springen in onze kelder. We help
 Er zijn veel verschillende Linux-distributies, elk met een verschillende _look & feel_, moeilijkheidsgraad en ideologie. Enkele courante distributies:
 
 - **Linux Mint** is simpel, stabiel en gebruiksvriendelijk. Met enige oefening zou zelfs je grootmoeder hier mee kunnen leren werken. Voor absolute beginners die rustig willen beginnen is dit dus een aanrader. Het is gebaseerd op Ubuntu (ook een goede distro voor beginners).
-- **Fedora** richt zich meer op programmeurs maar blijft gebruiksvriendelijk. Het is een solide distro die elk half jaar een nieuwe uitbrengt (naast de regelmatige patches natuurlijk) en die een heel jaar blijft ondersteunen.
+- **Fedora** richt zich meer op programmeurs maar blijft gebruiksvriendelijk. Het is een solide distro die elk half jaar een nieuwe versie uitbrengt (naast de regelmatige patches natuurlijk) en die een heel jaar blijft ondersteunen.
 - **Arch Linux** is voor zij die op zoek zijn naar een uitdaging.
-In tegenstelling tot de grafische installers van andere distro's moet je Arch Linux installeren van op de commandline. Gelukkig bestaat er een grote hoeveelheid aan informatie en een goed uitgewerkte installation guide op de wiki van Arch Linux.
+In tegenstelling tot de grafische installers van andere distro's moet je Arch Linux installeren via de commandline. Gelukkig bestaat er een grote hoeveelheid aan informatie en een goed uitgewerkte installation guide op de wiki van Arch Linux.
 De basisinstallatie is heel minimalistisch (het bevat zelfs geen grafische omgeving) maar is heel gemakkelijk uit te breiden naar je eigen smaken en wensen.
 Daarom ga je Arch vinden op de computer van de meeste Zeusers.
-Als beginner is het met voldoende tijd, geduld en inzet zeker doenbaar om Arch Linux te installeren. Het geeft enorm veel voldoening en je verkrijgt het beste resultaat.
+Als beginner is het met voldoende tijd, geduld en inzet zeker doenbaar om Arch Linux te installeren. Het geeft enorm veel voldoening en je zal er het meest uit leren.
 
 
 [Hier](https://linuxjourney.com/lesson/linux-history#) vind je uitleg over de bekendste distro's en op [distrowatch](https://distrowatch.com/) staan de meeste distributies met een korte uitleg.
 
 
 # 1. Voorbereiding
----
 
 ## Fix windows
 
@@ -85,12 +83,12 @@ Probeer steeds alles te snappen voor je iets effectief doet.
 ## Enkele concepten die vaak aan bod komen
 Meestal blijven deze delen verborgen als je een installer gebruikt.
 Wanneer er iets fout loopt kan het misschien wel handig zijn om te weten wat er precies verkeerd loopt.
-Daarnaast is het ook gewoon handig om te weten hoe alles in zijn werk gaat.
+Daarnaast is het ook gewoon goed om te weten hoe alles in zijn werk gaat.
 
 ### UEFI en BIOS
 Hier kan er enige verwarring rond ontstaan.
 
-[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) is het component waarmee het opstarten van je PC wordt geregeld, BIOS (ook _legacy boot_ genoemd) is de voorganger van [BIOS](https://en.wikipedia.org/wiki/BIOS).
+[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) is het component waarmee het opstarten van je PC wordt geregeld, het is de opvolger van [BIOS](https://en.wikipedia.org/wiki/BIOS) (ook wel _legacy boot_ genoemd).
 Sinds 2014 hebben de meeste computers een combinatie van beide systemen, men spreekt dan ook wel van UEFI/BIOS.
 
 Het grootste verschil tussen beide systemen is hoe ze booten en welk partitiesysteem ze ondersteunen:
@@ -117,7 +115,6 @@ Bootloaders kunnen ingesteld worden zodat je tijdens het opstarten kunt kiezen w
 Sommige bootloaders detecteren automatisch wat de verschillende keuzes zijn, maar meestal moet je die zelf configureren of doet een grafische installer dat voor jouw.
 
 # 3. Achteraf
----
 
 Als alles goed is gegaan heb je normaal een werkende Linux installatie.
 Proficiat! Wat je nu nog kunt doen:
