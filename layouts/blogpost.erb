@@ -1,27 +1,24 @@
+<div class="heading">
+  <h1 class="title is-1 has-text-centered">
+    <%= item[:title] %>
+  </h1>
+  <% if item[:author] %>
+  <h2 class="subtitle is-3 has-text-centered">
+    <% if item[:lang] == :en %>
+    by
+    <% else %>
+    door
+    <% end %>
+    <%= item[:author] %>
+  </h2>
+  <% end %>
+  <p class="has-text-centered">
+    <small>Geschreven op <%= item[:created_at] %></small><br>
+    Leestijd: <%= reading_time @item %>
+  </p>
+  <hr>
+</div>
+
 <div class="columns">
-  <article class="column is-8 is-offset-2">
-    <div class="heading">
-      <h1 class="title is-1 has-text-centered">
-        <%= item[:title] %>
-      </h1>
-      <% if item[:author] %>
-      <h2 class="subtitle is-3 has-text-centered">
-        <% if item[:lang] == :en %>
-        by
-        <% else %>
-        door
-        <% end %>
-        <%= item[:author] %>
-      </h2>
-      <% end %>
-      <p class="has-text-centered">
-        <small>Geschreven op <%= item[:created_at] %></small><br>
-        Leestijd: <%= reading_time @item %>
-      </p>
-      <hr>
-    </div>
-    <div class="content is-medium">
-      <%= yield %>
-    </div>
-  </article>
+  <%= yield %>
 </div>
