@@ -71,7 +71,6 @@ Neem daarom een backup van je belangrijkste bestanden op een externe harde schij
 Better safe than sorry.
 
 # 2. Installatie
----
 
 Kies een installatietutorial voor de distributie die je gekozen hebt.
 Probeer steeds alles te snappen voor je iets effectief doet.
