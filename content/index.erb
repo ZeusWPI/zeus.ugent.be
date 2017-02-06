@@ -6,7 +6,7 @@
 
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
-    <%= render '/tiles/blokmap.*' %>
+    <%= if studytime? then render '/tiles/blokmap.*'end %>
     <div class="tile is-parent is-12">
       <div class="tile is-child box highlighted">
         <div class="content">
