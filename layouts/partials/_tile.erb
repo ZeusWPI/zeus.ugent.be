@@ -1,5 +1,5 @@
-<a href="<%= relative_path_to(@article) %>" class="tile is-child box <%= @htmlclass %>"
-  style="background-image:url('<%=@article[:banner]%>');">
+<a href="<%= @article.path %>" class="tile is-child box <%= @htmlclass %>"
+  style="background-image:url('<%= @article[:banner] %>');">
   <div class="content" >
     <div class="columns">
       <div class="column">
@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="description">
-    <%= @article[:description] %>
+      <%= @article[:description] %>
     </div>
     <div class="teaser">
       <%=  get_teaser(@article) %>
