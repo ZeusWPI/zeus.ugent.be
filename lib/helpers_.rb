@@ -17,3 +17,4 @@ include SearchHelper
 include BlogHelper
 include PreprocessHelper
 include TimeHelper
+include TileHelper
