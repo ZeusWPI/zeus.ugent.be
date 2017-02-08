@@ -39,6 +39,7 @@ module PreprocessHelper
   def convert_event_time_to_timestamps
     all_events.each do |event|
       event[:time] = DateTime.parse(event[:time])
+      event[:end] = DateTime.parse(event[:end]) if event[:end]
     end
   end
 end

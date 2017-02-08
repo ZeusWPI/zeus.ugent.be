@@ -3,6 +3,7 @@ title: Hashcode
 description: Zeus organiseert een UGent Hashcode Hub
 created_at: 27-01-2017
 time: 23-02-2017 18:30
+end: 23-02-2017 23:00
 location: A3, S9
 locationlink: Sterre,Ghent Belgium
 banner: https://hashcode.withgoogle.com/resources/images/hero_2.jpg
