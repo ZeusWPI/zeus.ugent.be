@@ -35,15 +35,33 @@
         </div>
       </div>
       <div class="tile">
-        <div class="tile is-parent is-4">
-          <div class="tile is-child box centering">
-            <div class="content has-text-centered">
-              <div id="quote" >
-                <!-- INTENTIONALLY LEFT BLANK -->
-              </div>
-            </div>
+        <div class="tile is-vertical">
+          <% for i in [0,1,2] do event = upcoming_events[1+i] || all_events[-2-i] %>
+            <div class="tile is-parent ">
+              <%= render '/partials/_tile.*',
+                article: event, 
+                small_text: if upcoming_events[1] then "Upcoming event" else "Past event" end,
+                htmlclass:"highlighted"%>
           </div>
+        <%end%>
         </div>
+        <div class="tile is-vertical">
+        <% for i in [1,2,3] do post = sorted_articles[i] %>
+          <div class="tile is-parent ">
+            <%= render '/partials/_tile.*',
+              article: post, 
+              small_text: "blogpost"%>
+          </div>
+        <%end%>
+
+        </div>
+      </div>
+  </div>
+</div>
+<%= asset :js, :gamification %>
+<%= asset :js, :quote %>
+<!-- 
+
         <div class="tile is-parent is-2">
           <a class="tile box is-child imgcenter project-tile" href="/projects/#12urenloop">
             <%= asset :img, '12urenloop.png' %>
@@ -54,17 +72,4 @@
             <%= asset :img, 'hydra-logo.svg' %>
           </a>
         </div>
-      </div>
-      <div class="tile">
-        <div class="tile is-vertical">
-          <div class="tile is-parent">
-            <%= render '/partials/_tile.*',
-              article: upcoming_events[1] || all_events[-2],
-              small_text: if upcoming_events[1] then "Upcoming event" else "Past event" end %>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-<%= asset :js, :gamification %>
-<%= asset :js, :quote %>
+-->
