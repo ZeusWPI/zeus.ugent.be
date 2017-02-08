@@ -1,3 +1,5 @@
+$top_coder_size: 80px;
+
 a.box {
   &:hover {
     box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $blue
@@ -39,47 +41,46 @@ a.box {
 .icon a{
   color:$tile-orange;
 }
+
 #gamification-coders {
   display: flex;
   justify-content: center;
-  img{
-    height:40px;
-    width:40px !important;
-    border-radius:50px;
-    top: 0;
-    left: 0;
-    z-index:1;
-    vertical-align:middle;
-  }
-  ol{
-    list-style-type: decimal-leading-zero;
-    counter-reset:li;
-    > li{
-      position: relative;
-      float:left;
-      padding:5px;
-      margin:20px;
-      margin-bottom:3px;
-      margin-top:3px;
-      display:inline;
-      &:before{
-        position: absolute;
-        z-index:2;
-        content:counter(li); /* Use the counter as content */
-        counter-increment:li;
-        color:whitesmoke;//$tile-orange;
-        opacity:0.9;
-        font: bold 32pt helvetica, arial, sans-serif;
-        height:30px;
-        width:30px;
-        display:inline-block;
-        margin-right:10px;
-        border-radius:50px;
-        text-align: center;
-        line-height: 30px;
+
+  table {
+    position: relative;
+
+    tr:first-child {
+      height: $top_coder_size;
+      width: $top_coder_size;
+      .picture img {
+        height: $top_coder_size;
+        width: $top_coder_size !important;
+        box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,0.2);
+      }
+    }
+    td {
+      vertical-align: middle;
+      text-align: center;
+      padding: 0;
+      &.picture {
+        width: $top_coder_size !important;
+      }
+      &.score {
+        text-align: right;
+        padding-right: 10px;
       }
     }
   }
+
+  .picture img {
+    height: 40px;
+    width: 40px !important;
+    vertical-align: middle;
+    margin: 10px 0;
+    border-radius: 50px;
+    z-index: 1;
+  }
+
 }
 
 #blokmap-tile {
