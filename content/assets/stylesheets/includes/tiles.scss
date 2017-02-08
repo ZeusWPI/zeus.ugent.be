@@ -42,10 +42,20 @@ a.box {
 #gamification-coders {
   display: flex;
   justify-content: center;
+  img{
+    height:40px;
+    width:40px !important;
+    border-radius:5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index:1;
+  }
   ol{
     list-style-type: decimal-leading-zero;
     counter-reset:li;
     > li{
+      position: relative;
       float:left;
       padding:5px;
       margin:20px;
@@ -53,6 +63,10 @@ a.box {
       margin-top:3px;
       display:inline;
       &:before{
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index:2;
         content:counter(li); /* Use the counter as content */
         counter-increment:li;
         color:gray;//$tile-orange;
