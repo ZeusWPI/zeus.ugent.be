@@ -55,9 +55,9 @@ a.box {
       &:before{
         content:counter(li); /* Use the counter as content */
         counter-increment:li;
-        color:$tile-orange;
+        color:gray;//$tile-orange;
         font: bold 18pt helvetica, arial, sans-serif;
-        background-color:whitesmoke;
+        //background-color:whitesmoke;
         height:30px;
         width:30px;
         display:inline-block;
