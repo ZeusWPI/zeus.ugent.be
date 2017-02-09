@@ -1,0 +1,29 @@
+<a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
+  style="background-image:url('<%= @article[:banner] %>');">
+  <div class="content" >
+    <div class="columns">
+      <div class="column">
+        <h2>
+          <%= @article[:title] %>
+        </h2>
+      </div>
+      <div class="column is-narrow">
+        <small>
+          <%= @small_text %>
+          <br>
+          <%= @location %>
+        </small>
+
+      </div>
+      <div class="column is-narrow">
+
+      </div>
+    </div>
+    <div class="description">
+      <%= @article[:description] %>
+    </div>
+    <div class="teaser">
+      <%= get_teaser(@article) %>
+    </div>
+  </div>
+</a>

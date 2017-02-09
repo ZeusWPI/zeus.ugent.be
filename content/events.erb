@@ -15,18 +15,20 @@ order: 20
     <div class="columns">
       <% slice.each do |event| %>
         <% if (sub_events(event)).empty? %>
-          <!--<%= render '/partials/_event_preview.*', event: event %>-->
           <div class="tile is-parent ">
-            <%= render '/partials/_tile.*',
+            <%= render '/partials/_events_tile.*',
               article: event,
               small_text: event[:time].strftime('%A %d %B %Y %H:%M'),
-              htmlclass:"highlighted" %>
+              location: event[:location],
+              htmlclass: event[:banner].nil? ? "" : "highlighted" %>
         </div>
+        <!-- Render old event_preview when using subevent, for now not used
         <% else %>
           <% sub_events(event).each do |sub_event| %>
             <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
           <% end %>
         <% end %>
+      -->
       <% end %>
     </div>
   <% end %>
@@ -43,18 +45,20 @@ order: 20
     <div class="columns">
       <% slice.each do |event| %>
         <% if (sub_events(event)).empty? %>
-              <!--<%= render '/partials/_event_preview.*', event: event %>-->
               <div class="tile is-parent ">
-                <%= render '/partials/_tile.*',
+                <%= render '/partials/_events_tile.*',
                   article: event,
                   small_text: event[:time].strftime('%A %d %B %Y %H:%M'),
-                  htmlclass:"highlighted" %>
+                  location: event[:location],
+                  htmlclass: event[:banner].nil? ?  "" : "highlighted" %>
             </div>
+        <!-- Render old event_preview when using subevent, for now not used
         <% else %>
           <% sub_events(event).each do |sub_event| %>
             <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
           <% end %>
         <% end %>
+      -->
       <% end %>
     </div>
   <%end%>
