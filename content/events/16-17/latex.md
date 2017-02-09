@@ -1,6 +1,7 @@
 ---
 title: Latex les
 image: https://zeus.ugent.be/zeuswpi/47J781xu.png
+banner: http://www.senzokuike-eye.net/images/skins/bg-banner-royal-blue.png
 description: Introductie tot LaTeX
 created_at: 11-10-2016
 time: 25-10-2016 19:00

@@ -1,6 +1,7 @@
 ---
 title: Spelletjesavond I
 image: https://zeus.ugent.be/zeuswpi/fSIklQoj.jpg
+banner: http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2012/03/board-games.jpg
 description: De eerste spelletjesavond van het academiejaar!
 created_at: 11-10-2016
 time: 19-10-2016 18:00

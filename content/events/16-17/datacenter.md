@@ -1,6 +1,7 @@
 ---
 title: Bezoek datacenter
 image: https://zeus.ugent.be/zeuswpi/_Lv_m5Ng.jpeg
+banner: http://www.foneo-datacenter.eu/images/banner_ownership_eyecatcher.jpg
 description: Zeus bezoekt het datacenter en de supercomputer in S10!
 created_at: 3-10-2016
 time: 10-10-2016 17:45
