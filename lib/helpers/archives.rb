@@ -1,26 +1,18 @@
 module ArchiveHelper
   def academic_years
-    academic_years = Set.new
-
-    items.find_all('/blog/*/*').each do |i|
-      academic_year = %r{/(\d\d)-\d\d/}.match(i.identifier).captures[0]
-      academic_years << academic_year.to_i
-    end
-
-    academic_years
+    Set.new(items.find_all('/blog/*/*').map { |i| i.identifier.to_s[/\d\d-\d\d/] }).to_a
   end
 
   def academic_years_items
-    academic_years.to_a.reverse.map { |y| [y, items["/blog/#{y}-#{y + 1}.html"]] }.to_h
+    academic_years.reverse.map { |y| [y, items["/blog/#{y}.html"]] }
   end
 
   def pretty_year(year)
-    "'#{year} - '#{year + 1}"
+    year = year.scan(/\d\d/)
+    "'#{year[0]} - '#{year[1]}"
   end
 
-  def posts_in_year(academic_year)
-    items.find_all('/blog/*/*').sort_by { |x| Date.parse x[:created_at] }.select do |post|
-      post[:academic_year] == academic_year
-    end.reverse
+  def posts_in_year(y)
+    items.find_all("/blog/#{y}/*").sort_by { |x| x[:created_at] }.reverse
   end
 end
