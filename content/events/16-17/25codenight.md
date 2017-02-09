@@ -5,6 +5,7 @@ description: 1 uur voor elk levensjaar van Zeus!
 created_at: 11-10-2016
 time: 1-11-2016
 location: Therminal
+banner: https://zeus.ugent.be/zeuswpi/vRX2hOYZ.png
 locationlink: Hoveniersberg, Gent
 ---
 
