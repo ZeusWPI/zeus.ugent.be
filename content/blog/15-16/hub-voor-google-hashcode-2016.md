@@ -11,8 +11,8 @@ location: Zeus kelder
 Deze wedstrijd is voor studenten en professionals <strong>(18+)</strong> en is opgesplitst in twee delen.
 
 <ul>
-<li>Een Online Kwalificatieronde op <strong>11 februari om 18:30</strong>. Je kan deelnemen aan deze ronde van thuis of bij onze fantastische hub (vergeet dat niet aan te geven bij jouw registratie voor de hashcode).
-<li>Een finale ronde op <strong>19 maart</strong>. De best scorende teams worden uitgenodigd bij <strong>Google Parijs</strong> om mee te doen aan de finale ronde van de competitie.
+<li>Een Online Kwalificatieronde op <strong>11 februari om 18:30</strong>. Je kan deelnemen aan deze ronde van thuis of bij onze fantastische hub (vergeet dat niet aan te geven bij jouw registratie voor de hashcode).</li>
+<li>Een finale ronde op <strong>19 maart</strong>. De best scorende teams worden uitgenodigd bij <strong>Google Parijs</strong> om mee te doen aan de finale ronde van de competitie.</li>
 </ul>
 
 <strong>Vorm een team van twee tot vier personen, registreer op <a href="https://g.co/hashcode">g.co/hashcode</a> voor 9 februari 2016 (!!!), selecteer onze hub uit de lijst en woon ze bij op 11 februari rond 18u in Auditorium A3!</strong>

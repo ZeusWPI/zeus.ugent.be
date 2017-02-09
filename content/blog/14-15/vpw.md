@@ -13,6 +13,6 @@ De Vlaamse Programmeerwedstrijd is een wedstrijd tussen teams van verschillende 
 
 <b>Vervoer</b>
 Ook dit jaar voorzien we met Zeus busvervoer naar Sint-Katelijne-Waver voor teams van de UGent. Wil je met ons mee? Schrijf je groep dan ook in bij ons via het formulier hieronder. Dankzij de medewerking van de vakgroep Toegepaste Wiskunde, Informatica en Statistiek kunnen we jullie deze busreis volledig <b>gratis</b> aanbieden. Praktisch: we verzamelen ‘s middags om <b>11u</b> aan de <b>parking van S9</b>. We zullen ‘s avonds rond 20u terug in Gent zijn. Hiervoor <b>inschrijven</b> is verplicht en kan je hieronder doen. De plaatsen zijn beperkt, dus wees snel!
-</strong>
+
 <!--more-->
 <iframe src="https://docs.google.com/forms/d/1nUA8meRxpGxkQ2F9TaJkGhX4RnWnFNsQfJ--KNrqRwE/viewform?embedded=true" width="600" height="1000" frameborder="0" marginwidth="0" marginheight="0">Bezig met laden...</iframe>

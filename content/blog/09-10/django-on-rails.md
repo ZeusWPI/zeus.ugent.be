@@ -17,5 +17,3 @@ Op donderdag 26 november organiseren onze vrienden van de <a href="https://vtk.u
 Om 19u30 in PC-klas A in de Plateau zullen ze een introductie Python geven en vervolgens in de VTK-code duiken. Inschrijven kan op <a href="https://vtk.ugent.be/djangoles/">vtk.ugent.be/djangoles</a>.
 
 Het mag duidelijk zijn, webapplicaties zijn hot ;)
-
-[gallery]

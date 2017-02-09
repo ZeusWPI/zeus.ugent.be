@@ -26,5 +26,3 @@ Op donderdag 22 oktober brengt <a href="https://ondernemeringent.be/">Bart De Wa
 </ul>
 
 Tot dan!
-
-[gallery]
