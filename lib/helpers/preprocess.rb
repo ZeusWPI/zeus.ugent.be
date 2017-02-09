@@ -8,12 +8,10 @@ module PreprocessHelper
 
   def update_blog_attributes
     @items.find_all('/blog/**/*').each do |i|
-      year_str = i.identifier.to_s[/\d\d-\d\d/]
-
       attr_hash = {
         # Tag all posts with article (for Blogging helper)
         kind: 'article',
-        academic_year: year_str,
+        academic_year: i.identifier.to_s[/\d\d-\d\d/],
         created_at: Date.parse(i[:created_at])
       }
 
