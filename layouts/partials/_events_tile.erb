@@ -1,5 +1,7 @@
-<a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
-  style="background-image:url('<%= @article[:banner] %>');">
+<!--<a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
+  style="background-image:url('<%= @article[:banner] %>');">-->
+  <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
+    style="background-color:<%= @article[:color] %>;">
   <div class="content" >
     <div class="columns">
       <div class="column">
