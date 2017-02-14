@@ -22,6 +22,7 @@ Er zijn beperkte plaatsen beschikbaar, mensen met een voorangsticket krijgen voo
 U zal via mail op de hoogte gehouden worden over de beschikbaarheid.
 
 **Praktisch:**
+
 * Tickets reserveren op https://event.fkgent.be/events/133
 * Minstens 1 laptop per groep nodig, liefst met ethernetpoort (of ethernet-to-usb meenemen)
 * Groepjes van 3-4 personen
