@@ -1,8 +1,13 @@
-<!--<a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
-  style="background-image:url('<%= @article[:banner] %>');">-->
+<% if @article[:banner] %>
+  <a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
+    style="background-image:url('<%= @article[:banner] %>');">
+<% elsif @article[:color] %>
   <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
-    style="background-color:<%= @article[:color] %>;">
-  <div class="content" >
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.75)); background-color:<%= @article[:color] %>;">
+<% else %>
+  <a href="<%= @article.path %>" class="tile is-child box backgroundimg">
+<% end %>
+  <div class="content">
     <div class="columns">
       <div class="column">
         <h2>
