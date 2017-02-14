@@ -6,7 +6,7 @@ created_at: 11-10-2016
 time: 26-10-2016 19:00
 location: PC lokaal Turing (1e verdiep) , S9
 locationlink: Sterre,Ghent Belgium
-color: "#003399"
+color: "#003398"
 ---
 
 He!
