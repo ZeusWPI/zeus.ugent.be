@@ -20,3 +20,11 @@ let op: **Inschrijven is verplicht!**
 
 Er zijn beperkte plaatsen beschikbaar, mensen met een voorangsticket krijgen voorrang, de resterende plaatsen worden gegeven aan mensen met normale tickets FCFS.
 U zal via mail op de hoogte gehouden worden over de beschikbaarheid.
+
+**Praktisch:**
+* Tickets reserveren op https://event.fkgent.be/events/133
+* Minstens 1 laptop per groep nodig, liefst met ethernetpoort (of ethernet-to-usb meenemen)
+* Groepjes van 3-4 personen
+* Voorrang voor studenten van de vakken Webtechnologie en internettechnologie
+* 27/02 @The foundry Gent
+
