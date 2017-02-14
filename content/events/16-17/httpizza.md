@@ -4,13 +4,13 @@ image: https://zeus.ugent.be/zeuswpi/4vT3H-rA.png
 description: Praktische HTTP ervaring met pizza!
 created_at: 14-02-2017
 time: 27-02-2017
-location: The foundry
-locationlink: the foundry gent
+location: The Foundry
+locationlink: The Foundry Gent
 ---
 
 In samenwerking met IDLab organiseert Zeus WPI HTTPizza.
-Tijdensdeze avond kan je jouw theoretische HTTP kennis eens praktisch toe te passen op een ludieke manier (en met cheap pizza!!!).
-Dit gebeurt door zelf een HTTP-ish client te schrijven, waarmee je verschillende challenges op onze server zal moeten vervolledigen.
+Tijdensdeze avond kan je jouw theoretische HTTP kennis eens praktisch toe te passen op een ludieke manier (en met cheap pizza!).
+Dit gebeurt door zelf een HTTP-ish client te schrijven, waarmee je verschillende challenges op onze server zal moeten aangaan.
 Ideaal voor volgers van het vak Webtechnologie of Internettechnologie, maar anderen zijn ook welkom!
 
 Tickets werken als volgt: als je dit semester Webtechnologie of Internettechnologie volgt selecteer je het voorrangsticket, anders het normale ticket.
@@ -26,6 +26,6 @@ U zal via mail op de hoogte gehouden worden over de beschikbaarheid.
 * Tickets reserveren op https://event.fkgent.be/events/133
 * Minstens 1 laptop per groep nodig, liefst met ethernetpoort (eventueel via adapter)
 * Groepjes van 3-4 personen
-* Voorrang voor studenten van de vakken Webtechnologie en internettechnologie
-* 27/02 18u @The foundry Gent
+* Voorrang voor studenten van de vakken Webtechnologie en Internettechnologie
+* 27/02 18u @The Foundry Gent
 
