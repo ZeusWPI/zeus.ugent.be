@@ -1,9 +1,9 @@
 <% if @article[:banner] %>
-  <a href="<%= @article.path %>" class="tile is-child box backgroundimg <%= @htmlclass %>"
+  <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
     style="background-image:url('<%= @article[:banner] %>');">
 <% elsif @article[:color] %>
   <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
-    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.75)); background-color:<%= @article[:color] %>;">
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @article[:color] %>;">
 <% else %>
   <a href="<%= @article.path %>" class="tile is-child box backgroundimg">
 <% end %>

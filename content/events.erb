@@ -20,7 +20,6 @@ order: 20
               article: event,
               small_text: event[:time].strftime('%A %d %B %Y %H:%M'),
               location: event[:location],
-              htmlclass: event[:banner].nil? ? "" : "highlighted",
               color: event[:color] %>
         </div>
         <!-- Render old event_preview when using subevent, for now not used
@@ -51,7 +50,6 @@ order: 20
                   article: event,
                   small_text: event[:time].strftime('%A %d %B %Y %H:%M'),
                   location: event[:location],
-                  htmlclass: event[:banner].nil? ?  "" : "highlighted",
                   color: event[:color] %>
             </div>
         <!-- Render old event_preview when using subevent, for now not used
