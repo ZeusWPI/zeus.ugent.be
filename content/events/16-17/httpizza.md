@@ -9,7 +9,7 @@ locationlink: The Foundry Gent
 ---
 
 In samenwerking met IDLab organiseert Zeus WPI HTTPizza.
-Tijdensdeze avond kan je jouw theoretische HTTP kennis eens praktisch toe te passen op een ludieke manier (en met cheap pizza!).
+Tijdens deze avond kan je jouw theoretische HTTP kennis eens praktisch toe te passen op een ludieke manier (en met cheap pizza!).
 Dit gebeurt door zelf een HTTP-ish client te schrijven, waarmee je verschillende challenges op onze server zal moeten aangaan.
 Ideaal voor volgers van het vak Webtechnologie of Internettechnologie, maar anderen zijn ook welkom!
 
