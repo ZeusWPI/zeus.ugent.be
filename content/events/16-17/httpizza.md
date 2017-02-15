@@ -15,7 +15,7 @@ Ideaal voor volgers van het vak Webtechnologie of Internettechnologie, maar ande
 
 Tickets werken als volgt: als je dit semester Webtechnologie of Internettechnologie volgt selecteer je het voorrangsticket, anders het normale ticket.
 Een week voor het event zijn de voorrangstickets niet meer beschikbaar.
-Deze kan je hier bestellen: https://event.fkgent.be/events/133
+Deze kan je [hier](https://event.fkgent.be/events/133) bestellen.
 let op: **Inschrijven is verplicht!**
 
 Er zijn beperkte plaatsen beschikbaar, mensen met een voorangsticket krijgen voorrang, de resterende plaatsen worden gegeven aan mensen met normale tickets FCFS.
@@ -23,7 +23,7 @@ U zal via mail op de hoogte gehouden worden over de beschikbaarheid.
 
 **Praktisch:**
 
-* Tickets reserveren op https://event.fkgent.be/events/133
+* Tickets reserveren doe je [hier](https://event.fkgent.be/events/133)
 * Minstens 1 laptop per groep nodig, liefst met ethernetpoort (eventueel via adapter)
 * Groepjes van 3-4 personen
 * Voorrang voor studenten van de vakken Webtechnologie en Internettechnologie
