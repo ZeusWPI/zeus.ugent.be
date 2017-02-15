@@ -3,9 +3,10 @@ title: HTTPizza
 image: https://zeus.ugent.be/zeuswpi/4vT3H-rA.png
 description: Praktische HTTP ervaring met pizza!
 created_at: 14-02-2017
-time: 27-02-2017
+time: 27-02-2017 18h
 location: The Foundry
 locationlink: The Foundry Gent
+end: 23h
 ---
 
 In samenwerking met IDLab organiseert Zeus WPI HTTPizza.
