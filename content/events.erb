@@ -3,35 +3,32 @@ navigable: true
 title: Events
 order: 20
 ---
-
-<div>
+<div class="container">
   <div class="content">
     <h1>Upcoming events</h1>
   </div>
-
-  <% upcoming_events.each do |event| %>
-    <!-- <hr class="divider"> -->
-    <% if (sub_events(event)).empty? %>
-      <%= render '/partials/_event_preview.*', event: event %>
-    <% else %>
-      <% sub_events(event).each do |sub_event| %>
-        <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
-      <% end %>
+  <% upcoming_events.each_slice(2) do |slice| %>
+  <div class="columns">
+    <% slice.each do |event| %>
+    <div class="tile is-parent ">
+      <%= render '/partials/_events_tile.*', event: event %>
+    </div>
     <% end %>
+  </div>
   <% end %>
+</div>
 
+<div class="container">
   <div class="content">
     <h1>Past events</h1>
   </div>
-
-  <% past_events.each do |event| %>
-    <!-- <hr class="divider"> -->
-    <% if (sub_events(event)).empty? %>
-      <%= render '/partials/_event_preview.*', event: event %>
-    <% else %>
-      <% sub_events(event).each do |sub_event| %>
-        <%= render '/partials/_event_preview.*', event: sub_event, main_event: event %>
-      <% end %>
+  <% past_events.each_slice(2) do |slice| %>
+  <div class="columns">
+    <% slice.each do |event| %>
+    <div class="tile is-parent ">
+      <%= render '/partials/_events_tile.*', event: event %>
+    </div>
     <% end %>
+  </div>
   <% end %>
 </div>
