@@ -6,6 +6,7 @@ created_at: 14-02-2017
 time: 27-02-2017 18h
 location: The Foundry
 locationlink: The Foundry Gent
+facebook: https://www.facebook.com/events/1191365270979654/
 end: 23h
 ---
 
