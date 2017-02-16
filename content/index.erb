@@ -24,10 +24,8 @@
           </div>
         </div>
         <!--next event -->
-        <div class="tile is-parent is-4"  >
-          <%= render '/partials/_tile.*',
-            article: upcoming_events[0] || all_events[-1],
-            small_text: if upcoming_events[0] then "Upcoming event" else "Past event" end%>
+        <div class="tile is-parent is-4">
+          <%= render '/partials/_events_tile.*', event: upcoming_events[0] || all_events[-1] %>
         </div>
 
         <!-- latest blogpost -->
@@ -41,13 +39,10 @@
       <div class="tile">
         <div class="tile is-vertical">
           <% all_events.reject { |x| x == upcoming_events[0] }.reverse[0..2].each do |event| %>
-            <div class="tile is-parent ">
-              <%= render '/partials/_tile.*',
-                article: event,
-                small_text: upcoming_events.include?(event) ? "Upcoming event" : "Past event",
-                htmlclass:"highlighted" %>
+          <div class="tile is-parent ">
+            <%= render '/partials/_events_tile.*', event: event %>
           </div>
-        <%end%>
+          <%end%>
         </div>
         <div class="tile is-vertical">
         <% sorted_articles[1..3].each do |post| %>

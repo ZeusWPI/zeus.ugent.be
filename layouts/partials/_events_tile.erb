@@ -1,36 +1,32 @@
-<% if @article[:banner] %>
-  <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
-    style="background-image:url('<%= @article[:banner] %>');">
-<% elsif @article[:color] %>
-  <a href="<%= @article.path %>" class="tile is-child box backgroundimg highlighted"
-    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @article[:color] %>;">
+<% if @event[:banner] %>
+  <a href="<%= @event.path %>" class="tile is-child box backgroundimg highlighted"
+    style="background-image:url('<%= @event[:banner] %>');">
+<% elsif @event[:color] %>
+  <a href="<%= @event.path %>" class="tile is-child box backgroundimg highlighted"
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @event[:color] %>;">
 <% else %>
-  <a href="<%= @article.path %>" class="tile is-child box backgroundimg">
+  <a href="<%= @event.path %>" class="tile is-child box backgroundimg">
 <% end %>
   <div class="content">
     <div class="columns">
       <div class="column">
         <h2>
-          <%= @article[:title] %>
+          <%= @event[:title] %>
         </h2>
       </div>
       <div class="column is-narrow">
         <small>
-          <%= @small_text %>
+          <%= @event[:time].strftime('%A %d %B %Y %H:%M') %>
           <br>
-          <%= @location %>
+          <%= @event[:location] %>
         </small>
-
-      </div>
-      <div class="column is-narrow">
-
       </div>
     </div>
     <div class="description">
-      <%= @article[:description] %>
+      <%= @event[:description] %>
     </div>
     <div class="teaser">
-      <%= get_teaser(@article) %>
+      <%= get_teaser(@event) %>
     </div>
   </div>
 </a>
