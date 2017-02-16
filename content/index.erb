@@ -40,7 +40,7 @@
       </div>
       <div class="tile">
         <div class="tile is-vertical">
-          <% all_events.reverse[1..3].each do |event| %>
+          <% all_events.reject { |x| x == upcoming_events[0] }.reverse[0..2].each do |event| %>
             <div class="tile is-parent ">
               <%= render '/partials/_tile.*',
                 article: event,
