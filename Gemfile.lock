@@ -85,7 +85,7 @@ GEM
     shellany (0.0.1)
     slop (3.6.0)
     terminal-notifier-guard (1.7.0)
-    therubyracer (0.12.2)
+    therubyracer (0.12.3)
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
@@ -118,4 +118,4 @@ DEPENDENCIES
   words_counted
 
 BUNDLED WITH
-   1.13.6
+   1.14.5
