@@ -1,6 +1,6 @@
 ---
 title: Vlaamse Programmeerwedstrijd
-image: //www.vlaamseprogrammeerwedstrijd.be/current/images/VPW2017grootP.png
+image: https://zeus.ugent.be/zeuswpi/TrRYuj82.png
 description: Ga mee naar de jaarlijkse Vlaamse Programmeerwedstrijd!
 time: 15-03-2017 10:45
 location: Leuven
