@@ -27,7 +27,6 @@ end
 #
 compile '/feed.xml' do
   filter :erb
-  write '/feed.xml'
 end
 
 #
@@ -58,6 +57,7 @@ end
 
 compile '/events/**/*', rep: :ical do
   filter :ical
+  write ext: 'ics'
 end
 
 #
@@ -110,6 +110,7 @@ end
 #
 compile '/assets/scripts/**/*.coffee' do
   filter :coffeescript
+  write ext: 'js'
 end
 
 ignore '/assets/stylesheets/includes/**/*'
@@ -117,6 +118,7 @@ ignore '/assets/stylesheets/includes/**/*'
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss
   filter :autoprefixer if production?
+  write ext: 'css'
 end
 
 #
@@ -128,25 +130,12 @@ end
 #
 # ASSETS
 #
-route '/assets/stylesheets/**/*' do
-  "#{item.identifier.without_ext}.css"
-end
-
-route '/assets/scripts/**/*' do
-  "#{item.identifier.without_ext}.js"
-end
-
 # EVENTS
-route '/events/**/*', rep: :ical do
-  "#{item.identifier.without_ext}.ics"
+route '/**/index.{erb,html,md}' do
+  "#{item.identifier.without_ext}.html"
 end
-
 route '/**/*.{erb,html,md}' do
-  if item.identifier.without_ext.to_s =~ %r{/index$}
-    "#{item.identifier.without_ext}.html"
-  else
-    "#{item.identifier.without_ext}/index.html"
-  end
+  "#{item.identifier.without_ext}/index.html"
 end
 
 # Let anything else simply pass through
