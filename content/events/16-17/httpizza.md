@@ -7,7 +7,7 @@ time: 27-02-2017 18h
 location: The Foundry
 locationlink: The Foundry Gent
 facebook: https://www.facebook.com/events/1191365270979654/
-end: 23h
+end: 27-02-2017 23h
 ---
 
 In samenwerking met IDLab organiseert Zeus WPI HTTPizza.
