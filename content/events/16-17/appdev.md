@@ -6,8 +6,8 @@ time: 29-03-2017 19:00
 location: Pc-lokaal Hopper, Sterre-S5
 locationlink: Sterre,Ghent Belgium
 facebook: https://www.facebook.com/events/406665056363253/
-banner: https://zeus.ugent.be/zeuswpi/1YpPIKgM.png
-image: //zeus.ugent.be/zeuswpi/tV0H9wDl.svg
+image: https://zeus.ugent.be/zeuswpi/1YpPIKgM.png
+color: "#f49542"
 ---
 
 iOS apps? Hoe begin je daaraan?
