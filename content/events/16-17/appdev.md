@@ -6,7 +6,7 @@ time: 29-03-2017 19:00
 location: Pc-lokaal Hopper, Sterre-S5
 locationlink: Sterre,Ghent Belgium
 facebook: https://www.facebook.com/events/406665056363253/
-banner: 
+banner: https://zeus.ugent.be/zeuswpi/1YpPIKgM.png
 image: //zeus.ugent.be/zeuswpi/tV0H9wDl.svg
 ---
 
@@ -19,6 +19,6 @@ In de tweede les gaan we dan dieper in op app development en tonen we jullie de 
 Tijdens deze tweede les zullen jullie ook het de basis leggen aan jullie eerste iOS app! Deze app kun je dan in de week die erop volgt afwerken. Na deze week zullen de beste coders en designers beloond worden!
 En geen nood, je kan steeds langskomen in de Zeus kelder voor wat hulp.
 
-De lessen gaan door op woensdag 29 maart en woensdag 19 april telkens om 19u in PC-klas Hopper, S5, Campus Sterre.
+De lessen gaan door op **woensdag 29 maart en woensdag 19 april telkens om 19u in PC-klas Hopper, S5, Campus Sterre.**
 Voor de lessen is het handig om een Mac met macOS mee te hebben waarop Xcode al geïnstalleerd. Dit kan gedownload worden vanuit de App Store (let op het installatie bestand is enkele GB groot).
 
