@@ -14,9 +14,9 @@
             <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
           </a>
           <div class="nav-menu nav-left">
-            <% nav_items do |item, active| %>
-            <a class="nav-item is-tab <%= 'is-active' if active %>" href="<%= item.path %>">
-              <%= item[:title] %>
+            <% navigables.each do |i| %>
+            <a class="nav-item is-tab <%= 'is-active' if child_of(i) %>" href="<%= i.path %>">
+              <%= i[:title] %>
             </a>
             <% end %>
           </div>

@@ -2,15 +2,8 @@
 
 # Helpers for navbar partial
 module NavigationHelper
-  def nav_items
-    navigables.each do |item|
-      # Kind of hacky way to check if page is child of another page
-      root = %r{/.+?/}.match(item.path)[0]
-
-      is_active = @item_rep && @item_rep.path.start_with?(root)
-
-      yield item, is_active
-    end
+  def child_of(item)
+    item == @item || children_of(item).include?(@item)
   end
 
   # Returns every navigable item

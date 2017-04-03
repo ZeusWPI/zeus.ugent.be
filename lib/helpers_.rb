@@ -3,6 +3,7 @@ include Nanoc::Helpers::Capturing
 include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::Text
+include Nanoc::Helpers::ChildParent
 
 include EnvironmentHelper
 include ArchiveHelper
