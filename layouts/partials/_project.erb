@@ -13,7 +13,7 @@
     </div>
     <div class="column">
       <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:title] %></a></p>
-      <p class="description subtitle"><%= project.compiled_content %></p>
+      <%= project.compiled_content %>
       <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
     </div>
   </article>
