@@ -1,8 +1,10 @@
 ---
 title: Spelen met FPGAs
 description: Sigasi geeft een introductie tot FPGAs
-time: 27-04-2017
+time: 27-04-2017 19:00
 created_at: 12-04-2017
+location: Lokaal V1, Sterre-S9
+locationlink: Sterre,Ghent Belgium
 ---
 FPGAs zijn een speciaal soort chips waarvan de functionaliteit na productie nog aangepast kan worden.
 FPGAs zijn nu hipper dan ooit, alle grote spelers (Intel, Google, Microsoft, ...) gebruiken deze flexibele chips om een specifieke voorsprong te krijgen op hun concurrenten. Toch zijn FPGAs nog steeds vrij exotisch en weinig toegankelijk.
