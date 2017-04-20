@@ -13,7 +13,7 @@ GEM
     coffee-script-source (1.12.2)
     colored (1.2)
     concurrent-ruby (1.0.5)
-    cri (2.7.1)
+    cri (2.8.0)
       colored (~> 1.2)
     css_press (0.3.2)
       csspool-st (= 3.1.2)
@@ -60,8 +60,8 @@ GEM
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    nanoc (4.7.4)
-      cri (~> 2.3)
+    nanoc (4.7.7)
+      cri (~> 2.8)
       ddplugin (~> 1.0)
       hamster (~> 3.0)
       ref (~> 2.0)
@@ -111,7 +111,7 @@ DEPENDENCIES
   html_press
   icalendar
   kramdown
-  nanoc (= 4.7.4)
+  nanoc (= 4.7.7)
   sass
   terminal-notifier
   terminal-notifier-guard

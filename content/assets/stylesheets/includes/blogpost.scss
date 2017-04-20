@@ -71,3 +71,17 @@ dl {
     background: $zeus-orange;
   }
 }
+
+.blog-preview {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background: linear-gradient(to bottom, transparent, white);
+    height: 100px;
+    width: 100%;
+  }
+}

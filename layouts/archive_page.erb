@@ -22,31 +22,18 @@
     </aside>
   </div>
   <div class="column">
-    <% posts_in_year(item[:academic_year]).each do |post| %>
-    <a href="<%= relative_path_to(post) %>">
-      <article class="box padbox">
-        <div class="columns">
-          <div class="column">
-            <p class="title is-3"><%= post[:title] %></p>
-            <p class="subtitle is-5">
-              <% if post[:author] %>
-              door <%= post[:author] %>
-              <% end %>
-            </p>
-            <div class="content">
-              <%= post[:description] %>
-              <br>
-              <small><%= post[:created_at] %></small>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
-            </div>
-          </div>
-        </div>
-      </article>
-    </a>
-    <% end %>
+    <div class="columns is-multiline">
+      <div class="column">
+      <% posts_in_year(item[:academic_year]).each_with_index.select {|e, i| i.even?}.map(&:first).each do |post| %>
+        <%= render '/partials/_blog_preview.*', post: post %>
+      <% end %>
+      </div>
+
+      <div class="column">
+      <% posts_in_year(item[:academic_year]).each_with_index.reject {|e, i| i.even?}.map(&:first).each do |post| %>
+        <%= render '/partials/_blog_preview.*', post: post %>
+      <% end %>
+      </div>
+    </div>
   </div>
 </div>
