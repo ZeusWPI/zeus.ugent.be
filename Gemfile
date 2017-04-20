@@ -23,6 +23,7 @@ group :development do
   gem 'adsf'
   gem 'highline'
   gem 'terminal-notifier-guard'
+  gem 'terminal-notifier'
 end
 
 group :production do

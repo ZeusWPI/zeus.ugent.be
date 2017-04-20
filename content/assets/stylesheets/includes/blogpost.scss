@@ -33,8 +33,41 @@ dl {
   }
 }
 
-.blogwidth{
-  width: 75%;
-  margin:auto;
-  word-wrap: normal;
+.blog-heading {
+  display: flex;
+  flex-direction: column;
+
+  .titlewrap {
+    position: relative;
+    margin: auto;
+
+    .title {
+      font-size: 4rem;
+      font-weight: bolder;
+    }
+
+    .subtitle {
+      position: absolute;
+    }
+
+    .details {
+      right: 0;
+      position: absolute;
+      margin-top: -1.1rem;
+      line-height: 1;
+      text-align: right;
+    }
+  }
+
+  &::after {
+    content: '';
+    width: 80px;
+    height: 1px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    display: block;
+    background: $zeus-orange;
+  }
 }
