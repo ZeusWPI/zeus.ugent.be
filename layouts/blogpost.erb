@@ -1,14 +1,14 @@
 <div class="blog-heading">
   <div class="titlewrap">
-    <h1 class="title is-1 has-text-centered">
+    <h1 class="title is-1 has-text-centered animated fadeIn">
       <%= item[:title] %>
     </h1>
     <% if item[:author] %>
-    <h2 class="subtitle is-3 has-text-centered">
+    <h2 class="subtitle is-3 has-text-centered animated fadeInLeft">
       door <%= item[:author] %>
     </h2>
     <% end %>
-    <div class="details">
+    <div class="details animated fadeInRight">
       <small>
         Geschreven op <%= item[:created_at] %><br>
         Leestijd: <%= reading_time @item %>
@@ -17,6 +17,6 @@
   </div>
 </div>
 
-<div class="columns">
+<div class="columns animated fadeIn">
   <%= yield %>
 </div>
