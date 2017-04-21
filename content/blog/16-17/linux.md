@@ -10,12 +10,6 @@ toc:
 _Bij het begin van ieder schooljaar komt er een verse lading studenten Informatica toe. In de lessen Computergebruik maken ze kennis met de wondere wereld van GNU/Linux.
 Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturingssysteem en groeien een verlangen om zich de kunst van het Unix-tovenaarschap eigen te maken._
 
-~~~ ruby
-def what?
-  42
-end
-~~~
-
 Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
 
 # Enkele tips voor je begint
