@@ -13,4 +13,4 @@ Iedereen is eerst welkom in de Zeuskelder voor een korte <strong>ledenvergaderin
 Na dat spannende moment gaan we allemaal gezellig <strong>ribbetjes</strong> eten. Dit jaar is de <strong>Amadeus</strong> weer aan de beurt! Omdat we graag willen reserveren, vragen we jullie <strong><a href="https://docs.google.com/forms/d/1it0bbMQS-wsdP8Il5EZCmWscLNyq7yCo3l8C8jJY6q0/viewform">hier in te schrijven</a> vóór dinsdag 29 april</strong>. Mensen die niet naar de ledenvergadering komen verwachten we daar om 19u.
 
 <!--more-->
-<iframe src="https://docs.google.com/forms/d/1it0bbMQS-wsdP8Il5EZCmWscLNyq7yCo3l8C8jJY6q0/viewform" width="585" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/1it0bbMQS-wsdP8Il5EZCmWscLNyq7yCo3l8C8jJY6q0/viewform" style="width:100%" height="400"></iframe>

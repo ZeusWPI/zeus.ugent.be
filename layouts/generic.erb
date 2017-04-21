@@ -7,10 +7,12 @@
     <div class="columns">
       <article class="column is-8 is-offset-2">
     <% end %>
-        <%= yield %>
+
+    <%= yield %>
+
     <% if item[:narrow_page] %>
-      </div>
-    </article>
+      </article>
+    </div>
     <% end %>
   </main>
 </div>

@@ -6,11 +6,11 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-<img src="https://archive.timmmmyboy.com/wp-content/uploads/2013/04/githuboctacat.jpg" width="600" height="232" class="aligncenter" />
+<img src="https://archive.timmmmyboy.com/wp-content/uploads/2013/04/githuboctacat.jpg" alt="octocat" width="600" height="232" class="aligncenter" />
 
 Het tweede semester is nog maar begonnen en Zeus heeft al z'n volgende activiteit klaar: 'Collaborate with Git(Hub)'.
 
-Git is een <strong>versiecontrolesysteem</strong> dat een oplossing biedt voor alle problemen bij grote softwareprojecten. Naast het aanbieden van een uitgebreide interface om meerdere versies van een programma te beheren, maakt Git ook het samenwerken tussen projectgenoten een stuk gemakkelijker. 
+Git is een <strong>versiecontrolesysteem</strong> dat een oplossing biedt voor alle problemen bij grote softwareprojecten. Naast het aanbieden van een uitgebreide interface om meerdere versies van een programma te beheren, maakt Git ook het samenwerken tussen projectgenoten een stuk gemakkelijker.
 
 Zeker een aanrader voor groepswerken zoals Vakoverschrijdend Project of voor het project Programmeren 2!
 

@@ -5,10 +5,10 @@
 <meta property="og:url" content="<%= url_for(item) %>" />
 <meta property="og:description" content="<%= item[:description] %>" />
 <meta property="og:site_name" content="Zeus WPI" />
-<meta name="twitter:label1" value="Time" />
-<meta name="twitter:data1" value="<%= item[:time].strftime '%A %d %B %Y %H:%M' %>" />
-<meta name="twitter:label2" value="Place" />
-<meta name="twitter:data2" value="<%= item[:location] %>" />
+<meta name="twitter:label1" content="Time" />
+<meta name="twitter:data1" content="<%= item[:time].strftime '%A %d %B %Y %H:%M' %>" />
+<meta name="twitter:label2" content="Place" />
+<meta name="twitter:data2" content="<%= item[:location] %>" />
 <meta name="twitter:card" content="summary_large_image" />
 <% end %>
 
@@ -45,18 +45,18 @@
             <p class="subtitle is-3">
               <%= item[:description] %>
             </p>
-            <p class="subtitle is-3">
-              <ul class="fa-ul event-attributes">
-                <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
-                <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
-              </ul>
-            </p>
+            <ul class="fa-ul event-attributes">
+              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
+              <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
+            </ul>
           </div>
         </div>
 
+        <% if item[:image] %>
         <div class="is-narrow column banner-image">
-          <img src="<%= item[:image] %>"  >
+          <img src="<%= item[:image] %>" alt="banner">
         </div>
+        <% end %>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@
   </div>
   <div class="columns">
     <div class="google-maps column is-8 is-offset-2">
-      <iframe frameborder="0" style="border:0" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+      <iframe style="border:0" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
     </div>
   </div>
 </section>

@@ -4,7 +4,7 @@
 # Re-enable this when cammie doesn't fuck up so much
 # deploy_check :elinks
 # The w3c validators go offline often, not great for our build CI
-# deploy_check :html
+deploy_check :html
 deploy_check :ilinks
 deploy_check :mixed_content
 deploy_check :stale

@@ -19,4 +19,4 @@ Geschiedenis achterwege, Git zal uw leven beter maken. Samenwerken aan dezelfde 
 
 Graag delen wij ons geloof en onze kennis op donderdag 26 februari omstreeks 19h in PC-zaal 2.14 in het Technicum.
 
-UPDATE: Wie de les gemist heeft of achteraf nog eens wil kijken, de <a href="https://zeus.ugent.be/wp-content/uploads/2015/02/presentation.zip">hele presentatie</a> is bij deze beschikbaar. Hieronder vind u alvast de cheatsheet: <a href="https://zeus.ugent.be/wp-content/uploads/2015/02/cheatsheet.png"><img src="https://zeus.ugent.be/wp-content/uploads/2015/02/cheatsheet-300x212.png" alt="cheatsheet" width="300px" height="212px" class="aligncenter" /></a>
+UPDATE: Wie de les gemist heeft of achteraf nog eens wil kijken, de <a href="https://zeus.ugent.be/wp-content/uploads/2015/02/presentation.zip">hele presentatie</a> is bij deze beschikbaar. Hieronder vind u alvast de cheatsheet: <a href="https://zeus.ugent.be/wp-content/uploads/2015/02/cheatsheet.png"><img src="https://zeus.ugent.be/wp-content/uploads/2015/02/cheatsheet-300x212.png" alt="cheatsheet" width="300" height="212" class="aligncenter" /></a>

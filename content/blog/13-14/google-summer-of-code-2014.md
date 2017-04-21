@@ -6,7 +6,7 @@ time: 23-02-2016
 location: Zeus kelder
 ---
 
-<img src="https://www.google-melange.com/soc/content/2-1-20140213/images/gsoc/logo/banner-gsoc2014.png" width="600" class="alignnone" />
+<img src="https://www.google-melange.com/soc/content/2-1-20140213/images/gsoc/logo/banner-gsoc2014.png" alt="Summer of Code" width="600" class="alignnone" />
 
 Zin om deze zomer $5500 te verdienen met een vakantiejob? Lijkt het je wel iets om vanuit thuis te werken wanneer het je uitkomt? Wil je een echte bijdrage leveren aan opensource software? Google maakt dit mogelijk dankzij de <a href="https://developers.google.com/open-source/soc/">Google Summer of Code</a>! Het is dit jaar zelfs een speciale editie, want het is de tiende keer dat GSoC plaats vindt!
 

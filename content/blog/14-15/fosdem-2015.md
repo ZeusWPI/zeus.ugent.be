@@ -16,4 +16,4 @@ Rij je graag mee met ons of heb je plaats over in je auto (benzinekosten worden 
 
 Iedereen is welkom!
 <!--more-->
-<iframe src="https://docs.google.com/forms/d/1HYQcndzoIjZSz-rLIHabQXSE_HLkAYKKRWrapGaakCI/viewform?embedded=true" width="600" height="1000" frameborder="0" marginwidth="0" marginheight="0">Bezig met laden...</iframe>
+<iframe src="https://docs.google.com/forms/d/1HYQcndzoIjZSz-rLIHabQXSE_HLkAYKKRWrapGaakCI/viewform?embedded=true" style="width:100%" height="1000"></iframe>

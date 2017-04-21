@@ -15,5 +15,4 @@ FOSDEM gaat door in de gebouwen van de ULB in Brussel en net zoals <a href="http
 Wil je dus mee met Zeus naar FOSDEM, schrijf je dan hieronder in en dan laten we je nog iets weten voor concrete afspraken.
 
 <!--more-->
-<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dHJvbW1PWVJDQTBfWE91bGRjWFhlV2c6MQ" width="600" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+<iframe src="https://spreadsheets.google.com/embeddedform?formkey=dHJvbW1PWVJDQTBfWE91bGRjWFhlV2c6MQ" width="600" height="600"></iframe>

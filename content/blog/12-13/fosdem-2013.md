@@ -9,7 +9,7 @@ location: Zeus kelder
 <a href="https://fosdem.org"><img src="https://fosdem.org/2013/assets/flyer-90dpi-240c97c7f08316d072bb684f7f9156ee454e863a9e365d8f1fb5566c200f924e.png" alt="" title="FOSDEM" width="170" height="240" class="alignright size-full wp-image-662" /></a>
 De examens zijn voor de meesten nog volop bezig, maar toch denken wij alvast even vooruit. Op 2 en 3 februari vindt <a href="https://fosdem.org/2013/" title="FOSDEM">FOSDEM</a> plaats, het grootste open-source event van Europa. Alle grote namen binnen de open-source community zoals bvb. Ubuntu, Mozilla, Debian, Gnome, enz. zullen vertegenwoordigd zijn met (dev)rooms en standjes.
 
-Dit jaar geven zelfs 2 Zeus-leden een talk: 
+Dit jaar geven zelfs 2 Zeus-leden een talk:
 Denis Defreyne <a href="https://fosdem.org/2013/schedule/event/static_site_generation_for_the_masses">stelt</a> de zondagochtend <a href="https://nanoc.stoneship.org/">nanoc</a> voor, een static site generator. De FOSDEM website is bijvoorbeeld geschreven met behulp van nanoc.
 Ook Jens Timmerman zal een <a href="https://fosdem.org/2013/schedule/event/easybuild/">talk</a> geven over <a href="https://hpcugent.github.com/easybuild/">EasyBuild</a>, een software build and installation framework geschreven in Python.
 
@@ -20,4 +20,4 @@ FOSDEM gaat door in de gebouwen van de ULB in Brussel en net zoals vorig jaar zu
 Wil je dus mee met Zeus naar FOSDEM, klik dan op de link hieronder om je in te schrijven en dan laten we je nog iets weten voor concrete afspraken. <strong>De inschrijvingen sluiten woensdag 30 januari!</strong>
 
 <!--more-->
-<iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dHRBVlBaeTlFYk1LMzl2VlpnYVpwRmc6MQ" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dHRBVlBaeTlFYk1LMzl2VlpnYVpwRmc6MQ" style="width:100%" height="800"></iframe>
