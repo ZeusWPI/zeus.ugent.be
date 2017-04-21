@@ -2,23 +2,30 @@
   position: relative;
 
   #table-of-contents {
-    @include from($tablet) {
+    @include tablet {
       position: absolute;
       left: 100%;
     }
 
-    @include until($tablet) {
+    @include mobile {
       text-align: center;
     }
+
+    #markdown-toc {
+      @extend .menu-list;
+
+      &, ul {
+        margin: 0;
+        list-style: none;
+      }
+    }
   }
-}
 
-#markdown-toc {
-  @extend .menu-list;
-
-  &, ul {
-    margin: 0;
-    list-style: none;
+  .main-text {
+    // Larger text when on tablet
+    @include tablet {
+      font-size: $size-medium;
+    }
   }
 }
 
@@ -57,7 +64,7 @@ dl {
     margin: auto;
 
     .title {
-      @include from($tablet) {
+      @include tablet {
         font-size: 4rem;
       }
       font-weight: bolder;
