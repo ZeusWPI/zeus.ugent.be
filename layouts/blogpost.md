@@ -1,11 +1,7 @@
-<article class="column is-offset-2 is-8" markdown="1">
-<div class="content is-medium" markdown="1">
-<%= yield %>
-</div>
-</article>
+<article class="blogpost column is-offset-2 is-8" markdown="1">
 
 <% if item[:toc] %>
-<div class="menu column" markdown="1">
+<div id="table-of-contents" class="menu column" markdown="1">
   <p class="menu-label">
     Inhoudstabel
   </p>
@@ -18,3 +14,8 @@
 <% end %>
 </div>
 <% end %>
+
+<div class="content is-medium" markdown="1">
+<%= yield %>
+</div>
+</article>
