@@ -116,7 +116,7 @@ end
 ignore '/assets/stylesheets/includes/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
-  filter :sass, syntax: :scss
+  filter :sass, syntax: :scss, style: :compressed
   filter :autoprefixer if production?
   write ext: 'css'
 end
