@@ -4,6 +4,10 @@
 <META NAME="Description" CONTENT="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging.">
 <% end %>
 
+<% content_for :scripts do %>
+<%= asset :js, :gamification %>
+<% end %>
+
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
     <%= if studytime? then render '/tiles/blokmap.*'end %>
@@ -57,20 +61,3 @@
       </div>
   </div>
 </div>
-<%= asset :js, :gamification %>
-<!--
-<%= asset :js, :quote %>
--->
-<!--
-
-        <div class="tile is-parent is-2">
-          <a class="tile box is-child imgcenter project-tile" href="/projects/#12urenloop">
-            <%= asset :img, '12urenloop.png' %>
-          </a>
-        </div>
-        <div class="tile is-parent is-2">
-          <a class="tile is-child imgcenter box hydra-tile" href="/projects/#hydra">
-            <%= asset :img, 'hydra-logo.svg' %>
-          </a>
-        </div>
--->

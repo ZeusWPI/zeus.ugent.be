@@ -11,8 +11,6 @@
 
     <link rel="icon" href="/assets/images/favicon32.png" type="image/x-icon" />
 
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
-
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
 
     <!-- Android theme color -->
@@ -21,9 +19,6 @@
     <meta property="fb:app_id" content="597670540410704">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
-    <%= asset :js, :tipuesearch %>
-    <%= asset :js, :search %>
 
     <!-- Google Analytics -->
     <script>
@@ -59,5 +54,11 @@
       <%= yield %>
       </div>
     <%= render '/partials/_footer.*' %>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+  <%= asset :js, :tipuesearch %>
+  <%= asset :js, :search %>
+  <%= content_for(@item, :scripts) %>
   </body>
 </html>

@@ -110,7 +110,12 @@ end
 #
 compile '/assets/scripts/**/*.coffee' do
   filter :coffeescript
+  filter :uglify_js
   write ext: 'js'
+end
+
+compile '/assets/scripts/**/*.js' do
+  filter :uglify_js
 end
 
 ignore '/assets/stylesheets/includes/**/*'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'nanoc', '4.7.7'
+gem 'nanoc'
 
 # General filtering
 gem 'coffee-script'
@@ -22,8 +22,8 @@ gem 'words_counted'
 group :development do
   gem 'adsf'
   gem 'highline'
-  gem 'terminal-notifier-guard'
   gem 'terminal-notifier'
+  gem 'terminal-notifier-guard'
 end
 
 group :production do
