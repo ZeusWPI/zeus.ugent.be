@@ -48,6 +48,13 @@ dl {
   }
 }
 
+@keyframes lineAnimation {
+  100% {
+    width: 80px;
+    opacity: 1;
+  }
+}
+
 .blog-heading {
   display: flex;
   flex-direction: column;
@@ -78,7 +85,8 @@ dl {
 
   &::after {
     content: '';
-    width: 80px;
+    opacity: 0;
+    width: 0px;
     height: 1px;
     margin-top: 30px;
     margin-right: auto;
@@ -86,6 +94,8 @@ dl {
     margin-bottom: 30px;
     display: block;
     background: $zeus-orange;
+
+    animation: lineAnimation 2s ease-in-out 1 normal forwards;
   }
 }
 
