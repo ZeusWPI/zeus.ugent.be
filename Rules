@@ -100,9 +100,10 @@ compile '/**/*.ics' do
 end
 
 compile '/**/*.erb' do
+  filter :erb
+  
   layout '/generic.*'
   layout '/default.*'
-  filter :erb
 end
 
 #
