@@ -20,17 +20,17 @@
   }
 }
 
-.event-attributes {
-  font-size: 1.3em;
-}
-
 .event-social-icons {
   margin-left: 10px;
+  line-height: 0.60em;
+  font-size: 0.60em;
 
   .fa {
     margin-right: 5px;
-    font-size: 0.60em;
-    vertical-align: baseline;
+
+    @include tablet {
+      vertical-align: baseline;
+    }
   }
 }
 
@@ -46,4 +46,12 @@
 .has-vertical-center {
   display: flex;
   align-items: center;
+}
+
+.event-title {
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
 }

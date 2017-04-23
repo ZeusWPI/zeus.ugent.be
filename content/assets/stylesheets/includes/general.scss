@@ -123,3 +123,26 @@ footer.footer {
 .heart {
   color: $red;
 }
+
+.is-medium-responsive {
+  // Larger text when on tablet
+  @include tablet {
+    font-size: $size-medium;
+  }
+}
+
+.title-responsive {
+  @include mobile {
+    font-size: $size-1 - 0.5rem;
+  }
+}
+
+@for $i from 1 through 6 {
+  .is-#{$i}-responsive {
+    font-size: nth($sizes, $i);
+
+    @include mobile {
+      font-size: nth($sizes, $i) * 0.75;
+    }
+  }
+}

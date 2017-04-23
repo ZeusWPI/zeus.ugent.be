@@ -20,13 +20,6 @@
       }
     }
   }
-
-  .main-text {
-    // Larger text when on tablet
-    @include tablet {
-      font-size: $size-medium;
-    }
-  }
 }
 
 $sel: '';

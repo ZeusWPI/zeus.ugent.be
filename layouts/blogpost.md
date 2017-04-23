@@ -15,7 +15,7 @@
 </div>
 <% end %>
 
-<div class="main-text content" markdown="1">
+<div class="content is-medium-responsive" markdown="1">
 <%= yield %>
 </div>
 </article>

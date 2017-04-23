@@ -27,7 +27,7 @@
       <div class="columns">
         <div class="column has-vertical-center">
           <div class="header-text <%= item[:header_text_background] ? 'light-background' : '' %>">
-            <p class="title is-1">
+            <p class="title is-1-responsive event-title">
               <b>
                 <%= item[:title] %>
               </b>
@@ -42,10 +42,10 @@
                 </a>
               </span>
             </p>
-            <p class="subtitle is-3">
+            <p class="subtitle is-3-responsive">
               <%= item[:description] %>
             </p>
-            <ul class="fa-ul event-attributes">
+            <ul class="fa-ul is-4-responsive">
               <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
               <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
             </ul>
@@ -65,7 +65,7 @@
 <section class="section">
   <div class="columns">
     <div class="column is-8 is-offset-2">
-      <div class="content has-text-justified is-medium">
+      <div class="content has-text-justified is-medium-responsive">
         <%= yield %>
       </div>
     </div>
