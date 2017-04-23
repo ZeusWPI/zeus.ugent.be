@@ -137,6 +137,7 @@ footer.footer {
   }
 }
 
+// Responsive font sizes
 @for $i from 1 through 6 {
   .is-#{$i}-responsive {
     font-size: nth($sizes, $i);
@@ -145,4 +146,9 @@ footer.footer {
       font-size: nth($sizes, $i) * 0.75;
     }
   }
+}
+
+.alignright {
+  float: right;
+  margin: 15px;
 }
