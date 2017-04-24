@@ -3,7 +3,6 @@
 
   #cammie-ctrls {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -14,7 +13,6 @@
 
     position: absolute;
     top: 0;
-    left: 0;
 
     .columns {
       margin: 0;

@@ -31,25 +31,8 @@ $sel: '';
     }
 }
 
-// Definition list is not defined in bulma
-dl {
-  dt {
-    display: inline;
-    font-weight: bold;
-  }
-
-  dd {
-    display: inline;
-
-    &::after {
-      content: "\A";
-      white-space: pre;
-    }
-  }
-}
-
 @keyframes lineAnimation {
-  100% {
+  to {
     width: 80px;
     opacity: 1;
   }
@@ -83,6 +66,7 @@ dl {
     }
   }
 
+  // Under title line
   &::after {
     content: '';
     opacity: 0;
@@ -96,12 +80,14 @@ dl {
     background: $zeus-orange;
 
     animation: lineAnimation 2s ease-in-out 1 normal forwards;
+    animation-delay: 0.5s;
   }
 }
 
 .blog-preview {
   position: relative;
 
+  // Fadeout
   &::after {
     content: '';
     position: absolute;

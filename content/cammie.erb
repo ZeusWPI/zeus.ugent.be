@@ -2,6 +2,10 @@
 navigable: true
 title: Cammie
 ---
+<% content_for :scripts do %>
+<%= asset :js, :cammie %>
+<% end %>
+
 <section id="cammie-section">
   <div id="cammie-body">
     <figure class="image is-16by9">
@@ -59,6 +63,3 @@ title: Cammie
     </div>
   </nav>
 </section>
-
-
-<%= asset :js, :cammie %>

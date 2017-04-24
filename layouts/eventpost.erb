@@ -68,11 +68,7 @@
       <div class="content has-text-justified is-medium-responsive">
         <%= yield %>
       </div>
-    </div>
-  </div>
-  <div class="columns">
-    <div class="google-maps column is-8 is-offset-2">
-      <iframe style="border:0" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+      <iframe height="400" style="width:100%" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
     </div>
   </div>
 </section>

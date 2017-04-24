@@ -152,3 +152,8 @@ footer.footer {
   float: right;
   margin: 15px;
 }
+
+// Bold definition types in <dl></dl>
+dt {
+  font-weight: bold;
+}

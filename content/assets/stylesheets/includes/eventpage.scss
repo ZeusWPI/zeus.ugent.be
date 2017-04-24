@@ -1,17 +1,3 @@
-.google-maps {
-  position: relative;
-  height: 400px;
-  overflow: hidden;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 400px;
-  }
-}
-
 .banner-image{
   justify-content: center;
   display: flex;
@@ -35,7 +21,6 @@
 }
 
 .header-text {
-  float: left;
   padding: 20px;
 
   &.light-background {
