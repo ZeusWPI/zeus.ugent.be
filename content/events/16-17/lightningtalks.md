@@ -21,7 +21,7 @@ Een paar van de onderwerpen zijn:
 
 | Tijdstip | Spreker | Onderwerp |
 | :------: | :------ | :------- |
-| 9:00 | Bart Coppens | Software Security
+| 19:00 | Bart Coppens | Software Security
 | 19:20 | Sarven Capadisli | A DIY guide to academic adventures
 | 19:40 | Rudy Gevaert | ICT ontwikkelingssamenwerking in Ethiopië en Cuba
 | 20:00 | Ruben Verborgh | Web, Trump, Zuckerberg
