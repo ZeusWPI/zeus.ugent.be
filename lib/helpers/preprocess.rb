@@ -8,6 +8,7 @@ module PreprocessHelper
 
   def update_blog_attributes
     @items.find_all('/blog/**/*').each do |i|
+      raise "#{i.identifier} doesn't have 'created_at'" unless i[:created_at]
       i.update_attributes(
         # Tag all posts with article (for Blogging helper)
         kind: 'article',
