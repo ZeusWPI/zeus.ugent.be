@@ -154,7 +154,8 @@ footer.footer {
 
 .alignright {
   float: right;
-  margin: 15px;
+  padding: 15px;
+  background-color: $body-background;
 }
 
 // Bold definition types in <dl></dl>

@@ -8,7 +8,7 @@ location: Zeus kelder
 
 <a href="https://zeus.ugent.be/wp-content/uploads/2015/02/poster-shaped.png"><img src="https://zeus.ugent.be/wp-content/uploads/2015/02/poster-shaped-300x212.png" alt="poster-shaped" width="300" height="212" class="alignright size-medium wp-image-2213" /></a>
 
-"I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."
+> "I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."
 &nbsp;&nbsp;&nbsp;&nbsp;-- Linus Torvalds
 
 Net zoals dat achter elk groot man een sterke vrouw staat, staat achter elk groot softwareproject een sterk versiecontrolesysteem. Dat geldt uiteraard ook voor de Linuxkernel, maar zo vanzelfsprekend was dat niet. Het bleek namelijk al snel dat er geen enkel zulk systeem bestond dat aan de noden van het grootste opensourceproject van de wereld kon voldoen: snelheid, een bijna onfeilbare data-integriteit, en een grote nadruk op parellel ontwikkelen waren broodnodig. Daarop sloegen Torvalds en kornuiten - ware hackers zijnde - zelf aan het werk, onder het motto ‘in geval van twijfel, kijk wat CVS doet, en doe het tegengestelde.’
