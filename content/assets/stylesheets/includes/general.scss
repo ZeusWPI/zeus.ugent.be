@@ -81,7 +81,7 @@ footer.footer {
 
 
 // For better centering on mobile
-@media screen and (max-width: 768px) {
+@include mobile {
   #tipue_search_input {
     margin: 5px;
   }
@@ -91,6 +91,10 @@ footer.footer {
     max-height: 0;
     overflow: hidden;
     transition: all 0.30s ease-in-out;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    width: 100%;
 
     &.is-active {
       max-height: 275px;
