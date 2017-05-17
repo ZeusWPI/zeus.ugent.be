@@ -13,7 +13,6 @@ Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturin
 Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
 
 # Enkele tips voor je begint
-
 ## Probeer eerst in een virtuele machine
 Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/).
 Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je (naast het OS installeren) ook rekening moet houden met andere obstakels zoals het opzetten van een dualboot systeem. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
