@@ -2,6 +2,10 @@ language: ruby
 
 cache:
   bundler: true
+  # Cache nanoc directories
+  directories:
+    - output
+    - tmp
 
 rvm:
 - 2.3.1
