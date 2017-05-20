@@ -1,12 +1,9 @@
 ---
 title: Ubuntu-les
-banner: https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png
 created_at: 16-11-2011
-time: 23-02-2016
-location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu.png"><img src="https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png" alt="" title="ubuntu" width="212" height="300" class="alignright size-medium wp-image-968" /></a>
+![ubuntu](https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png){:class="alignright"}
 
 Bezoekers van de Zeus-kelder weten ondertussen wel dat wij niet het wijdverspreide Windows-besturingssysteem draaien maar het vrije Ubuntu. Voor velen is Ubuntu een veiliger, stabieler en eenvoudiger alternatief voor Windows, en dat allemaal nog gratis ook.
 
@@ -16,4 +13,4 @@ Zoals ook de vorig jaren gebeurde, organiseert Zeus WPI samen met onze collega's
 
 Alle aanwezigen krijgen sowieso een Ubuntu Live CD'tje mee naar huis, zodat je alles thuis zelf ook nog eens kan proberen. Mensen die direct de overstap willen wagen kunnen ook hun laptop meebrengen naar de les (zorg voor min. 20GB vrije ruimte en een recente backup), dan staan wij klaar om je te begeleiden bij de installatie.
 
-<strong>Voor Zeus-leden</strong>: We zoeken nog medewerkers voor deze activiteit! Gebruik je zelf Ubuntu en help je ook graag anderen hiermee, kom dan naar onze voorbereidingsvergadering op woensdag 16 november om 19u in de Zeus-kelder. Vergeet daarnaast deze bevrijdende boodschap vooral niet te verspreiden onder je minder technisch aangelegde vrienden.
+**Voor Zeus-leden**: We zoeken nog medewerkers voor deze activiteit! Gebruik je zelf Ubuntu en help je ook graag anderen hiermee, kom dan naar onze voorbereidingsvergadering op woensdag 16 november om 19u in de Zeus-kelder. Vergeet daarnaast deze bevrijdende boodschap vooral niet te verspreiden onder je minder technisch aangelegde vrienden.

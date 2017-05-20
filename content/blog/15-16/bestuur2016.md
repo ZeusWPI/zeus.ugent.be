@@ -1,6 +1,6 @@
 ---
 title: Bestuur 2016-2017
-created_at: 01-04-2016
+created_at: 29-05-2016
 description: Het nieuwe bestuur is verkozen!
 ---
 
@@ -12,6 +12,5 @@ Zoals reeds bekend gemaakt op onze [Facebook-pagina](https://www.facebook.com/ze
 | Event Manager        | Eloïse Piret                 |
 | Systeemadministrator | Rien Maertens, Lorin Werthen |
 | Project Manager      | Feliciaan De Palmenaer       |
-{: .table }
 
 **We wensen ze veel succes!**

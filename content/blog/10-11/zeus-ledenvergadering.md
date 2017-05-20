@@ -1,15 +1,12 @@
 ---
 title: Zeus ledenvergadering
-banner: https://zeus.ugent.be/wp-content/uploads/2010/09/ledenvergadering-212x300.png
 created_at: 14-09-2010
-time: 23-02-2016
-location: Zeus kelder
 ---
 
-<a href="https://zeus.ugent.be/wp-content/uploads/2010/09/ledenvergadering.png"><img src="https://zeus.ugent.be/wp-content/uploads/2010/09/ledenvergadering-212x300.png" alt="" title="ledenvergadering" width="212" height="300" class="alignright size-medium wp-image-545" /></a>
+![ledenvergadering](https://zeus.ugent.be/wp-content/uploads/2010/09/ledenvergadering-212x300.png "ledenvergadering"){:class="alignright"}
 
 Op 6 oktober gaat de eerste ledenvergadering van het nieuwe academiejaar door. Iedereen is welkom om 19u30 in de vernieuwde kelder. Er zal ook de mogelijkheid zijn om je aan te sluiten bij Zeus WPI. Op de agenda staat onder meer:
-<ul><li>uitleg over de Zeus-servers;</li>
-    <li>aankondiging activiteiten voor het komende jaar;</li>
-    <li>achteraf begeven we ons waarschijnlijk naar de <a href="https://wina.ugent.be/activiteiten/?id=397/" >WiNA-openingsfuif</a >.</li>
-</ul>
+
+- uitleg over de Zeus-servers;
+- aankondiging activiteiten voor het komende jaar;
+- achteraf begeven we ons waarschijnlijk naar de [WiNA-openingsfuif](https://wina.ugent.be/activiteiten/?id=397/).

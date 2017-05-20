@@ -8,13 +8,12 @@ location: Zeus kelder
 
 Afgelopen ledenvergadering verkozen we een nieuw bestuur! Met trots stellen we jullie voor:
 
-<strong>Voorzitter:</strong> Stijn Seghers
-<strong>Secretaris:</strong> Feliciaan De Palmenaer
-<strong>Penningmeester:</strong> Jeroen De Clerck
-<strong>System administrator (x2):</strong> Titouan Vervack, Wouter Pinnoo
-<strong>Event verantwoordelijke (x2):</strong> Ilion Beyst, Felix Van der Jeugt
-<strong>Senior (a.k.a. ouwe zak):</strong> Tom Naessens
+* **Voorzitter:** Stijn Seghers
+* **Secretaris:** Feliciaan De Palmenaer
+* **Penningmeester:** Jeroen De Clerck
+* **System administrator (x2):** Titouan Vervack, Wouter Pinnoo
+* **Event verantwoordelijke (x2):** Ilion Beyst, Felix Van der Jeugt
+* **Senior (a.k.a. ouwe zak):** Tom Naessens
+* **Vaste medewerker:** Mats Myncke
 
-<strong>Vaste medewerker:</strong> Mats Myncke
-
-Met z'n allen zullen we jullie het komende academiejaar tal van toffe Zeusactiviteiten voorschotelen en alles in goede banen proberen te leiden! Ideëen voor activiteiten mogen altijd <a href="https://zeus.ugent.be/contact/">via mail</a> worden doorgestuurd of via een van de bovenstaande mensen.
+Met z'n allen zullen we jullie het komende academiejaar tal van toffe Zeusactiviteiten voorschotelen en alles in goede banen proberen te leiden! Ideëen voor activiteiten mogen altijd [via mail](https://zeus.ugent.be/contact/) worden doorgestuurd of via een van de bovenstaande mensen.
