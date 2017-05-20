@@ -1,5 +1,6 @@
 # zeus.ugent.be
 [![Build Status](https://travis-ci.org/ZeusWPI/zeus.ugent.be.svg?branch=master)](https://travis-ci.org/ZeusWPI/zeus.ugent.be)
+[![Code Climate](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be.png)](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be)
 
 ## Setup
 
