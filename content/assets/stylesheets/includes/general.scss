@@ -152,10 +152,21 @@ footer.footer {
   }
 }
 
-.alignright {
-  float: right;
-  padding: 15px;
+%align {
   background-color: $body-background;
+  padding: 15px;
+}
+
+.alignright {
+  @extend %align;
+
+  float: right;
+}
+
+.alignleft {
+  @extend %align;
+
+  float: left;
 }
 
 // Bold definition types in <dl></dl>

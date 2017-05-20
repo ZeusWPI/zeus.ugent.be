@@ -1,5 +1,5 @@
 ---
-title: Bestuur 2017-2018
+title: Bestuur '17-'18
 created_at: 18-05-2017
 description: 'Een nieuw academiejaar, een nieuw bestuur.'
 author: Don

@@ -1,9 +1,6 @@
 ---
 title: Server upgrade
-banner: /logo.png
 created_at: 28-10-2008
-time: 23-02-2016
-location: Zeus kelder
 ---
 
 De server waarop LDAP, NFS, MySQL en mail draaien, wordt geupgrade naar Ubuntu 8.04.1 Hierbij kunnen eventueel enkele storingen optreden, maar er wordt niets abnormaals verwacht. Alvast onze excuses moest er toch iets fout lopen.
