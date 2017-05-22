@@ -20,7 +20,7 @@ Favoriete taal : Malbolge
 
 Favoriete OS : LFS
 
-![alt text](//media.giphy.com/media/1lop3XEoCngYg/giphy.gif) {: .imgcenter }
+![alt text](//media.giphy.com/media/1lop3XEoCngYg/giphy.gif){: .imgcenter }
 
 # Isaura Claeys | Vicevoorzitter
 
@@ -36,7 +36,7 @@ Favoriete taal : Isauriaans (//en.wikipedia.org/wiki/Isaurian_language)
 
 Favoriete OS : OSX
 
-![alt text](//i.imgur.com/ebvggMn.gif) {: .imgcenter }
+![alt text](//i.imgur.com/ebvggMn.gif){: .imgcenter }
 
 # Jeroen De Clerck | Penningmeester
 
@@ -52,7 +52,7 @@ Favoriete taal : python
 
 Favoriete OS : archlinux
 
-![alt text](//i.imgur.com/5c22RvF.gif) {: .imgcenter }
+![alt text](//i.imgur.com/5c22RvF.gif){: .imgcenter }
 
 # Eloïse Piret | Eventverantwoordelijke
 
@@ -68,7 +68,7 @@ Favoriete taal : Python
 
 Favoriete OS : OS X (pls don't kill me)
 
-![alt text](//media.tenor.co/images/6659f7a4dead984cdcc05903e7c9503f/tenor.gif) {: .imgcenter }
+![alt text](//media.tenor.co/images/6659f7a4dead984cdcc05903e7c9503f/tenor.gif){: .imgcenter }
 
 # Lorin Werthen | Systeemadministrator
 
@@ -84,7 +84,7 @@ Favoriete taal : Ruby :heart:
 
 Favoriete OS : Arch Linux
 
-![alt text](//iruntheinternet.com/lulzdump/images/skateboarder-never-drops-it-keeps-running-runs-away-bye-14344846555.gif) {: .imgcenter }
+![alt text](//iruntheinternet.com/lulzdump/images/skateboarder-never-drops-it-keeps-running-runs-away-bye-14344846555.gif){: .imgcenter }
 
 # Rien Maertens | Systeemadministrator
 
@@ -92,7 +92,7 @@ Favoriete OS : Arch Linux
 
 Username : R13N of rienspy
 
-Tofste vak ooit : computergebruik, <3 linux
+Tofste vak ooit : computergebruik, &lt;3 linux
 
 Favoriete teksteditor : nvim, IntelliJ om te programmeren
 
@@ -100,7 +100,7 @@ Favoriete taal : West-Vlams
 
 Favoriete OS : Arch Linux
 
-![alt text](//i.imgur.com/RGITm8c.gif) {: .imgcenter }
+![alt text](https://i.imgur.com/RGITm8c.gif){: .imgcenter }
 
 # Feliciaan De Palmenaer | Projectverantwoordelijke
 
@@ -116,4 +116,4 @@ Favoriete taal : Swift
 
 Favoriete OS : macOs
 
-![alt text](//emoji.slack-edge.com/T02E8K8GY/zeustux/19b65368560af6c2.jpg) {: .imgcenter }
+![alt text](//emoji.slack-edge.com/T02E8K8GY/zeustux/19b65368560af6c2.jpg){: .imgcenter }

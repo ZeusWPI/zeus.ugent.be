@@ -61,10 +61,15 @@ footer.footer {
   background: rgba(255, 127, 0, 0.99);
 }
 
-.has-content-centered, .imgcenter {
+.has-content-centered {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgcenter {
+  margin: auto;
+  display: block;
 }
 
 .hydra-tile {
