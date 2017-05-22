@@ -1,14 +1,13 @@
 ---
-title: Geeks, Attack! V
-image: https://zeus.ugent.be/zeuswpi/3iUXxjNp.png
-banner: https://zeus.ugent.be/zeuswpi/AAXR-TiB.png
+title: 'Geeks, Attack! V'
+image: 'https://zeus.ugent.be/zeuswpi/3iUXxjNp.png'
+banner: 'https://zeus.ugent.be/zeuswpi/AAXR-TiB.png'
 description: Zeus' vijfde LAN-Party
 created_at: 13-09-2016
-time: 04-11-2016 16:00
-location: Therminal, Hoveniersberg 24 9000 Gent
-locationlink: Therminal,Ghent Belgium
-description: Zeus' vijfde LAN-Party
-facebook: https://www.facebook.com/events/299820833699196/
+time: '04-11-2016 16:00'
+location: 'Therminal, Hoveniersberg 24 9000 Gent'
+locationlink: 'Therminal,Ghent Belgium'
+facebook: 'https://www.facebook.com/events/299820833699196/'
 ---
 
 # It's that time of year again
@@ -23,16 +22,15 @@ Door je in te schrijven krijgen wij een beter beeld van hoeveel volk we kunnen v
 
 # Praktisch
 
-De deuren openen om 16:00. We vragen €2 inkom, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken.
+De deuren openen om 16:00\. We vragen €2 inkom, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken.
 
 Uit ervaring weten we dat het soms wat kouder kan worden in de Therminal rondom die tijd, dus draag zeker een **trui** of iets dergelijks! We doen echter ons best om de verwarming in orde te krijgen.
 
 ## Timetable
 
-| Tijdstip | Activiteit     |
-| :------------- | :------------- |
-| 18:00 | Competitie Trackmania Nations |
-| 20:00 | Competitie Nidhogg |
-| 22:00 | Competitie Counter-Strike: Global Offensive |
-| 00:00 | Competitie League of Legends |
-{: .table .is-striped}
+Tijdstip | Activiteit
+:------- | :------------------------------------------
+18:00    | Competitie Trackmania Nations
+20:00    | Competitie Nidhogg
+22:00    | Competitie Counter-Strike: Global Offensive
+00:00    | Competitie League of Legends
