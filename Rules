@@ -101,7 +101,7 @@ end
 
 compile '/**/*.erb' do
   filter :erb
-  
+
   layout '/generic.*'
   layout '/default.*'
 end
@@ -133,13 +133,13 @@ end
 #
 #
 
-#
-# ASSETS
-#
-# EVENTS
+# Google verification file
+passthrough '/google6f2e77d0228abc35.html'
+
 route '/**/index.{erb,html,md}' do
   "#{item.identifier.without_ext}.html"
 end
+
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
