@@ -103,21 +103,79 @@
   rollen:
     - rol: Voorzitter
       naam: Panneel Jens
+    - rol: Voorzitter
+      naam: Jens Panneel
+    - rol: Vice
+      naam: Jasper Van der Jeugt
+    - rol: Penning
+      naam: Tom Naessens
+    - rol: Secretaris
+      naam: Nicolas De Smyter
+    - rol: Sysadmin
+      naam: Toon Willems
+    - rol: Sysadmin
+      naam: Pieter De Baets
+    - rol: Activiteiten
+      naam: Sander Demeester
+    - rol: Verantwoordelijke GhentFPG
+      naam: Jasper Van der Jeugt
 -
   jaar: 2012-2013
   rollen:
     - rol: Voorzitter
       naam: Naessens Tom
+    - rol: Vice-voorzitter
+      naam: Feliciaan De Palmenaer
+    - rol: Penning/PR-extern
+      naam: Pieter Vander Vennet
+    - rol: Systeembeheer
+      naam: Pieter De Baets
+    - rol: Systeembeheer
+      naam: Jasper Van der Jeugt
+    - rol: Systeembeheer
+      naam: Toon Willems
+    - rol: Systeembeheer
+      naam: Stijn Seghers
+    - rol: Systeembeheer
+      naam: Sander Demeester
 -
   jaar: 2013-2014
   rollen:
     - rol: Voorzitter
       naam: Naessens Tom
+    - rol: Secretaris
+      naam: Stefaan Vermassen
+    - rol: Penning
+      naam: Pieter Vander Vennet
+    - rol: Systeembeheerder
+      naam: Toon Willems
+    - rol: Systeembeheerder 
+      naam: Stijn Seghers
+    - rol: Activiteiten
+      naam: Wouter Pinnoo
+    - rol: Activiteiten
+      naam: Felix Van der Jeugt
 -
   jaar: 2014-2015
   rollen:
     - rol: Voorzitter
-      naam: Seghers Stijn
+      naam: Stijn Seghers
+    - rol: Secretaris
+      naam: Feliciaan De Palmenaer
+    - rol: Penningmeester
+      naam: Jeroen De Clerck
+    - rol: System administrator
+      naam: Titouan Vervack
+    - rol: System administrator
+      naam: Wouter Pinnoo
+    - rol: Event
+      naam: Ilion Beyst
+    - rol: Event
+      naam: Felix Van der Jeugt
+    - rol: Senior
+      naam: Tom Naessens
+    - rol: Vaste medewerker
+      naam: Mats Myncke
 -
   jaar: 2015-2016
   rollen:
@@ -143,3 +201,23 @@
   rollen:
     - rol: Voorzitter
       naam: Maertens Rien
+    - rol: Vicevoorzitter
+      naam: Isaura Claeys
+    - rol: Penningmeester
+      naam: Timo De Waele
+    - rol: Project
+      naam: Wout Schellaert
+    - rol: Project
+      naam: Ilion Beyst
+    - rol: Sysadmin
+      naam: Jonathan Poelman
+    - rol: Sysadmin
+      naam: Tibo D'Hondt
+    - rol: Sysadmin
+      naam: Ziggy Moens
+    - rol: Assisterend Bestuurslid 
+      naam: Lorin Werthen
+    - rol: Assisterend Bestuurslid
+      naam: Jeroen De Clerck
+    - rol: Assisterend Bestuurslid
+      naam: Laurens D'hooge
