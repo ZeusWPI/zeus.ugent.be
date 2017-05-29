@@ -25,7 +25,7 @@ end
 # COMPILATION
 #
 #
-compile '/feed.xml' do
+compile '/*.xml' do
   filter :erb
 end
 
@@ -88,9 +88,6 @@ end
 # Don't create specific project pages for now
 route '/projects/*' do; end
 
-#
-# GENERIC ERB PAGES
-#
 compile '/*_search.json' do
   filter :erb
 end
@@ -99,6 +96,9 @@ compile '/**/*.ics' do
   filter :erb
 end
 
+#
+# GENERIC ERB PAGES
+#
 compile '/**/*.erb' do
   filter :erb
 

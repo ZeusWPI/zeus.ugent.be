@@ -4,6 +4,7 @@ include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
 include Nanoc::Helpers::Text
 include Nanoc::Helpers::ChildParent
+include Nanoc::Helpers::XMLSitemap
 
 include EnvironmentHelper
 include ArchiveHelper
