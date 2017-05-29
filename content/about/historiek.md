@@ -7,7 +7,7 @@ narrow_page: true
 <div class="content" markdown="1">
 # Het prille begin
 
-![Zeus logo](http://zeus.ugent.be/wp-content/uploads/2009/05/zeus_logo_black_large-300x215.png "zeus_logo_black_large"){:.alignright}
+![Zeus logo](https://zeus.ugent.be/wp-content/uploads/2009/05/zeus_logo_black_large-300x215.png "zeus_logo_black_large"){:.alignright}
 
 In 1991 gaf het voormalige CDR (Centraal Digitaal Rekencentrum) van de Universiteit Gent Vincent Willems de mogelijkheid te starten met PERIKLES@CDR.rug.ac.be en BORD@CDR.rug.ac.be op de lokale Siemens BS2000 mainframe, die op dat moment verbinding had met BITNET. Hiertoe had hij de hulp gekregen van Bert Dobbelaere en Francois Wuyts. De bedoeling van BORD was een grote hoeveelheid informatie en documentatie lokaal ter beschikking te stellen rond listservers, e-mail, het gebruik van BITNET en ftp-by-mail. Deze bestanden waren zo geplaatst dat iedereen ze kon accesseren vanaf de mainframe. Al vrij snel was de database uitgegroeid tot iets omvangrijks en iets dat in goeie aarde viel bij de overige gebruikers. PERIKLES was een lokale mailinglist voor gebruikersvragen rond BITNET en het vinden van informatie erop.
 
@@ -69,7 +69,7 @@ Het nieuwe academiejaar wordt gestart met een volledig nieuwe website. Lessen wo
 
 De voorbije jaren zwaaiden veel van de oudere zeus-leden af, en moesten ze ons met pijn in het hart achter laten. Maar niet getreurd - er staat een groep nieuwe enthousiastelingen klaar om alles voor zeus te geven. We bruisen van ideeën en we zijn klaar om er keihard tegenaan te gaan!
 
-Een sfeerbeeld van de kelder in 2007: [![2007-sfeerbeeld](http://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1-300x225.jpg)](http://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1.jpg){:.alignright}
+Een sfeerbeeld van de kelder in 2007: ![2007-sfeerbeeld](https://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1-300x225.jpg){:.alignright}
 
 # 2007-...
 
