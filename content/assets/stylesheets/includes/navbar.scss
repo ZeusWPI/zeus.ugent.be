@@ -35,7 +35,6 @@
 
   #logo-link {
     #logo {
-      padding-top: 10px;
       padding-left: 10px;
       width: 100px;
     }
@@ -73,5 +72,15 @@
         border-bottom-color: $zeus-orange;
       }
     }
+  }
+}
+
+.hero {
+  #logo {
+    padding-top: 25px;
+  }
+  
+  .nav-right {
+    padding-right: 10px;
   }
 }

@@ -18,6 +18,24 @@ module PreprocessHelper
     end
   end
 
+  def create_yearly_items(type)
+    type = type.to_s
+    years = @items.find_all("/#{type.downcase}/*/*").map { |i| i.identifier.to_s[/\d\d-\d\d/] }.uniq
+
+    years.each do |year|
+      @items.create(
+        '',
+        { academic_year: year, title: type },
+        "/#{type.downcase}/#{year}.html"
+      )
+    end
+
+    @items["/#{type.downcase}/#{years[-1]}.html"].update_attributes(
+      navigable: true,
+      order: 10
+    )
+  end
+
   def create_blog_items
     # academic_years is defined in archives.rb
     academic_years.each do |year|
@@ -28,10 +46,6 @@ module PreprocessHelper
       )
     end
 
-    academic_years_items[0][1].update_attributes(
-      navigable: true,
-      order: 10
-    )
   end
 
   def convert_event_time_to_timestamps

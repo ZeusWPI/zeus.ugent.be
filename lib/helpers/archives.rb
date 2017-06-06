@@ -3,7 +3,7 @@ module ArchiveHelper
     Set.new(items.find_all('/blog/*/*').map { |i| i.identifier.to_s[/\d\d-\d\d/] }).to_a
   end
 
-  def academic_years_items
+  def academic_years_blog_items
     academic_years.reverse.map { |y| [y, items["/blog/#{y}.html"]] }
   end
 
