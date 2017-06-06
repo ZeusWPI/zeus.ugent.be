@@ -36,18 +36,6 @@ module PreprocessHelper
     )
   end
 
-  def create_blog_items
-    # academic_years is defined in archives.rb
-    academic_years.each do |year|
-      @items.create(
-        '',
-        { academic_year: year, title: 'Blog' },
-        "/blog/#{year}.html"
-      )
-    end
-
-  end
-
   def convert_event_time_to_timestamps
     all_events.each do |event|
       event[:time] = DateTime.parse(event[:time])
