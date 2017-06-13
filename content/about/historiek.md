@@ -71,7 +71,27 @@ De voorbije jaren zwaaiden veel van de oudere zeus-leden af, en moesten ze ons m
 
 Een sfeerbeeld van de kelder in 2007: ![2007-sfeerbeeld](https://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1-300x225.jpg){:.alignright}
 
-# 2007-...
+# De jaren 2007-2010
 
 De Zeus draait nog steeds verder, niet elk jaar even sterk maar nog steeds met veel enthousiasme.
+
+# De jaren 2010-2016
+Je zou het bijna een 2de geboorte kunnen noemen, Zeus ontploft. Wat onze hoeveelheid code betreft alvast. 
+Er spruiten projecten uit de grond, veel projecten. Extern, zoals FK-Enrolment, Gandalf, 12Urenloop, en Hydra.
+Maar ook intern, zoals Tab/p, Haldis, en Gamification. We automatiseren alles! 
+Veel van deze projecten verdienen hun eigen beschrijving, want ze zijn stuk voor stuk symbool voor de innovatie en creatiedrang die Zeus doet ontsproeien in studenten, je kan daarom een compleet overzicht zien op onze [projectpagina](https://zeus.ugent.be/projects/).
+
+# Het jaar 2015-2016
+We beginnen een ereledenwerking.
+Tab en tap treden in werking, en ook Haldis staat nu tot onzer dienst.
+Gamification en LANA komen tot leven, alsook Bottlebats ziet het levenslicht.
+
+# Het jaar 2016-2017
+We zijn verdomme 25 jaar. Dat moet geviert worden. We organiseren dan ook een fantastisch galabal, een hele lustrum week zelf!
+Het galabal, gevolgd door een 25uur codenight (slecht idee hebben we ondervonden), en om de week af te sluiten, de 5de editie van onze LAN-party "Geeks Attack!". 
+
+We proberen een nieuwe vloer te fixen, maar dat plan gaat helaas niet door. We krijgen wel een nieuwe zetel, tafels, een server (van VTK), en 2000 euro budget van de GSR voor Hydra. Datzelfde Hydra heeft ondertussen mar liefst 3000 maandelijkse gebruikers.
+Gandalf wordt gebruikt door de UGent zelf voor de organisatie van Het Groot Dictee, alsook voor Uniducenti, een 200 jaar bestaans feestje samen met de Universiteit Luik.
+Verder organiseren we ook voor het eerst HTTPizza in samenwerking met prof. Ruben Verborgh, en, omdat bij 25 jaar Zeus nog wel wat vernieuwing mag, schrijven we onszelf een nieuwe site. 
+
 </div>
