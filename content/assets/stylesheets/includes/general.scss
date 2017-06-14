@@ -182,14 +182,16 @@ footer.footer {
 
   figure {
     position: relative;
-    display: inline-flex;
+    img {
+      display: block;
+    }
     figcaption {
       position: absolute;
       background-color: rgba(0,0,0,.7);
       color: white;
       bottom: 0;
       width: 100%;
-      padding: 10px;
+      padding: 10px 20px;
 
       transition: all .1s;
     }
