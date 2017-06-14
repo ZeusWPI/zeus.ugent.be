@@ -18,5 +18,6 @@
 guard 'nanoc' do
   watch('nanoc.yaml')
   watch('Rules')
+  watch(%r{^data/.*})
   watch(%r{^(content|layouts|lib)/.*$})
 end

@@ -20,3 +20,4 @@ include BlogHelper
 include PreprocessHelper
 include TimeHelper
 include TileHelper
+include AboutHelper

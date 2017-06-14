@@ -37,19 +37,19 @@ narrow_page: true
       </tr>
     </thead>
     <tbody>
-      <% data_from(:bestuur).each do |lid| %>
+      <% current_bestuur.each do |lid| %>
       <tr>
         <td>
-          <%= lid['rol'] %>
+          <%= lid[:rol] %>
         </td>
         <td>
-          <%= lid['naam'] %>
+          <%= lid[:naam] %>
         </td>
         <td>
-          <%= lid['mail'] %>
+          <%= lid[:mail] %>
         </td>
         <td>
-          <a href="mailto:<%= lid['mail'] %>">
+          <a href="mailto:<%= lid[:mail] %>">
             <%= fa :envelope %>
           </a>
         </td>

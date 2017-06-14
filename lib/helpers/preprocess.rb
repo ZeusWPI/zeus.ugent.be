@@ -30,7 +30,8 @@ module PreprocessHelper
       )
     end
 
-    @items["/#{type.downcase}/#{years[-1]}.html"].update_attributes(
+    cur_year_item = @items["/#{type.downcase}/#{@config[:academic_year]}.html"] || @items["/#{type.downcase}/#{years[-1]}.html"]
+    cur_year_item.update_attributes(
       navigable: true,
       order: 10
     )

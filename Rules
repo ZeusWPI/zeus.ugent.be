@@ -119,7 +119,7 @@ end
 compile '/**/*.md' do
   filter :erb
   filter :kramdown
-  
+
   layout '/generic.*'
   layout '/default.*'
 end
@@ -138,6 +138,7 @@ compile '/assets/scripts/**/*.js' do
 end
 
 ignore '/assets/stylesheets/includes/**/*'
+ignore '/data/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss, style: :compressed

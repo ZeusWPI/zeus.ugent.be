@@ -1,4 +1,5 @@
 title: Zeus WPI
+academic_year: 16-17
 # Needed for atom_feed
 author_name: ''
 author_uri: ''
@@ -73,6 +74,8 @@ data_sources:
     # “full”, meaning that identifiers include file extensions. This can also
     # be “legacy”, primarily used by older Nanoc sites.
     identifier_type: full
+  -
+    type: data
 
 # Configuration for the “check” command, which run unit tests on the site.
 checks:
