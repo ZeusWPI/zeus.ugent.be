@@ -25,7 +25,6 @@ module EventsHelper
     items.find_all('/events/*').map { |e| [e[:academic_year], e] }.reverse
   end
 
-
   def grouped_events
     @items.find_all('/events/*/*/main.md')
   end
