@@ -2,9 +2,12 @@
 narrow_page: true
 ---
 <%= render '/partials/_about_sub_navbar.*', selected: 'historiek' %>
-<h1 class="title is-1 has-text-centered">Historiek</h1>
+
+# Historiek
+{:.title.is-1.has-text-centered}
 
 <div class="content" markdown="1">
+
 # Het prille begin
 
 ![Zeus logo](https://zeus.ugent.be/wp-content/uploads/2009/05/zeus_logo_black_large-300x215.png "zeus_logo_black_large"){:.alignright}
@@ -76,17 +79,20 @@ Een sfeerbeeld van de kelder in 2007: ![2007-sfeerbeeld](https://zeus.ugent.be/w
 De Zeus draait nog steeds verder, niet elk jaar even sterk maar nog steeds met veel enthousiasme.
 
 # De jaren 2010-2016
+
 Je zou het bijna een 2de geboorte kunnen noemen, Zeus ontploft. Wat onze hoeveelheid code betreft alvast.
 Er spruiten projecten uit de grond, veel projecten. Extern, zoals FK-Enrolment, Gandalf, 12Urenloop, en Hydra.
 Maar ook intern, zoals Tab/p, Slotmachien, Haldis, en Gamification. We automatiseren alles!
 Veel van deze projecten verdienen hun eigen beschrijving, want ze zijn stuk voor stuk symbool voor de innovatie en creatiedrang die Zeus doet ontsproeien in studenten, je kan daarom een compleet overzicht zien op onze [projectpagina](https://zeus.ugent.be/projects/).
 
 # Het jaar 2015-2016
+
 We beginnen een ereledenwerking.
 Tab en Tap treden in werking, en ook Haldis staat nu tot onzer dienst.
 Gamification en LANA komen tot leven, alsook Bottlebats ziet het levenslicht.
 
 # Het jaar 2016-2017
+
 We zijn verdomme 25 jaar. Dat moet gevierd worden. We organiseren dan ook een fantastisch galabal, een hele lustrum week zelfs!
 Het galabal, gevolgd door een 25uren codenight (slecht idee hebben we ondervonden), en om de week af te sluiten, de 5de editie van onze LAN-party "Geeks Attack!".
 
