@@ -3,7 +3,8 @@ title: Hub voor Google Hashcode 2016
 created_at: 11-01-2016
 ---
 
-![hashcode2016_poster1](https://zeus.ugent.be/wp-content/uploads/2016/01/hashcode2016_poster1-212x300.png){:class="alignright"}
+![hashcode2016_poster1](https://zeus.ugent.be/wp-content/uploads/2016/01/hashcode2016_poster1-212x300.png)
+{:.alignright}
 
 We organiseren op donderdag 11 februari een hub voor de **Google Hashcode**. De Hashcode is een jaarlijkse wedstrijd van Google waar men tracht een probleem in het echte leven op te lossen in een programmeertaal naar keuze. In het verleden kwam het berekenen van routes voor de Google Street View auto's en Project Loon aan bod. Opgaven van de vorige jaren kan je vinden op <https://hashcode.withgoogle.com/past_editions.html>.
 

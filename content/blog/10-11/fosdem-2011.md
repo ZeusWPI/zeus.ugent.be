@@ -3,7 +3,7 @@ title: Fosdem 2011
 created_at: 26-01-2011
 ---
 
-![FOSDEM](https://zeus.ugent.be/wp-content/uploads/2011/01/fosdem.png){:class="alignright}
+![FOSDEM](https://zeus.ugent.be/wp-content/uploads/2011/01/fosdem.png){:.alignright}
 
 De examens zijn voor de meesten nog volop bezig, maar toch denken wij alvast even vooruit. Op 5 en 6 februari vindt [FOSDEM](https://fosdem.org/2011/) plaats, het grootste open-source event van Europa. Alle grote namen binnen de open-source community zoals bvb. Ubuntu, Mozilla, Debian, Gnome, enz. zullen vertegenwoordigd zijn met (dev)rooms en standjes
 
