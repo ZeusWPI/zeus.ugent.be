@@ -7,7 +7,10 @@ _Crossposted from [jaspervdj.be](https://jaspervdj.be/posts/2011-05-09-12-urenlo
 
 The [12 urenloop](https://www.12urenloop.be/) is a yearly contest held at [Ghent University](https://www.ugent.be/). The student clubs compete in a 12-hour-long relay race to run as much laps as possible. Each of the 14 teams this year had a baton assigned, so they can only have one runner at any time.
 
-![](https://jaspervdj.be/images/2011-05-09-12-urenloop.jpg "Just after the start")
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-12-urenloop.jpg" alt="Just after the start">
+<figcaption>Just after the start</figcaption>
+</figure>
 
 <!-- more -->
 
@@ -33,31 +36,45 @@ We decided to attach bluetooth dongles to the relay batons. I'm now pretty confi
 
 ## Gyrid
 
-These bluetooth receivers were borrowed from the [CartoGIS](https://geoweb.ugent.be/cartogis/), a research group which (among other things) studies technology to track people on events (e.g. festivals) using bluetooth receivers. ![](https://jaspervdj.be/images/2011-05-09-gyrid-node.jpg "A Gyrid node") The receivers run a custom build of [Voyage Linux](https://linux.voyage.hk/) created to run the [Gyrid](https://github.com/Rulus/Gyrid) service. What does this mean for us? We get simple, robust nodes we can use as:
+These bluetooth receivers were borrowed from the [CartoGIS](https://geoweb.ugent.be/cartogis/), a research group which (among other things) studies technology to track people on events (e.g. festivals) using bluetooth receivers.
+
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-gyrid-node.jpg" alt="A Gyrid node">
+<figcaption>A Gyrid node</figcaption>
+</figure>
+
+The receivers run a custom build of [Voyage Linux](https://linux.voyage.hk/) created to run the [Gyrid](https://github.com/Rulus/Gyrid) service. What does this mean for us? We get simple, robust nodes we can use as:
 
 - linux node: we can simply SSH to them and set them up
 - switch: to create a more complicated network setup (see later)
 - receiver: sending all received bluetooth data to a central computing node
 
-  Here is another picture of what's inside of a node: ![](https://jaspervdj.be/images/2011-05-09-gyrid-node-inside.jpg "A Gyrid node (inside)")
+Here is another picture of what's inside of a node:
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-gyrid-node-inside.jpg" alt="A Gyrid node (inside)">
+<figcaption>A Gyrid node (inside)</figcaption>
+</figure>
 
 ## Relay batons
 
-We built the relay batons using a simple design: a battery pack consisting of 4 standard AA batteries and connecting them to a bluetooth chip, put in a simple insulation pipe. Some extensive tests on battery duration were also done, and it turns out even the cheapest batteries are good enough to keep a bluetooth chip in an idle state for more than 50 hours. We never actually set up a bluetooth connection between the receivers and the relay batons -- we just detect them and use that as an approximate position. ![](https://jaspervdj.be/images/2011-05-09-relay-batons.jpg "Left: our sweatshop, right: a relay baton")
+We built the relay batons using a simple design: a battery pack consisting of 4 standard AA batteries and connecting them to a bluetooth chip, put in a simple insulation pipe. Some extensive tests on battery duration were also done, and it turns out even the cheapest batteries are good enough to keep a bluetooth chip in an idle state for more than 50 hours. We never actually set up a bluetooth connection between the receivers and the relay batons -- we just detect them and use that as an approximate position.
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-relay-batons.jpg" alt="Just after the start">
+<figcaption>Left: our sweatshop, right: a relay baton</figcaption>
+</figure>
 
 ## Network setup
 
-The problem here was that we only could put cables _around_ the circuit, we couldn't cut right through to the other side of the circuit. This means the commonly used [Star network](https://en.wikipedia.org/wiki/Star_network) was impossible (well, theoretically it was possible, but we would need _a lot_ of cables). Instead, [Jens](https://twitter.com/jenstimmerman), [Pieter](https://thinkjavache.be/) and [Toon](https://twitter.com/nudded) created an awesome ring-based network, in which each node also acts as a switch (using [bridging-utils](https://www.linuxfoundation.org/collaborate/workgroups/networking/bridge)). Then, the [Spanning Tree Protocol](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol) is used to determine an optimal network layout, closing one link in the circle to create a tree. This means we didn't have to use _too much_ cables, and still had the property that one link could go down (physically) without bringing down any nodes: in this case, another tree would be chosen. And if two contiguous links went down, we would only lose one node (obviously, the one in between those two links)! ![](https://jaspervdj.be/images/2011-05-09-ring.png "Ring-based network with spanning tree indicated")
+The problem here was that we only could put cables _around_ the circuit, we couldn't cut right through to the other side of the circuit. This means the commonly used [Star network](https://en.wikipedia.org/wiki/Star_network) was impossible (well, theoretically it was possible, but we would need _a lot_ of cables). Instead, [Jens](https://twitter.com/jenstimmerman), [Pieter](https://thinkjavache.be/) and [Toon](https://twitter.com/nudded) created an awesome ring-based network, in which each node also acts as a switch (using [bridging-utils](https://www.linuxfoundation.org/collaborate/workgroups/networking/bridge)). Then, the [Spanning Tree Protocol](https://en.wikipedia.org/wiki/Spanning_Tree_Protocol) is used to determine an optimal network layout, closing one link in the circle to create a tree. This means we didn't have to use _too much_ cables, and still had the property that one link could go down (physically) without bringing down any nodes: in this case, another tree would be chosen. And if two contiguous links went down, we would only lose one node (obviously, the one in between those two links)!
+
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-ring.png" alt="Ring-based network with spanning tree indicated">
+<figcaption>Ring-based network with spanning tree indicated</figcaption>
+</figure>
 
 ## count-von-count
 
-Now, I will elaborate on the software which interpolates the data received from the Gyrid nodes in order to count laps
-
-<sup>
-  <a href="#fn1" class="footnoteRef" id="fnref1">1</a>
-</sup>
-
-. `count-von-count` is a robust system written in the [Haskell](https://haskell.org/) programming language.
+Now, I will elaborate on the software which interpolates the data received from the Gyrid nodes in order to count laps<sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup>. `count-von-count` is a robust system written in the [Haskell](https://haskell.org/) programming language.
 
 At this point, we have a central node which receives 4-tuples from the Gyrid nodes:
 
@@ -85,7 +102,10 @@ We also ([hopefully](https://bash.org/?5273)) know the location of our Gyrid nod
 
 This is something we can easily plot. Note that there are only a few possible positions, since we discarded the RSSI values because of reliability issues.
 
-![](https://jaspervdj.be/images/2011-05-09-plot.png "Linear regression used")
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-plot.png" alt="Linear regression used">
+<figcaption>Linear regression used</figcaption>
+</figure>
 
 I've illustrated the plot further with a linear regression, which is also what `count-von-count` does. Based on this line, it can figure out the average speed and other values which are then used to "judge" laps. When `count-von-count` decides a relay baton has made a lap, it will make a REST request to `dr.beaker`.
 
@@ -101,7 +121,7 @@ I've illustrated the plot further with a linear regression, which is also what `
 
 - a history of the entire competition
 
-  and more.
+and more.
 
 ## Conclusion
 
@@ -109,7 +129,10 @@ It's a hardware problem.
 
 When the contest started, both Gyrid, `count-von-count` and `dr.beaker` turned out to be quite reliable. However, our relay batons were breaking fast. This simply due to the simple, obvious fact that runners don't treat your precious hardware with love -- they need to be able to quickly pass them. Inevitably, batons will be thrown and dropped.
 
-![](https://jaspervdj.be/images/2011-05-09-monitoring.jpg "Thomas & me monitoring the batons")
+<figure>
+<img src="https://jaspervdj.be/images/2011-05-09-monitoring.jpg" alt="Thomas &amp; me monitoring the batons">
+<figcaption>Thomas &amp; me monitoring the batons</figcaption>
+</figure>
 
 Initially, we were able to swap the broken relay batons for the few spare ones we had, and then quickfix the broken ones using some duct tape. After about five hours, however, they really started breaking -- at a rate that was hard to keep up with using quickfixing.
 

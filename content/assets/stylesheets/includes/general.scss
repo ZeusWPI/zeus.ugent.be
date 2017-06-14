@@ -159,7 +159,7 @@ footer.footer {
 
 %align {
   background-color: $body-background;
-  padding: 15px;
+  margin: 15px;
 }
 
 .alignright {
@@ -177,4 +177,24 @@ footer.footer {
 // Bold definition types in <dl></dl>
 dt {
   font-weight: bold;
+}
+
+figure {
+  position: relative;
+  display: inline-flex;
+  figcaption {
+    position: absolute;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+
+    transition: all .1s;
+  }
+  &:hover {
+    figcaption {
+      opacity: 0;
+    }
+  }
 }

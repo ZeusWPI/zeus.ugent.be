@@ -72,7 +72,12 @@ Het nieuwe academiejaar wordt gestart met een volledig nieuwe website. Lessen wo
 
 De voorbije jaren zwaaiden veel van de oudere zeus-leden af, en moesten ze ons met pijn in het hart achter laten. Maar niet getreurd - er staat een groep nieuwe enthousiastelingen klaar om alles voor zeus te geven. We bruisen van ideeën en we zijn klaar om er keihard tegenaan te gaan!
 
-Een sfeerbeeld van de kelder in 2007: ![2007-sfeerbeeld](https://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1-300x225.jpg){:.alignright}
+<figure class="alignright">
+  <img src="https://zeus.ugent.be/wp-content/uploads/2014/01/20070920-140006-1-300x225.jpg" alt="2007-sfeerbeeld">
+  <figcaption>
+    Een sfeerbeeld van de kelder in 2007
+  </figcaption>
+</figure>
 
 # De jaren 2007-2010
 
