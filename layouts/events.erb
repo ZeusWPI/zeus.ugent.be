@@ -1,0 +1,56 @@
+<div class="columns">
+  <div class="column is-2 is-narrow">
+    <aside class="menu">
+      <p class="menu-label">
+        Academiejaar
+      </p>
+      <ul class="menu-list">
+        <% academic_years_event_items.each do |year, item| %>
+        <% if @item_rep && @item_rep.path == item.path %>
+        <li>
+          <a href="#" class="is-active">
+            <%= pretty_year(year) %>
+          </a>
+        </li>
+        <% else %>
+        <li>
+          <%= link_to pretty_year(year), item %>
+        </li>
+        <% end %>
+        <% end %>
+      </ul>
+    </aside>
+  </div>
+
+  <div class="column">
+    <% unless upcoming_events(@item[:academic_year]).empty? %>
+      <div class="content">
+        <h1>Upcoming events</h1>
+      </div>
+      <% upcoming_events(@item[:academic_year]).each_slice(2) do |slice| %>
+      <div class="columns">
+        <% slice.each do |event| %>
+        <div class="tile is-parent ">
+          <%= render '/partials/_events_tile.*', event: event %>
+        </div>
+        <% end %>
+      </div>
+      <% end %>
+    <% end %>
+
+    <% unless past_events(@item[:academic_year]).empty? %>
+      <div class="content">
+        <h1>Past events</h1>
+      </div>
+      <% past_events(@item[:academic_year]).each_slice(2) do |slice| %>
+      <div class="columns">
+        <% slice.each do |event| %>
+        <div class="tile is-parent ">
+          <%= render '/partials/_events_tile.*', event: event %>
+        </div>
+        <% end %>
+      </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

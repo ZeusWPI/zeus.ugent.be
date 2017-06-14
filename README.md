@@ -1,6 +1,8 @@
 # zeus.ugent.be
 [![Build Status](https://travis-ci.org/ZeusWPI/zeus.ugent.be.svg?branch=master)](https://travis-ci.org/ZeusWPI/zeus.ugent.be)
 [![Code Climate](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be.png)](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be)
+[![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=desktop&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=desktop)
+[![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=mobile&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=mobile)
 
 ## Setup
 

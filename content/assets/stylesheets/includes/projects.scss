@@ -33,8 +33,12 @@
   margin-top: 30px;
 }
 
+.logo-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .logo {
-  height:  10vw;
   width: 10vw;
   min-width: 100px;
   min-height: 100px;
@@ -42,12 +46,14 @@
   margin-right: auto;
   display: flex;
   align-items: center;
+
+  height: 100%;
 }
 
 .logo-initial {
   margin: auto;
   color: white;
-  font-size: 6vw;
+  font-size: 5rem;
   font-family: $family-sans-serif;
 }
 
