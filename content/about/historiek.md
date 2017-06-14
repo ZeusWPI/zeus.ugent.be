@@ -102,6 +102,6 @@ We zijn verdomme 25 jaar. Dat moet gevierd worden. We organiseren dan ook een fa
 Het galabal, gevolgd door een 25uren codenight (slecht idee hebben we ondervonden), en om de week af te sluiten, de 5de editie van onze LAN-party "Geeks Attack!".
 
 We proberen een nieuwe vloer te fixen, maar dat plan gaat helaas niet door. We krijgen wel een nieuwe zetel, tafels, en een server van VTK. Ondertussen heeft Hydra maar liefst 3000 maandelijkse gebruikers en wordt Gandalf af en toe gebruikt door de UGent, onder andere ter ondersteuning van Het Groot Dictee, alsook voor Uniducenti, een 200 jaar bestaans feestje samen met de Universiteit Luik.
-Verder organiseren we ook voor het eerst HTTPizza in samenwerking met prof. Ruben Verborgh, en, omdat bij 25 jaar Zeus nog wel wat vernieuwing mag, schrijven we onszelf een nieuwe site.
+Verder organiseren we ook voor het eerst HTTPizza in samenwerking met Ruben Verborgh en IDLab, en, omdat bij 25 jaar Zeus nog wel wat vernieuwing mag, schrijven we onszelf een nieuwe site.
 
 </div>
