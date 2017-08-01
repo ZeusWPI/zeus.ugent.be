@@ -14,7 +14,6 @@
   background-position: center;
   background-size: cover;
 }
-
 // link borders are unnecessary
 .content {
   a {
@@ -194,10 +193,12 @@ footer.footer {
       padding: 10px 20px;
 
       transition: all .1s;
+
+      opacity: 0;
     }
     &:hover {
       figcaption {
-        opacity: 0;
+        opacity: 1;
       }
     }
   }
