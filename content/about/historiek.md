@@ -101,6 +101,8 @@ De eerste editie van de Zeus Lightning talks is ook een hit, met een vol auditor
 
 De nood aan een ereledenwerking valt ook op bij het bestuur. De eerste Zeus Ereleden krijgen een gigantische poster van hun gezicht op de keldermuren gekleefd. Er wordt verder gestreefd naar ~~luiheid~~automatisatie. Tab, het zelfgeschreven betalingssysteem en Tap, het zelfgeschreven drankbestelsysteem worden in gebruik genomen. Gamification treedt na een goed jaar development ook in werking, waardoor we nu voor imaginaire puntjes kunnen vechten om Beste Coder van de week te worden. Bottlebats, een ambitieuze AI-competitie, ziet ook zijn eerste editie. De Cease And Desist van Battlebots Inc. krijgt een mooi plekje op ons prikbord.
 
+Als hoogtepunt van het jaar slagen we er in om tussen de standaard lessen en workshops door voor een tweede keer Richard "rms" Stallman naar Gent te krijgen. Dit keer geeft hij een talk over "Copyright vs. Community" in het goed gevulde Quetelet-auditorium.
+
 # Het jaar 2016-2017
 
 We zijn verdomme 25 jaar. Dat moet gevierd worden. We organiseren dan ook een fantastisch galabal, een hele lustrum week zelfs!
