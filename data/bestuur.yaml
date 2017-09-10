@@ -60,8 +60,6 @@
     naam: De Baets Pieter
 11-12:
   - rol: Voorzitter
-    naam: Panneel Jens
-  - rol: Voorzitter
     naam: Jens Panneel
   - rol: Vice
     naam: Jasper Van der Jeugt
@@ -79,7 +77,7 @@
     naam: Jasper Van der Jeugt
 12-13:
   - rol: Voorzitter
-    naam: Naessens Tom
+    naam: Tom Naessens
   - rol: Vice-voorzitter
     naam: Feliciaan De Palmenaer
   - rol: Penning/PR-extern
@@ -132,7 +130,7 @@
     naam: Lorin Werthen
 15-16:
   - rol: Voorzitter
-    naam: De Clerck Jeroen
+    naam: Jeroen De Clerck
   - rol: Secretaris
     naam: Eloïse Piret
   - rol: Penningmeester
@@ -158,7 +156,7 @@
     naam: Feliciaan De Palmenaer
 17-18:
   - rol: Voorzitter
-    naam: Maertens Rien
+    naam: Rien Maertens
     mail: voorzitter@zeus.ugent.be
   - rol: Vicevoorzitter
     naam: Isaura Claeys
