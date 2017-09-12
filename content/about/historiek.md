@@ -83,18 +83,25 @@ De voorbije jaren zwaaiden veel van de oudere zeus-leden af, en moesten ze ons m
 
 De Zeus draait nog steeds verder, niet elk jaar even sterk maar nog steeds met veel enthousiasme.
 
-# De jaren 2010-2016
+# De jaren 2010-2014
 
 Je zou het bijna een 2de geboorte kunnen noemen, Zeus ontploft. Wat onze hoeveelheid code betreft alvast.
 Er spruiten projecten uit de grond, veel projecten. Extern, zoals FK-Enrolment, Gandalf, 12Urenloop, en Hydra.
-Maar ook intern, zoals Tab/p, Slotmachien, Haldis, en Gamification. We automatiseren alles!
 Veel van deze projecten verdienen hun eigen beschrijving, want ze zijn stuk voor stuk symbool voor de innovatie en creatiedrang die Zeus doet ontsproeien in studenten, je kan daarom een compleet overzicht zien op onze [projectpagina](https://zeus.ugent.be/projects/).
+
+# Het jaar 2014-2015
+
+De eerste stapjes van de kelderautomatisering worden gezet tijdens de zomervakantie, Slotmachien wordt tot leven gewekt. Vertrouwde leden kunnen nu zonder sleutel binnen en buiten in de kelder. Het academiejaar gaat van start met de (ondertussen meermaals terugkerende en steevast enorm populaire) rondleiding van het Datacentrum. Het High Performance Computing team van DICT laat ons kennismaken met de snelste computer van het land (op dat moment (snif)). Er worden weer lustig lessen en workshops georganiseerd, en voor de afwisseling wordt de eerste Zeus Spelletjesavond gehouden.
+
+In de paasvakantie vliegt het interieur naar buiten. Door de explosie van leden is er een ferm plaatstekort, dat opgelost wordt door subsidies te smijten in de algemene richting van ikea-tafels. Heel wat gesleur later (en een tripje teveel vanwege de kleurenblindheid van bepaalde leden) en de kelder is niet alleen onherkenbaar maar vooral veel ruimer ingedeeld.
+
+De eerste editie van de Zeus Lightning talks is ook een hit, met een vol auditorium en een hoop proffen die voor een kwartierje (of drie kwartier in een bepaald geval) hun zegje mogen doen. Het jaar wordt op een hoogtepunt afgesloten door het afwerken van de Ansible configuratie, waardoor T21 voor eeuwig in de analen opgenomen wordt als sysadmin der sysadmins. Ondertussen is ook Haldis deel geworden van de afgewerkte kelderprojectjes.
 
 # Het jaar 2015-2016
 
-We beginnen een ereledenwerking.
-Tab en Tap treden in werking, en ook Haldis staat nu tot onzer dienst.
-Gamification en LANA komen tot leven, alsook Bottlebats ziet het levenslicht.
+De nood aan een ereledenwerking valt ook op bij het bestuur. De eerste Zeus Ereleden krijgen een gigantische poster van hun gezicht op de keldermuren gekleefd. Er wordt verder gestreefd naar ~~luiheid~~automatisatie. Tab, het zelfgeschreven betalingssysteem en Tap, het zelfgeschreven drankbestelsysteem worden in gebruik genomen. Gamification treedt na een goed jaar development ook in werking, waardoor we nu voor imaginaire puntjes kunnen vechten om Beste Coder van de week te worden. Bottlebats, een ambitieuze AI-competitie, ziet ook zijn eerste editie. De Cease And Desist van Battlebots Inc. krijgt een mooi plekje op ons prikbord.
+
+Als hoogtepunt van het jaar slagen we er in om tussen de standaard lessen en workshops door voor een tweede keer Richard "rms" Stallman naar Gent te krijgen. Dit keer geeft hij een talk over "Copyright vs. Community" in het goed gevulde Quetelet-auditorium.
 
 # Het jaar 2016-2017
 
