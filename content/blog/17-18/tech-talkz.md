@@ -9,6 +9,11 @@ CenEka, een studentenvereniging van de faculteit Ingenieurswetenschappen en Arch
 # Talk I: TBA
 
 # Talk II: Nanopixel
+[NanoPixel](https://www.nanopixel.be/nl) een bedrijf met als missie om hun diensten en producten te _revolutioneren_ en een bijzondere meerwaarde te creëren voor hun klanten. Ze komen uitleg geven over de toepassingen en de know-how van **3D Visuals** en in het bijzonder **Virtual Reality**.
+
+Bekende projecten zijn de vele markups voor vastgoedmakelaars en de **VR Experience** die aangeboden wordt in Technopolis. Voor een voorsmaakje over wat er allemaal mogelijk is met deze technologiën, bekijk dan zeker het filmpje op [deze pagina](https://www.nanopixel.be/nl/projecten/project-detail/9/sterea).
+
+Misschien vertrek jij wel uit deze presentatie met genoeg informatie en _know-how_ rechtstreeks uit de industrie om zelf onderzoek te doen, of zelfs zelf zo'n _stunning visuals_ te creëeren.
 
 # Talk III: Internet Freedom
 [Ruben Verborg](https://ruben.verborgh.org) (IDLab) begint met een introductie over het Web en Net Neutrality, een hot topic uit de Verenigde Staten waarvan het debat over heel de wereld werd gevoerd.
