@@ -5,7 +5,7 @@ description: Leer ons kennen tijdens deze ludieke quiz!
 created_at: 3-10-2017
 time: '05-10-2017 17:45'
 location:Zeus kelder 
-banner: https://zeus.ugent.be/zeuswpi/WBPaj2H1.jpeg
+facebook:'https://www.facebook.com/events/1892351817759801'
 locationlink: Sint-Pietersplein, Gent
 ---
 
