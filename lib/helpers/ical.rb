@@ -16,7 +16,7 @@ module IcalHelper
     e.dtstart = Icalendar::Values::DateTime.new item[:time], 'tzid' => tzid
     e.dtend = Icalendar::Values::DateTime.new item[:end], 'tzid' => tzid if item[:end]
     e.summary = item[:title]
-    e.description = item[:description] + "\n\n" + item.reps[:text].compiled_content
+    e.description = "#{item[:description]}\n\n#{item.reps[:text].compiled_content}"
     e.location = item[:location]
     e.url = @config[:base_url] + item.path
 

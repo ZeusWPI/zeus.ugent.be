@@ -38,8 +38,13 @@ module PreprocessHelper
   end
 
   def convert_event_time_to_timestamps
-    all_events.each do |event|
+    @items.find_all('/events/*/*.md').each do |event|
+      # HACK: Strings in a format like "2017-10-05T20:45:00+0200" automatically get converted to Time
+
+      event[:time] = event[:time].to_s
       event[:time] = DateTime.parse(event[:time])
+
+      event[:end] = event[:end].to_s if event[:end]
       event[:end] = DateTime.parse(event[:end]) if event[:end]
     end
   end
