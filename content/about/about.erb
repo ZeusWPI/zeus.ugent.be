@@ -1,0 +1,65 @@
+---
+narrow_page: true
+---
+
+<%= render '/partials/_about_sub_navbar.*', selected: 'about' %>
+<h1 class="title is-1 has-text-centered">About Zeus WPI</h1>
+
+<div class="content">
+  <p>
+    Zeus WPI is the student association for Computer Science at Ghent University.
+    Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+  </p>
+
+  <p>
+     We organize various tech related talks by experts (eg. professors, PhD's, Richard Stallman, Julia Roberts, ...), hands-on coding events and introductory lectures for cool technologies.
+     Together we build interesting applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='http://www.fkgent.be/'>FaculteitenKonvent</a> and <a href='https://12urenloop.be/'>12Urenloop</a>, and ofcourse for ourselves.
+  </p>
+
+  <p>
+    Be sure to check out the <a href='../projects'>project-page</a>!
+  </p>
+
+  <p>
+    Everybody is welcom at Zeus WPI, even if you don't study computer science. The only requirement is a healthy dose of motivation and some (toleration for) geekyness. 
+  </p>
+
+  <h2>The board</h2>
+
+  <p>
+    The board is the oil in the machine and is the driving force behind the organization of events and projects.
+    The Zeus WPI board for the <%= pretty_year @config[:academic_year] %> academic year is:
+  </p>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Function</th>
+        <th>Name</th>
+        <th>E-mail</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% current_bestuur.each do |lid| %>
+      <tr>
+        <td>
+          <%= lid[:rol] %>
+        </td>
+        <td>
+          <%= lid[:naam] %>
+        </td>
+        <td>
+          <%= lid[:mail] %>
+        </td>
+        <td>
+          <a href="mailto:<%= lid[:mail] %>">
+            <%= fa :envelope %>
+          </a>
+        </td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</div>
