@@ -1,6 +1,11 @@
 module ArchiveHelper
   def academic_years
-    Set.new(items.find_all('/blog/*/*').map { |i| i.identifier.to_s[/\d\d-\d\d/] }).to_a
+    # Set.to_a to prevent duplicates
+    Set.new(items
+              .find_all('/blog/*/*')
+              .map { |i| i.identifier.to_s[/\d\d-\d\d/] })
+       .to_a
+       .sort
   end
 
   def academic_years_blog_items

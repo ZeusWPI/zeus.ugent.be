@@ -31,7 +31,11 @@ For manual deployment, run
 bundle exec nanoc deploy --target public
 ```
 
-## Posts
+## Events
+
+Events can be fetched from facebook using `nanoc fetch [facebook event id]`. A file named `.fb_token` containing an app token for facebook must be present.
+
+## Blogposts
 
 Posts should be written in [kramdown](http://kramdown.gettalong.org/index.html), a markdown superset which has a very complete [syntax guide](http://kramdown.gettalong.org/syntax.html).
 

@@ -16,6 +16,34 @@ a.box {
   }
 }
 
+.event-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  filter: grayscale(30%);
+
+  .event-content {
+    color: #4a4a4a;
+    height: 100%;
+    width: 100%;
+    background: rgba($tertiary, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .event-text {
+      display: inline-block;
+      font-size: 1.1em;
+    }
+
+    .is-divider {
+      margin: 0.5em;
+    }
+  }
+
+}
+
 .centering {
   display: flex;
 

@@ -1,32 +1,30 @@
 <% if @event[:banner] %>
-  <a href="<%= @event.path %>" class="tile is-child box backgroundimg highlighted"
+  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg highlighted"
     style="background-image:url('<%= @event[:banner] %>');">
 <% elsif @event[:color] %>
-  <a href="<%= @event.path %>" class="tile is-child box backgroundimg highlighted"
+  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg highlighted"
     style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @event[:color] %>;">
 <% else %>
-  <a href="<%= @event.path %>" class="tile is-child box backgroundimg">
+  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg">
 <% end %>
-  <div class="content">
-    <div class="columns">
-      <div class="column">
-        <h2>
-          <%= @event[:title] %>
-        </h2>
+  <div class="content event-content">
+    <div class="event-text">
+      <h1 class="has-text-centered">
+        <%= @event[:title] %>
+      </h1>
+
+      <div class="description has-text-centered">
+        <%= @event[:description] %>
       </div>
-      <div class="column is-narrow">
-        <small>
-          <%= @event[:time].strftime('%A %d %B %Y %H:%M') %>
-          <br>
-          <%= @event[:location] %>
-        </small>
+
+      <div class="is-divider"></div>
+
+      <div class="">
+        <%= fa :'clock-o' , fw: true %><%= @event[:time].strftime('%A %d %B, %H:%M') %>
+        <br>
+        <%= fa :'map-marker', fw: true %><%= @event[:location] %>
       </div>
     </div>
-    <div class="description">
-      <%= @event[:description] %>
-    </div>
-    <div class="teaser">
-      <%= get_teaser(@event) %>
-    </div>
+
   </div>
 </a>

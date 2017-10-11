@@ -1,8 +1,10 @@
 module PreprocessHelper
   def ignore_old_blogposts
     @items.delete_if do |item|
-      next unless item.identifier.to_s.start_with?('/blog/')
-      !item.identifier.to_s.start_with?('/blog/16-17/')
+      path = item.identifier.to_s
+      next unless path.start_with?('/blog/')
+      year = path.gsub(%r{/blog/(\d\d)-\d\d/.*}, '\1').to_i
+      year < 16
     end
   end
 
