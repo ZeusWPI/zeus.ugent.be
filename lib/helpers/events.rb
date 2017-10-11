@@ -22,7 +22,7 @@ module EventsHelper
   end
 
   def academic_years_event_items
-    items.find_all('/events/*').map { |e| [e[:academic_year], e] }.reverse
+    items.find_all('/events/*').map { |e| [e[:academic_year], e] }.sort_by(&:first)
   end
 
   def grouped_events
