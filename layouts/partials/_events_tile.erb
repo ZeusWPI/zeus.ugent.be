@@ -8,7 +8,7 @@
   <a href="<%= @event.path %>" class="tile is-child box backgroundimg">
 <% end %>
   <div class="content">
-    <div class="columns">
+    <div class="columns events-tile">
       <div class="column">
         <h2>
           <%= @event[:title] %>
@@ -16,9 +16,9 @@
       </div>
       <div class="column is-narrow">
         <small>
-          <%= @event[:time].strftime('%A %d %B %Y %H:%M') %>
+          <%= fa :'clock-o' , fw: true %><%= @event[:time].strftime('%A %d %B %Y %H:%M') %>
           <br>
-          <%= @event[:location] %>
+          <%= fa :'map-marker', fw: true %><%= @event[:location] %>
         </small>
       </div>
     </div>
