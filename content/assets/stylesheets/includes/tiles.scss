@@ -24,7 +24,7 @@ a.box {
   filter: grayscale(30%);
 
   .event-content {
-    color: #4a4a4a;
+    color: $text;
     height: 100%;
     width: 100%;
     background: rgba($tertiary, 0.2);

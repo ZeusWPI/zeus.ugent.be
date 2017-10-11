@@ -1,7 +1,7 @@
 ---
 narrow_page: true
 ---
-
+<% @icon_size = '2x' %>
 <%= render '/partials/_about_sub_navbar.*', selected: 'contact' %>
 <h1 class="title is-1 has-text-centered">Contact</h1>
 
@@ -11,7 +11,49 @@ narrow_page: true
     Zeus WPI is located in the basement of the S9 building on Campus Sterre, by it's members often named “de kelder”.
   </p>
 
-  <p>Reach us:</p>
+  <%# TODO: Put in a loop for all entries %>
+  <ul id='contact-icons' class='columns'>
+
+    <li class='column contact-circle-option'>
+      <a href="_" class='contact-circle-wrapper'>
+        <div class='contact-circle is-centered'>
+          <div class='contact-circle-pulse grow'></div>
+          <%= fa :envelope, size: @icon_size, class: 'grow-large' %>
+        </div>
+      </a>
+      <h4 class="contact-description">EMAIL</h3>
+      <p class="has-text-centered">
+        <a href="_" class="contact-text-link is-link">Mail us</a>
+      </p>
+    </li>
+
+    <li class='column contact-circle-option'>
+      <a href="_" class='contact-circle-wrapper'>
+        <div class='contact-circle is-centered'>
+          <div class='contact-circle-pulse grow'></div>
+          <%= fa :facebook, size: @icon_size, class: 'grow-large' %>
+        </div>
+      </a>
+      <h4 class="contact-description">FACEBOOK</h3>
+      <p class="has-text-centered">
+        <a href="_" class="contact-text-link is-link">Like us</a>
+      </p>
+    </li>
+
+   <li class='column contact-circle-option'>
+      <a href="_" class='contact-circle-wrapper'>
+        <div class='contact-circle is-centered'>
+          <div class='contact-circle-pulse grow'></div>
+          <%= fa :twitter, size: @icon_size, class: 'grow-large' %>
+        </div>
+      </a>
+      <h4 class="contact-description">TWITTER</h3>
+      <p class="has-text-centered">
+        <a href="_" class="contact-text-link is-link">Follow us</a>
+      </p>
+    </li>
+
+  </ul>
 
   <ul>
     <li>

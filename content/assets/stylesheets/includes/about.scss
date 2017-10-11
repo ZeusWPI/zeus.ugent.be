@@ -1,0 +1,69 @@
+#contact-icons {
+    .contact-circle-option {
+        display: block;
+
+        .contact-circle-wrapper {
+            display: block;
+            position: relative;
+            width: 60%;
+            padding-bottom: 60%;
+            height: 0;
+            margin: 0 auto;
+            
+            .contact-circle-pulse {
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                border: 1px solid $tertiary;
+                margin: 0 auto;
+            }
+
+            .contact-circle {
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: $tertiary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                color: $highlighted-text-colour;
+            }
+        }
+
+        .contact-circle-wrapper:hover, .contact-circle-wrapper:focus {
+            
+            .grow { 
+                transition: all .2s ease-in-out;
+                -moz-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+
+            
+        }
+
+        .contact-description {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: $primary;
+        }
+
+        .contact-text-link {
+            color: $text;
+            border-bottom: 1px solid $secondary;
+            margin-top: 7px;
+            font-size: 1.5em;
+        }
+
+        .contact-text-link:hover {
+            color: $secondary;
+        }
+    }
+
+}
