@@ -1,6 +1,15 @@
 #contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    > .column {
+        max-width: 70vw;
+    }
+
     .contact-circle-option {
         display: block;
+        max-width: 70vw;
 
         .contact-circle-wrapper {
             display: block;

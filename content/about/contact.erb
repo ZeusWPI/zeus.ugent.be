@@ -1,91 +1,84 @@
 ---
 narrow_page: true
+icon_size: 2x
+contact_links:
+  - icon: facebook
+    link: https://www.facebook.com/zeus.wpi/
+    description: FACEBOOK
+    action: 'Like us'
+  - icon: envelope
+    link: mailto:bestuur@zeus.ugent
+    description: EMAIL
+    action: bestuur@zeus.ugent
+  - icon: twitter
+    link: https://twitter.com/zeuswpi
+    description: TWITTER
+    action: 'Follow us'
+  - icon: slack
+    link: https://zeuswpi.slack.com/
+    description: SLACK
+    action: Message us
 ---
-<% @icon_size = '2x' %>
 <%= render '/partials/_about_sub_navbar.*', selected: 'contact' %>
-<h1 class="title is-1 has-text-centered">Contact</h1>
+<h1 class='title is-1 has-text-centered'>Contact</h1>
 
-<div class="  ">
+<div class=''>
+
+  <%# TODO: Put in a loop for all entries %>
+  <ul id='contact-icons' class='columns is-centered is-multiline'>
+  <% @item[:contact_links].each do |option| %>
+    <div class='column is-one-quarter-desktop is-half-tablet is-two-thirds-mobile'>
+      <li class='contact-circle-option'>
+        <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
+          <div class='contact-circle is-centered'>
+            <div class='contact-circle-pulse grow'></div>
+            <%= fa option[:icon], size: @item[:icon_size], class: 'grow-large' %>
+          </div>
+        </a>
+        <h4 class='contact-description'><%= option[:description] %></h3>
+        <p class='has-text-centered'>
+          <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
+        </p>
+      </li>
+    </div>
+  <% end %>
+  </ul>
 
   <p>
     Zeus WPI is located in the basement of the S9 building on Campus Sterre, by it's members often named “de kelder”.
   </p>
 
-  <%# TODO: Put in a loop for all entries %>
-  <ul id='contact-icons' class='columns'>
-
-    <li class='column contact-circle-option'>
-      <a href="_" class='contact-circle-wrapper'>
-        <div class='contact-circle is-centered'>
-          <div class='contact-circle-pulse grow'></div>
-          <%= fa :envelope, size: @icon_size, class: 'grow-large' %>
-        </div>
-      </a>
-      <h4 class="contact-description">EMAIL</h3>
-      <p class="has-text-centered">
-        <a href="_" class="contact-text-link is-link">Mail us</a>
-      </p>
-    </li>
-
-    <li class='column contact-circle-option'>
-      <a href="_" class='contact-circle-wrapper'>
-        <div class='contact-circle is-centered'>
-          <div class='contact-circle-pulse grow'></div>
-          <%= fa :facebook, size: @icon_size, class: 'grow-large' %>
-        </div>
-      </a>
-      <h4 class="contact-description">FACEBOOK</h3>
-      <p class="has-text-centered">
-        <a href="_" class="contact-text-link is-link">Like us</a>
-      </p>
-    </li>
-
-   <li class='column contact-circle-option'>
-      <a href="_" class='contact-circle-wrapper'>
-        <div class='contact-circle is-centered'>
-          <div class='contact-circle-pulse grow'></div>
-          <%= fa :twitter, size: @icon_size, class: 'grow-large' %>
-        </div>
-      </a>
-      <h4 class="contact-description">TWITTER</h3>
-      <p class="has-text-centered">
-        <a href="_" class="contact-text-link is-link">Follow us</a>
-      </p>
-    </li>
-
-  </ul>
-
   <ul>
     <li>
-      come to “de kelder” and say hi! (find us <a href="https://soleway.ugent.be/routes/4370"> here</a>).
+      come to “de kelder” and say hi! (find us <a href='https://soleway.ugent.be/routes/4370'> here</a>).
     </li>
     <li>
-      mail <a href="mailto:bestuur@zeus.ugent.be">the board</a> (bestuur@zeus.ugent.be), or some <a href="../about"> specific members </a>
+      mail <a href='mailto:bestuur@zeus.ugent.be'>the board</a> (bestuur@zeus.ugent.be), or some <a href='../about'> specific members </a>
     </li>
     <li>
-      join our <a href="https://zeuswpi.slack.com/">Slack team</a> (by *ugent.be mail or invite)
+      join our <a href='https://zeuswpi.slack.com/'>Slack team</a> (by *ugent.be mail or invite)
     </li>
     <li>
       send a yellow postcard “Zeus WPI – Krijgslaan 281, S9 – 9000 Gent”
     </li>
     <li>
-      keep up to date trough our <a href="http://lists.zeus.ugent.be/mailman/listinfo/leden">mailinglist</a>
+      keep up to date trough our <a href='http://lists.zeus.ugent.be/mailman/listinfo/leden'>mailinglist</a>
     </li>
     <li>
-      check out our <a href="irc://wina.ugent.be/#zeus">IRC-channel</a>
+      check out our <a href='irc://wina.ugent.be/#zeus'>IRC-channel</a>
     </li>
     <li>
-      call us at <a href="tel://+3292644751">09 264 4751</a> (intern: 4751)
+      call us at <a href='tel://+3292644751'>09 264 4751</a> (intern: 4751)
     </li>
     <li>
       deposit at BE32 9799 9370 6502 (BIC: ARSP BE 22)
     </li>
     <li>
-      follow us on Twitter: <a href="http://twitter.com/ZeusWPI">@ZeusWPI</a>
+      follow us on Twitter: <a href='http://twitter.com/ZeusWPI'>@ZeusWPI</a>
     </li>
     <li>
-      like us on <a href="https://www.facebook.com/zeus.wpi">Facebook</a>
+      like us on <a href='https://www.facebook.com/zeus.wpi'>Facebook</a>
     </li>
   </ul>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.8611760710044!2d3.7102397000000003!3d51.023149499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373c271502d9b%3A0x49fd54f81cafeb5f!2sZeus+WPI!5e0!3m2!1sen!2sbe!4v1481415854540" height="450" style="border:0;width:100%" allowfullscreen></iframe>
+  <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.8611760710044!2d3.7102397000000003!3d51.023149499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373c271502d9b%3A0x49fd54f81cafeb5f!2sZeus+WPI!5e0!3m2!1sen!2sbe!4v1481415854540' height='450' style='border:0;width:100%' allowfullscreen></iframe>
 </div>
