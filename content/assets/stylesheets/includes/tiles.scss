@@ -35,7 +35,15 @@ a.box {
     .event-text {
       display: inline-block;
       font-size: 1.1em;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+      .event-time-loc {
+        margin-left: 10px;
+        margin-right: 10px;
+       }
     }
+
 
     .is-divider {
       margin: 0.5em;
