@@ -40,10 +40,11 @@ contact_links:
 
 <div class='is-divider'></div>
 
+<!-- Contact buttons -->
 <ul id='contact-icons' class='columns is-centered is-multiline'>
 <% @item[:contact_links].each do |option| %>
   <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
-    <li class='contact-circle-option'>
+    <li id='<%= option[:description] %>' class='contact-circle-option'>
       <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
         <div class='contact-circle is-centered'>
           <div class='contact-circle-pulse grow'></div>
@@ -61,15 +62,16 @@ contact_links:
 
 <div class='is-divider'></div>
 
-
+<!-- Extra information tiles -->
 <div class='tile is-ancestor is-vertical'>
-
   <div class='tile is-parent'>
-    <div class='tile is-parent is-vertical'>  
-      <div class='tile is-child box content has-text-centered'>
+    <div class='tile is-parent is-vertical'>
+
+      <!-- Payment information -->
+      <div id='payment-info' class='tile is-child box content has-text-centered'>
         <h1 class='title has-text-centered'>Pay us</h1>
         <div class='is-divider'></div>
-        <p class='is-size-5'>
+        <p id='banknumber' class='is-size-5'>
           BE32 9799 9370 6502
         </p>
         <a class='button' href='https://zeus.ugent.be/tab/'>
@@ -77,24 +79,26 @@ contact_links:
         </a>
       </div>
 
-      <div class='tile is-child box content has-text-centered'>
+      <!-- Calling information -->
+      <div id='calling-info' class='tile is-child box content has-text-centered'>
         <h1 class='title has-text-centered'>Call us</h1>
         <div class='is-divider'></div>
-        <p class='is-size-5'>
+        <p id='phone-number' class='is-size-5'>
           +32 92 64 47 5</br>
           Intern: 4751
         </p>
       </div>
     </div>
 
-    <div class='tile is-parent'>
+    <!-- Address information -->
+    <div id='address-info' class='tile is-parent'>
       <div class='tile is-child box content'>
         <h1 class='title has-text-centered'>Find us</h1>
         <div class='is-divider'></div>
         <p class='is-size-5'>
           You can find our hiding place, or what we call <strong>'de kelder'</strong> at the basement level of following address:
         </p>
-        <blockquote class='is-size-5'>
+        <blockquote id='address' class='is-size-5'>
           Krijgslaan 281 </br>
           Campus Sterre S9 </br>
           9000 Gent </br>
@@ -108,12 +112,13 @@ contact_links:
       </div>
     </div>
   </div>
-  
-  <div class='tile is-parent'>
+
+  <!-- Slack information -->
+  <div id='slack-info' class='tile is-parent'>
     <div class='tile is-child box content'>
       <h1 class='title has-text-centered'>Slack info</h1>
       <div class='is-divider'></div>
-      <p class='is-size-5'>
+      <p id='slack-info-text' class='is-size-5'>
         You can register with any <strong>*.zeus.ugent.be</strong> or even <strong>*.ugent.be</strong> email address.
         If you don't have one, try to reach us on one of our other channels and ask for an invitation.
       </p>
@@ -121,5 +126,5 @@ contact_links:
   </div>
 </div>
 
-</ul>
-<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.8611760710044!2d3.7102397000000003!3d51.023149499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373c271502d9b%3A0x49fd54f81cafeb5f!2sZeus+WPI!5e0!3m2!1sen!2sbe!4v1481415854540' height='450' style='border:0;width:100%' allowfullscreen></iframe>
+<!-- Embedded Google Maps -->
+<iframe id='google-maps' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.8611760710044!2d3.7102397000000003!3d51.023149499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373c271502d9b%3A0x49fd54f81cafeb5f!2sZeus+WPI!5e0!3m2!1sen!2sbe!4v1481415854540' height='450' style='border:0;width:100%' allowfullscreen></iframe>
