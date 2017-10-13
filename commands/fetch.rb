@@ -16,12 +16,12 @@ run do |_opts, args, _cmd|
   puts <<~EOS
   ---
   title: "#{o['name']}"
-  description: #TODO
+  description: #Fill in
   time: #{o['start_time']}
   end: #{o['end_time']}
   location: #{o['place']['name']}
   banner: #{o['cover']['source']}
-  created_at: #TODO
+  created_at: #Fill in
   facebook: 'https://www.facebook.com/events/#{event_id}/'
   ---
 
