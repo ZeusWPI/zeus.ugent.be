@@ -9,7 +9,7 @@
 
     .contact-circle-option {
         display: block;
-        max-width: 70vw;
+        max-width: 200px;
 
         .contact-circle-wrapper {
             display: block;
@@ -67,7 +67,7 @@
             color: $text;
             border-bottom: 1px solid $secondary;
             margin-top: 7px;
-            font-size: 1.5em;
+            //font-size: 1.5em;
         }
 
         .contact-text-link:hover {
