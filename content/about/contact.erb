@@ -4,41 +4,40 @@ icon_size: 2x
 contact_links:
   - icon: facebook
     link: https://www.facebook.com/zeus.wpi/
-    description: FACEBOOK
+    description: Facebook
     action: Like us
   - icon: envelope
     link: ../about#board
-    description: EMAIL
+    description: Email
     action: Mail us
   - icon: twitter
     link: https://twitter.com/zeuswpi
-    description: TWITTER
+    description: Twitter
     action: Follow us
   - icon: slack
     link: https://zeuswpi.slack.com/
-    description: SLACK
+    description: Slack
     action: Message us
   - icon: commenting
     link: irc://wina.ugent.be/#zeus
-    description: IRC
+    description: irc
     action: Chat with us
   - icon: inbox
     link: http://lists.zeus.ugent.be/mailman/listinfo/leden
-    description: MAILINGLIST
+    description: Mailinglist
     action: Keep up to date
   - icon: github
     link: https://github.com/ZeusWPI/
-    description: GITHUB
+    description: GitHub
     action: Fork us
   - icon: phone
     link: 'tel:+3292644751'
-    description: PHONE
+    description: Phone
     action: Call us
 ---
 <%= render '/partials/_about_sub_navbar.*', selected: 'contact' %>
-<h1 class='title is-1 has-text-centered'>Contact</h1>
-
-<div class='is-divider'></div>
+<h1 class='title is-1 has-text-centered'>Contact us</h1>
+<h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h1>
 
 <!-- Contact buttons -->
 <ul id='contact-icons' class='columns is-centered is-multiline'>
@@ -51,7 +50,7 @@ contact_links:
           <%= fa option[:icon], size: @item[:icon_size], class: 'grow-large' %>
         </div>
       </a>
-      <h4 class='contact-description'><%= option[:description] %></h3>
+      <h4 class='contact-description is-uppercase'><%= option[:description] %></h3>
       <p class='has-text-centered'>
         <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
       </p>
@@ -60,10 +59,8 @@ contact_links:
 <% end %>
 </ul>
 
-<div class='is-divider'></div>
-
 <!-- Extra information tiles -->
-<div class='tile is-ancestor is-vertical'>
+<div id='contact-info' class='tile is-ancestor is-vertical'>
   <div class='tile is-parent'>
     <div class='tile is-parent is-vertical'>
 
@@ -103,12 +100,14 @@ contact_links:
           Campus Sterre S9 </br>
           9000 Gent </br>
         </blockquote>
-        <a class='button' href='https://www.google.com/maps/place/Zeus+WPI/@51.023115,3.7103,17z/data=!4m5!3m4!1s0x0:0x49fd54f81cafeb5f!8m2!3d51.0231149!4d3.7103?hl=en-US'>
-          <%= fa :'map-marker', fw: true %> Google Maps
-        </a>
-        <a class='button' href='https://soleway.ugent.be/routes/4370'>
-          <%= fa :'map-signs', fw: true %> Soleway
-        </a>
+        <div id='contact-location-buttons'>
+          <a class='button' href='https://www.google.com/maps/place/Zeus+WPI/@51.023115,3.7103,17z/data=!4m5!3m4!1s0x0:0x49fd54f81cafeb5f!8m2!3d51.0231149!4d3.7103?hl=en-US'>
+            <%= fa :'map-marker', fw: true %> Google Maps
+          </a>
+          <a class='button' href='https://soleway.ugent.be/routes/4370'>
+            <%= fa :'map-signs', fw: true %> Soleway
+          </a>
+        </div>
       </div>
     </div>
   </div>
