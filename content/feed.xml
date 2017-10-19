@@ -1,1 +1,1 @@
-<%= atom_feed %>
+<%= atom_feed content_proc: Proc.new {|x| x.reps[:html].compiled_content} %>

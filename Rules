@@ -88,6 +88,10 @@ compile '/blog/*/*', rep: :text do
   filter :strip_html
 end
 
+compile '/blog/*/*', rep: :html do
+  filter :kramdown
+end
+
 #
 # PROJECTS
 #
