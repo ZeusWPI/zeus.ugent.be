@@ -53,6 +53,7 @@ compile '/events/*' do
 end
 
 compile '/events/*/*' do
+  filter :erb
   filter :kramdown
 
   layout '/eventpost.*'
