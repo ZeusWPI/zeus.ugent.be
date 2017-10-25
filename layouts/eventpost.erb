@@ -70,7 +70,30 @@
       <div class="content has-text-justified is-medium-responsive">
         <%= yield %>
       </div>
+
+      <!-- GOOGLE MAPS -->
       <iframe height="400" style="width:100%" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+      <!-- END GOOGLE MAPS -->
+
     </div>
   </div>
 </section>
+
+<!-- SPONSORED BY -->
+<% if item[:sponsors] %>
+<section class="section">
+  <div class="columns">
+    <div class="column is-8 is-offset-2">
+      <h1 class="title is-1 has-text-centered">Sponsored by</h1>
+      <div class="sponsors">
+        <% @item[:sponsors].each do |sp| %>
+        <a href="<%= sp[:url] %>" target="_blank">
+          <img src="<%= sp[:img] %>" alt="<%= sp[:name] %>">
+        </a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<% end %>
+<!-- END SPONSORED BY -->

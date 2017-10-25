@@ -67,3 +67,15 @@
     }
   }
 }
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  > a {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+}
