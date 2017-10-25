@@ -17,7 +17,7 @@ Meer info op de [eventpagina](<%= @items['/events/17-18/nanopixel.md'].path %>) 
 
 _Datum: 23/11_
 
-[Ruben Verborg](https://ruben.verborgh.org) (IDLab) begint met een introductie over het Web en Net Neutrality, een hot topic uit de Verenigde Staten waarvan het debat over heel de wereld werd gevoerd.
+[Ruben Verborgh](https://ruben.verborgh.org) (IDLab) begint met een introductie over het Web en Net Neutrality, een hot topic uit de Verenigde Staten waarvan het debat over heel de wereld werd gevoerd.
 
 [Julia Reda](https://juliareda.eu/en/) (Europees Parlement) brengt de discussie dichter bij ons thuis en vertelt over de stand van zaken van hervorming van de auteursrechten op Europees niveau. Deze nieuwe wetten hebben een drastische invloed op de vrijheid op het Web binnen de EU.
 
