@@ -75,6 +75,7 @@ end
 # POSTS
 #
 compile '/blog/*/*' do
+  filter :erb
   layout '/blogpost.md'
   filter :kramdown
 
