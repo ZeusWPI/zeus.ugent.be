@@ -2,8 +2,8 @@
 title: 'Nanopixel'
 description: Het bedrijf Nanopixel geeft een talk over Virtual Reality.
 created_at: 19-10-2017
-time: '09-11-2017 20:00'
-end: '09-11-2017 22:00'
+time: '07-11-2017 20:00'
+end: '07-11-2017 22:00'
 location: 'Jozef Plateaustraat 22, 9000 Gent'
 locationlink: 'Faculteit Ingenieurswetenschappen en Architectuur'
 facebook: 'https://www.facebook.com/events/313118845828839/'

@@ -10,8 +10,6 @@ facebook: 'https://www.facebook.com/events/313118845828839/'
 color: '#aea485'
 gradient: false
 image: 'https://zeus.ugent.be/zeuswpi/YkUgUTuQ.png'
-# image:  'https://zeus.ugent.be/zeuswpi/jXnkucIH.png' #(inverted)
-# banner:  'https://zeus.ugent.be/zeuswpi/JLMprrIc.png'
 ---
 
 This event is part of the [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].path %>), a collaboration between the two student associations Zeus WPI and CenEka.
