@@ -1,16 +1,15 @@
 ---
 title: 'The Web We Take for Granted'
-description: Two experts come to talk about our internet freedom and how it is in immediate danger.
+description: Two experts discuss how our online freedom is in immediate danger.
 created_at: 19-10-2017
 time: '23-11-2017 19:30'
-end: '22-11-2017 21:00'
+end: '23-11-2017 21:00'
 location: 'Auditorium D, Jozef Plateaustraat 22, 9000 Gent'
 locationlink: 'Faculteit Ingenieurswetenschappen en Architectuur'
 facebook: 'https://www.facebook.com/events/313118845828839/'
-color: '#282825'
-image: 'https://zeus.ugent.be/zeuswpi/K4DI_hEf.png'
-# image:  'https://zeus.ugent.be/zeuswpi/jXnkucIH.png' #(inverted)
-# banner:  'https://zeus.ugent.be/zeuswpi/JLMprrIc.png'
+color: '#aea485'
+gradient: false
+image: 'https://zeus.ugent.be/zeuswpi/YkUgUTuQ.png'
 ---
 
 This event is part of the [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].path %>), a collaboration between the two student associations Zeus WPI and CenEka.
