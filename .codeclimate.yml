@@ -19,7 +19,7 @@ engines:
     enabled: true
 
 exclude_paths:
-  - "**tipuesearch.js"
+  - "**/*tipuesearch.js"
 
 ratings:
   paths:
