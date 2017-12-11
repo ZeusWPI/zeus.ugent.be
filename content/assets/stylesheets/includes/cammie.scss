@@ -45,6 +45,22 @@
       &.diag i {
         transform: rotate(45deg);
       }
+      
     }
+  }
+}
+#cammie-section {
+
+  .nav-center{
+  width:100%;
+  }
+  button{
+    background-color: $orange;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 0;
+    border: none;
+    width: 33%;
   }
 }
