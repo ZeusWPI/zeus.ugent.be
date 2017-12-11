@@ -57,10 +57,13 @@
   button{
     background-color: $orange;
     color: white;
-    margin-left: 5px;
     margin-top: 5px;
     border-radius: 0;
     border: none;
-    width: 33%;
+    width: 33.333333333333333333333333333333333333333333333333333%;
+    &:not(:last-child){
+        margin-right: 5px;
+    }
   }
+
 }
