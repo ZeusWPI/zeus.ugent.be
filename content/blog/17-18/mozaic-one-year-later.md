@@ -21,13 +21,13 @@ We hosted a tiny competition for the new students on the first day of the academ
 
 The Rust part has been refactored thrice at least. The visuals moved from plain JS + HTML, to JS + React, to an Electron React client, to a TypeScript Electron React client. Oh, and one specific wacko is now porting the rendering to WebAssembly.
 
-We are not even close to where we want to get, but the team is ever growing, the spirits are monotonically rising, and it's all like we want it to be.
+We are not even close to where we want to get, but the team is ever growing, the spirits keep rising, and it's all like we want it to be.
 
 ## One year later
 
 Twas exactly yesterday, 364 days later, snowing and freezing, on a magical '_Pannenkoeken & Jenever-codenight-avond_ ', that an extended team found themselves in a couch, looking at some whiteboard, brainstorming about what we wanted the interface for the game rules to look like.
 
-And it was then we suddenly realized, as if the entire cosmos was created just for this moment, that exactly 364 days ago we discussed the exact same thing, in the exact same couch, looking at the exact same whiteboard. The circle was complete. And thus it was time for a blogpost.
+And it was then we suddenly realized, as if the entire cosmos was created just for this moment, that exactly 364 days ago we discussed the exact same thing, in the exact same couch, looking at the exact same whiteboard. The circle was complete. And it was time for a blogpost.
 
 In no particular order, a big thanks to Kenneth, Jasper, Feliciaan, Robbe, Timo, Isa, Olivier, Mats, Laurens, Elo, Lorin, Tom, Arthur, Rien, and others who might not be on the contributors list _yet_.
 
