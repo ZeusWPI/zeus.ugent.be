@@ -55,6 +55,13 @@ $sel: '';
 
     .subtitle {
       position: absolute;
+
+      @include mobile {
+        text-align: center;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: .2em;
+      }
     }
 
     .details {
@@ -63,6 +70,12 @@ $sel: '';
       margin-top: -1.1rem;
       line-height: 1;
       text-align: right;
+
+      @include mobile {
+        text-align: center;
+        margin-top: 0;
+        position: relative;
+      }
     }
   }
 

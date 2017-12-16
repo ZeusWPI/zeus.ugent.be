@@ -1,18 +1,16 @@
-<a href="<%= relative_path_to(post) %>">
-  <article class="box blog-preview">
-    <div class="content">
-      <h3 class="has-text-centered"><%= post[:title] %></h3>
-      <p class="has-text-centered">
+<a class="box blog-preview" href="<%= relative_path_to(post) %>">
+  <div class="content">
+    <h3 class="has-text-centered"><%= post[:title] %></h3>
+    <p class="has-text-centered">
       <%= post[:description] %>
-      </p>
-      <h5 class="has-text-centered">
-        <% if post[:author] %>
-        door <%= post[:author] %>
-        <% end %>
-      </h5>
-      <small><%= post[:created_at] %></small>
-      <br>
-      <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
-    </div>
-  </article>
+    </p>
+    <h5 class="has-text-centered">
+      <% if post[:author] %>
+      door <%= post[:author] %>
+      <% end %>
+    </h5>
+    <small><%= post[:created_at] %></small>
+    <br>
+    <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
+  </div>
 </a>
