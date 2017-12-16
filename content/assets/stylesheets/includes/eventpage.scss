@@ -45,3 +45,17 @@
 .nav-menu {
   background: none;
 }
+
+.map-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+
+  padding: 0;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
