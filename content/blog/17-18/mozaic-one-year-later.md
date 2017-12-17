@@ -8,9 +8,9 @@ author: Wout Schellaert
 
 ## The beginning
 
-Twas exactly this day, in the late 2016, not snowing nor freezing, not a cosy winter evening at all, but a magical '_Pannenkoeken & Jenever-codenight-avond_ ' happened nonetheless.
+'Twas exactly this day, in the late 2016, not snowing nor freezing, not a cosy winter evening at all, but a magical '_Pannenkoeken & Jenever-codenight-avond_ ' happened nonetheless.
 
-It was that joyfull day the Massive Online Zeus Artificial Intelligence
+It was that joyful day the Massive Online Zeus Artificial Intelligence
 Competition -- MOZAIC for short -- sprung from 3 overzealous minds. Back then we scribbled down some wants and wishes, and it took us way too long to figure out that the **Z** in MO**Z**AIC could in fact just stand for 'Zeus'.
 
 ## Going further
