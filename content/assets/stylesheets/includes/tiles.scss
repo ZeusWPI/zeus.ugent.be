@@ -69,6 +69,7 @@ $top_coder_size: 80px;
 }
 
 #gamification-coders {
+  font-variant: all-small-caps;
   display: flex;
 
   justify-content: center;
@@ -149,4 +150,24 @@ $top_coder_size: 80px;
 
 .backgroundimg{
   background-position: center;
+}
+
+.gamification-tile {
+  overflow: hidden;
+  padding: 0;
+
+  .tile-header {
+    background-color: $primary;
+    padding: 20px;
+    h1 {
+      margin: 0;
+    }
+    a, a:visited {
+      color: white;
+    }
+  }
+
+  #gamification-coders {
+    padding: 20px;
+  }
 }
