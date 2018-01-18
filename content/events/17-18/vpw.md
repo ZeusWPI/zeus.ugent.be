@@ -13,7 +13,7 @@ end: 14-03-2018 21:30
 Het is weer zo ver, de jaarlijkse [Vlaamse Programmeerwedstrijd](http://www.vlaamseprogrammeerwedstrijd.be/) komt eraan. In deze wedstrijd probeer je in teams van exact 3 personen een handjevol problemen op te lossen. Dit keer gaat de wedstrijd door in **Hasselt**.
 
 ## Oei, zo ver!
-Geen nood, zoals elk jaar legt Zeus een gratis bus in om samen ter plekke te raken. Om een plaatsje op de bus te verkrijgen moet je je wel inschrijven. Aangezien de bus een vaste capaciteit van 60 mensen heeft is het aantal plaatsen dus beperkt. Let ook op, Zeus verzorgt enkel de bus wat wil zeggen dat **jij en je team je zelfstandig bij de VPW moeten registeren.** Inschrijven voor de bus kan via [deze link](https://event.fkgent.be/events/80).
+Geen nood, zoals elk jaar legt Zeus een gratis bus in om samen ter plekke te raken. Om een plaatsje op de bus te verkrijgen moet je je wel inschrijven. Aangezien de bus een vaste capaciteit van 60 mensen heeft is het aantal plaatsen dus beperkt. Let ook op, Zeus verzorgt enkel de bus wat wil zeggen dat **jij en je team je zelfstandig bij de VPW moeten registeren.** Inschrijven voor de bus kan via [deze link](https://event.fkgent.be/events/180).
 
 ## Concreet
 De bus vertrekt voor **Gebouw S9 (Campus Sterre)** op **woensdag 14 maart om 10:00**. Probeer iets op voorhand te zijn zodat we zeker op tijd kunnen vertrekken. Rond 21:30 schatten we terug in Gent te zijn.
