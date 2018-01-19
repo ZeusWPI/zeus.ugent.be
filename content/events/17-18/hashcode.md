@@ -8,7 +8,7 @@ location: 'Campus Sterre, Gebouw S9, Auditorium A3'
 locationlink: 'Building S9 Universiteit Gent'
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
-facebook: 'https://www.facebook.com/events/321491211673196/'
+facebook: 'https://www.facebook.com/events/781766318669485/'
 header_text_background: true
 ---
 
