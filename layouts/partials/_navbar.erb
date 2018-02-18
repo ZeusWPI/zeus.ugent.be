@@ -13,7 +13,7 @@
           <a class="is-hidden-tablet nav-item" href="/">
             <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
           </a>
-          <div class="nav-menu nav-left">
+          <div class="nav-menu nav-left <%= 'nav-transparent' if defined? @transparent_nav %>">
             <% navigables.each do |i| %>
             <a class="nav-item is-tab <%= 'is-active' if child_of(i) %>" href="<%= i.path %>">
               <%= i[:title] %>
