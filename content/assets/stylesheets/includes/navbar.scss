@@ -19,6 +19,10 @@
 
   .nav-menu {
     z-index: 20;
+
+    .nav-transparent {
+      background: none;
+    }
   }
 
   .actual-nav-bar {
