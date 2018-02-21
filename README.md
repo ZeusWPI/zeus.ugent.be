@@ -4,22 +4,41 @@
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=desktop&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=desktop)
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=mobile&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=mobile)
 
-## Setup
+This repository contains the source code for [zeus.ugent.be](https://zeus.ugent.be), the website of Zeus WPI, the official student association of Informatics at Ghent University. The site is developed using [nanoc](https://github.com/nanoc/nanoc), which is actively developed by ex-Zeus member [ddfreyne](https://github.com/ddfreyne). The CSS framework used is [Bulma](https://bulma.io/). We primarily focus on using markdown for blogposts and events. Feel free to make a Pull Request with a blog post if you feel inspired and need an outlet!
 
-### Installation
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+You will need Ruby (gem) and Node.js (npm). Installation instructions are listed below.
+
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+* [Node.js](https://nodejs.org/en/download/package-manager/)
+
+### Installing
+
+If bundler is not yet installed on your system, make sure to install it using the following command:
+
+```bash
+gem install bundler
+```
+
+In the root directory of the project, execute following commands
 
 ```bash
 bundle install
 npm install
 ```
 
-### Developing
+These will pull in all Ruby and Node.js dependencies. If everything goes well, you should be able to execute the following.
 
 ```bash
 bundle exec nanoc live
 ```
-This will spawn a webserver, and automatically recompile the site
-when files get changed.
+
+Go to <http://localhost:3000> to view the site! When developing, the site gets regenerated when editing files. A simple refresh will show the new changes.
 
 ### Deploying
 
@@ -31,70 +50,14 @@ For manual deployment, run
 bundle exec nanoc deploy --target public
 ```
 
-## Events
+If you want to deploy this on your own system for whatever reason, just serve the files using a webserver like nginx or Apache.
 
-Events can be fetched from facebook using `nanoc fetch [facebook event id]`. A file named `.fb_token` containing an app token for facebook must be present.
-
-## Blogposts
-
-Posts should be written in [kramdown](http://kramdown.gettalong.org/index.html), a markdown superset which has a very complete [syntax guide](http://kramdown.gettalong.org/syntax.html).
-
-Meta-tags:
-
-| Name        | Type   | Required |
-|-------------|--------|----------|
-| :title      | String | yes      |
-| :created_at | Date   | yes      |
-| :description| String | no       |
-| :author     | String | no       |
-| :lang       | String | no       |
-
-## Events
-
-Example structure:
-
-```
-content/
-  assets/
-  events/
-    15-16/
-    16-17/
-      battlebots/
-        main.md
-        intro.md
-        codenight.md
-        finale.md
-      awk.md
-      sed.md
-      ruby.md
-    index.erb
-```
-
-### Metadata
-
-Every event is a `.md` file with the following metadata tags:
-
-| Name         | Type   | Required |
-|--------------|--------|----------|
-| :title       | String | yes      |
-| :time        | Date   | yes      |
-| :location    | String | yes      |
-| :description | String | no       |
-| :created_at  | Date   | no       |
-| :locationlink| String | no       |
-| :facebook    | URL    | no       |
-| :banner      | URL    | no       |
-| :image       | URL    | no       |
+## Built With
 
 
-### Grouped events
+* [nanoc](https://github.com/nanoc/nanoc), static site generator
+* [Bulma](https://bulma.io/), CSS framework
 
-If there's a series of events (for example summer code nights) these can be grouped by creating a folder containing a `main.md`, which will need the following metadata:
+## Authors
 
-| Name         | Type   | Required |
-|--------------|--------|----------|
-| :title       | String | yes      |
-| :location    | String | no       |
-| :banner      | URL    | no       |
-
-Other `.md` files made in that folder are sub-events which need to fit the [metadata description listed earlier](#metadata)
+See the list of [contributors](https://github.com/zeuswpi/zeus.ugent.be/contributors) who participated in this project.
