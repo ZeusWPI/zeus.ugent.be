@@ -21,6 +21,10 @@ before_install:
   -in id_rsa.enc -out deploy_key -d
 - echo -e "Host zeus.ugent.be\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
+- sudo apt-get update -qq
+- sudo apt-get install -y pandoc
+- sudo apt-get install -y texlive-full
+- sudo apt-get install -y texlive-xetex
 script:
 - bundle exec nanoc --env=prod
 - bundle exec nanoc --env=prod check --deploy
