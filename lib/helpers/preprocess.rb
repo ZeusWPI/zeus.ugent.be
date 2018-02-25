@@ -50,4 +50,11 @@ module PreprocessHelper
       event[:end] = DateTime.parse(event[:end]) if event[:end]
     end
   end
+
+  def add_report_metadata
+    @items.find_all('/about/verslagen/*/*').each do |report|
+      report[:academic_year] = report.identifier.to_s.split('/')[-2]
+      report[:date] = Date.strptime(report.identifier.without_ext.split('/').last)
+    end
+  end
 end

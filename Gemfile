@@ -19,6 +19,9 @@ gem 'therubyracer'
 # for reading time
 gem 'words_counted'
 
+# Compiling reports from .md to .pdf
+gem 'pandoc-ruby'
+
 group :development do
   gem 'adsf'
   gem 'highline'
