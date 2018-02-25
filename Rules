@@ -19,6 +19,7 @@ preprocess do
   create_yearly_items('Blog')
   create_yearly_items('Events')
   convert_event_time_to_timestamps
+  add_report_metadata
 end
 
 #
@@ -99,10 +100,10 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
+  
+  # Don't write out the projects themselves for now
+  write nil
 end
-
-# Don't create specific project pages for now
-route '/projects/*' do; end
 
 compile '/*_search.json' do
   filter :erb
@@ -110,6 +111,16 @@ end
 
 compile '/**/*.ics' do
   filter :erb
+end
+
+#
+# REPORTS
+#
+
+compile '/about/verslagen/*/*.md', rep: :pdf do
+  filter :pandoc_pdf, args: { f: :markdown }
+
+  write ext: 'pdf'
 end
 
 #

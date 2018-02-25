@@ -21,11 +21,11 @@ GEM
       csspool-st (= 3.1.2)
       json
     csspool-st (3.1.2)
-    ddmemoize (1.0.0a3)
-      ddtelemetry (= 1.0.0a2)
+    ddmemoize (1.0.0)
+      ddmetrics (~> 1.0)
       ref (~> 2.0)
+    ddmetrics (1.0.0)
     ddplugin (1.0.1)
-    ddtelemetry (1.0.0a2)
     execjs (2.7.0)
     ffi (1.9.18)
     formatador (0.2.5)
@@ -66,13 +66,14 @@ GEM
       css_press
     multi_js (0.1.0)
       uglifier (~> 2)
-    nanoc (4.8.19)
+    nanoc (4.9.1)
       addressable (~> 2.5)
       cri (~> 2.8)
-      ddmemoize (= 1.0.0a3)
+      ddmemoize (~> 1.0)
+      ddmetrics (~> 1.0)
       ddplugin (~> 1.0)
-      ddtelemetry (= 1.0.0a2)
       hamster (~> 3.0)
+      parallel (~> 1.12)
       ref (~> 2.0)
       slow_enumerator_tools (~> 1.0)
     nenv (0.3.0)
@@ -81,10 +82,12 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    pandoc-ruby (2.0.2)
+    parallel (1.12.1)
     pry (0.11.3)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    public_suffix (3.0.1)
+    public_suffix (3.0.2)
     rack (2.0.3)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
@@ -126,6 +129,7 @@ DEPENDENCIES
   icalendar
   kramdown
   nanoc
+  pandoc-ruby
   sass
   terminal-notifier
   terminal-notifier-guard
