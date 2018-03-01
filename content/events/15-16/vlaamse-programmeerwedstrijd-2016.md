@@ -1,9 +1,11 @@
 ---
 title: Vlaamse Programmeerwedstrijd 2016
-created_at: 20-01-2016
+image: https://zeus.ugent.be/wp-content/uploads/2016/01/VPW2016-290x300.png
+time: 02-03-2016
+location: KU Leuven, Diepenbeek
+locationlink: B, Campus Diepenbeek, Agoralaan 1, 3590 Diepenbeek
 ---
 
-![VPW2016](https://zeus.ugent.be/wp-content/uploads/2016/01/VPW2016-290x300.png){:class="alignright"}
 
 Op **woensdag 2 maart** vindt de achtste editie van de **Vlaamse Programmeerwedstrijd** plaats. Deze gaat door in de **KU Leuven in Diepenbeek**.
 

@@ -19,6 +19,10 @@ preprocess do
   create_yearly_items('Blog')
   create_yearly_items('Events')
   convert_event_time_to_timestamps
+
+  all_events.each do |event|
+    check_schema(:event, event)
+  end
 end
 
 #

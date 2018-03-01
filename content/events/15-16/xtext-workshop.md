@@ -1,9 +1,12 @@
 ---
 title: Xtext Workshop
 created_at: 13-04-2016
+banner: https://zeus.ugent.be/wp-content/uploads/2016/04/450px-Xtext_logo-300x89.png
+time: 26-04-2016 18:00
+location: Auditorium A2, Campus Sterre, Gebouw S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
-![450px-Xtext_logo](https://zeus.ugent.be/wp-content/uploads/2016/04/450px-Xtext_logo-300x89.png){:class="alignright"}
 
 **Op 26 april om 18:00 in Auditorium A2, Campus Sterre, Gebouw S9** organiseren we een workshop over [Xtext](https://eclipse.org/Xtext/). **Xtext** is een framework om nieuwe domein-specifieke computertalen (**DSL**s) mee te ontwerpen. Een **DSL** kan een nieuwe programmeertaal zijn, maar is meestal erg specifiek: bijvoorbeeld voor het besturen van robots, voor controle van wasmachines of voor sturing van de on-board computer in auto's. Mensen die deze machines maken zijn vaak geen programmeurs, en zij kunnen veel vlotter werken met een DSL dan met een algemene programmeertaal.
 

@@ -1,6 +1,9 @@
 ---
 title: Verkiezingen & Ribbetjesavond
-created_at: 27-04-2016
+time: 03-05-2016 18:00
+end: 03-05-2016 23:00
+location: Leslokaal V1, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
 Het academiejaar loopt weer ten einde en bijgevolg is het tijd om een nieuw bestuur te verkiezen. De bestuursverkiezingen zullen om 18u doorgaan op 3 mei in leszaal V1, De Sterre S9.

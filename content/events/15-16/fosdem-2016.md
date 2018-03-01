@@ -1,9 +1,13 @@
 ---
 title: FOSDEM 2016
 created_at: 11-01-2016
+image: https://zeus.ugent.be/wp-content/uploads/2016/01/fosdem-2016-300x225.jpg
+time: 30-01-2016 10:00
+end: 31-01-2016 19:00
+location: ULB Solbosch Campus, Brussel
+locationlink: ULB Solbosch Campus, Brussel
 ---
 
-![fosdem-2016](https://zeus.ugent.be/wp-content/uploads/2016/01/fosdem-2016-300x225.jpg){:class="alignright"}
 
 Zoals elk jaar gaan de FOSS-heads van Zeus naar FOSDEM!
 

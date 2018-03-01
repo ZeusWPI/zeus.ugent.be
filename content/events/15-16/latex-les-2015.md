@@ -1,9 +1,11 @@
 ---
 title: LaTeX Les 2015
 created_at: 01-11-2015
+image: https://zeus.ugent.be/wp-content/uploads/2015/11/Poster_latex_2015-213x300.jpg
+time: 09-11-2015 19:00
+location: Auditorium A, Plateau
+locationlink: Plateaustraat, Ghent Belgium
 ---
-
-![Poster_latex_2015](https://zeus.ugent.be/wp-content/uploads/2015/11/Poster_latex_2015-213x300.jpg){:class="alignright"}
 
 Je thesis of bachelorproef aan het schrijven? Of ben je dat gepruts met Word gewoon beu? Kom dan 9 November zeker naar de LaTeX les!
 
