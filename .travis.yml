@@ -12,7 +12,7 @@ addons:
   apt:
     packages:
       - pandoc
-      - texlive-full
+      - texlive
 
 branches:
   only:
