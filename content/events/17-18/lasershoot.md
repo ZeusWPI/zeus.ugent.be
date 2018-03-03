@@ -1,13 +1,13 @@
 ---
 title: Lasershoot
-description: Programmeer
+description: Programmeer en speel je eigen lasershoot!
 created_at: 03-03-2018
 time: '21-03-2018 18:00'
 end: '21-03-2018 23:00'
 location: 'Kantoor Delaware: Blue Tower 1 (4th floor)'
 locationlink: 'Sluisweg 1, 9000 Ghent Belgium'
-color: "#ef463c"
-header_text_background: true
+color: "#f44336"
+header_text_background: false
 ---
 
 **Oproep aan alle Zeus'ers: Onze hulp is nodig!**
@@ -44,6 +44,6 @@ Wij verwachten jullie op 21/3 om 18! Een laptop meebrengen lijkt ons logisch maa
 ***
 
 Dus aan allen die zich geroepen voelen om ons te vergezellen richting Delaware om hun te helpen deze lasershoot op punt te zetten, 
-schrijf jullie hier in: <insert gandalf>
+schrijf jullie hier in: https://event.fkgent.be/events/187
 Haast je! Want de plaatsen zijn beperkt.
 
