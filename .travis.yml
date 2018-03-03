@@ -13,6 +13,7 @@ addons:
     packages:
       - pandoc
       - texlive
+      - lmodern
 
 branches:
   only:
