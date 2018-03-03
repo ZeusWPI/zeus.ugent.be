@@ -44,6 +44,6 @@ Wij verwachten jullie op 21/3 om 18! Een laptop meebrengen lijkt ons logisch maa
 ***
 
 Dus aan allen die zich geroepen voelen om ons te vergezellen richting Delaware om hun te helpen deze lasershoot op punt te zetten, 
-schrijf jullie hier in: https://event.fkgent.be/events/187
+schrijf jullie hier in: [https://event.fkgent.be/events/187](https://event.fkgent.be/events/187)
 Haast je! Want de plaatsen zijn beperkt.
 
