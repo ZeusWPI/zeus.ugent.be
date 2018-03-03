@@ -33,9 +33,9 @@ Wij kregen volgende oproep binnen van Delaware:
 >
 >  **Advanced:**
 >
->  - Game mode uitbouwen met een centrale pi die paswoorden genereert die de andere ‘unlockt’ om zo punten te scoren
->  - Andere game modes
->  - Get creative 😊
+>  * Game mode uitbouwen met een centrale pi die paswoorden genereert die de andere ‘unlockt’ om zo punten te scoren
+>  * Andere game modes
+>  * Get creative 😊
 >
 >  Wij verwachten jullie op 21/3 om 18u! Een laptop meebrengen lijkt ons logisch maar als jullie andere materialen (Pi’s, Arduino's, sensoren, …) willen meenemen; feel free!
 
