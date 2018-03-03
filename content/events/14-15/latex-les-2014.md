@@ -1,6 +1,9 @@
 ---
 title: LaTeX-les 2014
 created_at: 05-10-2014
+time: 15-10-2014 19:00
+location: Auditorium D, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
 
 Ben je het ook beu dat Word je opmaak verprutst telkens je een wijziging maakt? Vloek je ook wanneer je een wiskundige formule, inhoudstabel, referentietabel, etc. moet invoegen? Dan is **LaTeX** zeker iets voor jou!

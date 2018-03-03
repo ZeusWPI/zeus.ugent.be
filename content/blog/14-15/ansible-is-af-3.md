@@ -1,6 +1,7 @@
 ---
 title: ANSIBLE IS AF
 created_at: 16-08-2015
+author: FlashYoshi
 ---
 
 Aan het einde van het vorige academiejaar liet onze belangrijkste server, genaamd King, zijn leeftijd zien: zijn RAID-controller had het namelijk begeven, met een hoop corrupte data als gevolg. Na wat spannende momenten (blijkbaar had onze backupserver het ook begeven) kon Silox de data herstellen en wist hij ook aan reserveonderdelen te raken (bedankt Ruben!). De schade bleef dus gelukkig beperkt tot een week downtime.

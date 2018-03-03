@@ -1,10 +1,11 @@
 ---
 title: Introductie tot Ruby
 created_at: 23-11-2014
+time: 25-11-2014 19:00
+location: Lokaal V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2014/11/1410785_896398810371160_7619310165265121917_o-212x300.jpg
 ---
-
-![1410785_896398810371160_7619310165265121917_o](https://zeus.ugent.be/wp-content/uploads/2014/11/1410785_896398810371160_7619310165265121917_o-212x300.jpg)
-{:.alignright}
 
 De meesten onder jullie zullen wel vertrouwd zijn met Python, een scriptingtaal die zich kenmerkt door eenvoud, leesbaarheid, gevatheid en het motto "There's Only One Way To Do It". Python is echter verre van de enige scriptingtaal op de markt en daarom stellen we je graag voor aan "All The Other Ways To Do It".
 

@@ -1,9 +1,11 @@
 ---
 title: Lessenreeks Haskell - een functionele programmeertaal
 created_at: 12-02-2015
+time: 18-02-2015 18:30
+location: PC-lokaal Mercator, Sterre S8
+locationlink: Campus Sterre, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2015/02/haskell-trans-212x300.png
 ---
-
-![haskell-trans](https://zeus.ugent.be/wp-content/uploads/2015/02/haskell-trans-212x300.png){:class="alignright"}
 
 Ben je verveeld met altijd maar die Java? Voelt het programmeren beperkt en eentonig wanneer je voor de zoveelste keer een nieuwe klasse aanmaakt? Snak je naar wat frisse ideeën en nieuwe uitdagingen? Naar een totaal nieuwe kijk op programmeren?
 

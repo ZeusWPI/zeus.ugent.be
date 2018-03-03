@@ -1,6 +1,10 @@
 ---
 title: Vlaamse Programmeerwedstrijd
 created_at: 23-12-2014
+time: 25-02-2015 11:00
+end: 25-02-2015 21:00
+location: Sint-Katelijne-Waver
+locationlink: Sint-Katelijne-Waver
 ---
 
 Op **woensdag 25 februari** zal de **Vlaamse Programmeerwedstrijd** opnieuw plaatsvinden. Naar jaarlijkse traditie wordt er hiervoor een bus ingelegd.

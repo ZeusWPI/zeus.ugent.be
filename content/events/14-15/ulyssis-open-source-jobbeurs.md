@@ -1,9 +1,12 @@
 ---
 title: ULYSSIS Open Source Jobbeurs
 created_at: 18-03-2015
+time: 25-03-2015 10:00
+end: 25-03-2015 16:30
+location: Jubileumzaal, KU Leuven
+locationlink: KU Leuven, Leuven Belgium
+image: https://ulyssis.org/wp-content/uploads/2015/03/ULYSSIS-Jobbeurs-poster-finaal.png
 ---
-
-![poster](https://ulyssis.org/wp-content/uploads/2015/03/ULYSSIS-Jobbeurs-poster-finaal.png){:class="alignright"}
 
 Het is niet wat we gewoon zijn, maar we zouden graag ook eens een activiteit aankondigen die we niet zelf organiseren. ULYSSIS (UNIX Lovers Yield Student Services and Internet Support) is een Leuvense vereniging met een mindset en geschiedenis gelijkaardig aan Zeus WPI. Ze organiseren binnenkort een Open Source Jobbeurs. Hieronder vind je hun blogpost:
 
