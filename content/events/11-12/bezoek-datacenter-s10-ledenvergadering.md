@@ -1,9 +1,11 @@
 ---
 title: Bezoek datacenter S10 & Ledenvergadering
 created_at: 25-09-2011
+time: 03-10-2011 17:45
+location: Sterre S10
+locationlink: Campus Sterre, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png
 ---
-
-![Datacenter en Ledenvergadering](https://zeus.ugent.be/wp-content/uploads/2011/09/poster_datacenter_small.png "Datacenter en Ledenvergadering"){:class="alignright"}
 
 Op maandag 3 oktober gaat de eerste Zeus activiteit van het nieuwe academiejaar door. We beginnen met een rondleiding in het gloednieuwe datacenter in S10.
 

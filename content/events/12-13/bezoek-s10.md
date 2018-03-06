@@ -1,9 +1,12 @@
 ---
 title: 'Rondleiding: Datacenter S10 & Supercomputer'
 created_at: 15-11-2012
+time: 22-11-2012 18:00
+image: https://zeus.ugent.be/wp-content/uploads/2012/11/poster-212x300.png
+location: Sterre S10
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
-![](https://zeus.ugent.be/wp-content/uploads/2012/11/poster-212x300.png "Poster bezoek datacenter & supercomputer"){:class="alignright"}
 
 Onlangs is in S10 de [nieuwe supercomputer](https://www.ugent.be/hpc/nl/vsc/tier1) van de UGent in gebruik genomen! Deze tier-1 supercomputer haalt maar liefst 152.3 teraflops en staat daarmee op nr. 163 in de wereldwijde ranking van supercomputers.
 

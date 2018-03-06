@@ -1,9 +1,10 @@
 ---
 title: Collaborate with Git(Hub)
 created_at: 19-02-2014
+time: 25-02-2014 19:00
+location: PC-klas Zuse, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
-
-![octocat](https://archive.timmmmyboy.com/wp-content/uploads/2013/04/githuboctacat.jpg){:class="alignright"}
 
 Het tweede semester is nog maar begonnen en Zeus heeft al z'n volgende activiteit klaar: 'Collaborate with Git(Hub)'.
 

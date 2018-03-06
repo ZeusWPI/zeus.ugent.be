@@ -1,9 +1,11 @@
 ---
 title: 'No more lies, just benchmarks'
 created_at: 13-10-2011
+image: https://zeus.ugent.be/wp-content/uploads/2011/10/20OctFancyXKCD_small.png
+time: 20-10-2011 19:00
+location: Leszaal V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
-
-![Poster benchmarks](https://zeus.ugent.be/wp-content/uploads/2011/10/20OctFancyXKCD_small.png){:class="alignright"}
 
 "Lies, damned lies, and statistics", het wordt wel vaker gezegd dat je met statistieken alles kan bewijzen. En ook bij het ontwikkelen en testen van software is het van toepassing: degelijke en objectieve benchmarks draaien van je applicatie kan een hele uitdaging zijn. Wist je dat je $PATH variabele bijvoorbeeld de gemeten prestaties kan beïnvloeden?
 

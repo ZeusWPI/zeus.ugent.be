@@ -1,9 +1,11 @@
 ---
 title: Durf Ondernemen Speeddating
 created_at: 20-03-2012
+image: https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png
+time: 28-03-2012 19:00
+location: Plateauzaal, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
-
-![Speeddating](https://zeus.ugent.be/wp-content/uploads/2012/03/Speeddating-event-v3-212x300.png){:class="alignright"}
 
 Omdat het niet evident is om een onderneming op te starten en niet in het minst om daarvoor een goed startidee te hebben, hebben we besloten jullie op woensdag 28 maart om 19u een handje te helpen.
 

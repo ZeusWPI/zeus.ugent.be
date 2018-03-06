@@ -1,6 +1,10 @@
 ---
 title: 'Geeks, attack!'
 created_at: 27-10-2013
+time: 08-11-2013 16:00
+end: 09-11-2013 12:00
+location: Trechterzaal, Therminal
+locationlink: Therminal, Ghent Belgium
 ---
 
 Tussen alle informaticagerichte activiteiten in mogen we ook wel eens ontspannen. Daarom organiseert Zeus WPI dit jaar een tweede editie van de **LAN-party**: "Geeks, attack!"

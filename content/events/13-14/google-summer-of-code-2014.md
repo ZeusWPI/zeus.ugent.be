@@ -1,9 +1,11 @@
 ---
 title: Google Summer of Code 2014
 created_at: 23-02-2014
+time: 05-03-2014 19:00
+location: Jozef Plateauzaal, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
 
-![Summer of Code](https://www.google-melange.com/soc/content/2-1-20140213/images/gsoc/logo/banner-gsoc2014.png)
 
 Zin om deze zomer $5500 te verdienen met een vakantiejob? Lijkt het je wel iets om vanuit thuis te werken wanneer het je uitkomt? Wil je een echte bijdrage leveren aan opensource software? Google maakt dit mogelijk dankzij de [Google Summer of Code](https://developers.google.com/open-source/soc/)! Het is dit jaar zelfs een speciale editie, want het is de tiende keer dat GSoC plaats vindt!
 

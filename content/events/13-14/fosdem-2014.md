@@ -1,9 +1,10 @@
 ---
 title: FOSDEM 2014
-banner: 'https://fosdem.org/2014/support/promote/tower.png'
 created_at: 04-01-2014
-time: 23-02-2016
+time: 01-02-2014 10:00
+end: 02-02-2014 19:00
 location: Zeus kelder
+locationlink: ULB Solbosch, Brussels Belgium
 ---
 
 ![FOSDEM](https://fosdem.org/2014/support/promote/tower.png){:class="alignleft"} Ook dit jaar gaan we met Zeus naar [FOSDEM](https://fosdem.org/2014/ "FOSDEM"). FOSDEM is het grootste open source event van Europa en vindt dit jaar plaats op **1 en 2 februari**. Alle grote namen binnen de open source community zoals Ubuntu, Mozilla, Debian, Gnome, etc. zullen vertegenwoordigd zijn met (dev)rooms en standjes.

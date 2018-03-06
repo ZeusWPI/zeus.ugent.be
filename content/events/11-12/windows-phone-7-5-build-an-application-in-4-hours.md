@@ -1,9 +1,13 @@
 ---
-title: 'Windows Phone 7.5&#58; Build an application in 4 hours'
+title: 'Windows Phone 7.5: Build an application in 4 hours'
 created_at: 21-10-2011
+image: https://zeus.ugent.be/wp-content/uploads/2011/10/windows-phone_small.png
+time: 04-11-2011 09:00
+end: 04-11-2011 13:00
+location: PC-klas F, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
 
-![Windows Phone Poster](https://zeus.ugent.be/wp-content/uploads/2011/10/windows-phone_small.png){:class="alignright"}
 
 [iOS](https://zeus.ugent.be/2009/10/27/introductie-tot-cocoa-development/) en [Android](https://zeus.ugent.be/2010/10/22/android-development-introductie/) kwamen al aan bod, en met enige trots presenteren wij de volgende activiteit in deze reeks: een Windows Phone workshop!
 

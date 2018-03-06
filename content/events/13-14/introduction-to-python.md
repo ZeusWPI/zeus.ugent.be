@@ -1,9 +1,11 @@
 ---
 title: Introduction to Python
+time: 17-10-2013 19:00
 created_at: 11-10-2013
+location: PC-klas Zuse, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2013/10/Pythonposter1-212x300.png
 ---
-
-![Poster Python-les](https://zeus.ugent.be/wp-content/uploads/2013/10/Pythonposter1-212x300.png){:class="alignright"}
 
 Python is een zeer **krachtige dynamische programmeertaal** die, dankzij zijn uitgebreide libraries, [voor quasi alles gebruikt kan worden](https://www.python.org/about/apps/). Naast een heldere, duidelijke syntax biedt Python ook ondersteuning voor alle belangrijke besturingssystemen. Door zijn **grote flexibiliteit** is Python zowel geschikt voor het schrijven van kleine testcases als grote frameworks (zoals het web framework [Django](https://www.djangoproject.com/)). Kortom, Python laat je snel schrijven wat je nodig hebt, zonder omwegen.
 

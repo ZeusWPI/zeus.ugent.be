@@ -1,9 +1,12 @@
 ---
 title: Vlaamse Programmeerwedstrijd & oefenwedstrijd
 created_at: 25-02-2013
+image: https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png
+time: 17-04-2013 12:30
+end: 17-04-2013 21:00
+location: Brussel
+locationlink: Brussels, Belgium
 ---
-
-![Poster](https://zeus.ugent.be/wp-content/uploads/2013/02/vpw-0-211x300.png){:class="alignright"}
 
 Op woensdag 17 april vindt de Vlaamse Programmeerwedstrijd opnieuw plaats, ditmaal in Brussel. Net zoals vorig jaar leggen we een bus in. Daarnaast organiseren we dit jaar ook een eigen oefenwedstrijd; zo weet je direct wat je moet verwachten op zo'n wedstrijd.
 

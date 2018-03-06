@@ -1,6 +1,9 @@
 ---
-title: 'Film-avond&#58; ''Her'''
+title: "Film-avond: 'Her'"
 created_at: 05-03-2014
+time: 19-03-2014 21:30
+location: Kinepolis Gent
+locationlink: Kinepolis, Ghent Belgium
 ---
 
 Zeus organiseert voor het eerst een **film-avond**! Op **woensdagavond 19 maart** gaan we samen naar de film '[Her](https://www.imdb.com/title/tt1798709/ "Her")'.

@@ -1,9 +1,11 @@
 ---
 title: Agile Software Development in de praktijk
 created_at: 09-03-2012
+image: https://zeus.ugent.be/wp-content/uploads/2012/03/agile1-212x300.png
+time: 15-03-2012 19:00
+location: Lokaal V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
-
-![agile](https://zeus.ugent.be/wp-content/uploads/2012/03/agile1-212x300.png){:class="alignright"}
 
 Op donderdag 15 maart om 19u organiseert Zeus "Agile Software Development in de praktijk", een talk gegeven door Mark Plas en Leo Vanderdonckt, 2 werknemers van [MediaGeniX](https://www.mediagenix.tv/documents/home.xml?lang=en). Deze lezing gaat door in lokaal V2, S9 (campus De Sterre).
 

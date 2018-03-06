@@ -1,9 +1,11 @@
 ---
 title: Ubuntu-les
 created_at: 16-11-2011
+image: https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png
+time: 22-11-2011 19:00
+location: PC-klas A, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
-
-![ubuntu](https://zeus.ugent.be/wp-content/uploads/2011/11/ubuntu-212x300.png){:class="alignright"}
 
 Bezoekers van de Zeus-kelder weten ondertussen wel dat wij niet het wijdverspreide Windows-besturingssysteem draaien maar het vrije Ubuntu. Voor velen is Ubuntu een veiliger, stabieler en eenvoudiger alternatief voor Windows, en dat allemaal nog gratis ook.
 

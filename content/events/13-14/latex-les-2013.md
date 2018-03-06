@@ -1,9 +1,11 @@
 ---
 title: LaTeX-les 2013
 created_at: 05-11-2013
+image: https://zeus.ugent.be/wp-content/uploads/2013/10/Poster_latex-212x300.png
+time: 19-11-2013 19:00
+location: Auditorium L, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
-
-![Poster_latex](https://zeus.ugent.be/wp-content/uploads/2013/10/Poster_latex-212x300.png){:class="alignright"}
 
 Ben je het ook beu dat Word je opmaak verprutst telkens je een wijziging maakt? Vloek je ook wanneer je een wiskundige formule, inhoudstabel, referentietabel, etc. moet invoegen? Dan is LaTeX zeker iets voor jou!
 

@@ -1,9 +1,11 @@
 ---
 title: Google Summer of Code
 created_at: 26-03-2013
+time: 15-04-2013 19:00
+location: Jozef Plateau-zaal
+locationlink: Plateau, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2013/03/Google-Summer-Of-Code-212x300.png
 ---
-
-![Google-Summer-Of-Code](https://zeus.ugent.be/wp-content/uploads/2013/03/Google-Summer-Of-Code-212x300.png){:.alignright}
 
 Zin om deze zomer $5000 te verdienen met een vakantiejob? Lijkt het je wel iets om vanuit thuis te werken wanneer het je uitkomt? Wil je een echte bijdrage leveren aan open-source software? Google maakt dit mogelijk dankzij de [Google Summer of Code](https://developers.google.com/open-source/soc/)!
 

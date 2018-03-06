@@ -1,9 +1,12 @@
 ---
 title: FOSDEM 2013
 created_at: 17-01-2013
+time: 02-02-2013 10:00
+end: 03-02-2013 19:00
+image: https://fosdem.org/2013/assets/flyer-90dpi-240c97c7f08316d072bb684f7f9156ee454e863a9e365d8f1fb5566c200f924e.png
+location: ULB Solbosch, Brussel
+locationlink: ULB, Brussels Belgium
 ---
-
-![FOSDEM](https://fosdem.org/2013/assets/flyer-90dpi-240c97c7f08316d072bb684f7f9156ee454e863a9e365d8f1fb5566c200f924e.png "FOSDEM"){:class="alignright"}
 
 De examens zijn voor de meesten nog volop bezig, maar toch denken wij alvast even vooruit. Op 2 en 3 februari vindt [FOSDEM](https://fosdem.org/2013/ "FOSDEM") plaats, het grootste open-source event van Europa. Alle grote namen binnen de open-source community zoals bvb. Ubuntu, Mozilla, Debian, Gnome, enz. zullen vertegenwoordigd zijn met (dev)rooms en standjes.
 

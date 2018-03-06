@@ -1,9 +1,12 @@
 ---
 title: Fosdem 2012
 created_at: 18-01-2012
+time: 04-02-2012 10:00
+end: 05-02-2012 19:00
+image: https://zeus.ugent.be/wp-content/uploads/2012/01/fosdem12.png
+location: ULB, Brussel
+locationlink: ULB Solbosch, Brussels Belgium
 ---
-
-![FOSDEM](https://zeus.ugent.be/wp-content/uploads/2012/01/fosdem12.png){:class="alignright"}
 
 De examens zijn voor de meesten nog volop bezig, maar toch denken wij alvast even vooruit. Op 4 en 5 februari vindt [FOSDEM](https://fosdem.org/2012/ "FOSDEM") plaats, het grootste open-source event van Europa. Alle grote namen binnen de open-source community zoals bvb. Ubuntu, Mozilla, Debian, Gnome, enz. zullen vertegenwoordigd zijn met (dev)rooms en standjes.
 

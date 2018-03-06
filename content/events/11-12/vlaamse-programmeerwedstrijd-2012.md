@@ -1,9 +1,12 @@
 ---
 title: Vlaamse Programmeerwedstrijd 2012
 created_at: 20-02-2012
+image: https://zeus.ugent.be/wp-content/uploads/2012/02/VPWlogo2012.jpg
+time: 18-04-2012 11:00
+end: 18-04-2012 21:00
+location: Provinciale Hogeschool Limburg
+locationlink: Provinciale Hogeschool Limburg, Belgium
 ---
-
-![VPW Logo 2012](https://zeus.ugent.be/wp-content/uploads/2012/02/VPWlogo2012.jpg){:class="alignrigh"}
 
 Op woensdag 18 april gaat de 4e editie door van de Vlaamse Programmeerwedstrijd door in de Provinciale Hogeschool Limburg. Voor zij die het concept niet kennen: de VPW is een wedstrijd tussen teams van verschillende universiteiten en hogescholen waarop je met een groepje van 3 personen op één namiddag zoveel mogelijk informatica-problemen op te lossen.
 

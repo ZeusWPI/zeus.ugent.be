@@ -1,6 +1,9 @@
 ---
 title: Afsluitende ledenvergadering & ribbetjes
 created_at: 05-05-2012
+time: 15-05-2012 17:30
+location: Sparerib Caffee
+locationlink: Sparerib Caffee, Ghent Belgium
 ---
 
 Naar jaarlijkse gewoonte sluit Zeus WPI het academiejaar officieel af met een ledenvergadering, waarop we de voorbije activiteiten evalueren en een nieuw bestuur kiezen voor volgend academiejaar. Deze vergadering gaat door op dinsdag 15 mei en begint om 17u30 in de Zeus kelder in S9\. Heb je interesse om volgend jaar ook mee te werken in het Zeus-bestuur of om een bijdrage te leveren aan een van onze projecten, kom dan zeker eens luisteren!
