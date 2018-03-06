@@ -1,9 +1,11 @@
 ---
 title: 3D-animatie met Z-flux
-banner: 'https://zeus.ugent.be/wp-content/uploads/2011/02/zflux-224x300.png'
+image: 'https://zeus.ugent.be/wp-content/uploads/2011/02/zflux-224x300.png'
 created_at: 18-02-2011
-time: 23-02-2016
-location: Zeus kelder
+time: 23-02-2016 13:00
+end: 23-02-2016 14:15
+location: Leszaal V1, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
 ![zflux](https://zeus.ugent.be/wp-content/uploads/2011/02/zflux-224x300.png){:class="alignright"} 3D kom je binnenkort niet enkel meer in de cinema tegen maar ook in het leslokaal. Onze faculteit beschikt sinds kort over projectieapparatuur waarmee overal 3D-beelden kunnen getoond worden. Naast bestaande 3D-beelden kan je ook zelf interactieve animaties ontwikkelen met behulp van de programmeeromgeving Z-flux.

@@ -1,6 +1,9 @@
 ---
 title: Smalltalk/StratifiedJS
 created_at: 12-04-2011
+time: 27-04-2011 19:00
+location: Leszaal V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
 Woensdag 27 april organiseert Zeus twee tech talks, met als bedoeling kennis te maken met twee alternatieve, interessante programmeertalen.

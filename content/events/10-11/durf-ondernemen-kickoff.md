@@ -1,9 +1,13 @@
 ---
 title: Durf Ondernemen kickoff
 created_at: 17-11-2010
+image: https://zeus.ugent.be/wp-content/uploads/2010/11/durfondernemen.jpg
+time: 22-11-2010 19:00
+facebook: https://www.facebook.com/event.php?eid=171016839594199
+location: Plateauzaal, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
 
-![](https://zeus.ugent.be/wp-content/uploads/2010/11/durfondernemen.jpg "Durf Ondernemen!"){:class="alignright"}
 
 Bijna iedereen kent de namen Mark Zuckerberg, Bill Gates of Steve Jobs. Naast het feit dat ze ondertussen allemaal een gigantische onderneming hebben gestart, hebben ze nog iets gemeen: ze startten met deze onderneming in hun studententijd. Ook in Vlaanderen zijn daarvan een aantal prachtige voorbeelden: Drupal, Netlog, Seniorennet... De studententijd lijkt dus het ideale moment om je ambitie tot ondernemen al vorm te geven.
 

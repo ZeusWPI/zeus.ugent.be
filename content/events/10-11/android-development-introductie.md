@@ -1,9 +1,12 @@
 ---
 title: Android-development introductie
 created_at: 22-10-2010
+time: 27-10-2010 19:30
+location: Leszaal V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png
 ---
 
-![android-thumbnail](https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png){:class="alignright"}
 
 Iedereen lijkt de dag van vandaag wel een smartphone te hebben. Het is uiteraard zeer gemakkelijk om hiermee berichten te sturen, je mail te checken, te bellen, een paar blogposts te lezen op de trein... Maar wat het pas echt interessant maakt -- voor informatici -- is dat het ook zeer eenvoudig is om zelf applicaties te ontwikkelen.
 
