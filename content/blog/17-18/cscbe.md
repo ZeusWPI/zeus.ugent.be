@@ -27,7 +27,7 @@ This challenge proved to be possibly the hardest challenge, going unsolved until
 
 ## Write-up
 
-The zip file contains the code run on the server and the client. The client and server share a secret password and a secret key. The flow to request is key is as follow:
+The zip file contains the code ran on the server and the client. The client and server share a secret password and a secret key. The flow to request the flag is key is as follow:
 
 * Client sends the randomly generated client nonce to the server
 * Server replies with a randomly generated server nonce.
@@ -70,7 +70,7 @@ Let's dive back into the code. When trying to dump the flag through an error mes
 ```
 This is were our attack will happen. We let the flow described earlier proceed as normal, except we intercept the final message returning the flag to the client. Assume we want to decrypt the fifth byte of the flag. If we manage to set the length of the first datablock to 3, the fifth byte of the flag will be interpreted as the length of the second data block. If this length is greater than the amount of remaining bytes, then our byte will get sent back to the server unencrypted! To do this, we need to know the original length of the flag, which is hardcoded and 39. So we replace the second byte with `C' = C XOR 0x27 XOR 0x3` and this should print the correct byte and the preceding byte.
 
-However, we're not there yet. All ciphertexts get signed with HMAC_SHA256. At this point, we got stuck for a bit. Around 2.5 hours before the competition ended a hint was posted (see challenge description) which allowed us to finish this challenge in time.
+However, we're not there yet. All ciphertexts get signed with HMAC_SHA256. At this point, we got stuck for a bit. Around 2.5 hours before the competition ended a hint was posted (see challenge description) which led to the solution.
 
 
 ```
