@@ -8,6 +8,7 @@ gem 'coffee-script'
 gem 'icalendar' # ical files
 gem 'kramdown'
 gem 'sass'
+gem 'typogruby'
 
 # Needed for atom_feed in blogging helper
 gem 'builder'

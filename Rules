@@ -84,6 +84,8 @@ compile '/blog/*/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :typogruby
 end
 
 compile '/blog/*/*', rep: :text do
