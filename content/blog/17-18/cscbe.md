@@ -2,12 +2,11 @@
 author: David Vandorpe
 title: 'Cyber Security Challenge 2018: Radium'
 created_at: 08/03/2018
+toc: true
 ---
 
-# Cyber Security Challenge 2018: Radium
-
-**Category:** Network Security
-**Points:** 150
+**Category:** Network Security  
+**Points:** 150  
 
 **Description:**
 
@@ -19,7 +18,7 @@ See client.c for an example command to do this. Abuse the resulting man-in-the-m
 
 *Hint*: When is the authenticity of a packet verified? When is the data payload of a packet decrypted?
 
-[Source code](./radium.zip)
+[Source code](https://zeus.ugent.be/zeuswpi/jaWQQLqU.zip)
 
 ## Introduction
 
@@ -57,23 +56,23 @@ To understand the next step, let's see how the plaintext is formatted. It consis
 
 Let's dive back into the code. When trying to dump the flag through an error message (which never gets encrypted) on the client side, we stumbled across some interesting code.
 
-```
-	size_t pos = 0;
-	while (pos < len && len - pos >= 2)
-	{
-		// Assure there is enough length for the element
-		if (data[pos + 1] > len - pos - 2) {
-			send_error(session, "%s: not enough data left for element type %d (need %d bytes but only %d left)\n",
-				__FUNCTION__, data[pos], data[pos + 1], len - pos - 2);
-			return -1;
-		}
-```
+~~~ c
+size_t pos = 0;
+while (pos < len && len - pos >= 2)
+{
+	// Assure there is enough length for the element
+	if (data[pos + 1] > len - pos - 2) {
+		send_error(session, "%s: not enough data left for element type %d (need %d bytes but only %d left)\n",
+			__FUNCTION__, data[pos], data[pos + 1], len - pos - 2);
+		return -1;
+	}
+~~~
+
 This is were our attack will happen. We let the flow described earlier proceed as normal, except we intercept the final message returning the flag to the client. Assume we want to decrypt the fifth byte of the flag. If we manage to set the length of the first datablock to 3, the fifth byte of the flag will be interpreted as the length of the second data block. If this length is greater than the amount of remaining bytes, then our byte will get sent back to the server unencrypted! To do this, we need to know the original length of the flag, which is hardcoded and 39. So we replace the second byte with `C' = C XOR 0x27 XOR 0x3` and this should print the correct byte and the preceding byte.
 
 However, we're not there yet. All ciphertexts get signed with HMAC_SHA256. At this point, we got stuck for a bit. Around 2.5 hours before the competition ended a hint was posted (see challenge description) which led to the solution.
 
-
-```
+~~~ c
 static int radium_check_authenticity(struct radium_session *session, struct pkt_header *hdr)
 {
 	// Nothing to do if no encryption is used, or if it's not an authenticated message
@@ -90,8 +89,8 @@ static int radium_decrypt_data(struct radium_session *session, struct pkt_header
 	// Nothing to do if not encrypted
 	if (!hdr->encrypted)
 		return 0;
-```
+~~~
 
-Basically, the solution was to set the msgtype byte to 0x1 (ServerHello). This wasn't according to our protocol flow, but that didn't matter as we intended to already produce an error during the parsing of the message. Throwing this together revealed that the fifth byte was 'E', which matched our expectation of flag format "CSCBE{.................................}". Jackpot! Now we just had to repeat for all other bytes. A simple [python script](./solution.py) solved this.
+Basically, the solution was to set the msgtype byte to 0x1 (ServerHello). This wasn't according to our protocol flow, but that didn't matter as we intended to already produce an error during the parsing of the message. Throwing this together revealed that the fifth byte was 'E', which matched our expectation of flag format "CSCBE{.................................}". Jackpot! Now we just had to repeat for all other bytes. A simple [python script](https://zeus.ugent.be/zeuswpi/GotPD6yg.py) solved this.
 
 Flag: CSCBE{1FFCD19C964D3E5DF5B4CFF490583AC1}
