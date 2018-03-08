@@ -1,6 +1,6 @@
 ---
 author: David Vandorpe
-title: Cyber Security Challenge 2018: Radium
+title: 'Cyber Security Challenge 2018: Radium'
 created_at: 08/03/2018
 ---
 
@@ -27,7 +27,7 @@ This challenge proved to be possibly the hardest challenge, going unsolved until
 
 ## Write-up
 
-The zip file contains the code ran on the server and the client. The client and server share a secret password and a secret key. The flow to request the flag is key is as follow:
+The zip file contains the code ran on the server and the client. The client and server share a secret password and a secret key. The flow to request the flag is as follow:
 
 * Client sends the randomly generated client nonce to the server
 * Server replies with a randomly generated server nonce.
