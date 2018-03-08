@@ -30,7 +30,7 @@ The zip file contains the code ran on the server and the client. The client and 
 
 * Client sends the randomly generated client nonce to the server
 * Server replies with a randomly generated server nonce.
-	- The session key (all following communications will use this key) is now HMAC_SHA256(secret_key, "CSCBE18 Session Key Generation" || client_nonce || server_nonce)
+	- The session key (all following communications will use this key) is now `HMAC_SHA256(secret_key, "CSCBE18 Session Key Generation" || client_nonce || server_nonce)`
 * The client sends a flag request to the server, which requires a password. Unfortunately this password is encrypted.
 * The server responds with the (encrypted) flag
 

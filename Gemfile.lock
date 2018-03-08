@@ -94,6 +94,7 @@ GEM
       ffi (>= 0.5.0, < 2)
     ref (2.0.0)
     ruby_dep (1.5.0)
+    rubypants (0.7.0)
     sass (3.5.5)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -107,6 +108,8 @@ GEM
       libv8 (~> 3.16.14.15)
       ref
     thor (0.20.0)
+    typogruby (1.0.18)
+      rubypants
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
@@ -134,6 +137,7 @@ DEPENDENCIES
   terminal-notifier
   terminal-notifier-guard
   therubyracer
+  typogruby
   w3c_validators
   words_counted
 

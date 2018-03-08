@@ -8,6 +8,12 @@ pre .line-numbers {
   margin-left: -10px;
 }
 
+.caps {
+  text-transform: uppercase;
+  font-size: 85%;
+  letter-spacing: 1px;
+}
+
 // Override box styling without round corners
 .box {
   margin-bottom:10px;
