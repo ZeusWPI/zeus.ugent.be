@@ -48,7 +48,9 @@ So, how do we get our flag? Let's list some ideas:
 
 Let's see what these ideas lead to.
 
-We found a [writeup](https://shrikantadhikarla.wordpress.com/2016/03/08/des-ofb-writeup-boston-key-party-ctf/) from another CTF that cracks DES encryption in OFB mode. The key weakness here is using a weak DES key (making encryption symmetric), in combination with OFB. But wait a second, isn't AES a symmetric algorithm? So basically we would expect the second block of ciphertext to just be the plaintext XOR'd with the IV. However, for reasons unknown to me this turned out not to be the case.
+We found a [writeup](https://shrikantadhikarla.wordpress.com/2016/03/08/des-ofb-writeup-boston-key-party-ctf/) from another CTF that cracks DES encryption in OFB mode. The key weakness here is using a weak DES key (making encryption symmetric), in combination with OFB. But wait a second, isn't AES a symmetric algorithm? So basically we would expect the second block of ciphertext to just be the plaintext XOR'd with the IV. However, for reasons unknown to me this turned out not to be the case. **Update:** Thanks to Toon Willems for pointing out that AES modifies the key after every round. For those interested, see [act 3](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html).
+
+![AES Key Expansion](http://www.moserware.com/assets/stick-figure-guide-to-advanced/aes_act_3_scene_06_key_expansion_part_1_1100.png)
 
 Setting the encryption key to NULL on the server seemed easy enough, but sadly this would also mean that the server couldn't decrypt the messages from the client (as this key was used for both encryption and decryption by both sides).
 
