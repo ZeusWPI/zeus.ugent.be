@@ -1,6 +1,9 @@
 ---
 title: Ledenvergadering
 created_at: 08-05-2007
+time: 09-05-2007 19:00
+location: Therminal
+locationlink: Therminal, Ghent Belgium
 ---
 
 Aangezien het academiejaar weer bijna voorbij is, wordt het weer eens tijd

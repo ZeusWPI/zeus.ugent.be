@@ -1,6 +1,9 @@
 ---
 title: LaTeX-les
 created_at: 18-10-2009
+time: 27-10-2009 19:00
+location: Auditorium A, Plateau
+locationlink: Plateau, Ghent Belgium
 ---
 
 Naar jaarlijkse gewoonte organiseert WVS, de Werkgroep Vrije Software binnen het VTK, haar jaarlijkse LaTeX-les.

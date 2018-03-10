@@ -1,6 +1,10 @@
 ---
 title: Webapplication Security Les
 created_at: 13-11-2007
+time: 14-11-2007 18:00
+end: 14-11-2007 20:00
+location: Auditorium A2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
 Edit (15/11/07): Enric heeft de [files en slides](https://ciri.be/blog/?p=26) on-line gezet op zijn persoonlijke blog. Enjoy!

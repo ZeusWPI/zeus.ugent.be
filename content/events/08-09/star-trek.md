@@ -1,6 +1,9 @@
 ---
 title: Star Trek
 created_at: 16-05-2009
+time: 25-06-2009
+location: Kinepolis Gent
+locationlink: Kinepolis Gent
 ---
 
 ![Startrekposter](https://zeus.ugent.be/wp-content/uploads/2009/08/Startrekposter-202x300.jpg){:class="alignright"}

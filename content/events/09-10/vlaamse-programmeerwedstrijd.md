@@ -1,6 +1,10 @@
 ---
 title: Vlaamse Programmeerwedstrijd
 created_at: 21-02-2010
+time: 17-03-2010 14:00
+end: 17-03-2010 21:00
+location: Het Pand, Gent
+locationlink: Het Pand, Ghent Belgium
 ---
 
 ![Vlaamse Programmeerwedstrijd 2010](https://zeus.ugent.be/wp-content/uploads/2010/02/n202655937393_4168.jpg){:class="alignright"}

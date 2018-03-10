@@ -1,6 +1,9 @@
 ---
 title: Plugg 2010
 created_at: 03-03-2010
+time: 11-03-2010 10:00
+location: Brussel
+locationlink: Brussels
 ---
 
 Op donderdag 11 maart vindt in Brussel [Plugg](https://plugg.eu) plaats. Plugg is een conferentie van 1 dag voor mensen die geïnteresseerd zijn in ondernemen en innoveren in Europa. Een hoop goede [sprekers](https://plugg.eu/program/day-schedule) van bvb. TechCrunch, Opera, Nokia en eBuddy komen hun ideeën en voorspellingen over web 2.0 en het mobiele web brengen.

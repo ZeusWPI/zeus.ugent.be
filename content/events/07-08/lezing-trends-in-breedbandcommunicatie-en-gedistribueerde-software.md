@@ -1,6 +1,9 @@
 ---
 title: 'Lezing: Trends in Breedbandcommunicatie en Gedistribueerde Software'
 created_at: 01-04-2008
+time: 16-04-2008 18:00
+location: IBBT gebouw
+locationlink: IBBT, Ghent Belgium
 ---
 
 Nu Pasen er al een weekje op zit en iedereen zijn chocolade-eitjes opgegeten heeft, nodigen we jullie allemaal uit op de volgende activiteit.

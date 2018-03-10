@@ -1,6 +1,9 @@
 ---
 title: TechEd 2009
 created_at: 15-11-2009
+time: 18-11-2009 20:00
+location: Auditorium V2, Sterre S9
+locationlink: Campus Sterre, Ghent Belgium
 ---
 
 ![TechEd Europe 2009](https://zeus.ugent.be/wp-content/uploads/2009/11/teched.png "TechEd Europe 2009")

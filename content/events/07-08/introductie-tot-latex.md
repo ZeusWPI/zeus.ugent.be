@@ -1,6 +1,9 @@
 ---
 title: Introductie tot LaTeX
 created_at: 10-02-2008
+time: 11-02-2008 17:30
+location: Auditorium Ohoe (Blok E), Coupure, Faculteit Bio-Ingenieurswetenschappen
+locationlink: Faculteit Bio-Ingenieurswetenschappen, Ghent Belgium
 ---
 
 Nu het tweede semester bijna van start gaat, schiet ook Zeus weer in actie.

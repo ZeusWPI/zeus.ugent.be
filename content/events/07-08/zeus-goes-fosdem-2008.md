@@ -1,6 +1,9 @@
 ---
 title: Zeus Goes FOSDEM 2008
 created_at: 21-02-2008
+time: 23-02-2008 08:45
+location: Gent-Sint-Pieters
+locationlink: Gent-Sint-Pieters
 ---
 
 Overmorgen is het al zover: FOSDEM 2008 gaat van start.

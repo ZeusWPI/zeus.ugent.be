@@ -80,7 +80,7 @@ end
 #
 # POSTS
 #
-compile '/blog/*/*' do
+compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
   filter :kramdown
@@ -93,12 +93,12 @@ compile '/blog/*/*' do
   filter :typogruby
 end
 
-compile '/blog/*/*', rep: :text do
+compile '/blog/*/*.md', rep: :text do
   filter :kramdown
   filter :strip_html
 end
 
-compile '/blog/*/*', rep: :html do
+compile '/blog/*/*.md', rep: :html do
   filter :kramdown
 end
 
@@ -107,7 +107,7 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
-  
+
   # Don't write out the projects themselves for now
   write nil
 end

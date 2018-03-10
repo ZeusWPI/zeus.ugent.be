@@ -1,6 +1,9 @@
 ---
 title: Ubuntu Introductieles
 created_at: 14-11-2008
+time: 17-11-2008 20:00
+location: PC-klassen A en B
+locationlink: Plateau, Ghent Belgium
 ---
 
 Maandag 17 November geven de mensen van Zeus WPI, WVS-VTK en WVS-Hogent een introductieles over ubuntu. Ubuntu is een gratis alternatief voor Windows of Mac OS X. Met Ubuntu kan je alles wat je wil doen, maar dan snel en zonder virussen of spyware.

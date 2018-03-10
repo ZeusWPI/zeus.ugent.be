@@ -1,6 +1,9 @@
 ---
 title: Zeus eet ribbetjes!
 created_at: 13-03-2007
+time: 22-03-2007 19:00
+location: Gekroonde Hoofden
+locationlink: Gekroonde Hoofden, Ghent Belgium
 ---
 
 't Wordt zo stilletjes aan hoog tijd voor de semi-traditionele Zeus Ribbetjes Avond! De Zeus RA zal ditmaal plaatsvinden in de Gekroonde Hoofden, en wel op 22 maart des avonds (de dag voor Dies Natalis).

@@ -1,9 +1,11 @@
 ---
 title: 'Zeus-leden, verenigt u!'
 created_at: 22-08-2009
+time: 30-09-2009 18:00
+location: Zeus kelder
+locationlink: Zeus WPI, Ghent Belgium
+image: https://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg
 ---
-
-![Ledenvergadering](https://zeus.ugent.be/wp-content/uploads/2009/08/ledenvergadering.jpg "Ledenvergadering"){:class="alignright"}
 
 Een nieuw academiejaar, een nieuw praesidium, een nieuwe reeks activiteiten en hopelijk ook een reeks nieuwe leden.
 
