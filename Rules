@@ -23,6 +23,8 @@ preprocess do
   all_events.each do |event|
     check_schema(:event, event)
   end
+
+  add_report_metadata
 end
 
 #
@@ -87,6 +89,8 @@ compile '/blog/*/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :typogruby
 end
 
 compile '/blog/*/*', rep: :text do
@@ -103,10 +107,10 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
+  
+  # Don't write out the projects themselves for now
+  write nil
 end
-
-# Don't create specific project pages for now
-route '/projects/*' do; end
 
 compile '/*_search.json' do
   filter :erb
@@ -114,6 +118,16 @@ end
 
 compile '/**/*.ics' do
   filter :erb
+end
+
+#
+# REPORTS
+#
+
+compile '/about/verslagen/*/*.md', rep: :pdf do
+  filter :pandoc_pdf, args: { f: :markdown }
+
+  write ext: 'pdf'
 end
 
 #

@@ -34,6 +34,8 @@ bundle install
 npm install
 ```
 
+You will (momentarily) also need `pandoc` and `latex` to compile the reports from the board meetings. Refer to your OS package manager to install these things.
+
 These will pull in all Ruby and Node.js dependencies. If everything goes well, you should be able to execute the following.
 
 ```bash

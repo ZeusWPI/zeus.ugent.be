@@ -8,6 +8,7 @@ gem 'coffee-script'
 gem 'icalendar' # ical files
 gem 'kramdown'
 gem 'sass'
+gem 'typogruby'
 
 # Needed for atom_feed in blogging helper
 gem 'builder'
@@ -18,6 +19,9 @@ gem 'therubyracer'
 # Word counting gem (which takes special characters into account)
 # for reading time
 gem 'words_counted'
+
+# Compiling reports from .md to .pdf
+gem 'pandoc-ruby'
 
 group :development do
   gem 'adsf'

@@ -1,11 +1,19 @@
 language: ruby
 
 cache:
+  apt: true
   bundler: true
   # Cache nanoc directories
   directories:
     - output
     - tmp
+
+addons:
+  apt:
+    packages:
+      - pandoc
+      - texlive
+      - lmodern
 
 branches:
   only:
