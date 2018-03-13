@@ -41,9 +41,16 @@ Maar voor zij onder ons die al eens hun laptop hebben opengevezen en gefrustreer
 
 #Mozaic
 
-#Lasershoot
-
 #Partnerships
+Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
+De precieze details van deze samenwerking en de aard van die bedrijven liggen echter nog niet vast.
+
+#Lasershoot
+Een eerste aanleiding tot zo een samenwerking is een van onze komende events: Een lasershoot in samenwerking met delaware.
+Dit nieuwe evenement zal woensdag 21/03 plaats vinden en heeft het volgende concept:
+In een eerste fase programmeren de aanwezigen mee aan de implementatie van de game en in de tweede fase wordt de (fysieke) game effectief gespeeld!
+Meer informatie vind je ook op onze [site](https://zeus.ugent.be/events/17-18/lasershoot/).
+
 
 #Bliksem babbels
 
