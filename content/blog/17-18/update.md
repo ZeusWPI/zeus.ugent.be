@@ -1,9 +1,9 @@
 ---
 author: Elo
 title: 'Het reilen en zeilen van zeus: Maart 2018'
-created_at: 13/03/2018
+created_at: 13-03-2018
 description: Een update over het leven in zeus.
-toc: false
+toc: true
 ---
 
 Dag (ex-)Zeusleden en sympathisanten,
@@ -40,6 +40,7 @@ We krijgen immers een nieuwe vloer, deze werken staan gepland voor de komende pa
 Maar voor zij onder ons die al eens hun laptop hebben opengevezen en gefrustreerd het rode stof hebben weggekuist: the future is near!
 
 #Mozaic
+-> ilion
 
 #Partnerships
 Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
@@ -51,11 +52,17 @@ Dit nieuwe evenement zal woensdag 21/03 plaats vinden en heeft het volgende conc
 In een eerste fase programmeren de aanwezigen mee aan de implementatie van de game en in de tweede fase wordt de (fysieke) game effectief gespeeld!
 Meer informatie vind je ook op onze [site](https://zeus.ugent.be/events/17-18/lasershoot/).
 
-
 #Bliksem babbels
+Ook dit jaar organiseren we vol trots de bliksem babbels!
+Het concept blijft gelijkaardig, elke spreker krijgr een beperkte tijd om zijn/haar onderwerp te bespreken,
+gevolgd door een gezellige receptie waar meer besproken kan worden.
+De sprekers zullen dit jaar weer uit de Zeus alumni komen, en deze activiteit zal plaatsvinden op 3 Mei.
+Hou die datum dus maar al vrij, en kijk af en toe is op de site, updates komen er binnenkort aan!
 
 #G2
+-> ilion
 
 #Blogposts
+We zouden graag wat actiever inzetten op onze blogposts op de site, dus als jij iets tofs hebt ontdekt (een nieuw framework, een up and comming programmeertaal, of een fancy colorscheme of toetsenbordlayout) schrijf er gerust een blogpost over, stuur het in via pull request en inspireer je mede-zeusers!
 
 #12UL
