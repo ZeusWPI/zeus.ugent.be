@@ -22,3 +22,19 @@ En of er nu eigenlijk nog evenementen zijn zijn nu er geen eventpersoon meer is?
 Meer info over al deze en nog meer onderwerpen vind je hieronder,moest je ergens vragen over hebben, 
 ideeën hebben of ergens aan willen meehelpen, contacteer gerust ons bestuur
 (via mail bestuur@zeus.ugent.be, op facebook Zeus WPI, op slack in #bestuur of elders, of spring eens binnen in de kelder).
+
+#VLOER
+
+#Mozaic
+
+#Lasershoot
+
+#Partnerships
+
+#Bliksem babbels
+
+#G2
+
+#Blogposts
+
+#12UL
