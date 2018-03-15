@@ -4,7 +4,7 @@ $zeus-blue: #00C4FF;
 
 $body-background: white;
 
-$tile-orange: #ff9f1a;
+$tile-orange: $zeus-orange;
 
 $navbar-border-color: #CCC;
 $event-border-color: #DDD;
@@ -13,9 +13,7 @@ $orange: $zeus-orange;
 $blue: $zeus-blue;
 $turquoise: #30D1B2;
 
-$primary: $orange;
-
-$family-sans-serif: 'Lato', sans-serif;
+$family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 $link-visited: $orange;
 
@@ -29,6 +27,10 @@ $highlighted-link-colour: #222324;
 $cammie-controls-color: rgba(0, 0, 0, 0.60);
 
 $event-padding: 10px;
+
+$primary: $orange;
+$secondary: $zeus-blue;
+$tertiary: $box-colour;
 
 // Default font size
 // $size-normal: 15px;

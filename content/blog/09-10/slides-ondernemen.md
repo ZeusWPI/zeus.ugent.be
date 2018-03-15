@@ -1,11 +1,8 @@
 ---
 title: Slides Ondernemen
-banner: /logo.png
 created_at: 24-10-2009
-time: 23-02-2016
-location: Zeus kelder
 ---
 
-V2 zat weer vol met aspirerende ondernemers en <a href="https://netlash.com">Bart</a> zal het geweten hebben.
+V2 zat weer vol met aspirerende ondernemers en [Bart](https://netlash.com) zal het geweten hebben.
 
-De slides kan je terugvinden op <a href="https://www.slideshare.net/netlash/10-tips-for-starting-entrepreneurs-presentation">SlideShare</a>.
+De slides kan je terugvinden op [SlideShare](https://www.slideshare.net/netlash/10-tips-for-starting-entrepreneurs-presentation).

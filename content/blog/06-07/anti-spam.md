@@ -1,9 +1,6 @@
 ---
 title: Anti-SPAM
-banner: /logo.png
 created_at: 10-03-2007
-time: 23-02-2016
-location: Zeus kelder
 ---
 
 Hoef je geen nieuwe lening? Interesseert een hypotheek je niet? Geen behoefte aan porno? Tevreden met de omvang van je lichaam en haar onderdelen en prestaties? Geen interesse in aandelen, superaanbiedingen, manieren om ongeloofijk snel stinkend rijk te worden etc.?

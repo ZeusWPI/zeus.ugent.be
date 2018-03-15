@@ -16,8 +16,15 @@ preprocess do
   # We don't want to compile old blogposts in development
   ignore_old_blogposts if development?
   update_blog_attributes
-  create_blog_items
+  create_yearly_items('Blog')
+  create_yearly_items('Events')
   convert_event_time_to_timestamps
+
+  all_events.each do |event|
+    check_schema(:event, event)
+  end
+
+  add_report_metadata
 end
 
 #
@@ -25,7 +32,7 @@ end
 # COMPILATION
 #
 #
-compile '/feed.xml' do
+compile '/*.xml' do
   filter :erb
 end
 
@@ -42,7 +49,17 @@ end
 #
 # EVENTS
 #
-compile '/events/**/*' do
+
+# Overview page
+compile '/events/*' do
+  layout '/events.*'
+  layout '/generic.*'
+  layout '/default.*'
+  filter :erb
+end
+
+compile '/events/*/*' do
+  filter :erb
   filter :kramdown
 
   layout '/eventpost.*'
@@ -50,12 +67,12 @@ compile '/events/**/*' do
   filter :erb
 end
 
-compile '/events/**/*', rep: :text do
+compile '/events/*/*', rep: :text do
   filter :kramdown
   filter :strip_html
 end
 
-compile '/events/**/*', rep: :ical do
+compile '/events/*/*', rep: :ical do
   filter :ical
   write ext: 'ics'
 end
@@ -63,7 +80,8 @@ end
 #
 # POSTS
 #
-compile '/blog/*/*' do
+compile '/blog/*/*.md' do
+  filter :erb
   layout '/blogpost.md'
   filter :kramdown
 
@@ -71,11 +89,17 @@ compile '/blog/*/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :typogruby
 end
 
-compile '/blog/*/*', rep: :text do
+compile '/blog/*/*.md', rep: :text do
   filter :kramdown
   filter :strip_html
+end
+
+compile '/blog/*/*.md', rep: :html do
+  filter :kramdown
 end
 
 #
@@ -83,14 +107,11 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
+
+  # Don't write out the projects themselves for now
+  write nil
 end
 
-# Don't create specific project pages for now
-route '/projects/*' do; end
-
-#
-# GENERIC ERB PAGES
-#
 compile '/*_search.json' do
   filter :erb
 end
@@ -99,9 +120,30 @@ compile '/**/*.ics' do
   filter :erb
 end
 
+#
+# REPORTS
+#
+
+compile '/about/verslagen/*/*.md', rep: :pdf do
+  filter :pandoc_pdf, args: { f: :markdown }
+
+  write ext: 'pdf'
+end
+
+#
+# GENERIC ERB PAGES
+#
 compile '/**/*.erb' do
   filter :erb
-  
+
+  layout '/generic.*'
+  layout '/default.*'
+end
+
+compile '/**/*.md' do
+  filter :erb
+  filter :kramdown
+
   layout '/generic.*'
   layout '/default.*'
 end
@@ -120,6 +162,7 @@ compile '/assets/scripts/**/*.js' do
 end
 
 ignore '/assets/stylesheets/includes/**/*'
+ignore '/data/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss, style: :compressed
@@ -133,13 +176,13 @@ end
 #
 #
 
-#
-# ASSETS
-#
-# EVENTS
+# Google verification file
+passthrough '/google6f2e77d0228abc35.html'
+
 route '/**/index.{erb,html,md}' do
   "#{item.identifier.without_ext}.html"
 end
+
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end

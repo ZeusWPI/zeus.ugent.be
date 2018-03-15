@@ -1,15 +1,28 @@
+# frozen_string_literal: true
+
 require 'uri'
+
 module EventsHelper
-  def all_events
-    @items.find_all('/events/*/*.md').sort_by { |x| x[:time] }
+  def all_events(year = nil)
+    items_ = if year
+               @items.find_all("/events/#{year}/*.md")
+             else
+               @items.find_all('/events/*/*.md')
+             end
+
+    items_.sort_by { |x| x[:time] }
   end
 
-  def upcoming_events
-    all_events.reject { |x| x[:time] <= Date.today }
+  def upcoming_events(year = nil)
+    all_events(year).reject { |x| x[:time] <= Date.today }
   end
 
-  def past_events
-    all_events.reject { |x| x[:time] > Date.today }.reverse
+  def past_events(year = nil)
+    all_events(year).reject { |x| x[:time] > Date.today }.reverse
+  end
+
+  def academic_years_event_items
+    items.find_all('/events/*').map { |e| [e[:academic_year], e] }.sort_by(&:first).reverse
   end
 
   def grouped_events

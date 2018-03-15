@@ -17,12 +17,17 @@
 <% if item[:banner] %>
 <section class="hero is-medium is-primary is-bold" style="background-image:url('<%= item[:banner] %>');background-position:center;">
 <% elsif item[:color] %>
-<section class="hero is-medium is-primary is-bold" style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= item[:color] %>;">
+  <% gradient = if item[:gradient].nil? || item[:gradient]
+                  'linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60))'
+                else
+                  'none'
+                end %>
+                <section class="hero is-medium is-primary is-bold" style="background-image: <%= gradient %>; background-color:<%= item[:color] %>;">
 <% else %>
 <section class="hero is-medium is-primary is-bold">
 <% end %>
   <div class="hero-head">
-    <%= render '/partials/_navbar.*', zeus_logo_color: :white %>
+    <%= render '/partials/_navbar.*', zeus_logo_color: :white, transparent_nav: true %>
   </div>
   <div class="hero-body">
     <div class="container">
@@ -70,7 +75,32 @@
       <div class="content has-text-justified is-medium-responsive">
         <%= yield %>
       </div>
-      <iframe height="400" style="width:100%" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+
+      <!-- GOOGLE MAPS -->
+      <div class="map-wrapper box">
+        <iframe height="400" style="width:100%" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+      </div>
+      <!-- END GOOGLE MAPS -->
+
     </div>
   </div>
 </section>
+
+<!-- SPONSORED BY -->
+<% if item[:sponsors] %>
+<section class="section">
+  <div class="columns">
+    <div class="column is-8 is-offset-2">
+      <h1 class="title is-1 has-text-centered">Sponsored by</h1>
+      <div class="sponsors">
+        <% @item[:sponsors].each do |sp| %>
+        <a href="<%= sp[:url] %>" target="_blank">
+          <img src="<%= sp[:img] %>" alt="<%= sp[:name] %>">
+        </a>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>
+<% end %>
+<!-- END SPONSORED BY -->

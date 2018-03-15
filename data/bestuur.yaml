@@ -1,24 +1,187 @@
--
-  rol: Voorzitter
-  naam: Wout Schellaert
-  mail: voorzitter@zeus.ugent.be
--
-  rol: Vice-voorzitter
-  naam: Isaura Claeys
-  mail: secretaris@zeus.ugent.be
--
-  rol: Penningmeester
-  naam: Jeroen De Clerck
-  mail: penning@zeus.ugent.be
--
-  rol: Systeembeheerders
-  naam: Rien Maertens & Lorin Werthen
-  mail: admin@zeus.ugent.be
--
-  rol: Event manager
-  naam: Eloïse Piret
-  mail: event@zeus.ugent.be
--
-  rol: Projectmanager
-  naam: Feliciaan De Palmenaer
-  mail: project@zeus.ugent.be
+91-92:
+  - rol: Voorzitter
+    naam: Willems Vincent
+92-93:
+  - rol: Voorzitter
+    naam: Willems Vincent
+93-94:
+  - rol: Voorzitter
+    naam: Surmont Stephan
+94-95:
+  - rol: Voorzitter
+    naam: Vidts Thomas
+95-96:
+  - rol: Voorzitter
+    naam: Mertens Roeland
+96-97:
+  - rol: Voorzitter
+    naam: Mertens Roeland
+97-98:
+  - rol: Voorzitter
+    naam: Mertens Roeland
+98-99:
+  - rol: Voorzitter
+    naam: Dewinter Steven
+99-00:
+  - rol: Voorzitter
+    naam: De Decker Ivo
+00-01:
+  - rol: Voorzitter
+    naam: Poppe Tom
+01-02:
+  - rol: Voorzitter
+    naam: Gevaert Rudy
+02-03:
+  - rol: Voorzitter
+    naam: Claes Luc
+03-04:
+  - rol: Voorzitter
+    naam: Verhenne Kristof
+04-05:
+  - rol: Voorzitter
+    naam: Verhoogen Olivier
+05-06:
+  - rol: Voorzitter
+    naam: De Smet Wim
+06-07:
+  - rol: Voorzitter
+    naam: Van Bogaert Willem
+07-08:
+  - rol: Voorzitter
+    naam: Verhasselt David
+08-09:
+  - rol: Voorzitter
+    naam: Meire Thomas
+09-10:
+  - rol: Voorzitter
+    naam: Overloop Nicolas
+10-11:
+  - rol: Voorzitter
+    naam: De Baets Pieter
+11-12:
+  - rol: Voorzitter
+    naam: Jens Panneel
+  - rol: Vice
+    naam: Jasper Van der Jeugt
+  - rol: Penning
+    naam: Tom Naessens
+  - rol: Secretaris
+    naam: Nicolas De Smyter
+  - rol: Sysadmin
+    naam: Toon Willems
+  - rol: Sysadmin
+    naam: Pieter De Baets
+  - rol: Activiteiten
+    naam: Sander Demeester
+  - rol: Verantwoordelijke GhentFPG
+    naam: Jasper Van der Jeugt
+12-13:
+  - rol: Voorzitter
+    naam: Tom Naessens
+  - rol: Vice-voorzitter
+    naam: Feliciaan De Palmenaer
+  - rol: Penning/PR-extern
+    naam: Pieter Vander Vennet
+  - rol: Systeembeheer
+    naam: Pieter De Baets
+  - rol: Systeembeheer
+    naam: Jasper Van der Jeugt
+  - rol: Systeembeheer
+    naam: Toon Willems
+  - rol: Systeembeheer
+    naam: Stijn Seghers
+  - rol: Systeembeheer
+    naam: Sander Demeester
+13-14:
+  - rol: Voorzitter
+    naam: Naessens Tom
+  - rol: Secretaris
+    naam: Stefaan Vermassen
+  - rol: Penning
+    naam: Pieter Vander Vennet
+  - rol: Systeembeheerder
+    naam: Toon Willems
+  - rol: Systeembeheerder
+    naam: Stijn Seghers
+  - rol: Activiteiten
+    naam: Wouter Pinnoo
+  - rol: Activiteiten
+    naam: Felix Van der Jeugt
+14-15:
+  - rol: Voorzitter
+    naam: Stijn Seghers
+  - rol: Secretaris
+    naam: Feliciaan De Palmenaer
+  - rol: Penningmeester
+    naam: Jeroen De Clerck
+  - rol: System administrator
+    naam: Titouan Vervack
+  - rol: System administrator
+    naam: Wouter Pinnoo
+  - rol: Event
+    naam: Ilion Beyst
+  - rol: Event
+    naam: Felix Van der Jeugt
+  - rol: Senior
+    naam: Tom Naessens
+  - rol: Vaste medewerker
+    naam: Mats Myncke
+  - rol: Vaste medewerker
+    naam: Lorin Werthen
+15-16:
+  - rol: Voorzitter
+    naam: Jeroen De Clerck
+  - rol: Secretaris
+    naam: Eloïse Piret
+  - rol: Penningmeester
+    naam: Kenneth Van den Driessche
+  - rol: Activiteiten
+    naam: Lorin Werthen
+  - rol: Projecten
+    naam: Ilion Beyst
+  - rol: Sysadmin
+    naam: Titouan Vervack
+16-17:
+  - rol: Voorzitter
+    naam: Wout Schellaert
+  - rol: Vice-voorzitter
+    naam: Isaura Claeys
+  - rol: Penningmeester
+    naam: Jeroen De Clerck
+  - rol: Systeembeheerders
+    naam: Rien Maertens & Lorin Werthen
+  - rol: Event manager
+    naam: Eloïse Piret
+  - rol: Projectmanager
+    naam: Feliciaan De Palmenaer
+17-18:
+  - rol: Voorzitter
+    naam: Rien Maertens
+    mail: voorzitter@zeus.ugent.be
+  - rol: Vicevoorzitter
+    naam: Isaura Claeys
+    mail: secretaris@zeus.ugent.be
+  - rol: Penningmeester
+    naam: Timo De Waele
+    mail: penning@zeus.ugent.be
+  - rol: Project
+    naam: Wout Schellaert
+    mail: project@zeus.ugent.be
+  - rol: Project
+    naam: Ilion Beyst
+    mail: project@zeus.ugent.be
+  - rol: Sysadmin
+    naam: Jonathan Poelman
+    mail: admin@zeus.ugent.be
+  - rol: Sysadmin
+    naam: Tibo D'Hondt
+    mail: admin@zeus.ugent.be
+  - rol: Sysadmin
+    naam: Ziggy Moens
+    mail: admin@zeus.ugent.be
+  - rol: Assisterend Bestuurslid
+    naam: Lorin Werthen
+  - rol: Assisterend Bestuurslid
+    naam: Jeroen De Clerck
+  - rol: Assisterend Bestuurslid
+    naam: Laurens D'hooge

@@ -10,16 +10,19 @@
 
     #santa {
       position: absolute;
-      z-index: 500;
-      left: 27px;
-      top: -1px;
-      width: 40px;
-      transform: scale(-1, 1);
+      z-index: 300;
+      left: 5px;
+      bottom: 0;
+      width: 60px;
     }
   }
 
   .nav-menu {
     z-index: 20;
+
+    .nav-transparent {
+      background: none;
+    }
   }
 
   .actual-nav-bar {
@@ -35,7 +38,6 @@
 
   #logo-link {
     #logo {
-      padding-top: 10px;
       padding-left: 10px;
       width: 100px;
     }
@@ -73,5 +75,15 @@
         border-bottom-color: $zeus-orange;
       }
     }
+  }
+}
+
+.hero {
+  #logo {
+    padding-top: 25px;
+  }
+
+  .nav-right {
+    padding-right: 10px;
   }
 }

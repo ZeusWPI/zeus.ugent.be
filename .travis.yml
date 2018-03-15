@@ -1,7 +1,23 @@
 language: ruby
 
 cache:
+  apt: true
   bundler: true
+  # Cache nanoc directories
+  directories:
+    - output
+    - tmp
+
+addons:
+  apt:
+    packages:
+      - pandoc
+      - texlive
+      - lmodern
+
+branches:
+  only:
+  - master
 
 rvm:
 - 2.3.1
@@ -19,4 +35,6 @@ script:
 after_success:
 - mv deploy_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
-- '[[ $TRAVIS_PULL_REQUEST == "false" ]] && [[ $TRAVIS_BRANCH == "master" ]] && bundle exec nanoc --env=prod deploy public'
+- chmod +x ./deploy.sh
+- echo -e "Host $TRAVIS_PULL_REQUEST.zeus.werthen.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- ./deploy.sh

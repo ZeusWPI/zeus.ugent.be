@@ -3,10 +3,31 @@
   text-align: justify;
 }
 
+pre .line-numbers {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-size: 85%;
+  letter-spacing: 1px;
+}
+
 // Override box styling without round corners
 .box {
   margin-bottom:10px;
-  border-radius: 0 !important;
+
+  transition: all .15s ease;
+
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+}
+
+a.box:hover {
+  color: $blue;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 // Add some hero attributes to make backgrounds prettier
@@ -14,7 +35,6 @@
   background-position: center;
   background-size: cover;
 }
-
 // link borders are unnecessary
 .content {
   a {
@@ -61,10 +81,15 @@ footer.footer {
   background: rgba(255, 127, 0, 0.99);
 }
 
-.has-content-centered, .imgcenter {
+.has-content-centered {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imgcenter {
+  margin: auto;
+  display: block;
 }
 
 .hydra-tile {
@@ -152,12 +177,69 @@ footer.footer {
   }
 }
 
-.alignright {
-  float: right;
+%align {
+  background-color: $body-background;
   margin: 15px;
 }
 
-// Bold definition types in <dl></dl>
-dt {
-  font-weight: bold;
+.alignright {
+  @extend %align;
+
+  float: right;
+}
+
+.alignleft {
+  @extend %align;
+
+  float: left;
+}
+
+.content {
+  blockquote {
+    border-left-color: $secondary;
+  }
+
+  // Bold definition types in <dl></dl>
+  dt {
+    font-weight: bold;
+  }
+
+  figure {
+    position: relative;
+
+    img {
+      display: block;
+    }
+
+    figcaption {
+      position: absolute;
+      background-color: rgba(0,0,0,.7);
+      color: white;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 20px;
+
+      transition: all .1s;
+
+      opacity: 0;
+    }
+
+    &:hover {
+      figcaption {
+        opacity: 1;
+      }
+    }
+  }
+
+  sup {
+    font-size: $size-small;
+  }
+}
+
+.has-all-small-caps {
+  font-variant: all-small-caps;
+}
+
+.has-small-caps {
+  font-variant: small-caps;
 }

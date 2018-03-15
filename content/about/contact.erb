@@ -1,0 +1,131 @@
+---
+narrow_page: true
+icon_size: 2x
+contact_links:
+  - icon: facebook
+    link: https://www.facebook.com/zeus.wpi/
+    description: Facebook
+    action: Like us
+  - icon: envelope
+    link: ../about#board
+    description: Email
+    action: Mail us
+  - icon: twitter
+    link: https://twitter.com/zeuswpi
+    description: Twitter
+    action: Follow us
+  - icon: slack
+    link: https://zeuswpi.slack.com/
+    description: Slack
+    action: Message us
+  - icon: commenting
+    link: irc://wina.ugent.be/#zeus
+    description: irc
+    action: Chat with us
+  - icon: inbox
+    link: http://lists.zeus.ugent.be/mailman/listinfo/leden
+    description: Mailinglist
+    action: Keep up to date
+  - icon: github
+    link: https://github.com/ZeusWPI/
+    description: GitHub
+    action: Fork us
+  - icon: phone
+    link: 'tel:+3292644751'
+    description: Phone
+    action: Call us
+---
+<%= render '/partials/_about_sub_navbar.*', selected: 'contact' %>
+<h1 class='title is-1 has-text-centered'>Contact us</h1>
+<h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h1>
+
+<!-- Contact buttons -->
+<ul id='contact-icons' class='columns is-centered is-multiline'>
+<% @item[:contact_links].each do |option| %>
+  <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+    <li id='<%= option[:description] %>' class='contact-circle-option'>
+      <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
+        <div class='contact-circle is-centered'>
+          <div class='contact-circle-pulse grow'></div>
+          <%= fa option[:icon], size: @item[:icon_size], class: 'grow-large' %>
+        </div>
+      </a>
+      <h4 class='contact-description is-uppercase'><%= option[:description] %></h3>
+      <p class='has-text-centered'>
+        <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
+      </p>
+    </li>
+  </div>
+<% end %>
+</ul>
+
+<!-- Extra information tiles -->
+<div id='contact-info' class='tile is-ancestor is-vertical'>
+  <div class='tile is-parent'>
+    <div class='tile is-parent is-vertical'>
+
+      <!-- Payment information -->
+      <div id='payment-info' class='tile is-child box content has-text-centered'>
+        <h1 class='title has-text-centered'>Pay us</h1>
+        <div class='is-divider'></div>
+        <p id='banknumber' class='is-size-5'>
+          BE32 9799 9370 6502
+        </p>
+        <a class='button' href='https://zeus.ugent.be/tab/'>
+          <%= fa :euro, fw: true %> Use Tab
+        </a>
+      </div>
+
+      <!-- Calling information -->
+      <div id='calling-info' class='tile is-child box content has-text-centered'>
+        <h1 class='title has-text-centered'>Call us</h1>
+        <div class='is-divider'></div>
+        <p id='phone-number' class='is-size-5'>
+          +32 92 64 47 51</br>
+          Intern: 4751
+        </p>
+      </div>
+    </div>
+
+    <!-- Address information -->
+    <div id='address-info' class='tile is-parent'>
+      <div class='tile is-child box content'>
+        <h1 class='title has-text-centered'>Find us</h1>
+        <div class='is-divider'></div>
+        <p class='is-size-5'>
+          You can find our hiding place, or what we call <strong>'de kelder'</strong> at the basement level of following address:
+        </p>
+        <blockquote id='address' class='is-size-5'>
+          Krijgslaan 281 </br>
+          Campus Sterre S9 </br>
+          9000 Gent </br>
+        </blockquote>
+        <div id='contact-location-buttons'>
+          <a class='button' href='https://www.google.com/maps/place/Zeus+WPI/@51.023115,3.7103,17z/data=!4m5!3m4!1s0x0:0x49fd54f81cafeb5f!8m2!3d51.0231149!4d3.7103?hl=en-US'>
+            <%= fa :'map-marker', fw: true %> Google Maps
+          </a>
+          <a class='button' href='https://soleway.ugent.be/routes/4370'>
+            <%= fa :'map-signs', fw: true %> Soleway
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slack information -->
+  <div id='slack-info' class='tile is-parent'>
+    <div class='tile is-child box content'>
+      <h1 class='title has-text-centered'>Slack info</h1>
+      <div class='is-divider'></div>
+      <p id='slack-info-text' class='is-size-5'>
+        You can register with any <strong>*.zeus.ugent.be</strong> or even <strong>*.ugent.be</strong> email address.
+        If you don't have one, try to reach us on one of our other channels and ask for an invitation.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Embedded Google Maps -->
+<div class="map-wrapper box">
+  <iframe id='google-maps' src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1156.8611760710044!2d3.7102397000000003!3d51.023149499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c373c271502d9b%3A0x49fd54f81cafeb5f!2sZeus+WPI!5e0!3m2!1sen!2sbe!4v1481415854540' height='450' style='border:0;width:100%' allowfullscreen></iframe>
+</div>

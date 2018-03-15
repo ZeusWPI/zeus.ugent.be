@@ -1,9 +1,6 @@
 ---
 title: Downtime excuses...
-banner: /logo.png
 created_at: 21-09-2007
-time: 23-02-2016
-location: Zeus kelder
 ---
 
 Hierbij onze excuses voor de downtime van 20 september. We hebben de kelder wat opgeruimd, met als gevolg dat sommige servers eventjes plat moesten. Zo gingen de gateways, ssh- & irc-server en de webserver onderuit (kenny hebben we kunnen sparen :p). Alle servers buiten de webserver waren tegen de avond weer up and running. Mephisto had echter enkele hardware-probleempjes, waardoor de webserver plat lag tot de volgende morgen.

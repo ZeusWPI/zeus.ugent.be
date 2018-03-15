@@ -1,3 +1,18 @@
+<% content_for :head do %>
+<meta property="og:title" content="<%= item[:title] %>" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="<%= url_for(item) %>" />
+<meta property="og:description" content="<%= item[:description] %>" />
+<meta property="og:site_name" content="Zeus WPI" />
+<meta property="article:author" content="<%= @item[:author] %>">
+<meta name="twitter:label1" value="Author" />
+<meta name="twitter:data1" value="<%= @item[:author] %>" />
+<meta name="twitter:label2" value="Created at" />
+<meta name="twitter:data2" value="<%= @item[:created_at] %>" />
+<meta name="twitter:card" content="summary_large_image" />
+<% end %>
+
 <div class="blog-heading">
   <div class="titlewrap">
     <h1 class="title is-1 has-text-centered animated fadeIn">

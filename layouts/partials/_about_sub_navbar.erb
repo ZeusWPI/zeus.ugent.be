@@ -1,8 +1,9 @@
 <div class="subnav tabs">
   <ul>
-    <li class="<%= "is-active" if @selected == 'about'%>"><a href="/about">Over</a></li>
-    <li class="<%= "is-active" if @selected == 'statuten'%>"><a href="/about/statuten">Statuten</a></li>
-    <li class="is-disabled"><a>Historiek (soon)</a></li>
-    <li class="is-disabled"><a>Verslagen (soon)</a></li>
+    <li class="<%= 'is-active' if @selected == 'about'%>"><a href="/about/about">About</a></li>
+    <li class="<%= 'is-active' if @selected == 'contact'%>"><a href="/about/contact">Contact</a></li>
+    <li class="<%= 'is-active' if @selected == 'statuten'%>"><a href="/about/statuten">Statuten</a></li>
+    <li class="<%= 'is-active' if @selected == 'historiek'%>"><a href="/about/historiek">Historiek</a></li>
+    <li class="<%= 'is-active' if @selected == 'verslagen'%>"><a href="/about/verslagen">Verslagen</a></li>
   </ul>
 </div>
