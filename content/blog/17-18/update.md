@@ -21,7 +21,7 @@ En of er nu eigenlijk nog evenementen zijn zijn nu er geen eventpersoon meer is?
 
 Meer info over al deze en nog meer onderwerpen vind je hieronder,moest je ergens vragen over hebben, 
 ideeën hebben of ergens aan willen meehelpen, contacteer gerust ons bestuur
-(via mail bestuur@zeus.ugent.be, op facebook Zeus WPI, op slack in #bestuur of elders, of spring eens binnen in de kelder).
+(via mail <bestuur@zeus.ugent.be>, op facebook Zeus WPI, op slack in #bestuur of elders, of spring eens binnen in de kelder).
 
 #VLOER
 Een voorbeeld situatie: je hebt nieuwe schoenen gekocht, super pretty witte sneakers.
@@ -58,7 +58,7 @@ en zijn dan ook zeer enthouisast over deze eerste _battle test_!
 Enige interesse in spelletjes en/of programmeren? Doe zeker mee!
 We werken hard om de competitie zo toegankelijk mogelijk te maken.
 De competitie zal van start gaan op 26 maart, en het hele semester doorlopen.
-Meer informatie vind je op https://bottlebats.zeuswpi.org/!
+Meer informatie vind je op <https://bottlebats.zeuswpi.org/>!
 
 # Partnerships
 Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
