@@ -39,10 +39,28 @@ We krijgen immers een nieuwe vloer, deze werken staan gepland voor de komende pa
 
 Maar voor zij onder ons die al eens hun laptop hebben opengevezen en gefrustreerd het rode stof hebben weggekuist: the future is near!
 
-#Mozaic
--> ilion
+# MOZAIC: Massive Online Zeus AI Competition
+Hij komt, hij komt, de tweede editie van Zeus BottleBats! Weldra kan menig
+zeuslid en -sympathisant zijn meest competitieve zelve weer bovenhalen
+en bewijzen dat zijn programmeerskills geen gelijke kennen.
+Het concept is simpel: je programmeert een bot voor een spelletje, en laat
+hem 'vechten' tegen de bots van de andere deelnemers. 
 
-#Partnerships
+Extra spannend is dat deze editie van BottleBats de eerste is die draait
+op MOZAIC, het Massive Online Zeus AI Competition framework!
+MOZAIC neemt het lastige deel van het organiseren van dergelijke
+competities voor zijn rekening. Dat is dus eigenlijk alles dat er tussen
+bot en spelregels gebeurt: een spelserver, het communiceren met bots,
+timeouts, error reporting, logging, ranking, replays, enzoverder.
+We hopen dat MOZAIC het voortbestaan van BottleBats kan garanderen,
+en zijn dan ook zeer enthouisast over deze eerste _battle test_!
+
+Enige interesse in spelletjes en/of programmeren? Doe zeker mee!
+We werken hard om de competitie zo toegankelijk mogelijk te maken.
+De competitie zal van start gaan op 26 maart, en het hele semester doorlopen.
+Meer informatie vind je op https://bottlebats.zeuswpi.org/!
+
+# Partnerships
 Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
 De precieze details van deze samenwerking en de aard van die bedrijven liggen echter nog niet vast.
 
