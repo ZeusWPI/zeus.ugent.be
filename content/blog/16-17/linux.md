@@ -14,8 +14,7 @@ Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het p
 # Enkele tips voor je begint
 
 ## Probeer eerst in een virtuele machine
-
-Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/). Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je (naast het OS installeren) ook rekening moet houden met andere obstakels zoals het opzetten van een dualboot systeem. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
+Als je nog geen ervaring hebt met het installeren van Linux start je best door eens te oefenen op een VM (virtuele machine) zoals [VirtualBox](https://www.virtualbox.org/). Op die manier komt niet alles in één keer op je af en kan je het installatieproces onder de knie krijgen zonder dat je jezelf in de problemen kunt brengen doordat je (naast het OS installeren) ook rekening moet houden met andere obstakels zoals het opzetten van een dual-boot systeem. Hou er wel rekening mee dat een VM iets trager is. Het resultaat zal dus iets minder responsief aanvoelen dan een rechtstreekse installatie.
 
 ## Zit je vast? RTFM!
 
@@ -43,7 +42,7 @@ Er zijn veel verschillende Linux-distributies, elk met een verschillende _look &
 
 ## Fix windows
 
-Als je van plan bent een dualboot te doen (Linux en Windows op één machine) moet je rekening houden met het volgende:
+Als je van plan bent een dual-boot te doen (Linux en Windows op één machine) moet je rekening houden met het volgende:
 
 - Maak ruimte vrij op je harde schijf. Voor Linux is 20GB een goed begin. Als je zeker wilt zijn is 50GB zeker genoeg.
 - [Schakel fast startup uit](https://www.tenforums.com/tutorials/4189-fast-startup-turn-off-windows-10-a.html). Dit geeft op meerdere manieren problemen met Linux. Als je Windows-installatie op een SSD staat is het verschil in opstartsnelheid toch verwaarloosbaar.
@@ -58,8 +57,8 @@ Als je Linux installeert naast Windows (of andere belangrijke data op dezelfde m
 
 Kies een installatietutorial voor de distributie die je gekozen hebt. Probeer steeds alles te snappen voor je iets effectief doet.
 
-- **Fedora:** [wikihow](http://www.wikihow.com/Install-Fedora), de [officiële installatiegids](https://docs.fedoraproject.org/en-US/Fedora/25/html/Installation_Guide/chap-introduction.html) of [een tutorial specifiek voor dualboot](http://linuxbsdos.com/2016/12/01/dualboot-fedora-25-windows-10-on-a-computer-with-uefi-firmware/)
-- **Linux Mint:** [dualboot tutorial](http://www.tecmint.com/install-linux-mint-18-alongside-windows-10-or-8-in-dualboot-uefi-mode/) of de [offiële user guide](https://www.linuxmint.com/documentation/user-guide/Cinnamon/english_18.0.pdf)
+- **Fedora:** [wikihow](http://www.wikihow.com/Install-Fedora), de [officiële installatiegids](https://docs.fedoraproject.org/en-US/Fedora/25/html/Installation_Guide/chap-introduction.html) of [een tutorial specifiek voor dual-boot](http://linuxbsdos.com/2016/12/01/dual-boot-fedora-25-windows-10-on-a-computer-with-uefi-firmware/)
+- **Linux Mint:** [dual-boot tutorial](http://www.tecmint.com/install-linux-mint-18-alongside-windows-10-or-8-in-dual-boot-uefi-mode/) of de [officiële user guide](https://www.linuxmint.com/documentation/user-guide/Cinnamon/english_18.0.pdf)
 - **Arch Linux:** de [installation guide](https://wiki.archlinux.org/index.php/installation_guide) is erg uitgebreid.
 
 ## Enkele concepten die vaak aan bod komen
