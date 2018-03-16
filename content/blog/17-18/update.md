@@ -70,8 +70,8 @@ Dit nieuwe evenement zal woensdag 21/03 plaats vinden en heeft het volgende conc
 In een eerste fase programmeren de aanwezigen mee aan de implementatie van de game en in de tweede fase wordt de (fysieke) game effectief gespeeld!
 Meer informatie vind je ook op onze [site](https://zeus.ugent.be/events/17-18/lasershoot/).
 
-#Bliksem babbels
-Ook dit jaar organiseren we vol trots de bliksem babbels!
+#Bliksembabbels
+Ook dit jaar organiseren we vol trots de bliksembabbels!
 Het concept blijft gelijkaardig, elke spreker krijgr een beperkte tijd om zijn/haar onderwerp te bespreken,
 gevolgd door een gezellige receptie waar meer besproken kan worden.
 De sprekers zullen dit jaar weer uit de Zeus alumni komen, en deze activiteit zal plaatsvinden op 3 Mei.
