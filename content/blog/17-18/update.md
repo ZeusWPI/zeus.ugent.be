@@ -28,7 +28,7 @@ Een voorbeeld situatie: je hebt nieuwe schoenen gekocht, super pretty witte snea
 Vol trots schoei je jezelf _ja schoeien is een woord, nee ik ben niet zeker dat het zo gebruikt word_ met je nieuwe witte voetomhulsels en vertrek je richting les.
 Eenmaal aangekomen aan de S9 besef je dat je eigenlijk echt niet naar de les wilt gaan, dan maar richting kelder.
 Je daalt langzaam de trappen af en wordt geconfronteerd met een rood stoffig spul dat de S9-gangers bij gebrek aan beter woord "vloer" noemen.
-Oh nee, de keuze: Je schoenen riskeren of terug naar boven gaan?
+Oh nee, de keuze: Je schoenen riskeren of een saaie namiddag?
 
 TREUR NIET LANGER
 
