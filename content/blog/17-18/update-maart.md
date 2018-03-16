@@ -147,8 +147,8 @@ Hopelijk ben je nu weer wat meer op de hoogte van het reilen en zeilen van zeus!
 Zeus is een vereniging die bestaat voor en door zijn leden, dus als jij een idee hebt voor een project, een talk, een ander event,
 laat het ons zeker weten, zo'n initiatieven zijn steeds heel welkom!!
 
-Hopelijk tot binnenkort,
-xoxo
-Iasoon & Elo
+Hopelijk tot binnenkort,  
+xoxo  
+Iasoon & Elo  
 ![much luv](//media.giphy.com/media/108M7gCS1JSoO4/giphy.gif)
 
