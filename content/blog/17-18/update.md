@@ -78,7 +78,41 @@ De sprekers zullen dit jaar weer uit de Zeus alumni komen, en deze activiteit za
 Hou die datum dus maar al vrij, en kijk af en toe is op de site, updates komen er binnenkort aan!
 
 #G2
--> ilion
+Op 23 juni 2014 is de eerste steen aan Zeus Gamification gelegd, met een
+duidelijke visie: spelelementen zoals het verdienen van punten werken
+zeer motiverend.  Willen we mensen motiveren om meer voor zeus te doen,
+moeten we dus coden _for the greater good_ gamificaten!  Gamification
+deed dit door commits aan Zeus-repositories te tracken via GitHub, en
+coders punten toe te kennen op basis van deze bijdragen. En inderdaad:
+het geeft een zekere voldoening om te constateren dat je vooraan staat
+in de wekelijkse _top 4_ na een sessie hard werk. Soms ontstaan er zelfs
+spontane 'competities' tussen koplopers!
+
+Maar die jaren evaluatie leggen ook de problemen met het systeem
+bloot. Het voornaamste probleem is een beetje een open deur: gamification
+mag dan wel motiverend werken voor mensen die coden voor zeus, het slaat
+de bal volledig mis met iedereen die nog niet codet voor zeus. En het
+is net die groep die het meeste een duwtje in de rug nodig heeft.
+
+Tot dit inzicht gekomen hebben onze projectverantwoordelijken zich een
+semester lang aan tafel gezet met enkele enthousiaste eerstejaars, om
+een spirituele opvolger voor Gamification te ontwerpen (die intussen
+zelfs al naar implementatiefase is overgegaan!).
+Het resultaat is G2 (Gamification 2, spreek uit 'geetwee' ofte 'gateway'
+in brak Engels). De aanzet is dat G2 vooral wil inzetten op zichtbaarheid
+en discoverability van wat er te doen is en gedaan wordt in zeusprojectland.
+Dit slaat enkele vliegen in een klap: aan de ene kant is het motiverend
+om zichtbaarheid voor je werk te krijgen, en aan de andere kant
+werkt momentum aanstekelijk. Daarbovenop is het dan ook nog gemakkelijk
+om een taakje te vinden om die motivatie op los te laten!
+
+Kortom wil G2 een tool zijn voor documentatie en projectmanagement, maar
+vooral een _gateway_ naar uw volgende bijdrage aan de Zeus codebases.
+
+
+_Gemotiveerd om bij te dragen, maar gebrek aan G2 om je te vertellen
+hoe je kan helpen? Por uw lokale projectverantwoordelijke aan!_
+
 
 #Blogposts
 We zouden graag wat actiever inzetten op onze blogposts op de site, dus als jij iets tofs hebt ontdekt (een nieuw framework, een up and comming programmeertaal, of een fancy colorscheme of toetsenbordlayout) schrijf er gerust een blogpost over, stuur het in via pull request en inspireer je mede-zeusers!
