@@ -10,7 +10,7 @@ Dag (ex-)Zeusleden en sympathisanten,
 
 \<_ik denk toch dat nieuwsbrieven zo beginnen_\>
 
-Welkom op de eerste Zeus-update-blogpost-nieuwbrief!
+Welkom op de eerste Zeus-update-blogpost-nieuwsbrief!
 
 \<_Met hopelijk meer hiervan in de toekomst!_\>
 
