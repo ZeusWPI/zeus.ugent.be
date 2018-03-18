@@ -74,7 +74,7 @@ Meer informatie vind je ook op onze [site](https://zeus.ugent.be/events/17-18/la
 
 # Bliksembabbels
 Ook dit jaar organiseren we vol trots de bliksembabbels!
-Het concept blijft gelijkaardig, elke spreker krijgr een beperkte tijd om zijn/haar onderwerp te bespreken,
+Het concept blijft gelijkaardig, elke spreker krijgt een beperkte tijd om zijn/haar onderwerp te bespreken,
 gevolgd door een gezellige receptie waar meer besproken kan worden.
 De sprekers zullen dit jaar weer uit de Zeus alumni komen, en deze activiteit zal plaatsvinden op 3 Mei.
 Hou die datum dus maar al vrij, en kijk af en toe eens op de site, updates komen er binnenkort aan!
