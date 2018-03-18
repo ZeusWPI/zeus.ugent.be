@@ -77,7 +77,7 @@ Ook dit jaar organiseren we vol trots de bliksembabbels!
 Het concept blijft gelijkaardig, elke spreker krijgr een beperkte tijd om zijn/haar onderwerp te bespreken,
 gevolgd door een gezellige receptie waar meer besproken kan worden.
 De sprekers zullen dit jaar weer uit de Zeus alumni komen, en deze activiteit zal plaatsvinden op 3 Mei.
-Hou die datum dus maar al vrij, en kijk af en toe is op de site, updates komen er binnenkort aan!
+Hou die datum dus maar al vrij, en kijk af en toe eens op de site, updates komen er binnenkort aan!
 
 # G2
 Op 23 juni 2014 is de eerste steen aan onze eigen [Gamification](https://zeus.ugent.be/game) gelegd,
