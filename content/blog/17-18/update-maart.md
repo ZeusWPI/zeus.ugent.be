@@ -19,21 +19,21 @@ Vraag jij je ook af of het nu bottlebats, battlebots of iets met kleine stenen i
 Of we nu ooit nog van die stoffige rode vloer gaan afgeraken?
 En of er nu eigenlijk nog evenementen zijn nu er geen eventpersoon meer is?
 
-Meer info over al deze en nog meer onderwerpen vind je hieronder, moest je ergens vragen over hebben, 
+Meer info over al deze en nog meer onderwerpen vind je hieronder. Moest je ergens vragen over hebben, 
 ideeën hebben of ergens aan willen meehelpen, contacteer gerust ons bestuur
 (via mail <bestuur@zeus.ugent.be>, op facebook [Zeus WPI](https://www.facebook.com/zeus.wpi/), op slack in #bestuur of elders) of spring eens binnen in de kelder.
 
 # VLOER
-Een voorbeeld situatie: je hebt nieuwe schoenen gekocht, super pretty, witte sneakers.
+Een voorbeeldsituatie: je hebt nieuwe schoenen gekocht, super pretty, witte sneakers.
 Vol trots schoei je jezelf \<_ja schoeien is een woord, nee ik ben niet zeker dat het zo gebruikt wordt_\> met je nieuwe witte voetomhulsels en vertrek je richting les.
-Eenmaal aangekomen aan de S9 besef je dat je eigenlijk echt niet naar de les wilt gaan, dan maar richting kelder.
+Eenmaal aangekomen aan de S9 besef je dat je eigenlijk echt niet naar de les wilt gaan; dan maar richting kelder.
 Je daalt langzaam de trappen af en wordt geconfronteerd met een rood stoffig spul dat de S9-gangers bij gebrek aan beter woord de "vloer" noemen.
 Oh nee, de keuze: je schoenen riskeren of een saaie namiddag?
 
 TREUR NIET LANGER
 
 Binnenkort zal deze puur hypothethische situatie zich nooit meer voordoen\* \<_dit is een leugen, ik kom er zo op terug_\>!
-We krijgen immers een nieuwe vloer, deze werken staan gepland voor de komende paasvakantie.
+We krijgen immers een nieuwe vloer. De werken staan gepland voor de komende paasvakantie.
 
 \* Je moet nog steeds over het rode stof om in de kelder te geraken, dus we zien nog wel hoe proper we het daar kunnen houden.
 
@@ -41,7 +41,7 @@ Maar voor zij onder ons die al eens hun laptop hebben opengevezen en gefrustreer
 
 # MOZAIC: Massive Online Zeus AI Competition
 Hij komt, hij komt, de tweede editie van Zeus BottleBats! Weldra kan menig
-zeuslid en -sympathisant zijn meest competitieve zelve weer bovenhalen
+zeuslid en -sympathisant zijn meest competitieve zelf weer bovenhalen
 en bewijzen dat zijn programmeerskills geen gelijke kennen.
 Het concept is simpel: je programmeert een bot voor een spelletje en laat
 hem 'vechten' tegen de bots van de andere deelnemers. 
@@ -63,31 +63,31 @@ Meer informatie vind je op onze [site](https://bottlebats.zeuswpi.org/)!
 # Partnerships
 Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
 De precieze details van deze samenwerking en de aard van die bedrijven liggen echter nog niet vast.
-Moest je hier ideeën voor hebben of je wilt graag helpen, klop gerust aan bij onze penning Timo (timpy),
+Moest je hier ideeën voor hebben of je wilt graag helpen, klop dan gerust aan bij onze penning Timo (timpy),
 die je herkent aan zijn mini-man-bun.
 
 # Lasershoot
-Een eerste aanleiding tot zo een samenwerking is een van onze komende events: een lasershoot in samenwerking met Delaware.
+Een eerste aanleiding tot zo'n samenwerking is een van onze komende events: een lasershoot in samenwerking met Delaware.
 Dit nieuwe evenement zal woensdag 21/03 plaats vinden en heeft het volgende concept:  
 In een eerste fase programmeren de aanwezigen mee aan de implementatie van de game en in de tweede fase wordt de (fysieke) game effectief gespeeld!
 Meer informatie vind je ook op onze [site](https://zeus.ugent.be/events/17-18/lasershoot/).
 
 # Bliksembabbels
 Ook dit jaar organiseren we vol trots de bliksembabbels!
-Het concept blijft gelijkaardig, elke spreker krijgt een beperkte tijd om zijn/haar onderwerp te bespreken,
+Het concept blijft gelijkaardig: elke spreker krijgt een beperkte tijd om zijn/haar onderwerp te bespreken,
 gevolgd door een gezellige receptie waar meer besproken kan worden.
 De sprekers zullen dit jaar weer uit de Zeus alumni komen en deze activiteit zal plaatsvinden op 3 mei.
-Hou die datum dus maar al vrij en kijk af en toe eens op de site, updates komen er binnenkort aan!
+Hou die datum dus al vrij en kijk af en toe eens op de site, updates komen er binnenkort aan!
 
 # G2
 Op 23 juni 2014 is de eerste steen aan onze eigen [Gamification](https://zeus.ugent.be/game) gelegd,
 met een duidelijk doel voor ogen: mensen motiveren om te programmeren en deze hier ook voor te belonen.
-Dit werd gedaan door een puntensysteem te koppelen aan het programmeren en op deze wijze
+Dat werd gedaan door een puntensysteem te koppelen aan het programmeren en op deze wijze
 het coden _for the greater good_ \<_Also known as Zeus_\> te gamificaten.
 \<_Want geef toe, punten verdienen is steeds een goede motivator!_\>
 
-Gamification deed dit door commits aan Zeus-repositories te tracken via GitHub, en
-coders punten toe te kennen op basis van deze bijdragen. En inderdaad:
+Gamification deed dat door commits aan Zeus-repositories te tracken via GitHub en
+coders punten toe te kennen op basis van deze bijdragen. En inderdaad,
 het geeft een zekere voldoening om te constateren dat je vooraan staat
 in de wekelijkse _top 4_ na een sessie hard werk. Soms ontstaan er zelfs
 spontane 'competities' tussen koplopers!
@@ -98,15 +98,15 @@ mag dan wel motiverend werken voor mensen die coden voor zeus, het slaat
 de bal volledig mis met iedereen die nog niet codet voor zeus. En het
 is net die groep die het meeste een duwtje in de rug nodig heeft.
 
-Tot dit inzicht gekomende zijn, hebben onze lieftallige projectverantwoordelijken
+Tot dit inzicht gekomen, hebben onze lieftallige projectverantwoordelijken
 zich een semester lang aan tafel gezet met enkele
-enthousiaste eerstejaars, om een spirituele opvolger voor Gamification
-te ontwerpen (die intussen zelfs al naar implementatiefase is overgegaan!).
+enthousiaste eerstejaars om een spirituele opvolger voor Gamification
+te ontwerpen, die intussen zelfs al naar implementatiefase is overgegaan!
 Het resultaat is G2 
 \<_Gamification 2, spreek uit 'geetwee' ofte 'gateway' in brak Engels_\>.
 De aanzet is dat G2 vooral wil inzetten op zichtbaarheid
 en discoverability van wat er te doen is en gedaan wordt in zeusprojectland.
-Dit slaat enkele vliegen in een klap: aan de ene kant is het motiverend
+Dit slaat enkele vliegen in één klap: aan de ene kant is het motiverend
 om zichtbaarheid voor je werk te krijgen, en aan de andere kant
 werkt momentum aanstekelijk. Daarbovenop is het dan ook nog gemakkelijk
 om een taakje te vinden om die motivatie op los te laten!
@@ -116,11 +116,11 @@ vooral een _gateway_ naar uw volgende bijdrage aan de Zeus codebases.
 
 
 _Gemotiveerd om bij te dragen, maar gebrek aan G2 om je te vertellen
-hoe je kan helpen? Por uw lokale projectverantwoordelijke (Iasoon en Destro) aan!_
+hoe je kan helpen? Por uw lokale projectverantwoordelijke (Iasoon en Destro)!_
 
 
 # Blogposts
-We zouden graag wat actiever inzetten op onze blogposts op de site,
+We zouden graag actiever inzetten op onze blogposts op de site,
 dus als jij iets tofs hebt ontdekt (een nieuw framework, een up-and-coming programmeertaal,
 of een fancy colorscheme of toetsenbordlayout) schrijf er gerust een blogpost over,
 stuur het in via pull request en inspireer je mede-zeusers!
@@ -132,9 +132,9 @@ van pen en papier/turven naar het huidige fancy telsysteem is ontstaan in onze <
 Wel, niet veel, maar gelukkig houdt dat onze gemotiveerde zeusers niet tegen om er elk jaar weer aan verder te werken!
 Ook dit jaar zijn de voorbereidingen weer druk bezig, wordt nieuwe hardware gebruikt en
 zit ons, ondertussen vast, team 12UL'ers te zwoegen om alles op tijd af te krijgen.
-Goesting om te helpen of meer te leren? Ga op slack eens kijken in #12ul of poke het bestuur, ze zullen je zeker verder kunnen introduceren.
+Goesting om te helpen of meer te leren? Ga op slack eens kijken in #12urenloop of poke het bestuur; ze zullen je zeker verder kunnen introduceren.
 
-Oh en nog een leuk weetje, twee jaar geleden hadden we het \<_Al dan niet fantastische_\> idee om mee te _lopen_ op de 12UL.
+Oh en nog een leuk weetje: twee jaar geleden hadden we het \<_Al dan niet fantastische_\> idee om mee te _lopen_ op de 12UL.
 Vol trots dat we het eerste jaar effectief hebben kunnen vollopen \<_Als je ons niet gelooft, kijk maar eens op onze [wiki](https://zeus.ugent.be/wiki/doku.php?id=zeusloopt>)_\>,
 maar toch geen goesting meer om nog volledige uren te lopen sloegen we vorig jaar de handen in elkaar met de rest van de WVK verenigingen.
 Ook dit jaar zetten we dit verder, dus als je zin hebt om mee te lopen met Zeus en de rest van de WVK verenigingen, iedereen is welkom om bij ons te lopen!!
