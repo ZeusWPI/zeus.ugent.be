@@ -1,7 +1,7 @@
 ---
 author: David Vandorpe
 title: 'Cyber Security Challenge 2018: Radium'
-created_at: 08/03/2018
+created_at: 08-03-2018
 description: A writeup of one of the Cyber Security Challenge's more difficult tasks
 toc: true
 ---
