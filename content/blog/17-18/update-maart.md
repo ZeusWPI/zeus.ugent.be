@@ -1,8 +1,8 @@
 ---
 author: Elo & Iasoon
-title: 'Het reilen en zeilen van zeus: Maart 2018'
+title: 'Het reilen en zeilen van Zeus: Maart 2018'
 created_at: 13-03-2018
-description: Een update over het leven in zeus.
+description: Een update over het leven in Zeus.
 toc: true
 ---
 
@@ -10,7 +10,7 @@ Dag (ex-)Zeusleden en sympathisanten,
 
 \<_ik denk toch dat nieuwsbrieven zo beginnen_\>
 
-Welkom op de eerste zeus-update-blogpost-nieuwbrief!
+Welkom op de eerste Zeus-update-blogpost-nieuwbrief!
 
 \<_Met hopelijk meer hiervan in de toekomst!_\>
 
@@ -27,7 +27,7 @@ ideeën hebben of ergens aan willen meehelpen, contacteer gerust ons bestuur
 Een voorbeeld situatie: je hebt nieuwe schoenen gekocht, super pretty, witte sneakers.
 Vol trots schoei je jezelf \<_ja schoeien is een woord, nee ik ben niet zeker dat het zo gebruikt word_\> met je nieuwe witte voetomhulsels en vertrek je richting les.
 Eenmaal aangekomen aan de S9 besef je dat je eigenlijk echt niet naar de les wilt gaan, dan maar richting kelder.
-Je daalt langzaam de trappen af en wordt geconfronteerd met een rood stoffig spul dat de S9-gangers bij gebrek aan beter woord "vloer" noemen.
+Je daalt langzaam de trappen af en wordt geconfronteerd met een rood stoffig spul dat de S9-gangers bij gebrek aan beter woord de "vloer" noemen.
 Oh nee, de keuze: Je schoenen riskeren of een saaie namiddag?
 
 TREUR NIET LANGER
@@ -64,7 +64,7 @@ Meer informatie vind je op <https://bottlebats.zeuswpi.org/>!
 Zeus is van plan om een soort samenwerking op te zetten met verschillende bedrijven.
 De precieze details van deze samenwerking en de aard van die bedrijven liggen echter nog niet vast.
 Moest je hier ideeën voor hebben of je wilt graag helpen, klop gerust aan bij onze penning Timo (timpy),
-je herkent hem aan zijn mini-man-bun.
+die je herkent aan zijn mini-man-bun.
 
 # Lasershoot
 Een eerste aanleiding tot zo een samenwerking is een van onze komende events: Een lasershoot in samenwerking met delaware.
@@ -127,9 +127,9 @@ stuur het in via pull request en inspireer je mede-zeusers!
 
 # 12UL
 
-Ah de 12 urenloop, gekend over heel studentenland,
+Ah de 12urenloop, gekend over heel studentenland,
 maar hoeveel man is er zich eigenlijk van bewust dat de overgang
-van pen en papier/turven naar het huidige fancy telsysteem is ontstaan in onze ~stoffige~ kelder?
+van pen en papier/turven naar het huidige fancy telsysteem is ontstaan in onze <del>stoffige</del> kelder?
 Wel, niet veel maar gelukkig houdt dat onze gemotiveerde zeusers niet tegen om er elk jaar weer aan verder te werken!
 Ook dit jaar zijn de voorbereidingen weer druk bezig, wordt nieuwe hardware gebruikt en
 zit ons ondertussen vast team 12UL'ers te zwoegen om alles op tijd af te krijgen.
