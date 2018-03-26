@@ -1,4 +1,11 @@
-# Zeus x delaware lasershoot 21/3/2018
+---
+created_at: 25-03-2018
+author: Str Gen
+title: Zeus x delaware lasershoot 21/3/2018
+description: In samenwerking met delaware ging Zeus met lasers spelen. Was het wijs? Voor herhaling vatbaar? Is water nat? Vis het uit in deze blogpost!
+---
+
+[Link naar het event](/events/17-18/lasershoot/)
 
 Dag zeusjes,
 
