@@ -4,9 +4,10 @@ cache:
   apt: true
   bundler: true
   # Cache nanoc directories
-  directories:
-    - output
-    - tmp
+  # NEVER MIND LOL
+  # directories:
+  #   - output
+  #   - tmp
 
 addons:
   apt:
