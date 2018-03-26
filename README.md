@@ -46,7 +46,7 @@ Go to <http://localhost:3000> to view the site! When developing, the site gets r
 
 ### Deploying
 
-The latest builds on master get deployed automatically using [travis](https://travis-ci.org).
+The latest and greatest builds on master get deployed automatically using [travis](https://travis-ci.org).
 
 For manual deployment, run
 
