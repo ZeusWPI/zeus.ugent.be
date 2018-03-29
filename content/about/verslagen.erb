@@ -1,3 +1,9 @@
+---
+narrow_page: true
+---
+
+<%= render '/partials/_about_sub_navbar.*', selected: 'verslagen' %>
+
 <div class="content">
   <h1>Reports</h1>
   <% reports.group_by {|r| r[:academic_year]}.each do |year, y_reports| %>
