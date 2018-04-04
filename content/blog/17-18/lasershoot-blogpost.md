@@ -9,7 +9,7 @@ description: In samenwerking met delaware ging Zeus met lasers spelen. Was het w
 
 Dag zeusjes,
 
-Intussen 9 maanden geleden nam [delaware consulting](https://www.delaware.pro/en-BE) contact op met Zeus om samen een event te organiseren, een **lasershoot hackaton** in de Gentse kantoren van het bedrijf. Wat volgde was maandenlang emailverkeer en moeite om fysiek af te spreken. Na de kerstexamens kwam het idee terug boven water en het resultaat mag er, volgens mij, geweest zijn.
+Intussen 9 maanden geleden nam [delaware consulting](https://www.delaware.pro/en-BE) contact op met Zeus om samen een event te organiseren, een **lasershoot hackaton** in de Gentse kantoren van het bedrijf. Tijdens de eerste maanden van het nieuwe academiejaar bleef de organisatie wat op het achterplan, maar na de kerstexamens kwam het idee terug boven water en het resultaat mag er, volgens mij, geweest zijn.
 
 Enthousiaste medewerkers van delaware deden hun werk midden februari al uit de doeken aan Elo en mij.
 
