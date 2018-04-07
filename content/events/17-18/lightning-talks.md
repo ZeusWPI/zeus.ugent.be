@@ -1,7 +1,7 @@
 ---
 title: "Lightning Talks: Titan Edition"
 image: "https://zeus.ugent.be/zeuswpi/_zwUbo1w.png"
-banner: "https://zeus.ugent.be/zeuswpi/yTpAg-pN.jpg"
+banner: "https://zeus.ugent.be/zeuswpi/3jBzctUu.jpg"
 description: "Kom naar deze snelle babbels van oud-Zeusleden!"
 time: "03-05-2018 18:30"
 location: "A1 - S9, Campus Sterre"
