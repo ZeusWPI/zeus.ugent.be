@@ -40,7 +40,7 @@ Kom met een idee & hack het samen met je team in elkaar om het diezelfde avond n
 
 18u45: teams samengesteld, onderwerpen gekozen, klaar voor de start, originele schatting -> spelen vanaf 21u
 
-Ideeën:
+### Ideeën:
 
 * **Herkenning van friendly-fire** tegen de raspberry pi's mogelijk maken
 * **Gamemodes:** Capture the flag met codes op de pi van het andere team als flags & tijdslimieten, Behemoth mode (1 supercharged speler per team)
