@@ -40,20 +40,20 @@ Kom met een idee & hack het samen met je team in elkaar om het diezelfde avond n
 
 18u45: teams samengesteld, onderwerpen gekozen, klaar voor de start, originele schatting -> spelen vanaf 21u
 
-Ideeën:
+### Ideeën:
 
-* Herkenning van friendly-fire tegen de raspberry pi's mogelijk maken
+* **Herkenning van friendly-fire** tegen de raspberry pi's mogelijk maken
 * **Gamemodes:** Capture the flag met codes op de pi van het andere team als flags & tijdslimieten, Behemoth mode (1 supercharged speler per team)
-* Anti-camper app: niet bewegen = schreeuwende telefoon die je positie verraadt
+* **Anti-camper app**: niet bewegen = schreeuwende telefoon die je positie verraadt
 * Streamlinen van de code van het vertrekpunt
-* Herwerken van het basis scorebord tot een Zeus-approved versie met katten
+* Herwerken van het basis **scorebord** tot een __Zeus-approved__ versie met katten
 * Leukere weergave dan een groen of rood scherm voor de gezondheid van de basissen
 
-19u15: (front end team): verder in PHP? Misschien toch maar niet. Python dan maar via Flask. 2 man die Flask kent, de rest kan beginnen met de documentatie. Graduele opbouw van stress (het gebrek aan) vorderingen, twijfels over Flask, framework leren in 2u is niet optimaal. Schism: voor het scorebord terug naar PHP, voor de gezondheidsstatus van de basissen nog steeds Flask. Muziekje op de achtergrond. Verder hacken, frustratie, gevolgd door overwinningen. Het gaat de goede kant op.
+19u15: (front end team): verder in PHP? Misschien toch maar niet. Python dan maar via Flask. 2 man die Flask kent, de rest kan beginnen met de documentatie. Graduele opbouw van stress door (het gebrek aan) vorderingen, twijfels over Flask, framework leren in 2u is niet optimaal. Schism: voor het scorebord terug naar PHP, voor de gezondheidsstatus van de basissen nog steeds Flask. Muziekje op de achtergrond. Verder hacken, frustratie, gevolgd door overwinningen. Het gaat de goede kant op.
 
 21u00: **free food -> &#127829;** + statusupdate, m.a.w. de realisatie dat er nog werk nodig is voor een werkend resultaat en niet veel tijd meer om het te halen. Haastwerk om toch maar rond te geraken, focus, met resultaat. Tijd om af te ronden, net klaar. Hopen dat het straks zal blijven werken.
 
-22u00: De resultaten?
+22u00: De **resultaten?**
 
 * **Friendly fire** probleem **opgelost**
 * Gamemodes: de meeste nog in ontwikkeling, nog niet echt speelbaar
