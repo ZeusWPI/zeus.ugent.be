@@ -6,6 +6,17 @@ description: Eindelijk, de Zeus kelder heeft een nieuwe vloer!
 toc: true
 ---
 
+**vleor** (_de; m;_ meervoud: _vleoren_)
+
+  1. _vloer_, verkeerd gespeld
+  2. Kreet van vreugde geslaakt door Zeus-leden bij de gedachte aan een nieuwe vloer
+
+  > VLOER
+  >
+  > VLEOR
+  >
+  > VOELR
+
 # Een korte geschiedenis
 
 ## 2014-2015
