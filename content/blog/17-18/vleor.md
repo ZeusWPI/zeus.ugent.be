@@ -8,7 +8,7 @@ toc: true
 
 # Een korte geschiedenis
 
-## 2014
+## 2014-2015
 
 Het begon allemaal op 1 juli 2014, in het [verslag](https://zeus.ugent.be/about/verslagen/14-15/2014-07-01.pdf) van een kersvers Zeus-bestuur kunnen we lezen dat ze parket wouden (laten) leggen.
 De vloer, een onuitputtelijke bron aan rood gruis, begon ieder Zeuslid die regelmatig de kelder binnenkwam (en weer buiten kwam, voor de helft in het rood) grondig op de zenuwen te werken.
@@ -16,27 +16,25 @@ De vloer, een onuitputtelijke bron aan rood gruis, begon ieder Zeuslid die regel
 Onwetend naar de omvang van deze queeste, beslisten zij om van de gelegenheid gebruik te maken de volledige kelder te herinrichten.
 Dit project zou de geschiedenis ingaan als de _[KELDERRENOVATIEZ](https://zeus.ugent.be/wiki/doku.php?id=archief:kelderrenovatiez)_.
 
-## 2015
-
 In april van datzelfde academiejaar gaan deze renovaties inderdaad door.
 Een hoop nieuwe tafels worden in de kelder gesmeten en de meeste leden zijn tevreden.
 De vloer echter, nog altijd in dezelfde stoffige staat, werd op de lange baan geschoven.
 
-## 2016
+## 2015-2016
 
-Jeroen, Zeus voorzitter in het werkjaar '15-'16 beslist in mei om nog een poging te wagen.
+Jeroen, voorzitter dit werkjaar, beslist in mei om nog een poging te wagen.
 Vol goede hoop en moed informeert hij bij de Directie Gebouwen en Facilitair Beheer (DGFB), maar meer resultaat dan wat doorverwijzingen via mail wordt niet bereikt.
 En de vloer stofte rustig verder.
 
-Later dat jaar, rond oktober, schakelen we Jens in om een officiële bouwaanvraag in te dienen.
+## 2016-2017
 
-## 2017
+In een wanhoopsdaad schakelen we Jens in om in onze plaats een bouwaanvraag in te dienen bij de UGent. Ook hier komt niet direct antwoord op. Het Zeus-bestuur staat op het punt om het heft in eigen handen te nemen.
 
-Als een mirakel verschijnen enkele mannen van DGFB in de kelder om de ruimte op te meten. Nog voor we goed en wel beseffen wat er aan de hand is, vertrekken ze met de noorderzon om niets meer van zich te laten horen.
+Maar hoezee! Als een mirakel verschijnen enkele mannen van DGFB op een vrolijke lentedag in de kelder om het lokaal op te meten. Nog voor we goed en wel beseffen wat er aan de hand is, vertrekken ze met de noorderzon om niets meer van zich te laten horen.
 
-## 2018
+## 2017-2018
 
-In maart krijgt Jens eindelijk een nieuw teken van leven van DGFB:
+In maart 2018 krijgt Jens eindelijk een nieuw teken van leven van DGFB:
 
 > Dag Jens
 >
@@ -106,7 +104,7 @@ Uiteindelijk kregen we alle zware materialen terug de kelder binnen. Uiteraard w
 
 Tot slot dankt Zeus en zijn bezoekers de volgende mensen voor hun bijdrage aan het bannen van rood stof uit onze levens:
 
-Benji, DICT, Elo, Francis, Gilles, Isaura, Jens, Kenneth, Laurens, Lorin, Mats, Mitch, Tibo, Timo, Wout en de mannen van DGFB. ❤
+Arne, Benji, DICT, Elo, Francis, Gilles, Isaura, Jens, Kenneth, Laurens, Lorin, Mats, Mitch, Tibo, Timo, Wout en de mannen van DGFB. ❤
 
 _'s nachts, als de servers idlen en de muziek uitstaat, kun je, wanneer je even stopt met ademen, onder je voeten horen hoe de rode vloer zachtjes huilt na meer dan 25 jaar de stevige bodem geweest te zijn waar Zeusleden hun schoenen rood op konden laten kleuren..._
 
