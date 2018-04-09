@@ -102,7 +102,7 @@ Tot slot dankt Zeus en zijn bezoekers de volgende mensen voor hun bijdrage aan h
 
 Arne, Benji, DICT, Elo, Francis, Gilles, Isaura, Jens, Kenneth, Laurens, Lorin, Mats, Mitch, Tibo, Timo, Wout en de mannen van DGFB. ❤
 
-_'s nachts, als de servers idlen en de muziek uitstaat, kun je, wanneer je even stopt met ademen, onder je voeten horen hoe de rode vloer zachtjes huilt na meer dan 25 jaar de stevige bodem geweest te zijn waar Zeusleden hun schoenen rood op konden laten kleuren..._
+_'s Nachts, als de servers idlen en de muziek uitstaat, kun je, wanneer je even stopt met ademen, onder je voeten horen hoe de rode vloer zachtjes huilt na meer dan 25 jaar de stevige bodem geweest te zijn waar Zeusleden hun schoenen rood op konden laten kleuren..._
 
 -- Rien, voorzitter '17-'18
 
