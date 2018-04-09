@@ -13,4 +13,16 @@ module BlogHelper
       "#{minutes} minuten"
     end
   end
+
+  def figure(img_url, caption, alt = nil)
+    alt ||= caption
+    <<~HTML
+      <figure class="image">
+      <a href="#{img_url}">
+      <img src="#{img_url}" alt="#{alt}">
+      </a>
+      <figcaption>#{caption}</figcaption>
+      </figure>
+    HTML
+  end
 end

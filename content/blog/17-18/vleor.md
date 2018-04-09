@@ -51,30 +51,28 @@ De vloer, stofte zijn laatste stoffen uit.
 
 # De leegmaak
 
-![Voor de leegmaak](https://zeus.ugent.be/zeuswpi/T1G3gDC8.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/T1G3gDC8.jpg', 'Voor: een stoffige rode kelder' %>
 
 Dinsdag 4 april. Om 10 uur 's ochtends beginnen enkele moedige Zeusers aan het ontruimen van de kelder.
 DICT was zo vriendelijk hun ontspanningsruimte ter beschikking te stellen als voorlopige opslagplaats voor kostelijke materialen.
 De zwaardere en grotere voorwerpen werden in de gang gesmeten.
 
-**Volop aan het werken**
-![Volop aan het werken](https://zeus.ugent.be/zeuswpi/1RXca_tJ.jpg)
 
-**Een compleet lege kelder**
-![Lege kelder in panorama](https://zeus.ugent.be/zeuswpi/SM5ToXlH.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/1RXca_tJ.jpg', 'Volop aan het werken' %>
 
-**Op een bedanking na voor de noeste arbeiders**
-![Compleet lege kelder](https://zeus.ugent.be/zeuswpi/dLDR0GR4.jpg)
+
+<%= figure 'https://zeus.ugent.be/zeuswpi/SM5ToXlH.jpg', 'Lege kelder in panorama' %>
+
+
+<%= figure 'https://zeus.ugent.be/zeuswpi/dLDR0GR4.jpg', 'Volledig leeg, op een bedankingkje voor de noeste arbeiders na' %>
 
 # De werken
 Op woensdag 4 april vonden de werken plaats, helaas was er geen reporter ter plaatse om deze wonderbaarlijke transformatie te documenteren.
 
 Die avond zelf konden we de gloednieuwe kelder bewonderen, die nog stilletjes aan het drogen was:
-![Nieuwe vloer, met gele lintjes](https://zeus.ugent.be/zeuswpi/nu9QWCME.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/nu9QWCME.jpg', 'De nieuwe vloer, aan het drogen' %>
 
-**Het resultaat:**
-
-![Gloednieuwe vloer](https://zeus.ugent.be/zeuswpi/oLHag8pY.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/oLHag8pY.jpg', 'Het resultaat: prachtig blinkende vloer' %>
 
 # De volsteek
 Na een weekendje drogen was op maandag 9 april de dag aangebroken om de kelder terug om te toveren tot de gezellige ruimte van voordien.
@@ -88,19 +86,15 @@ Het uiteindelijke resultaat is slechts een lichte wijziging tegenover vroeger. E
  - De servers zijn niet meer vlak naast de verwarming
  - De kleine tafels vormen nu een 'eiland'
 
-![De nieuwe layout](https://zeus.ugent.be/zeuswpi/-lEawigY.png)
+<%= figure 'https://zeus.ugent.be/zeuswpi/-lEawigY.png', 'De nieuwe layout' %>
 
 Doorheen de dag konden nieuwsgierige voorbijgangers bewonderen en vooral horen hoe een zooitje ongeregeld wanhopig met kasten en tafels aan het sleuren waren in de kelderverdieping van de S9.
 
-![Note to self: haal eerst te metalen dingen uit de kast vooraleer die te verplaatsen](https://zeus.ugent.be/zeuswpi/ejpb5D0z.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/ejpb5D0z.jpg', 'Note to self: haal eerst te metalen dingen uit de kast vooraleer die te verplaatsen' %>
 
-Uiteindelijk kregen we alle zware materialen terug de kelder binnen. Uiteraard werd vervolgens de nieuwe zetelopstelling uitgebreid getest.
+<%= figure 'https://zeus.ugent.be/zeuswpi/XkLhaJVu.jpg', 'Uiteraard werd de nieuwe zetelopstelling uitgebreid getest.' %>
 
-![](https://zeus.ugent.be/zeuswpi/XkLhaJVu.jpg)
-
-**Het eindresultaat:**
-
-![](https://zeus.ugent.be/zeuswpi/trZFwU90.jpg)
+<%= figure 'https://zeus.ugent.be/zeuswpi/trZFwU90.jpg', 'Het eindresultaat' %>
 
 Tot slot dankt Zeus en zijn bezoekers de volgende mensen voor hun bijdrage aan het bannen van rood stof uit onze levens:
 
