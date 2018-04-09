@@ -61,7 +61,7 @@ De zwaardere en grotere voorwerpen werden in de gang gesmeten.
 <%= figure 'https://zeus.ugent.be/zeuswpi/1RXca_tJ.jpg', 'Volop aan het werken' %>
 
 
-<%= figure 'https://zeus.ugent.be/zeuswpi/SM5ToXlH.jpg', 'Lege kelder in panorama' %>
+<%= figure 'https://zeus.ugent.be/zeuswpi/SM5ToXlH.jpg', 'Lege kelder in panorama', img_class: 'full-width' %>
 
 
 <%= figure 'https://zeus.ugent.be/zeuswpi/dLDR0GR4.jpg', 'Volledig leeg, op een bedankingkje voor de noeste arbeiders na' %>
@@ -94,7 +94,9 @@ Doorheen de dag konden nieuwsgierige voorbijgangers bewonderen en vooral horen h
 
 <%= figure 'https://zeus.ugent.be/zeuswpi/XkLhaJVu.jpg', 'Uiteraard werd de nieuwe zetelopstelling uitgebreid getest.' %>
 
-<%= figure 'https://zeus.ugent.be/zeuswpi/trZFwU90.jpg', 'Het eindresultaat' %>
+<%= figure 'https://zeus.ugent.be/zeuswpi/trZFwU90.jpg', 'Het eindresultaat', img_class: 'full-width' %>
+
+[Hier](https://photos.app.goo.gl/msViDCs4CtUFM90D2) kun je nog eens nagenieten van de volledige fotoreportage.
 
 Tot slot dankt Zeus en zijn bezoekers de volgende mensen voor hun bijdrage aan het bannen van rood stof uit onze levens:
 

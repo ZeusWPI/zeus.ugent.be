@@ -115,3 +115,13 @@ $sel: '';
     width: 100%;
   }
 }
+
+img.full-width {
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+}
