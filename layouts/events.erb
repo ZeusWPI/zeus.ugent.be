@@ -27,7 +27,7 @@
       <div class="content">
         <h1>Upcoming events</h1>
       </div>
-      <% upcoming_events(@item[:academic_year]).each_slice(2) do |slice| %>
+      <% upcoming_events(@item[:academic_year]).each_slice(1) do |slice| %>
       <div class="columns">
         <% slice.each do |event| %>
         <div class="tile is-parent ">
@@ -42,7 +42,7 @@
       <div class="content">
         <h1>Past events</h1>
       </div>
-      <% past_events(@item[:academic_year]).each_slice(2) do |slice| %>
+      <% past_events(@item[:academic_year]).each_slice(1) do |slice| %>
       <div class="columns">
         <% slice.each do |event| %>
         <div class="tile is-parent ">

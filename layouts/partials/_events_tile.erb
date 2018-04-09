@@ -8,6 +8,9 @@
   <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg">
 <% end %>
   <div class="content event-content">
+  <% if @event[:image] %>
+  <img class="event-tile-image" src="<%= @event[:image] %>" alt="">
+  <% end %>
     <div class="event-text">
       <h1 class="has-text-centered">
         <%= @event[:title] %>
