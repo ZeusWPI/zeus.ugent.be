@@ -84,13 +84,13 @@ compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
   filter :kramdown
+  filter :typogruby
 
   layout '/blogpost.erb'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
 
-  filter :typogruby
 end
 
 compile '/blog/*/*.md', rep: :text do
