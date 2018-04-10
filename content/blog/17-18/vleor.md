@@ -1,6 +1,6 @@
 ---
 author: Rien Maertens
-title: "Het avontuur van de Vleor (sic)"
+title: "Het avontuur van de Vleor"
 created_at: 09-04-2018
 description: Eindelijk, de Zeus kelder heeft een nieuwe vloer!
 toc: true
