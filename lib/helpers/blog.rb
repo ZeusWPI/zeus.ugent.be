@@ -17,7 +17,7 @@ module BlogHelper
   def figure(img_url, caption, alt = nil, img_class: nil)
     alt ||= caption
     <<~HTML
-      <figure class="image" class="#{img_class}">
+      <figure class="image #{img_class}">
         <a href="#{img_url}">
           <img src="#{img_url}" alt="#{alt}">
         </a>
