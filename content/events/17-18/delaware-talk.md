@@ -16,7 +16,7 @@ This event is part of the [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].p
 
 # Intro
 
-[delaware](https://www.delaware.pro/en-be), the global consultancy firm with which we co-hosted the [Lasershoot](<%= @item['/blog/17-18/lasershoot-blogpost.md].path %>) event is back. This time they will do a two-part presentation about technology and innovation at delaware. The total presenting time will be 1h30, divided among both topics. Afterwards we'd like to invite you, as per usual at talks, to a brief reception.
+[delaware](https://www.delaware.pro/en-be), the global consultancy firm with which we co-hosted the [Lasershoot](<%= @items['/blog/17-18/lasershoot-blogpost.md'].path %>) event is back. This time they will do a two-part presentation about technology and innovation at delaware. The total presenting time will be 1h30, divided among both topics. Afterwards we'd like to invite you, as per usual at talks, to a brief reception.
 
 # Part 1: Continuous web app deployment with zero downtime
 
