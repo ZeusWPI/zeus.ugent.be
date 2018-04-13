@@ -94,11 +94,13 @@ compile '/blog/*/*.md' do
 end
 
 compile '/blog/*/*.md', rep: :text do
+  filter :erb
   filter :kramdown
   filter :strip_html
 end
 
 compile '/blog/*/*.md', rep: :html do
+  filter :erb
   filter :kramdown
 end
 
