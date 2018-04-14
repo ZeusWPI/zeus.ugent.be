@@ -78,7 +78,7 @@ The problem here was that we only could put cables _around_ the circuit, we coul
 
 ## count-von-count
 
-Now, I will elaborate on the software which interpolates the data received from the Gyrid nodes in order to count laps<sup><a href="#fn1" class="footnoteRef" id="fnref1">1</a></sup>. `count-von-count` is a robust system written in the [Haskell](https://haskell.org/) programming language.
+Now, I will elaborate on the software which interpolates the data received from the Gyrid nodes in order to count laps[^1]. `count-von-count` is a robust system written in the [Haskell](https://haskell.org/) programming language.
 
 At this point, we have a central node which receives 4-tuples from the Gyrid nodes:
 
@@ -141,3 +141,5 @@ When the contest started, both Gyrid, `count-von-count` and `dr.beaker` turned o
 Initially, we were able to swap the broken relay batons for the few spare ones we had, and then quickfix the broken ones using some duct tape. After about five hours, however, they really started breaking -- at a rate that was hard to keep up with using quickfixing.
 
 Hence, this is the main goal for next year: build reliable, solid relay batons. We need to be able to throw them down from a four-story building. Beth Dido needs to be able to use them as a dildo, and they should come out unharmed. Feel free to [contact us](https://zeus.ugent.be/contact/) if you're interested in making this happen!
+
+[^1]: Because the author of this blogpost is also the author of `count-von-count`, this component is explained in a little more detail.
