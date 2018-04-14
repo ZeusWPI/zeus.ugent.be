@@ -1,5 +1,5 @@
 ---
-title: 'Delaware TechZ talk'
+title: 'Delaware Tech talkz'
 description: Two experts discuss how .
 created_at: 10-04-2018
 time: '18-04-2018 19:30'
@@ -23,7 +23,7 @@ This event is part of the [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].p
 Did you know that it takes Google, Microsoft and Facebook only a few days or weeks to release a new version of their applications?
 During this session we'll discuss how we can use Scrum as a process to enforce continuous delivery, 
 and what it takes to deploy new stable versions of web applications with confidence (and without any downtime).
-This part will be presented by Emanuel Dejonghe, senior full-stack developer for delaware and UGhent alumnus.
+This part will be presented by Emanuel Dejonghe, senior full-stack developer for delaware and Ghent University alumnus.
 
 # Part 2: AI / ML @delaware
 
