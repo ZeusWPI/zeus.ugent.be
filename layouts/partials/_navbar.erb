@@ -1,72 +1,59 @@
 <div id="navbar">
-  <div class="columns">
-    <div class="logo-wrapper column is-narrow is-hidden-mobile">
-      <a id="logo-link" href="/">
+  <div class="navbar <%= 'is-transparent' if defined? @transparent_nav %>">
+    <div class="navbar-brand">
+      <a class="navbar-item" id="logo-link" href="/">
         <% if christmastime? %>
           <img id="santa" src="/assets/images/pusheen.png">
         <% end %>
         <img id="logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
       </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-    <div class="actual-nav-bar column">
-      <nav class="nav">
-          <a class="is-hidden-tablet nav-item" href="/">
-            <img id="inline-logo" src="<%= zeus_logo_url color: @zeus_logo_color %>" alt="" />
-          </a>
-          <div class="nav-menu nav-left <%= 'nav-transparent' if defined? @transparent_nav %>">
-            <% navigables.each do |i| %>
-            <a class="nav-item is-tab <%= 'is-active' if child_of(i) %>" href="<%= i.path %>">
-              <%= i[:title] %>
-            </a>
-            <% end %>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <% navigables.each do |i| %>
+        <a class="navbar-item <%= 'is-active' if child_of(i) %>" href="<%= i.path %>">
+          <%= i[:title] %>
+        </a>
+        <% end %>
+      </div>
+      <!-- TODO: Remove this is-hidden-touch, it's just a convenience for now -->
+      <div class="navbar-end is-hidden-touch">
+        <form action="/search/?" method="get" class="navbar-item nav-search">
+          <div id="tipue_search_input">
+            <input type="text" name="q" id="tipue_search_input_field" autocomplete="off">
           </div>
-
-
-          <!-- Filler for when mobile -->
-          <div class="nav-left is-hidden-tablet"></div>
-
-          <div class="nav-right">
-            <form action="/search/?" method="get">
-              <div id="tipue_search_input" class="nav-item nav-search">
-                <input type="text" name="q" id="tipue_search_input_field" autocomplete="off">
-              </div>
-            </form>
-          </div>
-
-          <span class="nav-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+        </form>
+        <a class="navbar-item social-icon" href="https://github.com/ZeusWPI" target="_blank">
+          <span class="icon">
+            <%= fa :github %>
           </span>
-
-          <div class="nav-right is-hidden-mobile">
-              <a class="nav-item social-icon" href="https://github.com/ZeusWPI" target="_blank">
-                  <span class="icon">
-                    <%= fa :github %>
-                  </span>
-              </a>
-              <a class="nav-item social-icon" href="https://www.facebook.com/zeus.wpi/" target="_blank">
-                  <span class="icon">
-                    <%= fa :facebook %>
-                  </span>
-              </a>
-              <a class="nav-item social-icon" href="/feed.xml" target="_blank">
-                  <span class="icon">
-                    <%= fa :rss %>
-                  </span>
-              </a>
-              <a class="nav-item social-icon" href="/ical.ics">
-                  <span class="icon">
-                    <%= fa :calendar %>
-                  </span>
-              </a>
-              <a class="nav-item social-icon" href="//zeus.ugent.be/wiki">
-                  <span class="icon">
-                    <%= fa :'wikipedia-w' %>
-                  </span>
-              </a>
-          </div>
-      </nav>
+        </a>
+        <a class="navbar-item social-icon" href="https://www.facebook.com/zeus.wpi/" target="_blank">
+          <span class="icon">
+            <%= fa :facebook %>
+          </span>
+        </a>
+        <a class="navbar-item social-icon" href="/feed.xml" target="_blank">
+          <span class="icon">
+            <%= fa :rss %>
+          </span>
+        </a>
+        <a class="navbar-item social-icon" href="/ical.ics">
+          <span class="icon">
+            <%= fa :calendar %>
+          </span>
+        </a>
+        <a class="navbar-item social-icon" href="//zeus.ugent.be/wiki">
+          <span class="icon">
+            <%= fa :'wikipedia-w' %>
+          </span>
+        </a>
+      </div>
     </div>
   </div>
 </div>

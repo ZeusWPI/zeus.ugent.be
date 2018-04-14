@@ -17,62 +17,39 @@
     }
   }
 
-  .nav-menu {
-    z-index: 20;
-
-    .nav-transparent {
-      background: none;
-    }
-  }
-
-  .actual-nav-bar {
-    padding: 0;
-    margin: 10px;
-    margin-bottom: 0;
-    border-bottom: 1px solid #eee;
-  }
-
-  #inline-logo {
-    min-width: 38.703px;
-  }
-
   #logo-link {
+    @include desktop {
+      width: 124px;
+      border-bottom: 2px solid $body-background;
+      margin-bottom: -2px;
+    }
     #logo {
-      padding-left: 10px;
-      width: 100px;
+      @include desktop {
+        max-width: none;
+        max-height: none;
+        left: 0;
+        bottom: 5px;
+        width: 100px;
+        position: absolute;
+      }
     }
   }
 
-  //Height of the line underneath when hovering over a menu item
-  $border-height: 3px;
+  .navbar-item {
+    font-variant: small-caps;
+    font-size: 1.15em; 
+  }
 
-  .nav {
-    height: 100%;
-    align-items: flex-end;
-    z-index: auto;
-
-    .nav-item {
-      transition: 0.2s;
-
-      font-variant: small-caps;
-      font-size: 1.15em;
-
-      &:not(.nav-search) {
-        border-bottom: $border-height solid transparent;
-        border-top: 3px solid transparent;
+  .navbar:not(.is-transparent) {
+    .navbar-item {
+      &:not(.is-active) {
+        color: #7a7a7a;
       }
 
-      &:hover {
-        transition: 0.2s;
-      }
-
-      &.social-icon {
-          padding-left: 5px;
-          padding-right: 5px;
-      }
-
-      &:not(.nav-search):hover, &.is-active {
-        border-bottom-color: $zeus-orange;
+      &.is-active {
+        color: $primary;
+        border-bottom: 2px solid;
+        margin-bottom: -2px;
       }
     }
   }
