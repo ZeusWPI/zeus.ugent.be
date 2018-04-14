@@ -17,7 +17,7 @@
     }
   }
 
-  #logo-link {
+  .navbar:not(.is-transparent) #logo-link {
     @include desktop {
       width: 124px;
       border-bottom: 2px solid $body-background;
@@ -52,15 +52,5 @@
         margin-bottom: -2px;
       }
     }
-  }
-}
-
-.hero {
-  #logo {
-    padding-top: 25px;
-  }
-
-  .nav-right {
-    padding-right: 10px;
   }
 }
