@@ -24,7 +24,7 @@ Dit zullen we allemaal te weten komen op 8 mei om 18:00 in Lokaal V1 in de S9. I
 * Projectverantwoordelijke
 * PR-verantwoordelijke
 
-We introduceren dus PR-verantwoordelijke in ons roster van bestuursrollen! Zie de form voor een uitgebreide beschrijving van elke rol.
+We introduceren dus PR-verantwoordelijke in ons aanbod van bestuursrollen! Zie de form voor een uitgebreide beschrijving van elke rol.
 
 De deadline voor de kandidaturen is **2 mei 2018**, een week voor de verkiezingen.
 
