@@ -30,6 +30,6 @@ De deadline voor de kandidaturen is **2 mei 2018**, een week voor de verkiezinge
 
 # Burgers
 
-Een tweede jaar op rij breken we de ribbetjestraditie met burgers! Dit jaar is het in [O'Learys](https://olearys.be/gent-event-center/) te doen, waar je voor €17.5 Burgers à volonté én een activiteit (bowling, shuffle board en minigolf) naar keuze krijgt. Leute gegarandeerd dus!
+Na de intensieve verkiezingen gaan we eten en ons goed ontspannen. Een tweede jaar op rij breken we de ribbetjestraditie met burgers! Dit jaar is het in [O'Learys](https://olearys.be/gent-event-center/) te doen, waar je voor €17.5 Burgers à volonté én een activiteit (bowling, shuffle board en minigolf) naar keuze krijgt. Leute gegarandeerd dus!
 
 Inschrijven kan je op onze **[form](https://docs.google.com/forms/u/1/d/e/1FAIpQLSdhAZU1JkF3ypEkVnGXn9zJqVYh6i04ePel0HCGXMO8oOTpmQ/viewform)**. Doe dit voor **2 mei**.
