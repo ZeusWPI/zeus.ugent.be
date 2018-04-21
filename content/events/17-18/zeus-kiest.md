@@ -1,6 +1,6 @@
 ---
 title: Zeus Kiest
-description: Zeus kiest een nieuw bestuur, en gaan daarna het kot afbreken bij O'Learys.
+description: Zeus kiest een nieuw bestuur, en gaan daarna burgers eten en bowlen bij O'Learys.
 created_at: 20-04-2018
 time: 08-05-2018 18:00
 end: 08-05-2018 23:00
