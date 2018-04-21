@@ -15,7 +15,7 @@ _Zeus' members and alumni. Who do they vote on? Do they vote on people? Let's fi
 
 Het huidig bestuur is bijna een jaar oud, en dat vieren we door ze te vervangen met een nieuw en verbeterd model! Zal Rien's heerschappij voortgezet worden in '18-'19? Zal Timo volgend jaar de kans krijgen om te investeren in een lama voor Zeus? Neemt Wout zijn haar volgend jaar het hele bestuur over?
 
-Dit zullen we allemaal te weten komen op 8 mei om 18:00 in Lokaal V1 in de S9. Iedereen die zich kandidaat wil stellen, kan dit doen op onze **[form](https://docs.google.com/forms/d/e/1FAIpQLSfIuEMz8p8eKgNkukGYstJozOqeNlaebH9LGhTu926Ua08XlA/viewform)**. De beschikbare rollen voor volgend academiejaar zijn:
+Alle Zeusleden zijn welkom om dit allemaal te weten te komen op 8 mei om 18:00 in Lokaal V1 in de S9. Iedereen die zich kandidaat wil stellen, kan dit doen op onze **[form](https://docs.google.com/forms/d/e/1FAIpQLSfIuEMz8p8eKgNkukGYstJozOqeNlaebH9LGhTu926Ua08XlA/viewform)**. De beschikbare rollen voor volgend academiejaar zijn:
 
 * Voorzitter
 * Vicevoorzitter
