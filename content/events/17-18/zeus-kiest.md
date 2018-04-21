@@ -6,6 +6,7 @@ time: 08-05-2018 18:00
 end: 08-05-2018 23:00
 location: Lokaal V1, S9, Campus Sterre
 locationlink: S9, Sterre
+facebook: 'https://www.facebook.com/events/593833734311046'
 ---
 
 _Zeus' members and alumni. Who do they vote on? Do they vote on people? Let's find out!_
