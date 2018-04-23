@@ -18,12 +18,11 @@ module PreprocessHelper
     end
   end
 
-  def ignore_old_blogposts
+  def ignore_old_content(*paths)
     @items.delete_if do |item|
-      path = item.identifier.to_s
-      next unless path.start_with?('/blog/')
-      year = path.gsub(%r{/blog/(\d\d)-\d\d/.*}, '\1').to_i
-      year < 16
+      next unless item.identifier.match?(%r{^/(#{paths.join('|')})/})
+      year = item.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1]
+      year != @config[:academic_year]
     end
   end
 

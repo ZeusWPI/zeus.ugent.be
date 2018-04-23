@@ -14,7 +14,8 @@ preprocess do
   `npm install`
 
   # We don't want to compile old blogposts in development
-  ignore_old_blogposts if development?
+  ignore_old_content('blog', 'events', 'about/verslagen') if development?
+
   update_blog_attributes
   create_yearly_items('Blog')
   create_yearly_items('Events')
@@ -44,6 +45,8 @@ compile '/blog/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press
 end
 
 #
@@ -56,6 +59,8 @@ compile '/events/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press
 end
 
 compile '/events/*/*' do
@@ -65,6 +70,8 @@ compile '/events/*/*' do
   layout '/eventpost.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press
 end
 
 compile '/events/*/*', rep: :text do
@@ -91,6 +98,7 @@ compile '/blog/*/*.md' do
   layout '/default.*'
   filter :erb
 
+  filter :html_press
 end
 
 compile '/blog/*/*.md', rep: :text do
@@ -140,6 +148,8 @@ compile '/**/*.erb' do
 
   layout '/generic.*'
   layout '/default.*'
+
+  filter :html_press
 end
 
 compile '/**/*.md' do
