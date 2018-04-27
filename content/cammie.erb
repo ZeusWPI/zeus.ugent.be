@@ -4,6 +4,7 @@ title: Cammie
 ---
 <% content_for :scripts do %>
 <%= asset :js, :cammie %>
+<%= asset :js, :message %>
 <% end %>
 
 <section id="cammie-section">
@@ -66,4 +67,14 @@ title: Cammie
       </button>
     </div>
   </nav>
+  <div class="columns">
+    <div class="field has-addons ">
+      <div class="field control">
+          <input class="input chatbox" type="text" placeholder="Zeus is de max!">
+      </div>
+      <a class="button send control">
+        Send to kelder
+      </a>
+    </div>
+  <div>
 </section>
