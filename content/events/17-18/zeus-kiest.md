@@ -116,6 +116,7 @@ Mijn eerste keuze gaat uit naar Project, omdat het dit deel is van Zeus dat mij 
 samen klodden aan scheefdraaiende code is love, samen klodden aan scheefdraaiende code is life.
 
 Twee dingen zijn hierbij volgens mij het belangrijkste:
+
 - *Communicatie*: zowel in de richting bestuur -> leden als omgekeerd. Zorgen dat mensen op de hoogte zijn van lopende projecten 
 	is even belangrijk als openstaan voor nieuwe ideeen, ongeacht of deze nu van komen van veteranen of van nieuwe leden.
 
@@ -167,6 +168,7 @@ Mijn punten:
 #### Jasper & Rien
 
 Jasper zijn punten +
+
 - Het 'Ansible' probleem voor goed fixen
 - King opkuisen of opnieuw opbouwen
 - Accounts overhaul (Zeus Accountpage, userdirs herbekijken, ...)
