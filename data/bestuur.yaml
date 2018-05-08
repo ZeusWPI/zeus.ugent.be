@@ -185,3 +185,22 @@
     naam: Jeroen De Clerck
   - rol: Assisterend Bestuurslid
     naam: Laurens D'hooge
+18-19:
+  - rol: Voorzitter
+    naam: Robbe van Herck
+    mail: voorzitter@zeus.ugent.be
+  - rol: Vicevoorzitter
+    naam: Rien Maertens
+    mail: secretaris@zeus.ugent.be
+  - rol: Project
+    naam: Arne Bertrand
+    mail: project@zeus.ugent.be
+  - rol: PR
+    naam: Wout Schellaert
+    mail: pr@zeus.ugent.be
+  - rol: Penningmeester
+    naam: Timo De Waele
+    mail: penning@zeus.ugent.be
+  - rol: Sysadmin
+    naam: Jasper Devreker
+    mail: admin@zeus.ugent.be
