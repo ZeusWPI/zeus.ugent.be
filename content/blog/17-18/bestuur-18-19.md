@@ -9,7 +9,7 @@ Na een strijd tussen vicevoorzitters, een nagelbijtende keuzeronde tussen de kan
 
 | Rol            | Naam            |
 | -------------- | --------------- |
-| Voorzitter     | Robbe van Herck |
+| Voorzitter     | Robbe Van Herck |
 | Vicevoorzitter | Rien Maertens   |
 | Project        | Arne Bertrand   |
 | PR             | Wout Schellaert |
