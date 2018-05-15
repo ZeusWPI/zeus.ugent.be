@@ -45,11 +45,11 @@ narrow_page: true
 
  Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.<br>
 **Art. 15** - De hierboven vernoemde verantwoordelijkheden van de bestuursleden zijn niet-exhaustief. Ieder bestuurslid draagt o.a. een algemene verwantwoordelijkheid.<br>
-**Art. 15** - Het bestuur komt regelmatig samen op een daartoe vastgestelde dag, die door de voorzitter wordt vastgelegd en door de secretaris aan alle leden wordt meegedeeld. De bestuursvergadering is slechts geldig wanneer twee derden aanwezig is. De agendapunten moeten behandeld worden. Bij gelijke stemming heeft de voorzitter het laatste woord.<br>
-**Art. 16** - Alle voorstellen die tijdens een bepaalde vergadering werden voorgelegd, worden gebundeld. Een exemplaar hiervan wordt door de secretaris bedeeld aan de bestuursleden. Een exemplaar wordt publiekelijk beschikbaar gesteld via de website van de vereniging.<br>
+**Art. 16** - Het bestuur komt regelmatig samen op een daartoe vastgestelde dag, die door de voorzitter wordt vastgelegd en door de secretaris aan alle leden wordt meegedeeld. De bestuursvergadering is slechts geldig wanneer twee derden aanwezig is. De agendapunten moeten behandeld worden. Bij gelijke stemming heeft de voorzitter het laatste woord.<br>
+**Art. 17** - Alle voorstellen die tijdens een bepaalde vergadering werden voorgelegd, worden gebundeld. Een exemplaar hiervan wordt door de secretaris bedeeld aan de bestuursleden. Een exemplaar wordt publiekelijk beschikbaar gesteld via de website van de vereniging.<br>
 
 # Hoofdstuk IV - Eindbepaling
 
-**Art. 17** - De statuten kunnen slechts gewijzigd worden op een algemene ledenvergadering waar minstens 1/2 van de leden aanwezig is. Hiervoor is bij stemming een 2/3 meerderheid van alle aanwezige leden vereist.<br>
-**Art. 18** - In geval van ontbinding zal de vereniging beslissen dat het nettoactief zal gestort worden aan een nader te bepalen goed doel.<br>
+**Art. 18** - De statuten kunnen slechts gewijzigd worden op een algemene ledenvergadering waar minstens 1/2 van de leden aanwezig is. Hiervoor is bij stemming een 2/3 meerderheid van alle aanwezige leden vereist.<br>
+**Art. 19** - In geval van ontbinding zal de vereniging beslissen dat het nettoactief zal gestort worden aan een nader te bepalen goed doel.<br>
 </div>
