@@ -135,8 +135,10 @@ function timeSlider() {
         }));
 
     updateSlider = function (value) {
-      nx = xScale(value[0]);
-      width = xScale(value[1]) - xScale(value[0]);
+      sliderValue = value
+
+      nx = xScale(sliderValue[0]);
+      width = xScale(sliderValue[1]) - xScale(sliderValue[0]);
       midPoint = nx + width / 2;
 
       inner.attr('x', nx)
@@ -144,10 +146,10 @@ function timeSlider() {
 
       const fmtStr = 'DD/MM/YY'
 
-      t1.text(moment(value[0]).format(fmtStr))
+      t1.text(moment(sliderValue[0]).format(fmtStr))
         .attr('x', nx)
         .attr('transform', `rotate(45 ${nx},50) translate(20,20)`);
-      t2.text(moment(value[1]).format(fmtStr))
+      t2.text(moment(sliderValue[1]).format(fmtStr))
         .attr('x', nx + width)
         .attr('transform', `rotate(45 ${nx + width},50) translate(20,20)`);
     }
