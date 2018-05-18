@@ -101,9 +101,9 @@
 
 // PUNCHCARD
 (function () {
-  d3.csv(`/csvdata/punchcard.csv`, e => { return { ...e, starttime: d3.isoParse(e.starttime) } }).then(data => {
+  d3.csv(`/csvdata/punchcard.csv`, e => { return { ...e, starttime: moment(e.starttime) } }).then(data => {
     function prepareData(data) {
-      let grouped = _(data).groupBy(e => e.name).mapValues(e => _(e).groupBy(e => e.starttime.getHours()).mapValues(e => e.length).value()).value();
+      let grouped = _(data).groupBy(e => e.name).mapValues(e => _(e).groupBy(e => e.starttime.hour()).mapValues(e => e.length).value()).value();
       grouped = _(grouped).toPairs().sortBy(e => -_(e[1]).values().sum()).fromPairs().value();
 
       return grouped;
@@ -173,7 +173,7 @@
 // INSTANCE CHART
 (function () {
   d3.csv(`/csvdata/punchcard.csv`, e => {
-    return { ...e, starttime: d3.isoParse(e.starttime) }
+    return { ...e, starttime: moment(e.starttime) }
   }).then(data => {
     function prepareData(data, interval) {
       data = _(data).sortBy(e => e.starttime).groupBy('name').value();
@@ -225,7 +225,7 @@
   }
 
   d3.csv(`/csvdata/punchcard.csv`, e => {
-    return { ...e, starttime: d3.isoParse(e.starttime) }
+    return { ...e, starttime: moment(e.starttime) }
   }).then(data => {
     const prepped = prepareData(data, d3.timeDay.every(1));
 

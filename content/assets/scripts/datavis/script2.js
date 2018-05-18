@@ -65,8 +65,11 @@
 
 
     chart = timeBarChart();
-    chart2 = timeBarChart2();
+    chart.upper = true;
     chart.eventdata = eventdata;
+
+    chart2 = timeBarChart();
+    chart2.upper = false;
     chart2.eventdata = eventdata;
 
     selection = d3.select('#barchart').append('g');
@@ -136,35 +139,47 @@
         .duration(100);
 
       xScale.domain([my.domain.start, my.domain.end]);
-      yScale1.domain(d3.extent(dt, d => d.value));
 
       svg.select('.x.axis')
         .transition(t)
         .call(xAxis);
 
-      svg.select('.y.axis')
-        .transition(t)
-        .call(yAxis1);
+      if (my.upper) {
+        yScale1.domain(d3.extent(dt, d => d.value));
+        svg.select('.y.axis')
+          .transition(t)
+          .call(yAxis1);
+      } else {
+        yScale2.domain(d3.extent(dt, d => d.value));
+        svg.select('.y.axis2')
+          .transition(t)
+          .call(yAxis2);
+      }
 
       function update() {
         let g = d3.select('svg#barchart > g');
 
-        const selection = g.selectAll('.datacircle');
-        const sellines = g.selectAll('.line');
-        const eventlines = g.selectAll('.eventline');
+        var selection, sellines, eventlines;
+        if (my.upper) {
+          selection = g.selectAll('.datacircle');
+          sellines = g.selectAll('.line');
+          eventlines = g.selectAll('.eventline');
+        } else {
+          selection = g.selectAll('.datacircle2');
+          sellines = g.selectAll('.line2');
+          eventlines = g.selectAll('.eventline2');
+        }
 
         sellines
           .attr('x1', d => xScale(d.date))
-          .attr('y1', middle)
+          .attr('y1', () => my.upper ? middle : padding.top)
           .attr('x2', d => xScale(d.date))
-          .transition()
-          .attr('y2', d => yScale1(d.value));
+          .attr('y2', d => my.upper ? yScale1(d.value) : yScale2(d.value));
 
         eventlines
           .attr('x1', d => xScale(d.date))
-          .attr('y1', middle)
+          .attr('y1', () => my.upper ? middle : padding.top)
           .attr('x2', d => xScale(d.date))
-          .transition()
           .attr('y2', (d) => {
             let yValue = 0;
             selection.data().forEach(function (el) {
@@ -172,21 +187,27 @@
                 yValue = el.value;
               }
             })
-            return yScale1(yValue);
+            return my.upper ? yScale1(yValue) : yScale2(yValue);
           });
 
         selection
-          .transition()
           .attr('cx', d => xScale(d.date))
-          .attr('cy', d => yScale1(d.value));
+          .attr('cy', d => my.upper ? yScale1(d.value) : yScale2(d.value));
 
       }
 
       const fed = filterData(eventdata, my.domain.start, my.domain.end);
 
-      const selection = svg.selectAll('.datacircle').data(dt, d => d.date);
-      const sellines = svg.selectAll('.line').data(dt, d => d.date);
-      const eventlines = svg.selectAll('.eventline').data(fed, d => d.date);
+      var selection, sellines, eventlines;
+      if (my.upper) {
+        selection = svg.selectAll('.datacircle').data(dt, d => d.date);
+        sellines = svg.selectAll('.line').data(dt, d => d.date);
+        eventlines = svg.selectAll('.eventline').data(fed, d => d.date);
+      } else {
+        selection = svg.selectAll('.datacircle2').data(dt, d => d.date);
+        sellines = svg.selectAll('.line2').data(dt, d => d.date);
+        eventlines = svg.selectAll('.eventline2').data(fed, d => d.date);
+      }
 
       const fmtStr = 'DD/MM/YY';
 
@@ -196,9 +217,9 @@
         .append('line')
         .attr('stroke', '#ddd')
         .attr('stroke-width', 2)
-        .attr('class', 'line')
-        .merge(sellines)
-        .transition(t);
+        .attr('class', () => my.upper ? 'line' : 'line2')
+        .attr('transform', () => my.upper ? `translate(0, 0)` : `translate(0, ${middle - padding.bottom})`)
+        .merge(sellines);
 
       eventlines.exit().remove();
 
@@ -206,7 +227,8 @@
         .append('line')
         .attr('stroke', '#f4a442')
         .attr('stroke-width', 2)
-        .attr('class', 'eventline')
+        .attr('class', () => my.upper ? 'eventline' : 'eventline2')
+        .attr('transform', () => my.upper ? `translate(0, 0)` : `translate(0, ${middle - padding.bottom})`)
         .on("mouseover", function (d) {
           const tooltip = d3.select('.tooltip');
 
@@ -223,17 +245,18 @@
             .style("top", (rect.top - t_rect.height - 5) + "px");
         })
         .on("mouseout", _ => {
-          div.style("opacity", 0);
+          const tooltip = d3.select('.tooltip');
+          tooltip.style("opacity", 0);
         })
-        .merge(eventlines)
-        .transition(t);
+        .merge(eventlines);
 
       selection.exit().remove();
 
       selection.enter()
         .append('circle')
         .attr('fill', 'lightblue')
-        .attr('class', 'datacircle')
+        .attr('class', () => my.upper ? 'datacircle' : 'datacircle2')
+        .attr('transform', () => my.upper ? `translate(0, 0)` : `translate(0, ${middle - padding.bottom})`)
         .on("mouseover", function (d) {
           const tooltip = d3.select('.tooltip');
 
@@ -250,158 +273,12 @@
             .style("top", (rect.top - t_rect.height - 5) + "px");
         })
         .on("mouseout", _ => {
-          div.style("opacity", 0);
+          const tooltip = d3.select('.tooltip');
+          tooltip.style("opacity", 0);
         })
         .merge(selection)
         .attr('r', 3)
-        .transition(t)
         ;
-
-      update();
-    }
-
-    return my;
-  }
-
-  function timeBarChart2() {
-    function my(svg) {
-      let eventdata = my.eventdata;
-      var dt = svg.datum();
-
-      var div = d3.select(".tooltip").style('opacity', 0);
-
-      const t = d3.transition()
-        .ease(d3.easeLinear)
-        .duration(100);
-
-      xScale.domain([my.domain.start, my.domain.end]);
-      yScale2.domain(d3.extent(dt, d => d.value));
-
-      svg.select('.x.axis')
-        .transition(t)
-        .call(xAxis);
-
-      svg.select('.y.axis2')
-        .transition(t)
-        .call(yAxis2);
-
-      svg.append("text")
-        .style("text-anchor", "middle")
-        .text("Date");
-
-      function update() {
-        let g = d3.select('svg#barchart > g');
-
-        const selection = g.selectAll('.datacircle2');
-        const sellines = g.selectAll('.line2');
-        const eventlines = g.selectAll('.eventline2');
-
-        sellines
-          .transition()
-          .attr('x1', d => xScale(d.date))
-          .attr('y1', padding.top)
-          .attr('x2', d => xScale(d.date))
-          .attr('y2', d => yScale2(d.value));
-
-        eventlines
-          .attr('x1', d => xScale(d.date))
-          .attr('y1', padding.top)
-          .attr('x2', d => xScale(d.date))
-          .transition()
-          .attr('y2', (d) => {
-            let yValue = 0;
-            selection.data().forEach(function (el) {
-              if (el.date === d.date) {
-                yValue = el.value;
-              }
-            })
-            return yScale2(yValue);
-          });
-
-        selection
-          .transition()
-          .attr('cx', d => xScale(d.date))
-          .attr('cy', d => yScale2(d.value));
-
-      }
-
-      const fed = filterData(eventdata, my.domain.start, my.domain.end);
-
-      const selection = svg.selectAll('.datacircle2').data(dt, d => d.date);
-      const sellines = svg.selectAll('.line2').data(dt, d => d.date);
-      const eventlines = svg.selectAll('.eventline2').data(fed, d => d.date);
-
-      const fmtStr = 'DD/MM/YY';
-
-      sellines.exit().remove();
-
-      sellines.enter()
-        .append('line')
-        .attr('stroke', '#ddd')
-        .attr('stroke-width', 2)
-        .attr('class', 'line2')
-        .attr('transform', `translate(0, ${middle - padding.bottom})`)
-        .merge(sellines)
-        .transition(t);
-
-      eventlines.exit().remove();
-
-      eventlines.enter()
-        .append('line')
-        .attr('stroke', '#f4a442')
-        .attr('stroke-width', 2)
-        .attr('class', 'eventline2')
-        .attr('transform', `translate(0, ${middle - padding.bottom})`)
-        .on("mouseover", function (d) {
-          const tooltip = d3.select('.tooltip');
-
-          tooltip
-            .style("opacity", .9)
-            .html(moment(d.date).format(fmtStr) + ' - ' + d.title);
-
-          // We calculate the bounding rects after setting the html
-          let rect = d3.select(this).node().getBoundingClientRect();
-          let t_rect = tooltip.node().getBoundingClientRect();
-
-          tooltip
-            .style("left", (rect.left + rect.width / 2 - t_rect.width / 2) + "px")
-            .style("top", (rect.top - t_rect.height - 5) + "px");
-        })
-        .on("mouseout", _ => {
-          div.style("opacity", 0);
-        })
-        .merge(eventlines)
-        .transition(t);
-
-
-      selection.exit().remove();
-
-      selection.enter()
-        .append('circle')
-        .attr('fill', 'lightblue')
-        .attr('class', 'datacircle2')
-        .attr('transform', `translate(0, ${middle - padding.bottom})`)
-        .on("mouseover", function (d) {
-          const tooltip = d3.select('.tooltip');
-
-          tooltip
-            .style("opacity", .9)
-            .html(moment(d.date).format(fmtStr) + ' - ' + d.value);
-
-          // We calculate the bounding rects after setting the html
-          let rect = d3.select(this).node().getBoundingClientRect();
-          let t_rect = tooltip.node().getBoundingClientRect();
-
-          tooltip
-            .style("left", (rect.left + rect.width / 2 - t_rect.width / 2) + "px")
-            .style("top", (rect.top - t_rect.height - 5) + "px");
-        })
-        .on("mouseout", _ => {
-          div.style("opacity", 0);
-        })
-        .merge(selection)
-        .attr('r', 3)
-        .transition(t);
 
       update();
     }

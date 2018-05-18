@@ -31,8 +31,10 @@
         const x = d3.scaleTime()
           .domain(d3.extent(times))
           .range([0, width - leftPad])
-          // .nice()
           ;
+        
+        console.log(x.domain());
+        
 
         const y = d3.scaleBand()
           .domain(d3.keys(data))
@@ -140,7 +142,6 @@
 
             text
               .style('left', `${d3.event.x + 15}px`)
-              // .style('left', `${mouse[0] + 120}px`)
               .style('top', `${d3.event.y - 20}px`)
               ;
             
