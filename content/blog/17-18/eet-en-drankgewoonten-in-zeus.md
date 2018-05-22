@@ -13,7 +13,7 @@ toc:
 
 Deze blogpost en de bijhorende visualisaties zijn gemaakt in functie van het vak Datavisualisatie, gegeven door Bart Mesuere.
 In dit vak kregen we de opdracht om een dataset te kiezen en die te visualizeren. Het was natuurlijk een
-no-brainer om de data die we al een aantal jaar aan het vergaren zijn van Haldis, Tap en Tab te gebruiken.
+no-brainer om de data die we al een aantal jaar aan het vergaren zijn van Haldis en Tap te gebruiken.
 
 Als je geïnteresseerd genoeg bent in het lezen van deze blogpost, ben je hoogstwaarschijnlijk geïnformeerd genoeg om te weten
 wat Haldis, Tap en Tab zijn, maar voor de ongeïnitieerden volgt een korte uitleg.
@@ -22,12 +22,12 @@ wat Haldis, Tap en Tab zijn, maar voor de ongeïnitieerden volgt een korte uitle
 
 Sinds 2 april 2015 maakt Zeus gebruik van Haldis, een applicatie om het bestellen van eten in groep te vergemakkelijken.
 Dit laat onder andere toe dat mensen die nog op weg zijn naar te kelder toch eten kunnen bestellen. Bekijk
-het project op <https://zeus.ugent.be/haldis>.
+het project op <https://zeus.ugent.be/haldis>. We hebben over die aantal jaar een vierhonderdtal bestellingen geplaatst. Handmatig alle bestellingen opnemen heeft geen plaats meer in Zeus!
 
 ## Tap
 
-Tap is onze digitale vervanging van het oude papier-en-streepjes systeem dat we al jaar en dag gebruikten. Elke drankje of
-versnapering was een aantal streepjes waard, wat ons weinig fine-grained controle gaf over de productprijzen.
+Tap is onze digitale vervanging van het oude papier-en-streepjes systeem dat we al jaar en dag gebruikten om drankjes te verkopen in de kelder. Elke drankje of
+versnapering was een aantal streepjes waard, wat ons weinig fine-grained controle gaf over de productprijzen. Met Tap lostten we dit probleem op met een hypermodern alternatief --- een tablet op de koelkast.
 
 # Visualisaties
 
@@ -38,6 +38,8 @@ versnapering was een aantal streepjes waard, wat ons weinig fine-grained control
 Op onze eerste visualisatie kunnen we via een timeline zien waar we het vaakst naartoe gaan met Zeus, en welke afstanden
 we bereid zijn om hiervoor te overbruggen. Om de timeslider te gebruiken kan je de timeslider naar beneden of naar boven
 slepen om in of uit te zoomen.
+
+We zien natuurlijk dat we vaak rond de Zeus kelder onze restaurants kiezen. Als je echter de timeslider rond het academiejaar '16-'17 zet, zie je dat we nogal avontuurlijk waren! We gingen buiten onze comfortzone, en zochten restaurants verder en verder op! We denken dat dit voornamelijk komt doordat er meer Zeusleden waren die met de auto wat verder eten konden halen (vooral Benji ❤️).
 
 <div id="leafletmap" style="height:500px; width:100%"></div>
 <svg id="slider1" style="width: 100%"></svg>
@@ -55,8 +57,7 @@ slepen om in of uit te zoomen.
 
 ### Punchcard
 
-Op onze tweede visualisatie krijgen we te zien wat de populairste uren zijn voor alle restaurants, zo zien we dat we onder
-andere eens 's avonds laat een frietje durven stekken!
+Op onze tweede visualisatie krijgen we te zien wat de populairste uren zijn voor alle restaurants, zo zien we dat we onder andere eens 's avonds laat een frietje durven stekken bij 't Blauw Kotje! Bij de Fritoloog doen we dit minder vaak. Dit zal voornamelijk te wijten zijn aan het feit dat we nu minder laat in de kelder zitten. Door de timeslider op een vorig academiejaar te zetten kunnen we dit zien.
 
 <div class="full-width has-content-centered">
   <svg id="punchcard" width="1300" height="600"></svg>
@@ -67,7 +68,7 @@ andere eens 's avonds laat een frietje durven stekken!
 ### Instance
 
 In de instance chart van Haldis zien we elke bestelling die
-geplaatst werd, gesorteerd op eerste tijdstip van bestelling.
+geplaatst werd, gesorteerd op eerste tijdstip van bestelling. Merk op hoe de Fritoloog op een haverklap onze favoriete frituur is geworden! Ook zien we dat pizza iets minder populair is geworden, en dat Ocean Garden onze favoriet blijft. Onze liefde voor Chinees is dus niet voor maar "tien minuutjes!", maar voor eeuwig.
 
 <div class="full-width has-content-centered">
   <svg id="instance" width="1200" height="600"></svg>
@@ -85,17 +86,14 @@ We zien het verloop van de rangschikking van de verschillende restaurants. Inter
 
 ### Co-occurence van Tap en Haldis
 
-Op de volgende chart zien we welke producten er besteld worden op Tap bij bepaalde restaurants op Haldis. Zo zien we onder
-andere dat er 5% vaker Club Maté besteld wordt bij het Blauw Kotje (frieten) dan bij onze favoriet Ocean
-Garden (chinees)!
+Op de volgende chart zien we welke producten er besteld worden op Tap bij bepaalde restaurants op Haldis. Zo zien we onder andere dat er 5% vaker Club Maté besteld wordt bij het Blauw Kotje (frieten) dan bij onze favoriet Ocean Garden (chinees)!
 
 <div id="gridlo" class="full-width has-content-centered"></div>
 <button name="updateButton" id="switch" value="Update" class="button is-primary">Switch</button>
 
 ### Co-occurence van Haldis, Tap en Zeus events
 
-Hier kunnen we verschillende statistieken van Haldis en Tap met elkaar vergelijken, en tegelijkertijd een eventueel verband
-met de Zeus-events bekijken.
+Hier kunnen we verschillende statistieken van Haldis en Tap met elkaar vergelijken, en tegelijkertijd een eventueel verband met de Zeus-events bekijken.
 
 <div class="full-width has-content-centered">
   <div class="viscontainer">
