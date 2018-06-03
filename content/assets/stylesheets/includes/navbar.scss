@@ -1,56 +1,57 @@
 #navbar {
-  align-items: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    z-index: 100;
 
-  z-index: 100;
-  margin-bottom: 10px;
+    .logo-wrapper {
+        padding-bottom: 0;
+        position: relative;
 
-  .logo-wrapper {
-    padding-bottom: 0;
-    position: relative;
-
-    #santa {
-      position: absolute;
-      z-index: 300;
-      left: 5px;
-      bottom: 0;
-      width: 60px;
+        #santa {
+            bottom: 0;
+            left: 5px;
+            position: absolute;
+            width: 60px;
+            z-index: 300;
+        }
     }
-  }
 
-  .navbar:not(.is-transparent) #logo-link {
-    @include desktop {
-      width: 124px;
-      border-bottom: 2px solid $body-background;
-      margin-bottom: -2px;
+    .navbar:not(.is-transparent) #logo-link {
+        @include desktop {
+            border-bottom: 2px solid $body-background;
+            margin-bottom: -2px;
+            width: 124px;
+        }
+
+
+        #logo {
+            @include desktop {
+                max-width: none;
+                max-height: none;
+                left: 0;
+                bottom: 5px;
+                width: 100px;
+                position: absolute;
+            }
+        }
     }
-    #logo {
-      @include desktop {
-        max-width: none;
-        max-height: none;
-        left: 0;
-        bottom: 5px;
-        width: 100px;
-        position: absolute;
-      }
-    }
-  }
 
-  .navbar-item {
-    font-variant: small-caps;
-    font-size: 1.15em; 
-  }
-
-  .navbar:not(.is-transparent) {
     .navbar-item {
-      &:not(.is-active) {
-        color: #7a7a7a;
-      }
-
-      &.is-active {
-        color: $primary;
-        border-bottom: 2px solid;
-        margin-bottom: -2px;
-      }
+        font-variant: small-caps;
+        font-size: 1.15em;
     }
-  }
+
+    .navbar:not(.is-transparent) {
+        .navbar-item {
+            &:not(.is-active) {
+                color: #7a7a7a;
+            }
+
+            &.is-active {
+                color: $primary;
+                border-bottom: 2px solid;
+                margin-bottom: -2px;
+            }
+        }
+    }
 }

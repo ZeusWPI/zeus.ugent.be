@@ -1,32 +1,35 @@
 // Colours
-$zeus-orange: #FF7F00;
-$zeus-blue: #00C4FF;
+$zeus-orange: #ff7f00;
+$zeus-blue: #00c4ff;
 
-$body-background: white;
+$body-background: #fff;
 
 $tile-orange: $zeus-orange;
 
-$navbar-border-color: #CCC;
-$event-border-color: #DDD;
+$navbar-border-color: #ccc;
+$event-border-color: #ddd;
 
 $orange: $zeus-orange;
 $blue: $zeus-blue;
-$turquoise: #30D1B2;
+$turquoise: #30d1b2;
 
 $link: $orange;
 $link-visited: $link;
 
 $border-hover: $blue;
 
-$box-colour: #EEE;
+$box-colour: #eee;
 $highlighted-box-colour: $zeus-orange;
-$highlighted-text-colour: white;
+$highlighted-text-colour: #fff;
 $highlighted-link-colour: #222324;
 
-$cammie-controls-color: rgba(0, 0, 0, 0.60);
+$cammie-controls-color: rgba(0, 0, 0, .60);
 
 $event-padding: 10px;
 
 $primary: $orange;
 $secondary: $zeus-blue;
 $tertiary: $box-colour;
+
+// Let's trust the font the user chose
+$family-sans-serif: sans-serif;
