@@ -36,7 +36,6 @@ group :production do
   # Autoprefixing for class
   gem 'autoprefixer-rails'
   gem 'htmlcompressor'
-  gem 'babel-transpiler'
 end
 
 group :nanoc do
