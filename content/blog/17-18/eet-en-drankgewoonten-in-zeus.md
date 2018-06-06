@@ -27,7 +27,7 @@ het project op <https://zeus.ugent.be/haldis>. We hebben over die aantal jaar ee
 ## Tap
 
 Tap is onze digitale vervanging van het oude papier-en-streepjes systeem dat we al jaar en dag gebruikten om drankjes te verkopen in de kelder. Elke drankje of
-versnapering was een aantal streepjes waard, wat ons weinig fine-grained controle gaf over de productprijzen. Met Tap lostten we dit probleem op met een hypermodern alternatief --- een tablet (genaamd koelkast) op de koelkast.
+versnapering was een aantal streepjes waard, wat ons weinig fine-grained controle gaf over de productprijzen. Met Tap losten we dit probleem op met een hypermodern alternatief --- een tablet (genaamd koelkast) op de koelkast.
 
 # Visualisaties
 
@@ -68,7 +68,7 @@ Op onze tweede visualisatie krijgen we te zien wat de populairste uren zijn voor
 ### Instance
 
 In de instance chart van Haldis zien we elke bestelling die
-geplaatst werd, gesorteerd op eerste tijdstip van bestelling. Merk op hoe de Fritoloog op een haverklap onze favoriete frituur is geworden! Ook zien we dat pizza iets minder populair is geworden, en dat Ocean Garden onze favoriet blijft. Onze liefde voor Chinees is dus niet voor maar "tien minuutjes!", maar voor eeuwig.
+geplaatst werd, gesorteerd op eerste tijdstip van bestelling. Merk op hoe de Fritoloog plots onze favoriete frituur is geworden! Ook zien we dat pizza iets minder populair is geworden, en dat Ocean Garden onze favoriet blijft. Onze liefde voor Chinees is dus niet voor maar "tien minuutjes!", maar voor eeuwig.
 
 <div class="full-width has-content-centered">
   <svg id="instance" width="1200" height="600"></svg>
