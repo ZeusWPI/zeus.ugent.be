@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 gem 'nanoc'
 
+gem 'uglifier', '>= 4.0.0'
+
 # General filtering
 gem 'coffee-script'
 gem 'icalendar' # ical files
@@ -33,7 +35,7 @@ end
 group :production do
   # Autoprefixing for class
   gem 'autoprefixer-rails'
-  gem 'html_press'
+  gem 'htmlcompressor'
 end
 
 group :nanoc do

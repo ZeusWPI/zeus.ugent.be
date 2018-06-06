@@ -1,5 +1,5 @@
-require 'html_press'
+require 'htmlcompressor'
 
 Nanoc::Filter.define(:html_press) do |content, _params|
-  HtmlPress.press content
+  HtmlCompressor::Compressor.new.compress content
 end

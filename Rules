@@ -170,7 +170,7 @@ compile '/assets/scripts/**/*.coffee' do
 end
 
 compile '/assets/scripts/**/*.js' do
-  filter :uglify_js
+  filter :uglify_js, harmony: true
 end
 
 ignore '/assets/stylesheets/includes/**/*'
