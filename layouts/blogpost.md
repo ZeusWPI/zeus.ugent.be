@@ -17,7 +17,9 @@
 
 <div class="content is-medium-responsive" markdown="1">
 <%= yield %>
+</div>
 
+<div class="content is-medium-responsive" markdown="1">
 * x
 {:footnotes}
 </div>
