@@ -130,6 +130,8 @@ Hier kunnen we verschillende statistieken van Haldis en Tap met elkaar vergelijk
 </div>
 
 <% content_for :scripts do %>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
+
 <!-- CDNS -->
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" integrity="sha256-iYUgmrapfDGvBrePJPrMWQZDcObdAcStKBpjP3Az+3s=" crossorigin="anonymous" />

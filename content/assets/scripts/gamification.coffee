@@ -1,4 +1,3 @@
-$ ->
   $.getJSON 'https://zeus.ugent.be/game/top4/show.json', (data) ->
     str = "<table>"
     for x in data
