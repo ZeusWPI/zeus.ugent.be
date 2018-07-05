@@ -41,6 +41,13 @@
         font-size: 1.15em;
     }
 
+    @include touch {
+	.navbar-menu {
+	    position: absolute;
+	    width: 100%;
+	}
+    }
+
     .navbar:not(.is-transparent) {
         .navbar-item {
             &:not(.is-active) {
