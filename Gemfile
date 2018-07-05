@@ -9,6 +9,7 @@ gem 'uglifier', '>= 4.0.0'
 gem 'coffee-script'
 gem 'icalendar' # ical files
 gem 'kramdown'
+gem 'rainpress'
 gem 'sass'
 gem 'typogruby'
 

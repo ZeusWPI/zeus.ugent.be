@@ -17,19 +17,26 @@ title: Search
   </div>
 </div>
 
+<% content_for :head do %>
+<!-- CSS -->
+<!-- TiptueSearch CSS -->
+<link rel="stylesheet" href="/assets/stylesheets/tipuesearch/tipuesearch.css" >
+<% end %>
+
 <% content_for :scripts do %>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
+<%= asset :js, :tipuesearch_set %>
 <%= asset :js, :tipuesearch %>
 <script>
 $(document).ready(function() {
   $('#tipue_search_input_field').tipuesearch({
-    'mode': 'json',
+    'wholeWords': false,
     'showTitleCount': false,
     'tipue_search_content': '#blog_results',
     'contentLocation': '../blog_search.json'
   });
   $('#tipue_search_input_field').tipuesearch({
-    'mode': 'json',
+    'wholeWords': false,
     'showTitleCount': false,
     'tipue_search_content': '#event_results',
     'contentLocation': '../event_search.json'

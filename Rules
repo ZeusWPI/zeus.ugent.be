@@ -182,6 +182,12 @@ compile '/assets/stylesheets/**/*.scss' do
   write ext: 'css'
 end
 
+compile '/assets/stylesheets/**/*.css' do
+  filter :rainpress
+  filter :autoprefixer if production?
+  write ext: 'css'
+end
+
 #
 #
 # ROUTES

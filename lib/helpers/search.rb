@@ -14,7 +14,7 @@ module SearchHelper
       {
         title: e[:title],
         url: url_for(e),
-        text: excerptize(e.reps[:text].compiled_content, length: 200).tr("\n", ' '),
+        text: "#{e[:title]} #{e.reps[:text].compiled_content}",
         tags: ''
       }
     end
