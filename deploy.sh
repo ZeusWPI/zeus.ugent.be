@@ -7,5 +7,5 @@ if [[ $TRAVIS_PULL_REQUEST == "false" ]]; then
     bundle exec nanoc --env=prod deploy public
   fi
 else
-  rsync -e 'ssh -p 2222' -aglpPrtvz --delete output/ "zeuspr@herbert.ugent.be:/home/zeuspr/$TRAVIS_PULL_REQUEST/"
+  rsync -e 'ssh -p 2222' -aglpPrtvz --delete output/ "zeuspr@herbert.ugent.be:/home/zeuspr/public/$TRAVIS_PULL_REQUEST/"
 fi
