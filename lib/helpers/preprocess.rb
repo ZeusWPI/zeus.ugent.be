@@ -19,10 +19,15 @@ module PreprocessHelper
   end
 
   def ignore_old_content(*paths)
-    @items.delete_if do |item|
-      next unless item.identifier.match?(%r{^/(#{paths.join('|')})/})
-      year = item.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1]
-      year != @config[:academic_year]
+    paths.each do |path|
+      latest_year_with_content = @items.find_all("/#{path}/**/*").map { |it| it.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1] }.sort[-1]
+
+      latest_year = [latest_year_with_content, @config[:academic_year]].min
+      @items.delete_if do |item|
+        next unless item.identifier.match?(%r{^/#{path}/})
+        year = item.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1]
+        year != latest_year
+      end
     end
   end
 
