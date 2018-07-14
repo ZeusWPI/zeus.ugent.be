@@ -17,7 +17,7 @@ Om iedereen die Zeus nauw in het hart draagt up-to-date te houden met wat er mom
 
 Dit is waar Zeus voornamelijk om draait: samen op codenights zitten vloeken op je eigen en andermans code, met naast je laptop een lege doos Bami Babi Pangang van _Ocean 'kwartiertje' Gardens_ en een halfvol flesje Club Mate. Ik durf met trots te zeggen dat er dit jaar nieuw leven in het projectleven van Zeus geblazen is.
 
-Op kop staat **MOZAIC**, ons in-house framework om programmeerwedstrijden in allerlei vormen en maten mee te kunnen spelen. Doorheen het hele jaar is dit het project dat het meest is gegroeid op vlak van lijntjes code, aantal vaste developers en grote van de Git-repository (met dank aan Arthur die besliste alle gecompileerde Rust-bestanden in één keer toe te voegen).
+Op kop staat **MOZAIC**, ons in-house framework om programmeerwedstrijden in allerlei vormen en maten mee te kunnen spelen. Doorheen het hele jaar is dit het project dat het meest is gegroeid op vlak van lijntjes code, aantal vaste developers en grootte van de Git-repository (met dank aan Arthur die besliste alle gecompileerde Rust-bestanden in één keer toe te voegen).
 
 Verder staan de ideeën voor **G2** 'Gateway' klaar om volgend jaar van start te gaan. Dit wordt de opvolger van Gamification met als doel het verlagen van de instapdrempel voor leden om aan projecten te werken en het stroomlijnen van de organisatie van projecten (issues, documentatie, ...).
 
@@ -25,15 +25,15 @@ Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (we
 
 # Events
 
-Op het vlak van evenementen hebben we ook niet stilgezeten: de Zeus-site staan dit jaar staan 14 events, dit is zonder de vele codenights, 12urenloop, BBQ, ... Niet enkel op het vlak van kwantiteit mogen we trots zijn, veel Zeus events hebben hun voorganger meer dan overtroffen. Een greep uit de het aanbod van afgelopen jaar:
+Op het vlak van evenementen hebben we ook niet stilgezeten: op de Zeus-site staan dit jaar staan 14 events, dit is zonder de vele codenights, 12urenloop, BBQ, ... Niet enkel op het vlak van kwantiteit mogen we trots zijn, veel Zeus events hebben hun voorganger meer dan overtroffen. Een greep uit de het aanbod van afgelopen jaar:
 
 Spelletjes spelen, daar zijn we goed in. Niet alleen op enkele **spelletjesavonden** in samenwerking met PRIME, maar ook op de **LAN-party**. Goed dat we ons daarvoor opgesteld hadden in twee zalen, zo konden de meer dan 100 man toch comfortabel samen hun favoriete games spelen.
 
-Met de **TECH Talks** in samenwerking met [CenEka](http://ceneka.ugent.be/) en de **Lightning Talks** konden Zeus leren allerlei nieuw kennis opdoen, van onze vrijheden op het internet tot het bouwen van een kleine zeppelin bestuurbaar over WiFi. In totaal konden maar liefst 13 sprekers hun zegje doen.
+Met de **TECH Talkz** in samenwerking met [CenEka](http://ceneka.ugent.be/) en de **Lightning Talks** konden Zeus leden allerlei nieuw kennis opdoen, van onze vrijheden op het internet tot het bouwen van een kleine zeppelin bestuurbaar over WiFi. In totaal konden maar liefst 13 sprekers hun zegje doen.
 
 Ook aan programmeerwedstrijden hadden we genoeg: we zijn er dit jaar in geslaagd de 131 ingeschreven kandidaten van de **Hashcode** in auditorium A3 te proppen en van alle hubs stonden wij op de derde plaats als je de scores van alle teams in een hub optelde. De **Vlaamse Programmeerwedstrijd** kreeg opnieuw een delegatie van de UGent op bezoek met een door Zeus geregelde bus en op de finale van **Bottlebats** gingen Robin en zijn bot met een echte beker naar huis.
 
-Dit jaar waren we ook opnieuw aanwezig op de **12Urenloop**, hopelijk het laatste jaar dat we problemen mochten ondervinden met de oude Gyrids (voor volgend jaar staan er gloednieuwe Espressobin's klaar, waarin 10 lijntjes bash hetzelfde doen als het verschrikkelijke spaghettimonster die in de Gyrids te vinden was). Tijdens dit event hebben we Count-Von-Count gecompileerd gekregen, condensators doorgebrand, ethernetkabels gelegd, manueel zitten tellen, gereboot tot een systeem kapot of gefixed was, Gyrid 103 vervloekt tot het einde der tijden en samen met enkele andere werkgroepen van het WVK onze schoenen/knieën/planten versleten.
+Dit jaar waren we ook opnieuw aanwezig op de **12Urenloop**, hopelijk het laatste jaar dat we problemen mochten ondervinden met de oude Gyrids (voor volgend jaar staan er gloednieuwe Espressobins klaar, waarin 10 lijntjes bash hetzelfde doen als het verschrikkelijke spaghettimonster die in de Gyrids te vinden was). Tijdens dit event hebben we Count-Von-Count gecompileerd gekregen, condensators doorgebrand, ethernetkabels gelegd, manueel zitten tellen, gereboot tot een systeem kapot of gefixed was, Gyrid 103 vervloekt tot het einde der tijden en samen met enkele andere werkgroepen van het WVK onze schoenen/knieën/planten versleten.
 
 # Wat is er nog allemaal gebeurd dit jaar?
 
@@ -58,10 +58,8 @@ Naast projecten en evenementen zijn de volgende feitjes nog noemenswaardig om te
 
 Tot in de kelder!
 
-_Rien Maertens_
-
-_Voorzitter 17-18_
-
+_Rien Maertens_  
+_Voorzitter 17-18_  
 _Vice-voorzitter 18-19_
 
 
