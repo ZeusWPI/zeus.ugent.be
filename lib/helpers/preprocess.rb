@@ -27,7 +27,7 @@ module PreprocessHelper
       @items.delete_if do |item|
         next unless item.identifier.match?(%r{^/#{path}/})
         year = item.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1]
-        not latest_years.include?(year)
+        !latest_years.include?(year)
       end
     end
   end
