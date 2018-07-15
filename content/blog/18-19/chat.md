@@ -1,15 +1,16 @@
 ---
-title: Let's chat about chatting
+title: "Let's chat about chatting"
 created_at: 15-07-2018
 description: Wat context rond de plannen om van chat-applicatie te veranderen
-author: Wout
+author: Wout Schellaert
 ---
 
 # Let's chat about chatting
 
-Zij die op onze Slack het #zeus, #bestuur of zelf het #rants kanaal volgen hebben waarschijnlijk al door dat er gesproken wordt over het de facto communicatie-medium van Zeus niet langer Slack te laten zijn. Zeus publiceert updates via de site, Facebook en mailinglijst; maar _gesprekken_ worden gevoerd op de chat. Toen ik lid werd (ondertussen toch 4 jaar geleden) was dat al Slack (daarvoor was het IRC), en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
+Zij die op Slack het #zeus-, #bestuur-, of #rants-kanaal volgen hebben waarschijnlijk al door dat er gesproken wordt over van chatplatform te veranderen. Zeus publiceert updates via de site, Facebook en mailinglijst; maar de meeste _gesprekken_ worden gevoerd op de chat. Toen ik lid werd (ondertussen toch 4 jaar geleden) was IRC al dood, en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
 
-> Waarom veranderen dan?
+> Waarom dan veranderen?
+>
 > -- Veel mensen
 
 Eerst wat context: het bestuur is er, zoals veel andere gebruikers, van overtuigd dat Slack nu de industry-standard is wat gebruiksgemak betreft. De UX is schitterend, zowel in de webview als de app, er zijn integraties beschikbaar met talrijke services zoals GitHub en Google Drive, en we behoren allemaal tot 5 andere teams die ook Slack gebruiken.
@@ -39,7 +40,7 @@ Alhoewel we heel tevreden zijn over de interactie met minder-actieve leden (zoal
 
 We kijken alvast uit naar jullie gefundeerde meningen.
 
-## FAQ
+# FAQ
 
 - Is Slack nog een optie? Ja.
 - Welk platform geniet de voorkeur van het bestuur? TODO
