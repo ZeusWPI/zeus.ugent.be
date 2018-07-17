@@ -15,13 +15,13 @@ Dit jaar werd het idee geopperd om via dit soort blogposts iedereen die Zeus nau
 
 <%= figure 'https://zeus.ugent.be/zeuswpi/VR5kfjQq.jpg', 'De Zeus kelder tijdens de Hydra-codenight' %>
 
-Dit is waar Zeus voornamelijk om draait: samen op codenights zitten vloeken op je eigen en andermans code, met naast je laptop een lege doos Bami Babi Pangang van _Ocean 'kwartiertje' Gardens_ en een halfvol flesje Club Mate. Ik durf met trots te zeggen dat er dit jaar nieuw leven in het projectleven van Zeus geblazen is.
+Dit is waar Zeus voornamelijk om draait: samen op codenights zitten vloeken op je eigen en andermans code, met naast je laptop een lege doos Bami Babi Pangang van _Ocean 'kwartiertje' Garden_ en een halfvol flesje Club Mate. Ik durf met trots te zeggen dat er dit jaar nieuw leven in het projectleven van Zeus geblazen is.
 
 Op kop staat **MOZAIC**, ons in-house framework om programmeerwedstrijden in allerlei vormen en maten mee te kunnen spelen. Doorheen het hele jaar is dit het project dat het meest is gegroeid op vlak van lijntjes code, aantal vaste developers en grootte van de Git-repository (met dank aan Arthur die besliste alle gecompileerde Rust-bestanden in één keer toe te voegen).
 
 Verder staan de ideeën voor **G2** (uitgesproken als _geetwee_) klaar om volgend jaar van start te gaan. Dit wordt [Gamification](https://zeus.ugent.be/game) 2.0 die de _gateway_ gaat worden naar onze projectwerking door het makkelijker te maken om aan een project mee te werken en de organisatie (issues, documentatie, ...) zal stroomlijnen.
 
-Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (weldra [zeus.gent](https://zeus.gent) wordt nog altijd onderhouden en regelmatig verschijnen er nieuwe events en blogposts. Aan **Hydra** (dé app voor de UGent-student) wordt ook nog altijd gesleuteld, o.a. de integratie met Minerva wordt steeds beter en beter. De _"Choose for me"_-knop is de nieuwste killer-feature van **Haldis** (ons eetbestelsysteem) geworden en de _[frecency](https://en.wikipedia.org/wiki/Frecency)_ van **Tap** (ons drankbestelsysteem) werd gefixed.
+Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (weldra [zeus.gent](https://zeus.gent)) wordt nog altijd onderhouden en regelmatig verschijnen er nieuwe events en blogposts. Aan **Hydra** (dé app voor de UGent-student) wordt ook nog altijd gesleuteld, o.a. de integratie met Minerva wordt steeds beter en beter. De _"Choose for me"_-knop is de nieuwste killer-feature van **Haldis** (ons eetbestelsysteem) geworden en de _[frecency](https://en.wikipedia.org/wiki/Frecency)_ van **Tap** (ons drankbestelsysteem) werd gefixed.
 
 # Events
 
