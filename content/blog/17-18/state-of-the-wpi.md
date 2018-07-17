@@ -7,11 +7,9 @@ description: Een terugblik op het jaar 2017-2018 in Zeus WPI.
 
 Beste Zeusers, Zeusinnen en andere organismen
 
-Iets minder dan een jaar geleden, op 31 juli 2017 werd een nieuw hoofdstuk van onze vereniging ingeluid. Maar liefst 10 jongens en één meisje hielden de eerste vergadering van wat het 26ste werkingsjaar van Zeus WPI zou worden.
+Ook tijdens de vakantie zit Zeus niet stil: tussen de [wekelijkse codenights in](/blog/17-18/codenights/) is een vers Zeus-bestuur uit de startblokken geschoten om het academiejaar 2018-2019 vorm te geven. Het belooft een interessant nieuw werkingsjaar te worden. Een [enthousiaste ploeg](/blog/17-18/bestuur-18-19), bestaande uit drie jonge enthousiastelingen die worden gecompenseerd door evenveel oude rotten die hun broek al meerdere jaren in Zeus versleten hebben, ziet het 27ste werkingsjaar al helemaal zitten.
 
-Op 11 juli 2018 herhaalde de geschiedenis zich: het bestuur voor academiejaar 2018-2019 is uit de startblokken geschoten met zijn eerste vergadering. Dat dit toekomstig bestuur een nieuwe wind zal blazen door de vereniging staat buiten kijf: de helft van dit bestuur heeft nog nooit eerder een bestuursfunctie binnen Zeus uitgeoefend en heeft een eerste jaar bachelor informatica achter de rug. Deze jeugdige enthousiastelingen worden perfect aangevuld door drie oude rotten die met hun master bezig zijn, waarvan twee oud-voorzitters. Met zo'n diverse en enthousiaste nieuwe ploeg belooft het interessant te worden volgend jaar.
-
-Om iedereen die Zeus nauw in het hart draagt up-to-date te houden met wat er momenteel leeft binnen Zeus, maak ik gebruik van de komkommertijd om een korte terugblik op het afgelopen jaar te geven. Dit wordt een korte samenvatting van de projecten, evenementen en andere fratsen die we met Zeus allen samen beleefd hebben.
+Dit jaar werd het idee geopperd om via dit soort blogposts iedereen die Zeus nauw in het hart draagt up-to-date te houden met wat er momenteel leeft binnen Zeus. Bij deze maak ik gebruik van de komkommertijd om het afgelopen jaar van onze vereniging in kaart te brengen. Dit wordt een korte samenvatting van de projecten, evenementen en andere fratsen die we met Zeus allen samen beleefd hebben. Tot slot geef ik een klein voorproefje van wat we voor volgend jaar in petto hebben.
 
 # Projecten
 
@@ -63,7 +61,4 @@ _Rien Maertens_
 _Voorzitter 17-18_
 
 _Vice-voorzitter 18-19_
-
-
-
 
