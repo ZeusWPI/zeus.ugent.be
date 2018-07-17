@@ -17,7 +17,7 @@ Dit is waar Zeus voornamelijk om draait: samen op codenights zitten vloeken op j
 
 Op kop staat **MOZAIC**, ons in-house framework om programmeerwedstrijden in allerlei vormen en maten mee te kunnen spelen. Doorheen het hele jaar is dit het project dat het meest is gegroeid op vlak van lijntjes code, aantal vaste developers en grote van de Git-repository (met dank aan Arthur die besliste alle gecompileerde Rust-bestanden in één keer toe te voegen).
 
-Verder staan de ideeën voor **G2** 'Gateway' klaar om volgend jaar van start te gaan. Dit wordt de opvolger van Gamification met als doel het verlagen van de instapdrempel voor leden om aan projecten te werken en het stroomlijnen van de organisatie van projecten (issues, documentatie, ...).
+Verder staan de ideeën voor **G2** (uitgesproken als _geetwee_) klaar om volgend jaar van start te gaan. Dit wordt [Gamification](https://zeus.ugent.be/game) 2.0 die de _gateway_ gaat worden naar onze projectwerking door het makkelijker te maken om aan een project mee te werken en de organisatie (issues, documentatie, ...) zal stroomlijnen.
 
 Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (weldra [zeus.gent](https://zeus.gent) wordt nog altijd onderhouden en regelmatig verschijnen er nieuwe events en blogposts. Aan **Hydra** (dé app voor de UGent-student) wordt ook nog altijd gesleuteld, o.a. de integratie met Minerva wordt steeds beter en beter. De _"Choose for me"_-knop is de nieuwste killer-feature van **Haldis** (ons eetbestelsysteem) geworden en de _[frecency](https://en.wikipedia.org/wiki/Frecency)_ van **Tap** (ons drankbestelsysteem) werd gefixed.
 
