@@ -65,6 +65,6 @@ Naast projecten en evenementen zijn de volgende feitjes nog noemenswaardig om te
 Tot in de kelder!
 
 _Rien Maertens_
-_Voorzitter 17-18_
-_Vice-voorzitter 18-19_
+_Voorzitter 17-18_<br>
+_Vice-voorzitter 18-19_<br>
 
