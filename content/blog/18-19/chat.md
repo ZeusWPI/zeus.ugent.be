@@ -5,8 +5,6 @@ description: Wat context rond de plannen om van chat-applicatie te veranderen
 author: Wout Schellaert
 ---
 
-# Let's chat about chatting
-
 Zij die op Slack het #zeus-, #bestuur-, of #rants-kanaal volgen hebben waarschijnlijk al door dat er gesproken wordt over van chatplatform te veranderen. Zeus publiceert updates via de site, Facebook en mailinglijst; maar de meeste _gesprekken_ worden gevoerd op de chat. Toen ik lid werd (ondertussen toch 4 jaar geleden) was IRC al dood, en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
 
 > Waarom dan veranderen?
