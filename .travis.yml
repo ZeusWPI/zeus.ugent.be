@@ -1,8 +1,10 @@
 language: ruby
+bundler_args: --without development,nanoc
 
 cache:
   apt: true
   bundler: true
+  
   # Cache nanoc directories
   # NEVER MIND LOL
   # directories:
