@@ -32,7 +32,7 @@ De vraag is dus:
 
 Het huidig Zeus-bestuur denkt alvast van wel. We zijn ons bewust van het gemak van Slack, maar we proberen ook een oog te hebben voor de principes van Zeus. De mate waar in pragmatisch met deze principes omgesprongen wordt is door de jaren heen natuurlijk variabel geweest, en hangt heel veel af van context en alternatieven. Nu zijn we op een punt gekomen dat die coole, open, en hackable alternatieven er zijn. We zijn vooral aan het kijken naar Matrix, RocketChat, en Zulip, maar andere suggesties zijn zeker welkom.
 
-Omdat Zeus meer is dan zijn bestuur polsen (!= stemmen) we toch eens graag naar jullie mening. We hebben bijvoorbeeld een bovengemiddelde alumni-werking, en veel van onze 'ouwe zakken' blijven actief in communicatie met de nieuwere generaties. Bij deze dan ook een kleine [poll](https://docs.google.com/forms/d/1MbhITPN8T4G8OCu5I9yES5Ej5iG-Kj9ZUoUjuLhRwE8/edit).
+Omdat Zeus meer is dan zijn bestuur polsen (!= stemmen) we toch eens graag naar jullie mening. We hebben bijvoorbeeld een bovengemiddelde alumni-werking, en veel van onze 'ouwe zakken' blijven actief in communicatie met de nieuwere generaties. Bij deze dan ook een kleine [poll](https://docs.google.com/forms/d/e/1FAIpQLSfbkIWCUp3-QiyttC4nY-nv-YMmajG94o71K04RlDhyyhIZwA/viewform).
 
 We kijken alvast uit naar jullie gefundeerde meningen.
 
