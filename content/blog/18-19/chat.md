@@ -5,13 +5,17 @@ description: Wat context rond de plannen om van chat-applicatie te veranderen
 author: Wout Schellaert
 ---
 
-We denken na over van chatplatform te veranderen. Zeus publiceert updates via de website, Facebook en de mailinglijst; maar de meeste _gesprekken_ worden gevoerd op de chat: Slack. Toen ik lid werd (ondertussen toch 4 jaar geleden) was IRC al dood hier, en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
+Hallo Zeus-leden
+
+In deze blogpost vatten we samen wat er binnen Zeus gedacht en gezegd wordt over chatplatformen. Wat er belangrijk is, wat er mis gaat, en wat de andere opties zijn. We polsen ook hierbij ook graag naar jullie mening over deze zaken (zie verder). Maar goed, let's go.
+
+Eerst wat context: Zeus publiceert updates via de website, Facebook en de mailinglijst, maar de meeste _gesprekken_ worden gevoerd op de chat, op Slack. Toen ik lid werd (ondertussen toch 4 jaar geleden) was IRC al dood (hier toch), en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
 
 > Waarom dan veranderen?
 >
 > -- Veel mensen
 
-Eerst wat context: het bestuur is er, zoals veel andere gebruikers, van overtuigd dat Slack nu de industry-standard is wat gebruiksgemak betreft. De UX is schitterend, zowel in de webview als de app, er zijn integraties beschikbaar met talrijke services zoals GitHub en Google Drive, en we behoren allemaal tot 5 andere teams die ook Slack gebruiken.
+Het bestuur is er, zoals veel andere gebruikers, van overtuigd dat Slack nu de industry-standard is wat gebruiksgemak betreft. De UX is schitterend, zowel in de webview als de app, er zijn integraties beschikbaar met talrijke services zoals GitHub en Google Drive, en we behoren allemaal tot 5 andere teams die ook Slack gebruiken.
 
 Er zijn echter ook een aantal stevige argumenten tegen het gebruik van Slack, waarvan de essentie kan samengevat worden als: we hebben geen controle. Slack is een closed-source, proprietary, remotely hosted oplossing. Een _bedrijf_?? Dat is natuurlijk geen argument an sich, maar het business model impliceert wel aantal zaken voor de free-tier die Zeus nu gebruikt:
 
@@ -28,13 +32,20 @@ Andere argumenten houden bvb in:
 
 De vraag is dus:
 
-> Is er een ander (open) platform waar deze problemen op te lossen zijn met een doenbare vermindering van gebruiksvriendelijkheid?
+> Is er een ander (open) platform waarmee deze problemen op te lossen zijn?
 
-Het huidig Zeus-bestuur denkt alvast van wel. We zijn ons bewust van het gemak van Slack, maar we proberen ook een oog te hebben voor de principes van Zeus. De mate waar in pragmatisch met deze principes omgesprongen wordt is door de jaren heen natuurlijk variabel geweest, en hangt heel veel af van context en alternatieven. Nu zijn we op een punt gekomen dat die coole, open, en hackable alternatieven er zijn. We zijn vooral aan het kijken naar Matrix, RocketChat, en Zulip, maar andere suggesties zijn zeker welkom.
+Het huidig Zeus-bestuur denkt alvast van wel. We zijn ons bewust van het gemak van Slack, maar we proberen ook een oog te hebben voor de principes van Zeus. De mate waar in pragmatisch met deze principes omgesprongen wordt is door de jaren heen natuurlijk variabel geweest, en hangt heel veel af van context en alternatieven. Nu zijn we schijnbaar op een punt gekomen dat die coole, open, en hackable alternatieven er zijn. We zijn vooral aan het kijken naar Matrix, RocketChat, en Zulip, maar andere suggesties zijn zeker welkom.
 
 Omdat Zeus meer is dan zijn bestuur polsen (!= stemmen) we toch eens graag naar jullie mening. We hebben bijvoorbeeld een bovengemiddelde alumni-werking, en veel van onze 'ouwe zakken' blijven actief in communicatie met de nieuwere generaties. Bij deze dan ook een kleine [poll](https://docs.google.com/forms/d/e/1FAIpQLSfbkIWCUp3-QiyttC4nY-nv-YMmajG94o71K04RlDhyyhIZwA/viewform).
 
-We kijken alvast uit naar jullie gefundeerde meningen.
+Om samen te vatten: Slack is heel aangenaam, maar er zijn een aantal fundamentele problemen (zoals de gesloten aard). Er lijken heel mooie alternatieven te zijn. Vul de poll in, en we beslissen samen over wat we doen!
+
+Groetjes
+
+Wout Schellaert
+PR 18-19
+Project 17-18
+Voorzitter 16-17
 
 # FAQ
 
