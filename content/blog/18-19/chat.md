@@ -42,9 +42,9 @@ Om samen te vatten: Slack is heel aangenaam, maar er zijn een aantal fundamentel
 
 Groetjes
 
-Wout Schellaert
-PR 18-19
-Project 17-18
+Wout Schellaert<br/>
+PR 18-19<br/>
+Project 17-18<br/>
 Voorzitter 16-17
 
 # FAQ
