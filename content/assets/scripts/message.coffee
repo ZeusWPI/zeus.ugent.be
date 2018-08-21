@@ -6,5 +6,5 @@ $ '.send'
       contentType: "text/plain",
       type: "POST"
       data: $('.chatbox').val()
-      success: _ -> $('#chat-response').text('Success! :)')
-      error: _ -> $('#chat-response').text('Error !1!')
+      success: -> $('#chat-response').text('Success! :)')
+      error: -> $('#chat-response').text('Error !1!')
