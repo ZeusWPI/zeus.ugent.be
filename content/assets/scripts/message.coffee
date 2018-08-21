@@ -2,10 +2,9 @@ $ '.send'
   .click ->
     $context = $ this
     $.ajax
-      # url: "http://localhost:8080/"
       url: "https://kelder.zeus.ugent.be/messages/",
       contentType: "text/plain",
       type: "POST"
       data: $('.chatbox').val()
-      success: $('#chat-response').text('Success! :)')
-      error: $('#chat-response').text('Error !1!')
+      success: _ -> $('#chat-response').text('Success! :)')
+      error: _ -> $('#chat-response').text('Error !1!')
