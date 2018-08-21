@@ -8,6 +8,6 @@ module AssetHelper
   end
 
   def zeus_logo_url(color: :black)
-    "https://zeus.ugent.be/zinc/#{color}"
+    "https://zinc.zeus.gent/#{color}"
   end
 end
