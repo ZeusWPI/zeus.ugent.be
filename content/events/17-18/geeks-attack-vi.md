@@ -7,7 +7,7 @@ created_at: 08-10-2017
 time: '27-10-2017 16:00'
 end: '28-10-2017 12:00'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
-locationlink: 'Therminal,Ghent Belgium'
+locationlink: 'Therminal'
 facebook: 'https://www.facebook.com/events/1280929475288422/'
 
 sponsors:

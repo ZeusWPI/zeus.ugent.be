@@ -12,6 +12,9 @@
 <meta name="twitter:label2" value="Place" />
 <meta name="twitter:data2" value="<%= item[:location] %>" />
 <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
 <% end %>
 
 <% if item[:banner] %>
@@ -76,15 +79,71 @@
         <%= yield %>
       </div>
 
-      <!-- GOOGLE MAPS -->
+      <!-- MAPS -->
       <div class="map-wrapper box">
-        <iframe height="400" style="width:100%" src="<%= locationlink item[:locationlink] %>" allowfullscreen> </iframe>
+          <div id="map-error" class="is-invisible" style="height:100%;width:100%;position:absolute;left:0;top:0;background-color:#00000066;z-index:1000;color:white;font-size:30px;display:flex;justify-content:center;align-items:center;padding:50px;">
+              Could not find location. Please create an issue on github.
+          </div>
+          <div id="map" style="height:100%;"></div>
       </div>
-      <!-- END GOOGLE MAPS -->
-
     </div>
   </div>
 </section>
+
+<script>
+var map = L.map('map');
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+function performRequest(url, success_callback) {
+    var request = new XMLHttpRequest();
+    request.open('GET', url, true);
+
+    request.onload = function() {
+      if (this.status >= 200 && this.status < 400) {
+        // Success!
+        var data = JSON.parse(this.response);
+        success_callback(data);
+      } else {
+        // We reached our target server, but it returned an error
+
+      }
+    };
+
+    request.onerror = function() {
+      // There was a connection error of some sort
+    };
+
+    request.send();
+}
+
+performRequest('https://photon.komoot.de/api/?limit=1&q=<%= URI::encode(item[:locationlink]) %>', function(data) {
+    var lat, lon;
+    if(data.features.length < 1) {
+        lat = 51.0538286;
+        lon = 3.7250121;
+
+        var className = 'is-invisible';
+        var el = document.getElementById('map-error');
+
+        if (el.classList)
+          el.classList.remove(className);
+        else
+          el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    } else {
+        var place = data.features[0].properties;
+        lat = data.features[0].geometry.coordinates[1];
+        lon = data.features[0].geometry.coordinates[0];
+
+        L.marker([lat, lon]).addTo(map)
+            .bindPopup(place.name + ', ' + place.street + ' ' + place.housenumber)
+            .openPopup();
+    }
+    map.setView([lat, lon], 18);
+});
+</script>
 
 <!-- SPONSORED BY -->
 <% if item[:sponsors] %>

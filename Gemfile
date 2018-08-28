@@ -37,6 +37,7 @@ group :production do
   # Autoprefixing for class
   gem 'autoprefixer-rails'
   gem 'htmlcompressor'
+  gem 'yui-compressor'
 end
 
 group :nanoc do
