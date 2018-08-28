@@ -20,13 +20,14 @@ module PreprocessHelper
 
   def ignore_old_content(*paths)
     paths.each do |path|
-      latest_year_with_content = @items.find_all("/#{path}/**/*").map { |it| it.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1] }.sort[-1]
+      years_with_content = @items.find_all("/#{path}/**/*").map { |it| it.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1] }
+      latest_years_with_content = years_with_content.last(2)
 
-      latest_year = [latest_year_with_content, @config[:academic_year]].min
+      latest_years = latest_years_with_content + [@config[:academic_year]]
       @items.delete_if do |item|
         next unless item.identifier.match?(%r{^/#{path}/})
         year = item.identifier.to_s.match(%r{/(\d\d-\d\d)/})[1]
-        year != latest_year
+        !latest_years.include?(year)
       end
     end
   end
