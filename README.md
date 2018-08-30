@@ -56,6 +56,14 @@ bundle exec nanoc deploy --target public
 
 If you want to deploy this on your own system for whatever reason, just serve the files using a webserver like nginx or Apache.
 
+## Submitting a Pull Request
+
+Once you've submitted a PR, it will automatically be deployed to (PR#).pr.zeus.gent, for easier reviewing.
+
+## Analytics
+
+Analytics are powered by [Fathom](https://usefathom.com) and are available on <https://stats.zeus.gent>. These are only available to administrators with proper rights. These analytics are self hosted and provide only simple statistics for our information, without breaching your privacy.
+
 ## Built With
 
 
