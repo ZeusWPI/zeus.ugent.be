@@ -1,3 +1,5 @@
+@import 'mixins';
+
 #navbar {
     align-items: flex-end;
     margin-bottom: 10px;
@@ -42,10 +44,10 @@
     }
 
     @include touch {
-	.navbar-menu {
-	    position: absolute;
-	    width: 100%;
-	}
+        .navbar-menu {
+            position: absolute;
+            width: 100%;
+        }
     }
 
     .navbar:not(.is-transparent) {
@@ -60,5 +62,10 @@
                 margin-bottom: -2px;
             }
         }
+    }
+
+    #ledenformulier {
+        color: $zeus-orange;
+        transform: rotate(10deg);
     }
 }

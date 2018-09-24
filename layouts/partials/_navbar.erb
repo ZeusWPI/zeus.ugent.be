@@ -20,6 +20,11 @@
           <%= i[:title] %>
         </a>
         <% end %>
+        <% if new_member_time? %>
+          <a class="navbar-item" id="ledenformulier" href="https://zeus.gent/ledenformulier">
+            Schrijf je in!
+          </a>
+        <%end%>
       </div>
       <!-- TODO: Remove this is-hidden-touch, it's just a convenience for now -->
       <div class="navbar-end is-hidden-touch">
