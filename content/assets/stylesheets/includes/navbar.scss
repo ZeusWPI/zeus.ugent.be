@@ -66,6 +66,6 @@
 
     #ledenformulier {
         color: $zeus-orange;
-        @include text-rotate(10deg);
+        transform: rotate(10deg);
     }
 }
