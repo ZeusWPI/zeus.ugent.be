@@ -1,0 +1,16 @@
+@mixin text-rotate($rotation) {
+    /* Safari */
+    -webkit-transform: rotate($rotation);
+
+    /* Firefox */
+    -moz-transform: rotate($rotation);
+
+    /* IE */
+    -ms-transform: rotate($rotation);
+
+    /* Opera */
+    -o-transform: rotate($rotation);
+
+    /* Internet Explorer */
+    // filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
