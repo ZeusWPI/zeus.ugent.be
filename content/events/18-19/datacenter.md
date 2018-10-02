@@ -8,4 +8,4 @@ locationlink: S10 datacenter
 
 ---
 
-Omdat wij als echte Zeussers en Zeusinnen fan zijn van snelle computers en flikkerende lichtjes organiseren we in samenwerking met de medewerkers van de HPC een rondleiding door het datacenter in gebouw S10. Wil je weten waar Minerva, de Zeus servers en zo veel meer draaien? [Schrijf je dan nu in](http://bitly.com/98K8eH)!
+Omdat wij als echte Zeussers en Zeusinnen fan zijn van snelle computers en flikkerende lichtjes organiseren we in samenwerking met de medewerkers van de HPC een rondleiding door het datacenter in gebouw S10. Wil je weten waar Minerva, de Zeus servers en zo veel meer draaien? [Schrijf je dan nu in](https://event.fkgent.be/events/213)!
