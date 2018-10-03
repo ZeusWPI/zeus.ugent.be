@@ -2,7 +2,7 @@
 title: Zeus bezoekt het datacenter
 description: Heb je altijd al eens de blinkende lichtjes in het datacenter van dichtbij willen zien? Dit is je kans!
 created_at: 02-10-2018
-time: 25-10-2018 17:30
+time: 18-10-2018 17:30
 location: Gebouw S10, Campus Sterre, Gent
 locationlink: S10 datacenter
 
