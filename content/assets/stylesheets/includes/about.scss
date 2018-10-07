@@ -10,6 +10,7 @@
   tbody {
     > tr {
       display: grid;
+      border-top: 1px solid $box-colour;
       grid-template-columns: auto auto;
       grid-template-areas:
         "func func"
