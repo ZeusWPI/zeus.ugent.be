@@ -14,7 +14,7 @@ locationlink: 'Therminal'
 
 Het is weer tijd voor de jaarlijkse LAN party van Zeus! Wie de behoefte voelt om zijn gameverslaving te combineren met zijn verslaving aan sociaal contact (die inherent verbonden is aan het mens zijn) krijgt daar weer eens de perfecte kans toe.
 
-Zeus gaat voor jou de moeite doen om toernooien te organiseren en couch games te orkestreren. Er is niet alleen eer en aanzien te verdienen vallen, maar ook nog fancy echte prijzen. Gewoon voor het spelen van je favoriete games! Laat ons bij het inschrijven ook weten wat je graag speelt.
+Zeus gaat voor jou de moeite doen om toernooien te organiseren en couch games te orkestreren. Er is niet alleen aanzien en eer te verdienen, maar ook nog fancy prijzen. Gewoon voor het spelen van je favoriete games! Laat ons bij het inschrijven daarom ook weten wat je graag speelt.
 
 **Graag inschrijven** [hier](https://goo.gl/forms/pCTnX8ESwxIy6zQg1).
 
