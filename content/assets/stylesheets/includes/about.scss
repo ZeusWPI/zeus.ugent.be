@@ -1,64 +1,56 @@
-@media only screen and (max-width: 425px) {
-  table {
+@include mobile {
+  table.board-table {
     border-collapse: inherit;
-  }
-  thead {
-    > tr {
-      visibility: collapse;
+    thead {
+      > tr {
+        visibility: collapse;
+      }
     }
-  }
-  tbody {
-    > tr {
-      display: grid;
-      border-top: 1px solid $box-colour;
-      grid-template-columns: auto auto;
-      grid-template-areas:
+    tbody {
+      > tr {
+        display: grid;
+        border-top: 1px solid $box-colour;
+        grid-template-columns: auto auto;
+        grid-template-areas:
         "func func"
         "name name"
         "email link";
 
-      width: 87vw;
-    }
-    > tr > td:nth-child(3) {
-      grid-area: email;
-      border: none;
-    }
-    > tr > td:nth-child(2) {
-      grid-area: name;
-      border: none;
-    }
-    > tr > td:nth-child(4) {
-      display: grid;
-      justify-items: end;
-      grid-area: link;
-      border: none;
-    }
-    > tr > td:nth-child(1) {
-      grid-area: func;
-      border: none;
-    }
-  }
-  tbody {
-    > tr > td:nth-child(3):before {
-      content: "E-mail: ";
-      font-weight: bold;
-    }
-  }
-  tbody {
-    > tr > td:nth-child(2):before {
-      content: "Name: ";
-      font-weight: bold;
-    }
-  }
-  tbody {
-    > tr > td:nth-child(1):before {
-      content: "Function: ";
-      font-weight: bold;
-    }
-  }
-  tbody {
-    > tr > td:nth-child(4):before {
-      grid-area: link;
+        width: 87vw;
+      }
+      > tr > td:nth-child(3) {
+        grid-area: email;
+        border: none;
+      }
+      > tr > td:nth-child(2) {
+        grid-area: name;
+        border: none;
+      }
+      > tr > td:nth-child(4) {
+        display: grid;
+        justify-items: end;
+        grid-area: link;
+        border: none;
+      }
+      > tr > td:nth-child(1) {
+        grid-area: func;
+        border: none;
+      }
+      > tr > td:nth-child(3):before {
+        content: "E-mail: ";
+        font-weight: bold;
+      }
+      > tr > td:nth-child(2):before {
+        content: "Name: ";
+        font-weight: bold;
+      }
+      > tr > td:nth-child(1):before {
+        content: "Function: ";
+        font-weight: bold;
+      }
+      > tr > td:nth-child(4):before {
+        grid-area: link;
+      }
     }
   }
 }

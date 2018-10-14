@@ -64,6 +64,9 @@
 
     #ledenformulier {
         color: $zeus-orange;
-        transform: rotate(10deg);
+
+        @include desktop {
+            transform: rotate(10deg);
+        }
     }
 }

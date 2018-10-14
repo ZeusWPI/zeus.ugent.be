@@ -14,10 +14,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need Ruby (gem) and Node.js (npm). Installation instructions are listed below.
+You will need Ruby (gem), yarn and pandoc. Installation instructions are listed below.
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-* [Node.js](https://nodejs.org/en/download/package-manager/)
+* [yarn](yarnpkg.com/en/docs/install)
+* [pandoc](https://pandoc.org/installing.html)
 
 ### Installing
 

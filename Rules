@@ -11,7 +11,7 @@ require 'icalendar'
 #
 
 preprocess do
-  `npm install`
+  `yarn`
 
   # We don't want to compile old blogposts in development
   ignore_old_content('blog', 'events', 'about/verslagen') if development?
@@ -46,7 +46,7 @@ compile '/blog/*' do
   layout '/default.*'
   filter :erb
 
-  filter :html_press
+  filter :html_press if production?
 end
 
 #
@@ -60,7 +60,7 @@ compile '/events/*' do
   layout '/default.*'
   filter :erb
 
-  filter :html_press
+  filter :html_press if production?
 end
 
 compile '/events/*/*' do
@@ -71,7 +71,7 @@ compile '/events/*/*' do
   layout '/default.*'
   filter :erb
 
-  filter :html_press
+  filter :html_press if production?
 end
 
 compile '/events/*/*', rep: :text do
@@ -98,7 +98,7 @@ compile '/blog/*/*.md' do
   layout '/default.*'
   filter :erb
 
-  filter :html_press
+  filter :html_press if production?
 end
 
 compile '/blog/*/*.md', rep: :text do
@@ -149,7 +149,7 @@ compile '/**/*.erb' do
   layout '/generic.*'
   layout '/default.*'
 
-  filter :html_press
+  filter :html_press if production?
 end
 
 compile '/**/*.md' do
@@ -175,6 +175,7 @@ end
 
 ignore '/assets/stylesheets/includes/**/*'
 ignore '/data/**/*'
+ignore '/node_modules/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss, style: :compressed
