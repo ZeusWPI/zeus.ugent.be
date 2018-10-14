@@ -135,9 +135,8 @@ end
 #
 
 compile '/about/verslagen/*/*.md', rep: :pdf do
-  filter :pandoc_pdf, args: { f: :markdown }
-
-  write ext: 'pdf'
+  filter :pandoc_pdf, args: { f: :markdown } if production?
+  write ext: (production? ? 'pdf' : 'md')
 end
 
 #

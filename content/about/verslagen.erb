@@ -9,7 +9,7 @@ narrow_page: true
   <% reports.group_by {|r| r[:academic_year]}.each do |year, y_reports| %>
     <h2><%= year %></h2>
     <% y_reports.each do |report| %>
-      <a href="<%= report.identifier.without_ext + '.pdf' %>">Report <%= report[:date].strftime('%d %B %Y') %></a><br>
+      <a href="<%= report.reps[:pdf]&.path || report.identifier %>">Report <%= report[:date].strftime('%d %B %Y') %></a><br>
     <% end %>
   <% end %>
 </div>
