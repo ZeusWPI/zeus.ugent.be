@@ -45,6 +45,7 @@ $sel: '';
   .titlewrap {
     position: relative;
     margin: auto;
+    min-width: 400px;
 
     .title {
       @include tablet {
