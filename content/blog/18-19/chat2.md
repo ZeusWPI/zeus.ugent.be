@@ -11,9 +11,9 @@ Laat ons de **tl;dr** eerst geven: het is Mattermost geworden.
 
 Nu, wij kunnen (en willen) niemand forceren om ons in die keuze te volgen. Het bestuur zal voor alle chatting migreren naar Mattermost, en hopen dat jullie dat samen met ons ook doen. Nieuwe leden zullen we ook naar daar verwijzen.
 
-Als bestuur hebben we geen probleem met het voortbestaan van Slack, idealiter wordt een nieuwe account aanmaken daar afgesloten, en migreert iedereen van zelf, maar op zich heeft nudded als primary owner de controle over wat er met Slack gebeurt.
+Als bestuur hebben we geen probleem met het voortbestaan van Slack. Idealiter wordt een nieuwe account aanmaken daar afgesloten, en migreert iedereen van zelf, maar op zich heeft nudded als primary owner de controle over wat er met Slack gebeurt.
 
-Waarom Mattermost? Want MM haalt in het totaalpakket niet altijd hetzelfde niveau van Slack, alle belangrijke functionaliteiten zijn aanwezig, maar het is soms nog wat rough around the edges. Ook zijn er terechte opmerkingen gekomen rond een feitelijke vermindering van privacy, aangezien die nu in handen is van jonge onbetaalde sysadmins. 
+Waarom Mattermost? Want MM haalt in het totaalpakket niet altijd hetzelfde niveau van Slack. Alle belangrijke functionaliteiten zijn aanwezig, maar het is soms nog wat rough around the edges. Ook zijn er terechte opmerkingen gekomen rond een feitelijke vermindering van privacy, aangezien die nu in handen is van jonge onbetaalde sysadmins. 
 
 Het doorslaggevende argument is het bestaan van een **backlog**, waarvan het ontbreken in Slack voor een aantal zaken (projectwerking, bestuur) heel ongemakkelijk was. In combinatie met de openheid van de software lijkt Mattermost uiteindelijk een betere fit voor Zeus als organisatie.
 
@@ -31,7 +31,7 @@ Verder nog:
 - /cammiechat, en /stock werken ook
 - de integraties vind je op <https://github.com/ZeusWPI/mattermore>
 - quotes en github integratie werken nog niet
-- het #bestuur kanaal zal integraal naar MM verhuizen in de zin dat we daar bewust niet meer gaan reageren
+- het #bestuur-kanaal zal integraal naar MM verhuizen in de zin dat we daar bewust niet meer gaan reageren
 - custom emoji zijn nog steeds een ding
 - belangrijkste resultaat uit de poll:
 
