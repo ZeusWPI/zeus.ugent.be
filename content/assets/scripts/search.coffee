@@ -1,9 +1,16 @@
-$('#tipue_search_input_field').on 'focusin', ->
-  $('#tipue_search_input').addClass("focused")
+input_field = document.getElementById('tipue_search_input_field')
+input = document.getElementById('tipue_search_input')
 
-$('#tipue_search_input_field').on 'focusout', ->
-  $('#tipue_search_input').removeClass("focused")
+input_field.addEventListener 'focusin', ->
+  input.classList.add('focused')
 
-$('.nav-toggle').on 'click', ->
-  $('.nav-menu').toggleClass('is-active')
-  $('.nav-toggle').toggleClass('is-active')
+input_field.addEventListener 'focusout', ->
+  input.classList.remove('focused')
+
+burger = document.getElementsByClassName('navbar-burger')[0]
+menu = document.getElementsByClassName('navbar-menu')[0]
+
+burger.addEventListener 'click', ->
+  s = 'is-active'
+  if menu.classList.contains(s) then menu.classList.remove(s) else menu.classList.add(s)
+  if burger.classList.contains(s) then burger.classList.remove(s) else burger.classList.add(s)

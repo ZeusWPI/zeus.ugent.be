@@ -1,0 +1,44 @@
+div.tooltip {
+  position: fixed;
+  text-align: center;
+  min-width: 30px;
+  padding: 4px;
+  font: 12px sans-serif;
+  background: black;
+  color: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0;
+}
+
+div.tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+#instance path.domain {
+  visibility: hidden;
+}
+
+.full-width {
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+}
+text.begin,
+text.end {
+  font-size: 12pt;
+}

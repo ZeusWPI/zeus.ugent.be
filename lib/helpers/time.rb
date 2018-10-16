@@ -13,6 +13,11 @@ module TimeHelper
                ])
   end
 
+  def new_member_time?
+    year = Time.now.year
+    timehelper([[Time.new(year, 9, 20), Time.new(year, 10, 15)]])
+  end
+
   def timehelper(ranges)
     ranges.any? { |range| periodhelper(*range) }
   end

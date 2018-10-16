@@ -50,19 +50,19 @@
   }
 }
 #cammie-section {
-
-  .nav-center{
-  width:100%;
-  }
   button{
     background-color: $orange;
     color: white;
     margin-top: 5px;
     border-radius: 0;
     border: none;
-    width: 33.333333333333333333333333333333333333333333333333333%;
-    &:not(:last-child){
-        margin-right: 5px;
+    width: 100%;
+    &:hover{
+      color: #363636;
+    }
+    &:active{
+      background-color: #b36b00; //dark orange
+      color: #363636;
     }
   }
 

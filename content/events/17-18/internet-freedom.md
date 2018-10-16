@@ -5,7 +5,7 @@ created_at: 19-10-2017
 time: '23-11-2017 19:30'
 end: '23-11-2017 21:00'
 location: 'Auditorium D, Jozef Plateaustraat 22, 9000 Gent'
-locationlink: 'Faculteit Ingenieurswetenschappen en Architectuur'
+locationlink: Instituut der Wetenschappen
 facebook: 'https://www.facebook.com/events/313118845828839/'
 color: '#aea485'
 gradient: false

@@ -11,14 +11,21 @@ require 'icalendar'
 #
 
 preprocess do
-  `npm install`
+  `yarn`
 
   # We don't want to compile old blogposts in development
-  ignore_old_blogposts if development?
+  ignore_old_content('blog', 'events', 'about/verslagen') if development?
+
   update_blog_attributes
   create_yearly_items('Blog')
   create_yearly_items('Events')
   convert_event_time_to_timestamps
+
+  all_events.each do |event|
+    check_schema(:event, event)
+  end
+
+  add_report_metadata
 end
 
 #
@@ -38,6 +45,8 @@ compile '/blog/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press if production?
 end
 
 #
@@ -50,6 +59,8 @@ compile '/events/*' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press if production?
 end
 
 compile '/events/*/*' do
@@ -59,6 +70,8 @@ compile '/events/*/*' do
   layout '/eventpost.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press if production?
 end
 
 compile '/events/*/*', rep: :text do
@@ -74,23 +87,28 @@ end
 #
 # POSTS
 #
-compile '/blog/*/*' do
+compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
   filter :kramdown
+  filter :typogruby
 
   layout '/blogpost.erb'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+
+  filter :html_press if production?
 end
 
-compile '/blog/*/*', rep: :text do
+compile '/blog/*/*.md', rep: :text do
+  filter :erb
   filter :kramdown
   filter :strip_html
 end
 
-compile '/blog/*/*', rep: :html do
+compile '/blog/*/*.md', rep: :html do
+  filter :erb
   filter :kramdown
 end
 
@@ -99,10 +117,10 @@ end
 #
 compile '/projects/*' do
   filter :kramdown
-end
 
-# Don't create specific project pages for now
-route '/projects/*' do; end
+  # Don't write out the projects themselves for now
+  write nil
+end
 
 compile '/*_search.json' do
   filter :erb
@@ -113,6 +131,15 @@ compile '/**/*.ics' do
 end
 
 #
+# REPORTS
+#
+
+compile '/about/verslagen/*/*.md', rep: :pdf do
+  filter :pandoc_pdf, args: { f: :markdown } if production?
+  write ext: (production? ? 'pdf' : 'md')
+end
+
+#
 # GENERIC ERB PAGES
 #
 compile '/**/*.erb' do
@@ -120,6 +147,8 @@ compile '/**/*.erb' do
 
   layout '/generic.*'
   layout '/default.*'
+
+  filter :html_press if production?
 end
 
 compile '/**/*.md' do
@@ -140,14 +169,21 @@ compile '/assets/scripts/**/*.coffee' do
 end
 
 compile '/assets/scripts/**/*.js' do
-  filter :uglify_js
+  filter :uglify_js, harmony: true
 end
 
 ignore '/assets/stylesheets/includes/**/*'
 ignore '/data/**/*'
+ignore '/node_modules/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   filter :sass, syntax: :scss, style: :compressed
+  filter :autoprefixer if production?
+  write ext: 'css'
+end
+
+compile '/assets/stylesheets/**/*.css' do
+  filter :rainpress
   filter :autoprefixer if production?
   write ext: 'css'
 end

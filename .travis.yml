@@ -1,26 +1,44 @@
 language: ruby
+bundler_args: --without development,nanoc
 
 cache:
+  apt: true
   bundler: true
+
   # Cache nanoc directories
-  directories:
-    - output
-    - tmp
+  # NEVER MIND LOL
+  # directories:
+  #   - output
+  #   - tmp
+
+addons:
+  apt:
+    packages:
+      - pandoc
+      - texlive
+      - lmodern
 
 branches:
   only:
   - master
 
 rvm:
-- 2.3.1
+- 2.5.0
 notifications:
   slack:
     secure: tej68wbYns4DYg488iz+4ncU3/CHJvG/5c1qntGcEjti6vZp24atuH32BzNMY+gqa5ftZtcRfqIiJ0I0tkbiFWEDzjSk89bgjG4sgwXq1gMqi/Fj4bqEpjU5m7QLa786q4UfYyTF+srca1fHPLVS5REdGjRr2wxX+bcFnTRxreGCIrlNdWhoZPPJyS37R4RR9k+l5ZWZnqWgUN6bD448O8EzMRVRWoUSxQcJ6+u4QLpinEvem4iXe+WcHOyFfsNmavxGGMMpkOSed/tzA1l+gNpl224qOJl3yAk2qrGi4N6SOnSkeJFfUO5RzX56KDC/tcCL1oJpamhDmzDvRrbDNnCjSriv+g+PkXEjiwBF/tkZwIe7nMKyc9QF698Zvdgb6Ffbq21obsRnkkddkxijthdbUKMAIREPQuU7pXRL4ykPkBeB5GkNjPlErOooxvUHvQEVElJ8NMD4ychQqW6relaYJ0W0uy0QMvrtS+cHkpprZAOZzWLa3AdEOvD50kiS2hDhJway5JHJg/LMl3I6XVVMx6fNGdNWBcezeCqkDZM+nuMJqgAtQ+Tz8bwrHLCJgS5u0lQq/MbrDkYdpmmzvA5LXxn2SpjfOAlgiFKnSIwKSuuuwzW/zCEGdPo1pfBba2VfYAN4y1l863j5ph+eMtlHf7JG8mzIWTo3k+Jx8lQ=
 before_install:
 - openssl aes-256-cbc -K $encrypted_6059a4f451fd_key -iv $encrypted_6059a4f451fd_iv
   -in id_rsa.enc -out deploy_key -d
-- echo -e "Host zeus.ugent.be\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- npm install
+- echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
+# Repo for newer Node.js versions
+# - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+# Repo for Yarn
+# - sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
+# - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+# - sudo apt-get update -qq
+# - sudo apt-get install -y -qq yarn
+- yarn
 script:
 - bundle exec nanoc --env=prod
 - bundle exec nanoc --env=prod check --deploy
@@ -28,5 +46,4 @@ after_success:
 - mv deploy_key ~/.ssh/id_rsa
 - chmod 600 ~/.ssh/id_rsa
 - chmod +x ./deploy.sh
-- echo -e "Host $TRAVIS_PULL_REQUEST.zeus.werthen.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - ./deploy.sh

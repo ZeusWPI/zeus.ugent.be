@@ -3,10 +3,31 @@
   text-align: justify;
 }
 
+pre .line-numbers {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-size: 85%;
+  letter-spacing: 1px;
+}
+
 // Override box styling without round corners
 .box {
   margin-bottom:10px;
-  border-radius: 0 !important;
+
+  transition: all .15s ease;
+
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+}
+
+a.box:hover {
+  color: $blue;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 // Add some hero attributes to make backgrounds prettier
@@ -213,4 +234,12 @@ footer.footer {
   sup {
     font-size: $size-small;
   }
+}
+
+.has-all-small-caps {
+  font-variant: all-small-caps;
+}
+
+.has-small-caps {
+  font-variant: small-caps;
 }

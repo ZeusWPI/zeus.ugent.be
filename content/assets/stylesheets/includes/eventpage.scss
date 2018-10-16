@@ -42,6 +42,26 @@
   }
 }
 
-.nav-menu {
-  background: none;
+.map-wrapper {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+
+  padding: 0;
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.event-tile-image {
+  // For now, don't show the event tile image on mobile, takes too much space
+  @include mobile {
+    display: none;
+  }
+
+  max-width:200px;
+  max-height:200px;
 }

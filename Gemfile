@@ -3,11 +3,15 @@ source 'https://rubygems.org'
 
 gem 'nanoc'
 
+gem 'uglifier', '>= 4.0.0'
+
 # General filtering
 gem 'coffee-script'
 gem 'icalendar' # ical files
 gem 'kramdown'
+gem 'rainpress'
 gem 'sass'
+gem 'typogruby'
 
 # Needed for atom_feed in blogging helper
 gem 'builder'
@@ -19,6 +23,9 @@ gem 'therubyracer'
 # for reading time
 gem 'words_counted'
 
+# Compiling reports from .md to .pdf
+gem 'pandoc-ruby'
+
 group :development do
   gem 'adsf'
   gem 'highline'
@@ -29,7 +36,8 @@ end
 group :production do
   # Autoprefixing for class
   gem 'autoprefixer-rails'
-  gem 'html_press'
+  gem 'htmlcompressor'
+  gem 'yui-compressor'
 end
 
 group :nanoc do

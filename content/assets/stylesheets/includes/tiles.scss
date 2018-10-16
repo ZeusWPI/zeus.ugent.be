@@ -1,15 +1,7 @@
 $top_coder_size: 80px;
 
-a.box {
-  &:hover {
-    box-shadow: 0 2px 3px rgba($black, 0.1), 0 0 0 1px $blue
-  }
-}
-
 #homepage {
   .box {
-    border-radius: 0;
-
     img {
       width: 100%;
     }
@@ -27,7 +19,7 @@ a.box {
     color: $text;
     height: 100%;
     width: 100%;
-    background: rgba($tertiary, 0.2);
+    // background: rgba($tertiary, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +29,7 @@ a.box {
       font-size: 1.1em;
       margin-left: 10px;
       margin-right: 10px;
-      
+
       .event-time-loc {
         margin-left: 10px;
         margin-right: 10px;
@@ -77,6 +69,7 @@ a.box {
 }
 
 #gamification-coders {
+  font-variant: all-small-caps;
   display: flex;
 
   justify-content: center;
@@ -119,10 +112,10 @@ a.box {
 }
 
 #blokmap-tile {
+
   position: relative;
   height: 200px;
-  //background-image: url("https://i.imgur.com/PMaIG7X.jpg");
-  background-image: url("https://cldup.com/-FmSDFbd07.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, .2)), url("https://cldup.com/-FmSDFbd07.jpg");
   background-position: center;
 
   .overlay {
@@ -157,4 +150,24 @@ a.box {
 
 .backgroundimg{
   background-position: center;
+}
+
+.gamification-tile {
+  overflow: hidden;
+  padding: 0;
+
+  .tile-header {
+    background-color: $primary;
+    padding: 20px;
+    h1 {
+      margin: 0;
+    }
+    a, a:visited {
+      color: white;
+    }
+  }
+
+  #gamification-coders {
+    padding: 20px;
+  }
 }

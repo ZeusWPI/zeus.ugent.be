@@ -18,43 +18,27 @@
 
     <meta property="fb:app_id" content="597670540410704">
 
-    <!-- Inline JS -->
-    <!-- Google Analytics -->
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-25444917-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <!-- CSS -->
-    <!-- TiptueSearch CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch.css" >
-
     <!-- Custom CSS -->
     <%= asset :css, :main %>
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    
-    <!-- External JS -->
-    <!-- Google Analytics -->
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-    <!-- Hotjar Tracking Code for zeus.ugent.be -->
+    <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
     <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:392303,hjsv:5};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    (function(f, a, t, h, o, m){
+      a[h]=a[h]||function(){
+        (a[h].q=a[h].q||[]).push(arguments)
+      };
+      o=f.createElement('script'),
+      m=f.getElementsByTagName('script')[0];
+      o.async=1; o.src=t; o.id='fathom-script';
+      m.parentNode.insertBefore(o,m)
+    })(document, window, '//stats.zeus.gent/tracker.js', 'fathom');
+    fathom('trackPageview');
     </script>
-    
+    <!-- / Fathom -->
+
     <%= content_for(@item, :head) %>
   </head>
 
@@ -64,10 +48,7 @@
       </div>
     <%= render '/partials/_footer.*' %>
 
-  <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Tipue-Search/5.0.0/tipuesearch_set.js"></script>
-  <%= asset :js, :tipuesearch %>
-  <%= asset :js, :search %>
   <%= content_for(@item, :scripts) %>
+  <%= asset :js, :search %>
   </body>
 </html>

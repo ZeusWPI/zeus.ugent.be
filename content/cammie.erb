@@ -3,7 +3,9 @@ navigable: true
 title: Cammie
 ---
 <% content_for :scripts do %>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
 <%= asset :js, :cammie %>
+<%= asset :js, :message %>
 <% end %>
 
 <section id="cammie-section">
@@ -49,17 +51,32 @@ title: Cammie
       </div>
     </div>
   </div>
-  <nav class="nav">
-    <div class="nav-center">
-      <button class="button ctrl" data-command="set_pos" data-x="0" data-y="12">
+  <nav class="nav columns">
+    <div class="column">
+      <button class="button ctrl" data-command="set_pos" data-x="16" data-y="16">
         Kleine tafel
       </button>
+    </div>
+    <div class="column">
       <button class="button ctrl" data-command="set_pos" data-x="50" data-y="10">
         Grote tafel
       </button>
-      <button class="ctrl button" data-command="set_pos" data-x="50" data-y="22">
+    </div>
+    <div class="column">
+      <button class="ctrl button" data-command="set_pos" data-x="0" data-y="12">
         Zetel
       </button>
     </div>
   </nav>
+  <div class="columns">
+    <p id="chat-response"></p>
+    <div class="field has-addons ">
+      <div class="field control">
+          <input class="input chatbox" type="text" placeholder="Zeus is de max!">
+      </div>
+      <a class="button send control">
+        Send to kelder
+      </a>
+    </div>
+  <div>
 </section>
