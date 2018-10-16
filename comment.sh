@@ -4,7 +4,8 @@ PR_NR=$TRAVIS_PULL_REQUEST
 
 function performQuery() {
     NEW_QUERY_STR="{\"query\":\"$1\"}"
-    curl -s -H "Authorization: bearer $COMMENT_TOKEN" -X POST -d $NEW_QUERY_STR https://api.github.com/graphql
+    echo $NEW_QUERY_STR
+    curl -s -H "Authorization: bearer $COMMENT_TOKEN" -X POST -d "$NEW_QUERY_STR" https://api.github.com/graphql
 }
 
 RESULT=$(performQuery "{repository(owner:\\\"ZeusWPI\\\",name:\\\"zeus.ugent.be\\\"){pullRequest(number:$PR_NR){id,comments(first:10){nodes{author{login}}}}}}")
@@ -22,7 +23,7 @@ if [[ $RESULT == *"werthen"* ]]; then
     echo "User has already commented"
 else
     ADD_COMMENT_STR="mutation{addComment(input:{subjectId:\\\"$PR_ID\\\",body:\\\"Check out the preview on https://$PR_NR.pr.zeus.gent/\\\"}){clientMutationId}}"
-    performQuery $ADD_COMMENT_STR
+    performQuery "$ADD_COMMENT_STR"
 fi
 
 
