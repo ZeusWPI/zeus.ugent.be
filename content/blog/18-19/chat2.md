@@ -15,7 +15,7 @@ Als bestuur hebben we geen probleem met het voortbestaan van Slack, idealiter wo
 
 Waarom Mattermost? Want MM haalt in het totaalpakket niet altijd hetzelfde niveau van Slack, alle belangrijke functionaliteiten zijn aanwezig, maar het is soms nog wat rough around the edges. Ook zijn er terechte opmerkingen gekomen rond een feitelijke vermindering van privacy, aangezien die nu in handen is van jonge onbetaalde sysadmins. 
 
-Het doorslaggevende argument is het bestaan van een **backlog**, waarvan het ontbreken in Slack voor een aantal zaken (projectwerking, bestuur) heel ongemakkelijk was In combinatie met de openheid van de software lijkt Mattermost uiteindelijk een betere fit voor Zeus als organisatie.
+Het doorslaggevende argument is het bestaan van een **backlog**, waarvan het ontbreken in Slack voor een aantal zaken (projectwerking, bestuur) heel ongemakkelijk was. In combinatie met de openheid van de software lijkt Mattermost uiteindelijk een betere fit voor Zeus als organisatie.
 
 Verder nog:
 
