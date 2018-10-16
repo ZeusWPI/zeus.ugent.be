@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     > .column {
         max-width: 70vw;
     }
@@ -18,7 +18,7 @@
             padding-bottom: 60%;
             height: 0;
             margin: 0 auto;
-            
+
             .contact-circle-pulse {
                 position: absolute;
                 left: 0;
@@ -45,15 +45,15 @@
         }
 
         .contact-circle-wrapper:hover, .contact-circle-wrapper:focus {
-            
-            .grow { 
+
+            .grow {
                 transition: all .2s ease-in-out;
                 -moz-transform: scale(1.2);
                 -webkit-transform: scale(1.2);
                 transform: scale(1.2);
             }
 
-            
+
         }
 
         .contact-description {
@@ -95,19 +95,4 @@
     .button:hover, .button:focus {
         border-color: $primary;
     }
-}
-
-/* Fancy box voor de statuten */
-.box {
-  background-color: white;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #4a4a4a;
-  display: block;
-  padding: 1.25rem;
-}
-
-.box:not(:last-child) {
-  margin-bottom: 1.5rem;
 }
