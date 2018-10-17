@@ -25,7 +25,7 @@ Verder nog:
 - autocomplete werkt niet zonder @.
 - de (niet web)-clients ondersteunen geen meerdere servers, als je dus meerdere workspaces hebt, moet je helaas gebruik maken van iets zoals een app cloner, voor Android werkt [deze](https://play.google.com/store/apps/details?id=com.applisto.appcloner&hl=en) alvast.
 - de naam van een kanaal veranderen verandert alleen de display name, in de url blijft de originele naam
-- #zeus is ~zeus, #general is ~off-topic, maar die dingen lijken nog wat te moeten settelen aangezien er wierig aan naamsverandering wordt gedaan voorlopig
+- \#zeus is ~zeus, \#general is ~off-topic, maar die dingen lijken nog wat te moeten settelen aangezien er wierig aan naamsverandering wordt gedaan voorlopig
 - je krijgt mails over mentions, je kan dat uitzetten
 - /door werkt, al kan het wel zijn dat je eerst 'regular-user' status moet krijgen
 - /cammiechat, en /stock werken ook
