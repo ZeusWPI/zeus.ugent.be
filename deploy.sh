@@ -8,4 +8,5 @@ if [[ $TRAVIS_PULL_REQUEST == "false" ]]; then
   fi
 else
   rsync -e 'ssh -p 2222' -aglpPrtvz --delete output/ "zeuspr@herbert.ugent.be:/home/zeuspr/public/$TRAVIS_PULL_REQUEST/"
+  ./comment.sh
 fi

@@ -1,5 +1,5 @@
 module DataHelper
   def data_from(identifier)
-    @items["/data/#{identifier}"].attributes[:data]
+    @items["/data/#{identifier}.yaml"].attributes
   end
 end

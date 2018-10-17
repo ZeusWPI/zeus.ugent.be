@@ -75,7 +75,15 @@ data_sources:
     # be “legacy”, primarily used by older Nanoc sites.
     identifier_type: full
   -
-    type: data
+    type: filesystem
+    items_root: /data
+    content_dir: data
+    layouts_dir: null
+  -
+    type: filesystem
+    items_root: /node_modules
+    content_dir: node_modules
+    layouts_dir: null
 
 # Configuration for the “check” command, which run unit tests on the site.
 checks:
