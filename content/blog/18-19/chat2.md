@@ -5,7 +5,7 @@ description: De langverwachte beslissing
 author: het Zeusbestuur
 ---
 
-Laat ons de **tl;dr** eerst geven: vanaf nu is [Mattermost](mattermost.zeus.gent) het officiële chat-kanaal van Zeus WPI. Het Slackteam blijft echter wel bestaan voor zij die willen.
+Laat ons de **tl;dr** eerst geven: vanaf nu is [Mattermost](https://mattermost.zeus.gent) het officiële chat-kanaal van Zeus WPI voor het regelen van bestuurszaken, events, ... Het Slackteam blijft echter wel bestaan voor zij die willen.
 
 # Waarom veranderen?
 
@@ -45,7 +45,7 @@ Als bestuur hebben we geen probleem met het voortbestaan van Slack. Idealiter wo
 
 ## De belangrijkste veranderingen ten opzichte van Slack
 
-Eerst en vooral: nu de Mattermostserver zelf gehost wordt hebben de sysadmins volledige toegang tot de databank. Dit wil zeggen dat zij al jullie berichten (ook direct-messages) kunnen lezen, moesten ze dat willen. Niet dat ze dat ook gaan doen. Maar als je wilt confidentiële gesprekken hebben dan gebruik je hier best een applicatie voor met end-to-end encryptie (bijvoorbeeld [Signal](https://www.signal.org/)). Bij Slack kunnen de werknemers daar al je berichten kijken, dus eigenlijk verandert er niet veel.
+Eerst en vooral: nu de Mattermostserver zelf gehost wordt hebben de sysadmins volledige toegang tot de databank. Dit wil zeggen dat ze alle berichten kunnen lezen, wijzigen of wissen. We vertrouwen er op dat ze dit nooit zullen doen zonder expliciete toestemming van alle partijen betrokken in de conversatie en een algemene aankondiging hierover. Maar als je wilt confidentiële gesprekken hebben dan gebruik je hier best een applicatie voor met end-to-end encryptie (bijvoorbeeld [Signal](https://www.signal.org/)).
 
 - Je refereert naar kanalen met een ~ i.p.v. een #.
 - Tab-completion werkt niet zonder @.
@@ -63,6 +63,7 @@ Eerst en vooral: nu de Mattermostserver zelf gehost wordt hebben de sysadmins vo
 ## Wat staat er nog op de planning?
 
 - We gaan misschien de Mattermost app zelf builden en publiceren op de appstores zodat de clone hack niet nodig is.
+- We zouden ook graag een de Mattermost repository forken zodat we zelf patches kunnen toevoegen aan de code, maar hoe we dat gaan laten werken moeten we nog bekijken.
 - We gaan wat experimenteren met bridges (naar Slack, IRC, ...) om op zoveel mogelijk plaatsen aanspreekbaar te zijn.
 - Dit wordt allemaal nog eens via mail gecommuniceerd ook.
 - Veel custom responses en gifs zijn nog niet er nog niet _!wenkbrauw_.
