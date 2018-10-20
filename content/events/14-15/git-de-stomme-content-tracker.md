@@ -1,5 +1,5 @@
 ---
-title: 'Git, de "stomme" content tracker'
+title: "Git, de 'stomme' content tracker"
 created_at: 23-02-2015
 time: 26-02-2015 19:00
 image: https://zeus.ugent.be/wp-content/uploads/2015/02/poster-shaped-300x212.png
