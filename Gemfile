@@ -10,7 +10,7 @@ gem 'coffee-script'
 gem 'icalendar' # ical files
 gem 'kramdown'
 gem 'rainpress'
-gem 'sass'
+gem 'sassc'
 gem 'typogruby'
 
 # Needed for atom_feed in blogging helper

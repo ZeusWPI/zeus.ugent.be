@@ -164,12 +164,12 @@ end
 #
 compile '/assets/scripts/**/*.coffee' do
   filter :coffeescript
-  filter :uglify_js
+  filter :uglify_js if production?
   write ext: 'js'
 end
 
 compile '/assets/scripts/**/*.js' do
-  filter :uglify_js, harmony: true
+  filter :uglify_js, harmony: true if production?
 end
 
 ignore '/assets/stylesheets/includes/**/*'
@@ -177,14 +177,22 @@ ignore '/data/**/*'
 ignore '/node_modules/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
-  filter :sass, syntax: :scss, style: :compressed
+  sass_opts = {
+    syntax: :scss,
+    load_paths: ['content/assets/stylesheets']
+  }
+  sass_opts[:style] = :compressed if production?
+  filter :sassc, sass_opts
+
   filter :autoprefixer if production?
   write ext: 'css'
 end
 
 compile '/assets/stylesheets/**/*.css' do
-  filter :rainpress
-  filter :autoprefixer if production?
+  if production?
+    filter :rainpress
+    filter :autoprefixer
+  end
   write ext: 'css'
 end
 
