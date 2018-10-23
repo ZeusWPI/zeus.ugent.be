@@ -4,6 +4,7 @@ description: Zeus' zevende LAN-Party
 created_at: 06-10-2018
 time: '26-10-2018 16:00'
 end: '27-10-2018 6:00'
+facebook: 'https://www.facebook.com/events/277532109645806/'
 image: 'https://zeus.ugent.be/zeuswpi/VBxNVbAN.png'
 banner: 'https://zeus.ugent.be/zeuswpi/AAXR-TiB.png'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
