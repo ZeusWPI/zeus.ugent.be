@@ -32,7 +32,7 @@ Uit de rondvraag bleek ook dat uit de "open" applicaties, de meeste leden Matter
 
 Wij kunnen (en willen) niemand forceren om ons in die keuze te volgen. Het bestuur zal voor alle chatting migreren naar Mattermost, en hopen dat jullie dat samen met ons ook doen. Nieuwe leden zullen we ook naar daar verwijzen.
 
-Als bestuur hebben we geen probleem met het voortbestaan van Slack. Idealiter wordt een nieuwe account aanmaken daar afgesloten, en migreert iedereen van zelf, maar op zich heeft nudded als primary owner de controle over wat er met Slack gebeurt.
+Als bestuur hebben we geen probleem met het voortbestaan van Slack. Idealiter wordt een nieuwe account aanmaken daar afgesloten, en migreert iedereen vanzelf, maar op zich heeft nudded als primary owner de controle over wat er met Slack gebeurt.
 
 # Hoe stap je over?
 
@@ -63,7 +63,7 @@ Eerst en vooral: nu de Mattermostserver zelf gehost wordt hebben de sysadmins vo
 ## Wat staat er nog op de planning?
 
 - We gaan misschien de Mattermost app zelf builden en publiceren op de appstores zodat de clone hack niet nodig is.
-- We zouden ook graag een de Mattermost repository forken zodat we zelf patches kunnen toevoegen aan de code, maar hoe we dat gaan laten werken moeten we nog bekijken.
+- Voor de features die we missen in Mattermost gaan we pull requests maken, want het is open source!
 - We gaan wat experimenteren met bridges (naar Slack, IRC, ...) om op zoveel mogelijk plaatsen aanspreekbaar te zijn.
 - Dit wordt allemaal nog eens via mail gecommuniceerd ook.
 - Veel custom responses en gifs zijn nog niet er nog niet _!wenkbrauw_.
