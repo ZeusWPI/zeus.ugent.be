@@ -36,7 +36,7 @@ Als bestuur hebben we geen probleem met het voortbestaan van Slack. Idealiter wo
 
 # Hoe stap je over?
 
-1. Ga naar de mattermost server <https://mattermost.zeus.gent> of <https://chat.zeus.gent>
+1. Ga naar de mattermost server <https://mattermost.zeus.gent>
     - met je favoriete browser
     - met de [Android-app](https://play.google.com/store/apps/details?id=com.mattermost.rn)
     - de [iOS-app](https://itunes.apple.com/us/app/mattermost/id1257222717?mt=8).
