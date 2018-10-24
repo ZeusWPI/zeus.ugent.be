@@ -3,6 +3,11 @@
 @import "node_modules/bulma/bulma";
 @import "node_modules/bulma-divider/divider";
 
+// TODO: Remove this once FF64.0b2+ fixes this fustercluck
+.tile {
+  min-height: auto;
+}
+
 // Sticky footer
 body {
   hyphens: auto;
