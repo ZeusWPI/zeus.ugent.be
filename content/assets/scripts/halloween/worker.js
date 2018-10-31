@@ -3,6 +3,8 @@ var face_cascade, eye_cascade;
 function loadFaceDetectTrainingSet() {
 	if (face_cascade == undefined) {
 		face_cascade = new cv.CascadeClassifier();
+		let load = face_cascade.load('../../test/data/haarcascade_frontalface_default.xml');
+		// console.log('load face detection training data', load);
 	}
 }
 
