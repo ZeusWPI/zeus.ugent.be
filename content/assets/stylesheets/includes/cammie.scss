@@ -65,5 +65,11 @@
       color: #363636;
     }
   }
+}
 
+.overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
 }

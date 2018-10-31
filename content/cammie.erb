@@ -10,8 +10,11 @@ title: Cammie
 
 <section id="cammie-section">
   <div id="cammie-body">
-    <figure class="image is-16by9">
-      <img id="cammie-feed" alt="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2">
+    <figure class="image">
+      <div style="display: inline-flex">
+        <img crossorigin="anonymous" id="cammie-feed" alt="cammie" src="https://kelder.zeus.ugent.be/webcam/video/mjpg.cgi?profileid=2">
+        <canvas class="overlay" id="overlaycanvas"></canvas>
+      </div>
     </figure>
     <div id="cammie-ctrls">
       <div class="columns is-mobile">
@@ -51,6 +54,7 @@ title: Cammie
       </div>
     </div>
   </div>
+  <input id="ghosts" type="checkbox" name="ghosts" value="ghosts" checked="true"> Display Ghosts <br>
   <nav class="nav columns">
     <div class="column">
       <button class="button ctrl" data-command="set_pos" data-x="16" data-y="16">
@@ -80,3 +84,4 @@ title: Cammie
     </div>
   <div>
 </section>
+<script src="../assets/scripts/halloween/main.js" charset="utf-8"></script>
