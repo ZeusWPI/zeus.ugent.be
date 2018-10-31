@@ -57,7 +57,7 @@ function update_coolness() {
 
 wasmWorker.onmessage = function (e) {
     var img2 = document.createElement("img");
-    img2.src = "../assets/scripts/halloween/Ghost.jpg";
+    img2.src = "../assets/images/Ghost.jpg";
     
     if(e.data.features) {
         ctx.clearRect(0,0, width, height);
