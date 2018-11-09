@@ -4,7 +4,7 @@ description: Een introductie tot dé open mapservice OpenStreetMap
 created_at: 09-11-2018
 time: '14-11-2018 18:00'
 end: '14-11-2018 22:00'
-facebook: ''
+facebook: 'https://www.facebook.com/events/285979762025389/'
 image: 'https://zeus.ugent.be/zeuswpi/ge-ORXvM.png'
 banner: 'https://zeus.ugent.be/zeuswpi/tK-hXF21.png'
 location: 'PC-lokaal 1.1, Gebouw S9, Campus Sterre, Krijgslaan 281 9000 Gent'
