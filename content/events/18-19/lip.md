@@ -1,7 +1,7 @@
 ---
 title: Linux Install Party
 image: https://zeus.ugent.be/zeuswpi/svhflf4C.png
-banner: https://www.bleepstatic.com/images/news/deals/misc/june-2016/sale_4504_special_sale_banner_background[1].jpg
+banner: https://zeus.ugent.be/zeuswpi/oLHa12qa.jpg
 description: Hulp nodig met het installeren van Linux op je laptop? Zeus helpt je graag!
 created_at: 21-09-2018
 time: 11-10-2018 17:00
