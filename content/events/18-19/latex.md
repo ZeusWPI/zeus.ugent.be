@@ -1,7 +1,7 @@
 ---
 title: Latex les
 image: 'https://zeus.ugent.be/zeuswpi/uHlE8JHK.jpg'
-banner: 'http://www.senzokuike-eye.net/images/skins/bg-banner-royal-blue.png'
+banner: 'https://zeus.ugent.be/zeuswpi/JFuBqDaB.jpg'
 description: Introductie tot LaTeX
 created_at: 06-11-2018
 time: '14-11-2018 19:00'
