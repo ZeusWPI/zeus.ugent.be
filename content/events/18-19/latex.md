@@ -6,7 +6,7 @@ description: Introductie tot LaTeX
 created_at: 06-11-2018
 time: '14-11-2018 19:00'
 location: 'Auditorium D, Plateau'
-locationlink: 'Plateau, Gent'
+locationlink: 'Instituut der wetenschappen'
 ---
 
 Heb je even genoeg van Word? Of wil je gewoon de alternatieven leren kennen? Kom eens langs op onze LaTeX les!
