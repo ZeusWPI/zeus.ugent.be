@@ -4,8 +4,7 @@ description: In winterthema wordt ons ge-code begeleidt door jenever en pannenko
 created_at: 20-11-2018
 time: '04-12-2018 18:30'
 end: '04-12-2018 23:59'
-image: 'https://zeus.ugent.be/zeuswpi/ge-ORXvM.png'
-banner: 'https://zeus.ugent.be/zeuswpi/tK-hXF21.png'
+banner: 'https://zeus.ugent.be/zeuswpi/bdbwpUDj.png'
 location: 'De kelder'
 locationlink: 'Zeus WPI'
 ---
