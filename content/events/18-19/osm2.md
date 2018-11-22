@@ -25,6 +25,8 @@ Heb je:
 Dan is deze avond perfect voor jou!
 
 Je hoeft niet naar de vorige workshop geweest te zijn om hier aan mee te doen,
-iedereen is welkom. Je zet wel best al OsmAnd eens op je smartphone.
+iedereen is welkom. Je zet wel best al OsmAnd eens op je smartphone. Je hebt
+**geen** development-tools nodig, je moet enkel kunnen bestanden op je gsm
+plaatsen.
 
 
