@@ -31,6 +31,13 @@ contact_links:
     description: Phone
     action: Call us
 ---
+
+<% content_for :head do %>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<% end %>
+
 <%= render '/partials/_about_sub_navbar.*', selected: 'contact' %>
 <h1 class='title is-1 has-text-centered'>Contact us</h1>
 <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h1>
@@ -122,5 +129,5 @@ contact_links:
 
 <!-- Embedded Google Maps -->
 <div class="map-wrapper box">
-    <%= render '/partials/_map.erb', location: item[:locationlink] %>
+    <%= render '/partials/_map.erb', location: "Zeus WPI" %>
 </div>
