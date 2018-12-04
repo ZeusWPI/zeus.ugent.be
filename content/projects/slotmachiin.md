@@ -2,8 +2,7 @@
 title: SlotmachIIn
 github: https://github.com/ZeusWPI/SlotMachIIn
 site: https://github.com/ZeusWPI/SlotMachIIn
-logo_letter: S
-logo_color: skyblue
+logo_image: Logos_Slotmachiin.svg
 ---
 
 Slotmachien is dead. Long live SlotmachIIn!
