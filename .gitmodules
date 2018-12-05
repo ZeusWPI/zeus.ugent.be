@@ -1,0 +1,3 @@
+[submodule "drive"]
+	path = drive
+	url = https://git.zeus.gent/bestuur/drive.git
