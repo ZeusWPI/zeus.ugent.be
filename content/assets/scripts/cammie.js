@@ -23,6 +23,10 @@ debounce = function(func, wait, initial) {
   };
 };
 
+function cammie_error() {
+	$("#cammie-feed").attr("src","/images/cammie_down.svg")
+}
+
 $("#cammie-ctrls").mousemove(debounce(function() {
   return $(this).removeClass('display');
 }, 3000, function() {
