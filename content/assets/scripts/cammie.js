@@ -24,7 +24,7 @@ debounce = function(func, wait, initial) {
 };
 
 function cammie_error() {
-	$("#cammie-feed").attr("src","/images/cammie_down.svg")
+	$("#cammie-feed").attr("src","/assets/images/cammie_down.svg")
 }
 
 $("#cammie-ctrls").mousemove(debounce(function() {
