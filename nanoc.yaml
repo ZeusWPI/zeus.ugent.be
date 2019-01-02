@@ -84,6 +84,11 @@ data_sources:
     items_root: /node_modules
     content_dir: node_modules
     layouts_dir: null
+  -
+    type: filesystem
+    items_root: /about/verslagen/
+    content_dir: drive/verslagen/
+    layouts_dir: null
 
 # Configuration for the “check” command, which run unit tests on the site.
 checks:

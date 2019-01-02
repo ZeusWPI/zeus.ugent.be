@@ -1,0 +1,4 @@
+[submodule "drive"]
+	path = drive
+	url = ssh://git@git.zeus.gent:2222/bestuur/drive.git
+	branch = master

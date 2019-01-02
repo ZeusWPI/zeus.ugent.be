@@ -1,6 +1,10 @@
 language: ruby
 bundler_args: --without development,nanoc
 
+# Travis' own submodule update is broken somehow
+git:
+  submodules: false
+
 cache:
   apt: true
   bundler: true
@@ -30,7 +34,10 @@ notifications:
 before_install:
 - openssl aes-256-cbc -K $encrypted_6059a4f451fd_key -iv $encrypted_6059a4f451fd_iv
   -in id_rsa.enc -out deploy_key -d
-- echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
+- mv deploy_key ~/.ssh/id_rsa
+- chmod 600 ~/.ssh/id_rsa
+- echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n[git.zeus.gent]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
+- git submodule update --init --recursive
 # Repo for newer Node.js versions
 # - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 # Repo for Yarn
@@ -43,7 +50,5 @@ script:
 - bundle exec nanoc --env=prod
 - bundle exec nanoc --env=prod check --deploy
 after_success:
-- mv deploy_key ~/.ssh/id_rsa
-- chmod 600 ~/.ssh/id_rsa
 - chmod +x ./deploy.sh
 - ./deploy.sh

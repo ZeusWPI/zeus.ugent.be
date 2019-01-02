@@ -45,6 +45,14 @@ bundle exec nanoc live
 
 Go to <http://localhost:3000> to view the site! When developing, the site gets regenerated when editing files. A simple refresh will show the new changes.
 
+### Optional: install submodules
+
+Our official meeting reports are added as a submodule so they update automatically. For normal development, it is not required to initialize these. But if you want to deploy to production (or test the report generation), you will have to initialize the submodule.
+
+```bash
+git submodule update --init --recursive
+```
+
 ### Deploying
 
 The latest and greatest builds on master get deployed automatically using [travis](https://travis-ci.org).
