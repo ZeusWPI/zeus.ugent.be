@@ -14,7 +14,11 @@ crash.log*
 
 .sass-cache/
 
-node_modules/
+# For some reason a node_modules appeared in content/ and it fucked up compilation
+# so now this is /node_modules/ instead of node_modules/ (so you at notice
+# there's a weird directory).
+/node_modules/
+
 *.iml
 
 .author-information
