@@ -32,7 +32,7 @@ In the root directory of the project, execute following commands
 
 ```bash
 bundle install
-npm install
+yarn install
 ```
 
 You will (momentarily) also need `pandoc` and `latex` to compile the reports from the board meetings. Refer to your OS package manager to install these things.
