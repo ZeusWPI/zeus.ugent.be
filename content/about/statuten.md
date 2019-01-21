@@ -52,7 +52,7 @@ narrow_page: true
 # Hoofdstuk III - Het bestuur
 
 <div class="box" markdown="1">
-**Art. 12** - De vereniging wordt bestuurd door tenminste drie personen (voorzitter, penningmeester en secretaris) verkozen voor de duur van 1 jaar. Zij vormen het bestuur van de vereniging. Voor bestuursfuncties komen slechts studenten aan de Universiteit Gent in aanmerking.<br>
+**Art. 12** - De vereniging wordt bestuurd door tenminste vier personen (voorzitter, penningmeester, secretaris en systeemadministrator) verkozen voor de duur van 1 jaar. Zij vormen het bestuur van de vereniging. Voor bestuursfuncties komen slechts studenten aan de Universiteit Gent in aanmerking.<br>
 </div>
 <div class="box" markdown="1">
 **Art. 13** - Het bestuur van het komende academiejaar wordt op een speciaal daartoe aangekondigde ledenvergadering verkozen op het einde van het academiejaar ervoor. Alle leden hebben stemrecht en worden van deze vergadering persoonlijk op de hoogte gebracht via de mailinglijst.<br>
@@ -63,10 +63,10 @@ narrow_page: true
 - _Voorzitter_: De voorzitter is verantwoordelijk voor de coördinatie van de vereniging en draagt de eindverantwoordelijkheid. De voorzitter leidt de vergaderingen en beslist wanneer de volgende activiteiten zullen plaatsvinden. De voorzitter heeft een algemeen vetorecht.
 - _Penningmeester_: De penningmeester is verantwoordelijk voor alle geldzaken van de vereniging. Hij heeft een financieel vetorecht inzake uitgaven die onder verantwoordelijkheid van de vereniging worden gedaan.
 - _Secretaris_: De secretaris maakt verslagen van elke vergadering, en zorgt voor alle planning van alle activiteiten, om die later door de voorzitter te laten goedkeuren.
+- _Systeemadministrator(s):_ draagt (dragen) de verantwoordelijkheid voor het onderhoud van de servers en clients.
 
  Wanneer de voorzitter of de penningmeester gebruik maakt van zijn vetorecht, dient hij automatisch het ontslag uit zijn functie in. De beslissing waartegen het veto werd gebruikt kan pas uitgevoerd worden nadat een opvolger verkozen is, en het betreffende punt opnieuw beslist wordt.Optionele bestuursfuncties en hun verantwoordelijkheden zijn:
 
-- _Systeemadministrator(s):_ draagt (dragen) de verantwoordelijkheid voor het onderhoud van de servers en clients.
 - _Activiteitenverantwoordelijke:_ draagt de verantwoordelijkheid bij het organiseren van de activiteiten.
 
  Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.<br>
