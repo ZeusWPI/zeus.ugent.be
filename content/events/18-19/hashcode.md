@@ -30,6 +30,6 @@ Om alles optimaal te laten verlopen willen we jullie vragen om je eigen verdeels
 
 ## Begint het al te kriebelen?
 
-Bereid je optimaal voor op de wedstrijd door het voorbeeldprobleem op te lossen, die kan je zien zodra je je hebt geregistreerd. Opgaven van de vorige jaren kan je [hier](https://hashcode.withgoogle.com/past_editions.html) vinden.
+Bereid je optimaal voor op de wedstrijd door het voorbeeldprobleem op te lossen, dat je kan zien zodra je je hebt geregistreerd. Opgaven van de vorige jaren kan je [hier](https://hashcode.withgoogle.com/past_editions.html) vinden.
 
 Tot dan!
