@@ -5,7 +5,7 @@ created_at: 24-01-2019
 time: '28-02-2019 18:30'
 end: '28-02-2019 23:00'
 location: 'Campus Sterre, Gebouw S9, Auditorium A3'
-locationlink: 'Building S9 Universiteit Gent'
+locationlink: 'Zeus WPI'
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
 facebook: 'https://www.facebook.com/events/633769423704835/'
