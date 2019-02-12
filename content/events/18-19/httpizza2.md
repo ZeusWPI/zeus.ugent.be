@@ -1,7 +1,7 @@
 ---
 title: HTTPizza/2.0
 image: 'https://zeus.ugent.be/zeuswpi/O9PhQ5qJ.png'
-description: Hands-on HTTP ervaring tussen de slices pizza door.
+description: Hands-on ervaring met HTTP tussen de slices pizza door.
 created_at: 12-02-2019
 time: 21-02-2019 18:00
 location: Auditorium A3, Gebouw S9, Campus Sterre
@@ -13,7 +13,7 @@ end: 21-02-2019 22:00
 Na het succes van HTTPizza in 2017 komt nu HTTPizza/2.0. [Zeus WPI](https://zeus.gent/) en [IDLab](http://idlab.technology/)
 organiseren samen deze ludieke netwerking-hackathon: Je krijgt een aantal
 uitdagingen die je moet oplossen door het schrijven van een client voor ons
-zelfgemaakte 'HTTPizza' protocol. Voor iedere opgeloste challenge krijg je een
+zelfgemaakte HTTPizza-protocol. Voor iedere opgeloste challenge krijg je een
 beloning (bijvoorbeeld: een gratis slice pizza). Ideaal voor volgers van het vak
 Webdevelopment om hands-on de theorie toe te passen, maar iedereen is welkom!
 
