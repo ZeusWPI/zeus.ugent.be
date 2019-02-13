@@ -17,7 +17,7 @@ zelfgemaakte HTTPizza-protocol. Voor iedere opgeloste challenge krijg je een
 beloning (bijvoorbeeld: een gratis slice pizza). Ideaal voor volgers van het vak
 Webdevelopment om hands-on de theorie toe te passen, maar iedereen is welkom!
 
-Tickets werken als volgt: als je dit semester het vak Wedevelopment volgt selecteer je het voorrangsticket, anders het normale ticket. Een week voor het event zijn de voorrangstickets niet meer beschikbaar. Deze kan je [hier](https://event.fkgent.be/events/229) gratis bestellen. Let op: **inschrijven is verplicht!**
+Tickets werken als volgt: als je dit semester het vak Webdevelopment volgt selecteer je het voorrangsticket, anders het normale ticket. Een week voor het event zijn de voorrangstickets niet meer beschikbaar. Deze kan je [hier](https://event.fkgent.be/events/229) gratis bestellen. Let op: **inschrijven is verplicht!**
 
 Er zijn beperkte plaatsen beschikbaar, mensen met een voorangsticket krijgen voorrang, de resterende plaatsen worden gegeven aan mensen met normale tickets _first come, first served_. U zal via mail op de hoogte gehouden worden over de beschikbaarheid, normaal zal iedereen kunnen meedoen.
 
