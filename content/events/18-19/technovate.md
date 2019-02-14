@@ -11,7 +11,7 @@ locationlink: 'Interleuvenlaan 27b, 3001 Heverlee Park'
 
 Zin om je tanden te zetten in een Tech Challenge én coole prijzen te winnen? Dan is de Technovate Challenge van AE misschien wel iets voor jou! Wat moet je precies doen?
 
-Je inschrijven via [www.ae.be/technovate-2019](www.ae.be/technovate-2019) voor **18 februari**
+Je inschrijven via [www.ae.be/technovate-2019](https://www.ae.be/technovate-2019) voor **18 februari**
 Een team samenstellen van minstens 1 persoon tot max 5 personen 22 februari vrijhouden, want dan gaan we aan de slag om je idee jury-ready te maken. Je krijgt daarna tot 14 maart de tijd om een coole POC te ontwikkelen
 
 Heb je nog geen flauw idee welke software oplossing je wil bedenken binnen het thema Circulaire Economie? No worries, check zeker de AE facebook pagina eens, want daar vind je concrete challenges van onze klanten terug waar je je tanden in kan zetten. Mooi meegenomen is dat de hoofdprijs een startup trip naar Singapore is voor het hele winnende team, maar er zijn ook prijzen voor beste technische uitwerking bijvoorbeeld.
