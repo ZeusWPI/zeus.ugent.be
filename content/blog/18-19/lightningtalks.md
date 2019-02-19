@@ -6,7 +6,7 @@ author: Rien
 ---
 
 Op 3 mei 2018 kwamen enkele oud-leden terug om een stukje van hun alwetendheid
-delen te met ons. Na een slopende queeste slaagden we er in enkele talks te
+te delen met ons. Na een slopende queeste slaagden we er in enkele talks te
 publiceren, zodat zij nog generaties lang een baken van kennis kunnen zijn voor
 de Zeusleden.
 
