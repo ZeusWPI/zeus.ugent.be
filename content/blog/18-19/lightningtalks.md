@@ -12,7 +12,7 @@ de Zeusleden.
 
 ### Hacker News Digest: Sending e-mails is hard.
 
-In deze talk verteld **David Verhasselt** ons iets meer over hoe verschrikkelijk
+In deze talk vertelt **David Verhasselt** ons iets meer over hoe verschrikkelijk
 het is om een behoorlijke hoeveelheid mails de wereld in te sturen.
 
 <iframe id='ivplayer' style='display:block;margin:auto' type='text/html' width='640' height='360' src='https://invidio.us/embed/21zV77ooOwg?' allowfullscreen="true" frameborder='0'></iframe>
@@ -32,7 +32,7 @@ ervaringen als remote werknemer van een bedrijf.
 
 ### Tabs or spaces?
 
-**Titouan Vervack** is meester in het formatteren, aligneren en indeteren en
+**Titouan Vervack** is meester in het formatteren, aligneren en indenteren, en
 neemt het publiek mee op zijn avontuur om orde te scheppen tussen de chaos van
 een hoop karakters.
 
