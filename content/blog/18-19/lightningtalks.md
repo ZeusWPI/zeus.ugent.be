@@ -6,13 +6,13 @@ author: Rien
 ---
 
 Op 3 mei 2018 kwamen enkele oud-leden terug om een stukje van hun alwetendheid
-te delen met ons. Na een slopende queeste slaagden we er in enkele talks te
+met ons te delen. Na een slopende queeste slaagden we erin enkele talks te
 publiceren, zodat zij nog generaties lang een baken van kennis kunnen zijn voor
 de Zeusleden.
 
 ### Hacker News Digest: Sending e-mails is hard.
 
-In deze talk vertelt **David Verhasselt** ons iets meer over hoe verschrikkelijk
+In deze talk vertelt **David Verhasselt** ons hoe verschrikkelijk
 het is om een behoorlijke hoeveelheid mails de wereld in te sturen.
 
 <iframe id='ivplayer' style='display:block;margin:auto' type='text/html' width='640' height='360' src='https://invidio.us/embed/21zV77ooOwg?' allowfullscreen="true" frameborder='0'></iframe>
@@ -26,7 +26,7 @@ ervaringen als remote werknemer van een bedrijf.
 
 ### Building a WiFi-controlled blimp
 
-**Michiel Van den Berghe** stuurt een zelfgemaakte, op afstand bestuurde, blimp het publiek in.
+**Michiel Van den Berghe** stuurt een zelfgemaakte, op afstand bestuurde blimp het publiek in.
 
 <iframe id='ivplayer' style='display:block;margin:auto' type='text/html' width='640' height='360' src='https://invidio.us/embed/xGGrcoCcbbU?' allowfullscreen="true" frameborder='0'></iframe>
 
