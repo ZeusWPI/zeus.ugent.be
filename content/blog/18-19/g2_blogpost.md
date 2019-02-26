@@ -39,11 +39,11 @@ maar kunnen ze zoeken op talen, frameworks en "soort" projecten (backend,
 frontend, etc). 
 
 Leden met al enige pull requests achter de kiezen kunnen na een hiatus
-zich makkelijk herorienteren in hun favoriete projecten, en een 
+zich makkelijk heroriënteren in hun favoriete projecten, en een 
 subproject uitkiezen dat hun aanspreekt.
 
 Het projectbestuur kan mensen met bovenstaande vraag makkelijk doorverwijzen,
-alsook een oogje houden op de status en populariteit van alle projecten.
+alsook de status en populariteit van alle projecten in het oog houden.
 
 ## G2 - Gamification 2
 
@@ -85,7 +85,7 @@ een lichte garnituur van JavaScript. Ideaal voor beginners!
 ## Contact
 
 De meeste communicatie zal gebeuren in het [G2 mattermost kanaal][mmost], dus
-ben je ook maar enigszins geinteresseerd neem dan zeker daar een kijkje.
+ben je ook maar enigszins geïnteresseerd neem dan zeker daar een kijkje.
 
 Het project loopt onder leiding van Maxime (mattermost: Flynn).
 Daarnaast kan je uiteraard zoals voor alle projecten steeds bij mij (Arne - abeformatter) terecht.
