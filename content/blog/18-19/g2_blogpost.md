@@ -16,9 +16,10 @@ Eens een project gekozen, komt er vaak nog een hele boterham setup bij kijken
 die, we moeten het eerlijk toegeven, niet altijd goed gedocumenteerd is.
 Eens dan eindelijk de setup voltooid is, komt nog het moeilijkste deel:
 het selecteren van een issue die:
-- a. relevant is
-- b. binnen je niveau ligt
-- c. enigszins doenbaar is in de beperkte tijd die je kan vrijmaken
+
+- relevant is
+- binnen je niveau ligt
+- enigszins doenbaar is in de beperkte tijd die je kan vrijmaken
 
 
 ## G2 - Gateway
