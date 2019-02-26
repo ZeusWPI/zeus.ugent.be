@@ -1,6 +1,6 @@
 ---
 title: "A Gateway to collaboration"
-created_at: 26-02-2018
+created_at: 26-02-2019
 description: Het ProjectenProject
 author: Arne Bertrand
 ---
