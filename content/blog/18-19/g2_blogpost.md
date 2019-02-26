@@ -4,9 +4,9 @@ created_at: 26-02-2019
 description: Het ProjectenProject
 author: Arne Bertrand
 ---
-"Ik wil meedoen met een zeus project, hoe doe?"
+> Ik wil meedoen met een zeus project, hoe doe?
 
-Het is een vraag die vervelend vaak voorkomt en verbazend moeilijk te 
+Het is een vraag die enorm vaak voorkomt en verbazend moeilijk te 
 beantwoorden is. De keuze van het project op zich is vaak al lastig. 
 Welke technologie wil ik gebruiken, welke projecten zijn nog relevant,
 welk project heeft het meeste hulp nodig, zijn stuk voor stuk aspecten
@@ -72,7 +72,7 @@ belangrijk detail wordt.
 
 Web server in [Clojure][clojure], een functionele taal met een focus op 
 elegante multithreading. Hét perfecte excuus om je functionele spieren nog eens
-te laten rollen, of juist om je voor te bereiden op de onvermijdelijke haskell
+te laten rollen, of juist om je voor te bereiden op de onvermijdelijke Haskell
 lessen.
 
 **Front-end**
