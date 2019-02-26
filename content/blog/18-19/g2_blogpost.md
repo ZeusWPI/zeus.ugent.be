@@ -42,7 +42,7 @@ Leden met al enige pull requests achter de kiezen kunnen na een hiatus
 zich makkelijk herorienteren in hun favoriete projecten, en een 
 subproject uitkiezen dat hun aanspreekt.
 
-Projectbestuur kan mensen met bovenstaande vraag makkelijk doorverwijzen,
+Het projectbestuur kan mensen met bovenstaande vraag makkelijk doorverwijzen,
 alsook een oogje houden op de status en populariteit van alle projecten.
 
 ## G2 - Gamification 2
