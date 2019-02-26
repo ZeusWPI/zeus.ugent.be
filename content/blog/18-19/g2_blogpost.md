@@ -4,8 +4,6 @@ created_at: 26-02-2018
 description: Het ProjectenProject
 author: Arne Bertrand
 ---
-# A gateway to collaboration
-
 "Ik wil meedoen met een zeus project, hoe doe?"
 
 Het is een vraag die vervelend vaak voorkomt en verbazend moeilijk te 
