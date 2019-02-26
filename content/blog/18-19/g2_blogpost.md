@@ -40,7 +40,7 @@ frontend, etc).
 
 Leden met al enige pull requests achter de kiezen kunnen na een hiatus
 zich makkelijk heroriënteren in hun favoriete projecten, en een 
-subproject uitkiezen dat hun aanspreekt.
+subproject uitkiezen dat hen aanspreekt.
 
 Het projectbestuur kan mensen met bovenstaande vraag makkelijk doorverwijzen,
 alsook de status en populariteit van alle projecten in het oog houden.
