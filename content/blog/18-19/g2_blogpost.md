@@ -8,8 +8,8 @@ author: Arne Bertrand
 
 Het is een vraag die enorm vaak voorkomt en verbazend moeilijk te 
 beantwoorden is. De keuze van het project op zich is vaak al lastig. 
-Welke technologie wil ik gebruiken, welke projecten zijn nog relevant,
-welk project heeft het meeste hulp nodig, zijn stuk voor stuk aspecten
+Welke technologie wil ik gebruiken? Welke projecten zijn nog relevant?
+Welk project heeft het meeste hulp nodig? Het zijn stuk voor stuk aspecten
 die meespelen en elkaar vaak tegenspreken.
 
 Eens een project gekozen, komt er vaak nog een hele boterham setup bij kijken
