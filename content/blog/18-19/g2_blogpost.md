@@ -87,7 +87,7 @@ een lichte garnituur van JavaScript. Ideaal voor beginners!
 De meeste communicatie zal gebeuren in het [G2 mattermost kanaal][mmost], dus
 ben je ook maar enigszins geïnteresseerd neem dan zeker daar een kijkje.
 
-Het project loopt onder leiding van Maxime (mattermost: Flynn).
+Het project loopt onder leiding van Maxime (mattermost: flynn).
 Daarnaast kan je uiteraard zoals voor alle projecten steeds bij mij (Arne - abeformatter) terecht.
 
 
