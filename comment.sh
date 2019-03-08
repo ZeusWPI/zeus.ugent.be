@@ -19,7 +19,7 @@ fi
 PR_ID=$(echo $RESULT | sed 's/.*"id":"\([^"]*\)".*/\1/')
 
 # TODO: Have another user do the commenting
-if [[ $RESULT == *"werthen"* ]]; then
+if [[ $RESULT == *"zeuswpi-bot"* ]]; then
     echo "User has already commented"
 else
     ADD_COMMENT_STR="mutation{addComment(input:{subjectId:\\\"$PR_ID\\\",body:\\\"Check out the preview on https://$PR_NR.pr.zeus.gent/\\\"}){clientMutationId}}"
