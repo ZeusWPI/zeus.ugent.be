@@ -18,7 +18,6 @@ fi
 # Get the GraphQL ID
 PR_ID=$(echo $RESULT | sed 's/.*"id":"\([^"]*\)".*/\1/')
 
-# TODO: Have another user do the commenting
 if [[ $RESULT == *"zeuswpi-bot"* ]]; then
     echo "User has already commented"
 else
