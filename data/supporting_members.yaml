@@ -1,0 +1,15 @@
+---
+18-19:
+  - name: Sponsorend Lid
+    nickname: spons_01
+    photo: https://zinc.zeus.gent/
+    quote: Lorem Ipsum enzovoort
+    description: Ik doe dingen
+    twitter: zeuswpi
+    blog: https://example.com
+    github: zeuswpi
+  - name: Persoon 2
+    nickname: username
+    quote: Ik wil ook een quote!
+    description: Ik doe ook dingen maar heb geen twitter of github, ook geen blog
+
