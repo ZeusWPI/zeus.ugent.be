@@ -1,50 +1,64 @@
 ---
 narrow_page: true
 ---
+
 <%= render '/partials/_about_sub_navbar.*', selected: 'sponsoring_members' %>
 <h1 class='title is-1 has-text-centered'>Sponserende Leden</h1>
 
 <div id='sponsoring_members' class="content">
   <% current_sponsoring_members.each do |member| %>
-    <%# stolen from /project :P %>
-    <div id="<%= member[:nickname] %>" class="content project">
-      <article class="columns is-mobile">
-	<div class="column is-gapless is-narrow logo-wrapper">
-	  <% if member[:photo] %>
-	    <div class="logo">
-              <img src="<%=member[:photo]%>">
-	    </div>
-	  <% else %>
-	    <div class="logo" style="background-color: #ff7f00">
-	      <div class="logo-initial has-text-centered"> <%= member[:name].chars.first %> </div>
-	    </div>
-	  <% end %>
-	</div>
-	<div class="column">
-          <span style="margin-bottom:0" class="title"><%= member[:name] %></span> <span class="subtitle"> (<%= member[:nickname] %>) </span>
-          <div><i> - <%= member[:quote] %> </i></div>
-          <blockquote style="margin-top: 0.5em"> <%= member[:description] %> </blockquote> 
-          <div class="columns">
-	    <% if member[:github] %>
-	      <a style="padding: 5px" class="social-icon" href="https://github.com/<%= member[:github] %>" target="_blank">
-		<span class="icon">
-		  <%= fa :github, {:size => "2x"} %>
-		</span>
-	      </a>
-	    <% end %>
-	    <% if member[:twitter] %>
-	      <a style="padding: 5px" class="social-icon" href="https://twitter.com/<%= member[:twitter] %>" target="_blank">
-		<span class="icon">
-		  <%= fa :twitter, {:size => "2x"} %>
-		</span>
-	      </a>
-	    <% end %>
-	    <% if member[:blog] %>
-              <a style="padding: 5px" href="<%= member[:blog] %>"> <%= member[:blog] %> </a>
-	    <% end %>
+      <div id="<%= member[:nickname] %>" class="box">
+        <article class="columns is-mobile">
+          <div class="column is-gapless is-narrow logo-wrapper">
+            <% if member[:photo] %>
+              <div class="sponserend_image">
+                <img src="<%=member[:photo]%>">
+              </div>
+            <% else %>
+              <div class="sponserend_image" style="background-color: #ff7f00">
+                <div class="logo-initial has-text-centered">
+                  <%= member[:name].chars.first %>
+                </div>
+              </div>
+            <% end %>
           </div>
-	</div>
-      </article>
-    </div>
-  <% end %>
-</div>
+          <div class="column">
+            <span style="margin-bottom:0" class="title"><%= member[:name] %></span>
+            <span class="subtitle">
+              (<%= member[:nickname] %>)
+            </span>
+            <div>
+              <i>
+                -
+                <%= member[:quote] %>
+              </i>
+            </div>
+            <blockquote style="margin-top: 0.5em">
+              <%= member[:description] %>
+            </blockquote>
+            <div class="columns">
+              <% if member[:github] %>
+                <a style="padding: 5px" class="social-icon" href="https://github.com/<%= member[:github] %>" target="_blank">
+                  <span class="icon">
+                    <%= fa :github, {:size => "2x"} %>
+                  </span>
+                </a>
+              <% end %>
+              <% if member[:twitter] %>
+                <a style="padding: 5px" class="social-icon" href="https://twitter.com/<%= member[:twitter] %>" target="_blank">
+                  <span class="icon">
+                    <%= fa :twitter, {:size => "2x"} %>
+                  </span>
+                </a>
+              <% end %>
+              <% if member[:blog] %>
+                <a style="padding: 5px" href="<%= member[:blog] %>">
+                  <%= member[:blog] %>
+                </a>
+              <% end %>
+            </div>
+          </div>
+        </article>
+      </div>
+    <% end %>
+  </div>
