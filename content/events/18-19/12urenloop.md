@@ -1,9 +1,9 @@
 ---
 title: zeus@12urenloop
-description: LLopen en rondjes tellen op de 12urenloop
+description: Lopen en rondjes tellen op de 12urenloop
 created_at: 11-04-2019
 time: 29-04-2019 09:00
-end: 29-42-2019 21:00
+end: 29-04-2019 21:00
 facebook: https://www.facebook.com/events/628920360914130/
 location: Sint-Pietersplein
 locationlink: Sint-Pietersplein, Ghent, Belgium
