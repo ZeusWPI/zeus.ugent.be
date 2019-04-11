@@ -6,7 +6,7 @@ time: 29-04-2019 09:00
 end: 29-04-2019 21:00
 facebook: https://www.facebook.com/events/628920360914130/
 location: Sint-Pietersplein
-locationlink: Sint-Pietersplein, Ghent, Belgium
+locationlink: Sint-Pietersplein, Ghent
 image: //zeus.ugent.be/zeuswpi/6eVnYRmi.jpg
 ---
 
