@@ -24,7 +24,7 @@ Inschrijvingen lopen tot **9 mei 2019**.
 
 ## De verkiezingen
 
-Op de verkiezingen zelf zal er voor elke van de 6 functies gestemd worden per kandidaat. Heeft een van de kandidaten een meerderheid, is deze kandidaat verkozen. Heeft niemand een meerderheid, valt de kandidaat met de meeste stemmen af en wordt er opnieuw gestemd. Heeft *TEGEN* een meerderheid, is geen enkele kandidaat verkozen en moet er opnieuw gestemd worden.
+Op de verkiezingen zelf zal er voor elke van de 6 functies gestemd worden per kandidaat. Heeft een van de kandidaten een meerderheid, is deze kandidaat verkozen. Heeft niemand een meerderheid, valt de kandidaat met de minste stemmen af en wordt er opnieuw gestemd. Heeft *TEGEN* een meerderheid, is geen enkele kandidaat verkozen en moet er opnieuw gestemd worden.
 
 Heb je al prangende vragen voor de kandidaten dan kan je deze al op voorhand stellen. Dit kan je doen via het [formulier][vragen] of door hen in persoon aan te spreken. Zeker voor lange vragen waar je graag over doordiscussieert kan je best al even tijd nemen op voorhand.
 
