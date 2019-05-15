@@ -5,7 +5,7 @@ created_at: 14-05-2019
 description: Het bestuur voor academiejaar '19-'20 is verkozen.
 ---
 
-Na een strijd tussen penningen en een staande ovatie die een minuut lang duurde voor een ontroerende, ijzersterke doch bescheiden motivatiespeech, zijn we tot een bestuur gekomen waar we u kunnen tegen zeggen. We wensen ze enorm veel succes!
+Na een strijd tussen penningen en een staande ovatie die een minuut lang duurde voor een ontroerende, ijzersterke doch bescheiden motivatiespeech, zijn we tot een bestuur gekomen waar we U kunnen tegen zeggen. We wensen ze enorm veel succes!
 
 | Rol                                    | Naam                           |
 |----------------------------------------|--------------------------------|
