@@ -59,14 +59,18 @@ data:
   97-98:
     - rol: Voorzitter
       naam: Roeland Mertens
-    - rol: KA
-      naam: Roeland Mertens
     - rol: Penningmeester
       naam: Thomas Vidts
+    - rol: Secretaris
+      naam: Bert De Vuyst
+    - rol: Sysadmin
+      naam: Bernard Grymonpon
+    - rol: PR
+      naam: Steven Dewinter
   98-99:
     - rol: Voorzitter
       naam: Steven Dewinter
-    - rol: Vicevoorzitter (KA)
+    - rol: Vicevoorzitter
       naam: Frank Louwers
     - rol: Secretaris
       naam: Geert Vernaeve
@@ -82,11 +86,11 @@ data:
     - rol: Vicevoorzitter
       naam: Stijn Rammeloo
     - rol: Secretaris
-      naam: Roan Embrechts
+      naam: Bernard Grymonpon
     - rol: Penningmeester
       naam: Steven Dewinter
     - rol: Sysadmin
-      naam: Bernard Grymonpon
+      naam: Roan Embrechts
     - rol: PR
       naam: Frank Louwers
   00-01:
@@ -149,6 +153,8 @@ data:
       naam: David Verhasselt
     - rol: Penningmeester
       naam: Kenneth Geerts
+    - rol: Cultuur
+      naam: Willem Van Bogaert
   06-07:
     - rol: Voorzitter
       naam: Willem Van Bogaert
@@ -162,17 +168,23 @@ data:
       naam: Thomas Meire
     - rol: PR
       naam: Kevin Mets
+    - rol: Cultuur
+      naam: Maarten Van den Bussche
   07-08:
     - rol: Voorzitter
       naam: David Verhasselt
     - rol: Vicevoorzitter
       naam: Thomas Meire
     - rol: Secretaris
-      naam: Willem Van Bogaert
+      naam: Wim De Smet
     - rol: Penningmeester
       naam: Thomas Meire
     - rol: Sysadmin
       naam: Nicolas Overloop
+    - rol: PR
+      naam: Thomas Meire
+    - rol: Cultuur
+      naam: Willem Van Bogaert
   08-09:
     - rol: Voorzitter
       naam: Thomas Meire
@@ -184,6 +196,8 @@ data:
       naam: Enric Junque de Fortuny
     - rol: Sysadmin
       naam: Enric Junque de Fortuny
+    - rol: Cultuur
+      naam: David Verhasselt
   09-10:
     - rol: Voorzitter
       naam: Nicolas Overloop
