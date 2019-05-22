@@ -205,12 +205,20 @@ data:
       naam: Jasper Van der Jeugt
     - rol: Penningmeester
       naam: Pieter De Baets
+    - rol: Sysadmin
+      naam: Pieter De Baets
+    - rol: Cultuur
+      naam: Jasper Van der Jeugt
   10-11:
     - rol: Voorzitter
       naam: Pieter De Baets
     - rol: Secretaris
       naam: Toon Willems
     - rol: Penningmeester
+      naam: Jasper Van der Jeugt
+    - rol: Sysadmin
+      naam: Pieter De Baets
+    - rol: PR
       naam: Jasper Van der Jeugt
   11-12:
     - rol: Voorzitter
@@ -248,6 +256,8 @@ data:
       naam: Sander Demeester
     - rol: PR-extern
       naam: Pieter Vander Vennet
+    - rol: Verantwoordelijke GhentFPG
+      naam: Jasper Van der Jeugt
   13-14:
     - rol: Voorzitter
       naam: Tom Naessens
@@ -353,4 +363,26 @@ data:
       mail: project@zeus.ugent.be
     - rol: PR
       naam: Wout Schellaert
+      mail: pr@zeus.ugent.be
+  19-20:
+    - rol: Voorzitter
+      naam: Robbe Van Herck
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Arthur Vercruysse
+      mail: secretaris@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Timo De Waele
+      mail: penning@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Jasper Devreker
+      mail: admin@zeus.ugent.be
+    - rol: Projecten
+      naam: Arne Bertrand
+      mail: project@zeus.ugent.be
+    - rol: Projecten
+      naam: Maxime Bloch
+      mail: project@zeus.ugent.be
+    - rol: PR
+      naam: Yasmine Bogaert
       mail: pr@zeus.ugent.be
