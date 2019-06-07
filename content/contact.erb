@@ -44,25 +44,23 @@ contact_links:
 
 <div class="content">
   <h1 class='title is-1 has-text-centered'>Contact us</h1>
-  <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h1>
+  <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h2>
 
   <!-- Contact buttons -->
   <ul id='contact-icons' class='columns is-centered is-multiline'>
   <% @item[:contact_links].each do |option| %>
-    <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
-      <li id='<%= option[:description] %>' class='contact-circle-option'>
-        <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
-          <div class='contact-circle is-centered'>
-            <div class='contact-circle-pulse grow'></div>
-            <%= fa option[:icon], size: @item[:icon_size], class: 'grow-large' %>
-          </div>
-        </a>
-        <h4 class='contact-description is-uppercase'><%= option[:description] %></h3>
-        <p class='has-text-centered'>
-          <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
-        </p>
-      </li>
-    </div>
+  <li id='<%= option[:description] %>' class='contact-circle-option column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+    <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
+      <div class='contact-circle is-centered'>
+        <div class='contact-circle-pulse grow'></div>
+        <%= fa option[:icon], size: @item[:icon_size], class: 'grow-large' %>
+      </div>
+    </a>
+    <h4 class='contact-description is-uppercase'><%= option[:description] %></h4>
+    <p class='has-text-centered'>
+      <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
+    </p>
+  </li>
   <% end %>
   </ul>
 
