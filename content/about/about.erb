@@ -13,7 +13,7 @@ narrow_page: true
 
   <p>
      We organize various tech related talks by experts (eg. professors, PhD's, Richard Stallman, Julia Reda, ...), hands-on coding events and introductory lectures for cool technologies.
-     Together we build interesting applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='http://www.fkgent.be/'>FaculteitenKonvent</a> and <a href='https://12urenloop.be/'>12Urenloop</a>, and ofcourse for ourselves.
+     Together we build interesting applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='http://www.fkgent.be/'>FaculteitenKonvent</a> and <a href='https://12urenloop.be/'>12urenloop</a>, and ofcourse for ourselves.
   </p>
 
   <p>
@@ -34,37 +34,6 @@ narrow_page: true
     Mail us all at: <a href='mailto:bestuur@zeus.ugent.be'>bestuur@zeus.ugent.be</a>
   </blockquote>
 
-  <table class="table board-table">
-    <thead>
-      <tr>
-        <th>Function</th>
-        <th>Name</th>
-        <th>E-mail</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <% current_bestuur.each do |lid| %>
-      <tr>
-        <td>
-          <%= lid[:rol] %>
-        </td>
-        <td>
-          <%= lid[:naam] %>
-        </td>
-        <td>
-          <%= lid[:mail] %>
-        </td>
-        <td>
-          <% if lid[:mail] %>
-          <a href="mailto:<%= lid[:mail] %>">
-            <%= fa :envelope %>
-          </a>
-          <% end %>
-        </td>
-      </tr>
-      <% end %>
-    </tbody>
-  </table>
+  <%= render '/partials/_current_bestuur.*' %>
 
 </div>

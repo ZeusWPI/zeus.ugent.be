@@ -1,0 +1,32 @@
+<table class="table board-table">
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Name</th>
+      <th>E-mail</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% current_bestuur.each do |lid| %>
+    <tr>
+      <td>
+        <%= lid[:rol] %>
+      </td>
+      <td>
+        <%= lid[:naam] %>
+      </td>
+      <td>
+        <%= lid[:mail] %>
+      </td>
+      <td>
+        <% if lid[:mail] %>
+        <a href="mailto:<%= lid[:mail] %>">
+          <%= fa :envelope %>
+        </a>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
