@@ -1,0 +1,39 @@
+---
+narrow_page: true
+---
+
+<%= render '/partials/_about_sub_navbar.*', selected: 'oud-bestuur' %>
+
+<h1 class="title is-1 has-text-centered">Oud-bestuur</h1>
+
+<div class="content">
+
+  <p>Alle vorige besturen van Zeus, van nu tot het prille begin.</p>
+
+  <% all_bestuur.each do |year, bestuur| %>
+
+    <h2><%= academic_year_string(year) %></h2>
+
+    <table class="table board-table">
+      <thead>
+      <tr>
+        <th>Functie</th>
+        <th>Naam</th>
+      </tr>
+      </thead>
+      <tbody>
+      <% bestuur.each do |lid| %>
+        <tr>
+          <td>
+            <%= lid[:rol] %>
+          </td>
+          <td>
+            <%= lid[:naam] %>
+          </td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+
+  <% end %>
+</div>
