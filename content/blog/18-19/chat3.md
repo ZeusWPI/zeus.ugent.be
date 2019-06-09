@@ -1,5 +1,5 @@
 ---
-title: "State of the Chat v3"
+title: "[April fools] State of the Chat v3"
 created_at: 01-04-2019
 description: Durf vernieuwen
 author: het Zeusbestuur
@@ -61,4 +61,3 @@ We hopen jullie allemaal te zien op Spectrum.
 Met veel groeten
 
 Uw Zeusbestuur
-
