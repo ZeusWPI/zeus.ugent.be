@@ -89,3 +89,5 @@ narrow_page: true
 <div class="box" markdown="1">
 **Art. 19** - In geval van ontbinding zal de vereniging beslissen dat het nettoactief zal gestort worden aan een nader te bepalen goed doel.<br>
 </div>
+
+</div>
