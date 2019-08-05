@@ -37,7 +37,8 @@ narrow_page: true
 **Art. 7** - Het lidmaatschap houdt in dat de gebruiker een account krijgt op de servers van de vereniging en ingeschreven wordt op de mailinglijst van de vereniging. Als men opmerkt dat er misbruik wordt gemaakt van deze account, kan deze -zonder voorafgaande waarschuwing- beëindigd worden. Dit betekent niet dat het lidmaatschap van deze persoon wordt opgezegd.<br>
 </div>
 <div class="box" markdown="1">
-**Art. 8** - Het erelidmaatschap van de vereniging kan toegekend worden aan personen die zich verdienstelijk gemaakt hebben voor de vereniging. De beslissing wordt genomen door het bestuur en dient unaniem goedgekeurd te worden.<br>
+**Art. 8** - Leden die na hun actief lidmaatschap nog bij willen dragen aan de vereniging, kunnen dit doen door steunend lid te worden door middel van een bijdrage van een bepaald bedrag, te bepalen door het bestuur.
+<br>
 </div>
 <div class="box" markdown="1">
 **Art. 9** - Het lidmaatschap is kosteloos, maar vergt activiteit binnen de vereniging. In geval van inactiviteit kan het lidmaatschap en bijbehorende account mits voorafgaande verwittiging door het bestuur opgezegd worden.<br>
@@ -52,7 +53,7 @@ narrow_page: true
 # Hoofdstuk III - Het bestuur
 
 <div class="box" markdown="1">
-**Art. 12** - De vereniging wordt bestuurd door tenminste drie personen (voorzitter, penningmeester en secretaris) verkozen voor de duur van 1 jaar. Zij vormen het bestuur van de vereniging. Voor bestuursfuncties komen slechts studenten aan de Universiteit Gent in aanmerking.<br>
+**Art. 12** - De vereniging wordt bestuurd door tenminste vier personen (voorzitter, penningmeester, secretaris en systeemadministrator) verkozen voor de duur van 1 jaar. Zij vormen het bestuur van de vereniging. Voor bestuursfuncties komen slechts studenten aan de Universiteit Gent in aanmerking.<br>
 </div>
 <div class="box" markdown="1">
 **Art. 13** - Het bestuur van het komende academiejaar wordt op een speciaal daartoe aangekondigde ledenvergadering verkozen op het einde van het academiejaar ervoor. Alle leden hebben stemrecht en worden van deze vergadering persoonlijk op de hoogte gebracht via de mailinglijst.<br>
@@ -63,13 +64,12 @@ narrow_page: true
 - _Voorzitter_: De voorzitter is verantwoordelijk voor de coördinatie van de vereniging en draagt de eindverantwoordelijkheid. De voorzitter leidt de vergaderingen en beslist wanneer de volgende activiteiten zullen plaatsvinden. De voorzitter heeft een algemeen vetorecht.
 - _Penningmeester_: De penningmeester is verantwoordelijk voor alle geldzaken van de vereniging. Hij heeft een financieel vetorecht inzake uitgaven die onder verantwoordelijkheid van de vereniging worden gedaan.
 - _Secretaris_: De secretaris maakt verslagen van elke vergadering, en zorgt voor alle planning van alle activiteiten, om die later door de voorzitter te laten goedkeuren.
-
- Wanneer de voorzitter of de penningmeester gebruik maakt van zijn vetorecht, dient hij automatisch het ontslag uit zijn functie in. De beslissing waartegen het veto werd gebruikt kan pas uitgevoerd worden nadat een opvolger verkozen is, en het betreffende punt opnieuw beslist wordt.Optionele bestuursfuncties en hun verantwoordelijkheden zijn:
-
 - _Systeemadministrator(s):_ draagt (dragen) de verantwoordelijkheid voor het onderhoud van de servers en clients.
-- _Activiteitenverantwoordelijke:_ draagt de verantwoordelijkheid bij het organiseren van de activiteiten.
 
  Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.<br>
+
+ Wanneer de voorzitter of de penningmeester gebruik maakt van zijn vetorecht, dient hij automatisch het ontslag uit zijn functie in. De beslissing waartegen het veto werd gebruikt kan pas uitgevoerd worden nadat een opvolger verkozen is, en het betreffende punt opnieuw beslist wordt. Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.
+
 </div>
 <div class="box" markdown="1">
 **Art. 15** - De hierboven vernoemde verantwoordelijkheden van de bestuursleden zijn niet-exhaustief. Ieder bestuurslid draagt o.a. een algemene verwantwoordelijkheid.<br>
