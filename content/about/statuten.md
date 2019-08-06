@@ -7,7 +7,7 @@ narrow_page: true
 # Statuten
 {:.title.is-1.has-text-centered}
 
-## Revisie academiejaar 2013-2014
+## Revisie academiejaar 2018-2019
 {:.subtitle.is-2.has-text-centered}
 
 <div class="content" markdown="1">
