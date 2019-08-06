@@ -65,8 +65,7 @@ narrow_page: true
 - _Penningmeester_: De penningmeester is verantwoordelijk voor alle geldzaken van de vereniging. Hij heeft een financieel vetorecht inzake uitgaven die onder verantwoordelijkheid van de vereniging worden gedaan.
 - _Secretaris_: De secretaris maakt verslagen van elke vergadering, en zorgt voor alle planning van alle activiteiten, om die later door de voorzitter te laten goedkeuren.
 - _Systeemadministrator(s):_ draagt (dragen) de verantwoordelijkheid voor het onderhoud van de servers en clients.
-
- Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.<br>
+<br>
 
  Wanneer de voorzitter of de penningmeester gebruik maakt van zijn vetorecht, dient hij automatisch het ontslag uit zijn functie in. De beslissing waartegen het veto werd gebruikt kan pas uitgevoerd worden nadat een opvolger verkozen is, en het betreffende punt opnieuw beslist wordt. Het bestuur kan verder aangevuld worden, al dan niet met officieuze functies.
 
