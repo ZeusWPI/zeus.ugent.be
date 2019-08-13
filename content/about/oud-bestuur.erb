@@ -10,30 +10,38 @@ narrow_page: true
 
   <p>Alle vorige besturen van Zeus, van nu tot het prille begin.</p>
 
+  <div class="timeline">
   <% all_bestuur.each do |year, bestuur| %>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content board-content">
+          <h2><%= academic_year_string(year) %></h2>
 
-    <h2><%= academic_year_string(year) %></h2>
-
-    <table class="table board-table">
-      <thead>
-      <tr>
-        <th>Functie</th>
-        <th>Naam</th>
-      </tr>
-      </thead>
-      <tbody>
-      <% bestuur.each do |lid| %>
-        <tr>
-          <td>
-            <%= lid[:rol] %>
-          </td>
-          <td>
-            <%= lid[:naam] %>
-          </td>
-        </tr>
-      <% end %>
-      </tbody>
-    </table>
-
+          <table class="table board-table">
+            <thead>
+            <tr>
+              <th>Functie</th>
+              <th>Naam</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% bestuur.each do |lid| %>
+              <tr>
+                <td>
+                  <%= lid[:rol] %>
+                </td>
+                <td>
+                  <%= lid[:naam] %>
+                </td>
+              </tr>
+            <% end %>
+            </tbody>
+          </table>
+        </div>
+      </div>
   <% end %>
+    <header class="timeline-header">
+      <span class="tag is-primary is-medium">Het begin</span>
+    </header>
+  </div>
 </div>
