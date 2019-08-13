@@ -146,6 +146,12 @@ end
 compile '/**/*.erb' do
   filter :erb
 
+  # Apply typographic improvements if required by the page. Use this on text-heavy pages,
+  # such has the history page.
+  if @item[:typography]
+    filter :typogruby
+  end
+
   layout '/generic.*'
   layout '/default.*'
 
