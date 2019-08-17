@@ -1,5 +1,7 @@
 title: Zeus WPI
-academic_year: 19-20
+# If you update this, make sure to create a new directory for blogs and events,
+# and add an entry to both.
+academic_year: 18-19
 # Needed for atom_feed
 author_name: ''
 author_uri: ''
