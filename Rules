@@ -41,7 +41,7 @@ end
 # ARCHIVES
 #
 compile '/blog/*' do
-  layout '/archive_page.*'
+  layout '/blogs.*'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
