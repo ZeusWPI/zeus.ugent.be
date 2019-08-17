@@ -46,7 +46,10 @@ module PreprocessHelper
 
   def create_yearly_items(type)
     type = type.to_s
-    years = @items.find_all("/#{type.downcase}/*/*").map { |i| i.identifier.to_s[/\d\d-\d\d/] }.uniq
+    years = @items.find_all("/#{type.downcase}/*/*")
+      .map { |i| i.identifier.to_s[/\d\d-\d\d/] }
+      .push(@config[:academic_year])
+      .uniq
 
     years.each do |year|
       @items.create(
