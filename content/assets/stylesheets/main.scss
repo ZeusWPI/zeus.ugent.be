@@ -1,7 +1,8 @@
 @import "includes/variables";
 
 @import "node_modules/bulma/bulma";
-@import "node_modules/bulma-divider/divider";
+@import "node_modules/bulma-divider/dist/css/bulma-divider";
+@import "node_modules/bulma-timeline/dist/css/bulma-timeline";
 
 // TODO: Remove this once FF64.0b2+ fixes this fustercluck
 @-moz-document url-prefix() {
