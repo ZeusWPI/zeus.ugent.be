@@ -5,13 +5,13 @@ created_at: 06-10-2018
 time: '25-10-2019 16:00'
 end: '26-10-2019 6:00'
 facebook: 'https://www.facebook.com/events/434123983875135/'
-image: ''
-banner: ''
+image: 'https://zeus.ugent.be/zeuswpi/Kc7UXZrj.jpg'
+banner: 'https://zeus.ugent.be/zeuswpi/Irue5nha.jpg'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
 locationlink: 'Therminal'
 ---
 
--- SCHRIJF JE NU IN! -- https://forms.gle/ZzFYZWT5J2dv9UfN9
+# SCHRIJF JE NU IN! [https://forms.gle/ZzFYZWT5J2dv9UfN9]()
 
 # Game Over! Try Again.
 
@@ -20,8 +20,11 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 Geen eigen computer mee? Liever gewoon wat genieten van de gezellige sfeer? Dat kan ook! Er zal een couch gaming room zijn gevuld met consolegames, zowel oud als nieuw.
 
 **Datum**: Vrijdag 25 oktober - Zaterdag 26 oktober
-**Tijd**: 16:00 tot 6:00 de volgende ochtend
+
+**Tijd**: 16:00 tot de volgende ochtend
+
 **Locatie**: Therminal, Hoveniersberg 24, 9000 Gent
+
 **Prijs**: €2 inkom (inclusief drankbonnetje)
 
 ## Praktisch
