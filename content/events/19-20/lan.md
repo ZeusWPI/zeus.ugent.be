@@ -5,7 +5,7 @@ created_at: 06-10-2018
 time: '25-10-2019 16:00'
 end: '26-10-2019 6:00'
 facebook: 'https://www.facebook.com/events/434123983875135/'
-image: 'https://zeus.ugent.be/zeuswpi/Kc7UXZrj.jpg'
+image: 'https://zeus.ugent.be/zeuswpi/pb6LS30N.png'
 banner: 'https://zeus.ugent.be/zeuswpi/Irue5nha.jpg'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
 locationlink: 'Therminal'
