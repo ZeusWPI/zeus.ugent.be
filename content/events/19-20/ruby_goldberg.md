@@ -12,7 +12,7 @@ header_text_background: true
 
 # "Ruby" Goldberg
 
-Iedereen maakt het dagelijks mee: je schrijft een programma en na afloop denk je, dat kan toch allemaal een __stuk__ inefficienter!
+Iedereen maakt het dagelijks mee: je schrijft een programma en na afloop denk je, dat kan toch allemaal een __stuk__ inefficiënter!
 
 Zeus helpt je zoals gewoonlijk uit de nood met een avond ter verheerlijking van de hopeloos ingewikkelde lappendekens van software. Hoe gekker hoe beter!
 
