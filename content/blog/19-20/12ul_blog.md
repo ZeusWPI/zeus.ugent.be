@@ -44,14 +44,14 @@ Gelukkig werkte de bovenvermelde manualcount perfect en zijn we heelhuids de twa
 
 Na afloop van zo'n desastreuze editie kunnen we steeds weer extra ervaring neerschrijven, en onszelf beloven dat we het volgend jaar beter doen.
 Maar wat is er nu eigenlijk foutgelopen? Dat blijkt telkens een enorm lastige vraag om te beantwoorden. Het hele telsysteem bestaat uit een hoop losse onderdelen, die dan nog eens met vrij fragiele
-ethernet-kabels verbonden zijn (zie editie 2017 voor verhalen over koetsen en kabels). 
-De telstations zelf kunnen het natuurlijk ook begeven (zie editie 2018 voor een les over batterijen en polariteit).
+ethernet-kabels verbonden zijn (zie editie 2018 voor verhalen over koetsen en kabels). 
+De telstations zelf kunnen het natuurlijk ook begeven (zie editie 2019 voor een les over batterijen en polariteit).
 Er is daarnaast sprake van mogelijke bluetooth-interferentie, overbelasting van de servers, etc. En, in zo goed als alle gevallen, alles tegelijk.
 
 ## Een nieuwe start
 
 Hoewel we zoals hierboven vermeld nooit echt zeker zijn van waar de druppel die de server doet kortsluiten vandaan komt, staat het buiten kijf dat we collectief doorheen de jaren een hoop ervaring hebben 
-verzameld. En daarbij kwamen steeds ideëen naar boven die we niet of moeilijk konden integreren in het bestaande systeem. 
+verzameld. En daarbij kwamen steeds ideeën naar boven die we niet of moeilijk konden integreren in het bestaande systeem. 
 Vandaar dus de beslissing van het Zeus-bestuur om samen met het 12urenloop-comité onze schouders te zetten onder een volledig nieuw systeem. Nieuwe hardware, nieuwe software.
 
 ### Telraam
@@ -75,15 +75,15 @@ We zijn er nog niet helemaal uit wat het precies zal worden, maar duidelijk is d
 
 ## Zeus needs you!
 
-Een nieuw, schoon vers project waar ook nog eens leuke nieuwe speeltjes bij komen... ik moet u natuurlijk al niet meer overtuigen om mee te doen, ge staat verzekers al te springen om eraan te beginnen!
+Een nieuw, schoon vers project waar ook nog eens leuke nieuwe speeltjes bij komen... Ik moet u natuurlijk al niet meer overtuigen om mee te doen, ge staat verzekers al te springen om eraan te beginnen!
 
 ### Hoe Wat Waar?
-Kom eens langs in het [~12urenloop][12ulmm] kanaal op mattermost, en neem een kijkje op de [repo][telraamrepo]
+Kom eens langs in het [~12urenloop][12ulmm] kanaal op mattermost, en neem een kijkje op de [repo][telraamrepo].
 
 Doorheen het jaar organiseren we themaweken rond de 12urenloop. Er is dan steeds iemand aanwezig in de kelder die weet heeft van de huidige status en van wat er nog moet gebeuren. 
 Telkens werken we naar een concreet doel op het einde van de week: een nieuwe versie, een pakket issues, een grote integratietest, etc. 
 
-Je mag mij (@abeformatter) natuurlijk ook steeds contacteren met vragen of ideëen.
+Je mag mij (@abeformatter) natuurlijk ook steeds contacteren met vragen of ideeën.
 
 [telraamrepo]: https://github.com/12urenloop/Telraam
 [12ulmm]: https://mattermost.zeus.gent/zeus/channels/12urenloop
