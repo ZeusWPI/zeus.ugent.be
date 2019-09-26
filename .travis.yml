@@ -19,7 +19,7 @@ addons:
   apt:
     packages:
       - pandoc
-      - texlive
+      - texlive-full
       - lmodern
 
 branches:

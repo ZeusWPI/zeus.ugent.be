@@ -4,11 +4,16 @@
 require 'json'
 require 'icalendar'
 
+# Important!!!
+# First ignore the node_modules, we do not need any of it on the site directly.
+ignore '/node_modules/**/*'
+
 #
 #
 # PREPROCESS
 #
 #
+
 
 preprocess do
   `yarn`
@@ -136,7 +141,7 @@ end
 
 # Note drive/verslagen is 'linked' as a data source to /about/verslagen/
 compile '/about/verslagen/*/*.md', rep: :pdf do
-  filter :pandoc_pdf, args: { f: :markdown } if production?
+  filter :pandoc_pdf, args: { f: :markdown, :'pdf-engine' => 'xelatex' } if production?
   write ext: (production? ? 'pdf' : 'md')
 end
 
@@ -181,7 +186,6 @@ end
 
 ignore '/assets/stylesheets/includes/**/*'
 ignore '/data/**/*'
-ignore '/node_modules/**/*'
 
 compile '/assets/stylesheets/**/*.scss' do
   sass_opts = {
