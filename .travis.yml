@@ -1,8 +1,6 @@
 language: ruby
 bundler_args: --without development,nanoc
 
-dist: bionic
-
 # Travis' own submodule update is broken somehow
 git:
   submodules: false
