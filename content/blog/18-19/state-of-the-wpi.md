@@ -7,7 +7,7 @@ description: Een tl;dr van het afgelopen jaar
 
 Beste Zeusers en Zeusinnen,
 
-Nu het volgende academiejaar alweer van start gegaan is, is het hoog tijd om eens terug te blikken naar het afgelopen jaar. Wat is er allemaal gebeurd in en rond onze geliefde kelder?
+Nu het nieuwe academiejaar alweer van start gegaan is, is het hoog tijd om eens terug te blikken naar het afgelopen jaar. Wat is er allemaal gebeurd in en rond onze geliefde kelder?
 
 ## Events
 
@@ -45,7 +45,7 @@ Omdat open source/open data toch wel een belangrijk deel van Zeus is, organiseer
 
 > **Ballmer-peak**: The theory that computer programmers obtain quasi-magical, superhuman coding ability when they have a blood alcohol concentration percentage between 0.129% and 0.138%.
 
-Ook deze keer sloten we het kalenderjaar af met een avond vol pannenkoeken, jenever en code. Dit jaar hebben we het ook gecombineerd met D-Ploy Day, wat inhield dat we zo veel mogelijk Zeusprojecten op zo veel mogelijk laptops lieten draaien om zo mensen te stimuleren om aan deze projecten te sleutelen. Zoals iedereen weet, Ruby wordt sneller gedeployed als men al een paar shotjes gedaan heeft, ,toch?
+Ook deze keer sloten we het kalenderjaar af met een avond vol pannenkoeken, jenever en code. Dit jaar hebben we het ook gecombineerd met D-Ploy Day, wat inhield dat we zo veel mogelijk Zeusprojecten op zo veel mogelijk laptops lieten draaien om zo mensen te stimuleren om aan deze projecten te sleutelen. Zoals iedereen weet, Ruby wordt sneller gedeployed als men al een paar shotjes op heeft ... toch?
 
 ### IHNGTWHSIPB-codenight (13 februari)
 
@@ -53,11 +53,11 @@ Bij het zien van die naam denk je misschien "Wie heeft zijn toetsenbord laten va
 
 ### HTTPizza/2.0 (21 februari)
 
-Samen met IDLab organisserden we dit jaar de opvolger van HTTPizza in 2017. Met coole challanges in het thema van een pizzeria lieten we onze leden kennis maken met de wondere wereld van het web door onze eigen HTTP-variant. Een PIZZA-request sturen is toch zo veel leuker dan een GET-request?
+Samen met IDLab organiseerden we dit jaar de opvolger van HTTPizza in 2017. Met coole challanges in het thema van een pizzeria lieten we onze leden kennis maken met de wondere wereld van het web door onze eigen HTTP-variant. Een PIZZA-request sturen is toch zo veel leuker dan een GET-request?
 
 ### Hashcode (28 februari)
 
-Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse challenge van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar een team dat het tot de finale van de Hashcode gehaald heeft!
+Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse programmeerwedstrijd van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar een team dat het tot de finale van de Hashcode gehaald heeft!
 
 ### Capture The Friday (7 maart)
 
