@@ -1,7 +1,7 @@
 ---
 author: Robbe Van Herck
 title: "State of the WPI"
-created_at: 13-09-2019
+created_at: 3-10-2019
 description: Een tl;dr van het afgelopen jaar
 ---
 
