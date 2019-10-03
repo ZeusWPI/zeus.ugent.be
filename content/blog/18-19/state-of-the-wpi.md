@@ -13,7 +13,7 @@ Nu het volgende academiejaar alweer van start gegaan is, is het hoog tijd om een
 
 Zeus heeft dit jaar verre van stil gezeten op het vlak van events. Bijna elke week had zijn eigen event. Hoog tijd dus om ze eens op te lijsten!
 
-### Esoterische kennismakings-avond (27 oktober)
+### Esoterische kennismakings-avond (27 september)
 
 Wat is er leuker dan het academiejaar te openen met een avond vol programmeertalen die niemand begrijpt (of wil begrijpen)? Hoewel het vooral gemikt was op de eerstejaars die mogelijk nog niet konden programmeren, was het ook voor ervaren computerfluisteraars eens leuk om domme programma's te schrijven in domme talen. Er was zelfs zo veel volk dat we mensen op de gang hebben moeten zetten omdat de kelder vol was!
 
