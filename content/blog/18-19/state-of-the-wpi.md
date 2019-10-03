@@ -49,15 +49,15 @@ Ook deze keer sloten we het kalenderjaar af met een avond vol pannenkoeken, jene
 
 ### IHNGTWHSIPB-codenight (13 februari)
 
-Bij het zien van die naam denk je misschien "Wie heeft zijn toetsenbord laten vallen en dat als naam gekozen?", maar het is weldegelijk een afkorting. De "Ik Heb Nog Genoeg Tijd Want Het Semester Is Pas Begonnen"-codenight. Het tweede semester kwam op gang met een codenight gericht op iedereen die zich niet kon inhouden om te programmeren zonder dat er een deadline en punten boven het hoofd hing. Want wat doen Zeusers en Zeusinnen buiten de verplichte portie programmeren? Meer programmeren natuurlijk!
+Bij het zien van die naam denk je misschien "Wie heeft zijn toetsenbord laten vallen en dat als naam gekozen?", maar het is weldegelijk een afkorting. De "Ik Heb Nog Genoeg Tijd Want Het Semester Is Pas Begonnen"-codenight. Het tweede semester kwam op gang met een codenight gericht op iedereen die zich niet kon inhouden om te programmeren zonder dat er hen een deadline en punten boven het hoofd hingen. Want wat doen Zeusers en Zeusinnen buiten de verplichte portie programmeren? Meer programmeren natuurlijk!
 
 ### HTTPizza/2.0 (21 februari)
 
-Samen met IDLab organiseerden we dit jaar de opvolger van HTTPizza in 2017. Met coole challanges in het thema van een pizzeria lieten we onze leden kennis maken met de wondere wereld van het web door onze eigen HTTP-variant. Een PIZZA-request sturen is toch zo veel leuker dan een GET-request?
+Samen met IDLab organiseerden we dit jaar de opvolger van HTTPizza in 2017. Met coole challenges in het thema van een pizzeria lieten we onze leden kennis maken met de wondere wereld van het web door onze eigen HTTP-variant. Een PIZZA-request sturen is toch zo veel leuker dan een GET-request?
 
 ### Hashcode (28 februari)
 
-Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse programmeerwedstrijd van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar een team dat het tot de finale van de Hashcode gehaald heeft!
+Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse programmeerwedstrijd van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar een team dat het tot de finale van de Hashcode geschopt heeft!
 
 ### Capture The Friday (7 maart)
 
@@ -65,7 +65,7 @@ Dit event viel zoals de naam al doet vermoeden op een vrijdag... Right? FOUT! He
 
 ### 12urenloop (29 april)
 
-Ook dit jaar zat Zeus paraat op de Gentse 12urenloop om ons telsysteem bij te sturen waar nodig. Gelukkig hadden we dit jaar een goede backup aan onze manuele telling, want ons telsysteem lag zo'n beetje plat.
+Ook dit jaar zat Zeus paraat op de Gentse 12urenloop om ons telsysteem bij te sturen waar nodig. Gelukkig hadden we dit jaar een goede back-up aan onze manuele telling, want ons telsysteem lag zo'n beetje plat.
 
 > walkie: "ALLES IS DOWN, trek die kabel nu uit!"
 >
