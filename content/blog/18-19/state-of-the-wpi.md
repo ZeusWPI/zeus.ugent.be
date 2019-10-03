@@ -7,7 +7,7 @@ description: Een tl;dr van het afgelopen jaar
 
 Beste Zeusers en Zeusinnen,
 
-Nu het volgende academiejaar er weer bijna aankomt is het hoog tijd om eens terug te blikken naar het afgelopen jaar. Wat is er allemaal gebeurd in en rond onze geliefde kelder?
+Nu het volgende academiejaar alweer van start gegaan is, is het hoog tijd om eens terug te blikken naar het afgelopen jaar. Wat is er allemaal gebeurd in en rond onze geliefde kelder?
 
 ## Events
 
@@ -17,7 +17,7 @@ Zeus heeft dit jaar verre van stil gezeten op het vlak van events. Bijna elke we
 
 Wat is er leuker dan het academiejaar te openen met een avond vol programmeertalen die niemand begrijpt (of wil begrijpen)? Hoewel het vooral gemikt was op de eerstejaars die mogelijk nog niet konden programmeren, was het ook voor ervaren computerfluisteraars eens leuk om domme programma's te schrijven in domme talen. Er was zelfs zo veel volk dat we mensen op de gang hebben moeten zetten omdat de kelder vol was!
 
-TODO: plaats gif van maze hier
+<%= figure 'https://zeus.ugent.be/zeuswpi/maze.gif', 'Een programma dat twee getallen optelt in de taal maze.' %>
 
 ### Spelletjesavonden (3 oktober en 20 maart)
 
@@ -43,7 +43,7 @@ Omdat open source/open data toch wel een belangrijk deel van Zeus is, organiseer
 
 ### Pannenkoeken en Jenever Codenight
 
-> Ballmer-peak (insert definitie hier)
+> **Ballmer-peak**: The theory that computer programmers obtain quasi-magical, superhuman coding ability when they have a blood alcohol concentration percentage between 0.129% and 0.138%.
 
 Ook deze keer sloten we het kalenderjaar af met een avond vol pannenkoeken, jenever en code. Dit jaar hebben we het ook gecombineerd met D-Ploy Day, wat inhield dat we zo veel mogelijk Zeusprojecten op zo veel mogelijk laptops lieten draaien om zo mensen te stimuleren om aan deze projecten te sleutelen. Zoals iedereen weet, Ruby wordt sneller gedeployed als men al een paar shotjes gedaan heeft, ,toch?
 
@@ -73,15 +73,13 @@ Ook dit jaar zat Zeus paraat op de Gentse 12urenloop om ons telsysteem bij te st
 
 Gelukkig genoeg hebben we dankzij onze helpers die manueel geteld hebben en mensen erop gewezen hebben dat nummers aan de voorkant moeten hangen toch nog een correcte telling kunnen tonen!
 
-TODO: nog events maar ik heb de site niet nieuwer lokaal staan...
-
 ## Projecten
 
 Naast deze talrijke evenementen hebben we ook nog een paar projecten draaiend gehouden en zelf een paar nieuwe uit de grond gestampt. Tijd voor een lijstje!
 
 ### G2
 
-Wat begon als een idee van een paar eerstejaars op een septemberavond draaide dit jaar uit tot een echt beginnend project. We willen ervoor zorgen dat onze leden een "gateway" hebben tot de Zeusprojecten. G2 is hiervoor uitgedacht en opgesteld. Veel beter dan [deze blogpost](TODO) ga ik het niet uitgelegd krijgen, dus kijk daar zeker eens naar!
+Wat begon als een idee van een paar eerstejaars op een septemberavond draaide dit jaar uit tot een echt beginnend project. We willen ervoor zorgen dat onze leden een "gateway" hebben tot de Zeusprojecten. G2 is hiervoor uitgedacht en opgesteld. Veel beter dan [deze blogpost](https://zeus.gent/blog/18-19/g2_blogpost/) ga ik het niet uitgelegd krijgen, dus kijk daar zeker eens naar!
 
 ### Cat
 
@@ -89,7 +87,7 @@ Katten! Wat hebben katten graag? Aandacht en affectie natuurlijk. Wij vonden dat
 
 ### Tappb
 
-Tappb? Zijn er al niet genoeg ta[pb]+ varianten? Natuurlijk niet! Tappb is gemaakt door een paar tweedejaars informatici die voor het vak Software Engineering Lab een app gemaakt hebben voor Zeus die Tap en Tab combineert in een app. Hij is ook te vinden op de [Play Store](TODO)!
+Tappb? Zijn er al niet genoeg ta[pb]+ varianten? Natuurlijk niet! Tappb is gemaakt door een paar tweedejaars informatici die voor het vak Software Engineering Lab een app gemaakt hebben voor Zeus die Tap en Tab combineert in een app. Hij is ook te vinden op de [Play Store](https://play.google.com/store/apps/details?id=gent.zeus.tappb)!
 
 ### MessageOS
 
