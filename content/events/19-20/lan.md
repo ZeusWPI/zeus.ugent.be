@@ -11,7 +11,7 @@ location: 'Therminal, Hoveniersberg 24 9000 Gent'
 locationlink: 'Therminal'
 ---
 
-[Schrijf je nu in!](https://forms.gle/ZzFYZWT5J2dv9UfN9) (niet verplicht).
+[Schrijf je nu in!](https://forms.gle/ZzFYZWT5J2dv9UfN9).
 
 # Game Over! Try Again.
 
