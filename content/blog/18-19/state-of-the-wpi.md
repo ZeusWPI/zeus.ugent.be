@@ -31,7 +31,7 @@ Net als elk jaar dwingen *ik bedoel* begeleiden we weer een hoop mensen in de wo
 
 ### Geeks, Attack! VII (26 oktober)
 
-Nog een jaarlijkse traditie is de grote LAN-party in de Therminal. Wat is er leuker dan een nachtje door je favoriete videogames te spelen? Dit samen met andere mensen doen? Toernooien met heuse prijzen? Pizza's die voor jou geleverd worden? De LAN-party had dit allemaal!
+Een van onze andere jaarlijkse tradities is de grote LAN-party in de Therminal. Wat is er leuker dan een nachtje door je favoriete videogames te spelen? Dat samen met andere mensen doen? Deelnemen aan toernooien met heuse prijzen? Pizza's die voor jou geleverd worden? De LAN-party had dit allemaal!
 
 ### Zeus bezoekt het datacenter (5 november)
 
