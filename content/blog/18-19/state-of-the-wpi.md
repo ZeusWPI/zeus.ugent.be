@@ -39,7 +39,7 @@ Wie al eens uit het raam van onze kelder gekeken heeft, heeft waarschijnlijk het
 
 ### OSM Worksops (14 en 28 november)
 
-Omdat open source/open data toch wel een belangrijk deel van Zeus is, organiseerden we samen met Pieter Vander Vennet een introductie tot de wereld van OpenStreetMap. In de eerste workshop leerden we mensen hoe ze zelf data toevoegen om zo de wereld een beetje verder in kaart te brengen. In de tweede leerden we werken met OsmAnd, de open routeplanner die draait op OpenStreetMap. We leerden hoe we OsmAnd kunnen 'hacken' om het zo te maken als we zelf willen.
+Omdat open source/open data toch wel een belangrijk deel van Zeus is, organiseerden we samen met Pieter Vander Vennet een introductie tot de wereld van OpenStreetMap. In de eerste workshop leerden we mensen hoe ze zelf data toevoegen om zo de wereld een beetje verder in kaart te brengen. In de tweede workshop leerden we werken met OsmAnd, de open routeplanner die draait op OpenStreetMap. We leerden hoe we OsmAnd kunnen 'hacken' om het zo te maken als we zelf willen.
 
 ### Pannenkoeken en Jenever Codenight
 
