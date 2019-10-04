@@ -15,7 +15,7 @@ Zeus heeft dit jaar verre van stil gezeten op het vlak van events. Bijna elke we
 
 ### Esoterische kennismakings-avond (27 september)
 
-Wat is er leuker dan het academiejaar te openen met een avond vol programmeertalen die niemand begrijpt (of wil begrijpen)? Hoewel het vooral gemikt was op de eerstejaars die mogelijk nog niet konden programmeren, was het ook voor ervaren computerfluisteraars eens leuk om domme programma's te schrijven in domme talen. Er was zelfs zo veel volk dat we mensen op de gang hebben moeten zetten omdat de kelder vol was!
+Wat is er leuker dan het academiejaar te openen met een avond vol programmeertalen die niemand begrijpt (of wil begrijpen)? Hoewel het event vooral gemikt was op de eerstejaars die mogelijk nog niet konden programmeren, was het ook voor ervaren computerfluisteraars eens leuk om domme programma's te schrijven in domme talen. Er was zelfs zo veel volk dat we mensen op de gang hebben moeten zetten omdat de kelder vol was!
 
 <%= figure 'https://zeus.ugent.be/zeuswpi/maze.gif', 'Een programma dat twee getallen optelt in de taal maze.' %>
 
