@@ -83,7 +83,7 @@ Wat begon als een idee van een paar eerstejaars op een septemberavond draaide di
 
 ### Cat
 
-Katten! Wat hebben katten graag? Aandacht en affectie natuurlijk. Wij vonden dat zo'n dingen in kaart gebracht moeten worden, dus ontstond Cat. Je kan ermee knuffels aanvragen aan anderen en zien wie er met wie geknuffeld heeft. Waarom Cat? Wel, dat is een afkorting voor Cuddles And Bad Abbreviations natuurlijk.
+Katten! Wat hebben katten graag? Aandacht en affectie natuurlijk. Wij vonden dat zo'n dingen in kaart gebracht moeten worden, dus ontstond Cat. Je kan ermee knuffels aanvragen aan anderen en zien wie er met wie geknuffeld heeft. Waarom Cat? Wel, dat is een afkorting voor Cuddles And Bad Abbreviations, natuurlijk.
 
 ### Tappb
 
