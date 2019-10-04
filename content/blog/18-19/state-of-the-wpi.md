@@ -21,7 +21,7 @@ Wat is er leuker dan het academiejaar te openen met een avond vol programmeertal
 
 ### Spelletjesavonden (3 oktober en 20 maart)
 
-Omdat Zeus meer doet dan computeren organiseerden we ook dit jaar twee spelletjesavonden. Fans van zowel bekende spelen als Concept als fans van meer obscure spelen waarbij men de regels zelf moet uitzoeken konden zich volledig uitleven.
+Omdat Zeus meer doet dan computeren, organiseerden we ook dit jaar twee spelletjesavonden. Fans van zowel bekende spelen als Concept, tot fans van meer obscure spelen waarbij men de regels zelf moet uitzoeken, konden zich volledig uitleven.
 
 PS: Wist je dat een van deze spelletjesavonden een vermelding gekregen heeft in Schamper?
 
