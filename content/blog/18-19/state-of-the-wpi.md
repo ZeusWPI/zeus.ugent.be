@@ -57,7 +57,7 @@ Samen met IDLab organiseerden we dit jaar de opvolger van HTTPizza in 2017. Met 
 
 ### Hashcode (28 februari)
 
-Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse programmeerwedstrijd van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar een team dat het tot de finale van de Hashcode geschopt heeft!
+Ook dit jaar was Zeus van de partij op de Google Hashcode, de jaarlijkse programmeerwedstrijd van Google waarbij teams uitgedaagd worden om een zo goed mogelijke oplossing te vinden voor een origineel probleem. We hadden dit jaar zelfs een team dat het tot de finale van de Hashcode geschopt heeft!
 
 ### Capture The Friday (7 maart)
 
