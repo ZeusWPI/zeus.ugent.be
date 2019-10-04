@@ -65,7 +65,7 @@ Dit event viel zoals de naam al doet vermoeden op een vrijdag... Right? FOUT! He
 
 ### 12urenloop (29 april)
 
-Ook dit jaar zat Zeus paraat op de Gentse 12urenloop om ons telsysteem bij te sturen waar nodig. Gelukkig hadden we dit jaar een goede back-up aan onze manuele telling, want ons telsysteem lag zo'n beetje plat.
+Ook dit jaar was Zeus paraat op de Gentse 12urenloop om ons telsysteem bij te sturen waar nodig. Gelukkig hadden we dit jaar een goede back-up aan onze manuele telling, want ons telsysteem lag zo'n beetje plat.
 
 > walkie: "ALLES IS DOWN, trek die kabel nu uit!"
 >
