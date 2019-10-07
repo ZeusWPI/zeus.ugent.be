@@ -1,8 +1,8 @@
 ---
-title: SlotmachIIn
-github: https://github.com/ZeusWPI/SlotMachIIn
-site: https://github.com/ZeusWPI/SlotMachIIn
+title: Doorkeeper
+github: https://github.com/ZeusWPI/Doorkeeper
+site: https://github.com/ZeusWPI/Doorkeeper
 logo_image: Logos_Slotmachiin.svg
 ---
 
-Slotmachien is dead. Long live SlotmachIIn!
+Slotmachien is dead. Long live Doorkeeper!
