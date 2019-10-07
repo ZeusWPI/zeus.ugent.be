@@ -14,7 +14,12 @@
     <div class="column">
       <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:title] %></a></p>
       <%= project.compiled_content %>
-      <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+      <% if project[:github] %>
+        <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+      <% end %>
+      <% if project[:gitlab] %>
+        <div><a href="<%= project[:gitlab] %>"><span class="icon"><%= fa('gitlab') %></span> GitLab</a></div>
+      <% end %>
     </div>
   </article>
 </div>
