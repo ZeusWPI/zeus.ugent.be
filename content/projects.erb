@@ -37,6 +37,8 @@ order: 30
 </div>
 
 
-<% all_projects.each do |project| %>
-  <%= render '/partials/_project.erb', project: project%>
-<% end %>
+<div class="columns is-multiline is-variable is-3">
+  <% all_projects.each do |project| %>
+    <%= render '/partials/_project.erb', project: project%>
+  <% end %>
+</div>
