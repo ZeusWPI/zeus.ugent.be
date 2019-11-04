@@ -4,7 +4,7 @@ description: Hack zoveel mogelijk dingen en red de dag
 created_at: 25-10-2019
 time: '12-11-2019 18:00'
 end: '12-11-2019 23:59'
-facebook: 'TODO'
+facebook: 'https://www.facebook.com/events/526332031257469/'
 image: 'https://zeus.ugent.be/zeuswpi/_9i__XUJ.jpg'
 banner: 'https://zeus.ugent.be/zeuswpi/JnpFxP-T.jpg'
 location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre, Krijgslaan 281 9000 Gent'
