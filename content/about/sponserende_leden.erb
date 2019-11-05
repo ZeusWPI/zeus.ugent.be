@@ -7,7 +7,7 @@ narrow_page: true
 
 <div id='sponsoring_members' class="content">
   <% current_sponsoring_members.each do |member| %>
-      <div id="<%= member[:nickname] %>" class="box">
+      <div id="<%= member[:nickname] %>" class="box sponsoring_member">
         <article class="columns is-mobile">
           <div class="column is-gapless is-narrow logo-wrapper">
             <% if member[:photo] %>
@@ -21,22 +21,21 @@ narrow_page: true
                 </div>
               </div>
             <% end %>
+            <p class="name"><%= member[:name] %></p>
+            <p class="username">(<%= member[:nickname] %>)</p>
           </div>
-          <div class="column">
-            <span style="margin-bottom:0" class="title"><%= member[:name] %></span>
-            <span class="subtitle">
-              (<%= member[:nickname] %>)
-            </span>
+          <div class="text_wrapper">
+          <div class="column text_data">
             <div>
-              <i>
-                -
-                <%= member[:quote] %>
+              <i class="quote">
+                "<%= member[:quote] %>"
               </i>
             </div>
-            <blockquote style="margin-top: 0.5em">
+            <div class="description_text" style="margin-top: 0.5em">
               <%= member[:description] %>
-            </blockquote>
-            <div class="columns">
+            </div>
+          </div>
+          <div class="columns links">
               <% if member[:github] %>
                 <a style="padding: 5px" class="social-icon" href="https://github.com/<%= member[:github] %>" target="_blank">
                   <span class="icon">

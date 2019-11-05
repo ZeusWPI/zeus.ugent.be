@@ -152,11 +152,57 @@
   }
 }
 
+.name{
+  padding-top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: -1.5rem;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+.logo-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14rem;
+  padding: 0.75rem 0;
+}
+
+@media screen and (max-width: 550px){
+  .logo-wrapper{
+    width: 10rem;
+  }
+  .name{
+    font-size: 1rem;
+  }
+  .username{
+    font-size: 0.9rem;
+  }
+}
+.links{
+  padding-left: 1rem;
+}
+
+.quote {
+  font-size: 1.2rem;
+}
+
+.text_data {
+  margin: 2rem 0;
+  border-left: 0.25rem solid #09C3FF;
+}
+
+.description {
+  font-size: 1.1rem;
+}
+
 .sponserend_image {
-  width: 10vw;
-  height: 10vw;
-  min-width: 100px;
-  min-height: 100px;
+  width: 8rem;
+  height: 8rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
