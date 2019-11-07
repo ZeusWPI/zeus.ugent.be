@@ -3,11 +3,11 @@ narrow_page: true
 ---
 
 <%= render '/partials/_about_sub_navbar.*', selected: 'verslagen' %>
+<h1 class="title is-1 has-text-centered">Reports</h1>
 
 <div class="content">
-  <h1>Reports</h1>
   <% reports.group_by {|r| r[:academic_year]}.each do |year, y_reports| %>
-    <h2><%= year %></h2>
+    <h2><%= academic_year_string(year) %></h2>
     <% y_reports.each do |report| %>
       <a href="<%= report.reps[:pdf]&.path || report.identifier %>">Report <%= report[:date].strftime('%d %B %Y') %></a><br>
     <% end %>

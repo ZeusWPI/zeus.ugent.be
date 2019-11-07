@@ -39,8 +39,4 @@ module EventsHelper
       []
     end
   end
-
-  def locationlink(location)
-    "https://www.google.com/maps/embed/v1/place?key=AIzaSyBDTmw7LtDG28o9QjCnNucAJv2zTZpLjJU&q=#{URI.escape(location)}" if location
-  end
 end

@@ -13,4 +13,4 @@ De codenights zijn ook een ideaal moment om Zeus te leren kennen! Er zal wel alt
 
 De codenights gaan officieel van start op **Dinsdag 3 juli 17:00**, en gaan de hele zomervakantie door op dinsdagen (uitgezonderd op dinsdag 17 juli, tijdens de Gentse Feesten). Deze blogpost zal een update krijgen indien er een codenight niet door gaat, en bekijk zeker onze [Slack](https://zeuswpi.slack.com/) in de #zeus en #codenight kanalen.
 
-Alle codenights gaan door in de [Zeus kelder](/about/contact/)!
+Alle codenights gaan door in de [Zeus kelder](/contact/)!

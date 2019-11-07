@@ -5,6 +5,9 @@
       > tr {
         visibility: collapse;
       }
+      > tr > td:nth-child(1) {
+        width: 100%;
+      }
     }
     tbody {
       > tr {
@@ -47,11 +50,18 @@
       > tr > td:nth-child(1):before {
         content: "Function: ";
         font-weight: bold;
+        width: 100%
       }
       > tr > td:nth-child(4):before {
         grid-area: link;
       }
     }
+  }
+}
+
+table.board-table {
+  tbody > tr > td:nth-child(1), thead > tr > th:nth-child(1) {
+    width: 40%;
   }
 }
 

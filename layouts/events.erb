@@ -52,5 +52,13 @@
       </div>
       <% end %>
     <% end %>
+
+    <% if past_events(@item[:academic_year]).empty? and upcoming_events(@item[:academic_year]).empty? %>
+      <div class="content has-text-centered">
+        <h1>Sorry.</h1>
+        <h2>No events planned yet this year.</h2>
+        <h4 class="has-text-grey"><i>Soon TM.<i></h4>
+      </div>
+    <% end %>
   </div>
 </div>

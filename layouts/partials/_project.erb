@@ -1,4 +1,4 @@
-<div id="<%= project.identifier.without_ext.split('/')[-1] %>" class="container project content">
+<div id="<%= project.identifier.without_ext.split('/')[-1] %>" class="container project content column is-5 is-desktop">
   <article class="columns is-mobile">
     <div class="column is-gapless is-narrow logo-wrapper">
       <% if project[:logo_image] %>
@@ -14,7 +14,12 @@
     <div class="column">
       <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:title] %></a></p>
       <%= project.compiled_content %>
-      <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+      <% if project[:github] %>
+        <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+      <% end %>
+      <% if project[:gitlab] %>
+        <div><a href="<%= project[:gitlab] %>"><span class="icon"><%= fa('gitlab') %></span> GitLab</a></div>
+      <% end %>
     </div>
   </article>
 </div>

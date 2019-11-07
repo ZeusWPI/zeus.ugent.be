@@ -6,6 +6,8 @@ module ArchiveHelper
               .map { |i| i.identifier.to_s[/\d\d-\d\d/] })
        .to_a
        .sort
+       .push(@config[:academic_year])
+       .uniq
   end
 
   def academic_years_blog_items

@@ -3,6 +3,7 @@ $zeus-orange: #ff7f00;
 $zeus-blue: #00c4ff;
 
 $body-background: #fff;
+$body-size: 1rem;
 
 $tile-orange: $zeus-orange;
 
@@ -33,3 +34,5 @@ $tertiary: $box-colour;
 
 // Let's trust the font the user chose
 $family-sans-serif: sans-serif;
+
+$timeline-content-padding: 0.55em 0 0 2em;

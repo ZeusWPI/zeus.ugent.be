@@ -4,6 +4,13 @@ title: Cammie
 ---
 <% content_for :scripts do %>
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+var socket = io("https://kelder.zeus.ugent.be");
+socket.on('replymessage', function(obj) {
+    alert("Kelder says: " + obj['message']);
+})
+</script>
 <%= asset :js, :cammie %>
 <%= asset :js, :message %>
 <% end %>
@@ -53,18 +60,23 @@ title: Cammie
   </div>
   <nav class="nav columns">
     <div class="column">
-      <button class="button ctrl" data-command="set_pos" data-x="16" data-y="16">
+      <button class="button ctrl" data-command="set_pos" data-x="24" data-y="16">
         Kleine tafel
       </button>
     </div>
     <div class="column">
-      <button class="button ctrl" data-command="set_pos" data-x="50" data-y="10">
+      <button class="button ctrl" data-command="set_pos" data-x="61" data-y="10">
         Grote tafel
       </button>
     </div>
     <div class="column">
-      <button class="ctrl button" data-command="set_pos" data-x="0" data-y="12">
+      <button class="ctrl button" data-command="set_pos" data-x="10" data-y="12">
         Zetel
+      </button>
+    </div>
+    <div class="column">
+      <button class="ctrl button" data-command="set_pos" data-x="26" data-y="6">
+        Deur
       </button>
     </div>
   </nav>
@@ -78,5 +90,5 @@ title: Cammie
         Send to kelder
       </a>
     </div>
-  <div>
+  </div>
 </section>

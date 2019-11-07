@@ -47,7 +47,7 @@ Naast projecten en evenementen zijn de volgende feitjes nog noemenswaardig om te
 - We zijn steeds meer applicaties aan het overzetten naar onze nieuwe fancy domeinnaam [zeus.gent](https://zeus.gent).
 - We hebben een nieuwe server, met als hostname `herbert`, waar we spiksplinternieuwe applicaties op draaien zoals een self-hosted GitLab-server op [git.zeus.gent](https://git.zeus.gent).
 - Het bestuur heeft besloten om het erelidmaatschap te evalueren
-- De [verslagen](<%= @items['/about/verslagen.erb'].path %>)-pagina is een ding, net zoals een pagina met de Zeus-[historiek](<%= @items['/about/historiek.md'].path %>)
+- De [verslagen](<%= @items['/about/verslagen.erb'].path %>)-pagina is een ding, net zoals een pagina met de Zeus-[historiek](<%= @items['/about/historiek.erb'].path %>)
 - De rode draad bevestig je best aan de positieve pool van een batterij, de zwarte of blauwe draad moet aan de negatieve pool
 - Partnerships: we willen meer _zinvolle_ samenwerkingen met bedrijven. Niet zomaar een logo op de site plaatsen in ruil voor geld. Maar eerder evenementen samen met bedrijven (zoals de FPGA-workshop met Sigasi en de Lasershoot met Delaware)
 
