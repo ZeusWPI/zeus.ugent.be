@@ -7,7 +7,7 @@ end: '12-11-2019 23:59'
 facebook: 'https://www.facebook.com/events/526332031257469/'
 image: 'https://zeus.ugent.be/zeuswpi/_9i__XUJ.jpg'
 banner: 'https://zeus.ugent.be/zeuswpi/JnpFxP-T.jpg'
-location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre, Krijgslaan 281 9000 Gent'
+location: 'Kelder Zeus WPI'
 locationlink: 'S9 Gent'
 ---
 
