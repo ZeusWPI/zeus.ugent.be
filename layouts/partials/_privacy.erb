@@ -1,0 +1,6 @@
+<h4 id="<%= project.identifier.without_ext.split('/')[-1] %>"><%= project[:name] %></h4>
+<% if project.compiled_content %>
+  <%= project.compiled_content %>
+<% else %>
+  <p>Dit project kent geen afwijkingen van het algemeen beleid.</p>
+<% end %>

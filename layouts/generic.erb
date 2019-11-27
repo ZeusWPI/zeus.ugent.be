@@ -5,7 +5,7 @@
   <main class="section">
     <% if item[:narrow_page] %>
     <div class="columns">
-      <article class="column is-8 is-offset-2">
+      <article class="column is-8 is-offset-2 <%= 'toc-container' if @item[:toc] %>">
     <% end %>
 
     <%= yield %>

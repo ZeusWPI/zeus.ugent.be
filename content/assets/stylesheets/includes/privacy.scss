@@ -1,0 +1,17 @@
+.example {
+  @extend .box;
+  &:before {
+    content: "Voorbeeld. ";
+    font-weight: bold;
+  }
+}
+
+.to-top {
+  & a {
+    font-size: 0.8rem;
+  }
+  & hr {
+    margin-bottom: 0
+  }
+  margin-bottom: 1.5rem;
+}

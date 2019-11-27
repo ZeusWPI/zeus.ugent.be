@@ -1,0 +1,35 @@
+// CSS related to the TOC
+
+#table-of-contents {
+  @include tablet {
+    position: absolute;
+    left: 100%;
+  }
+
+  @include mobile {
+    text-align: center;
+  }
+
+  #markdown-toc {
+    @extend .menu-list;
+
+    &, ul {
+      margin: 0;
+      list-style: none;
+    }
+  }
+}
+
+$sel: '';
+@for $i from 1 through 9 {
+  $sel: if($i == 1, "ul", selector-nest($sel, "ul")) !global;
+
+  #markdown-toc.toc-depth-#{$i} #{$sel} {
+    display: none;
+  }
+}
+
+// Must be applied to the element containing the toc
+.toc-container {
+  position: relative;
+}

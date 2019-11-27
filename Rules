@@ -136,6 +136,17 @@ compile '/**/*.ics' do
 end
 
 #
+# PRIVACY
+#
+
+compile '/privacy/*' do
+  filter :kramdown
+
+  # Don't write out the privacy items themselves for now
+  nil
+end
+
+#
 # REPORTS
 #
 
