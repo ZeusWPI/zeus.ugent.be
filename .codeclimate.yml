@@ -1,14 +1,11 @@
 engines:
   bundler-audit:
     enabled: true
-  coffeelint:
-    enabled: true
   duplication:
     enabled: true
     config:
       languages:
       - ruby:
-      - coffeescript:
   eslint:
     enabled: true
   fixme:

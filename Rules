@@ -185,12 +185,6 @@ end
 #
 # ASSETS
 #
-compile '/assets/scripts/**/*.coffee' do
-  filter :coffeescript
-  filter :uglify_js if production?
-  write ext: 'js'
-end
-
 compile '/assets/scripts/**/*.js' do
   filter :uglify_js, harmony: true if production?
 end
