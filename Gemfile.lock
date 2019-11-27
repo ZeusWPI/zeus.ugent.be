@@ -9,10 +9,6 @@ GEM
       execjs
     builder (3.2.3)
     coderay (1.1.2)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.12.2)
     colored (1.2)
     concurrent-ruby (1.1.5)
     cri (2.15.9)
@@ -136,7 +132,6 @@ DEPENDENCIES
   adsf
   autoprefixer-rails
   builder
-  coffee-script
   guard-nanoc
   highline
   htmlcompressor

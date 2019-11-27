@@ -2,8 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'nanoc'
-# General filtering
-gem 'coffee-script'
+
 gem 'icalendar' # ical files
 gem 'kramdown'
 gem 'sassc'
