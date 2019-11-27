@@ -81,24 +81,6 @@ footer.footer {
   align-items: center;
 }
 
-.imgcenter {
-  margin: auto;
-  display: block;
-}
-
-.hydra-tile {
-  background-color: #1E64C8;
-}
-
-.lana-tile {
-  background-color: $tile-orange;
-}
-
-.project-tile {
-  background-color: $turquoise;
-}
-
-
 // For better centering on mobile
 @include mobile {
   #tipue_search_input {
