@@ -24,7 +24,7 @@ end
 
 group :production do
   # Faster css autoprefixing
-  gem 'therubyracer'
+  gem 'mini_racer'
   # Autoprefixing for class
   gem 'autoprefixer-rails'
   gem 'htmlcompressor'

@@ -46,13 +46,15 @@ GEM
     json (2.2.0)
     json_schema (0.20.8)
     kramdown (2.1.0)
-    libv8 (3.16.14.19)
+    libv8 (7.3.492.27.1)
     listen (3.2.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     lumberjack (1.0.13)
     method_source (0.9.2)
     mini_portile2 (2.4.0)
+    mini_racer (0.2.8)
+      libv8 (>= 6.9.411)
     nanoc (4.11.14)
       addressable (~> 2.5)
       colored (~> 1.2)
@@ -104,9 +106,6 @@ GEM
     slow_enumerator_tools (1.1.0)
     terminal-notifier (2.0.0)
     terminal-notifier-guard (1.7.0)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     thor (0.20.3)
     tomlrb (1.2.9)
     tty-color (0.5.0)
@@ -137,13 +136,13 @@ DEPENDENCIES
   htmlcompressor
   icalendar
   kramdown
+  mini_racer
   nanoc
   pandoc-ruby
   rainpress
   sassc
   terminal-notifier
   terminal-notifier-guard
-  therubyracer
   typogruby
   uglifier (>= 4.0.0)
   w3c_validators
