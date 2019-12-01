@@ -1,17 +1,15 @@
 ---
 data:
   19-20:
-    - name: Sponsorend Lid
-      nickname: spons_01
-      photo: https://zinc.zeus.gent/
-      quote: Lorem Ipsum enzovoort
-      description: Ik doe dingen
-      twitter: zeuswpi
-      blog: https://example.com
-      github: zeuswpi
-    - name: Persoon 2
-      nickname: username
-      quote: Ik wil ook een quote!
-      description: Ik doe ook dingen maar heb geen twitter of github, ook geen blog
-
+    - name: Titouan Vervack
+      nickname: FlashYoshi
+      photo: https://zeus.ugent.be/zeuswpi/0U6neVQP.jpg
+      quote: Ansible is af!
+      description: >
+        Puns, weeb, Sigasi, klimt, taart.
+        Houdt écht van Java.
+        Gebruikt tabs én spaces.
+      twitter: tivervack
+      github: tivervac
+      gitlab: FlashYoshi
 
