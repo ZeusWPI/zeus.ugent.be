@@ -36,24 +36,20 @@ narrow_page: true
             </div>
           </div>
           <div class="columns links">
-              <% if member[:github] %>
-                <a style="padding: 5px" class="social-icon" href="https://github.com/<%= member[:github] %>" target="_blank">
-                  <span class="icon">
-                    <%= fa :github, {:size => "2x"} %>
-                  </span>
-                </a>
-              <% end %>
-              <% if member[:twitter] %>
-                <a style="padding: 5px" class="social-icon" href="https://twitter.com/<%= member[:twitter] %>" target="_blank">
-                  <span class="icon">
-                    <%= fa :twitter, {:size => "2x"} %>
-                  </span>
-                </a>
-              <% end %>
-              <% if member[:blog] %>
-                <a style="padding: 5px" href="<%= member[:blog] %>">
-                  <%= member[:blog] %>
-                </a>
+              <% member[:links].each do |link| %>
+                <% if link[:icon] %>
+                  <a style="padding: 5px" class="social-icon" href="<%= link[:url] %>" target="_blank">
+                    <span class="icon">
+                      <%= fa link[:icon], {:size => "2x"} %>
+                    </span>
+                  </a>
+                <% else %>
+                  <a style="padding: 5px" class="social-icon" href="<%= link[:url] %>" target="_blank">
+                    <span class="icon">
+                      <%= fa :globe, {:size => "2x"} %>
+                    </span>
+                  </a>
+                <% end %>
               <% end %>
             </div>
           </div>
