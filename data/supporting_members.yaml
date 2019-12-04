@@ -17,3 +17,41 @@ data:
         - icon: gitlab
           url: https://gitlab.com/FlashYoshi
 
+    - name: Felix Van der Jeugt
+      nickname: noctua
+      photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
+      quote: |
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> Sorry guys
+        <noctua> dwergen
+        <noctua> dwergen
+      description: Ik kom Ice Tea's halen in de kelder.
+      links:
+        - icon: github
+          url: https://www.github.com/ninewise
+        - url: https://users.ugent.be/~fvdrjeug/
+    - name: Jasper Van der Jeugt
+      nickname: jaspervdj
+      photo: https://zeus.ugent.be/zeuswpi/hEERAL--.jpg
+      quote: GilJ schrijft supergoeie code
+      description: Een klein beetje geobsedeerd door Haskell.
+      links:
+        - icon: twitter
+          url: https://twitter.com/jaspervdj
+        - icon: github
+          url: https://github.com/jaspervdj/
+        - url: https://jaspervdj.be/
+    - name: Rien Maertens
+      nickname: met stokjes
+      photo: https://zeus.ugent.be/zeuswpi/udVo8mPM.jpg
+      quote: Fruit op een pizza is als windows op een laptop.
+      description: // TODO
+      links:
+        - icon: github
+          url: https://github.com/rien
+        - icon: twitter
+          url: https://twitter.com/RienMaertens
+        - url: https://rien.maertens.io
