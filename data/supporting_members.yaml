@@ -5,7 +5,7 @@ data:
       nickname: FlashYoshi
       photo: https://zeus.ugent.be/zeuswpi/0U6neVQP.jpg
       quote: Ansible is af!
-      description: |
+      description: |-
         Puns, weeb, Sigasi, klimt, taart.
         Houdt écht van Java.
         Gebruikt tabs én spaces.
@@ -20,7 +20,7 @@ data:
     - name: Felix Van der Jeugt
       nickname: noctua
       photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
-      quote: |
+      quote: |-
         <noctua> dwergen
         <noctua> dwergen
         <noctua> dwergen

@@ -32,4 +32,8 @@ module AboutHelper
   def to_full_year(year)
     (year.to_i < 90) ? "20#{year}" : "19#{year}"
   end
+  
+  def to_HTML(text)
+    text.gsub("<", "&lt;").gsub(">", "&gt;").gsub("\n", "<br>");
+  end
 end

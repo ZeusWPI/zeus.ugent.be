@@ -28,11 +28,11 @@ narrow_page: true
           <div class="column text_data">
             <div>
               <i class="quote">
-                "<%= member[:quote] %>"
+                "<%= to_HTML(member[:quote]) %>"
               </i>
             </div>
             <div class="description_text" style="margin-top: 0.5em">
-              <%= member[:description] %>
+              <%= to_HTML(member[:description]) %>
             </div>
           </div>
           <div class="columns links">
