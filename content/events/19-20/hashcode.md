@@ -2,8 +2,8 @@
 title: Hashcode
 description: Zeus organiseert een UGent Hashcode Hub
 created_at: 05-12-2019
-time: '20-02-2019 18:30'
-end: '20-02-2019 23:00'
+time: '20-02-2020 18:30'
+end: '20-02-2020 23:00'
 location: 'Campus Sterre, Gebouw S9, Auditorium A3'
 locationlink: 'Zeus WPI'
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
