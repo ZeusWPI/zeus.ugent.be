@@ -14,11 +14,15 @@ module EventsHelper
   end
 
   def upcoming_events(year = nil)
-    all_events(year).reject { |x| x[:time] <= Date.today }
+    all_events(year).reject { |x| x[:concrete] == false or x[:time] <= Date.today}
+  end
+
+  def planned_events(year = nil)
+    @items.find_all('/planned_events/*.md')
   end
 
   def past_events(year = nil)
-    all_events(year).reject { |x| x[:time] > Date.today }.reverse
+    all_events(year).reject { |x| x[:concrete] == false or x[:time] > Date.today }.reverse
   end
 
   def academic_years_event_items

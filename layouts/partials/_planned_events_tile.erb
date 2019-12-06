@@ -1,0 +1,33 @@
+<% if @event[:banner] %>
+  <div class="tile event-tile is-child box backgroundimg highlighted"
+    style="background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.65)), url('<%= @event[:banner] %>');">
+<% elsif @event[:color] %>
+  <div class="tile event-tile is-child box backgroundimg highlighted"
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @event[:color] %>;">
+<% else %>
+  <div class="tile event-tile is-child box backgroundimg">
+<% end %>
+  <div class="content event-content">
+  <% if @event[:image] %>
+  <img class="event-tile-image" src="<%= @event[:image] %>" alt="">
+  <% end %>
+    <div class="event-text">
+      <h1 class="has-text-centered">
+        <%= @event[:title] %>
+      </h1>
+
+      <div class="description has-text-centered">
+        <%= @event[:description] %>
+      </div>
+
+      <div class="is-divider"></div>
+
+      <div class="event-time-loc">
+        <% if @event[:time] %><%= fa :'clock-o' , fw: true %><%= @event[:time].strftime('%A %d %B, %H:%M') %><% end %>
+        <br>
+        <% if @event[:location] %><%= fa :'map-marker', fw: true %><%= @event[:location] %><% end %>
+      </div>
+    </div>
+
+  </div>
+</div>
