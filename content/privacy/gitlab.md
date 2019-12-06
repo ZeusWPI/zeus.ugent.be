@@ -1,6 +1,6 @@
 ---
 name: Gitlab
-status: responsible
+status: additional
 ---
 
 - Data die je ingeeft

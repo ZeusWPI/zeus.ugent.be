@@ -1,6 +1,6 @@
 ---
 name: Mattermost
-status: responsible
+status: additional
 ---
 
 Bij Mattermost is het [standaardprivacybeleid](https://github.com/mattermost/mattermost-server/blob/master/build/PRIVACY_POLICY.md) van een zelf-gehoste Mattermost-applicatie van toepassing.

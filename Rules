@@ -30,7 +30,12 @@ preprocess do
     check_schema(:event, event)
   end
 
+  all_privacy_projects do |project|
+    check_schema(:privacy, project)
+  end
+
   add_report_metadata
+  add_project_metadata
 end
 
 #

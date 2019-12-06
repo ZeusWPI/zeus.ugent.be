@@ -1,6 +1,6 @@
 ---
 name: Website
-status: responsible
+status: additional
 ---
 
 De website van Zeus verzamelt bijkomende data:

@@ -1,7 +1,4 @@
 ---
-title: Cat
-site: https://cat.zeus.gent/
-gitlab: https://git.zeus.gent/ZeusWPI/cat
 logo_image: cat.png
 priority: 35
 ---

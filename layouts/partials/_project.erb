@@ -1,4 +1,4 @@
-<div id="<%= project.identifier.without_ext.split('/')[-1] %>" class="container project content column is-5 is-desktop">
+<div id="<%= project[:id] %>" class="container project content column is-5 is-desktop">
   <article class="columns is-mobile">
     <div class="column is-gapless is-narrow logo-wrapper">
       <% if project[:logo_image] %>
@@ -12,13 +12,20 @@
       <% end %>
     </div>
     <div class="column">
-      <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:title] %></a></p>
-      <%= project.compiled_content %>
-      <% if project[:github] %>
-        <div><a href="<%= project[:github] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+      <% if project.key?(:site) %>
+        <p class="title"><a href="<%= project[:site] %>" target="_self"><%= project[:name] %></a></p>
+      <% else %>
+        <p class="title"><%= project[:name] %></p>
       <% end %>
-      <% if project[:gitlab] %>
-        <div><a href="<%= project[:gitlab] %>"><span class="icon"><%= fa('gitlab') %></span> GitLab</a></div>
+      <%= project.compiled_content %>
+      <% if project.key?(:repo) %>
+        <% if project[:repo].include?("github.com") || project[:repo].include?("github.ugent.be") %>
+          <div><a href="<%= project[:repo] %>"><span class="icon"><%= fa('github') %></span> GitHub</a></div>
+        <% elsif project[:repo].include?("git.zeus.gent") %>
+          <div><a href="<%= project[:repo] %>"><span class="icon"><%= fa('gitlab') %></span> GitLab</a></div>
+        <% else %>
+          <div><a href="<%= project[:repo] %>"> Repo</a></div>
+        <% end %>
       <% end %>
     </div>
   </article>

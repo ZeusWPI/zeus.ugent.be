@@ -1,6 +1,6 @@
 ---
 name: Gamification
-status: responsible
+status: additional
 ---
 
 Met Gamification wordt het project bedoeld dat beschikbaar is via https://zeus.ugent.be/game.

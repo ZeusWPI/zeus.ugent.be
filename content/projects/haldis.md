@@ -1,7 +1,4 @@
 ---
-title: Haldis
-github: https://github.com/ZeusWPI/Haldis
-site: https://haldis.zeus.gent/
 logo_image: Logos_Haldis.svg
 priority: 35
 ---
