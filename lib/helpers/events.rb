@@ -3,14 +3,18 @@
 require 'uri'
 
 module EventsHelper
-  def all_events(year = nil)
+  def all_events(year = nil, soon = nil)
     items_ = if year
                @items.find_all("/events/#{year}/*.md")
              else
                @items.find_all('/events/*/*.md')
              end
 
-    items_.sort_by { |x| x[:time] }
+    items_.select { |x| x[:soon] == soon }.sort_by { |x| x[:time] }
+  end
+
+  def soon_events()
+    all_events(nil, true)
   end
 
   def upcoming_events(year = nil)

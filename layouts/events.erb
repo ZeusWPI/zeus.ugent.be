@@ -61,4 +61,28 @@
       </div>
     <% end %>
   </div>
+
+  <% unless soon_events().empty? %>
+    <div class="column is-3 is-narrow">
+      <aside class="menu">
+        <p class="menu-label">
+          Soon TM.
+        </p>
+        <% soon_events().each do |event| %>
+            <div class="tile box"
+              <% if event[:color] %>
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= event[:color] %>;"
+              <% else %>
+    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:'light-grey';"
+              <% end %>
+            >
+              <div class="content event-content">
+                <h3><%= event[:title] %></h3>
+                <p><%= event[:description] %></p>
+              </div>
+            </div>
+          <% end %>
+      </aside>
+    </div>
+  <% end %>
 </div>
