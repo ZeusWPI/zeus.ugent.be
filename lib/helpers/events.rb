@@ -17,7 +17,7 @@ module EventsHelper
     all_events(year).reject { |x| x[:concrete] == false or x[:time] <= Date.today}
   end
 
-  def planned_events(year = nil)
+  def planned_events()
     @items.find_all('/planned_events/*.md')
   end
 
