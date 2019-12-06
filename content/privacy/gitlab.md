@@ -1,7 +1,4 @@
 ---
 name: Gitlab
-status: additional
+status: general
 ---
-
-- Data die je ingeeft
-- Wordt niets mee gedaan
