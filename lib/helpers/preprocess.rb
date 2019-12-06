@@ -5,7 +5,6 @@ module PreprocessHelper
         time: 'An event item should include the :time attribute, which describes the begin time and date of the event.',
         title: 'The event does not include a :title',
         location: 'The event should include a :location, a textual description',
-        locationlink: 'The event does not include a :locationlink, which is a querystring which is used for Google Maps'
       }
     }
   end
