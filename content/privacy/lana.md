@@ -1,4 +1,3 @@
 ---
-name: Lana
 status: external
 ---

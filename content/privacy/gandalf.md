@@ -1,5 +1,4 @@
 ---
-name: Gandalf
 status: external
 ---
 

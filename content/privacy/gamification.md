@@ -1,5 +1,4 @@
 ---
-name: Gamification
 status: additional
 ---
 

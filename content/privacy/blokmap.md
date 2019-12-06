@@ -1,5 +1,4 @@
 ---
-name: Blokmap
 status: responsible
 ---
 

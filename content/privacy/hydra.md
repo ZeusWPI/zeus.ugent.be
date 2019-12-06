@@ -1,5 +1,4 @@
 ---
-name: Hydra
 status: additional
 ---
 
