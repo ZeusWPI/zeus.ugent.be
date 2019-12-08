@@ -76,3 +76,13 @@ data:
       links:
         - icon: github
           url: https://github.com/Silox
+    - name: David Vandorpe
+      nickname: Davit
+      photo: https://zeus.ugent.be/zeuswpi/0xba8AgF.jpg
+      quote: Teleurstellen is zowat mijn levensdoel, daarom ga ik bij Microsoft werken...
+      description: |-
+        Alcoholieker van dienst
+        Breekt tab enkel als hij zijn tabgeld nog niet gekregen heeft
+      links:
+        - icon: github
+          url: https://github.com/VandorpeDavid
