@@ -55,3 +55,16 @@ data:
         - icon: twitter
           url: https://twitter.com/RienMaertens
         - url: https://rien.maertens.io
+    - name: Francis Begyn
+      nickname: thecy
+      photo: https://zeus.ugent.be/zeuswpi/Xl5-9fld.jpg
+      quote: Ik wil eigenlijk nog gaan feesten, maar flask migrations zijn fucked
+      description: Ik breek dingen die werken en fix dingen die gebroken zijn.
+      links:
+        - icon: facebook
+          url: https://www.facebook.com/begynfrancis
+        - icon: twitter
+          url: https://twitter.com/fbegyn
+        - icon: linkedin
+          url: https://www.linkedin.com/in/fbegyn/
+        - url: https://francis.begyn.be
