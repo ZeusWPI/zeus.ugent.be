@@ -68,3 +68,11 @@ data:
         - icon: linkedin
           url: https://www.linkedin.com/in/fbegyn/
         - url: https://francis.begyn.be
+    - name: Tom Naessens
+      nickname: Silox
+      photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
+      quote: Raad mij keer een quote aan guys, eentje waarin ik mezelf niet belachelijk maak.
+      description: To be continued.
+      links:
+        - icon: github
+          url: https://github.com/Silox
