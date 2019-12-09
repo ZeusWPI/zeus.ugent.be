@@ -73,17 +73,6 @@ Once you've submitted a PR, it will automatically be deployed to (PR#).pr.zeus.g
 
 Analytics are powered by [Fathom](https://usefathom.com) and are available on <https://stats.zeus.gent>. These are only available to administrators with proper rights. These analytics are self hosted and provide only simple statistics for our information, without breaching your privacy.
 
-## Import event from Facebook
-
-You can import events from Facebook with `bundle exec nanoc fetch #{event_id}`.
-You will need to create a `.fb_token` file and request an API token to put in there, see [FB graph API](https://developers.facebook.com/tools/explorer/).
-
-You will probably need to make a new app (see navbar, it's quite trivial), unless you already have a Zeus site app.
-
-You need to create a User Token with `user_events` permission.
-
-We currently request from v2.10, details about the code can be found in [./commands/fetch].
-
 ## Built With
 
 * [nanoc](https://github.com/nanoc/nanoc), static site generator
