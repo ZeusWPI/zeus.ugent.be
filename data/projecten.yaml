@@ -100,3 +100,23 @@ data:
     name: ZINC
     site: https://zinc.zeus.gent
     repo: https://github.com/ZeusWPI/zinc
+  messageos:
+    name: MessageOS
+    site: https://git.zeus.gent/ZeusWPI/ass_messages
+  mattermore:
+    name: Mattermore
+    repo: https://git.zeus.gent/mattermost/mattermore
+  pannenkoekenwachtrij:
+    name: Pannenkoekenwachtrij
+    repo: https://git.zeus.gent/kelder/pannenkoekenwachtrij
+  zid:
+    name: ZID
+    repo: https://git.zeus.gent/rien/zid
+  endorsement:
+    name: Endorsement
+    repo: https://git.zeus.gent/bestuur/endorsement
+    site: https://endorsement.zeus.gent/
+  wiki:
+    name: Wiki
+    site: https://zeus.ugent.be/wiki
+
