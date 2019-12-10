@@ -18,9 +18,6 @@ data:
   doorkeeper:
     name: Doorkeeper
     repo: https://github.com/ZeusWPI/Doorkeeper
-  dut:
-    name: Dark Ufora Theme
-    repo: https://github.com/ZeusWPI/DUT
   fathom:
     name: Fathom
     site: https://stats.zeus.gent/
