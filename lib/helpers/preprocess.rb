@@ -14,13 +14,7 @@ module PreprocessHelper
   end
 
   def allowed_privacy_status
-    [
-        "additional",
-        "general",
-        "processor",
-        "development",
-        "external"
-    ]
+    %w(additional general processor development external)
   end
 
   def check_schema(itemtype, item)
@@ -113,10 +107,10 @@ module PreprocessHelper
 
   def add_project_metadata
     projects = data_from(:projecten)
-    @items.find_all('/privacy/*').each do |project|
+    all_privacy_items.each do |project|
       update_project_item(projects, project)
     end
-    @items.find_all('/projects/*').each do |project|
+    all_project_items.each do |project|
       update_project_item(projects, project)
     end
   end

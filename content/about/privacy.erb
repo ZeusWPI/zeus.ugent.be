@@ -4,6 +4,7 @@ narrow_page: true
 typography: true
 toc: true
 ---
+<%= render '/partials/_about_sub_navbar.*', selected: 'privacy' %>
 <h1 class="title is-1 has-text-centered" id="top">Privacybeleid</h1>
 <div id="table-of-contents" class="menu column is-4">
   <p class="menu-label">
@@ -49,7 +50,7 @@ toc: true
     Zeus kan de websites van andere verenigingen hosten op haar servers. Dan is niet het privacybeleid van Zeus van toepassing, maar dat van de vereniging wier website bij Zeus gehost wordt.
   </div>
 
-  <p>Als Zeus optreedt als verwerker, zal Zeus in het algemeen slechts de absoluut noodzakelijke data verzamelen voor de integriteit en goede werking van haar systemen in stand te houden verzamelen. Meer informatie kan u krijgen bij de verantwoordelijke vereniging of personen die gebruik maken van de diensten van Zeus.</p>
+  <p>Als Zeus optreedt als verwerker, zal Zeus in het algemeen slechts de absoluut noodzakelijke data verzamelen voor de integriteit en goede werking van haar systemen in stand te houden verzamelen: enkel technische informatie, zoals beschreven in paragraaf <em><a href="#welke">Welke data worden verzameld en waarvoor worden ze gebruikt?</a></em>.</p>
 
   <h2 class="title is-2" id="wie">Wie heeft toegang tot de verzamelde data?</h2>
 
@@ -181,9 +182,9 @@ toc: true
     <% end %>
   </ul>
 
-  <h3 class="title is-3" id="niet-gebruikt">Ongebruikte of externe projecten</h3>
+  <h3 class="title is-3" id="niet-gebruikt">Projecten in opdracht</h3>
 
-  <p>Ter informatie volgt een lijst van projecten die ofwel geen Zeus-project zijn ofwel niet meer door Zeus gebruikt worden. Zeus heeft alle gegevens voor deze projecten verwijderd indien van toepassing.</p>
+  <p>Deze projecten worden door Zeus in opdracht van derden aangeboden. Hierbij treedt Zeus op als verwerker, zoals uitgelegd in paragraaf <em><a href="#verwerker">Zeus als verwerker</a></em>. Dat komt er op neer dat Zeus enkel technische informatie verzamelt.</p>
 
   <ul>
     <% privacy_projects("external").each do |project| %>

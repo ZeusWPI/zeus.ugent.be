@@ -30,7 +30,7 @@ preprocess do
     check_schema(:event, event)
   end
 
-  all_privacy_projects do |project|
+  all_privacy_items do |project|
     check_schema(:privacy, project)
   end
 
@@ -144,7 +144,7 @@ end
 # PRIVACY
 #
 
-compile '/privacy/*' do
+compile '/about/privacy/*' do
   filter :kramdown
 
   # Don't write out the privacy items themselves for now
