@@ -14,7 +14,7 @@ module PreprocessHelper
   end
 
   def allowed_privacy_status
-    %w(additional general processor development external)
+    %w(additional general processor development)
   end
 
   def check_schema(itemtype, item)
@@ -24,8 +24,8 @@ module PreprocessHelper
       raise "#{item.identifier}: #{schema[key]}"
     end
 
-    if itemtype == :schema && !allowed_privacy_status.include?(item.attributes.status)
-      raise "status must be one of #{allowed_privacy_status}"
+    if itemtype == :privacy && !allowed_privacy_status.include?(item.attributes[:status])
+      raise "status must be one of #{allowed_privacy_status}, got #{item.attributes[:status]} on #{item[:filename]}"
     end
   end
 

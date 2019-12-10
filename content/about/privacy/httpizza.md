@@ -1,3 +1,3 @@
 ---
-status: external
+status: processor
 ---

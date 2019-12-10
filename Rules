@@ -30,7 +30,7 @@ preprocess do
     check_schema(:event, event)
   end
 
-  all_privacy_items do |project|
+  all_privacy_items.each do |project|
     check_schema(:privacy, project)
   end
 

@@ -1,4 +1,3 @@
 ---
-status: external
-link: https://12urenloop.be/
+status: processor
 ---
