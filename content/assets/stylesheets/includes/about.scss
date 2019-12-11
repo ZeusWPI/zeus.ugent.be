@@ -162,64 +162,60 @@ table.board-table {
   }
 }
 
-.sponsoring-member {
-  .name {
-    padding-top: 0.75rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align: center;
+.name{
+  padding-top: 0.75rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: -1.5rem;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+.logo-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14rem;
+  padding: 0.75rem 0;
+}
+
+@media screen and (max-width: 550px){
+  .logo-wrapper{
+    width: 10rem;
   }
-
-  .username {
-    font-weight: lighter;
-    font-size: 1.1rem;
+  .name{
+    font-size: 1rem;
   }
-
-  .logo-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 14rem;
-    padding: 0.75rem 0;
-
-    img {
-      max-width: 9rem;
-      max-height: 9rem;
-    }
+  .username{
+    font-size: 0.9rem;
   }
+}
+.links{
+  padding-left: 1rem;
+}
 
-  .links {
-    margin-top: 1.5rem;
+.quote {
+  font-size: 1.2rem;
+}
 
-    .social-icon {
-      margin-right: 0.6rem;
-    }
-  }
+.text_data {
+  margin: 2rem 0;
+  border-left: 0.25rem solid #09C3FF;
+}
 
-  blockquote {
-    font-size: 1.2rem;
-  }
+.description {
+  font-size: 1.1rem;
+}
 
-  .description {
-    font-size: 1.1rem;
-    font-weight: normal;
-  }
-
-  .logo-initial {
-    background-color: #ff7f00;
-    width: 7rem;
-    height: 7rem;
-  }
-
-  @media screen and (max-width: 550px){
-    .logo-wrapper {
-      width: 10rem;
-    }
-    .name{
-      font-size: 1rem;
-    }
-    .username{
-      font-size: 0.9rem;
-    }
-  }
+.sponserend_image {
+  width: 8rem;
+  height: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 100000000000000px;
 }
