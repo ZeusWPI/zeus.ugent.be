@@ -21,7 +21,7 @@ De best scorende teams worden uitgenodigd bij Google Dublin op 25 april om mee t
 
 ## Registratie
 
-Registreer je **voor 10 februari** op [g.co/hashcode](https://g.co/hashcode) en selecteer **onze hub _Ghent University_**. Hoe meer teams zich registreren bij onze hub, hoe meer goodies we kunnen uitdelen!
+Registreer je **voor 10 februari** op [g.co/hashcode](https://g.co/hashcode) en selecteer **onze hub _Ghent University_**. Hoe meer teams zich registreren bij onze hub, hoe meer mensen er zullen zijn!
 
 ## Benodigdheden
 

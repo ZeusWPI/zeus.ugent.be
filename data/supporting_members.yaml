@@ -1,0 +1,138 @@
+---
+data:
+  19-20:
+    - name: Titouan Vervack
+      nickname: FlashYoshi
+      photo: https://zeus.ugent.be/zeuswpi/0U6neVQP.jpg
+      quote: Ansible is af!
+      description: |-
+        Puns, weeb, Sigasi, klimt, taart.
+        Houdt écht van Java.
+        Gebruikt tabs én spaces.
+      links:
+        - icon: twitter
+          url: https://twitter.com/tivervac
+        - icon: github
+          url: https://github.com/tivervac
+        - icon: gitlab
+          url: https://gitlab.com/FlashYoshi
+
+    - name: Felix Van der Jeugt
+      nickname: noctua
+      photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
+      quote: |-
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> Sorry guys
+        <noctua> dwergen
+        <noctua> dwergen
+      description: Ik kom Ice Tea's halen in de kelder.
+      links:
+        - icon: github
+          url: https://www.github.com/ninewise
+        - url: https://users.ugent.be/~fvdrjeug/
+    - name: Jasper Van der Jeugt
+      nickname: jaspervdj
+      photo: https://zeus.ugent.be/zeuswpi/hEERAL--.jpg
+      quote: GilJ schrijft supergoeie code
+      description: Een klein beetje geobsedeerd door Haskell.
+      links:
+        - icon: twitter
+          url: https://twitter.com/jaspervdj
+        - icon: github
+          url: https://github.com/jaspervdj/
+        - url: https://jaspervdj.be/
+    - name: Rien Maertens
+      nickname: met stokjes
+      photo: https://zeus.ugent.be/zeuswpi/udVo8mPM.jpg
+      quote: Fruit op een pizza is als windows op een laptop.
+      description: // TODO
+      links:
+        - icon: github
+          url: https://github.com/rien
+        - icon: twitter
+          url: https://twitter.com/RienMaertens
+        - url: https://rien.maertens.io
+    - name: Francis Begyn
+      nickname: thecy
+      photo: https://zeus.ugent.be/zeuswpi/Xl5-9fld.jpg
+      quote: Ik wil eigenlijk nog gaan feesten, maar flask migrations zijn fucked
+      description: Ik breek dingen die werken en fix dingen die gebroken zijn.
+      links:
+        - icon: facebook
+          url: https://www.facebook.com/begynfrancis
+        - icon: twitter
+          url: https://twitter.com/fbegyn
+        - icon: linkedin
+          url: https://www.linkedin.com/in/fbegyn/
+        - url: https://francis.begyn.be
+    - name: Tom Naessens
+      nickname: Silox
+      photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
+      quote: Raad mij keer een quote aan guys, eentje waarin ik mezelf niet belachelijk maak.
+      description: To be continued.
+      links:
+        - icon: github
+          url: https://github.com/Silox
+    - name: David Vandorpe
+      nickname: Davit
+      photo: https://zeus.ugent.be/zeuswpi/0xba8AgF.jpg
+      quote: Teleurstellen is zowat mijn levensdoel, daarom ga ik bij Microsoft werken...
+      description: |-
+        Alcoholieker van dienst
+        Breekt tab enkel als hij zijn tabgeld nog niet gekregen heeft
+      links:
+        - icon: github
+          url: https://github.com/VandorpeDavid
+    - name: Bauke Blomme
+      nickname: boterham
+      photo: https://zeus.ugent.be/zeuswpi/tvKlzNYC.jpg
+      quote: Als ge uw gas- en rempedaal tegelijk induwt, maakt uw auto een screenshot.
+      description: Verantwoordelijk voor 95% tot 98% van alle roze dingen in de kelder.
+      links:
+        - icon: facebook
+          url: https://www.facebook.com/bauke.blomme
+        - icon: instagram
+          url: https://www.instagram.com/blaukebomme
+        - icon: github
+          url: https://github.com/booterham
+        - icon: gitlab
+          url: https://git.zeus.gent/bokko
+    - name: Bart Coppens
+      nickname: bcoppens
+      photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
+      quote: |-
+        <WVDSCHEL> I AM BACK
+        <WVDSCHEL> ma nie tegen bcoppens zeggen, anders moet ik verderwerken
+      description: Houdt van security, assembly, en flitsende ASCII spiralen.
+      links:
+        - icon: twitter
+          url: https://twitter.com/bartcopp
+        - url: https://bartcoppens.be
+    - name: Bryan Verfaillie
+      nickname: Brian
+      quote: Programmeren, wat is dat eigenlijk?
+      description: |-
+        Oude zak die het eindelijk begint te beseffen maar het toch zo lang als mogelijk probeert te negeren!
+        De oudere generatie zal mij vooral herinners als de brave jongen die in zijn bachelor jaren zoals een voorbeeldig student naar de les ging om schoon mee te volgen (of toch te doen alsof).
+        Jaar na jaar ging het steeds meer de 'foute' kant op en werd de Zeus kelder een vaste stek, met zijn rode vloer en compleet andere indeling (ja zo oud dus).
+        Uiteindelijk hebben ze wat gerenoveerd maar goede dingen komen altijd terug, zo ook het typerende rode stof :p
+
+        Na vele zware blokweken, van die leuke herexamens na 6 jaar toch een mooi diploma behaald: Ir. Verfaillie klinkt zo slecht nog niet.
+        Maar afscheid nemen bestaat niet dus doet hij er nog een master bij, deze keer in de Bioinformatica. Al heb ik horen waaien dat hij daar niet al te vaak in de les zat en meer in de Overpoort (Porter's it is) of zijn bed te vinden was.
+        Niettemin staat hij maar een thesis verwijderd van een nieuw diploma en een eind? Wie weet!
+
+        In de loop der jaren heb ik ook de leuke zijprojecten leren kennen. Waar ik ooit begonnen ben met 'ik kom wel eens kijken op 12urenloop', kan ik x edities later vol trots zeggen dat ik voor de 2e keer hoofdcoördinator mag zijn van dit fantastische event.
+        Ook Student Kick-Off staat ondertussen al een aantal jaren op mijn teller en daar zijn ze ook nog niet van me af. Dus als je ze ooit over het manusje-van-alles hoort spreken zou dat wel eens over mij kunnen gaan.
+
+        In 8 jaar universiteit heb ik zo een hele resem mensen mogen leren kennen, van nog oudere knarren tot echte snotneuzen maar allemaal wel toppers. Een deel van hen reken ik soms zelf bij mijn familie.
+        In 8 jaar tijd veel prachtige momenten en herinneringen verzameld en talrijke euro's armer. Maar dat is wat ik money well spent wil noemen.
+        Na 8 jaar voelt een mens zich ook soms oud tussen al dat jong geweld en vraagt zich wel eens af waarom hij nog studeert. Het antwoord bleek fantastische vrienden, belevingen en veel liefde <3
+        Goed genoeg geleuter over mezelf en nostalgisch gedoe. Tot ooit wel nog eens!
+      links:
+        - icon: github
+          url: https://github.com/bryanverfaillie
+        - icon: linkedin
+          url: https://www.linkedin.com/in/bryan-verfaillie-686b66164/
