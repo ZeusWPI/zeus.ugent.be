@@ -2,11 +2,9 @@
 status: additional
 ---
 
-Het Hydra-project bestaat uit verschillende subprojecten, die elks andere data gebruiken.
-
 ##### Website
 
-De website van Hydra (https://hydra.ugent.be) maakt gebruik van Google Analytics (zie details in de paragraaf [_Gebruik van Google Analytics_](#google-analytics)) voor het verzamelen van bezoekersinformatie. Dit om te weten hoeveel gebruikers de website gebruiken, hoe deze gebruikers de website vinden en hoe lang ze er op blijven.
+De [website van Hydra](https://hydra.ugent.be) maakt gebruik van Google Analytics (zie details in de paragraaf [_Gebruik van Google Analytics_](#google-analytics)) voor het verzamelen van bezoekersinformatie. Dit om te weten hoeveel gebruikers de website gebruiken, hoe deze gebruikers de website vinden en hoe lang ze er op blijven.
 
 ##### Apps
 
