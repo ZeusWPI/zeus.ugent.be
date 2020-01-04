@@ -1,0 +1,21 @@
+<h4 class="title is-4" id="<%= project[:id] %>"><%= project[:name] %></h4>
+<p class="subtitle is-6">
+  <% if project.key?(:site) || project.key?(:repo) %>
+    Nuttige links:
+  <% end %>
+  <% if project.key?(:site) %>
+    <a href="<%= project[:site] %>">projectwebsite</a>
+  <% end %>
+  <% if project.key?(:site) && project.key?(:repo) %>
+    |
+  <% end %>
+  <% if project.key?(:repo) %>
+    <a href="<%= project[:repo] %>">repo</a>
+  <% end %>
+</p>
+
+<% if project.compiled_content.strip.empty? %>
+  <p>Dit project kent geen afwijkingen van het algemeen beleid.</p>
+<% else %>
+  <%= project.compiled_content %>
+<% end %>

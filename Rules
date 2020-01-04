@@ -30,7 +30,12 @@ preprocess do
     check_schema(:event, event)
   end
 
+  all_privacy_items.each do |project|
+    check_schema(:privacy, project)
+  end
+
   add_report_metadata
+  add_project_metadata
 end
 
 #
@@ -133,6 +138,17 @@ end
 
 compile '/**/*.ics' do
   filter :erb
+end
+
+#
+# PRIVACY
+#
+
+compile '/about/privacy/*' do
+  filter :kramdown
+
+  # Don't write out the privacy items themselves for now
+  nil
 end
 
 #

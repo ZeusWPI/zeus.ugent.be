@@ -1,7 +1,4 @@
 ---
-title: Tap
-github: https://github.com/ZeusWPI/Tap
-site: https://tap.zeus.gent/
 logo_image: Logos_Tap.svg
 priority: 40
 ---

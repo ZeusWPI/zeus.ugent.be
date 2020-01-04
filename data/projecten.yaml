@@ -1,0 +1,119 @@
+---
+data:
+  12urenloop:
+    name: 12urenloop
+    site: https://12urenloop.be/
+    repo: https://github.com/12urenloop
+  blokmap:
+    name: Blokmap
+    site: https://blok.ugent.be
+    repo: https://github.com/ZeusWPI/blokmap
+  cat:
+    name: Cat
+    site: https://cat.zeus.gent/
+    repo: https://git.zeus.gent/ZeusWPI/cat
+  dap:
+    name: De Account Pagina
+    repo: https://github.com/ZeusWPI/DAP
+  doorkeeper:
+    name: Doorkeeper
+    repo: https://github.com/ZeusWPI/Doorkeeper
+  fathom:
+    name: Fathom
+    site: https://stats.zeus.gent/
+  fk_enrolment:
+    name: FK Enrolment
+    site: https://registratie.fkgent.be/
+    repo: https://github.com/ZeusWPI/FK-enrolment
+  g2:
+    name: G2
+    site: https://github.com/ZeusWPI/g2-frontend
+    repo: https://github.com/ZeusWPI/g2-backend
+  gamification:
+    name: Gamification
+    site: https://zeus.ugent.be/game
+    repo: https://github.com/ZeusWPI/Gamification
+  gandalf:
+    name: Gandalf
+    site: https://event.fkgent.be/
+    repo: https://github.com/ZeusWPI/Gandalf
+  gitlab:
+    name: Gitlab
+    site: https://git.zeus.gent
+  haldis:
+    name: Haldis
+    site: https://haldis.zeus.gent/
+    repo: https://github.com/ZeusWPI/Haldis
+  httpizza:
+    name: HTTPizza
+    repo: https://github.com/ZeusWPI/HTTPizza
+  hydra:
+    name: Hydra
+    site: https://hydra.ugent.be
+    repo: https://github.com/ZeusWPI/Hydra
+  lana:
+    name: Lana
+    repo: https://github.com/ZeusWPI/Lana
+  mattermost:
+    name: Mattermost
+    site: https://mattermost.zeus.gent
+  mozaic:
+    name: Mozaic
+    repo: https://github.com/ZeusWPI/mozaic
+  sad:
+    name: "Services Are Down D: Status"
+    site: https://sad.zeus.gent/
+    repo: https://github.com/ZeusWPI/SADStatus
+  saruman:
+    name: Saruman
+    site: https://materiaal.12urenloop.be/
+    repo: https://github.com/ZeusWPI/Saruman
+  site:
+    name: zeus.ugent.be
+    site: https://zeus.ugent.be
+    repo: https://github.com/ZeusWPI/zeus.ugent.be
+  slotmachien:
+    name: SlotMachien
+    repo: https://github.com/ZeusWPI/slotmachien
+  tab:
+    name: Tab
+    site: https://tab.zeus.gent/
+    repo: https://github.com/ZeusWPI/Tab
+  tap:
+    name: Tap
+    site: https://tap.zeus.gent/
+    repo: https://github.com/ZeusWPI/Tap
+  tappb:
+    name: Tappb
+    site: https://play.google.com/store/apps/details?id=gent.zeus.tappb
+    repo: https://github.com/ZeusWPI/tappb
+  tuxcape:
+    name: TuxcAPE
+    repo: https://github.com/ZeusWPI/Tuxcape
+  zauth:
+    name: Zeus AUTHentication Service
+    repo: https://github.com/ZeusWPI/zauth
+  zinc:
+    name: ZINC
+    site: https://zinc.zeus.gent
+    repo: https://github.com/ZeusWPI/zinc
+  messageos:
+    name: MessageOS
+    site: https://git.zeus.gent/ZeusWPI/ass_messages
+  mattermore:
+    name: Mattermore
+    repo: https://git.zeus.gent/mattermost/mattermore
+  pannenkoekenwachtrij:
+    name: Pannenkoekenwachtrij
+    repo: https://git.zeus.gent/kelder/pannenkoekenwachtrij
+  zid:
+    name: ZID
+    repo: https://git.zeus.gent/rien/zid
+  endorsement:
+    name: Endorsement
+    repo: https://git.zeus.gent/bestuur/endorsement
+    site: https://endorsement.zeus.gent/
+  wiki:
+    name: Wiki
+    site: https://zeus.ugent.be/wiki
+

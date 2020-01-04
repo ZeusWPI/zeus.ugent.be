@@ -1,0 +1,7 @@
+.example {
+  @extend .box;
+  &:before {
+    content: "Voorbeeld. ";
+    font-weight: bold;
+  }
+}

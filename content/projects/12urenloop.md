@@ -1,7 +1,4 @@
 ---
-title: 12urenloop
-github: https://github.com/ZeusWPI/12urenloop
-site: https://12urenloop.be/
 logo_image: 12urenloop.png
 priority: 50
 ---

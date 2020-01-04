@@ -1,0 +1,9 @@
+<li>
+  <% if project.key?(:site) %>
+    <a href="<%= project[:site] %>"><%= project[:name] %></a>
+  <% elsif project.key?(:repo) %>
+    <a href="<%= project[:repo] %>"><%= project[:name] %></a>
+  <% else %>
+    <%= project[:name] %>
+  <% end %>
+</li>

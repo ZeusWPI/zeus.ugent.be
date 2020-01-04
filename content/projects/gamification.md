@@ -1,7 +1,4 @@
 ---
-title: Gamification
-github: https://github.com/ZeusWPI/Gamification
-site: https://zeus.ugent.be/game
 logo_image: Logos_Gamification.svg
 priority: 30
 ---
