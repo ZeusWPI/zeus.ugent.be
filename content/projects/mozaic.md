@@ -1,7 +1,4 @@
 ---
-title: Mozaic
-github: https://github.com/ZeusWPI/mozaic
-site: https://github.com/ZeusWPI/mozaic
 logo_image: mozaic.png
 priority: 41
 ---

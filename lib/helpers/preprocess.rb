@@ -5,8 +5,15 @@ module PreprocessHelper
         time: 'An event item should include the :time attribute, which describes the begin time and date of the event.',
         title: 'The event does not include a :title',
         location: 'The event should include a :location, a textual description',
-      }
+        locationlink: 'The event does not include a :locationlink, which is a querystring which is used for Google Maps',
+        privacy: {
+            status: 'A privacy item must include the status of the project'
+        }
     }
+  end
+
+  def allowed_privacy_status
+    %w(additional general processor development)
   end
 
   def check_schema(itemtype, item)
@@ -14,6 +21,10 @@ module PreprocessHelper
 
     (schema.keys - item.attributes.keys).each do |key|
       raise "#{item.identifier}: #{schema[key]}"
+    end
+
+    if itemtype == :privacy && !allowed_privacy_status.include?(item.attributes[:status])
+      raise "status must be one of #{allowed_privacy_status}, got #{item.attributes[:status]} on #{item[:filename]}"
     end
   end
 
@@ -80,6 +91,26 @@ module PreprocessHelper
     @items.find_all('/about/verslagen/*/*').each do |report|
       report[:academic_year] = report.identifier.to_s.split('/')[-2]
       report[:date] = Date.strptime(report.identifier.without_ext.split('/').last)
+    end
+  end
+
+  def update_project_item(projects, project)
+    id = project.identifier.without_ext.split('/')[-1]
+    if projects.key?(id.to_sym)
+      projects[id.to_sym].each do |key, value|
+        project[key] = value
+      end
+      project[:id] = id
+    end
+  end
+
+  def add_project_metadata
+    projects = data_from(:projecten)
+    all_privacy_items.each do |project|
+      update_project_item(projects, project)
+    end
+    all_project_items.each do |project|
+      update_project_item(projects, project)
     end
   end
 end

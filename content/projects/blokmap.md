@@ -1,7 +1,4 @@
 ---
-title: Blokmap
-github: https://github.com/ZeusWPI/blokmap
-site: http://blok.ugent.be/
 logo_image: Logos_Blokmap.svg
 priority: 25
 ---

@@ -22,3 +22,4 @@ include TimeHelper
 include TileHelper
 include AboutHelper
 include ReportsHelper
+include PrivacyHelper

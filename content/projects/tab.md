@@ -1,7 +1,4 @@
 ---
-title: Tab
-github: https://github.com/ZeusWPI/Tab
-site: https://tab.zeus.gent/
 logo_image: Logos_Tab.svg
 priority: 40
 ---
