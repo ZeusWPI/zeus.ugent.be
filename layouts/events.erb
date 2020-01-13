@@ -57,33 +57,22 @@
       <div class="content has-text-centered">
         <h1>Sorry.</h1>
         <h2>No events planned yet this year.</h2>
-        <h4 class="has-text-grey"><i>Soon TM.<i></h4>
+        <h4 class="has-text-grey"><em>Soon™.</em></h4>
       </div>
     <% end %>
   </div>
 
-  <% unless soon_events().empty? %>
+  <% unless soon_events.empty? %>
     <div class="column is-3 is-narrow">
       <div class="menu">
         <div class="content">
           <h1>
-            Soon TM.
+            Soon™
           </h1>
         </div>
-        <% soon_events().each do |event| %>
-            <div class="tile box highlighted"
-              <% if event[:color] %>
-    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= event[:color] %>;"
-              <% else %>
-    style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:'light-grey';"
-              <% end %>
-            >
-              <div class="content event-content has-text-centered">
-                <h3 style="color: white;"><%= event[:title] %></h3>
-                <p><%= event[:description] %></p>
-              </div>
-            </div>
-          <% end %>
+        <% soon_events.each do |event| %>
+          <%= render '/partials/_soon_tile.*', event: event %>
+        <% end %>
       </div>
     </div>
   <% end %>
