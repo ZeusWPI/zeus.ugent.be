@@ -13,7 +13,7 @@ module EventsHelper
     items_.select { |x| x[:soon] == soon }.sort_by { |x| x[:time] }
   end
 
-  def soon_events()
+  def soon_events
     all_events(nil, true)
   end
 
