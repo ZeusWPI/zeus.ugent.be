@@ -57,8 +57,23 @@
       <div class="content has-text-centered">
         <h1>Sorry.</h1>
         <h2>No events planned yet this year.</h2>
-        <h4 class="has-text-grey"><i>Soon TM.<i></h4>
+        <h4 class="has-text-grey"><em>Soon™.</em></h4>
       </div>
     <% end %>
   </div>
+
+  <% unless soon_events.empty? %>
+    <div class="column is-3 is-narrow">
+      <div class="menu">
+        <div class="content">
+          <h1>
+            Soon™
+          </h1>
+        </div>
+        <% soon_events.each do |event| %>
+          <%= render '/partials/_soon_tile.*', event: event %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
 </div>

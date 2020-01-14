@@ -1,15 +1,14 @@
 module PreprocessHelper
   def required_attrs
     {
-      event: {
-        time: 'An event item should include the :time attribute, which describes the begin time and date of the event.',
-        title: 'The event does not include a :title',
-        location: 'The event should include a :location, a textual description',
-        locationlink: 'The event does not include a :locationlink, which is a querystring which is used for Google Maps'
-      },
-      privacy: {
-          status: 'A privacy item must include the status of the project'
-      }
+        event: {
+            time: 'An event item should include the :time attribute, which describes the begin time and date of the event.',
+            title: 'The event does not include a :title',
+            location: 'The event should include a :location, a textual description',
+        },
+        privacy: {
+            status: 'A privacy item must include the status of the project'
+        }
     }
   end
 

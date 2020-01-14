@@ -1,0 +1,17 @@
+<div class="tile box highlighted"
+     <% if event[:color] %>
+     style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= event[:color] %>;"
+     <% else %>
+     style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color: lightgrey;"
+     <% end %>
+     >
+  <div class="content event-content">
+  <% if @event[:image] %>
+  <img class="event-tile-image" src="<%= @event[:image] %>" alt="">
+  <% end %>
+    <div class="has-text-centered">
+      <h3><%= @event[:title] %></h3>
+      <p><%= @event[:description] %></p>
+    </div>
+  </div>
+</div>
