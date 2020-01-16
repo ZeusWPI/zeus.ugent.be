@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
-Disallow: /wiki/
-Disallow: /slackintegrations
+Disallow: /
+Allow: /about/
+Disallow: /about/sponsorende-leden/
+Allow: /contact/
+Allow: /events/
+Allow: /projects/
