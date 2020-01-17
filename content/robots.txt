@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: /
 Allow: /index.html
+Allow: /$
 Allow: /about/
 Disallow: /about/sponsorende-leden/
 Allow: /assets/images/
