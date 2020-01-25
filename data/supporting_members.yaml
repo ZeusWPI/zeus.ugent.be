@@ -48,7 +48,8 @@ data:
       nickname: met stokjes
       photo: https://zeus.ugent.be/zeuswpi/udVo8mPM.jpg
       quote: Fruit op een pizza is als windows op een laptop.
-      description: // TODO
+      description: Middengewicht typeworstelaar, digitaal ongedierteverdelger,
+        zedenkundig computerkraker en frequent jakkenscheerder.
       links:
         - icon: github
           url: https://github.com/rien
