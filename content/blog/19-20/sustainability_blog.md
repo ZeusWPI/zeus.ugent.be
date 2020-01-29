@@ -13,8 +13,8 @@ Iedereen is toch ergens verantwoordelijk voor zijn eigen deel?
 
 Na intern de conversatie op gang te brengen is dit opgelaaid tot een serieuze motivatie om bewuster actie te gaan ondernemen.
 
-We hebben als startschot van de beweging binnen Zeus een organisatie uitgezocht die actie onderneemt ten voordele van het klimaat en hebben uiteindelijk voor [TeamTreas](teamtrees) gekozen. 
-Dit is een samenwerking tussen de bekende youtuber Mr. Beast en de [Arbor Day Foundation](arborday). Deze laatste zet zich dagelijks in om bossen te planten en te herstellen.
+We hebben als startschot van de beweging binnen Zeus een organisatie uitgezocht die actie onderneemt ten voordele van het klimaat en hebben uiteindelijk voor [TeamTreas][teamtrees] gekozen. 
+Dit is een samenwerking tussen de bekende youtuber Mr. Beast en de [Arbor Day Foundation][arborday]. Deze laatste zet zich dagelijks in om bossen te planten en te herstellen.
 
 Op ons laatste evenement van 2019 hebben we met alle Zeus-leden genoeg geld verzameld om 475 bomen te planten voor TeamTrees (1$ = 1🌲)! 
 We hebben hiermee onze eigen verwachtingen zeker overtroffen en willen nogmaals iedereen bedanken die een steentje heeft bijgedragen. Elk klein bedrag heeft geholpen. 
