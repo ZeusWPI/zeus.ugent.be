@@ -20,7 +20,7 @@ Op ons laatste evenement van 2019 hebben we met alle Zeus-leden genoeg geld verz
 We hebben hiermee onze eigen verwachtingen zeker overtroffen en willen nogmaals iedereen bedanken die een steentje heeft bijgedragen. Elk klein bedrag heeft geholpen. 
 
 
-Nu we vertrokken zijn is het misschien het moment om stil te staan bij wat we kunnen doen als vereniging.
+Na deze schitterende start is het misschien het moment om stil te staan bij wat we kunnen doen als vereniging.
 Er zijn vele manieren om een bijdrage te leveren. Gewoon letten op onze afvalproductie en ons energieverbruik zijn al mooie stappen naar bewuster met onze omgeving omgaan.
 
 Maar hier moet het zeker niet bij blijven. Zeus heeft zijn eigen unieke sterktes en specialisaties, waar zeker veel potentieel in zit. 
