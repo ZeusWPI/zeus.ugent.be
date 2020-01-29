@@ -21,7 +21,7 @@ We hebben hiermee onze eigen verwachtingen zeker overtroffen en willen nogmaals 
 
 
 Na deze schitterende start is het misschien het moment om stil te staan bij wat we kunnen doen als vereniging.
-Er zijn vele manieren om een bewuster om te gaan en een bijdrage te leveren aan ons klimaat, zoals letten op onze afvalproductie en ons energieverbruik.
+Er zijn vele manieren om bewuster om te gaan en een bijdrage te leveren aan ons klimaat, zoals letten op onze afvalproductie en ons energieverbruik.
 
 Maar hier moet het zeker niet bij blijven. Zeus heeft zijn eigen unieke sterktes en specialisaties, waar zeker veel potentieel in zit. 
 Waarom zouden we dit dan niet proberen te benutten?
