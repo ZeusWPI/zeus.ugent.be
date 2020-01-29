@@ -8,7 +8,7 @@ author: Maxime Bloch
 Milieu en klimaat zijn de laatste tijd een hot topic. Je ziet allerlei acties passeren, de politiek zit er vol van en tussen de studenten komt het ook steeds vaker naar boven. 
 Dit is natuurlijk niet zonder reden. De mens is zijn stempel aan het drukken op de wereld en dit niet altijd op een goede manier.
 
-Ergens afgelopen jaar is het vlammetje feller beginnen wakkeren binnen Zeus om eens naar onze eigen invloed te kijken ten opzichte van het milieu en het klimaat.
+Afgelopen jaar resulteerde dit in de vraag om binnen Zeus eens naar onze eigen invloed te kijken ten opzichte van het milieu en het klimaat.
 Iedereen is toch ergens verantwoordelijk voor zijn eigen deel?
 
 Na intern de conversatie op gang te brengen is dit opgelaaid tot een serieuze motivatie om bewuster actie te gaan ondernemen.
@@ -21,10 +21,10 @@ We hebben hiermee onze eigen verwachtingen zeker overtroffen en willen nogmaals 
 
 
 Na deze schitterende start is het misschien het moment om stil te staan bij wat we kunnen doen als vereniging.
-Er zijn vele manieren om een bewuster om te gaan en een bijdrage te leveren aan ons klimaat zoals letten op onze afvalproductie en ons energieverbruik.
+Er zijn vele manieren om een bewuster om te gaan en een bijdrage te leveren aan ons klimaat, zoals letten op onze afvalproductie en ons energieverbruik.
 
 Maar hier moet het zeker niet bij blijven. Zeus heeft zijn eigen unieke sterktes en specialisaties, waar zeker veel potentieel in zit. 
-Waarom zouden we dit dan niet proberen benutten?
+Waarom zouden we dit dan niet proberen te benutten?
 
 ## Het plan
 
@@ -33,7 +33,7 @@ Het leek ons een goed idee om onze leden actief mee te betrekken in deze convers
 
 Het is onze bedoeling een werkgroep van ongeveer 7 personen samen te stellen: 5 normale leden en 2 bestuursleden. 
 Deze werkgroep zou actief instaan voor het bespreken van voorstellen omtrent duurzaamheid binnen de werking van Zeus maar kan ook projecten en activiteiten organiseren en begeleiden. 
-Er zou nauwe samenwerking zijn met het bestuur voor belangrijke beslissingen maar met deze werkgroep hopen we de discussie meer open te stellen en meer interessante ideeën binnen te trekken.
+Er zal nauw samengewerkt worden met het bestuur voor belangrijke beslissingen, maar met deze werkgroep hopen we de discussie meer open te stellen en meer interessante ideeën binnen te trekken.
 
 ## Interesse?
 
@@ -44,7 +44,7 @@ Wil je je niet kandidaat stellen voor de core van de werkgroep maar heb je wel e
   we zien je graag komen op ons chatplatform in het kanaal voor duurzaamheid [~sustainability][sustainmm].
 
 Momenteel ben ik (flynn op Mattermost) de lead van het project maar bij vragen kunt je altijd terecht bij je favoriete of meest bereikbare bestuurslid. 
-De algemene bestuurschat vind je hier [~bestuur][bestuurmm]. 
+De algemene bestuurschat vind je in [~bestuur][bestuurmm].
 Ik kijk er alvast naar uit dit project verder uit te werken met jullie hulp!
 
 [teamtrees]: https://teamtrees.org/
