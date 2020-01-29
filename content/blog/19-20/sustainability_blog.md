@@ -17,7 +17,7 @@ Het is onze bedoeling een werkgroep van ongeveer 7 personen samen te stellen: 5 
 
 ## Interesse?
 
-Aan iedereen die geïnteresseerd is om hierin mee te werken, let us know! Dan stellen wij een team samen en kunnen we erin vliegen. Het idee zou zijn een eerste samenkomst te hebben na de start van het nieuwe semester in Februari.
+Aan iedereen die geïnteresseerd is om hieraan mee te werken, let us know! Dan stellen wij een team samen en kunnen we erin vliegen. Het idee zou zijn een eerste samenkomst te hebben na de start van het nieuwe semester in februari.
 
 Wil je je niet kandidaat stellen voor de werkgroep maar heb je wel een origineel idee of een suggestie, we zien je graag komen op ons chatplatform in het kanaal voor duurzaamheid [~sustainability][sustainmm].
 
