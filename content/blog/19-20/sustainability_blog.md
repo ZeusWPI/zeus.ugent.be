@@ -5,7 +5,7 @@ description: Milieu, klimaat en ons steentje
 author: Maxime Bloch
 ---
 
-Milieu en klimaat is de laatste tijd een hot topic. Je ziet allerlei acties passeren, de politiek zit er vol van en tussen de studenten komt het ook steeds vaker naar boven. 
+Milieu en klimaat zijn de laatste tijd een hot topic. Je ziet allerlei acties passeren, de politiek zit er vol van en tussen de studenten komt het ook steeds vaker naar boven. 
 Dit is natuurlijk niet zonder reden. De mens is zijn stempel aan het drukken op de wereld en dit niet altijd op een goede manier.
 
 Ergens afgelopen jaar is het vlammetje feller beginnen wakkeren binnen Zeus om eens naar onze eigen invloed te kijken ten opzichte van het milieu en het klimaat.
