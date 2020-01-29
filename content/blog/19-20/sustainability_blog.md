@@ -11,7 +11,7 @@ Dit is natuurlijk niet zonder reden. De mens is zijn stempel aan het drukken op 
 Ergens afgelopen jaar is het vlammetje feller beginnen wakkeren binnen Zeus om eens naar onze eigen invloed te kijken ten opzichte van het milieu en het klimaat.
 Iedereen is toch ergens verantwoordelijk voor zijn eigen deel?
 
-Na intern de conversatie op gang te brengen is dit aangewakkerd tot een serieuze motivatie om bewuster actie te gaan ondernemen.
+Na intern de conversatie op gang te brengen is dit opgelaaid tot een serieuze motivatie om bewuster actie te gaan ondernemen.
 
 We hebben als startschot van de beweging binnen Zeus een organisatie uitgezocht die actie onderneemt ten voordele van het klimaat en hebben uiteindelijk voor TeamTreas gekozen. 
 Dit is een samenwerking tussen de bekende youtube Mr. Beast en de Arbor Day Foundation. Deze laatste zet zich dagelijks in om bossen te planten en te herstellen.
