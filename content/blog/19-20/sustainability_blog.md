@@ -40,7 +40,7 @@ Er zou nauwe samenwerking zijn met het bestuur voor belangrijke beslissingen maa
 Aan iedereen die geïnteresseerd is om hieraan mee te werken, let us know! Dan stellen wij een team samen en kunnen we erin vliegen. 
 Het idee zou zijn een eerste samenkomst te hebben na de start van het nieuwe semester in februari.
 
-Wil je je niet kandidaat stellen voor de werkgroep maar heb je wel een origineel idee of een suggestie, 
+Wil je je niet kandidaat stellen voor de core van de werkgroep maar heb je wel een origineel idee of een suggestie, 
   we zien je graag komen op ons chatplatform in het kanaal voor duurzaamheid [~sustainability][sustainmm].
 
 Momenteel ben ik (flynn op Mattermost) de lead van het project maar bij vragen kunt je altijd terecht bij je favoriete of meest bereikbare bestuurslid. 
