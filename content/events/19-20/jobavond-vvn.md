@@ -6,6 +6,7 @@ time: '09-03-2020 19:00'
 end: '09-03-2020 23:59'
 location: 'Kelder Zeus WPI'
 locationlink: 'Zeus WPI'
+facebook: https://www.facebook.com/events/557820964796743/
 ---
 
 Ineens is het daar: je diploma. Gedaan met zwoegen achter de boeken en slapeloze

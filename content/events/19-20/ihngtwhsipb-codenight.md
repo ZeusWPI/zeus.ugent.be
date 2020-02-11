@@ -6,7 +6,10 @@ end: '18-02-2020 23:59'
 location: 'De kelder'
 locationlink: 'Zeus WPI'
 banner: 'https://zeus.ugent.be/zeuswpi/iLOlIvCY.jpg'
+facebook: https://www.facebook.com/events/653959012073357/
+header_text_background: true
 ---
+
 Een nieuw semester... een lege agenda... De horror! Wat moet je in godsnaam doen met al die tijd? 
 
 Zeus schiet ten hulp! We verlossen je van de kwelling van een normaal slaapritme met de eerste codenight van het semester!

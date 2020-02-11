@@ -9,6 +9,7 @@ locationlink: 'Zeus WPI'
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
 header_text_background: true
+facebook: https://www.facebook.com/events/429878561227564/
 ---
 
 # Google Hashcode
@@ -21,7 +22,7 @@ De best scorende teams worden uitgenodigd bij Google Dublin op 25 april om mee t
 
 ## Registratie
 
-Registreer je **voor 10 februari** op [g.co/hashcode](https://g.co/hashcode) en selecteer **onze hub _Ghent University_**. Hoe meer teams zich registreren bij onze hub, hoe meer mensen er zullen zijn!
+Registreer je **voor 17 februari** op [g.co/hashcode](https://g.co/hashcode) en selecteer **onze hub _Ghent University_**. Hoe meer teams zich registreren bij onze hub, hoe meer mensen er zullen zijn!
 
 ## Benodigdheden
 
