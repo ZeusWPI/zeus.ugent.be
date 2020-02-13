@@ -15,4 +15,4 @@ Zeus gaat op verkenning uit bij onze leuvense vrienden.
 Maar liefst 23 bedrijven met stuk voor stuk een passie voor FOSS zijn op zoek
 naar versgeperste IT-ers voor alles van studentenjobs tot full-time posities.
 
-Kom mee een kijkje nemen en wie weet vind je wel de job van je dromen!
+Kom mee een kijkje nemen en wie weet vind je wel de job van je dromen! [Schrijf je hier in.](https://docs.google.com/forms/d/e/1FAIpQLSerkZ1bAtKBQXdCjVWdxQajhz0oh33A28h2vN_BT4eiZPSMQQ/viewform)
