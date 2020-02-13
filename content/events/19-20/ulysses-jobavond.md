@@ -3,7 +3,7 @@ title: 'Ulysses Jobavond'
 description: Zeus bezoekt de open-source jobavond van onze Leuvense collega's!
 time: '03-03-2020 16:00'
 end: '03-03-2020 21:00'
-banner: 'https://zeus.ugent.be/zeuswpi/bF00S4Mb.png'
+banner: 'https://zeus.ugent.be/zeuswpi/ulyssis.png'
 location: 'Jubileumzaal KU Leuven'
 locationlink: 'Naamsestraat 22, 3000 Leuven'
 header_text_background: true
