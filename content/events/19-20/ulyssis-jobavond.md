@@ -1,5 +1,5 @@
 ---
-title: 'Ulysses Jobavond'
+title: 'ULYSSIS Jobavond'
 description: Zeus bezoekt de open-source jobavond van onze Leuvense collega's!
 time: '03-03-2020 16:00'
 end: '03-03-2020 21:00'
