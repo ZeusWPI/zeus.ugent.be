@@ -4,8 +4,8 @@ description: Ex-studenten vertellen over hun ervaringen in het werkveld.
 color: '#478CBF'
 time: '09-03-2020 19:00'
 end: '09-03-2020 23:59'
-location: 'Kelder Zeus WPI'
-locationlink: 'Zeus WPI'
+location: 'Auditorium A3'
+locationlink: s9 Gent
 facebook: https://www.facebook.com/events/557820964796743/
 ---
 
