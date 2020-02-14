@@ -1,5 +1,5 @@
 ---
-title: '12Urenloop Codeweek'
+title: '12urenloop Codeweek'
 description: Een week lang full steam ahead voor het grootste project van het jaar!
 time: '02-03-2020 17:30'
 end: '06-03-2020 23:59'
