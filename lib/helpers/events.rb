@@ -33,6 +33,10 @@ module EventsHelper
     @items.find_all('/events/*/*/main.md')
   end
 
+  def front_page_events
+    upcoming_events + all_events.reverse
+  end
+
   def sub_events(grouped_event)
     if grouped_event.identifier =~ /main.md/
       query = grouped_event.identifier.to_s.split('/')[0..-2].join('/') + '/*'
