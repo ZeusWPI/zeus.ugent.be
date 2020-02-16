@@ -17,7 +17,7 @@
     <%= if studytime? then render '/tiles/blokmap.*'end %>
     <!--next event -->
     <div class="tile is-parent">
-      <%= render '/partials/_events_tile.*', event: upcoming_events[0] || all_events[-1] %>
+      <%= render '/partials/_events_tile.*', event: front_page_events[0] %>
     </div>
     <div class="tile">
       <!--top coders -->
@@ -44,7 +44,7 @@
     </div>
     <div class="tile">
       <div class="tile is-vertical">
-        <% all_events.reject { |x| x == (upcoming_events[0] || all_events[-1]) }.reverse[0..2].each do |event| %>
+        <% front_page_events[1..3].each do |event| %>
         <div class="tile is-parent ">
           <%= render '/partials/_events_tile.*', event: event %>
         </div>
