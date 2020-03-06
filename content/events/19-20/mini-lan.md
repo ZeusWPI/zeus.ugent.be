@@ -16,7 +16,7 @@ Kom naar de eerste Geeks Attack: Bootcamp! In het studentenhuis De Therminal (Ho
 
 Geen eigen computer mee? Liever gewoon wat genieten van de gezellige sfeer? Dat kan ook! Er zal een couch gaming room zijn gevuld met consolegames, zowel oud als nieuw.
 
-**Datum**: Vrijdag 27 maart - Zaterdag 28 maart
+**Datum**: Vrijdag 27 maart - zaterdag 28 maart
 
 **Tijd**: 18:00 tot de volgende ochtend
 
