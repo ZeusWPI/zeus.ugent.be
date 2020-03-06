@@ -5,8 +5,6 @@ created_at: 05-03-2020
 time: '27-03-2020 18:00'
 end: '28-03-2020 4:00'
 facebook: 'https://www.facebook.com/events/648201269331401'
-image: ''
-banner: ''
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
 locationlink: 'Therminal'
 ---
