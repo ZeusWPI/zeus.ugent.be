@@ -1,5 +1,5 @@
 ---
-title: 'Geeks, Attack: Bootcamp!'
+title: '[Geannuleerd] Geeks, Attack: Bootcamp!'
 description: Zeus' bootcamp LAN-Party!
 created_at: 05-03-2020
 time: '27-03-2020 18:00'
