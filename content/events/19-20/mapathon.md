@@ -7,6 +7,7 @@ end: '25-03-2020 23:59'
 location: 'Grace Hopper, S5'
 locationlink: 'S5 gent'
 banner: 'https://zeus.ugent.be/zeuswpi/tiTFSKfk.png'
+soon: true
 ---
 
 Help Artsen Zonder Grenzen en het Rode Kruis hun hulpverlening te vergemakkelijken.
