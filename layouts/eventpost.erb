@@ -73,20 +73,19 @@
   </div>
 </section>
 
-<!-- LOCATION -->
-<% if item[:locationlink] %>
 <section class="section">
   <div class="columns">
     <div class="column is-8 is-offset-2">
       <div class="content has-text-justified is-medium-responsive">
         <%= yield %>
       </div>
-      <%= render '/partials/_map.erb', location: item[:locationlink] %>
+      <!-- LOCATION -->
+      <% if item[:locationlink] %>
+        <%= render '/partials/_map.erb', location: item[:locationlink] %>
+      <% end %>
     </div>
   </div>
 </section>
-<% end %>
-
 
 <!-- SPONSORED BY -->
 <% if item[:sponsors] %>
