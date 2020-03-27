@@ -8,4 +8,4 @@ location: 'Bij je thuis'
 locationlink: ''
 ---
 
-Geeks, Attack: Bootcamp! kon niet doorgaan wegens de coronacrisis, dus zochten wij voor een oplossing. Die hebben we dan ook gevonden: we spelen samen videogames over het wereldwijde web! Kom er gerust bij op Mumble (mumble.genac.gent met wachtwoord `zeusisdemax`) en speel je favoriete games met je favoriete vereniging ;)
+Geeks, Attack: Bootcamp! kon niet doorgaan wegens de coronacrisis, dus zochten wij voor een oplossing. Die hebben we dan ook gevonden: we spelen samen videogames over het wereldwijde web! Kom er gerust bij op Mumble (mumble.zeus.gent met wachtwoord `zeusisdemax`) en speel je favoriete games met je favoriete vereniging ;)
