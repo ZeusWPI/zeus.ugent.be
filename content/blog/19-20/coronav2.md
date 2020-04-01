@@ -1,6 +1,6 @@
 ---
 title: "Zeus en Corona v2"
-created_at: 1-05-2020
+created_at: 1-04-2020
 description: De verdere gevolgen van Corona op Zeus
 author: Robbe Van Herck
 ---
