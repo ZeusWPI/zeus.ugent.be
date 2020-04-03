@@ -8,7 +8,6 @@ location: 'Thuis'
 image: 'https://zeus.ugent.be/zeuswpi/YU3bTypc.png'
 banner: 'https://zeus.ugent.be/zeuswpi/nmCVYdx0.png' 
 header_text_background: true
-facebook: https://www.facebook.com/events/557793308147477/ # TODO Nieuw facebook event
 ---
 
 Je eigen game maken? Het lijkt een onmogelijke opgave, maar met de juiste tools
