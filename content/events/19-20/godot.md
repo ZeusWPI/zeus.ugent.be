@@ -4,6 +4,7 @@ description: Maak je eerste spel met Godot, we focussen op Flappy Bird!
 color: '#478CBF'
 time: '02-04-2020 19:30'
 end: '02-04-2020 23:59'
+location: 'Thuis'
 image: 'https://zeus.ugent.be/zeuswpi/YU3bTypc.png'
 banner: 'https://zeus.ugent.be/zeuswpi/nmCVYdx0.png' 
 header_text_background: true
