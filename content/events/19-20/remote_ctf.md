@@ -3,6 +3,8 @@ title: 'Zeus CTF: Remote code execution edition'
 description: online Zeus CTF
 time: '23-04-2020 12:00'
 location: 'Bij je thuis'
+banner: 'https://zeus.ugent.be/zeuswpi/hackerman.png'
+header_text_background: true
 ---
 
 Zeus organiseert een tweede Capture The Flag dit jaar!
