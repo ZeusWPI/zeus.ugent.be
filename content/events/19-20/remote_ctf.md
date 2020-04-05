@@ -10,7 +10,7 @@ header_text_background: true
 Zeus organiseert een tweede Capture The Flag dit jaar!
 
 Schrijf je alleen in of als team op [https://ctf.zeus.gent](https://ctf.zeus.gent). Tijdens het event
-kan je praten met elkaar en met de organisatoren via [https://mumble.zeus.gent](mumble.zeus.gent) (er
+kan je praten met elkaar en met de organisatoren via [mumble.zeus.gent](https://mumble.zeus.gent) (er
   draait daar ook een webclient, maar de [native client](https://mumble.info) werkt over het algemeen beter)
 
 ### Wat is een CTF?
