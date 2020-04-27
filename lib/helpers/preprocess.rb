@@ -12,6 +12,14 @@ module PreprocessHelper
     }
   end
 
+  def predefined_locations
+    {
+      '$kelder' => 'Zeus WPI, Gent',
+      '$s9' => 'S9, Gent',
+      '$therminal' => 'De Therminal, Gent'
+    }
+  end
+
   def allowed_privacy_status
     %w(additional general processor development)
   end
@@ -84,6 +92,16 @@ module PreprocessHelper
 
       event[:end] = event[:end].to_s if event[:end]
       event[:end] = DateTime.parse(event[:end]) if event[:end]
+    end
+  end
+
+  def convert_locations
+    @items.find_all('/events/*/*.md').each do |event|
+      location_link = event[:locationlink]&.downcase&.strip
+      if location_link&.start_with?('$') && !predefined_locations.key?(location_link)
+        raise "unknown location variable #{location_link}, must be one of #{predefined_locations.keys}"
+      end
+      event[:locationlink] = predefined_locations.fetch(location_link, event[:locationlink])
     end
   end
 
