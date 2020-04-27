@@ -6,7 +6,7 @@ time: '11-05-2020 17:30'
 location: 'Jitsi en Mumble'
 ---
 
-Omdat we van plan zijn om volgend jaar nog steeds geleid te worden door een democratisch verkozen bestuur, organiseren we op 11 mei 2020 verkiezingen voor alle Zeusleden. Aangezien we dit nog steeds niet in persoon kunnen doen, hebben we gekozen om [Helios][helios] samen met [Mumble][mumble] en [Jitsi][jitsi] te gebruiken. Je kan je [nog steeds kandidaat stellen][kandidatuur]! Heb je al prangende vragen voor bepaalde functies, dan [kan je die ook al stellen][bestuursvragen]. Vul je liever geen (Google-)formulieren in, kan je die ook naar iemand van het huidige bestuur doorsturen en zorgen wij dat het op zijn plaats terecht komt.
+Omdat we van plan zijn om volgend jaar nog steeds geleid te worden door een democratisch verkozen bestuur, organiseren we op 11 mei 2020 verkiezingen voor alle Zeusleden. Aangezien we dit nog steeds niet in persoon kunnen doen, hebben we gekozen om [Helios][helios] samen met [Mumble][mumble] en [Jitsi][jitsi] te gebruiken. Je kan je [nog steeds kandidaat stellen][kandidatuur]! Heb je al prangende vragen voor bepaalde functies, dan [kan je die ook al stellen][bestuursvragen]. Vul je liever geen (Google-)formulieren in, kan je die ook naar iemand van het huidige bestuur doorsturen en zorgen wij dat het op zijn plaats terechtkomt.
 
 ## De functies
 
@@ -37,4 +37,3 @@ Dit was eerst het plan, maar tijdens het testen botsten we op een paar probleemp
 [bestuur-mm]: https://mattermost.zeus.gent/zeus/channels/bestuur
 [kandidatuur]: https://forms.gle/ZUuFkGjv8Q7EqevF9
 [bestuursvragen]: https://forms.gle/brFDZhuY8WnBmetT7
-
