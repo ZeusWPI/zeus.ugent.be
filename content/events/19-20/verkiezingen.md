@@ -1,5 +1,5 @@
 ---
-title: Zeus Zoekt Bestuur
+title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorieus bestuur?
 created_at: 27-04-2020
 time: '11-05-2020 17:30'
@@ -21,7 +21,7 @@ Omdat we van plan zijn om volgend jaar nog steeds geleid te worden door een demo
 
 ### Helios
 
-Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien, een link en meer informatie volgt op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
+Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien, een link en meer informatie volgen op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
 
 ### Mumble en Jitsi
 
@@ -29,7 +29,7 @@ Mumble gebruiken we voor de spraak, maar aangezien we elkaar graag zien (letterl
 
 #### Waarom niet gewoon Jitsi?
 
-Dit was eerst het plan, maar tijdens het testen botsten we tegen een paar probleempjes waaronder bandbreedte en hebben daaruit besloten om voor de veiligheid het geluid via een ander kanaal te laten gaan. Als Jitsi het dus volledig zou begeven, hebben we nog steeds geluid.
+Dit was eerst het plan, maar tijdens het testen botsten we op een paar probleempjes zoals de bandbreedte van de deelnemers. Daardoor besloten om voor de veiligheid het geluid via een ander kanaal te laten gaan. Als Jitsi het dus volledig zou begeven, hebben we nog steeds geluid.
 
 [helios]: https://heliosvoting.org/
 [mumble]: https://mumble.zeus.gent/
