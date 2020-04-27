@@ -4,7 +4,7 @@ description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende
 created_at: 21-09-2018
 time: '27-09-2018 18:00'
 location: 'Kelder Zeus WPI, Gebouw S9, Campus Sterre'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 # facebook: //www.facebook.com/events/1483447151684405/
 banner: //zeus.ugent.be/zeuswpi/6DthpGAV.png
 image: //zeus.ugent.be/zeuswpi/VPQevc5x.gif

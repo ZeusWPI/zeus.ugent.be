@@ -4,7 +4,7 @@ created_at: 13-04-2016
 banner: https://zeus.ugent.be/wp-content/uploads/2016/04/450px-Xtext_logo-300x89.png
 time: 26-04-2016 18:00
 location: Auditorium A2, Campus Sterre, Gebouw S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 

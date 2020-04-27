@@ -4,7 +4,7 @@ created_at: 01-12-2014
 time: 04-12-2014 19:00
 image: https://zeus.ugent.be/wp-content/uploads/2014/12/cloud-300x212.png
 location: Lokaal V1, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 DIAS, Deloitte Identity and Authentication Services, is een IAM (Identity & Access Management) platform dat door Deloitte ontwikkeld wordt. Authenticatie van gebruikers kan op verschillende manieren gebeuren. Er zijn "zwakke" authenticatiemethoden, zoals de standaard gebruikersnaam en wachtwoord authenticatie, maar er zijn ook "sterke" authenticatiemethoden, zoals het inloggen met de elektronische identiteitskaart of het gebruik van SMS One Time Passwords.

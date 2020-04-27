@@ -5,7 +5,7 @@ created_at: 20-04-2018
 time: 08-05-2018 17:30
 end: 08-05-2018 23:00
 location: Lokaal V1, S9, Campus Sterre
-locationlink: S9 Gent
+locationlink: $s9
 facebook: 'https://www.facebook.com/events/593833734311046'
 ---
 

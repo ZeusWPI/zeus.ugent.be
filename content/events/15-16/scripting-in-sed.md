@@ -5,7 +5,7 @@ time: 03-11-2015 19:00
 end: 03-11-2015 21:00
 facebook: https://www.facebook.com/events/1088774524500813/
 location: Auditorium A2, Sterre
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 There is more to sed than meets the eye. sed (Stream EDitor) is een Turing-complete taal die gebruik maakt van regular expressions om de output van programmas te filteren en te transformeren.

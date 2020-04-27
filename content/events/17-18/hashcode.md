@@ -5,7 +5,7 @@ created_at: 18-01-2018
 time: '01-03-2018 18:30'
 end: '01-03-2018 23:00'
 location: 'Campus Sterre, Gebouw S9, Auditorium A3'
-locationlink: 'Building S9 Universiteit Gent'
+locationlink: $s9
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
 facebook: 'https://www.facebook.com/events/781766318669485/'

@@ -4,7 +4,7 @@ description: De Ik Heb Nog Genoeg Tijd Want Het Semester Is Pas Begonnen-Codenig
 time: '18-02-2020 17:30'
 end: '18-02-2020 23:59'
 location: 'De kelder'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 banner: 'https://zeus.ugent.be/zeuswpi/iLOlIvCY.jpg'
 facebook: https://www.facebook.com/events/653959012073357/
 header_text_background: true

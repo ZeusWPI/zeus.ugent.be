@@ -3,7 +3,7 @@ title: Introductie tot Ruby
 created_at: 23-11-2014
 time: 25-11-2014 19:00
 location: Lokaal V2, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2014/11/1410785_896398810371160_7619310165265121917_o-212x300.jpg
 ---
 

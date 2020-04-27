@@ -5,7 +5,7 @@ created_at: 27-01-2019 21:50
 time: '13-02-2019 17:30'
 end: '13-02-2019 23:59'
 location: 'De kelder'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 ---
 
 Het semester is nog maar pas begonnen, de proffen hebben je nog geen 10.000 deadlines gegeven. Het perfecte moment om aan de projecten van Zeus te werken!

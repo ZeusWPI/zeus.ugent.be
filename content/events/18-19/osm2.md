@@ -8,7 +8,7 @@ facebook: 'https://www.facebook.com/events/335951287195929/'
 image: 'https://zeus.ugent.be/zeuswpi/yN3cDjmQ.png'
 banner: 'https://zeus.ugent.be/zeuswpi/tK-hXF21.png'
 location: 'Kelder Zeus WPI, Gebouw S9, Campus Sterre'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 ---
 
 Voor wie na de [vorige OpenStreetMap workshop](../osm/) zin heeft in meer: bij

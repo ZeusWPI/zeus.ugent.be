@@ -5,7 +5,7 @@ end: 08-11-2014 12:00
 created_at: 22-10-2014
 image: https://zeus.ugent.be/wp-content/uploads/2014/10/lan-300x185.png
 location: Trechterzaal, Therminal
-locationlink: Therminal, Ghent Belgium
+locationlink: $therminal
 ---
 
 Tussen alle informaticagerichte activiteiten in mogen we ook wel eens ontspannen. Daarom organiseert Zeus WPI dit jaar een derde editie van de LAN-party: **"Geeks, attack!"**<br>

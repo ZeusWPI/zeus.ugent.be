@@ -6,7 +6,7 @@ description: Hulp nodig met het installeren van Linux op je laptop? Zeus helpt j
 created_at: 19-09-2019
 time: 21-10-2019 17:00
 location: Leslokaal 1.1, Gebouw S9, Campus Sterre, Gent
-locationlink: S9 Gent
+locationlink: $s9
 
 ---
 

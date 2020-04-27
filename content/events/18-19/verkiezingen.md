@@ -4,7 +4,7 @@ description: De grote strijd om de titel Zeusbestuur.
 created_at: 2-05-2019
 time: '13-05-2019 17:30'
 location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre'
-locationlink: 'S9 Gent'
+locationlink: $s9
 ---
 
 Ook dit jaar moet er een nieuw bestuur gekozen worden voor uw favoriete vereniging. Out with the old, in with the new. Omdat wij democratie wel een leuk idee vinden, organiseren we ook dit jaar verkiezingen. Elk Zeuslid is welkom op Maandag 13 mei om 17:30 in Leslokaal 1.1. Stel je kandidaat via [dit inschrijvingsformulier][inschrijving].

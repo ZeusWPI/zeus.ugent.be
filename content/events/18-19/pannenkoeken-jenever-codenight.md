@@ -6,7 +6,7 @@ time: '04-12-2018 18:30'
 end: '04-12-2018 23:59'
 banner: 'https://zeus.ugent.be/zeuswpi/bdbwpUDj.png'
 location: 'De kelder'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 ---
 
 We komen allemaal gezellig in de kelder samen, drinken wat jenever, eten wat pannekoeken, en sleutelen aan wat Zeus-projecten. Veel meer is daar niet aan.

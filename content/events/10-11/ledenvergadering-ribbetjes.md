@@ -3,7 +3,7 @@ title: Ledenvergadering & ribbetjes
 created_at: 06-05-2011
 time: 17-05-2011 17:30
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 Zeus sluit dinsdag 17 mei het academiejaar officieel af met een ledenvergadering, waarop we de voorbije activiteiten evalueren en een nieuw bestuur kiezen voor volgend academiejaar. Deze vergadering begint om 17u30 in de Zeus kelder in S9.

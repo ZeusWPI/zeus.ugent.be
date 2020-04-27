@@ -4,7 +4,7 @@ description: Ontdek verschillende esoterische talen en win de meest exotische pr
 created_at: 30-11-2016
 time: '07-12-2016 18:00'
 location: 'Lokaal V1, S9'
-locationlink: 'Sterre,Ghent Belgium'
+locationlink: $s9
 facebook: //www.facebook.com/events/1483447151684405/
 banner: //zeus.ugent.be/zeuswpi/6DthpGAV.png
 image: //zeus.ugent.be/zeuswpi/VPQevc5x.gif

@@ -8,7 +8,7 @@ facebook: 'https://www.facebook.com/events/400248124065257/'
 image: 'https://zeus.ugent.be/zeuswpi/_9i__XUJ.jpg'
 banner: 'https://zeus.ugent.be/zeuswpi/JnpFxP-T.jpg'
 location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre, Krijgslaan 281 9000 Gent'
-locationlink: 'S9 Gent'
+locationlink: $s9
 ---
 
 Omdat we bij Zeus security belangrijk vinden organiseren we een CTF. Maak je geen zorgen als je nog niet veel weet van hacken of beveiliging, er zijn ook challenges voor beginners.

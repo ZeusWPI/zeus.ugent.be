@@ -2,7 +2,7 @@
 title: Zeus ledenvergadering
 time: 06-10-2010 19:30
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 image: https://zeus.ugent.be/wp-content/uploads/2010/09/ledenvergadering-212x300.png
 created_at: 14-09-2010
 ---

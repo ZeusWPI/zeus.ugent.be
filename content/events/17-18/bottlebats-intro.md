@@ -4,7 +4,7 @@ image: https://zeus.ugent.be/zeuswpi/k1Lpb66Z.png
 description: Kom naar het intro-event van BottleBats v2.018!
 time: 26-03-2018 18:00
 location:  Zuse, S9
-locationlink: Building S9 Universiteit Gent
+locationlink: $s9
 facebook: https://www.facebook.com/events/138113167009568/
 end: 26-03-2018 22:00
 ---

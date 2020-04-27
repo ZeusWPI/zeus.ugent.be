@@ -6,7 +6,7 @@ description: De eerste spelletjesavond van het academiejaar!
 created_at: 11-10-2016
 time: 19-10-2016 18:00
 location: A3, S9
-locationlink: Sterre,Ghent Belgium
+locationlink: $s9
 ---
 
 Nu er alweer bijna drie weken voorbij zijn, is het wel al eens tijd om wat te ontspannen.

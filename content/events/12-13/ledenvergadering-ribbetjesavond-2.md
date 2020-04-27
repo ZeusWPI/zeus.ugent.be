@@ -3,7 +3,7 @@ title: Ledenvergadering & Ribbetjesavond
 created_at: 02-05-2013
 time: 14-05-2013 17:30
 location: Zeus kelder
-locationlink: Zeuw WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 De laatste lesweken van het academiejaar zijn aangebroken. Dat betekent jammer genoeg ook dat er enkele maanden geen Zeusactiviteiten zullen zijn.

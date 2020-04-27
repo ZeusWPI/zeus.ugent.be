@@ -3,7 +3,7 @@ title: Android-development introductie
 created_at: 22-10-2010
 time: 27-10-2010 19:30
 location: Leszaal V2, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2010/10/android-thumbnail-212x300.png
 ---
 

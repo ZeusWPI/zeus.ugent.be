@@ -5,7 +5,7 @@ created_at: 01-05-2017
 time: 16-05-2017 18:00
 end: 16-05-2017 19:00
 location: Lokaal V1, S9, Campus Sterre, Krijgslaan 281, 9000 Gent
-locationlink: S9, Sterre
+locationlink: $s9
 facebook: https://www.facebook.com/events/219665858533065/
 ---
 

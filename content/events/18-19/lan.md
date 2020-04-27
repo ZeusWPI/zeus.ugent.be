@@ -8,7 +8,7 @@ facebook: 'https://www.facebook.com/events/277532109645806/'
 image: 'https://zeus.ugent.be/zeuswpi/VBxNVbAN.png'
 banner: 'https://zeus.ugent.be/zeuswpi/AAXR-TiB.png'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
-locationlink: 'Therminal'
+locationlink: $therminal
 ---
 
 # Do you wanna play a game ?

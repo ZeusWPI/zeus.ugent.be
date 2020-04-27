@@ -3,7 +3,7 @@ title: Ledenvergadering 31 Oktober 2007
 created_at: 17-10-2007
 time: 31-10-2007 19:00
 location: Therminal
-locationlink: Therminal, Ghent
+locationlink: $therminal
 ---
 
 De eerste weken van het academiejaar zitten er weer op, dus het wordt tijd om onze activiteiten weer op gang te trappen! Wat staat er zoal op de planning: een webdev-lessenreeks, een latex-les, een ubuntu-les, kroegentocht, brouwerijbezoek. Maar eerst en vooral: onze eerste ledenvergadering! Wat is de bedoeling van deze ledenvergadering? Het nieuwe bestuur voorstellen, de activiteiten verder plannen, maar vooral elkaar beter leren kennen. Bij deze is iedereen dus uitgenodigd: van doorwinterde zeusleden tot nieuwsgierige eerstejaars; van filosofie tot informatica; iedereen is welkom!

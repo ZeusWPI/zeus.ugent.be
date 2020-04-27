@@ -4,7 +4,7 @@ created_at: 02-10-2012
 image: https://zeus.ugent.be/wp-content/uploads/2012/10/Untitled-6-212x300.png
 time: 09-10-2012 17:30
 location: Zeus kelder, S9
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 

@@ -5,7 +5,7 @@ color: '#478CBF'
 time: '09-03-2020 19:00'
 end: '09-03-2020 23:59'
 location: 'Auditorium A3'
-locationlink: s9 Gent
+locationlink: $s9
 facebook: https://www.facebook.com/events/557820964796743/
 ---
 

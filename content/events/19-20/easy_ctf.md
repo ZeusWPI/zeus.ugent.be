@@ -8,7 +8,7 @@ facebook: 'https://www.facebook.com/events/526332031257469/'
 image: 'https://zeus.ugent.be/zeuswpi/_9i__XUJ.jpg'
 banner: 'https://zeus.ugent.be/zeuswpi/JnpFxP-T.jpg'
 location: 'Kelder Zeus WPI'
-locationlink: 'S9 Gent'
+locationlink: $kelder
 ---
 
 Omdat we bij Zeus security belangrijk vinden organiseren we op 12 november we onze eerste CTF van het jaar. Maak je geen

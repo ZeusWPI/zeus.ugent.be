@@ -5,7 +5,7 @@ description: Leer RUST kennen, een taal die je in de toekomst nog veel zult zien
 created_at: 11-10-2016
 time: 26-10-2016 19:00
 location: PC lokaal Turing (1e verdiep) , S9
-locationlink: Sterre,Ghent Belgium
+locationlink: $s9
 color: "#003398"
 ---
 

@@ -3,7 +3,7 @@ title: Zeus Codesprint!
 time: 07-09-2015 08:00
 end: 11-09-2015 22:00
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 Liefste Zeusvriendjes,

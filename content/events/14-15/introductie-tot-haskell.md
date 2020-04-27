@@ -4,7 +4,7 @@ created_at: 06-11-2014
 image: https://zeus.ugent.be/wp-content/uploads/2014/11/poster1-300x212.png
 time: 13-11-2014 19:00
 location: PC-lokaal Zuse, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 

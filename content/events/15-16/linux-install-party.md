@@ -3,7 +3,7 @@ title: Linux Install Party
 time: 30-09-2015 17:30
 end: 30-09-2015 22:00
 location: Zeus Kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 Aangezien de vorige install party een groot succes was, organiseren we dit jaar weer één!

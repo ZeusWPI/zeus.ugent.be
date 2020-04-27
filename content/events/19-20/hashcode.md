@@ -5,7 +5,7 @@ created_at: 05-12-2019
 time: '20-02-2020 18:30'
 end: '20-02-2020 23:00'
 location: 'Campus Sterre, Gebouw S9, Auditorium A3'
-locationlink: 'Zeus WPI'
+locationlink: $s9
 banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
 header_text_background: true
