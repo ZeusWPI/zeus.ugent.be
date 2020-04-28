@@ -1,6 +1,6 @@
 ---
 title: Zeus zoekt bestuur
-description: Wie wordt het volgende glorieus bestuur?
+description: Wie wordt het volgende glorizeus bestuur?
 created_at: 27-04-2020
 time: '11-05-2020 17:30'
 location: 'Jitsi en Mumble'
