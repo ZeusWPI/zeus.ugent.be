@@ -8,4 +8,4 @@ Op Mattermost kunnen berichten in twee categorieën ingedeeld worden: openbare b
 
 Daar de private berichten mogelijk een gevoelig karakter hebben, worden deze berichten standaard na een termijn van 1 jaar gewist. U kunt een uitzondering verkrijgen op deze standaardtermijn door contact op te nemen met de systeemadministrators van Zeus.
 
-Door de gevoeligheid der data hebben projectontwikkelaars geen toegang tot deze data; enkel het bestuur heeft toegang.
+Door het mogelijk gevoelige karakter van de berichten hebben projectontwikkelaars geen toegang tot deze data; enkel het bestuur heeft toegang.
