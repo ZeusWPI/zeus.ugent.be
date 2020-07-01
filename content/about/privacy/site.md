@@ -9,7 +9,7 @@ De website van Zeus verzamelt bijkomende data:
 
 - Sommige pagina's kunnen om bijkomende functionaliteit aan te bieden, aanvullende zaken laden via services van derden. Hieronder is een lijst van alle gebruikte services en wat ze laden:
   - Gebruikersdata van [*Gamification*](#gamification).
-  - Kaarten via OpenStreetMaps. Zie [hun privacybeleid](https://wiki.osmfoundation.org/wiki/Privacy_Policy) (Engels).
+  - Kaarten via OpenStreetMap. Zie [hun privacybeleid](https://wiki.osmfoundation.org/wiki/Privacy_Policy) (Engels).
   - Softwarebibliotheken via Stackpath. Zie [hun privacybeleid](https://www.stackpath.com/legal/privacy-statement/) (Engels).
   - Afbeeldingen via [jaspervdj.be](https://jaspervdj.be/images/) (Engels).
   - Formulieren via Google Forms en Google Spreadsheets. Zie het [privacybeleid van Google](https://policies.google.com/privacy) (Engels).
