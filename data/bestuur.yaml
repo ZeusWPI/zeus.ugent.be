@@ -386,3 +386,28 @@ data:
     - rol: PR
       naam: Yasmine Bogaert
       mail: pr@zeus.ugent.be
+  20-21:
+    - rol: Voorzitter
+      naam: Maxime Bloch
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Sammy Delanghe
+      mail: secretaris@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Pieter-Jan Cassiman
+      mail: penning@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Jasper Devreker
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Francis Klick
+      mail: admin@zeus.ugent.be
+    - rol: Projecten
+      naam: Hannes Klickaert
+      mail: project@zeus.ugent.be
+    - rol: Projecten
+      naam: Anton (Arnhoudt) Kindt
+      mail: project@zeus.ugent.be
+    - rol: Evenementen
+      naam: Ruben De Facq
+      mail: event@zeus.ugent.be
