@@ -400,10 +400,10 @@ data:
       naam: Jasper Devreker
       mail: admin@zeus.ugent.be
     - rol: Sysadmin
-      naam: Francis Klick
+      naam: Francis Klinck
       mail: admin@zeus.ugent.be
     - rol: Projecten
-      naam: Hannes Klickaert
+      naam: Hannes Klinckaert
       mail: project@zeus.ugent.be
     - rol: Projecten
       naam: Anton (Arnhoudt) Kindt

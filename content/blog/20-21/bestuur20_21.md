@@ -19,8 +19,8 @@ Voor iedereen die niet op de verkiezingen was of de uitslag vergeten is, hier ee
 | Vicevoorzitter | Sammy Delanghe         |
 | Penningmeester | Pieter-Jan Cassiman    |
 | Sysadmin       | Jasper Devreker        |
-|                | Francis Klick          |
-| Project        | Hannes Klickaert       |
+|                | Francis Klinck         |
+| Project        | Hannes Klinckaert      |
 |                | Anton (Arnhoudt) Kindt |
 | Evenementen    | Ruben De Facq          |
 
