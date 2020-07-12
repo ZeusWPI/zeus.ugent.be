@@ -6,48 +6,52 @@ narrow_page: true
 <h1 class='title is-1 has-text-centered'>Sponsorende leden</h1>
 
 <div id='sponsoring-members' class="content">
-  <% current_sponsoring_members.each do |member| %>
-    <div id="<%= member[:nickname] %>" class="box sponsoring-member">
-      <article class="columns is-mobile">
-        <div class="column is-gapless is-narrow logo-wrapper">
-          <% if member[:photo] %>
-            <img src="<%= member[:photo] %>" alt="<%= member[:name] %>">
-          <% else %>
-            <div class="logo-initial has-text-centered">
-              <%= member[:name].chars.first %>
-            </div>
-          <% end %>
-          <div class="name"><%= member[:name] %></div>
-          <div class="username">(<%= member[:nickname] %>)</div>
-        </div>
-        <div class="column">
-          <div>
-            <blockquote>
-              <%= to_HTML(member[:quote]) %>
-            </blockquote>
-            <p class="description">
-              <%= to_HTML(member[:description]) %>
-            </p>
-          </div>
-          <div class="links">
-            <% member[:links].each do |link| %>
-              <% if link[:icon] %>
-                <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                    <span class="icon">
-                      <%= fa link[:icon], {:size => "2x"} %>
-                    </span>
-                </a>
-              <% else %>
-                <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                    <span class="icon">
-                      <%= fa :globe, {:size => "2x"} %>
-                    </span>
-                </a>
-              <% end %>
+  <% if current_sponsoring_members.nil? %>
+    Nog geen sponsorende leden voor dit academiejaar. Interesse? Contacteer het bestuur.
+  <% else %>
+    <% current_sponsoring_members.each do |member| %>
+      <div id="<%= member[:nickname] %>" class="box sponsoring-member">
+        <article class="columns is-mobile">
+          <div class="column is-gapless is-narrow logo-wrapper">
+            <% if member[:photo] %>
+              <img src="<%= member[:photo] %>" alt="<%= member[:name] %>">
+            <% else %>
+              <div class="logo-initial has-text-centered">
+                <%= member[:name].chars.first %>
+              </div>
             <% end %>
+            <div class="name"><%= member[:name] %></div>
+            <div class="username">(<%= member[:nickname] %>)</div>
           </div>
-        </div>
-      </article>
-    </div>
+          <div class="column">
+            <div>
+              <blockquote>
+                <%= to_HTML(member[:quote]) %>
+              </blockquote>
+              <p class="description">
+                <%= to_HTML(member[:description]) %>
+              </p>
+            </div>
+            <div class="links">
+              <% member[:links].each do |link| %>
+                <% if link[:icon] %>
+                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                      <span class="icon">
+                        <%= fa link[:icon], {:size => "2x"} %>
+                      </span>
+                  </a>
+                <% else %>
+                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                      <span class="icon">
+                        <%= fa :globe, {:size => "2x"} %>
+                      </span>
+                  </a>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </article>
+      </div>
+    <% end %>
   <% end %>
 </div>
