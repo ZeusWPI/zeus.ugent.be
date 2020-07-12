@@ -9,7 +9,7 @@ author: "Robbe Van Herck"
 >
 > _\*langstdurende staande ovatie in de geschiedenis van online staande ovaties\*_
 
-We zouden het bijna vergeten door de hele Corona-toestand, maar het is officieel: het nieuwe bestuursjaar is van start gegaan!
+We zouden het bijna vergeten door de hele coronatoestand, maar het is officieel: het nieuwe bestuursjaar is van start gegaan!
 
 Voor iedereen die niet op de verkiezingen was of de uitslag vergeten is, hier een overzicht:
 
