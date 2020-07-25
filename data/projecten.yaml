@@ -117,6 +117,6 @@ data:
     name: Wiki
     site: https://zeus.ugent.be/wiki
   kers:
-    name: KERS
+    name: KeRS
     repo: https://git.zeus.gent/bestuur/kers
     site: https://kers.zeus.gent/
