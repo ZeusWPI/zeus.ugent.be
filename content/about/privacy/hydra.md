@@ -10,8 +10,8 @@ De [website van Hydra](https://hydra.ugent.be) maakt gebruik van Google Analytic
 
 Voor de apps wordt de verzamelde data opgedeeld in twee categorieën: analytics en foutrapportage:
 
-- **Analytics.** Zeus wilt graag weten hoe u de app gebruikt, welke onderdelen u het meest gebruikt, hoe lang u de app gebruikt, enzovoort. Dit om de apps optimaal te kunnen afstellen op uw behoeften. Zeus gebruikt deze data niet om gebruikers te identificeren. Voor analytics wordt Google Analytics (zie details in de paragraaf [_Gebruik van Google Analytics_](#google-analytics)) gebruikt.
-- **Foutrapportage.** Zeus wilt weten wat u deed toen de crash zich voordeed, alsook welk apparaat u gebruikt, welke software-versies u hebt, enz. Hiermee kan Zeus sneller de oorzaak van de fout opsporen en oplossen. Voor foutrapportage wordt Crashlytics gebruikt (zie paragraaf [_Foutrapporten met Crashlytics_](#crashlytics)).
+- **Analytics.** Zeus wil graag weten hoe u de app gebruikt, welke onderdelen u het meest gebruikt, hoe lang u de app gebruikt, enzovoort. Dit om de apps optimaal te kunnen afstellen op de behoeften van de gebruikers. Zeus gebruikt deze data niet om gebruikers te identificeren. Voor analytics wordt Google Analytics (zie details in de paragraaf [_Gebruik van Google Analytics_](#google-analytics)) gebruikt.
+- **Foutrapportage.** Zeus wil weten wat u deed toen de crash zich voordeed, alsook welk apparaat u gebruikt, welke software-versies u hebt, enz. Hiermee kan Zeus sneller de oorzaak van de fout opsporen en oplossen. Voor foutrapportage wordt Crashlytics gebruikt (zie paragraaf [_Foutrapporten met Crashlytics_](#crashlytics)).
 
 Daarnaast gebruiken de apps andere diensten van derden. Indien u gebruik maakt van de betreffende functie in de app, kunnen bijkomende regelingen van toepassing zijn:
 
