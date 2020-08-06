@@ -1,0 +1,11 @@
+<div class="subnav tabs is-centered">
+  <ul>
+    <% subnavigables(@item[:subnavigation][:bar]).map { |e| e[:subnavigation] }.each do |nav| %>
+    <li class="<%= 'is-active' if @selected == nav[:identifier] %>">
+      <a href="<%= "/#{nav[:bar]}/#{nav[:identifier]}" %>">
+        <%= nav[:name] %>
+      </a>
+    </li>
+    <% end %>
+  </ul>
+</div>

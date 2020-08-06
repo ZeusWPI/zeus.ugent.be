@@ -1,8 +1,11 @@
 ---
 narrow_page: true
+subnavigation:
+  bar: about
+  identifier: statuten
+  name: Statuten
+  order: 200
 ---
-
-<%= render '/partials/_about_sub_navbar.*', selected: 'statuten' %>
 
 # Statuten
 {:.title.is-1.has-text-centered}

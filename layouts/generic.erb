@@ -4,6 +4,9 @@
   </header>
   <main class="section">
     <% if item[:narrow_page] %>
+    <% if item[:subnavigation] %>
+    <%= render '/partials/_sub_navbar.*', selected: item[:subnavigation][:identifier] %>
+    <% end %>
     <div class="columns">
       <article class="column is-8 is-offset-2 <%= 'toc-container' if @item[:toc] %>">
     <% end %>
