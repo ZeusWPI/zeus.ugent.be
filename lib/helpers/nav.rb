@@ -12,4 +12,11 @@ module NavigationHelper
   def navigables
     items.select { |i| i[:navigable] }.sort_by { |x| x[:order] || 10_000 }
   end
+
+
+  def subnavigables(bar)
+    items
+      .select { |i| i.attributes.dig(:subnavigation, :bar) == bar }
+      .sort_by { |x| x[:subnavigation][:order] || 10_000 }
+  end
 end
