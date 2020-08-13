@@ -4,7 +4,7 @@ created_at: 15-02-2013
 time: 21-02-2013 19:00
 image: https://zeus.ugent.be/wp-content/uploads/2013/02/git-2013-212x300.png
 location: PC-klas Zuse, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 Het tweede semester is nog maar begonnen en Zeus heeft al z'n volgende activiteit klaar: 'Collaborate with Git'.

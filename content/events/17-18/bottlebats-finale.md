@@ -4,7 +4,7 @@ image: https://zeus.ugent.be/zeuswpi/k1Lpb66Z.png
 description: Claim your throne and become the ultimate BottleBatser
 time: 22-05-2018 18:00
 location: De Kelder
-locationlink: 'Zeus WPI,Ghent Belgium'
+locationlink: $kelder
 facebook: https://www.facebook.com/events/1698434883525741/
 end: 22-05-2018 23:59
 color: "#323129"

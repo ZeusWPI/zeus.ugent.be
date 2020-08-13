@@ -4,7 +4,7 @@ created_at: 19-03-2015
 time: 26-03-2015 18:30
 image: https://zeus.ugent.be/wp-content/uploads/2015/03/drawing-300x212.png
 location: PC-lokaal Turing, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 > Mooi is beter dan lelijk. Expliciet is beter dan impliciet. Simpel is beter dan complex. Complex is beter dan gecompliceerd. Leesbaarheid telt.

@@ -4,7 +4,7 @@ created_at: 08-10-2010
 image: https://zeus.ugent.be/wp-content/uploads/2010/10/08102010071.jpg
 time: 13-10-2010 19:30
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 Naast coden en proffessional trolling wordt er in de kelder ook wel eens gegamed. Omdat uren zitten gamen op de Atari nogal asociaal is (volgens sommigen) leek het ons een goed idee om alle leden erbij te betrekken.

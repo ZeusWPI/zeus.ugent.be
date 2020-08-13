@@ -4,7 +4,7 @@ created_at: 13-04-2015
 time: 21-04-2015 18:30
 end: 21-04-2015 21:00
 location: Auditorium A0, Sterre S9
-locationlink: Campus Sterre, Ghent University
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2015/04/drawing-300x212.jpg
 ---
 

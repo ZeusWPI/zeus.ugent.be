@@ -5,7 +5,7 @@ description: Hands-on ervaring met HTTP tussen de slices pizza door.
 created_at: 12-02-2019
 time: 21-02-2019 18:00
 location: Auditorium A3, Gebouw S9, Campus Sterre
-locationlink: S9 Gent
+locationlink: $s9
 facebook: 'https://www.facebook.com/events/326902994607510/'
 end: 21-02-2019 22:00
 ---

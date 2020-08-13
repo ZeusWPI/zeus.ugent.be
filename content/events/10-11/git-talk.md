@@ -4,7 +4,7 @@ created_at: 23-11-2010
 image: https://zeus.ugent.be/wp-content/uploads/2010/11/git-212x300.png
 time: 02-12-2010 19:00
 location: PC-lokaal Turing, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: s9
 ---
 
 Als informaticus kan het wel eens gebeuren dat je met verschillende versies van je broncode zit. In het begin valt dit misschien nog te onderhouden, maar hoe wat gebeurt er als je stukjes code uit de ene versie naar de andere wil brengen zonder dat het een complete chaos wordt? En wat als je met verschillende mensen wil samenwerken? Het antwoord hierop is **version control**.

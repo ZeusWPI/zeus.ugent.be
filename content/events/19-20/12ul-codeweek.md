@@ -6,7 +6,7 @@ end: '06-03-2020 23:59'
 banner: 'https://zeus.ugent.be/zeuswpi/oHgT-kbT.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/MDc_XSOG.png'
 location: 'De kelder'
-locationlink: 'Zeus WPI'
+locationlink: $kelder
 header_text_background: true
 ---
 

@@ -4,7 +4,7 @@ image: https://zeus.ugent.be/wp-content/uploads/2016/01/hashcode2016_poster1-212
 time: 11-02-2016 18:30
 end: 11-02-2016 23:00
 location: Auditorium A3, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 color: '#3870ed'
 ---
 

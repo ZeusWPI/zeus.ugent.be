@@ -6,7 +6,7 @@ description: Zeus' vijfde LAN-Party
 created_at: 13-09-2016
 time: '04-11-2016 16:00'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
-locationlink: 'Therminal,Ghent Belgium'
+locationlink: $therminal
 facebook: 'https://www.facebook.com/events/299820833699196/'
 ---
 

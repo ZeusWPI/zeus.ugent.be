@@ -6,7 +6,7 @@ time: 18-02-2019 18:00
 end: 18-02-2019 21:30
 facebook: https://www.facebook.com/events/2444792848895848/
 location: Leslokaal V1.1, Sterre S9, Gent
-locationlink: Zeus WPI
+locationlink: $s9
 image: //zeus.ugent.be/zeuswpi/_VsO63yw.png
 
 ---

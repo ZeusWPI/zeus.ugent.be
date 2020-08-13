@@ -3,7 +3,7 @@ title: Introduction to Python
 time: 17-10-2013 19:00
 created_at: 11-10-2013
 location: PC-klas Zuse, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2013/10/Pythonposter1-212x300.png
 ---
 

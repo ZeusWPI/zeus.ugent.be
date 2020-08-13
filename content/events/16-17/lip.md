@@ -6,7 +6,7 @@ description: Hulp nodig met het installeren van Linux op je laptop? Zeus helpt j
 created_at: 3-10-2016
 time: 5-10-2016 17:00
 location: Zeus kelder, S9
-locationlink: Sterre,Ghent Belgium
+locationlink: $kelder
 
 ---
 

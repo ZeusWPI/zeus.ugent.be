@@ -5,7 +5,7 @@ created_at: 22-01-2008
 time: 02-02-2008
 end: 03-02-2008
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 Zeus ruimt op, virtueel dan deze keer! Met 4 verschillende webservers, een IRC-server, een ldap-server, een nfs-server, een mail-server, 3 mysql-database-servers 2 gateway/router/firewalls en een backupserver wordt het dringend eens tijd om relieken uit het verleden overboord te gooien en alles eens deftig op een rijtje te zetten. Specifieke plannen voor de Zeus Refresh zijn te vinden op de [wiki].

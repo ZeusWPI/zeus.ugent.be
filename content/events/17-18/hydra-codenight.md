@@ -6,7 +6,7 @@ location: Zeus WPI
 description: Word een Hydra-held in no time
 created_at: '13-10-2017'
 color: '#3454b4'
-locationlink: 'Zeus WPI,Ghent Belgium'
+locationlink: $kelder
 ---
 
 Join het team van de coolste app van de UGent!

@@ -8,7 +8,7 @@ facebook: 'https://www.facebook.com/events/434123983875135/'
 image: 'https://zeus.ugent.be/zeuswpi/pb6LS30N.png'
 banner: 'https://zeus.ugent.be/zeuswpi/Irue5nha.jpg'
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
-locationlink: 'Therminal'
+locationlink: $therminal
 ---
 
 [Schrijf je nu in!](https://forms.gle/ZzFYZWT5J2dv9UfN9)

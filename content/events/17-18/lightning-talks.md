@@ -5,7 +5,7 @@ banner: "https://zeus.ugent.be/zeuswpi/3jBzctUu.jpg"
 description: "Kom naar deze snelle babbels van oud-Zeusleden!"
 time: "03-05-2018 18:30"
 location: "Multimediazaal - S9, Campus Sterre"
-locationlink: "Building S9 Universiteit Gent"
+locationlink: $s9
 facebook: "https://www.facebook.com/events/966212676864850/"
 end: "03-05-2018 21:00"
 ---

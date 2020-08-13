@@ -5,7 +5,7 @@ created_at: 19-09-2019
 banner: https://zeus.ugent.be/zeuswpi/LzHaFr5F.jpg
 time: 08-10-2019 18:00
 location: Zeus kelder
-locationlink: S9 Gent
+locationlink: $kelder
 header_text_background: true
 
 ---

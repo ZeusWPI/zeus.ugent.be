@@ -6,7 +6,7 @@ created_at: 11-10-2016
 time: 01-11-2016 00:00
 location: Therminal
 banner: https://zeus.ugent.be/zeuswpi/vRX2hOYZ.png
-locationlink: Hoveniersberg, Gent
+locationlink: $therminal
 ---
 
 Na een formele viering van ons 25-jarig bestaan (onze gala-avond natuurlijk!) moeten we natuurlijk ook vieren op onze eigen typische manier.

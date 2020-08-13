@@ -4,7 +4,7 @@ time: 2015-10-30 16:00
 end: 2015-10-31 10:00
 facebook: https://www.facebook.com/events/578035919000962/
 location: Podiumzaal, Therminal
-locationlink: 'Therminal,Ghent Belgium'
+locationlink: $therminal
 image: 'https://zeus.ugent.be/wp-content/uploads/2015/10/Geeks-Attack-Logo-300x214.jpg'
 banner: 'https://zeus.ugent.be/zeuswpi/AAXR-TiB.png'
 ---

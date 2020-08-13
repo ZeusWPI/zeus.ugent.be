@@ -2,7 +2,7 @@
 title: 'GitHub talk: Cooperation in GitHub'
 time: 10-11-2015 13:00
 location: Auditorium A2, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2015/11/12193814_1099050723439300_5508465790436950447_n-300x151.jpg
 ---
 

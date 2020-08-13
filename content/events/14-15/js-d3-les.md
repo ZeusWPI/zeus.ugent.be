@@ -3,7 +3,7 @@ title: JavaScript op het moderne web en data visualisaties met D3.js
 created_at: 21-10-2014
 time: 28-10-2014 19:30
 location: PC-klas Zuse, Sterre S9
-locationlink: Campus Sterre, Ghent University
+locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2014/10/bubbles.pdf-209x300.png
 ---
 

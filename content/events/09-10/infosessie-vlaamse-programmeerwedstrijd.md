@@ -3,7 +3,7 @@ title: Infosessie Vlaamse Programmeerwedstrijd
 created_at: 06-03-2010
 time: 10-03-2010 20:00
 location: V2, Sterre S9
-locationlink: Campus Sterre, Ghent Belgium
+locationlink: $s9
 ---
 
 Zoals reeds eerder vermeld vindt op 17 maart de [Vlaamse Programmeerwedstrijd](https://www.vlaamseprogrammeerwedstrijd.be/) plaats in Het Pand, georganiseerd door onze eigen universiteit. Uiteraard doen er een aantal Zeus-leden mee.

@@ -6,7 +6,7 @@ created_at: 3-10-2017
 time: '05-10-2017 17:45'
 location: Zeus kelder
 facebook: https://www.facebook.com/events/1892351817759801
-locationlink: Zeus WPI, Krijgslaan, Ghent
+locationlink: $kelder
 ---
 
 #### Wat?

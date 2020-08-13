@@ -3,7 +3,7 @@ title: AWK-les
 image: 'https://zeus.ugent.be/wp-content/uploads/2016/02/awkles-229x300.jpg'
 time: 23-02-2016 18:00
 location: Zeus kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 color: '#86297d'
 ---
 

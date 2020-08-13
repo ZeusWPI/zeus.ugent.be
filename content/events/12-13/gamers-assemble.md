@@ -5,7 +5,7 @@ image: https://zeus.ugent.be/wp-content/uploads/2012/10/when-geeks-attack-HQ-212
 time: 09-11-2012 16:00
 end: 10-11-2012 12:00
 location: Trechterzaal, Therminal
-locationlink: Therminal, Ghent Belgium
+locationlink: $therminal
 ---
 
 

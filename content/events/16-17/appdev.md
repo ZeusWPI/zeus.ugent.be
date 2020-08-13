@@ -4,7 +4,7 @@ description: 'Twee workshops rond het bouwen van apps voor iOS, inclusief intro 
 created_at: 24-03-2017
 time: '29-03-2017 19:00'
 location: 'Pc-lokaal Hopper, Sterre-S5'
-locationlink: 'Sterre,Ghent Belgium'
+locationlink: $s9
 facebook: 'https://www.facebook.com/events/406665056363253/'
 image: 'https://zeus.ugent.be/zeuswpi/1YpPIKgM.png'
 color: '#f49542'

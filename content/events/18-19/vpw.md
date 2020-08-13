@@ -4,7 +4,7 @@ image: https://www.vlaamseprogrammeerwedstrijd.be/current/images/VPW2018grootP.p
 description: Ga mee naar de jaarlijkse Vlaamse Programmeerwedstrijd!
 time: 13-03-2019 09:45
 location: Campus Sterre, Gebouw S9
-locationlink: S9, Gent
+locationlink: $s9
 #facebook: https://www.facebook.com/events/226450807821839/
 color: "#AAF"
 end: 13-03-2019 21:30

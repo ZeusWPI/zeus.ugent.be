@@ -4,7 +4,7 @@ created_at: 17-02-2010
 time: 24-02-2010 14:00
 end: 24-02-2010 23:00
 location: Zeus Kelder
-locationlink: Zeus WPI, Ghent Belgium
+locationlink: $kelder
 ---
 
 The [University of Waterloo Computer Science Club](https://csclub.uwaterloo.ca/), een met Zeus vergelijkbaar initiatief kondigde recent een [AI Contest](https://csclub.uwaterloo.ca/contest/) aan, gesponsord door niemand minder dan [Google](https://google.com). Enkele Zeus leden en andere studenten aan UGent [deden enthiousiast mee](https://csclub.uwaterloo.ca/contest/organization_profile.php?org_id=101). De wedstrijd sluit volgende week, en Zeus organiseert de eindsprint!

@@ -36,6 +36,7 @@ preprocess do
 
   add_report_metadata
   add_project_metadata
+  convert_locations
 end
 
 #
