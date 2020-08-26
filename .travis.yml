@@ -18,7 +18,9 @@ cache:
 addons:
   apt:
     packages:
-      - texlive-full
+      - texlive-latex-base
+      - texlive-math-extra
+      - texlive-xetex
       - lmodern
 
 branches:
