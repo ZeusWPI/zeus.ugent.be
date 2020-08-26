@@ -21,7 +21,7 @@ addons:
       - texlive-latex-base
       - texlive-math-extra
       - texlive-xetex
-      - lmodern
+      - texlive-fonts-recommended
 
 branches:
   only:
