@@ -12,7 +12,7 @@ locationlink: $s9
 
 Zeus helpt elk jaar de nieuwe (en minder nieuwe) informaticastudenten met het installeren van Linux op hun maagdelijke laptops.
 
-Door corona wordt dit even 2 keer gehouden, de andere is op 07/10/2020. Op beide events wordt hetzelfde gedaan.
+Door corona wordt dit event 2 keer gehouden, de volgende is op 07/10/2020. Op beide events wordt hetzelfde gedaan.
 
 Ben je niet zeker hoe het allemaal werkt, of waar te beginnen?
 Heb je een poging ondernomen maar is ineens alles kapot?
