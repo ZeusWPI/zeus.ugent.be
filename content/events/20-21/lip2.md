@@ -14,7 +14,7 @@ Zeus helpt elk jaar de nieuwe (en minder nieuwe) informaticastudenten met het in
 
 Door corona werd dit event 2 keer gehouden, de vorige was op 01/10/2020.
 
-### Door de coronaregelingen ben je verplict je in te schrijven.
+### Door de coronaregelingen ben je verplicht je in te schrijven.
 Schrijf in via deze link: https://event.fkgent.be/events/295
 
 Ben je niet zeker hoe het allemaal werkt, of waar te beginnen?
