@@ -60,7 +60,14 @@ The latest and greatest builds on master get deployed automatically using [travi
 For manual deployment, run
 
 ```bash
-bundle exec nanoc deploy --target public
+# Build the site for production
+bundle exec nanon --env=prod
+
+# Run checks
+bundle exec nanoc --env=prod check --deploy
+
+# Deploy it to the server
+bundle exec nanoc deploy --target public --env=prod
 ```
 
 If you want to deploy this on your own system for whatever reason, just serve the files using a webserver like nginx or Apache.
