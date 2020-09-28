@@ -20,6 +20,6 @@ Schrijf in via deze link: [https://event.fkgent.be/events/299](https://event.fkg
 
 ### Kan je niet aanwezig zijn?
 
-We zijn aan het zorgen dat deze talk kan worden gestreamd. Houd voor meer info hierover de Zeus [Mattermost](https://chat.zeus.gent) in het oog.
+We proberen ervoor te zorgen dat deze talk kan worden gestreamd. Houd voor meer info hierover de Zeus [Mattermost](https://chat.zeus.gent) in het oog.
 
 Tot dan!
