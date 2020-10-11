@@ -12,27 +12,23 @@ locationlink: $therminal
 soon: true
 ---
 
-TODO update this
-
-[Schrijf je nu in!](https://forms.gle/ZzFYZWT5J2dv9UfN9)
+Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houdt zeker al je Zeus communicatiekanalen in het oog.
 
 # Game Over! Try Again.
 
-Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Voor het achtste jaar op rij zal studentenhuis De Therminal (Hoveniersberg 24, 9000 Gent) weer een hele nacht beschikbaar zijn om je favoriete games te spelen.
-
-Geen eigen computer mee? Liever gewoon wat genieten van de gezellige sfeer? Dat kan ook! Er zal een couch gaming room zijn gevuld met consolegames, zowel oud als nieuw.
+Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Voor het negende jaar op rij zal studentenhuis De Therminal (Hoveniersberg 24, 9000 Gent) weer een hele nacht beschikbaar zijn om je favoriete games te spelen.
 
 **Datum**: Vrijdag 30 oktober - Vrijdag 30 oktober
 
-**Tijd**: 16:00 tot de volgende ochtend
+**Tijd**: 14:00 tot 23:00
 
 **Locatie**: Therminal, Hoveniersberg 24, 9000 Gent
 
-**Prijs**: €2 inkom (inclusief drankbonnetje)
+**Prijs**: €2 (inclusief een drankje)
 
 ## Praktisch
 
-De deuren openen om **16:00**. We vragen €2 inkom, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken. Drank kan je ter plekke kopen en we voorzien ook een aantal runs naar een pizzeria. Zo kan je zo lang mogelijk aan je scherm gekluisterd blijven!
+De deuren openen om **14:00**. We vragen een kleine inkom van €2, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken. Drank en snacks kan je ter plekke kopen en we voorzien ook een aantal runs naar een pizzeria. Zo kan je zo lang mogelijk aan je scherm gekluisterd blijven!
 
 ## Toernooien
 
