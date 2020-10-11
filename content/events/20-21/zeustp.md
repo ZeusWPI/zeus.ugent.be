@@ -7,6 +7,7 @@ created_at: 11-10-2020
 # time:
 #location:
 #locationlink:
+soon: true
 ---
 
 TODO
