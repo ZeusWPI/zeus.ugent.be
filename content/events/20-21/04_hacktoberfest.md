@@ -12,9 +12,9 @@ header_text_background: true
 ---
 
 
-Onze eerste codenight van het nieuwe jaar, perfect in het midden van [Hacktoberfest][hacktob]! Een event waarbij je een unieke limited-edition t-shirt kan krijgen bij het aanmaken van maar 4 pull requests.
+Onze eerste codenight van het nieuwe jaar, perfect in het midden van [Hacktoberfest][hacktob]! Een event waarbij je een unieke limited-edition t-shirt kan krijgen of een boom kan laten planten bij het aanmaken van maar 4 pull requests.
 
-Vergeet je zeker niet in te registreren als je je t-shirt wilt ontvangen: [hacktoberfest/login](https://hacktoberfest.digitalocean.com/login)!
+Vergeet je zeker niet in te registreren als je je t-shirt wilt ontvangen of een boom wil planten: [hacktoberfest/login](https://hacktoberfest.digitalocean.com/login)!
 
 Heb je al ervaring maar zoek je nog een plek om energie in te steken die je niet kwijt kunt in je super interessante vakken? We hebben een lijst opgesteld met issues die een leuke uitdaging zijn die niet te lang zouden moeten duren zodat je jezelf in een project kan inwerken.
 
@@ -26,6 +26,8 @@ Geen ervaring maar ook zin om die eerste pull request te maken en de stap naar o
 Inschrijven verplicht, plaatsen zijn beperkt.
 
 Schrijf in via [deze link][gandalf].
+
+Er kunnen snacks en drank gekocht worden op het event. Er zal ook om takeaway gegaan worden via Haldis.
 
 [hacktob]: https://hacktoberfest.digitalocean.com/
 [gandalf]: https://event.fkgent.be/events/305
