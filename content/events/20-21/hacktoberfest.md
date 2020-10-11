@@ -5,7 +5,7 @@ description: Maak kennis met Zeus WPI en geniet van de gezelligheid op onze eers
 created_at: 11-10-2020
 time: '12-10-2020 18:30'
 location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre'
-#locationlink: $kelder
+locationlink: $s9
 #facebook: //www.facebook.com/events/1483447151684405/
 banner: //zeus.ugent.be/zeuswpi/Itsb0YbN.png
 #image: //zeus.ugent.be/zeuswpi/VPQevc5x.gif
