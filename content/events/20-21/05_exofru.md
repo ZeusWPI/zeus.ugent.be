@@ -13,9 +13,11 @@ header_text_background: true
 header_text_background_color: 'rgba(80, 50, 80, 0.75)'
 ---
 
-Geen betere manier om Java meer te appreciëren dan kennis te maken met een esoterische programmeertaal. Ondertussen leer je Zeus WPI kennen, en kunnen we samen vloeken op de meest verschrikkelijke uitvindingen in de geschiedenis van de informatica. Geen voorkennis programmeren vereist (het is misschien zelfs beter).
+Geen betere manier om Java meer te appreciëren dan kennis te maken met een esoterische programmeertaal. Dit zijn talen die bepaalde programmeerconcepten tot in het absurde trekken. Ondertussen leer je Zeus WPI kennen, en kunnen we samen vloeken op de meest verschrikkelijke uitvindingen in de geschiedenis van de informatica. Geen voorkennis programmeren vereist (het is misschien zelfs beter).
 
 Registreer je [hier][gandalf] om mee te genieten van alles wat een programmeertaal niet zou moeten zijn.
+Registeren is verplicht!
+Er worden snacks en drinken voorzien om te kopen. Er wordt ook eten opgehaald bij een takeaway via Haldis.
 
 ![xkcd/useless_language_created](https://zeus.ugent.be/zeuswpi/Sa7IfExB.png)
 
