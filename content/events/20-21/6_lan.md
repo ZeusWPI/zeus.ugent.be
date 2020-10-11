@@ -2,8 +2,8 @@
 title: 'Geeks, Attack! IX'
 description: Zeus' negende LAN-Party!
 created_at: 17-09-2020
-time: '25-10-2019 16:00'
-end: '26-10-2019 6:00'
+time: '30-10-2020 14:00'
+end: '30-10-2020 23:00'
 facebook: 'https://www.facebook.com/events/434123983875135/'
 image: 'https://zeus.ugent.be/zeuswpi/pb6LS30N.png'
 banner: 'https://zeus.ugent.be/zeuswpi/Irue5nha.jpg'
