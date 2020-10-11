@@ -23,6 +23,8 @@ Geen ervaring maar ook zin om die eerste pull request te maken en de stap naar o
 
 Inschrijven verplicht, plaatsen zijn beperkt.
 
-Schrijf in via deze link: https://event.fkgent.be/events/305
+Schrijf in via [deze link](gandalf).
 
 [hacktob]: https://hacktoberfest.digitalocean.com/
+[gandalf]: https://event.fkgent.be/events/305
+
