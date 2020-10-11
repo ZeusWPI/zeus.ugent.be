@@ -6,9 +6,9 @@ time: '19-10-2020 17:30'
 end: '19-10-2020 22:30'
 location: 'Auditorium A0, Gebouw S9, Campus Sterre'
 locationlink: $s9
-facebook: // www.facebook.com/events/434910217479925/
-banner: zeus.ugent.be/zeuswpi/7k6hvPJw.webp
-image: zeus.ugent.be/zeuswpi/a28GvLuO.png
+facebook: //www.facebook.com/events/434910217479925/
+banner: //zeus.ugent.be/zeuswpi/7k6hvPJw.webp
+image: //zeus.ugent.be/zeuswpi/a28GvLuO.png
 header_text_background: true
 header_text_background_color: 'rgba(80, 50, 80, 0.75)'
 ---
