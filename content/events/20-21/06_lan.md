@@ -4,9 +4,9 @@ description: Zeus' negende LAN-Party!
 created_at: 17-09-2020
 time: '30-10-2020 14:00'
 end: '30-10-2020 23:00'
-facebook: 'https://www.facebook.com/events/434123983875135/'
-image: 'https://zeus.ugent.be/zeuswpi/pb6LS30N.png'
-banner: 'https://zeus.ugent.be/zeuswpi/Irue5nha.jpg'
+facebook: // https://www.facebook.com/events/434123983875135/
+image: // https://zeus.ugent.be/zeuswpi/pb6LS30N.png
+banner: // https://zeus.ugent.be/zeuswpi/Irue5nha.jpg
 location: 'Therminal, Hoveniersberg 24 9000 Gent'
 locationlink: $therminal
 soon: true
