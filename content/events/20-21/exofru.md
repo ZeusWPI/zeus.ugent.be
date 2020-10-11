@@ -12,3 +12,4 @@ image: //zeus.ugent.be/zeuswpi/VPQevc5x.gif
 
 Geen betere manier om Java meer te appreciëren dan kennis te maken met een esoterische programmeertaal. Ondertussen leer je Zeus WPI kennen, en kunnen we samen vloeken op de meest verschrikkelijke uitvindingen in de geschiedenis van de informatica. Geen voorkennis programmeren vereist (het is misschien zelfs beter).
 
+Registreer je hier om mee te genieten van alles wat een programmeertaal niet zou moeten zijn: https://event.fkgent.be/events/306
