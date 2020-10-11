@@ -2,7 +2,8 @@
 title: Esoterische kennismakings-avond
 description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen
 created_at: 17-09-2020
-time: '19-10-2020 18:00'
+time: '19-10-2020 17:30'
+end: '19-10-2020 22:30'
 location: 'Auditorium A0, Gebouw S9, Campus Sterre'
 locationlink: $s9
 #facebook: //www.facebook.com/events/1483447151684405/
