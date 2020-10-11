@@ -2,11 +2,11 @@
 title: Workshop electronica
 image: 
 banner:
-description: TBD
+description: 
 created_at: 11-10-2020
 time: 22-11-2020 18:00
-#location:
-#locationlink:
+location: Auditorium A0, S9
+locationlink: $s9
 soon: true
 ---
 

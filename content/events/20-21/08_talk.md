@@ -2,7 +2,7 @@
 title: Een boeiende talk!
 image: 
 banner:
-description: TBD
+description: 
 created_at: 11-10-2020
 time: 08-11-2020 18:00
 #location:

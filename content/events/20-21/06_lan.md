@@ -22,7 +22,7 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 
 Geen eigen computer mee? Liever gewoon wat genieten van de gezellige sfeer? Dat kan ook! Er zal een couch gaming room zijn gevuld met consolegames, zowel oud als nieuw.
 
-**Datum**: Vrijdag 25 oktober - Zaterdag 26 oktober
+**Datum**: Vrijdag 30 oktober - Vrijdag 30 oktober
 
 **Tijd**: 16:00 tot de volgende ochtend
 
