@@ -1,6 +1,6 @@
 ---
 title: Hacktoberfest codenight
-description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen
+description: Maak 4 pull requests en krijg een gratis t-shirt!
 created_at: 11-10-2020
 time: '12-10-2020 18:00'
 end: '12-10-2020 23:00'
