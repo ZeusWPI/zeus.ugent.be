@@ -6,8 +6,8 @@ time: '19-10-2020 18:00'
 location: 'Auditorium A0, Gebouw S9, Campus Sterre'
 locationlink: $s9
 #facebook: //www.facebook.com/events/1483447151684405/
-banner: //zeus.ugent.be/zeuswpi/6DthpGAV.png
-image: //zeus.ugent.be/zeuswpi/uQaSBybh.png
+banner: //zeus.ugent.be/zeuswpi/7k6hvPJw.webp
+image: //zeus.ugent.be/zeuswpi/a28GvLuO.png
 ---
 
 Geen betere manier om Java meer te appreciëren dan kennis te maken met een esoterische programmeertaal. Ondertussen leer je Zeus WPI kennen, en kunnen we samen vloeken op de meest verschrikkelijke uitvindingen in de geschiedenis van de informatica. Geen voorkennis programmeren vereist (het is misschien zelfs beter).
