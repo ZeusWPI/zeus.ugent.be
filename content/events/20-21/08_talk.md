@@ -5,7 +5,7 @@ banner:
 description: 
 created_at: 11-10-2020
 time: 09-11-2020 19:00
-#location: $A0
+location: $A0
 #locationlink:
 soon: true
 ---
