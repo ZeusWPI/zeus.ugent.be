@@ -12,7 +12,7 @@ locationlink: $therminal
 soon: true
 ---
 
-Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houdt zeker al je Zeus communicatiekanalen in het oog.
+Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houd zeker al je Zeus communicatiekanalen in het oog.
 
 # Game Over! Try Again.
 
