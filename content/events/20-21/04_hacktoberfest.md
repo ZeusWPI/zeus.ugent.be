@@ -6,8 +6,8 @@ time: '12-10-2020 18:00'
 end: '12-10-2020 23:00'
 location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre'
 locationlink: $s9
-facebook: // https://www.facebook.com/events/2759136070856741/
-banner: zeus.ugent.be/zeuswpi/Itsb0YbN.png
+facebook: //https://www.facebook.com/events/2759136070856741/
+banner: //zeus.ugent.be/zeuswpi/Itsb0YbN.png
 header_text_background: true
 ---
 
