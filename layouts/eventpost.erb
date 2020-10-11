@@ -37,7 +37,10 @@
     <div class="container">
       <div class="columns">
         <div class="column has-vertical-center">
-          <div class="header-text <%= item[:header_text_background] ? 'light-background' : '' %>">
+          <div class="header-text <%= item[:header_text_background] and !item[:header_text_background_color] ? 'light-background' : '' %>"
+               <% if item[:header_text_background_color] %>
+                style="background-color: <%= item[:header_text_background_color] %>"
+               <% end %>>
             <p class="title is-1-responsive event-title">
               <b>
                 <%= item[:title] %>
@@ -57,7 +60,28 @@
               <%= item[:description] %>
             </p>
             <ul class="fa-ul is-4-responsive">
-              <li><%= fa 'clock-o', li: true %><%= item[:time].strftime '%A %d %B %Y %H:%M' %></li>
+              <li>
+                <%= fa 'clock-o', li: true %>
+                <%= item[:time].strftime '%A %d %B %Y %H:%M' %>
+                <% if item[:end] %>
+                    <span>
+                        -
+                    </span>
+                    <% if (item[:end].strftime '%d %B %Y') != (item[:time].strftime '%d %B %Y') %>
+                        <span>
+                            <%= item[:end].strftime '%d %B ' %>
+                        </span>
+                    <% end %>
+                    <% if (item[:end].strftime '%Y') != (item[:time].strftime '%Y') %>
+                        <span>
+                            <%= item[:end].strftime '%Y ' %>
+                        </span>
+                    <% end %>
+                    <span>
+                        <%= item[:end].strftime '%H:%M' %>
+                    </span>
+                <% end %>
+              </li>
               <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
             </ul>
           </div>
