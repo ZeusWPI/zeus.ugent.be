@@ -4,12 +4,13 @@ image:
 banner:
 description: 
 created_at: 11-10-2020
-time: 08-11-2020 18:00
-#location:
+time: 09-11-2020 19:00
+#location: $A0
 #locationlink:
 soon: true
 ---
 
-TODO
+Zeus geeft een talk over... Surprise!
+Boeiend zal het zijn. De onderwerpen nog even geheim.
 
-Time is nog niet juist.
+Binnenkort nog meer informatie!
