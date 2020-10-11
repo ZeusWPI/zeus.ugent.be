@@ -14,4 +14,6 @@ Geen betere manier om Java meer te appreciëren dan kennis te maken met een esot
 
 Registreer je [hier][gandalf] om mee te genieten van alles wat een programmeertaal niet zou moeten zijn.
 
+![xkcd/useless_language_created](https://zeus.ugent.be/zeuswpi/Sa7IfExB.png)
+
 [gandalf]: https://event.fkgent.be/events/306
