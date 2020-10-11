@@ -37,7 +37,10 @@
     <div class="container">
       <div class="columns">
         <div class="column has-vertical-center">
-          <div class="header-text <%= item[:header_text_background] ? 'light-background' : '' %>">
+          <div class="header-text <%= item[:header_text_background] and !item[:header_text_background_color] ? 'light-background' : '' %>"
+               <% if item[:header_text_background_color] %>
+                style="background-color: <%= item[:header_text_background_color] %>"
+               <% end %>>
             <p class="title is-1-responsive event-title">
               <b>
                 <%= item[:title] %>

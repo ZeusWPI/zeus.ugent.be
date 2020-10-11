@@ -8,6 +8,7 @@ location: 'Leslokaal 1.1, Gebouw S9, Campus Sterre'
 locationlink: $s9
 #facebook: //www.facebook.com/events/1483447151684405/
 banner: //zeus.ugent.be/zeuswpi/Itsb0YbN.png
+header_text_background: true
 ---
 
 
