@@ -30,10 +30,6 @@ module BlogHelper
     # find file last modification time
     filepath=@item[:content_filename]
     str=`git log -1 --format=%cd --date=short -- #{filepath}`
-    if str == ""
-        return @item[:created_at]
-    else
-        return str
-    end
-end
+    return Date.parse(str)
+  end
 end
