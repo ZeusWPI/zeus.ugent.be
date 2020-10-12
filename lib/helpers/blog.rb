@@ -27,13 +27,13 @@ module BlogHelper
   end
 
   def gitmtime
-    # find file extension
+    # find file last modification time
     filepath=@item[:content_filename]
-    str=`git log -1 --format='%ci' -- #{filepath}`
+    str=`git log -1 --format=%cd --date=short -- #{filepath}`
     if str == ""
         return @item[:created_at]
     else
-        return DateTime.parse( str )
+        return str
     end
 end
 end
