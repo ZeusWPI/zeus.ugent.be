@@ -26,10 +26,19 @@ module BlogHelper
     HTML
   end
 
+  def gitctime
+    # find file last modification time
+    filepath=@item[:content_filename]
+    str=`git log --format=%cd --date=short -- #{filepath} | tail -1`
+    return Date.parse(str)
+  end
+  
   def gitmtime
     # find file last modification time
     filepath=@item[:content_filename]
     str=`git log -1 --format=%cd --date=short -- #{filepath}`
     return Date.parse(str)
   end
+  
+
 end
