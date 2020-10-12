@@ -5,7 +5,7 @@ description: "We mogen de kelder opnieuw openen"
 author: "Jasper Devreker"
 tags:
   - Corona
-  - General update
+  - General
 ---
 
 We hebben via het WVK[^wvk] doorgekregen dat we onze geliefde kelder terug mogen openen.
