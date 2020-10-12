@@ -3,6 +3,9 @@ title: "Wij coden voort"
 created_at: 21-7-2020
 description: "We mogen de kelder opnieuw openen"
 author: "Jasper Devreker"
+tags:
+  - Corona
+  - General update
 ---
 
 We hebben via het WVK[^wvk] doorgekregen dat we onze geliefde kelder terug mogen openen.
