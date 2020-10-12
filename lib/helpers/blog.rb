@@ -25,4 +25,15 @@ module BlogHelper
       </figure>
     HTML
   end
+
+  def gitmtime
+    # find file extension
+    filepath=@item[:content_filename]
+    str=`git log -1 --format='%ci' -- #{filepath}`
+    if str == ""
+        return @item[:created_at]
+    else
+        return DateTime.parse( str )
+    end
+end
 end
