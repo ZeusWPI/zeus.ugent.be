@@ -94,7 +94,7 @@ module PreprocessHelper
       @items.create(
         '',
         { tag: tag, title: type, is_yearly: false },
-        "/#{type.downcase}/#{tag}.html"
+        "/#{type.downcase}/#{tag.gsub(' ', '_')}.html"
       )
     end
   end

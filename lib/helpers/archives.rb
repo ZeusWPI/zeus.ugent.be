@@ -14,18 +14,13 @@ module ArchiveHelper
     academic_years.reverse.map { |y| [y, items["/blog/#{y}.html"]] }
   end
 
-  def tags
-    # Set.to_a to prevent duplicates
-    Set.new(items
-        .find_all('/blog/*/*')
-        .flat_map { |i| i[:tags] || [] })
-        .to_a
-      .sort
-      .uniq
-  end
-
   def tag_blog_items
-    tags.map { |y| [y, items["/blog/#{y}.html"]]}
+    Set.new(items
+      .find_all('/blog/*/*')
+      .flat_map { |i| i[:tags] || [] })
+    .to_a
+    .sort
+    .uniq.map { |y| [y, items["/blog/#{y.gsub(' ', '_')}.html"]]}
   end
 
   def pretty_year(year)
