@@ -12,7 +12,7 @@ Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houd zek
 
 Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Voor het negende jaar op rij weer een hele nacht om je favoriete games te spelen met je favoriete zeusers.
 
-**Datum**: Vrijdag 30 oktober - Zaterdag 30 oktober
+**Datum**: Vrijdag 30 oktober - Zaterdag 31 oktober
 
 **Tijd**: 14:00 tot in de vroege uurtjes
 
