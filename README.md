@@ -61,7 +61,7 @@ For manual deployment, run
 
 ```bash
 # Build the site for production
-bundle exec nanon --env=prod
+bundle exec nanoc --env=prod
 
 # Run checks
 bundle exec nanoc --env=prod check --deploy
