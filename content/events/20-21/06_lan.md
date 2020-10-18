@@ -21,7 +21,7 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 
 ## Toernooien
 
-Er is niet alleen aanzien en eer te verdienen, maar ook nog **fancy prijzen**. Gewoon voor het spelen van je favoriete games! Denk je dat je goed bent in de games die je speelt? Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt.
+Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt.
 
 ## Sponsors en prijzen
 
