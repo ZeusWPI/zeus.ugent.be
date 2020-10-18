@@ -4,6 +4,7 @@ description: Zeus' negende LAN-Party!
 created_at: 17-09-2020
 time: '30-10-2020 14:00'
 end: '31-10-2020 7:00'
+location: 'Bij je thuis'
 ---
 
 Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houd zeker al je Zeus communicatiekanalen in het oog.
