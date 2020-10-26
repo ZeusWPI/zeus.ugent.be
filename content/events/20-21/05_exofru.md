@@ -13,7 +13,7 @@ header_text_background: true
 header_text_background_color: 'rgba(80, 50, 80, 0.75)'
 ---
 
-UPDATE: datum verandert naar 28 oktober!
+UPDATE: datum veranderd naar 28 oktober!
 
 Geen betere manier om Java meer te appreciëren dan kennis te maken met een esoterische programmeertaal. Dit zijn talen die bepaalde programmeerconcepten tot in het absurde trekken. Ondertussen leer je Zeus WPI kennen, en kunnen we samen vloeken op de meest verschrikkelijke uitvindingen in de geschiedenis van de informatica. Geen voorkennis programmeren vereist (het is misschien zelfs beter).
 
