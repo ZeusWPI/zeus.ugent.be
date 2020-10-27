@@ -4,6 +4,8 @@ description: Zeus' negende LAN-Party!
 created_at: 17-09-2020
 time: '30-10-2020 14:00'
 location: 'Bij je thuis'
+image: https://zeus.ugent.be/zeuswpi/KK0m_nz7.jpg
+banner: https://zeus.ugent.be/zeuswpi/KK0m_nz7.jpg
 ---
 
 # Game Over! Try Again.
