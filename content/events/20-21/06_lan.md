@@ -3,44 +3,32 @@ title: 'Geeks, Attack! IX'
 description: Zeus' negende LAN-Party!
 created_at: 17-09-2020
 time: '30-10-2020 14:00'
-end: '30-10-2020 23:00'
-facebook: //www.facebook.com/events/434123983875135/
-image: //zeus.ugent.be/zeuswpi/pb6LS30N.png
-banner: //zeus.ugent.be/zeuswpi/Irue5nha.jpg
-location: 'Therminal, Hoveniersberg 24 9000 Gent'
-locationlink: $therminal
-soon: true
+location: 'Bij je thuis'
+banner: https://zeus.ugent.be/zeuswpi/KK0m_nz7.jpg
 ---
-
-Inschrijvingen zullen binnenkort openen! Meer informatie volgt nog, dus houd zeker al je Zeus communicatiekanalen in het oog.
 
 # Game Over! Try Again.
 
-Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Voor het negende jaar op rij zal studentenhuis De Therminal (Hoveniersberg 24, 9000 Gent) weer een hele nacht beschikbaar zijn om je favoriete games te spelen.
+Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Dit jaar in samenwerking met WiNA! Voor het negende jaar op rij weer een hele nacht om je favoriete games te spelen met je vrienden, deel te nemen aan toernooien en meer.
 
-**Datum**: Vrijdag 30 oktober - Vrijdag 30 oktober
+**Datum**: Vrijdag 30 oktober - Zaterdag 31 oktober
 
-**Tijd**: 14:00 tot 23:00
+**Tijd**: 14:00 tot in de vroege uurtjes
 
-**Locatie**: Therminal, Hoveniersberg 24, 9000 Gent
-
-**Prijs**: €2 (inclusief een drankje)
-
-## Praktisch
-
-De deuren openen om **14:00**. We vragen een kleine inkom van €2, die gebruikt zal worden om de prijzenpot van onze competities aan te dikken. Drank en snacks kan je ter plekke kopen en we voorzien ook een aantal runs naar een pizzeria. Zo kan je zo lang mogelijk aan je scherm gekluisterd blijven!
+**Locatie**: Gezellig bij je thuis
 
 ## Toernooien
 
-Er is niet alleen aanzien en eer te verdienen, maar ook nog **fancy prijzen**. Gewoon voor het spelen van je favoriete games! Denk je dat je goed bent in de games die je speelt? Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt.
+Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt. Je kan je alvast verwachten aan een League of Legends en CS:GO toernooi, maar er zullen daarnaast ook nog enkele kleinere toernooien zijn.
 
-## Zelf meebrengen
+## Inschrijven
 
-**Stekkerdozen** en **ethernetkabels**, anders zal je zonder zitten!
-Vergeet ook zeker je computer niet.
+Inschrijven kan je online doen via de volgende [google forms](https://docs.google.com/forms/d/1p-L4zH0eBHKL3Y3H_Qh7yWdw1Dhgmchb8Z4yr-r9tKY/). Dit kan tot op de avond van het event zelf.
 
-Uit ervaring weten we dat het soms wat kouder kan worden in de Therminal 's nachts, dus breng zeker een trui of iets dergelijks mee! We doen echter ons best om de verwarming in orde te krijgen.
+## Communicatie
 
-## Sponsors en prijzen
+De communicatie tijdens het event zal verlopen via [Discord](https://discord.gg/uxEfmDR). Verdere aankondigingen zullen ook daar gecommuniceerd worden.
 
-To be decided.
+Tot dan!
+
+ZeusWPI - WiNA
