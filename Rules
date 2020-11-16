@@ -158,7 +158,7 @@ end
 
 # Note drive/verslagen is 'linked' as a data source to /about/verslagen/
 compile '/about/verslagen/*/*.md', rep: :pdf do
-  filter :pandoc_pdf, args: { f: :markdown, :'pdf-engine' => 'xelatex' } if production?
+  filter :pandoc_pdf, args: { f: :markdown, 'pdf-engine': 'xelatex', template: 'templates/report.tex' } if production?
   write ext: (production? ? 'pdf' : 'md')
 end
 
