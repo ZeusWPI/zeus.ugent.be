@@ -10,6 +10,7 @@ class PandocPDF < Nanoc::Filter
     args = params.key?(:args) ? params[:args] : params
 
     args[:o] = output_filename + '.pdf'
+    args[:"pdf-engine"] = "xelatex"
 
     PandocRuby.convert(content, *args)
 
