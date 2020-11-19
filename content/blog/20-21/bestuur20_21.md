@@ -3,6 +3,8 @@ title: "Zeusbestuur 2020-2021"
 created_at: 6-7-2020
 description: "Het gloriZeuse nieuw bestuur"
 author: "Robbe Van Herck"
+tags:
+    - Bestuur
 ---
 
 > Hallo mijn naam is Jasper en ik zou nog steeds sysadmin willen blijven
@@ -25,4 +27,3 @@ Voor iedereen die niet op de verkiezingen was of de uitslag vergeten is, hier ee
 | Evenementen    | Ruben De Facq          |
 
 Veel succes en veel plezier van jullie oud bestuur. Het gaat gegarandeerd onvergetelijk worden! 🧡
-

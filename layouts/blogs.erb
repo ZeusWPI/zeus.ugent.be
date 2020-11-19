@@ -19,24 +19,41 @@
         <% end %>
         <% end %>
       </ul>
+      <p class="menu-label">
+        Tag
+      </p>
+      <ul class="menu-list">
+        <% tag_blog_items.each do |tag, item| %>
+        <% if @item_rep && @item_rep.path == item.path %>
+        <li>
+          <a href="#" class="is-active">
+            <%= tag %>
+          </a>
+        </li>
+        <% else %>
+        <li>
+          <%= link_to tag, item %>
+        </li>
+        <% end %>
+        <% end %>
+      </ul>
     </aside>
   </div>
   <div class="column">
     <div class="columns is-multiline">
       <div class="column">
-      <% posts_in_year(item[:academic_year]).each_with_index.select {|e, i| i.even?}.map(&:first).each do |post| %>
+      <% posts_in_year_or_with_tag(item).each_with_index.select {|e, i| i.even?}.map(&:first).each do |post| %>
         <%= render '/partials/_blog_preview.*', post: post %>
       <% end %>
       </div>
 
       <div class="column">
-      <% posts_in_year(item[:academic_year]).each_with_index.reject {|e, i| i.even?}.map(&:first).each do |post| %>
+      <% posts_in_year_or_with_tag(item).each_with_index.reject {|e, i| i.even?}.map(&:first).each do |post| %>
         <%= render '/partials/_blog_preview.*', post: post %>
       <% end %>
       </div>
-
     </div>
-    <% if posts_in_year(@item[:academic_year]).empty? %>
+    <% if posts_in_year_or_with_tag(item).empty? %>
       <div class="content has-text-centered">
         <h1>Sorry.</h1>
         <h2>No blog posts yet this year.</h2>

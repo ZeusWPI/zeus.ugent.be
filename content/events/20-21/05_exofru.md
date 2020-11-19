@@ -11,6 +11,8 @@ banner: //zeus.ugent.be/zeuswpi/7k6hvPJw.webp
 image: //zeus.ugent.be/zeuswpi/a28GvLuO.png
 header_text_background: true
 header_text_background_color: 'rgba(80, 50, 80, 0.75)'
+tags:
+    - Esoterisch
 ---
 
 UPDATE: datum veranderd naar 28 oktober!

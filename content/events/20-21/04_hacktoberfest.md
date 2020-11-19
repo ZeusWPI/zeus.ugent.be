@@ -9,6 +9,8 @@ locationlink: $s9
 facebook: //www.facebook.com/events/2759136070856741/
 banner: //zeus.ugent.be/zeuswpi/Itsb0YbN.png
 header_text_background: true
+tags:
+    - Code Hacking
 ---
 
 
@@ -31,4 +33,3 @@ Er kunnen snacks en drank gekocht worden op het event. Er zal ook om takeaway ge
 
 [hacktob]: https://hacktoberfest.digitalocean.com/
 [gandalf]: https://event.fkgent.be/events/305
-
