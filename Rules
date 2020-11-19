@@ -235,6 +235,10 @@ route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
 end
 
+route %r[/well-known/(.+)] do |rest|
+  "/.well-known/" + rest[0]
+end
+
 # Let anything else simply pass through
 passthrough '/**/*'
 
