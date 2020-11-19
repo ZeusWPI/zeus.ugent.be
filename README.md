@@ -74,7 +74,7 @@ If you want to deploy this on your own system for whatever reason, just serve th
 
 ## Uploading media files
 
-Before using mediafiles on the site, upload them via https://zeus.ugent.be/zeuswpi/. You'll receive the server-filename which is available at the aforementioned url.
+Before using mediafiles on the site, upload them via https://zeus.ugent.be/zeuswpi/, our own custom [uploading service](https://github.com/ZeusWPI/ZeusWPI). You'll receive the server-filename which is available at the aforementioned url.
 
 ## Submitting a Pull Request
 
