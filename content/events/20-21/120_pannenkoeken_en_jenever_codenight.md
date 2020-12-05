@@ -54,6 +54,7 @@ Post het op de mattermost chat!
 
 Toch niet zo evident en wat meer hulp nodig?
 Voor een batch van pannenkoeken heb je nodig:
+
 - zelfrijzende bloem: 250g
 - melk: 500ml (precieze hoeveelheid naar eigen wens)
 - eieren: 1-3 (hoeveel kan je er zelf leggen?)
