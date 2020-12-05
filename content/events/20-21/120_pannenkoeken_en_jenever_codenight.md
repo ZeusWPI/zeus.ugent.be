@@ -1,7 +1,7 @@
 ---
 title: Pannenkoeken En Jenever Codenight
-image: 
-banner:
+image: https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg
+banner: https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg
 description: Het online alternatief voor de klassieke pannenkoeken en jenever codenight. Gezelligheid alom!
 created_at: 11-10-2020
 time: 10-12-2020 18:00
