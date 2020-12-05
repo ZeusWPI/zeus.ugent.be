@@ -27,7 +27,7 @@ Zoek je inspiratie voor issues of iets makkelijks om mee te starten, kijk dan op
 Vergeet niet je ingrediënten op voorhand te kopen. Niet zeker wat je nodig hebt of hoe je pannenkoeken moet bakken? Geen zorgen, Zeus WPI voorziet een recept onderaan de pagina!
 
 We zien je graag op deze gezellige avond!
-\~ Je liefste Zeus bestuur <3
+~ Je liefste Zeus bestuur <3
 
 [discord]: https://discord.gg/qt4fNkVZ9Y
 [mattermost]: https://mattermost.zeus.gent
