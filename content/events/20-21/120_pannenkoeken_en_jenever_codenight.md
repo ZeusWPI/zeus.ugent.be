@@ -28,7 +28,7 @@ Zoek je inspiratie voor issues of iets makkelijks om mee te starten, kijk dan op
     
 Vergeet niet je ingrediënten op voorhand te kopen. Niet zeker wat je nodig hebt of hoe je pannenkoeken moet bakken?  Geen zorgen, Zeus WPI voorziet een recept onderaan de pagina!
 
-We zien je graag op deze gezellige avond!
+We zien je graag op deze gezellige avond!  
 ~ Je liefste Zeus bestuur <3
 
 [discord]: https://discord.gg/qt4fNkVZ9Y
@@ -37,22 +37,22 @@ We zien je graag op deze gezellige avond!
 
 
 ## Pannenkoeken bakken à la Zeus WPI
-Pannenkoeken bakken, hoe moet dat eigenlijk?
-Dit rijmpje helpt je al op weg:
+Pannenkoeken bakken, hoe moet dat eigenlijk?  
+Dit rijmpje helpt je al op weg:  
 
-Zeef je vanillesuiker en bloem
-Maak een kuiltje en zeg eens boem
-want nu is het tijd
-voor het breken van eieren
-en met een garde, roer tot een bescheidt
-schenk de melk
-roer tot licht beslag
-En maak nu pannenkoeken voor elk
+Zeef je vanillesuiker en bloem  
+Maak een kuiltje en zeg eens boem  
+want nu is het tijd  
+voor het breken van eieren  
+en met een garde, roer tot een bescheidt  
+schenk de melk  
+roer tot licht beslag  
+En maak nu pannenkoeken voor elk  
+  
+Vebrand, perfect?  
+Post het op de mattermost chat!  
 
-Vebrand, perfect?
-Post het op de mattermost chat!
-
-Toch niet zo evident en wat meer hulp nodig?
+Toch niet zo evident en wat meer hulp nodig?  
 Voor een batch van pannenkoeken heb je nodig:
 
 - zelfrijzende bloem: 250g
@@ -63,10 +63,10 @@ Voor een batch van pannenkoeken heb je nodig:
 
 Zeef eventueel de bloem met de (vanille)suiker. Maak in het midden een kuiltje, breek daarin de eieren. Roer alles door elkaar met een garde.
 Schenk beetje bij beetje je melk erbij terwijl je met je garde het beslag roert. Doe dit voorzichtig om klonters te vermijden.
-Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe.
+Vind je het beslag nog te dik, voeg dan eventueel nog wat extra melk toe.  
 Bak de pannenkoeken in hete boter of olie. 
 
-Veel geluk met het bakken,
+Veel geluk met het bakken,  
 Awoo
 
 ~Foxie Boi <3
