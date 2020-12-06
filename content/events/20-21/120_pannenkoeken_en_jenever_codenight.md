@@ -19,7 +19,7 @@ Foto's kun je doorsturen op het `~pannenkoeken` kanaal in onze [mattermost][matt
 Tijdens en na het pannenkoeken eten zitten we gezellig samen en schrijven we code, want een P&J codenight is natuurlijk geen P&J zonder code! 
 Zet zeker je pull requests die je schrijft in de P&J [codimd][p&jmd], zo maak je misschien ook kans op een prijs!
 
-Zoek je inspiratie voor issues of iets makkelijks om mee te starten, kijk dan op onze issue lijst die op het event aanwezig zal zijn of vraag het aan een van de andere aanwezigen..
+Zoek je inspiratie voor issues of iets makkelijks om mee te starten, kijk dan op onze issue lijst die op het event aanwezig zal zijn of vraag het aan een van de andere aanwezigen.
 
 #### Planning
 
