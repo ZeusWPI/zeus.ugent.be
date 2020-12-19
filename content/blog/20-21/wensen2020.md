@@ -17,7 +17,7 @@ Bedankt om zo talrijk aanwezig te zijn en de pannenkoekensfeer samen met ons op 
 Het Zeus-WPI-bestuur wenst jullie veel moed toe. Doe het goed 👍
 Toch even een dipmomentje, of heb je het moeilijk om te concentreren op je eentje? Spring dan even binnen op onze Mattermost en wie weet vind je je nieuwe online studiebuddy <3
 
-Tot 2021! Of het nu online of offline, we doen ons best om jullie allemaal op een of andere manier terug te zien.
+Tot 2021! Of het nu online of offline is, we doen ons best om jullie allemaal op een of andere manier terug te zien.
 
 Misschien op afstand,
 Maar met nog steeds dezelfde warme liefde
