@@ -22,4 +22,4 @@ Tot 2021! Of het nu online of offline is, we doen ons best om jullie allemaal op
 
 Misschien op afstand,  
 Maar met nog steeds dezelfde warme liefde  
-~Je Zeus Bestuur <3 🎄  
+~Je Zeus WPI-Bestuur <3 🎄  
