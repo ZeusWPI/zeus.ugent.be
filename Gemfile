@@ -11,12 +11,15 @@ gem 'typogruby'
 # Needed for atom_feed in blogging helper
 gem 'builder'
 
+gem 'clonefile'
+
 # Word counting gem (which takes special characters into account)
 # for reading time
-gem 'words_counted'
+gem 'words_counted', git: 'https://github.com/werthen/words_counted'
 
 group :development do
   gem 'adsf'
+  gem 'thin'
   gem 'highline'
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard'

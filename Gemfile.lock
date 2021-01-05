@@ -1,26 +1,34 @@
+GIT
+  remote: https://github.com/werthen/words_counted
+  revision: 735357e4d530c99d5c4c366d0c246ebffffd80de
+  specs:
+    words_counted (1.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    adsf (1.4.3)
+    adsf (1.4.5)
       rack (>= 1.0.0, < 3.0.0)
-    autoprefixer-rails (9.8.6.3)
+    autoprefixer-rails (10.1.0.0)
       execjs
     builder (3.2.4)
+    clonefile (0.5.3)
     coderay (1.1.3)
     colored (1.2)
     concurrent-ruby (1.1.7)
-    cri (2.15.10)
+    cri (2.15.11)
+    daemons (1.3.1)
     ddmemoize (1.0.0)
       ddmetrics (~> 1.0)
       ref (~> 2.0)
     ddmetrics (1.0.1)
-    ddplugin (1.0.2)
+    ddplugin (1.0.3)
     diff-lcs (1.4.4)
-    equatable (0.6.1)
+    eventmachine (1.2.7)
     execjs (2.7.0)
-    ffi (1.13.1)
+    ffi (1.14.2)
     formatador (0.2.5)
     guard (2.16.2)
       formatador (>= 0.2.4)
@@ -41,41 +49,41 @@ GEM
       concurrent-ruby (~> 1.0)
     highline (2.0.3)
     htmlcompressor (0.4.0)
-    icalendar (2.6.1)
+    icalendar (2.7.0)
       ice_cube (~> 0.16)
     ice_cube (0.16.3)
-    json (2.3.1)
+    json (2.5.1)
     json_schema (0.20.9)
     kramdown (2.3.0)
       rexml
     libv8 (8.4.255.0)
-    listen (3.2.1)
+    listen (3.4.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    lumberjack (1.2.7)
+    lumberjack (1.2.8)
     method_source (1.0.0)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.0)
     mini_racer (0.3.1)
       libv8 (~> 8.4.255)
-    nanoc (4.11.18)
+    nanoc (4.11.22)
       addressable (~> 2.5)
       colored (~> 1.2)
       nanoc-checking (~> 1.0)
-      nanoc-cli (= 4.11.18)
-      nanoc-core (= 4.11.18)
+      nanoc-cli (= 4.11.22)
+      nanoc-core (= 4.11.22)
       nanoc-deploying (~> 1.0)
       parallel (~> 1.12)
       tty-command (~> 0.8)
       tty-which (~> 0.4)
-    nanoc-checking (1.0.0)
+    nanoc-checking (1.0.1)
       nanoc-cli (~> 4.11, >= 4.11.15)
       nanoc-core (~> 4.11, >= 4.11.15)
-    nanoc-cli (4.11.18)
+    nanoc-cli (4.11.22)
       cri (~> 2.15)
       diff-lcs (~> 1.3)
-      nanoc-core (= 4.11.18)
+      nanoc-core (= 4.11.22)
       zeitwerk (~> 2.1)
-    nanoc-core (4.11.18)
+    nanoc-core (4.11.22)
       concurrent-ruby (~> 1.1)
       ddmemoize (~> 1.0)
       ddmetrics (~> 1.0)
@@ -86,25 +94,26 @@ GEM
       tomlrb (~> 1.2)
       tty-platform (~> 0.2)
       zeitwerk (~> 2.1)
-    nanoc-deploying (1.0.0)
+    nanoc-deploying (1.0.1)
       nanoc-checking (~> 1.0)
       nanoc-cli (~> 4.11, >= 4.11.15)
       nanoc-core (~> 4.11, >= 4.11.15)
     nenv (0.3.0)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.0)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     notiffany (0.1.3)
       nenv (~> 0.1)
       shellany (~> 0.0)
     pandoc-ruby (2.1.4)
-    parallel (1.19.2)
-    pastel (0.7.4)
-      equatable (~> 0.6)
+    parallel (1.20.1)
+    pastel (0.8.0)
       tty-color (~> 0.5)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
+    racc (1.5.2)
     rack (2.2.3)
     rainpress (1.0.1)
     rb-fsevent (0.10.4)
@@ -119,23 +128,27 @@ GEM
     slow_enumerator_tools (1.1.0)
     terminal-notifier (2.0.0)
     terminal-notifier-guard (1.7.0)
+    thin (1.8.0)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
     thor (1.0.1)
     tomlrb (1.3.0)
-    tty-color (0.5.2)
-    tty-command (0.9.0)
-      pastel (~> 0.7.0)
+    tty-color (0.6.0)
+    tty-command (0.10.0)
+      pastel (~> 0.8)
     tty-platform (0.3.0)
     tty-which (0.4.2)
     typogruby (1.0.18)
       rubypants
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    w3c_validators (1.3.5)
+    w3c_validators (1.3.6)
       json (>= 1.8)
       nokogiri (~> 1.6)
-    words_counted (1.0.2)
+      rexml (~> 3.2)
     yui-compressor (0.12.0)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
@@ -144,6 +157,7 @@ DEPENDENCIES
   adsf
   autoprefixer-rails
   builder
+  clonefile
   guard-nanoc
   highline
   htmlcompressor
@@ -156,11 +170,12 @@ DEPENDENCIES
   sassc
   terminal-notifier
   terminal-notifier-guard
+  thin
   typogruby
   uglifier (>= 4.0.0)
   w3c_validators
-  words_counted
+  words_counted!
   yui-compressor
 
 BUNDLED WITH
-   2.0.2
+   2.2.3
