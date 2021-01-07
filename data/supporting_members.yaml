@@ -258,10 +258,17 @@ data:
           url: https://twitter.com/pietervdvn
     - name: Wout Schellaert
       nickname: stro
-      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
-      quote: TODO
-      description: Komt wel nog
-      links: []
+      photo: https://zeus.ugent.be/zeuswpi/1gMbZvu6.jpg
+      quote: \"
+      description: Blues, Rust, en liefde
+      links:
+        - icon: twitter
+          url: https://twitter.com/WoutSchellaert
+        - icon: github
+          url: https://github.com/wschella/
+        - icon: linkedin
+          url: https://www.linkedin.com/in/woutschellaert/
+        - url: http://schellaert.org/
     - name: Arne Bertrand
       nickname: abeforzeus
       photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
