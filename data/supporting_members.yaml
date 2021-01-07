@@ -293,3 +293,17 @@ data:
           url: https://github.com/feliciaan
         - icon: linkedin
           url: https://linkedin.com/in/feliciaan
+    - name: Bauke Blomme
+      nickname: boterham
+      photo: https://zeus.ugent.be/zeuswpi/tvKlzNYC.jpg
+      quote: Als ge uw gas- en rempedaal tegelijk induwt, maakt uw auto een screenshot.
+      description: Verantwoordelijk voor 95% tot 98% van alle roze dingen in de kelder.
+      links:
+        - icon: facebook
+          url: https://www.facebook.com/bauke.blomme
+        - icon: instagram
+          url: https://www.instagram.com/blaukebomme
+        - icon: github
+          url: https://github.com/booterham
+        - icon: gitlab
+          url: https://git.zeus.gent/bokko
