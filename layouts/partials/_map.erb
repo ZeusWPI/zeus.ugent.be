@@ -35,7 +35,7 @@ function performRequest(url, success_callback) {
     request.send();
 }
 
-performRequest("https://photon.komoot.de/api/?limit=1&q=<%= URI::encode(@location) %>", function(data) {
+performRequest("https://photon.komoot.de/api/?limit=1&q=<%= URI::encode_www_form_component(@location) %>", function(data) {
     var lat, lon;
 	if(data.features.length < 1) {
 		        lat = 51.0538286;

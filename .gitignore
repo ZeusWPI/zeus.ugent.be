@@ -24,3 +24,5 @@ crash.log*
 .author-information
 
 .fb_token
+
+/vendor/
