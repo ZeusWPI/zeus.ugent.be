@@ -277,10 +277,12 @@ data:
       links: []
     - name: Michiel Van den Berghe
       nickname: michilus
-      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
-      quote: TODO
-      description: Komt wel nog
-      links: []
+      photo: https://zeus.ugent.be/zeuswpi/CznJ6WTT.jpg
+      quote: Ik zorg voor de camembert
+      description: Pythonista, space geek, zeppelinbouwer, Albertkanaalfanaat en oude zak met een e-paperfetish. Steekt geregeld elektronica in brand.
+      links:
+        - icon: github
+          url: https://github.com/mivdnber
     - name: Feliciaan De Palmenaer
       nickname: feliciaan
       photo: https://zeus.ugent.be/zeuswpi/MgrXVj97.jpg
