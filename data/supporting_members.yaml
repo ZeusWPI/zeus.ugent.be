@@ -309,3 +309,17 @@ data:
           url: https://github.com/booterham
         - icon: gitlab
           url: https://git.zeus.gent/bokko
+    - name: Kenneth Van den Driessche
+      nickname: tleilaxu
+      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
+      quote: TODO
+      description: Komt wel nog
+      links: []
+    - name: Nicky Vandeghinste
+      nickname: nickyname
+      photo: https://zeus.ugent.be/zeuswpi/OVMcPb3O.jpg
+      quote: @nickyname Weet je, als je tetten hebt, is elke talk eigenlijk een TET-talk
+      description: durft dingen doen, houdt van ice teas en jullie.
+      links:
+        - icon: twitter
+          url: https://twitter.com/NickyVdg
