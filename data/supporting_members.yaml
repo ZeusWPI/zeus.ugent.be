@@ -323,3 +323,17 @@ data:
       links:
         - icon: twitter
           url: https://twitter.com/NickyVdg
+    - name: Lorin Werthen
+      nickname: don
+      photo: https://www.gravatar.com/avatar/84240f994232972cd16a6f25c8af764a?s=2048
+      quote: <don> TIS WAAR SILOX TIS WAAR <don> IK HAAT ZEUS
+      description: |
+        Klimmer, Diepe leerder, Bliep bloeper
+        Vader van luipaardgekkos
+        Verdwijnt af en toe naar het Fontainebleau bos
+      links:
+        - icon: github
+          url: https://github.com/werthen
+        - url: http://werthen.com/
+        - icon: linkedin
+          url: https://www.linkedin.com/in/werthen/
