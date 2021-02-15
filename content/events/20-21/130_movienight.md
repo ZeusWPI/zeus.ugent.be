@@ -4,7 +4,7 @@ description: Een Zeus Movienight!
 created_at: 15-02-2021
 time: '18-02-2021 20:00'
 location: 'Discord'
-banner: 'https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg.jpg'
+banner: 'https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg'
 header_text_background: true
 ---
 
