@@ -1,16 +1,21 @@
-<a class="box blog-preview" href="<%= relative_path_to(post) %>">
-  <div class="content">
-    <h3 class="has-text-centered"><%= post[:title] %></h3>
-    <p class="has-text-centered">
-      <%= post[:description] %>
-    </p>
-    <h5 class="has-text-centered">
-      <% if post[:author] %>
-      door <%= post[:author] %>
+<div class="content blog-preview">
+  <div class="blogpreview-heading">
+    <a href="<%= relative_path_to(post) %>">
+      <h3><%= post[:title] %></h3>
+    </a>
+    <div class="blogpreview-tags">
+      <% post[:tags]&.each do |tag| %>
+        <!-- The following code is a bit hacky, fix when necessary -->
+        <a href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
+          <span class="tag is-normal is-rounded"><%= tag %></span>
+        </a>
       <% end %>
-    </h5>
-    <small><%= post[:created_at] %></small>
-    <br>
-    <%= excerptize(post.reps[:text].compiled_content, length: 200).tr("\n", ' ')%>
+    </div>
   </div>
-</a>
+  <small class="blogpreview-extra"><%= post[:created_at] %><% if post[:author] %> • <%= post[:author] %> <% end %> • <%= post[:description] %></small>
+  <br/>
+  <p>
+  <%= excerptize(post.reps[:text].compiled_content, length: 500).tr("\n", ' ')%>
+  </p>
+</div>
+<hr>
