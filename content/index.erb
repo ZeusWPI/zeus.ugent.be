@@ -1,63 +1,64 @@
 <% content_for :head do %>
-<META NAME="Title" CONTENT="Zeus WPI: Werkgroep informatica van de Universiteit Gent">
-<META NAME="Keywords" CONTENT="zeus wpi, informatica, universiteit gent">
-<META NAME="Description" CONTENT="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging.">
-<meta property="og:title" content="Zeus WPI: WerkgroeP Informatica van de Universiteit Gent" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://zinc.zeus.gent" />
-<meta property="og:description" content="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging." />
+  <META NAME="Title" CONTENT="Zeus WPI: Werkgroep informatica van de Universiteit Gent">
+  <META NAME="Keywords" CONTENT="zeus wpi, informatica, universiteit gent">
+  <META NAME="Description" CONTENT="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging.">
+  <meta property="og:title" content="Zeus WPI: WerkgroeP Informatica van de Universiteit Gent" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://zinc.zeus.gent" />
+  <meta property="og:description" content="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging." />
 <% end %>
 
 <% content_for :scripts do %>
-<%= asset :js, :gamification %>
+  <%= asset :js, :gamification %>
 <% end %>
 
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
     <%= if studytime? then render '/tiles/blokmap.*'end %>
-    <!--next event -->
-    <div class="tile is-parent">
-      <%= render '/partials/_events_tile.*', event: front_page_events[0] %>
-    </div>
-    <div class="tile">
-      <!--top coders -->
-      <div class="tile is-parent is-6">
-        <div class="tile is-child box gamification-tile">
-          <div class="content">
-            <div class="tile-header">
-              <h1 class="has-text-centered">
-                <a href="https://zeus.ugent.be/game">
-                  <i class="fa fa-trophy" aria-hidden="true"></i>
-                </a>
-              </h1>
-            </div>
-            <div id="gamification-coders" >
-              <!-- EMPTY -->
+      <!--next event -->
+      <div class="tile is-parent">
+        <%= render '/partials/_events_tile.*', event: front_page_events.first %>
+      </div>
+      <div class="tile">
+        <!--top coders -->
+        <div class="tile is-parent">
+          <div class="tile is-child box gamification-tile">
+            <div class="content">
+              <div class="tile-header">
+                <h1 class="has-text-centered">
+                  <a href="https://zeus.ugent.be/game">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                  </a>
+                </h1>
+              </div>
+              <div id="gamification-coders" >
+                <!-- EMPTY -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- latest blogpost -->
-      <div class="tile is-6 is-parent">
-        <%= render '/partials/_blog_preview.*', post: sorted_articles.first %>
+      <div class="tile">
+        <div class="tile is-vertical">
+          <div class="tile is-parent">
+            <h2 class="title">Events</h2>
+          </div>
+          <% front_page_events[1..3].each do |event| %>
+            <div class="tile is-parent">
+              <%= render '/partials/_events_tile.*', event: event %>
+            </div>
+          <%end%>
         </div>
-    </div>
-    <div class="tile">
-      <div class="tile is-vertical">
-        <% front_page_events[1..3].each do |event| %>
-        <div class="tile is-parent ">
-          <%= render '/partials/_events_tile.*', event: event %>
+        <div class="tile is-vertical">
+          <div class="tile is-parent">
+            <h2 class="title">Blogposts</h2>
+          </div>
+          <% sorted_articles[0..3].each do |post| %>
+            <div class="tile is-parent ">
+              <%= render '/partials/_blog_preview.*', post: post %>
+            </div>
+          <%end%>
         </div>
-        <%end%>
       </div>
-      <div class="tile is-vertical">
-      <% sorted_articles[1..3].each do |post| %>
-        <div class="tile is-parent ">
-          <%= render '/partials/_blog_preview.*', post: post %>
-        </div>
-      <%end%>
-
-      </div>
-    </div>
   </div>
 </div>
