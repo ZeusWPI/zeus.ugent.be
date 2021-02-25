@@ -1,5 +1,5 @@
 module SearchHelper
-  def blog_search_json
+  def bloch_search_json
     jsonify articles
   end
 

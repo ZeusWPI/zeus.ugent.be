@@ -10,7 +10,7 @@ Iedereen had gelijk. De nadelen van Mattermost wegen niet op tegen de voordelen.
 
 # Waarom veranderen?
 
-In het begin van de vakantie hebben we al een [blogpost](/blog/18-19/chat2/) gemaakt waarin we zeggen waarom we willen afstappen van ons huidig chatplatform. De grote tekortkomingen waren, kort samengevat:
+In het begin van de vakantie hebben we al een [blochpost](/bloch/18-19/chat2/) gemaakt waarin we zeggen waarom we willen afstappen van ons huidig chatplatform. De grote tekortkomingen waren, kort samengevat:
 
 - Een gebrek aan openheid: je moet een account hebben om berichten te kunnen lezen.
 - In mekaar gehackt: MM is open-source en self-hosted, dus onze communicatie hangt voor 100% af van onze eigen servers. Die soms al eens durven kapotgaan, waardoor we daar dus niet meer over kunnen communiceren. Er is ook een gebrekkige UX en QoL.
@@ -26,7 +26,7 @@ In combinatie met de openheid van de software lijkt Spectrum uiteindelijk een be
 
 Uit de rondvraag bleek ook dat uit de "open" applicaties, de meeste leden Spectrum zien als een geschikt alternatief. Van andere organisaties hebben we ook gehoord dat die tevreden zijn van Mattermost.
 
-<%= figure 'https://zeus.ugent.be/zeuswpi/B_ltzF1O.png', 'De resultaten van de poll uit onze vorige blogpost, per deelnemer waren meerdere antwoorden mogelijk. Hoewel Slack het meeste stemmen heeft, maakt de vrijheid die we krijgen bij Mattermost de #1 van het bestuur.' %>
+<%= figure 'https://zeus.ugent.be/zeuswpi/B_ltzF1O.png', 'De resultaten van de poll uit onze vorige blochpost, per deelnemer waren meerdere antwoorden mogelijk. Hoewel Slack het meeste stemmen heeft, maakt de vrijheid die we krijgen bij Mattermost de #1 van het bestuur.' %>
 
 # Wat gebeurt er met Mattermost?
 

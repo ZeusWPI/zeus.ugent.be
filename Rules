@@ -18,13 +18,13 @@ ignore '/node_modules/**/*'
 preprocess do
   `yarn`
 
-  # We don't want to compile old blogposts in development
-  ignore_old_content('blog', 'events', 'about/verslagen') if development?
+  # We don't want to compile old blochposts in development
+  ignore_old_content('bloch', 'events', 'about/verslagen') if development?
 
-  update_blog_attributes
-  create_yearly_items('Blog')
+  update_bloch_attributes
+  create_yearly_items('Bloch')
   create_yearly_items('Events')
-  create_tagly_items('Blog')
+  create_tagly_items('Bloch')
   create_tagly_items('Events')
   convert_event_time_to_timestamps
 
@@ -53,8 +53,8 @@ end
 #
 # ARCHIVES
 #
-compile '/blog/*' do
-  layout '/blogs.*'
+compile '/bloch/*' do
+  layout '/blochs.*'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
@@ -100,13 +100,13 @@ end
 #
 # POSTS
 #
-compile '/blog/*/*.md' do
+compile '/bloch/*/*.md' do
   filter :erb
-  layout '/blogpost.md'
+  layout '/blochpost.md'
   filter :kramdown
   filter :typogruby
 
-  layout '/blogpost.erb'
+  layout '/blochpost.erb'
   layout '/generic.*'
   layout '/default.*'
   filter :erb
@@ -114,13 +114,13 @@ compile '/blog/*/*.md' do
   filter :html_press if production?
 end
 
-compile '/blog/*/*.md', rep: :text do
+compile '/bloch/*/*.md', rep: :text do
   filter :erb
   filter :kramdown
   filter :strip_html
 end
 
-compile '/blog/*/*.md', rep: :html do
+compile '/bloch/*/*.md', rep: :html do
   filter :erb
   filter :kramdown
 end

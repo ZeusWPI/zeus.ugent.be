@@ -7,7 +7,7 @@ locationlink: $s9
 image: https://zeus.ugent.be/wp-content/uploads/2014/10/bubbles.pdf-209x300.png
 ---
 
-Is je blogpost helemaal af, maar kan hij nog wat dynamiek gebruiken? Ziet de data die je wil voorstellen er maar saai uit in tabellen?
+Is je blochpost helemaal af, maar kan hij nog wat dynamiek gebruiken? Ziet de data die je wil voorstellen er maar saai uit in tabellen?
 
 Zeus WPI brengt je website helemaal in beweging met een inleiding tot **JavaScript**. En jouw data? Wat zeg je van een overvloed aan statische en dynamische visualisaties, vlot klaar voor gebruik? [**D3.js**](https://d3js.org) is wat je nodig hebt.
 

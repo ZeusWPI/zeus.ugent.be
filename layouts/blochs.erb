@@ -5,7 +5,7 @@
         Academiejaar
       </p>
       <ul class="menu-list">
-        <% academic_years_blog_items.each do |year, item| %>
+        <% academic_years_bloch_items.each do |year, item| %>
         <% if @item_rep && @item_rep.path == item.path %>
         <li>
           <a href="#" class="is-active">
@@ -23,7 +23,7 @@
         Tag
       </p>
       <ul class="menu-list">
-        <% tag_blog_items.each do |tag, item| %>
+        <% tag_bloch_items.each do |tag, item| %>
         <% if @item_rep && @item_rep.path == item.path %>
         <li>
           <a href="#" class="is-active">
@@ -43,20 +43,20 @@
     <div class="columns is-multiline">
       <div class="column">
       <% posts_in_year_or_with_tag(item).each_with_index.select {|e, i| i.even?}.map(&:first).each do |post| %>
-        <%= render '/partials/_blog_preview.*', post: post %>
+        <%= render '/partials/_bloch_preview.*', post: post %>
       <% end %>
       </div>
 
       <div class="column">
       <% posts_in_year_or_with_tag(item).each_with_index.reject {|e, i| i.even?}.map(&:first).each do |post| %>
-        <%= render '/partials/_blog_preview.*', post: post %>
+        <%= render '/partials/_bloch_preview.*', post: post %>
       <% end %>
       </div>
     </div>
     <% if posts_in_year_or_with_tag(item).empty? %>
       <div class="content has-text-centered">
         <h1>Sorry.</h1>
-        <h2>No blog posts yet this year.</h2>
+        <h2>No bloch posts yet this year.</h2>
         <h4 class="has-text-grey"><i>Soon TM.<i></h4>
       </div>
     <% end %>
