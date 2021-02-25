@@ -24,4 +24,4 @@ Deze workshop zal doorgaan op vrijdag 4 november van 9u in 13u in PC-klas F in d
 <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dEVnNUUtQkd1MmxCWjR5RmZXRUVFR0E6MQ" height="450" style="width:100%">
 </iframe>
 
-Om je voor te bereiden vragen we je alvast Visual Studio for Windows Phone en de Windows Phone SDK te installeren, beiden zijn [hier](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27570) gebundeld. Indien je dit wil, kan je ook al enkele [code-voorbeelden](https://www.mytic.be/bloch/dhe/Lists/Billets/Post.aspx?ID=45) bekijken.
+Om je voor te bereiden vragen we je alvast Visual Studio for Windows Phone en de Windows Phone SDK te installeren, beiden zijn [hier](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27570) gebundeld. Indien je dit wil, kan je ook al enkele [code-voorbeelden](https://www.mytic.be/blog/dhe/Lists/Billets/Post.aspx?ID=45) bekijken.
