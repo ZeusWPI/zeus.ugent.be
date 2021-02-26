@@ -1,13 +1,13 @@
 <div class="content blog-preview">
   <div class="blogpreview-heading">
-    <a href="<%= relative_path_to(post) %>">
-      <h3><%= post[:title] %></h3>
+    <a class="title is-3" href="<%= relative_path_to(post) %>">
+      <%= post[:title] %>
     </a>
     <div class="blogpreview-tags">
       <% post[:tags]&.each do |tag| %>
         <!-- The following code is a bit hacky, fix when necessary -->
-        <a href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
-          <span class="tag is-normal is-rounded"><%= tag %></span>
+        <a class="tag is-normal is-rounded" href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
+          <%= tag %>
         </a>
       <% end %>
     </div>

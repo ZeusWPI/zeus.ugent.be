@@ -70,11 +70,8 @@
     display: flex;
     > a {
       flex-grow: 1;
-
-      > h3 {
-        margin-bottom: 0;
-        display: inline-block;
-      }
+      margin-bottom: 0;
+      display: inline-block;
     }
   }
   > .blogpreview-extra {
