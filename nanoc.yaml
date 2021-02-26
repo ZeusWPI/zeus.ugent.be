@@ -90,6 +90,9 @@ data_sources:
     items_root: /about/verslagen/
     content_dir: drive/verslagen/
     layouts_dir: null
+  -
+    type: katex
+    items_root: /assets/stylesheets
 
 # Configuration for the “check” command, which run unit tests on the site.
 checks:

@@ -5,6 +5,12 @@ gem 'nanoc'
 
 gem 'icalendar' # ical files
 gem 'kramdown'
+
+# Kramdown math mode gems
+gem 'kramdown-math-katex'
+# Also needed for autoprefixing
+gem 'mini_racer'
+
 gem 'sassc'
 gem 'typogruby'
 
@@ -24,8 +30,6 @@ group :development do
 end
 
 group :production do
-  # Faster css autoprefixing
-  gem 'mini_racer'
   # Autoprefixing for class
   gem 'autoprefixer-rails'
   gem 'htmlcompressor'
