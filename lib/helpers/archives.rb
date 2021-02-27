@@ -2,7 +2,7 @@ module ArchiveHelper
   def academic_years
     # Set.to_a to prevent duplicates
     Set.new(items
-              .find_all('/bloch/*/*')
+              .find_all('/blog/*/*')
               .map { |i| i.identifier.to_s.split('/')[-2] })
               .to_a
        .sort
@@ -10,17 +10,17 @@ module ArchiveHelper
        .uniq
   end
 
-  def academic_years_bloch_items
-    academic_years.reverse.map { |y| [y, items["/bloch/#{y}.html"]] }
+  def academic_years_blog_items
+    academic_years.reverse.map { |y| [y, items["/blog/#{y}.html"]] }
   end
 
-  def tag_bloch_items
+  def tag_blog_items
     Set.new(items
-      .find_all('/bloch/*/*')
+      .find_all('/blog/*/*')
       .flat_map { |i| i[:tags] || [] })
     .to_a
     .sort
-    .uniq.map { |y| [y, items["/bloch/#{y.gsub(' ', '_')}.html"]]}
+    .uniq.map { |y| [y, items["/blog/#{y.gsub(' ', '_')}.html"]]}
   end
 
   def pretty_year(year)
@@ -29,12 +29,12 @@ module ArchiveHelper
   end
 
   def posts_in_year(y)
-    items.find_all("/bloch/#{y}/*").sort_by { |x| x[:created_at] }.reverse
+    items.find_all("/blog/#{y}/*").sort_by { |x| x[:created_at] }.reverse
   end
 
   def posts_with_tag(tag)
     items
-      .find_all('/bloch/*/*')
+      .find_all('/blog/*/*')
       .filter{|i| (i[:tags] || []).include? tag }
   end
 

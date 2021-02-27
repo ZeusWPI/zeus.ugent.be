@@ -98,7 +98,7 @@ Hoe?
 #### Ruben & Yasmine
 - Publiceren van publieke evenementen eveneens op uwen facebook als op uwen UGent-prikbord.
 - Het publiceren van publieke evenementen met de bijhorende nostalgische terugblik achteraf.
-- Het onderhouden en promoten van de zeus-bloch (met correcte spelling en grammatica voorzien door uw trouwe grammatica-nazi Yasmine)
+- Het onderhouden en promoten van de zeus-blog (met correcte spelling en grammatica voorzien door uw trouwe grammatica-nazi Yasmine)
 - Double the public relations manager, double the public relations.
 - Zeus ❤️
 

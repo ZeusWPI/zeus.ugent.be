@@ -10,7 +10,7 @@ Dag (ex-)Zeusleden en sympathisanten,
 
 \<_ik denk toch dat nieuwsbrieven zo beginnen_\>
 
-Welkom op de eerste Zeus-update-blochpost-nieuwsbrief!
+Welkom op de eerste Zeus-update-blogpost-nieuwsbrief!
 
 \<_Met hopelijk meer hiervan in de toekomst!_\>
 
@@ -119,10 +119,10 @@ _Gemotiveerd om bij te dragen, maar gebrek aan G2 om je te vertellen
 hoe je kan helpen? Por uw lokale projectverantwoordelijke (Iasoon en Destro)!_
 
 
-# Blochposts
-We zouden graag actiever inzetten op onze blochposts op de site,
+# Blogposts
+We zouden graag actiever inzetten op onze blogposts op de site,
 dus als jij iets tofs hebt ontdekt (een nieuw framework, een up-and-coming programmeertaal,
-of een fancy colorscheme of toetsenbordlayout) schrijf er gerust een blochpost over,
+of een fancy colorscheme of toetsenbordlayout) schrijf er gerust een blogpost over,
 stuur het in via pull request en inspireer je mede-zeusers!
 
 # 12UL

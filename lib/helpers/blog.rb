@@ -1,9 +1,9 @@
 require 'words_counted'
 
-module BlochHelper
-  def reading_time(blochpost)
+module BlogHelper
+  def reading_time(blogpost)
     human_wpm = 200.0
-    words = WordsCounted.count(blochpost.compiled_content(rep: :text)).token_count
+    words = WordsCounted.count(blogpost.compiled_content(rep: :text)).token_count
 
     minutes = (words / human_wpm).ceil
 

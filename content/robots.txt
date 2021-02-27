@@ -4,7 +4,7 @@ Allow: /index.html
 Allow: /$
 Allow: /about/
 Allow: /assets/images/
-Allow: /bloch/
+Allow: /blog/
 Allow: /contact/
 Allow: /events/
 Allow: /feed.xml

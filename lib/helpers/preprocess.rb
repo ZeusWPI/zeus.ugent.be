@@ -50,11 +50,11 @@ module PreprocessHelper
     end
   end
 
-  def update_bloch_attributes
-    @items.find_all('/bloch/**/*.md').each do |i|
+  def update_blog_attributes
+    @items.find_all('/blog/**/*.md').each do |i|
       raise "#{i.identifier} doesn't have 'created_at'" unless i[:created_at]
       i.update_attributes(
-        # Tag all posts with article (for Bloching helper)
+        # Tag all posts with article (for Blogging helper)
         kind: 'article',
         academic_year: i.identifier.to_s[/\d-\d/],
         created_at: Date.parse(i[:created_at])

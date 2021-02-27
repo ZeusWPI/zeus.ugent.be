@@ -4,7 +4,7 @@
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=desktop&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=desktop)
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=mobile&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=mobile)
 
-This repository contains the source code for [zeus.ugent.be](https://zeus.ugent.be), the website of Zeus WPI, the official student association of Informatics at Ghent University. The site is developed using [nanoc](https://github.com/nanoc/nanoc), which is actively developed by ex-Zeus member [ddfreyne](https://github.com/ddfreyne). The CSS framework used is [Bulma](https://bulma.io/). We primarily focus on using markdown for blochposts and events. Feel free to make a Pull Request with a bloch post if you feel inspired and need an outlet!
+This repository contains the source code for [zeus.ugent.be](https://zeus.ugent.be), the website of Zeus WPI, the official student association of Informatics at Ghent University. The site is developed using [nanoc](https://github.com/nanoc/nanoc), which is actively developed by ex-Zeus member [ddfreyne](https://github.com/ddfreyne). The CSS framework used is [Bulma](https://bulma.io/). We primarily focus on using markdown for blogposts and events. Feel free to make a Pull Request with a blog post if you feel inspired and need an outlet!
 
 Please check the [Wiki](https://github.com/ZeusWPI/zeus.ugent.be/wiki) for questions about structure.
 

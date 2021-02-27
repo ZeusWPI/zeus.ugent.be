@@ -8,7 +8,7 @@ gem 'kramdown'
 gem 'sassc'
 gem 'typogruby'
 
-# Needed for atom_feed in bloching helper
+# Needed for atom_feed in blogging helper
 gem 'builder'
 
 # Word counting gem (which takes special characters into account)
