@@ -2,7 +2,7 @@
 title: "Zeus gaat groen"
 created_at: 13-01-2020
 description: Milieu, klimaat en ons steentje
-author: Maxime Bloch
+author: Maxime Blog
 ---
 
 Milieu en klimaat zijn de laatste tijd een hot topic. Je ziet allerlei acties passeren, de politiek zit er vol van en tussen de studenten komt het ook steeds vaker naar boven. 

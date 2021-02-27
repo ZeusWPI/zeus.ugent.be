@@ -381,14 +381,14 @@ data:
       naam: Arne Bertrand
       mail: project@zeus.ugent.be
     - rol: Projecten
-      naam: Maxime Bloch
+      naam: Maxime Blog
       mail: project@zeus.ugent.be
     - rol: PR
       naam: Yasmine Bogaert
       mail: pr@zeus.ugent.be
   20-21:
     - rol: Voorzitter
-      naam: Maxime Bloch
+      naam: Maxime Blog
       mail: voorzitter@zeus.ugent.be
     - rol: Vicevoorzitter
       naam: Sammy Delanghe

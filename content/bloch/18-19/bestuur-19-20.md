@@ -11,7 +11,7 @@ Na een strijd tussen penningen en een staande ovatie die een minuut lang duurde 
 |----------------------------------------|--------------------------------|
 | Voorzitter                             | Robbe Van Herck                |
 | Vicevoorzitter                         | Arthur Vercruysse              |
-| Project                                | Arne Bertrand<br> Maxime Bloch |
+| Project                                | Arne Bertrand<br> Maxime Blog |
 | Communicatieverantwoordelijke/IO Monad | Yasmine Bogaert                |
 | Penningmeester                         | Timo De Waele                  |
 | Sysadmin                               | Jasper Devreker                |

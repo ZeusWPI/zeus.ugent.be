@@ -17,7 +17,7 @@ Voor iedereen die niet op de verkiezingen was of de uitslag vergeten is, hier ee
 
 | Functie        | Naam                   |
 |----------------|------------------------|
-| Voorzitter     | Maxime Bloch           |
+| Voorzitter     | Maxime Blog           |
 | Vicevoorzitter | Sammy Delanghe         |
 | Penningmeester | Pieter-Jan Cassiman    |
 | Sysadmin       | Jasper Devreker        |
