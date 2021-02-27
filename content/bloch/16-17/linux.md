@@ -9,7 +9,7 @@ toc:
 
 _Bij het begin van ieder schooljaar komt er een verse lading studenten Informatica toe. In de lessen Computergebruik maken ze kennis met de wondere wereld van GNU/Linux. Velen onder hen worden geprikkeld door de onontgonnen mysteries van dit besturingssysteem en groeien een verlangen om zich de kunst van het Unix-tovenaarschap eigen te maken._
 
-Deze blogpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
+Deze blochpost dient als een leidraad voor de dappersten onder hen: zij die het pad naar de verlossing willen bewandelen en een eigen Linux-installatie tot leven willen wekken.
 
 # Enkele tips voor je begint
 
@@ -47,7 +47,7 @@ Als je van plan bent een dual-boot te doen (Linux en Windows op één machine) m
 - Maak ruimte vrij op je harde schijf. Voor Linux is 20GB een goed begin. Als je zeker wilt zijn is 50GB zeker genoeg.
 - [Schakel fast startup uit](https://www.tenforums.com/tutorials/4189-fast-startup-turn-off-windows-10-a.html). Dit geeft op meerdere manieren problemen met Linux. Als je Windows-installatie op een SSD staat is het verschil in opstartsnelheid toch verwaarloosbaar.
 - [Stel je hardwaretijd in op UTC](https://wiki.archlinux.org/index.php/time#UTC_in_Windows).
-- **Secure Boot:** secure boot is een feature waarmee enkel "goedgekeurde" (gesigneerd door _Microsoft Windows_) bestanden op je harde schijf kunnen gebruikt worden als bootloader (verder in de blogpost geef ik wat meer uitleg over wat een bootloader precies is). Indien je Linux wil kunnen opstarten kan je secure boot uitschakelen. Dit is de simpelste oplossing, maar werkt niet altijd. Je kunt ook de bootloader in de UEFI toevoegen aan de lijst van vertrouwde bootloaders. Je zoekt best voor jouw specifieke machine op hoe je dit doet.
+- **Secure Boot:** secure boot is een feature waarmee enkel "goedgekeurde" (gesigneerd door _Microsoft Windows_) bestanden op je harde schijf kunnen gebruikt worden als bootloader (verder in de blochpost geef ik wat meer uitleg over wat een bootloader precies is). Indien je Linux wil kunnen opstarten kan je secure boot uitschakelen. Dit is de simpelste oplossing, maar werkt niet altijd. Je kunt ook de bootloader in de UEFI toevoegen aan de lijst van vertrouwde bootloaders. Je zoekt best voor jouw specifieke machine op hoe je dit doet.
 
 ## Neem backups
 

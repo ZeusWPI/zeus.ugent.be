@@ -37,9 +37,9 @@
           </div>
         </div>
       </div>
-      <!-- latest blogpost -->
+      <!-- latest blochpost -->
       <div class="tile is-6 is-parent">
-        <%= render '/partials/_blog_preview.*', post: sorted_articles.first %>
+        <%= render '/partials/_bloch_preview.*', post: sorted_articles.first %>
         </div>
     </div>
     <div class="tile">
@@ -53,7 +53,7 @@
       <div class="tile is-vertical">
       <% sorted_articles[1..3].each do |post| %>
         <div class="tile is-parent ">
-          <%= render '/partials/_blog_preview.*', post: post %>
+          <%= render '/partials/_bloch_preview.*', post: post %>
         </div>
       <%end%>
 
