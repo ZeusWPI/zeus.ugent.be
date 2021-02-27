@@ -16,7 +16,7 @@ include DataHelper
 include FontAwesomeHelper
 include ProjectsHelper
 include SearchHelper
-include BlogHelper
+include BlochHelper
 include PreprocessHelper
 include TimeHelper
 include TileHelper

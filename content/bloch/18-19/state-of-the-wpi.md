@@ -79,7 +79,7 @@ Naast deze talrijke evenementen hebben we ook nog een paar projecten draaiend ge
 
 ### G2
 
-Wat begon als een idee van een paar eerstejaars op een septemberavond draaide dit jaar uit tot een echt beginnend project. We willen ervoor zorgen dat onze leden een "gateway" hebben tot de Zeusprojecten. G2 is hiervoor uitgedacht en opgesteld. Veel beter dan [deze blogpost](https://zeus.gent/blog/18-19/g2_blogpost/) ga ik het niet uitgelegd krijgen, dus kijk daar zeker eens naar!
+Wat begon als een idee van een paar eerstejaars op een septemberavond draaide dit jaar uit tot een echt beginnend project. We willen ervoor zorgen dat onze leden een "gateway" hebben tot de Zeusprojecten. G2 is hiervoor uitgedacht en opgesteld. Veel beter dan [deze blochpost](https://zeus.gent/bloch/18-19/g2_blochpost/) ga ik het niet uitgelegd krijgen, dus kijk daar zeker eens naar!
 
 ### Cat
 

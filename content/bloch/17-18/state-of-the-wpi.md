@@ -7,9 +7,9 @@ description: Een terugblik op het jaar 2017-2018 in Zeus WPI.
 
 Beste Zeusers, Zeusinnen en andere organismen
 
-Ook tijdens de vakantie zit Zeus niet stil: tussen de [wekelijkse codenights in](/blog/17-18/codenights/) is een vers Zeus-bestuur uit de startblokken geschoten om het academiejaar 2018-2019 vorm te geven. Het belooft een interessant nieuw werkingsjaar te worden. Een [enthousiaste ploeg](/blog/17-18/bestuur-18-19), bestaande uit drie jonge enthousiastelingen die worden gecompenseerd door evenveel oude rotten die hun broek al meerdere jaren in Zeus versleten hebben, ziet het 27ste werkingsjaar al helemaal zitten.
+Ook tijdens de vakantie zit Zeus niet stil: tussen de [wekelijkse codenights in](/bloch/17-18/codenights/) is een vers Zeus-bestuur uit de startblokken geschoten om het academiejaar 2018-2019 vorm te geven. Het belooft een interessant nieuw werkingsjaar te worden. Een [enthousiaste ploeg](/bloch/17-18/bestuur-18-19), bestaande uit drie jonge enthousiastelingen die worden gecompenseerd door evenveel oude rotten die hun broek al meerdere jaren in Zeus versleten hebben, ziet het 27ste werkingsjaar al helemaal zitten.
 
-Dit jaar werd het idee geopperd om via dit soort blogposts iedereen die Zeus nauw in het hart draagt up-to-date te houden met wat er momenteel leeft binnen Zeus. Bij deze maak ik gebruik van de komkommertijd om het afgelopen jaar van onze vereniging in kaart te brengen. Dit wordt een korte samenvatting van de projecten, evenementen en andere fratsen die we met Zeus allen samen beleefd hebben. Tot slot geef ik een klein voorproefje van wat we voor volgend jaar in petto hebben.
+Dit jaar werd het idee geopperd om via dit soort blochposts iedereen die Zeus nauw in het hart draagt up-to-date te houden met wat er momenteel leeft binnen Zeus. Bij deze maak ik gebruik van de komkommertijd om het afgelopen jaar van onze vereniging in kaart te brengen. Dit wordt een korte samenvatting van de projecten, evenementen en andere fratsen die we met Zeus allen samen beleefd hebben. Tot slot geef ik een klein voorproefje van wat we voor volgend jaar in petto hebben.
 
 # Projecten
 
@@ -21,7 +21,7 @@ Op kop staat **MOZAIC**, ons in-house framework om programmeerwedstrijden in all
 
 Verder staan de ideeën voor **G2** (uitgesproken als _geetwee_) klaar om volgend jaar van start te gaan. Dit wordt [Gamification](https://zeus.ugent.be/game) 2.0 die de _gateway_ gaat worden naar onze projectwerking door het makkelijker te maken om aan een project mee te werken en de organisatie (issues, documentatie, ...) zal stroomlijnen.
 
-Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (weldra [zeus.gent](https://zeus.gent)) wordt nog altijd onderhouden en regelmatig verschijnen er nieuwe events en blogposts. Aan **Hydra** (dé app voor de UGent-student) wordt ook nog altijd gesleuteld, o.a. de integratie met Minerva wordt steeds beter en beter. De _"Choose for me"_-knop is de nieuwste killer-feature van **Haldis** (ons eetbestelsysteem) geworden en de _[frecency](https://en.wikipedia.org/wiki/Frecency)_ van **Tap** (ons drankbestelsysteem) werd gefixed.
+Tal van andere projecten zijn ook nog steeds springlevend: **zeus.ugent.be** (weldra [zeus.gent](https://zeus.gent)) wordt nog altijd onderhouden en regelmatig verschijnen er nieuwe events en blochposts. Aan **Hydra** (dé app voor de UGent-student) wordt ook nog altijd gesleuteld, o.a. de integratie met Minerva wordt steeds beter en beter. De _"Choose for me"_-knop is de nieuwste killer-feature van **Haldis** (ons eetbestelsysteem) geworden en de _[frecency](https://en.wikipedia.org/wiki/Frecency)_ van **Tap** (ons drankbestelsysteem) werd gefixed.
 
 # Events
 

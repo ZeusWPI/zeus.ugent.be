@@ -15,4 +15,4 @@ Deze introductie vindt plaats in de **Jozef Plateauzaal in de Plateau en begint 
 
 Ben je zelf een mentor of heb je ooit meegedaan aan GSoC? En ben je geïnteresseerd om je project voor te stellen of ervaringen te delen op deze avond? [Laat het ons weten](https://zeus.ugent.be/contact/ "Contact")!
 
-De activiteit is inmiddels afgelopen. Een blogpost over deze avond is [hier](https://ruleant.blogspot.be/2014/03/google-summer-of-code-2014-meetup-at.html) te vinden!
+De activiteit is inmiddels afgelopen. Een blochpost over deze avond is [hier](https://ruleant.blogspot.be/2014/03/google-summer-of-code-2014-meetup-at.html) te vinden!

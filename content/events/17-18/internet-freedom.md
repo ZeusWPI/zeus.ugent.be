@@ -12,7 +12,7 @@ gradient: false
 image: 'https://zeus.ugent.be/zeuswpi/Ow2Lrgdx.svg'
 ---
 
-This event is part of the [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].path %>), a collaboration between the two student associations Zeus WPI and CenEka.
+This event is part of the [TeCH TalkZ](<%= @items['/bloch/17-18/tech-talkz.md'].path %>), a collaboration between the two student associations Zeus WPI and CenEka.
 
 # Our Freedom At Stake
 

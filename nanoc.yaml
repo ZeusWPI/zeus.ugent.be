@@ -114,7 +114,7 @@ checks:
     # A list of file patterns, specified as regular expressions, to exclude from the check.
     # If a file matches this pattern, the links from this file will not be checked.
     # E.g.:
-    #   exclude_files: ['blog/page']
+    #   exclude_files: ['bloch/page']
     exclude_files: []
 
 deploy:

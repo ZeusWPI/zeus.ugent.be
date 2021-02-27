@@ -16,4 +16,4 @@ Tot slot wordt er in KeRS gebruik gemaakt van geautomatiseerde besluitvorming.
 Indien er meer gebruikers ingeschreven zijn voor een evenement dan dat er aanwezigen kunnen zijn in de kelder, zal aan de hand van een metriek op geautomatiseerde wijze bepaald worden wie voorrang krijgen bij het inschrijven voor dat evenement.
 Dit is noodzakelijk om elke gebruiker de kans te geven aanwezig te kunnen zijn in de kelder van Zeus.
 De exacte metriek is te vinden in de broncode van de applicatie en ligt niet vast: deze kan gewijzigd worden om de eerlijkheid van de selectie te bevorderen.
-Meer informatie en context vindt u in [deze blogpost](https://zeus.ugent.be/blog/20-21/wij-coden-voort/).
+Meer informatie en context vindt u in [deze blochpost](https://zeus.ugent.be/bloch/20-21/wij-coden-voort/).
