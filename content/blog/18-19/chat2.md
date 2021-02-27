@@ -9,7 +9,7 @@ Laat ons de **tl;dr** eerst geven: vanaf nu is [Mattermost](https://mattermost.z
 
 # Waarom veranderen?
 
-In het begin van de vakantie hebben we al een [blochpost](/bloch/18-19/chat/) gemaakt waarin we zeggen waarom we willen afstappen van ons huidig chatplatform. De grote tekortkomingen waren, kort samengevat:
+In het begin van de vakantie hebben we al een [blogpost](/blog/18-19/chat/) gemaakt waarin we zeggen waarom we willen afstappen van ons huidig chatplatform. De grote tekortkomingen waren, kort samengevat:
 
 - Een gebrek aan backlog: je kunt enkel de laatste 10.000 berichten bekijken
 - Een gebrek aan 'hackbaarheid': Slack is closed-source en niet self-hosted, dus wij hangen voor 100% af van het bedrijf achter Slack. Op de gratis versie is het aantal integraties ook beperkt, waardoor we zelf geen nieuwe coole features konden toevoegen.
@@ -26,7 +26,7 @@ In combinatie met de openheid van de software lijkt Mattermost uiteindelijk een 
 
 Uit de rondvraag bleek ook dat uit de "open" applicaties, de meeste leden Mattermost zien als een geschikt alternatief. Van andere organisaties hebben we ook gehoord dat die tevreden zijn van Mattermost.
 
-<%= figure 'https://zeus.ugent.be/zeuswpi/1xQrObwH.png', 'De resultaten van de poll uit onze vorige blochpost, per deelnemer waren meerdere antwoorden mogelijk. Hoewel Slack het meeste stemmen heeft, maakt de vrijheid die we krijgen bij Mattermost de #1 van het bestuur.' %>
+<%= figure 'https://zeus.ugent.be/zeuswpi/1xQrObwH.png', 'De resultaten van de poll uit onze vorige blogpost, per deelnemer waren meerdere antwoorden mogelijk. Hoewel Slack het meeste stemmen heeft, maakt de vrijheid die we krijgen bij Mattermost de #1 van het bestuur.' %>
 
 # Wat gebeurt er met Slack?
 

@@ -9,7 +9,7 @@ locationlink: 'Faculteit Ingenieurswetenschappen en Architectuur'
 facebook: 'https://www.facebook.com/events/313118845828839/'
 ---
 
-Dit is de eerste talk van de [TeCH TalkZ](<%= @items['/bloch/17-18/tech-talkz.md'].path %>) georganiseerd door Zeus WPI en CenEka.
+Dit is de eerste talk van de [TeCH TalkZ](<%= @items['/blog/17-18/tech-talkz.md'].path %>) georganiseerd door Zeus WPI en CenEka.
 
 # Nanopixel
 

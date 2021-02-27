@@ -7,7 +7,7 @@ author: Wout Schellaert
 
 Hallo Zeus-leden
 
-In deze blochpost vatten we samen wat er binnen Zeus gedacht en gezegd wordt over chatplatformen. Wat er belangrijk is, wat er mis gaat, en wat de andere opties zijn. We polsen hierbij ook graag naar jullie mening over deze zaken (zie verder). Maar goed, let's go.
+In deze blogpost vatten we samen wat er binnen Zeus gedacht en gezegd wordt over chatplatformen. Wat er belangrijk is, wat er mis gaat, en wat de andere opties zijn. We polsen hierbij ook graag naar jullie mening over deze zaken (zie verder). Maar goed, let's go.
 
 Eerst wat context: Zeus publiceert updates via de website, Facebook en de mailinglijst, maar de meeste _gesprekken_ worden gevoerd op de chat, op Slack. Toen ik lid werd (ondertussen toch vier jaar geleden) was IRC al dood (hier toch), en Slack heeft de voorbije jaren trouw aan onze noden voldaan.
 
@@ -34,7 +34,7 @@ De vraag is dus:
 
 > Is er een ander (open) platform waarmee deze problemen op te lossen zijn?
 
-Het huidig Zeus-bestuur denkt alvast van wel. We zijn ons bewust van het gemak van Slack, maar we proberen ook een oog te hebben voor de principes van Zeus. De mate waarin pragmatisch met deze principes omgesprongen wordt is door de jaren heen natuurlijk variabel geweest en hangt sterk af van context en alternatieven. Nu zijn we schijnbaar op een punt gekomen dat die coole, open en hackable alternatieven er zijn. We zijn vooral aan het kijken naar [Matrix](https://matrix.org/bloch/home/), [RocketChat](https://rocket.chat/) en [Zulip](https://zulipchat.com/), maar andere suggesties zijn zeker welkom.
+Het huidig Zeus-bestuur denkt alvast van wel. We zijn ons bewust van het gemak van Slack, maar we proberen ook een oog te hebben voor de principes van Zeus. De mate waarin pragmatisch met deze principes omgesprongen wordt is door de jaren heen natuurlijk variabel geweest en hangt sterk af van context en alternatieven. Nu zijn we schijnbaar op een punt gekomen dat die coole, open en hackable alternatieven er zijn. We zijn vooral aan het kijken naar [Matrix](https://matrix.org/blog/home/), [RocketChat](https://rocket.chat/) en [Zulip](https://zulipchat.com/), maar andere suggesties zijn zeker welkom.
 
 Omdat Zeus meer is dan zijn bestuur, polsen (!= stemmen) we toch eens graag naar jullie mening. We hebben bijvoorbeeld een bovengemiddelde alumni-werking en veel van onze 'ouwe zakken' blijven actief in communicatie met de nieuwere generaties. Bij deze dan ook een kleine [poll](https://docs.google.com/forms/d/e/1FAIpQLSfbkIWCUp3-QiyttC4nY-nv-YMmajG94o71K04RlDhyyhIZwA/viewform).
 

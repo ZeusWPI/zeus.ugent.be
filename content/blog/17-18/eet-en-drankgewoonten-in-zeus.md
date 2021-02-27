@@ -11,11 +11,11 @@ toc:
 
 # Introductie
 
-Deze blochpost en de bijhorende visualisaties zijn gemaakt in functie van het vak Datavisualisatie, gegeven door Bart Mesuere.
+Deze blogpost en de bijhorende visualisaties zijn gemaakt in functie van het vak Datavisualisatie, gegeven door Bart Mesuere.
 In dit vak kregen we de opdracht om een dataset te kiezen en die te visualizeren. Het was natuurlijk een
 no-brainer om de data die we al een aantal jaar aan het vergaren zijn van [Haldis](https://zeus.ugent.be/haldis) en [Tap](https://zeus.ugent.be/tap) te gebruiken.
 
-Als je geïnteresseerd genoeg bent in het lezen van deze blochpost, ben je hoogstwaarschijnlijk geïnformeerd genoeg om te weten
+Als je geïnteresseerd genoeg bent in het lezen van deze blogpost, ben je hoogstwaarschijnlijk geïnformeerd genoeg om te weten
 wat Haldis, Tap en Tab zijn, maar voor de ongeïnitieerden volgt een korte uitleg.
 
 ## Haldis
@@ -145,10 +145,10 @@ Hier kunnen we verschillende statistieken van Haldis en Tap met elkaar vergelijk
 <%= asset :js, 'datavis/punchcard' %>
 <%= asset :js, 'datavis/rankingChart' %>
 <%= asset :js, 'datavis/instanceChart' %>
-<%= asset :js, 'datavis/bloch' %>
+<%= asset :js, 'datavis/blog' %>
 <%= asset :js, 'datavis/script2' %>
 <%= asset :js, 'datavis/scriptlo' %>
 <% end %>
 
 <%= asset :css, 'datavis/style' %>
-<%= asset :css, 'datavis/bloch' %>
+<%= asset :css, 'datavis/blog' %>
