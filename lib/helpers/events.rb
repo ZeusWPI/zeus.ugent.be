@@ -65,8 +65,8 @@ module EventsHelper
     @items.find_all('/events/*/*/main.md')
   end
 
-  def front_page_events
-    upcoming_events + all_events.reverse[(upcoming_events.length)..]
+  def previous_events
+    all_events.reverse[(upcoming_events.length)..]
   end
 
   def sub_events(grouped_event)

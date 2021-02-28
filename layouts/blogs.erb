@@ -42,13 +42,7 @@
   <div class="column">
     <div class="columns is-multiline">
       <div class="column">
-      <% posts_in_year_or_with_tag(item).each_with_index.select {|e, i| i.even?}.map(&:first).each do |post| %>
-        <%= render '/partials/_blog_preview.*', post: post %>
-      <% end %>
-      </div>
-
-      <div class="column">
-      <% posts_in_year_or_with_tag(item).each_with_index.reject {|e, i| i.even?}.map(&:first).each do |post| %>
+      <% posts_in_year_or_with_tag(item).each do |post| %>
         <%= render '/partials/_blog_preview.*', post: post %>
       <% end %>
       </div>
