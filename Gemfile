@@ -22,6 +22,7 @@ group :development do
   gem 'highline'
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard'
+  gem 'nanoc-live'
 end
 
 group :production do
