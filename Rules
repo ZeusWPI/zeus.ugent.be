@@ -4,6 +4,7 @@
 require 'json'
 require 'icalendar'
 
+
 # Important!!!
 # First ignore the node_modules, we do not need any of it on the site directly.
 ignore '/node_modules/**/*'
@@ -103,7 +104,7 @@ end
 compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
-  filter :kramdown
+  filter :kramdown, {math_engine: :katex}
   filter :typogruby
 
   layout '/blogpost.erb'
