@@ -24,6 +24,6 @@ PlanetWars is een programmeerspelletje gemaakt voor en door zeusers, waarbij je 
 
 We zullen een aantal avonden samenkomen om aan onze bots te coden en wat matches te spelen. Voor deze editie zullen we onze nieuwe gameserver gebruiken, waarmee we in real-time over het internet spelletjes kunnen spelen. Ideaal voor deze pandemie-editie!
 
-Een basiskennis python zou moeten volstaan om deel te nemen. We voorzien een starterpack met een voorbeeldbot om mee te beginnen, simplebot. Voel je zeker niet geintimideerd, we helpen je graag verder.
+Een basiskennis python zou moeten volstaan om deel te nemen. We voorzien een starterpack met een voorbeeldbot om mee te beginnen, [simplebot](https://github.com/ZeusWPI/planetwars-starterpack/blob/main/simple.py). Voel je zeker niet geintimideerd, we helpen je graag verder.
 
 Dus: PlanetWars 2021 kickoff, deze zaterdag 06/03 vanaf 20h in de [ZeusDiscord](https://discord.gg/tsK2BRCJ2w)!
