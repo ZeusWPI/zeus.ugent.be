@@ -2,7 +2,7 @@
 title: PlanetWars 2021
 description: De start van PlanetWars 2021
 created_at: 02-03-2021
-time: '06-03-2021 19:00'
+time: '06-03-2021 20:00'
 end: '06-03-2021 23:30'
 location: 'Discord'
 banner: 'https://zeus.ugent.be/zeuswpi/kuDGG1-5.png'
