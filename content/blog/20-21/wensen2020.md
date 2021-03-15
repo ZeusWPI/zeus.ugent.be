@@ -4,6 +4,8 @@ created_at: 19-12-2020
 description: "virtuele knuffels voor iedereen <3"
 author: "Ruben De Facq"
 tags:
+  - Pannenkoeken
+  - Eindejaar
 ---
 Liefste Zeusjes,
 
