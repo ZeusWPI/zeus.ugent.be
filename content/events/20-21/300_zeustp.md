@@ -1,8 +1,8 @@
 ---
 title: ZeusTP
-image: 
+image:
 banner:
-description: Een HTTPizza spinoff waarbij we nog een laagje dieper de netwerk stack induiken.
+description: Een HTTPizza spinoff waarbij we nog een laagje dieper de network stack induiken.
 created_at: 11-10-2020
 time: 01-01-2022
 location: Auditorium A0, S9
