@@ -1,7 +1,7 @@
 ---
 title: Game Night
-image: https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/231/among-us-player-red-512.png
-banner: https://britgamer.s3.eu-west-1.amazonaws.com/styles/full_width_image/s3/2020-09/among-us-banner.jpg?itok=63IbKahh
+image: https://zeus.ugent.be/zeuswpi/MQ_UkZ-O.webp
+banner: https://zeus.ugent.be/zeuswpi/i4EpfEkZ.jpg
 description: Among us Edition
 created_at: 20-03-2021
 time: 20-03-2021 20:00
