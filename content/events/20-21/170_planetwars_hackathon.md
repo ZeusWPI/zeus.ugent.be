@@ -2,14 +2,14 @@
 title: PlanetWars 2021.2
 description: PlanetWars 2021 continued
 created_at: 02-03-2021
-time: '19-03-2021 20:00'
-end: '19-03-2021 23:30'
-location: 'online'
-banner: 'https://zeus.ugent.be/zeuswpi/kuDGG1-5.png'
+time: 19-03-2021 20:00
+end: 19-03-2021 23:30
+location: "online"
+banner: "https://zeus.ugent.be/zeuswpi/kuDGG1-5.png"
 header_text_background: true
-header_text_background_color: 'rgba(8, 22, 38, 0.8)'
+header_text_background_color: "rgba(8, 22, 38, 0.8)"
 tags:
-    - Code Hacking
+  - Code Hacking
 ---
 
 # PlanetWars 2021

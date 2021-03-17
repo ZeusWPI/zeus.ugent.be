@@ -4,7 +4,8 @@ image: https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/231/among-u
 banner: https://britgamer.s3.eu-west-1.amazonaws.com/styles/full_width_image/s3/2020-09/among-us-banner.jpg?itok=63IbKahh
 description: Among us Edition
 created_at: 20-03-2021
-time: "20-03-2021 20:00"
+time: 20-03-2021 20:00
+end: 20-03-2021 23:30
 location: online
 header_text_background: true
 tags:

@@ -2,7 +2,8 @@
 title: Movie Night
 description: Een Zeus Movie Night!
 created_at: 02-03-2021
-time: "25-03-2021 20:00"
+time: 25-03-2021 20:00
+end: 25-03-2021 23:00
 location: "Discord"
 banner: "https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg"
 header_text_background: true
