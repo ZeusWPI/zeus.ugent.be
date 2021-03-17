@@ -1,6 +1,6 @@
 ---
-title: Movienight
-description: Een Zeus Movienight!
+title: Movie Night
+description: Een Zeus Movie Night!
 created_at: 02-03-2021
 time: "25-03-2021 20:00"
 location: "Discord"
@@ -8,7 +8,7 @@ banner: "https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg"
 header_text_background: true
 ---
 
-# Zeus Movienight
+# Zeus Movie Night
 
 Op **25 maart** organiseert Zeus een tweede filmavond na het denderende success van de vorige vertoning. Dit zal opnieuw doorgaan op de Zeus [Discord](https://discord.gg/qWAPHbE) vanaf **20u**. De film die we bekijken? Daar kan je zelf mee in beslissen! Ga naar de [Zeus Mattermost](https://mattermost.zeus.gent) en stem op de film die je graag zou willen bekijken in de poll die is gepost in ~zeus-announcements. Zondagavond (21/03) wordt de poll gesloten en de filmkeuze gemaakt.
 
