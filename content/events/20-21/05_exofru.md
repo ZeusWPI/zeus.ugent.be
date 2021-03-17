@@ -2,17 +2,18 @@
 title: Esoterische kennismakings-avond
 description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen
 created_at: 17-09-2020
-time: '28-10-2020 18:00'
-end: '28-10-2020 22:30'
-location: 'Auditorium A0 & A1, Gebouw S9, Campus Sterre'
+time: "28-10-2020 18:00"
+end: "28-10-2020 22:30"
+location: "Auditorium A0 & A1, Gebouw S9, Campus Sterre"
 locationlink: $s9
 facebook: //www.facebook.com/events/434910217479925/
 banner: //zeus.ugent.be/zeuswpi/7k6hvPJw.webp
 image: //zeus.ugent.be/zeuswpi/a28GvLuO.png
 header_text_background: true
-header_text_background_color: 'rgba(80, 50, 80, 0.75)'
+header_text_background_color: "rgba(80, 50, 80, 0.75)"
 tags:
-    - Esoterisch
+  - Esoterisch
+  - Code Hacking
 ---
 
 UPDATE: datum veranderd naar 28 oktober!

@@ -2,12 +2,14 @@
 title: Hashcode
 description: Zeus organiseert een UGent Hashcode Hub
 created_at: 14-02-2021
-time: '25-02-2021 18:30'
-end: '25-02-2021 23:00'
-location: 'Discord'
-banner: 'https://hashcode.withgoogle.com/resources/images/hero_2.jpg'
-image: 'https://zeus.ugent.be/zeuswpi/I9GAh7iy.png'
+time: "25-02-2021 18:30"
+end: "25-02-2021 23:00"
+location: "Discord"
+banner: "https://hashcode.withgoogle.com/resources/images/hero_2.jpg"
+image: "https://zeus.ugent.be/zeuswpi/I9GAh7iy.png"
 header_text_background: true
+tags:
+  - Code Hacking
 ---
 
 # Google Hashcode
