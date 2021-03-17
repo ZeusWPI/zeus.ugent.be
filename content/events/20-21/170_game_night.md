@@ -14,7 +14,7 @@ tags:
 
 Zaterdag 20 maart organiseren we nog een Zeus game-avond!
 
-We gaan alvast zeker Amog Us (modded) spelen, maar voor de rest ben je vrij samen gelijk welke games te spelen.
+We gaan alvast zeker Among Us (modded) spelen, maar voor de rest ben je vrij samen gelijk welke games te spelen.
 
 Vanuit Zeus hosten we op dit moment ook _Factorio_ en _Valhelsia 3 (modded minecraft)_.
 
