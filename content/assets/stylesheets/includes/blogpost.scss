@@ -12,7 +12,6 @@
   .titlewrap {
     position: relative;
     margin: auto;
-    min-width: 400px;
 
     .title {
       @include tablet {
@@ -66,20 +65,10 @@
 }
 
 .blog-preview {
-  .blogpreview-heading {
-    display: flex;
-    > a {
-      flex-grow: 1;
-      margin-bottom: 0;
-      display: inline-block;
-    }
-  }
-  > .blogpreview-extra {
+  .blogpreview-extra {
     color: #7a7a7a;
-    display: inline-block;
-    margin-bottom: 5px;
   }
-  > .blogpreview-tags {
+  .blogpreview-tags {
     color: #7a7a7a;
   }
 }

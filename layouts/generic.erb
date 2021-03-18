@@ -7,8 +7,8 @@
     <% if item[:subnavigation] %>
     <%= render '/partials/_sub_navbar.*', selected: item[:subnavigation][:identifier] %>
     <% end %>
-    <div class="columns">
-      <article class="column is-8 is-offset-2 <%= 'toc-container' if @item[:toc] %>">
+    <div class="columns is-centered">
+      <article class="column is-8 <%= 'toc-container' if @item[:toc] %>">
     <% end %>
 
     <%= yield %>
