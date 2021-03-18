@@ -13,7 +13,7 @@ subnavigation:
   <% if current_sponsoring_members.nil? %>
     Nog geen sponsorende leden voor dit academiejaar. Interesse? Contacteer het bestuur.
   <% else %>
-    <% current_sponsoring_members.each do |member| %>
+    <% current_sponsoring_members.shuffle.each do |member| %>
       <div id="<%= member[:nickname] %>" class="box sponsoring-member">
         <article class="columns is-mobile">
           <div class="column is-gapless is-narrow logo-wrapper">

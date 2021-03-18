@@ -4,6 +4,8 @@ title: "Het vervolg op het avontuur van de Vleor"
 created_at: 07-07-2020
 description: Eindelijk, de Zeuskelder heeft weer een nieuwe vloer!
 toc: true
+tags:
+  - vloer
 ---
 
 **vleor** (_de; m;_ meervoud: _vleoren_)

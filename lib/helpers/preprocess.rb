@@ -56,6 +56,7 @@ module PreprocessHelper
         # Tag all posts with article (for Blogging helper)
         kind: 'article',
         academic_year: i.identifier.to_s[/\d\d-\d\d/],
+        created_at: Date.parse(i[:created_at])
       )
     end
   end
@@ -70,7 +71,7 @@ module PreprocessHelper
     years.each do |year|
       @items.create(
         '',
-        { academic_year: year, title: type },
+        { academic_year: year, title: type, is_yearly: true },
         "/#{type.downcase}/#{year}.html"
       )
     end
@@ -80,6 +81,21 @@ module PreprocessHelper
       navigable: true,
       order: 10
     )
+  end
+
+  def create_tagly_items(type)
+    type = type.to_s
+    tags = @items.find_all("/#{type.downcase}/*/*")
+      .flat_map { |i| i[:tags] || [] }
+      .uniq
+
+    tags.each do |tag|
+      @items.create(
+        '',
+        { tag: tag, title: type, is_yearly: false },
+        "/#{type.downcase}/#{tag.gsub(' ', '_')}.html"
+      )
+    end
   end
 
   def convert_event_time_to_timestamps

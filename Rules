@@ -4,6 +4,7 @@
 require 'json'
 require 'icalendar'
 
+
 # Important!!!
 # First ignore the node_modules, we do not need any of it on the site directly.
 ignore '/node_modules/**/*'
@@ -24,6 +25,8 @@ preprocess do
   update_blog_attributes
   create_yearly_items('Blog')
   create_yearly_items('Events')
+  create_tagly_items('Blog')
+  create_tagly_items('Events')
   convert_event_time_to_timestamps
 
   all_events.each do |event|
@@ -101,7 +104,7 @@ end
 compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
-  filter :kramdown
+  filter :kramdown, {math_engine: :katex}
   filter :typogruby
 
   layout '/blogpost.erb'
@@ -158,7 +161,7 @@ end
 
 # Note drive/verslagen is 'linked' as a data source to /about/verslagen/
 compile '/about/verslagen/*/*.md', rep: :pdf do
-  filter :pandoc_pdf, args: { f: :markdown, :'pdf-engine' => 'xelatex' } if production?
+  filter :pandoc_pdf, args: { f: :markdown, 'pdf-engine': 'xelatex', template: 'templates/report.tex' } if production?
   write ext: (production? ? 'pdf' : 'md')
 end
 
@@ -195,10 +198,13 @@ compile '/assets/scripts/**/*.js' do
   filter :uglify_js, harmony: true if production?
 end
 
-ignore '/assets/stylesheets/includes/**/*'
 ignore '/data/**/*'
 
+ignore '/assets/stylesheets/includes/**/*'
 compile '/assets/stylesheets/**/*.scss' do
+  # This filter is necessary for the workaround present in main.scss and deals with out of date dependencies
+  filter :erb
+
   sass_opts = {
     syntax: :scss,
     load_paths: ['content/assets/stylesheets']
@@ -233,6 +239,10 @@ end
 
 route '/**/*.{erb,html,md}' do
   "#{item.identifier.without_ext}/index.html"
+end
+
+route %r[/well-known/(.+)] do |rest|
+  "/.well-known/" + rest[0]
 end
 
 # Let anything else simply pass through

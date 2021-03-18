@@ -1,15 +1,14 @@
+/* KEEP THIS VVVV */
+/* HACK The following line of code does nothing. It only serves as a way for nanoc to recognize dependencies with all the sub scss files */
+// <% @items.find_all('/assets/stylesheets/includes/*').each {|e| e.raw_content } %>
+/* KEEP THIS ^^^^ */
+
 @import "includes/variables";
 
 @import "node_modules/bulma/bulma";
 @import "node_modules/bulma-divider/dist/css/bulma-divider";
 @import "node_modules/bulma-timeline/dist/css/bulma-timeline";
 
-// TODO: Remove this once FF64.0b2+ fixes this fustercluck
-@-moz-document url-prefix() {
-  .tile {
-    min-height: auto;
-  }
-}
 
 // Sticky footer
 body {

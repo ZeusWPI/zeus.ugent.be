@@ -1,5 +1,5 @@
 # zeus.ugent.be
-[![Build Status](https://travis-ci.org/ZeusWPI/zeus.ugent.be.svg?branch=master)](https://travis-ci.org/ZeusWPI/zeus.ugent.be)
+[![Build Status](https://api.travis-ci.com/ZeusWPI/zeus.ugent.be.svg?branch=master)](https://travis-ci.com/github/ZeusWPI/zeus.ugent.be)
 [![Code Climate](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be.png)](https://codeclimate.com/github/ZeusWPI/zeus.ugent.be)
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=desktop&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=desktop)
 [![PageSpeed](https://pagespeed-badges.herokuapp.com/?url=zeus.ugent.be&strat=mobile&showStratLabel=true)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fzeus.ugent.be&tab=mobile)
@@ -61,7 +61,7 @@ For manual deployment, run
 
 ```bash
 # Build the site for production
-bundle exec nanon --env=prod
+bundle exec nanoc --env=prod
 
 # Run checks
 bundle exec nanoc --env=prod check --deploy
@@ -71,6 +71,10 @@ bundle exec nanoc deploy --target public --env=prod
 ```
 
 If you want to deploy this on your own system for whatever reason, just serve the files using a webserver like nginx or Apache.
+
+## Uploading media files
+
+Before using mediafiles on the site, upload them via https://zeus.ugent.be/zeuswpi/, our own custom [uploading service](https://github.com/ZeusWPI/ZeusWPI). You'll receive the server-filename which is available at the aforementioned url.
 
 ## Submitting a Pull Request
 

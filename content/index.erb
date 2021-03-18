@@ -1,62 +1,100 @@
 <% content_for :head do %>
-<META NAME="Title" CONTENT="Zeus WPI: Werkgroep informatica van de Universiteit Gent">
-<META NAME="Keywords" CONTENT="zeus wpi, informatica, universiteit gent">
-<META NAME="Description" CONTENT="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging.">
-<meta property="og:title" content="Zeus WPI: WerkgroeP Informatica van de Universiteit Gent" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://zinc.zeus.gent" />
-<meta property="og:description" content="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging." />
+  <META NAME="Title" CONTENT="Zeus WPI: Werkgroep informatica van de Universiteit Gent">
+  <META NAME="Keywords" CONTENT="zeus wpi, informatica, universiteit gent">
+  <META NAME="Description" CONTENT="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging.">
+  <meta property="og:title" content="Zeus WPI: WerkgroeP Informatica van de Universiteit Gent" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://zinc.zeus.gent" />
+  <meta property="og:description" content="Studentenvereniging van de informatica aan de Universiteit Gent. Informatie over o.a. Linux (downloads en lessen), programmeren, en internetbeveiliging." />
 <% end %>
 
 <% content_for :scripts do %>
-<%= asset :js, :gamification %>
+  <%= asset :js, :gamification %>
 <% end %>
 
 <div id="homepage">
   <div class="tile is-vertical is-ancestor">
-    <%= if studytime? then render '/tiles/blokmap.*'end %>
+    <% if studytime? %>
+      <%= render '/tiles/blokmap.*' %>
+    <% end %>
     <!--next event -->
     <div class="tile is-parent">
-      <%= render '/partials/_events_tile.*', event: front_page_events[0] %>
+      <div class="tile is-child">
+        <div class="block has-text-centered">
+          <span class="title is-2 underline--magical">Upcoming Events</span>
+        </div>
+        <% unless upcoming_events.empty? %>
+          <% upcoming_events.each do |event| %>
+            <div class="block">
+              <%= render '/partials/_events_tile.*', event: event %>
+            </div>
+          <% end %>
+        <% else %>
+          <div class="block content has-text-centered">
+            There are currently no upcoming events. If you have a suggestion, let us know on mattermost in <a href="https://mattermost.zeus.gent/zeus/channels/events">~events</a>!
+            <hr>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="tile">
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <div class="block has-text-centered">
+            <span class="title is-2 underline--magical">Top Coders</span>
+          </div>
+          <div class="box gamification-tile">
+            <div class="content">
+              <div class="tile-header">
+                <h1 class="has-text-centered">
+                  <a href="https://zeus.ugent.be/game">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                  </a>
+                </h1>
+              </div>
+              <div id="gamification-coders" >
+                <!-- EMPTY -->
+              </div>
+            </div>
+          </div>
+
+
+          <div class="block has-text-centered">
+            <span class="title is-2 underline--magical">Previous Events</span>
+          </div>
+          <% previous_events[0..3].each do |event| %>
+            <div class="block">
+              <%= render '/partials/_events_tile.*', event: event %>
+            </div>
+          <%end%>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <div class='content has-text-centered box'>
+            <h2>About Zeus WPI</h2>
+            <p>
+            Zeus WPI is the student association for Computer Science at Ghent University. Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+            </p>
+
+            <p>
+            We organize various tech related talks by experts (eg. professors, PhD's, Richard Stallman, Julia Reda, ...), hands-on coding events and introductory lectures for cool technologies. Together we build interesting applications for Ghent University students (Hydra), for FaculteitenKonvent and 12urenloop, and ofcourse for ourselves. 
+            </p>
+          </div>
+          <div class="block has-text-centered">
+            <span class="title is-2 underline--magical">Blogposts</span>
+          </div>
+          <% sorted_articles[0..3].each do |post| %>
+            <%= render '/partials/_blog_preview.*', post: post %>
+          <%end%>
+        </div>
+      </div>
     </div>
     <div class="tile">
       <!--top coders -->
-      <div class="tile is-parent is-6">
-        <div class="tile is-child box gamification-tile">
-          <div class="content">
-            <div class="tile-header">
-              <h1 class="has-text-centered">
-                <a href="https://zeus.ugent.be/game">
-                  <i class="fa fa-trophy" aria-hidden="true"></i>
-                </a>
-              </h1>
-            </div>
-            <div id="gamification-coders" >
-              <!-- EMPTY -->
-            </div>
-          </div>
+      <div class="tile is-parent">
+        <div class="tile is-child">
         </div>
-      </div>
-      <!-- latest blogpost -->
-      <div class="tile is-6 is-parent">
-        <%= render '/partials/_blog_preview.*', post: sorted_articles.first %>
-        </div>
-    </div>
-    <div class="tile">
-      <div class="tile is-vertical">
-        <% front_page_events[1..3].each do |event| %>
-        <div class="tile is-parent ">
-          <%= render '/partials/_events_tile.*', event: event %>
-        </div>
-        <%end%>
-      </div>
-      <div class="tile is-vertical">
-      <% sorted_articles[1..3].each do |post| %>
-        <div class="tile is-parent ">
-          <%= render '/partials/_blog_preview.*', post: post %>
-        </div>
-      <%end%>
-
       </div>
     </div>
   </div>

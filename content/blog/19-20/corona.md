@@ -3,6 +3,8 @@ title: "Zeus en Corona"
 created_at: 11-03-2020
 description: Corona en de invloed ervan op Zeus WPI
 author: Robbe Van Herck
+tags:
+    - Corona
 ---
 Beste Zeussers en Zeusinnen,
 
