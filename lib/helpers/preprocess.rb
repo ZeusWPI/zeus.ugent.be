@@ -56,7 +56,6 @@ module PreprocessHelper
         # Tag all posts with article (for Blogging helper)
         kind: 'article',
         academic_year: i.identifier.to_s[/\d\d-\d\d/],
-        created_at: Date.parse(i[:created_at])
       )
     end
   end
