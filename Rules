@@ -3,6 +3,8 @@
 
 require 'json'
 require 'icalendar'
+require 'kramdown'
+require 'kramdown-math-katex'
 
 
 # Important!!!
