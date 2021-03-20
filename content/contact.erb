@@ -47,9 +47,10 @@ contact_links:
   <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h2>
 
   <!-- Contact buttons -->
-  <ul id='contact-icons' class='columns is-centered is-multiline'>
+  <div id='contact-icons' class='columns is-centered is-multiline is-mobile'>
   <% @item[:contact_links].each do |option| %>
-  <li id='<%= option[:description] %>' class='contact-circle-option column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+  <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+    <div id='<%= option[:description] %>' class='contact-circle-option'>
     <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
       <div class='contact-circle is-centered'>
         <div class='contact-circle-pulse grow'></div>
@@ -60,9 +61,10 @@ contact_links:
     <p class='has-text-centered'>
       <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
     </p>
-  </li>
+    </div>
+  </div>
   <% end %>
-  </ul>
+  </div>
 
   <div id="board">
     <h2>The board (<%= pretty_year @config[:academic_year] %>)</h2>
