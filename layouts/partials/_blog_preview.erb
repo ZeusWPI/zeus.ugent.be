@@ -1,21 +1,30 @@
 <div class="content blog-preview">
-  <div class="blogpreview-heading">
-    <a class="title is-3" href="<%= relative_path_to(post) %>">
-      <%= post[:title] %>
-    </a>
-    <div class="blogpreview-tags">
-      <% post[:tags]&.each do |tag| %>
-        <!-- The following code is a bit hacky, fix when necessary -->
-        <a class="tag is-normal is-rounded" href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
-          <%= tag %>
-        </a>
-      <% end %>
+  <div class="blogpreview-heading columns is-multiline is-gapless">
+    <div class="column is-full">
+      <div class="columns is-gapless is-vcentered">
+        <div class="column">
+          <a class="title is-3 is-size-4-mobile" href="<%= relative_path_to(post) %>">
+            <%= post[:title] %>
+          </a>
+        </div>
+        <% if post[:tags] %>
+          <div class="column is-narrow">
+            <div class="blogpreview-tags">
+              <% post[:tags]&.each do |tag| %>
+                <!-- The following code is a bit hacky, fix when necessary -->
+                <a class="tag is-normal is-rounded" href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
+                  <%= tag %>
+                </a>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      </div>
     </div>
+    <small class="column blogpreview-extra"><%= post[:created_at] %><% if post[:author] %> • <%= post[:author] %> <% end %> <%= "• #{post[:description]}" if post[:description] %></small>
   </div>
-  <small class="blogpreview-extra"><%= post[:created_at] %><% if post[:author] %> • <%= post[:author] %> <% end %> • <%= post[:description] %></small>
-  <br/>
   <p>
-  <%= excerptize(post.reps[:text].compiled_content, length: 500).tr("\n", ' ')%>
+    <%= excerptize(post.reps[:text].compiled_content, length: 500).tr("\n", ' ')%>
   </p>
   <hr>
 </div>
