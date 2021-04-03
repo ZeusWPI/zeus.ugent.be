@@ -18,7 +18,7 @@ cache:
 addons:
   apt:
     packages:
-      - texlive-plain-generic
+      - texlive-generic-recommended
       - texlive-latex-base
       - texlive-math-extra
       - texlive-xetex
