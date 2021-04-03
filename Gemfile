@@ -8,8 +8,6 @@ gem 'kramdown'
 
 # Kramdown math mode gems
 gem 'kramdown-math-katex'
-# Also needed for autoprefixing
-gem 'mini_racer'
 
 gem 'sassc'
 gem 'typogruby'
