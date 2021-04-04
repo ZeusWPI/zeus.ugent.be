@@ -6,7 +6,7 @@ location: Auditorium A, Plateau
 locationlink: Plateau, Ghent Belgium
 ---
 
-Naar jaarlijkse gewoonte organiseert WVS, de Werkgroep Vrije Software binnen het VTK, haar jaarlijkse LaTeX-les.
+Naar jaarlijkse gewoonte organiseert WVS, de Werkgroep Vrije Software binnen het VTK, haar jaarlijkse $$\LaTeX$$-les.
 
 LaTeX is de ideale taal om grotere documenten zoals een thesis mee op te maken en te structureren. Bovendien zorgt het voor een correcte typografische vormgeving en die academische look die je altijd al wou ;).
 

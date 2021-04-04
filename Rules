@@ -3,6 +3,8 @@
 
 require 'json'
 require 'icalendar'
+require 'kramdown'
+require 'kramdown-math-katex'
 
 
 # Important!!!
@@ -79,7 +81,7 @@ end
 
 compile '/events/*/*' do
   filter :erb
-  filter :kramdown
+  filter :kramdown, {math_engine: :katex}
 
   layout '/eventpost.*'
   layout '/default.*'
@@ -105,7 +107,7 @@ compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
   filter :kramdown, {math_engine: :katex}
-  filter :typogruby
+  filter :typogruby_custom
 
   layout '/blogpost.erb'
   layout '/generic.*'
@@ -174,7 +176,7 @@ compile '/**/*.erb' do
   # Apply typographic improvements if required by the page. Use this on text-heavy pages,
   # such as the history page.
   if @item[:typography]
-    filter :typogruby
+    filter :typogruby_custom
   end
 
   layout '/generic.*'

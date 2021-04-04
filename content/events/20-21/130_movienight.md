@@ -2,16 +2,16 @@
 title: Movienight
 description: Een Zeus Movienight!
 created_at: 15-02-2021
-time: '18-02-2021 20:00'
-location: 'Discord'
-banner: 'https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg'
+time: "18-02-2021 20:00"
+location: "Discord"
+banner: "https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg"
 header_text_background: true
 ---
 
 # Zeus Movienight
 
 Op **18 februari** organiseert Zeus een filmavond. Dit zal doorgaan op de Zeus [Discord](https://discord.gg/qWAPHbE) vanaf **20u**. De film die we bekijken? Daar kan je zelf mee in beslissen! Ga naar de Zeus Mattermost en stem op de film die je graag zou willen bekijken in de poll die is gepost in ~zeus-announcements. Dinsdagavond wordt de poll gesloten en de filmkeuze gemaakt.
-Update: De film die is verkozen is Monty Python and the Holy Grail! 
+Update: De film die is verkozen is Monty Python and the Holy Grail!
 
 ## Hoe werkt het praktisch?
 

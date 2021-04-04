@@ -47,9 +47,10 @@ contact_links:
   <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h2>
 
   <!-- Contact buttons -->
-  <ul id='contact-icons' class='columns is-centered is-multiline'>
+  <div id='contact-icons' class='columns is-centered is-multiline is-mobile'>
   <% @item[:contact_links].each do |option| %>
-  <li id='<%= option[:description] %>' class='contact-circle-option column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+  <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+    <div id='<%= option[:description] %>' class='contact-circle-option'>
     <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
       <div class='contact-circle is-centered'>
         <div class='contact-circle-pulse grow'></div>
@@ -60,9 +61,10 @@ contact_links:
     <p class='has-text-centered'>
       <a href='<%= option[:link] %>' class='contact-text-link is-link'><%= option[:action] %></a>
     </p>
-  </li>
+    </div>
+  </div>
   <% end %>
-  </ul>
+  </div>
 
   <div id="board">
     <h2>The board (<%= pretty_year @config[:academic_year] %>)</h2>
@@ -83,7 +85,7 @@ contact_links:
         <!-- Payment information -->
         <div id='payment-info' class='tile is-child box content has-text-centered'>
           <h1 class='title has-text-centered'>Pay us</h1>
-          <div class='is-divider'></div>
+          <hr/>
           <p id='banknumber' class='is-size-5'>
             BE32 9799 9370 6502
           </p>
@@ -98,7 +100,7 @@ contact_links:
         <!-- Calling information -->
         <div id='calling-info' class='tile is-child box content has-text-centered'>
           <h1 class='title has-text-centered'>Call us</h1>
-          <div class='is-divider'></div>
+          <hr/>
           <p id='phone-number' class='is-size-5'>
             +32 9 264 47 51<br/>
             Internal: 4751
@@ -110,7 +112,7 @@ contact_links:
       <div id='address-info' class='tile is-parent'>
         <div class='tile is-child box content'>
           <h1 class='title has-text-centered'>Find us</h1>
-          <div class='is-divider'></div>
+          <hr/>
           <p class='is-size-5'>
             You can find our hiding place, or what we call <strong>'de kelder'</strong> at the basement level of following address:
           </p>
@@ -138,7 +140,7 @@ contact_links:
     <div id='mattermost-info' class='tile is-parent'>
       <div class='tile is-child box content'>
         <h1 class='title has-text-centered'>Mattermost info</h1>
-        <div class='is-divider'></div>
+        <hr/>
         <p id='mattermost-info-text' class='is-size-5'>
           You can register with any valid email address.
         </p>

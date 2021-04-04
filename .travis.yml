@@ -7,7 +7,7 @@ git:
 # Cache the nix store (See https://nixos.wiki/wiki/Nix_on_Travis)
 cache:
   directories:
-  - $HOME/nix.store
+    - $HOME/nix.store
 
 branches:
   only:
