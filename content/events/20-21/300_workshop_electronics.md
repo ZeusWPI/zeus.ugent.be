@@ -1,8 +1,5 @@
 ---
 title: Workshop electronica
-image: 
-banner:
-description: 
 created_at: 11-10-2020
 time: 01-01-2022
 location: Auditorium A0, S9

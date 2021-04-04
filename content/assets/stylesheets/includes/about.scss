@@ -66,17 +66,13 @@ table.board-table {
 }
 
 #contact-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   > .column {
-    max-width: 70vw;
+    max-width: 40vw;
   }
 
   .contact-circle-option {
-    display: block;
-    max-width: 200px;
+    //display: block;
+    //max-width: 200px;
 
     .contact-circle-wrapper {
       display: block;
