@@ -35,7 +35,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     execjs (2.7.0)
-    ffi (1.14.2)
+    ffi (1.15.0)
     formatador (0.2.5)
     guard (2.16.2)
       formatador (>= 0.2.4)
@@ -57,27 +57,24 @@ GEM
     highline (2.0.3)
     htmlcompressor (0.4.0)
     http_parser.rb (0.6.0)
-    icalendar (2.7.0)
+    icalendar (2.7.1)
       ice_cube (~> 0.16)
     ice_cube (0.16.3)
     json (2.5.1)
-    json_schema (0.20.9)
+    json_schema (0.21.0)
     katex (0.6.1)
       execjs (~> 2.7)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-math-katex (1.0.1)
       katex (~> 0.4)
       kramdown (~> 2.0)
-    libv8 (8.4.255.0)
-    listen (3.4.1)
+    listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     lumberjack (1.2.8)
     method_source (1.0.0)
     mini_portile2 (2.5.0)
-    mini_racer (0.3.1)
-      libv8 (~> 8.4.255)
     nanoc (4.12.0)
       addressable (~> 2.5)
       colored (~> 1.2)
@@ -117,8 +114,8 @@ GEM
       nanoc-cli (~> 4.11, >= 4.11.14)
       nanoc-core (~> 4.11, >= 4.11.14)
     nenv (0.3.0)
-    nio4r (2.5.5)
-    nokogiri (1.11.1)
+    nio4r (2.5.7)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     notiffany (0.1.3)
@@ -132,7 +129,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.6)
-    puma (5.2.1)
+    puma (5.2.2)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -182,7 +179,6 @@ DEPENDENCIES
   icalendar
   kramdown
   kramdown-math-katex
-  mini_racer
   nanoc
   nanoc-live
   pandoc-ruby
