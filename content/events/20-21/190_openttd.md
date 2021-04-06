@@ -5,7 +5,6 @@ created_at: 05-04-2021
 time: 10-04-2021
 location: Online via Jitsi
 banner: https://zeus.ugent.be/zeuswpi/Db32PEN0.jpg
-soon: true
 tags:
   - Gaming
 ---
