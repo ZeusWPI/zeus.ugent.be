@@ -41,12 +41,12 @@ before_install:
 - echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n[git.zeus.gent]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
 - git submodule update --init --recursive --remote
 # Repo for newer Node.js versions
-# - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+- curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 # Repo for Yarn
-# - sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
-# - echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-# - sudo apt-get update -qq
-# - sudo apt-get install -y -qq yarn
+- sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3
+- echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+- sudo apt-get update -qq
+- sudo apt-get install -y -qq yarn
 - yarn
 script:
 - bundle exec nanoc --env=prod
