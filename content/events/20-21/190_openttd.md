@@ -2,6 +2,7 @@
 title: "OpenTTD-avond"
 description: Een spel met treinen. Geen ervaring nodig!
 created_at: 05-04-2021
+header_text_background: true # grijze achtergrond op headertekst, beetje leesbaarder
 time: 10-04-2021
 location: Online via Jitsi
 banner: https://zeus.ugent.be/zeuswpi/Db32PEN0.jpg
