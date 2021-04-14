@@ -1,6 +1,6 @@
 title: Zeus WPI
 academic_year: 20-21
-sponsoring_members_year: 2020
+sponsoring_members_year: 2021
 # Needed for atom_feed
 author_name: ''
 author_uri: ''
@@ -82,14 +82,12 @@ data_sources:
     layouts_dir: null
   -
     type: filesystem
-    items_root: /node_modules
-    content_dir: node_modules
-    layouts_dir: null
-  -
-    type: filesystem
     items_root: /about/verslagen/
     content_dir: drive/verslagen/
     layouts_dir: null
+  -
+    type: katex
+    items_root: /assets/stylesheets
 
 # Configuration for the “check” command, which run unit tests on the site.
 checks:

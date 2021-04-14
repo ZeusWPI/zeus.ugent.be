@@ -5,6 +5,10 @@ gem 'nanoc'
 
 gem 'icalendar' # ical files
 gem 'kramdown'
+
+# Kramdown math mode gems
+gem 'kramdown-math-katex'
+
 gem 'sassc'
 gem 'typogruby'
 
@@ -13,18 +17,19 @@ gem 'builder'
 
 # Word counting gem (which takes special characters into account)
 # for reading time
-gem 'words_counted'
+gem 'words_counted', git: 'https://github.com/werthen/words_counted'
 
 group :development do
   gem 'adsf'
+  # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499
+  gem 'puma'
   gem 'highline'
   gem 'terminal-notifier'
   gem 'terminal-notifier-guard'
+  gem 'nanoc-live'
 end
 
 group :production do
-  # Faster css autoprefixing
-  gem 'mini_racer'
   # Autoprefixing for class
   gem 'autoprefixer-rails'
   gem 'htmlcompressor'

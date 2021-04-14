@@ -23,12 +23,3 @@ Daarnaast gebruiken de apps andere diensten van derden. Indien u gebruik maakt v
 ##### API
 
 Bij het gebruik van de API worden enkel technische data verzameld.
-
-##### Assistent
-
-Bij het gebruik van *Hydra van de UGent* in de Google Assistent gebruiken we deze diensten:
-
-- **Technische informatie**, zoals serverlogs (zie de paragraaf [_Technische gegevens_](#technisch).
-- **Dialogflow**, voor de gespreksmogelijkheden (d.w.z. verstaan wat u bedoelt). Deze data is onderhevig aan het privacybeleid van [Google](https://policies.google.com/privacy)
-
-Dialogflow verzamelt geen persoonlijke data. Om de herkenning van de gesprekken tussen u en *Hydra van de UGent* te verbeteren, slaat Dialogflow de inhoud van de gesprekken in tekstuele vorm op. Deze kunnen door het bestuur van Zeus of de medewerkers van het Hydra-project beoordeeld worden, om zo de nauwkeurigheid van de herkenning te verbeteren.

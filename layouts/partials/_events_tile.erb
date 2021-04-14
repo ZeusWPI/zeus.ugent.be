@@ -12,17 +12,17 @@
   <img class="event-tile-image" src="<%= @event[:image] %>" alt="">
   <% end %>
     <div class="event-text">
-      <h1 class="has-text-centered">
+      <h2 class="is-size-4-mobile has-text-centered">
         <%= @event[:title] %>
-      </h1>
+      </h2>
 
-      <div class="description has-text-centered">
+      <div class="is-size-6-mobile description has-text-centered">
         <%= @event[:description] %>
       </div>
 
-      <div class="is-divider"></div>
+      <hr/>
 
-      <div class="event-time-loc">
+      <div class="is-size-7-mobile  event-time-loc">
         <%= fa :'clock-o' , fw: true %><%= @event[:time].strftime('%A %d %B, %H:%M') %>
         <br>
         <%= fa :'map-marker', fw: true %><%= @event[:location] %>

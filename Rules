@@ -3,6 +3,9 @@
 
 require 'json'
 require 'icalendar'
+require 'kramdown'
+require 'kramdown-math-katex'
+
 
 # Important!!!
 # First ignore the node_modules, we do not need any of it on the site directly.
@@ -78,7 +81,7 @@ end
 
 compile '/events/*/*' do
   filter :erb
-  filter :kramdown
+  filter :kramdown, {math_engine: :katex}
 
   layout '/eventpost.*'
   layout '/default.*'
@@ -103,8 +106,8 @@ end
 compile '/blog/*/*.md' do
   filter :erb
   layout '/blogpost.md'
-  filter :kramdown
-  filter :typogruby
+  filter :kramdown, {math_engine: :katex}
+  filter :typogruby_custom
 
   layout '/blogpost.erb'
   layout '/generic.*'
@@ -173,7 +176,7 @@ compile '/**/*.erb' do
   # Apply typographic improvements if required by the page. Use this on text-heavy pages,
   # such as the history page.
   if @item[:typography]
-    filter :typogruby
+    filter :typogruby_custom
   end
 
   layout '/generic.*'
@@ -197,10 +200,13 @@ compile '/assets/scripts/**/*.js' do
   filter :uglify_js, harmony: true if production?
 end
 
-ignore '/assets/stylesheets/includes/**/*'
 ignore '/data/**/*'
 
+ignore '/assets/stylesheets/includes/**/*'
 compile '/assets/stylesheets/**/*.scss' do
+  # This filter is necessary for the workaround present in main.scss and deals with out of date dependencies
+  filter :erb
+
   sass_opts = {
     syntax: :scss,
     load_paths: ['content/assets/stylesheets']
