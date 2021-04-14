@@ -1,6 +1,6 @@
 ---
 title: "HOT-OSM-avond"
-description: Een spel met treinen. Geen ervaring nodig!
+description: Kaarten aanvullen voor gebieden in nood!
 created_at: 05-04-2021
 header_text_background: true # grijze achtergrond op headertekst, beetje leesbaarder
 time: 17-04-2021 20:00
