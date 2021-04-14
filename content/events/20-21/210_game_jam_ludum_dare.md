@@ -1,3 +1,4 @@
+---
 title: "Game-jam: Ludum dare 48"
 description: Maak je eigen game in de befaamde Ludum Dare!
 created_at: 13-04-2021
@@ -9,7 +10,7 @@ banner: https://zeus.ugent.be/zeuswpi/0ObPfWlv.png
 tags:
   - gaming
   - programmeren
-
+---
 
 In het weekend van 24-27 april gaat de Ludum Dare 48 Game-jam door. Kom samen met Zeus meedoen en maak je eigen game in 72uur!
 

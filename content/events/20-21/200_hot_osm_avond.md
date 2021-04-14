@@ -1,3 +1,4 @@
+---
 title: "HOT-OSM-avond"
 description: Een spel met treinen. Geen ervaring nodig!
 created_at: 05-04-2021
@@ -8,6 +9,7 @@ location: Online via Jitsi
 banner: https://zeus.ugent.be/zeuswpi/hNEFmIkM.svg
 tags:
   - mapping
+---
 
 
 Digitale kaarten zijn in ons leven niet meer weg te denken, maar wist je dat miljoenen mensen leven in gebieden waar nog geen goeie kaarten beschikbaar zijn? Deze avond gaan we samen zo'n ontbrekende kaart aanvullen met OpenStreetMap. De doorwinterde OSM'ers binnen Zeus maken je wegwijs in het bewerken van OpenStreetMap, maar uiteraard ook in hoe je die data dan zelf kan gebruiken. En pietervdvn beantwoordt met veel plezier al je obscure vragen over routeplanning - 't is tenslotte zijn job.
