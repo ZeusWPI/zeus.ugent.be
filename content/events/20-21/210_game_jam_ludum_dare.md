@@ -19,7 +19,7 @@ Op een game-jam maak je individueel of in groep een eigen game in een bepaalde t
 De game-jam is vrij toegankelijk voor iedereen. Meer info kan je vinden op: [https://ldjam.com/events/ludum-dare/rules](https://ldjam.com/events/ludum-dare/rules)
 Kom zeker ook op onze Mattermost ([chat.zeus.gent](https://chat.zeus.gent)) in het kanaal [~game-jam](https://mattermost.zeus.gent/zeus/channels/game-jam) voor meer info en een plaats voor al je vragen. Hier kan je ook zoeken om eventueel een team te vorm.
 
-Hier de belangrijkste informatie:
+## Belangrijkste informatie
 - Je kan individueel of als team meedoen. Het is aangeraden om maximum met 4 in een team te zitten zodat de communicatie makkelijk blijft.  
 - Het event van Zeus gaat door op [gather.town](https://gather.town/). De link wordt voor de start in [~game-jam](https://mattermost.zeus.gent/zeus/channels/game-jam) gepost. Je zal verschillende tafels hebben waar je met je team aan kan zitten. Er zullen zowel privé tafels zijn (enkel je team kan elkaar horen) als publieke tafels (andere personen kunnen eens op bezoek komen). Er zal ook een groepstafel zijn waar iedereen samen kan zitten.  
 - Het Zeus event (in Gathertown) begint om 10u op zaterdag. Ludum Dare opent al om 3u 's ochtends, maar we raden aan om met een goede nachtrust te beginnen en pas om 10u samen met de rest erin te vliegen. De begeleiders zijn pas vanaf 10u aanwezig.  
