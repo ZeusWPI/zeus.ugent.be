@@ -14,7 +14,7 @@ tags:
 
 In het weekend van 24-27 april gaat de [Ludum Dare 48 Game-jam](https://ldjam.com/events/ludum-dare/48) door. Kom samen met Zeus meedoen en maak je eigen game in 72 uur!
 
-Op een game-jam maak je individueel of in groep een eigen game in een bepaalde tijd over een bepaald thema die aan het begin van het event wordt meegedeeld. Deze wordt daarna vaak beoordeeld door een jury of je de andere deelnemers. Deze jam duurt 72u, efficient werken en je game tot een core idee behouden is dus belangrijk! Perfect om je programmeer en design skills eens op de proef te stellen.
+Op een game-jam maak je individueel of in groep een eigen game in een bepaalde tijd over een bepaald thema die aan het begin van het event wordt meegedeeld. Deze wordt daarna vaak beoordeeld door een jury of je de andere deelnemers. Deze jam duurt 72u, efficiënt werken en je game tot een core idee behouden is dus belangrijk! Perfect om je programmeer en design skills eens op de proef te stellen.
 
 De game-jam is vrij toegankelijk voor iedereen. Meer info kan je vinden op: [https://ldjam.com/events/ludum-dare/rules](https://ldjam.com/events/ludum-dare/rules)
 Kom zeker ook op onze Mattermost ([chat.zeus.gent](https://chat.zeus.gent)) in het kanaal [~game-jam](https://mattermost.zeus.gent/zeus/channels/game-jam) voor meer info en een plaats voor al je vragen. Hier kan je ook zoeken om eventueel een team te vorm.
