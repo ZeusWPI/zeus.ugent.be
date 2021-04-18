@@ -21,7 +21,7 @@ Kom zeker ook op onze Mattermost ([chat.zeus.gent](https://chat.zeus.gent)) in h
 
 ## Belangrijkste informatie
 - Je kan individueel of als team meedoen. Het is aangeraden om maximum met 4 in een team te zitten zodat de communicatie makkelijk blijft.  
-- Het event van Zeus gaat door op [gather.town](https://gather.town/app/JS21cqBEgQFi2qzy/zeus_doet_ludumdare-48). Er zijn verschillende kleinere tafels waar je met je team aan kan zitten. Er is ook een centrale grotere tafel waar je kunt gaan als met andere groepen wilt babbelen of het niet erg vind gestoord te worden.  
+- Het event van Zeus gaat door op [gather.town](https://gather.town/app/JS21cqBEgQFi2qzy/zeus_doet_ludumdare-48). Er zijn verschillende kleinere tafels waar je met je team aan kan zitten. Er is ook een centrale grotere tafel waar je kunt gaan als je met andere groepen wilt babbelen of het niet erg vind gestoord te worden.  
 - Het Zeus event (in Gathertown) begint om 10u op zaterdag. Ludum Dare opent al om 3u 's ochtends, maar we raden aan om met een goede nachtrust te beginnen en pas om 10u samen met de rest erin te vliegen. De begeleiders zijn pas vanaf 10u aanwezig.  
 - Schrijf je zeker in op [ldjam.com/events/ludum-dare/48](https://ldjam.com/events/ludum-dare/48) zodat je je game ook kan uploaden.  
 - Meer info of vragen kan je stellen in Mattermost in het kanaal ~game-jam, ook gedurende de game-jam.  
