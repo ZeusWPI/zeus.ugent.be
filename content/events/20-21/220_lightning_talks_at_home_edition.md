@@ -14,23 +14,23 @@ tags:
 De legendarische bliksembabbels zijn dit jaar terug met de At Home Editie. Deze editie stellen Zeusers voor waarmee ze bezig zijn in deze at-home tijden. We geven jullie dit jaar 7 sprekers die elk 15 minuten het beste van zichzelf zullen geven, en nadien nog 5 minuten krijgen om eventuele vragen te beantwoorden. De talks gaan online door op [meet.jit.si/LightningTalks2021](https://meet.jit.si/LightningTalks2021]).
 
 ## Onderwerpen
-*Timo Dewaele*
+**Timo Dewaele**  
 Unsupervised gedragsmonitoring: Deep learning met sensordata
 
-*Pieter Vander Vennet*
+**Pieter Vander Vennet**  
 OpenStreetMap: de ins en outs van data ophalen uit OSM
 
-*Lorin Werthen*
+**Lorin Werthen**  
 Planetwars, maar dan diep geleerd
 
-*Arne Bertrand*
+**Arne Bertrand**  
 Microservices en SPARQL: Linked Data in de praktijk
 
-*Nicky Vandeghinste*
+**Nicky Vandeghinste**  
 De weg naar mentaal welzijn
 
-*Wout Schellaert*
+**Wout Schellaert**  
 Hoe altijd net niet genoeg punten halen op de Google Hashcode
 
-*Jeroen Declerck*
+**Jeroen Declerck**  
 van AutoCAD tot Zaagsel: een snel overzicht van meubelmakelarij
