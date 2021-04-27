@@ -35,6 +35,6 @@ Hoe altijd net niet genoeg punten halen op de Google Hashcode
 **Jeroen Declerck**  
 van AutoCAD tot Zaagsel: een snel overzicht van meubelmakelarij
 
-**Jasper Devreker**
-Devreker v. NetTalk: domeinkapers kapen
+**Jasper Devreker**  
+Devreker v NetTalk: domeinkapers kapen
 
