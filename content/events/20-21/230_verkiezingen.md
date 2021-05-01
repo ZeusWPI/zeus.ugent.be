@@ -10,10 +10,10 @@ Omdat we van plan zijn om volgend jaar nog steeds geleid te worden door een demo
 
 Aangezien we dit nog steeds niet in persoon kunnen doen, hebben we gekozen om [Helios][helios] samen met [Jitsi][jitsi] te gebruiken. 
 
-Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste 13 mei door via mail naar bestuur@zeus.ugent.be.
+Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste 13 mei door via mail naar voorzitter@zeus.ugent.be.
 Alle info over de functies en wat het inhoud om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen].
 
-Heb je al prangende vragen voor bepaalde functies, dan kun je die ook al stellen door te mailen naar bestuur@zeus.ugent.be.
+Heb je al prangende vragen voor bepaalde functies, dan kun je die ook al stellen door te mailen naar voorzitter@zeus.ugent.be.
 Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand ook verzameld en doorgegeven aan de kandidaten. Maar geen nood, ook tijdens de verkiezingen kunnen er nog spontane vragen gesteld worden.
 
 ## Technisch
