@@ -20,7 +20,7 @@ Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand
 
 ### Helios
 
-Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien, een link en meer informatie volgen op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
+Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien op [https://vote.zeus.ugent.be][vote], meer informatie volgt op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
 
 ### Jitsi
 
@@ -30,3 +30,4 @@ We gebruiken Jitsi om op samen te komen. Sinds afgelopen jaar is dit een veel st
 [jitsi]: https://meet.jit.si/zeusKiestEenGlorieZeusBestuur
 [bestuur-mm]: https://mattermost.zeus.gent/zeus/channels/bestuur
 [functieprofielen]: https://git.zeus.gent/bestuur/drive/-/blob/master/varia/functieprofielen.md
+[vote]: https://vote.zeus.ugent.be
