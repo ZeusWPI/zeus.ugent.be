@@ -1,6 +1,6 @@
 ---
-title: "Lightning Talks - At Home edition"
-description: Boeiende bite-sized talks van je favorite Zeuser!
+title: "Lightning Talks - At Home Edition"
+description: Boeiende bite-sized talks van je favorite Zeusers!
 created_at: 13-04-2021
 header_text_background: true # grijze achtergrond op headertekst, beetje leesbaarder
 time: 03-05-2021 19:30
@@ -11,7 +11,7 @@ tags:
   - talk
 ---
 
-De legendarische bliksembabbels zijn dit jaar terug met de At Home Editie. Deze editie stellen Zeusers voor waarmee ze bezig zijn in deze at-home tijden. We geven jullie dit jaar 8 sprekers die elk 15 minuten het beste van zichzelf zullen geven, en nadien nog 5 minuten krijgen om eventuele vragen te beantwoorden.   
+De legendarische bliksembabbels zijn dit jaar terug met de At Home Edition. Deze editie stellen Zeusers voor waarmee ze bezig zijn in deze thuisblijftijden. We geven jullie dit jaar acht sprekers die elk 15 minuten het beste van zichzelf zullen geven, en nadien nog 5 minuten krijgen om eventuele vragen te beantwoorden.   
 
 ## Livestream
 De talks worden gelivestreamed online via Teams: [Livestream link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTQ2ODNiZGItNDQxZC00OWYwLWJiZmEtMTUwZTQzMTc0Zjg4%40thread.v2/0?context=%7b%22Tid%22%3a%22d7811cde-ecef-496c-8f91-a1786241b99c%22%2c%22Oid%22%3a%223c6c3904-e18e-48e7-9b8a-7723b5284dd3%22%2c%22IsBroadcastMeeting%22%3atrue%7d&btype=a&role=a).  
@@ -22,13 +22,13 @@ Merk op: indien er technische problemen zijn voor het streamen met Teams, zal de
 
 ## Onderwerpen
 **Timo Dewaele**  
-Unsupervised gedragsmonitoring: Deep learning met sensordata
+Unsupervised gedragsmonitoring: deep learning met sensordata
 
 **Pieter Vander Vennet**  
 OpenStreetMap: de ins en outs van data ophalen uit OSM
 
 **Lorin Werthen**  
-Planetwars, maar dan diep geleerd
+PlanetWars, maar dan diep geleerd
 
 **Arne Bertrand**  
 Microservices en SPARQL: Linked Data in de praktijk
@@ -40,7 +40,7 @@ De weg naar mentaal welzijn
 Hoe altijd net niet genoeg punten halen op de Google Hashcode
 
 **Jeroen Declerck**  
-van AutoCAD tot Zaagsel: een snel overzicht van meubelmakelarij
+Van AutoCAD tot Zaagsel: een snel overzicht van meubelmakelarij
 
 **Jasper Devreker**  
 Devreker v NetTalk: domeinkapers kapen
