@@ -22,13 +22,9 @@ Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand
 
 Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien, een link en meer informatie volgen op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
 
-### Mumble en Jitsi
+### Jitsi
 
-Mumble gebruiken we voor de spraak, maar aangezien we elkaar graag zien (letterlijk en figuurlijk <3) gebruiken we ook Jitsi voor de videostream.
-
-#### Waarom niet gewoon Jitsi?
-
-Dit was eerst het plan, maar tijdens het testen botsten we op een paar probleempjes zoals de bandbreedte van de deelnemers. Daardoor besloten om voor de veiligheid het geluid via een ander kanaal te laten gaan. Als Jitsi het dus volledig zou begeven, hebben we nog steeds geluid.
+We gebruiken Jitsi om op samen te komen. Sinds afgelopen jaar is dit een veel stabieler platform geworden die ook veel deelnemers zonder problemen aankan.
 
 [helios]: https://heliosvoting.org/
 [jitsi]: https://meet.jit.si/zeusKiestEenGlorieZeusBestuur
