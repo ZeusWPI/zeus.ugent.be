@@ -24,7 +24,7 @@ Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezi
 
 ### Jitsi
 
-We gebruiken Jitsi om op samen te komen. Sinds afgelopen jaar is dit een veel stabieler platform geworden die ook veel deelnemers zonder problemen aankan.
+We gebruiken Jitsi om op samen te komen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan.
 
 [helios]: https://heliosvoting.org/
 [jitsi]: https://meet.jit.si/zeusKiestEenGlorieZeusBestuur
