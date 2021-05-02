@@ -39,7 +39,7 @@ De weg naar mentaal welzijn
 **Wout Schellaert**  
 Hoe altijd net niet genoeg punten halen op de Google Hashcode
 
-**Jeroen Declerck**  
+**Jeroen De Clerck**  
 Van AutoCAD tot Zaagsel: een snel overzicht van meubelmakelarij
 
 **Jasper Devreker**  
