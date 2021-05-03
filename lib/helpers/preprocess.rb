@@ -88,6 +88,7 @@ module PreprocessHelper
     type = type.to_s
     tags = @items.find_all("/#{type.downcase}/*/*")
       .flat_map { |i| i[:tags] || [] }
+      .flat_map { |i| i.split.map(&:capitalize).join(' ') }
       .uniq
 
     tags.each do |tag|
