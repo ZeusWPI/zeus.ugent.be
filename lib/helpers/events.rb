@@ -17,6 +17,7 @@ module EventsHelper
     Set.new(items
       .find_all('/events/*/*')
       .flat_map { |i| i[:tags] || [] })
+    .map{ |y| y.split.map(&:capitalize).join(' ') }
     .to_a
     .sort
     .uniq.map { |y| [y, items["/events/#{y.gsub(' ', '_')}.html"]]}
@@ -24,7 +25,10 @@ module EventsHelper
 
   def all_events_by_tag(tag = nil, soon = nil)
     @items.find_all('/events/*/*.md')
-      .filter{|i| (i[:tags] || []).include? tag }
+      .filter { |i| 
+        (i[:tags] || [])
+          .map{ |t| t.split.map(&:capitalize).join(' ') }
+          .include? tag }
       .select { |x| x[:soon] == soon }
       .sort_by { |x| x[:time] }
   end
