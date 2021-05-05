@@ -17,7 +17,6 @@ module EventsHelper
     Set.new(items
       .find_all('/events/*/*')
       .flat_map { |i| i[:tags] || [] })
-    .map{ |y| y.split.map(&:capitalize).join(' ') }
     .to_a
     .sort
     .uniq.map { |y| [y, items["/events/#{y.gsub(' ', '_')}.html"]]}
