@@ -25,6 +25,8 @@ preprocess do
   ignore_old_content('blog', 'events', 'about/verslagen') if development?
 
   update_blog_attributes
+  convert_tags('Blog')
+  convert_tags('Events')
   create_yearly_items('Blog')
   create_yearly_items('Events')
   create_tagly_items('Blog')

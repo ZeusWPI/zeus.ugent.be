@@ -24,7 +24,7 @@ module EventsHelper
 
   def all_events_by_tag(tag = nil, soon = nil)
     @items.find_all('/events/*/*.md')
-      .filter{|i| (i[:tags] || []).include? tag }
+      .filter { |i| (i[:tags] || []).include? tag }
       .select { |x| x[:soon] == soon }
       .sort_by { |x| x[:time] }
   end
