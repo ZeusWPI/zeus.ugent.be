@@ -12,8 +12,8 @@
             <div class="blogpreview-tags">
               <% post[:tags]&.each do |tag| %>
                 <!-- The following code is a bit hacky, fix when necessary -->
-                <a class="tag is-normal is-rounded" href=<%= "/blog/#{tag.split.map(&:capitalize).join('_')}/index.html" %>>
-                  <%= tag.split.map(&:capitalize).join(' ') %>
+                <a class="tag is-normal is-rounded" href=<%= "/blog/#{tag.gsub(' ', '_')}/index.html" %>>
+                  <%= tag %>
                 </a>
               <% end %>
             </div>

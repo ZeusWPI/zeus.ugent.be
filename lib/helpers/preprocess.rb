@@ -88,7 +88,6 @@ module PreprocessHelper
     type = type.to_s
     tags = @items.find_all("/#{type.downcase}/*/*")
       .flat_map { |i| i[:tags] || [] }
-      .flat_map { |i| i.split.map(&:capitalize).join(' ') }
       .uniq
 
     tags.each do |tag|
@@ -118,6 +117,16 @@ module PreprocessHelper
         raise "unknown location variable #{location_link}, must be one of #{predefined_locations.keys}"
       end
       event[:locationlink] = predefined_locations.fetch(location_link, event[:locationlink])
+    end
+  end
+
+  def convert_tags(type)
+    type = type.to_s
+    @items.find_all("/#{type.downcase}/*/*").each do |item|
+      if item.key?(:tags)
+        item[:tags] = item[:tags]
+          .map{ |tag| tag.split.map(&:capitalize).join(' ') }
+      end
     end
   end
 

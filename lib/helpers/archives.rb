@@ -18,7 +18,6 @@ module ArchiveHelper
     Set.new(items
       .find_all('/blog/*/*')
       .flat_map { |i| i[:tags] || [] })
-    .map{ |y| y.split.map(&:capitalize).join(' ') }
     .to_a
     .sort
     .uniq.map { |y| [y, items["/blog/#{y.gsub(' ', '_')}.html"]]}
@@ -36,7 +35,7 @@ module ArchiveHelper
   def posts_with_tag(tag)
     items
       .find_all('/blog/*/*')
-      .filter{|i| (i[:tags] || []).map{ |t| t.split.map(&:capitalize).join(' ') }.include? tag }
+      .filter{|i| (i[:tags] || []).include? tag }
   end
 
   def posts_in_year_or_with_tag(item)
