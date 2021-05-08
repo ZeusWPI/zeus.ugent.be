@@ -3,6 +3,7 @@ title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
 created_at: 29-04-2021
 time: '15-05-2021 17:30'
+end: '15-05-2021 20:30'
 location: 'Jitsi'
 ---
 
