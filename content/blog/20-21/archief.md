@@ -21,7 +21,7 @@ Het is vooral een kwestie van te bepalen onder welke domeinnaam de informatie st
 - `zeus.rug.ac.be` - Basically hetzelfde als hiervoor, toen de UGent nog de RUG (Rijksuniversiteit Gent) was. Het eerste snapshot hier is van [**5 oktober 1999**](http://web.archive.org/web/19991005232153/http://www.zeus.rug.ac.be/).
 - `student.rug.ac.be/zeus` - Het webadres van Zeus bij de Dienst StudentenActiviteiten. Hier is het oudste snapshot genomen op [**15 februari 1998**](http://web.archive.org/web/19980215073116/http://www.student.rug.ac.be/zeus/).
 
-Hoewel het oudste snapshot dus 15 februari 1998 is, werken de meeste foto's niet in dat snapshot om een of andere reden (met uizondering van dit [logo](http://web.archive.org/web/19990202142442/http://student.rug.ac.be/zeus/pics/zeus_k1.gif), het oudste logo van Zeus dat ik gevonden heb).
+Hoewel het oudste snapshot dus 15 februari 1998 is, werken de meeste foto's niet in dat snapshot om een of andere reden (met uitzondering van dit [logo](http://web.archive.org/web/19990202142442/http://student.rug.ac.be/zeus/pics/zeus_k1.gif), het oudste logo van Zeus dat ik gevonden heb).
 Het oudste, deftig werkend snapshot is dat van 5 oktober 1999.
 
 De eerste versies van de website met nieuws op de startpagina verschijnen rond het jaar 2000; vanaf dan zijn alle gevonden gegevens overgezet (er zijn er [een aantal](http://web.archive.org/web/19990913001946/http://www.zeus.rug.ac.be/hotnews.shtml) van 1999, maar onze huidige site heeft moeite met 1999, dus dat zal voor een andere keer zijn).
@@ -86,7 +86,7 @@ Er zijn nog interessante pagina's op die snapshots:
 - [De leden](http://web.archive.org/web/20000608171826/http://www.zeus.rug.ac.be/members.shtml) (toen nog met [proefleden](http://web.archive.org/web/20000608171826/http://www.zeus.rug.ac.be/newlid.shtml))
 - [Het machinepark van Zeus in 2000](http://web.archive.org/web/20000122025113/http://www.zeus.rug.ac.be:80/machinepark.shtml) (64 MB RAM, met 14 GB HDD voor de "Webserver, mailserver, ftpserver en backup name server voor subnet.")
 - [T-shirts van Zeus is een oude traditie](http://web.archive.org/web/20000615204502/http://www.zeus.rug.ac.be/tshirts.shtml)
-- [Het Zeus-log in 3D](http://web.archive.org/web/20000922221222/http://www.zeus.rug.ac.be/logo.jpg)
+- [Het Zeus-logo in 3D](http://web.archive.org/web/20000922221222/http://www.zeus.rug.ac.be/logo.jpg)
 
 Nog een kleine tip als je zelf door de historische sites aan het grasduinen bent: als je op [deze versie van de website](http://web.archive.org/web/20070128094936/http://zeus.ugent.be/) komt, zul je merken dat alle links op de pagina er zo uitzien:
 
