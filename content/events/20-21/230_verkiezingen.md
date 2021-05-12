@@ -6,6 +6,8 @@ time: '15-05-2021 17:30'
 end: '15-05-2021 20:30'
 location: Jitsi & Grasveld achter Gebouw S9, Campus Sterre, Gent
 locationlink: $s9
+tags:
+  - Verkiezingen
 
 ---
 
