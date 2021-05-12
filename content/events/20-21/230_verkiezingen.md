@@ -20,7 +20,7 @@ Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers geli
 
 ### Eten en drinken
 
-We bieden geen drinken aan, je zorgt dus zelf voor je non alcoholische drank. Echter gaan we wel afhaaleten halen om de hongerige buiken te vullen.
+We bieden geen drinken aan, je zorgt dus zelf voor je niet-alcoholische drank. Echter gaan we wel om afhaaleten gaan om de hongerige buiken te vullen.
 
 ## Kandidaten
 
@@ -42,7 +42,7 @@ Zonder rekening te houden met de voorkeuren van de kandidaten, hebben we de volg
 
 Deze zullen telkens hooguit een 20 minuten duren, waarbij de kandidaten eerst een 2-tal minuten hun motivatie duidelijk maken, gevolgd door een eerste vragenronde. Daarna zonderen de kandidaten hun even af terwijl er nog anonieme vragen verzameld worden. Na de anonieme vragenronde volgt de stemronde en worden de kandidaten verkozen.
 
-### Intresse?
+### Interesse?
 
 Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste 13 mei door via mail naar voorzitter@zeus.ugent.be.
 Alle info over de functies en wat het inhoud om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen]. Zit je nog steeds met vragen? Aarzel dan niet om iemand van het huidige bestuur aan te spreken!
