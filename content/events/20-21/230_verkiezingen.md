@@ -4,28 +4,60 @@ description: Wie wordt het volgende glorizeus bestuur?
 created_at: 29-04-2021
 time: '15-05-2021 17:30'
 end: '15-05-2021 20:30'
-location: 'Jitsi'
+location: Jitsi & Grasveld achter Gebouw S9, Campus Sterre, Gent
+locationlink: $s9
+
 ---
 
-Omdat we van plan zijn om volgend jaar nog steeds geleid te worden door een democratisch verkozen bestuur, organiseren we op 15 mei 2021 verkiezingen voor alle Zeusleden. 
+Naar goede gewoonte en verplichting organiseren we dit jaar opnieuw onze verkiezingen.
 
-Aangezien we dit nog steeds niet in persoon kunnen doen, hebben we gekozen om [Helios][helios] samen met [Jitsi][jitsi] te gebruiken. 
+## Waar en Wanneer?
+
+Dit jaar zullen de verkiezingen doorgaan op 15 mei 2021 op het terein achter S9. Je leest het goed, een fysiek evenement! 
+Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers gelimiteerd tot 25, om fysiek te aanwezig te kunnen zijn schrijf je je in op [kers][kers]. Als je niet fysiek aanwezig kan zijn is er ook de optie om op afstand deel te nemen via [Jitsi][jitsi]. We starten om 17:30.
+
+### Eten en drinken
+
+We bieden geen drinken aan, je zorgt dus zelf voor je non alcoholische drank. Echter gaan we wel om afhaaleten halen om de hongerige buiken te vullen.
+
+## Kandidaten
+
+Alvast een overzichtje van de huidige kandidaten:
+
+| Positie           | Naam             |
+| ----------------- | ---------------- |
+| Voorzitter & Vice | Francis & Arthur |
+| Penning           | Sammy            |
+| Sysadmin          | Jasper           |
+
+### Verloop
+
+Zonder rekening te houden met de voorkeuren van de kandidaten, hebben we de volgende volgorde van de kiesrondes opgesteld:
+
+1. Voorzitter & Vicevoorzitter
+2. Penning
+3. Sysadmin
+
+Deze zullen telkens hooguit een 20 minuten duren, waarbij de kandidaten eerst een 2-tal minuten hun motivatie duidelijk maken, gevolgd door een eerste vragenronde. Daarna zonderen de kandidaten hun even af terwijl er nog anonieme vragen verzameld worden. Na de anonieme vragenronde volgt de stemronde en worden de kandidaten verkozen.
+
+### Intresse?
 
 Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste 13 mei door via mail naar voorzitter@zeus.ugent.be.
-Alle info over de functies en wat het inhoud om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen].
+Alle info over de functies en wat het inhoud om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen]. Zit je nog steeds met vragen? Aarzel dan niet om iemand van het huidige bestuur aan te spreken!
 
 Heb je al prangende vragen voor bepaalde functies, dan kun je die ook al stellen door te mailen naar voorzitter@zeus.ugent.be.
 Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand ook verzameld en doorgegeven aan de kandidaten. Maar geen nood, ook tijdens de verkiezingen kunnen er nog spontane vragen gesteld worden.
 
 ## Technisch
 
-### Helios
+### Stemmen - Helios
 
 Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien op [https://vote.zeus.ugent.be][vote], meer informatie volgt op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
 
-### Jitsi
+### Jitsi - Online volgen
 
-We gebruiken Jitsi om op samen te komen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan.
+We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan.
+
 
 [helios]: https://heliosvoting.org/
 [jitsi]: https://meet.jit.si/zeusKiestEenGlorieZeusBestuur
