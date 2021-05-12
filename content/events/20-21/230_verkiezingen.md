@@ -15,8 +15,8 @@ Naar goede gewoonte en verplichting organiseren we dit jaar opnieuw onze verkiez
 
 ## Waar en Wanneer?
 
-Dit jaar zullen de verkiezingen doorgaan op 15 mei 2021 op het terein achter S9. Je leest het goed, een fysiek evenement! 
-Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers gelimiteerd tot 25, om fysiek te aanwezig te kunnen zijn schrijf je je in op [kers][kers]. Als je niet fysiek aanwezig kan zijn is er ook de optie om op afstand deel te nemen via [Jitsi][jitsi]. We starten om 17:30.
+Dit jaar zullen de verkiezingen doorgaan op **15 mei 2021** op het terein achter S9. Je leest het goed, een fysiek evenement! 
+Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers gelimiteerd tot 25, om fysiek te aanwezig te kunnen zijn schrijf je je in op [kers][kers]. Als je niet fysiek aanwezig kan zijn is er ook de optie om op afstand deel te nemen via [Jitsi][jitsi]. We starten om **17:30**.
 
 ### Eten en drinken
 
@@ -54,11 +54,11 @@ Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand
 
 ### Stemmen - Helios
 
-Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien op [https://vote.zeus.ugent.be][vote], meer informatie volgt op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm].
+Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezingsapplicatie. Meer info kan je op hun [homepage][helios] vinden. Zeus zal een Heliosinstantie draaien op [https://vote.zeus.ugent.be][vote], meer informatie volgt op de verkiezingen zelf. Heb je hier vragen of opmerkingen over, stel je vraag zeker in [~bestuur][bestuur-mm]. **Omdat de verkiezingen buiten doorgaan kunnen we geen stroom voorzien, zorg dus zeker dat je apparaat waarmee je gaat stemmen volledig opgeladen is!** We voorzien wel internet.
 
 ### Jitsi - Online volgen
 
-We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan.
+We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan. Je gaat de kandidaat kunnen horen maar zelf ga je niet hoorbaar zijn. Vragen stellen kan via de chat, deze worden dan voorgelezen door een persoon ter plaatse.
 
 
 [helios]: https://heliosvoting.org/
