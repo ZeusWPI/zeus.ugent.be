@@ -32,7 +32,7 @@ Alvast een overzichtje van de huidige kandidaten:
 | Penning           | Sammy            |
 | Sysadmin          | Jasper           |
 | 🦊		    | Ruben            |
-| <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1195690/989d3b1f425b0ff2a196adecef360f561b20a187.png" width="35" height="35" /> | Maxime |
+| <img src="https://zeus.ugent.be/zeuswpi/9Wt7JVCU.png" width="35" height="35" /> | Maxime |
 
 ### Verloop
 
