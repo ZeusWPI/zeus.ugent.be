@@ -66,3 +66,4 @@ We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelo
 [bestuur-mm]: https://mattermost.zeus.gent/zeus/channels/bestuur
 [functieprofielen]: https://git.zeus.gent/bestuur/drive/-/blob/master/varia/functieprofielen.md
 [vote]: https://vote.zeus.ugent.be
+[kers]: https://kers.zeus.gent/
