@@ -69,4 +69,3 @@ We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelo
 [functieprofielen]: https://git.zeus.gent/bestuur/drive/-/blob/master/varia/functieprofielen.md
 [vote]: https://vote.zeus.ugent.be
 [kers]: https://kers.zeus.gent/
-[yul]: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/1195690/bfa05669306011d022da1db379c2645656562abb.png 
