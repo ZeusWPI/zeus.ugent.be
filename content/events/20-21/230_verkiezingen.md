@@ -31,6 +31,8 @@ Alvast een overzichtje van de huidige kandidaten:
 | Voorzitter & Vice | Francis & Arthur |
 | Penning           | Sammy            |
 | Sysadmin          | Jasper           |
+| 🦊		    | Ruben            |
+| <img src="https://zeus.ugent.be/zeuswpi/9Wt7JVCU.png" width="35" height="35" /> | Maxime |
 
 ### Verloop
 
