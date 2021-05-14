@@ -20,7 +20,7 @@ Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers geli
 
 ### Eten en drinken
 
-We bieden geen drinken aan, je zorgt dus zelf voor je niet-alcoholische drank. Echter gaan we wel om afhaaleten gaan om de hongerige buiken te vullen.
+We bieden geen drinken aan, je zorgt dus zelf voor je drank. Echter gaan we wel om afhaaleten gaan om de hongerige buiken te vullen.
 
 ## Kandidaten
 
