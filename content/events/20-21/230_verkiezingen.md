@@ -20,7 +20,7 @@ Omdat er nog steeds enkele regels gelden is het aantal aanwezige deelnemers geli
 
 ### Eten en drinken
 
-We bieden geen drinken aan, je zorgt dus zelf voor je niet-alcoholische drank. Echter gaan we wel om afhaaleten gaan om de hongerige buiken te vullen.
+We bieden geen drinken aan, je zorgt dus zelf voor je drank. Echter gaan we wel om afhaaleten gaan om de hongerige buiken te vullen.
 
 ## Kandidaten
 
@@ -61,6 +61,10 @@ Nee, we bedoelen niet de Linuxserver van de UGent, maar een open-source verkiezi
 ### Jitsi - Online volgen
 
 We gebruiken Jitsi om de verkiezingen ook online te kunnen volgen. In het afgelopen jaar is dit een veel stabieler platform geworden dat ook veel deelnemers zonder problemen aankan. Je gaat de kandidaat kunnen horen maar zelf ga je niet hoorbaar zijn. Vragen stellen kan via de chat, deze worden dan voorgelezen door een persoon ter plaatse.
+
+### Regels - Offline volgen
+
+Er gelden nog steeds een aantal strikte regels rond de fysieke activiteit die iedereen verwacht wordt te volgen. De regels zijn niet nieuw: houd 1,5m afstand, draag je mondmasker als je rondloopt, blijf zitten als je eet, ... Deze worden nog extra duidelijk gemaakt op het event zelf.
 
 
 [helios]: https://heliosvoting.org/
