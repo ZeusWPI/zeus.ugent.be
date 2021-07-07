@@ -5,7 +5,7 @@ created_at: 07-07-2021
 time: 11-07-2021 13:00
 end: 11-07-2021 23:30
 location: "Achtertuin van de studententuin (aan S5, Campus Sterre)"
-banner: "https://zeus.ugent.be/zeuswpi/O6DVTnF6.jpg"
+banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
 header_text_background: true
 ---
 
