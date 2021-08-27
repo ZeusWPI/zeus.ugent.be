@@ -11,7 +11,7 @@ function regenerateQR() {
 
   let message_container = document.getElementById('tabtopup-message');
   if (username == '') {
-    message_container.textContent = 'Please fill in username';
+    message_container.textContent = 'Please fill in username.';
     username_field.classList.add('is-danger');
     return;
   }
@@ -20,7 +20,7 @@ function regenerateQR() {
     username_field.classList.add('is-danger');
     return;
   } else if (amountUnparsed == '') {
-    message_container.textContent = 'Please fill in amount';
+    message_container.textContent = 'Please fill in amount.';
     amount_field.classList.add('is-danger');
     return;
   } else {
@@ -28,7 +28,7 @@ function regenerateQR() {
   }
 
   let amount =  parseFloat(document.getElementById('tabtopup-amount').value.replace(',', '.'));
-  message_container.textContent = username + ' will top up for ' + amount.toFixed(2) + ' euro.';
+  message_container.textContent = username + ' will top up for ' + amount.toFixed(2) + ' euro. It might take a couple of days before this arrives on your Tab.';
 
   let message = 'TAB ' + username;
   if (message.length >= 80) {
@@ -37,7 +37,7 @@ function regenerateQR() {
     return;
   }
   if (amount <= 0) {
-    message_container.textContent = 'Amount should be at least 0.01 euro (but preferably more of course)';
+    message_container.textContent = 'Amount should be at least 0.01 euro (but preferably more of course).';
     amount_field.classList.add('is-danger');
     return;
   }
