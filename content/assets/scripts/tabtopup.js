@@ -44,7 +44,7 @@ function regenerateQR() {
 
   let qr_data = generateQrCode({
     name: 'Zeus WPI',
-  	iban: 'BE03 7340 5456 0384',
+  	iban: document.getElementById('banknumber').textContent,
   	amount: amount,
   	unstructuredReference: message,
   	information: 'Zeus WPI Tab',
