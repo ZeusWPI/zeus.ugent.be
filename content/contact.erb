@@ -39,8 +39,44 @@ contact_links:
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<%= asset :js, 'epcqr' %>
+<%= asset :js, 'tabtopup' %>
 <% end %>
 
+
+<div id="tabtopupmodal" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Top up Tab with EPC QR code</p>
+    </header>
+    <section class="modal-card-body">
+      <div style="height: 256px"><div id="tabtopup-qrcode"></div></div>
+      <p id='tabtopup-message'></p>
+      <div class="field">
+        <label class="label" for="tabtopup-username">Zeus username:</label>
+          <div class="control has-icons-left">
+             <input id="tabtopup-username" type="text" class="input" placeholder="j" name="tabtopup-username">
+             <span class="icon is-small is-left">
+              <%= fa :user, fw: true %>
+             </span>
+          </div>
+        <p class="help">This is not necessarily the same as your Mattermost username, contact the board if you forgot your username</p>
+      </div>
+      <div class="field">
+        <label class="label" for="tabtopup-amount">Amount (euro):</label>
+          <div class="control has-icons-left">
+             <input id="tabtopup-amount" type="text" step="0.01" class="input" value="5.0" name="tabtopup-amount">
+             <span class="icon is-small is-left">
+              <%= fa :euro, fw: true %>
+             </span>
+          </div>
+      </div>
+    </section>
+    </div>
+  </div>
+</div>
 
 <div class="content">
   <h1 class='title is-1 has-text-centered'>Contact us</h1>
@@ -90,9 +126,12 @@ contact_links:
             BE03 7340 5456 0384
           </p>
           <p class='is-size-5'>
-            <b>Please use the message "TAB <em>&lt;username&gt;</em>" when toppping up your Tab balance</b>
+            <b>Please use the message <wbr>"TAB&nbsp;<em>&lt;username&gt;</em>" when manually topping up your Tab balance</b>
           </p>
-          <a class='button' href='https://zeus.ugent.be/tab/'>
+          <a id="tab-qr-button" class="button">
+            <%= fa :qrcode, fw: true %> Top up Tab balance
+          </a>
+          <a class='button' href='https://tab.zeus.gent' target='_blank'>
             <%= fa :euro, fw: true %> Use Tab
           </a>
         </div>
@@ -146,10 +185,11 @@ contact_links:
         </p>
       </div>
     </div>
+    <!-- Embedded map -->
+    <div style="z-index: 0" class="map-wrapper box">
+        <%= render '/partials/_map.erb', location: "Zeus WPI" %>
+    </div>
   </div>
 
-  <!-- Embedded Google Maps -->
-  <div class="map-wrapper box">
-      <%= render '/partials/_map.erb', location: "Zeus WPI" %>
-  </div>
+
 </div>
