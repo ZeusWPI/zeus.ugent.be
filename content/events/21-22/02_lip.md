@@ -8,5 +8,4 @@ time: 01-10-2020 18:00
 location: Auditorium A3, Gebouw S9, Campus Sterre, Gent
 locationlink: $s9
 soon: true
-
 ---
