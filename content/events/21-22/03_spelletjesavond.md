@@ -3,6 +3,7 @@ title: Spelletjesavond
 description: Kom samen met andere Zeus-mensen gezellig spelletjes spelen!
 created_at: 17-09-2021
 time: '13-10-2021 18:00'
+end: '13-10-2021 23:30'
 location: 'Studententuin - Achtertuin, Campus Sterre'
 ---
 
