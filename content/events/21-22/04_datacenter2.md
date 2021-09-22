@@ -1,6 +1,6 @@
 ---
-title: Zeus bezoekt het datacenter
-description: Heb je altijd al eens de blinkende lichtjes in het datacenter van dichtbij willen zien? Dit is je kans!
+title: Zeus bezoekt de supercomputer van UGent
+description: Heb je altijd al eens de blinkende lichtjes van de supercomputer in het datacenter van dichtbij willen zien? Dit is je kans!
 created_at: 17-09-2021
 time: '19-10-2021 18:00'
 location: Gebouw S10, Campus Sterre, Gent
