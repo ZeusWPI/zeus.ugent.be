@@ -24,6 +24,7 @@ addons:
       - texlive-latex-recommended
       - texlive-science
       - texlive-xetex
+      - texlive-plain-generic
       - lmodern
 
 branches:
