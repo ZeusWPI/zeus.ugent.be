@@ -1,4 +1,5 @@
 language: ruby
+dist: focal
 bundler_args: --without development,nanoc
 
 # Travis' own submodule update is broken somehow
