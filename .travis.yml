@@ -19,9 +19,10 @@ cache:
 addons:
   apt:
     packages:
-      - texlive-generic-recommended
+      - texlive-fonts-recommended
       - texlive-latex-base
-      - texlive-math-extra
+      - texlive-latex-recommended
+      - texlive-science
       - texlive-xetex
       - lmodern
 
