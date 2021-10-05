@@ -37,7 +37,7 @@ Anderzijds kan het nut hebben: oud-leden uit die tijd kijken misschien graag vol
 Nieuwere leden willen misschien inspiratie opdoen over hoe het er vroeger aan toe ging.
 Spoilers:
 
-- sommige dingen veranderen (over [PHP](/blog/00-01/php-lessen) [zal](/blog/03-04/les-2) [waarschijnlijk](/blog/05-06/webdev.md) niet snel nog eens les gegeven worden)
+- sommige dingen veranderen (over [PHP](/blog/00-01/php-lessen) [zal](/blog/03-04/les-2) [waarschijnlijk](/blog/05-06/webdev) niet snel nog eens les gegeven worden)
 - andere zijn wat verloren geraakt (de [traditionele](/events/03-04/ribben) [Ribbetjesavond](/events/02-03/ribben) wordt nu soms anders ingevuld)
 - nog andere zaken blijven hetzelfde (zoals het [verkiezen van een nieuw bestuur](/events/05-06/ledenvergadering-3) of [cammie](/blog/02-03/voyeur), die [af en toe](/blog/05-06/webcam) werkt).
 
