@@ -33,13 +33,13 @@ De archieven lopen van 2003 tot 2015, en zijn ook altijd interessant om te lezen
 ## Waarom?
 
 Enerzijds omdat het leuk is als er gearchiveerde data bestaat en ik, zoals iedereen, thuis zit en dus wat tijd had.
-Anderzijds kan het nut hebben: oud-leden uit die tijd kijken misschien graag vol nostalgie terug (naar bv. [het bezoek aan een brouwerij](<%= @items['/events/05-06/brouwerijbezoek.md'].path %>)).
+Anderzijds kan het nut hebben: oud-leden uit die tijd kijken misschien graag vol nostalgie terug (naar bv. [het bezoek aan een brouwerij](/events/05-06/brouwerijbezoek)).
 Nieuwere leden willen misschien inspiratie opdoen over hoe het er vroeger aan toe ging.
 Spoilers:
 
-- sommige dingen veranderen (over [PHP](<%= @items['/blog/00-01/php-lessen.md'].path %>) [zal](<%= @items['/blog/03-04/les-2.md'].path %>) [waarschijnlijk](<%= @items['/blog/05-06/webdev.md'].path %>) niet snel nog eens les gegeven worden)
-- andere zijn wat verloren geraakt (de [traditionele](<%= @items['/events/03-04/ribben.md'].path %>) [Ribbetjesavond](<%= @items['/events/02-03/ribben.md'].path %>) wordt nu soms anders ingevuld)
-- nog andere zaken blijven hetzelfde (zoals het [verkiezen van een nieuw bestuur](<%= @items['/events/05-06/ledenvergadering-3.md'].path %>) of [cammie](<%= @items['/blog/02-03/voyeur.md'].path %>), die [af en toe](<%= @items['/blog/05-06/webcam.md'].path %>) werkt).
+- sommige dingen veranderen (over [PHP](/blog/00-01/php-lessen) [zal](/blog/03-04/les-2) [waarschijnlijk](/blog/05-06/webdev.md) niet snel nog eens les gegeven worden)
+- andere zijn wat verloren geraakt (de [traditionele](/events/03-04/ribben) [Ribbetjesavond](/events/02-03/ribben) wordt nu soms anders ingevuld)
+- nog andere zaken blijven hetzelfde (zoals het [verkiezen van een nieuw bestuur](/events/05-06/ledenvergadering-3) of [cammie](/blog/02-03/voyeur), die [af en toe](/blog/05-06/webcam) werkt).
 
 
 ## Intermezzo: DSA is een Zeusproject?
@@ -99,5 +99,5 @@ Deze links bestaan echter niet in de Wayback Machine, maar geen probleem: als je
 
 Vergeet tot slot niet dat er voorheen ook al heel wat historische informatie over Zeus op onze site stond:
 
-- [Alle besturen ooit](<%= @items['/about/oud-bestuur.erb'].path %>)
-- [De volledige geschiedenis, geheel met tijdlijn](<%= @items['/about/historiek.erb'].path %>)
+- [Alle besturen ooit](/about/oud-bestuur)
+- [De volledige geschiedenis, geheel met tijdlijn](/about/historiek)
