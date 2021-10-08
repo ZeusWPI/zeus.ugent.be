@@ -1,9 +1,9 @@
 ---
 title: Zeus gaat op Restaurant
-description: We gaan gaan eten bij de Patrick Foley's!
+description: "We gaan gaan eten bij de Patrick Foley's!"
 created_at: 08-10-2021
 time: '26-10-2021 18:00'
-location: 'Patric Foley's - Recollettenlei 10 - Gent'
+location: "Patric Foley's - Recollettenlei 10 - Gent"
 banner: https://zeus.ugent.be/zeuswpi/patrick_foleys.jpg
 ---
 
