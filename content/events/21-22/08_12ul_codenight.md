@@ -7,6 +7,7 @@ end: '12-10-2021 23:30'
 location: 'Zeus kelder'
 locationlink: $kelder
 banner: https://zeus.ugent.be/zeuswpi/Codenight1210_background.png
+header_text_background: true
 ---
 
 Een traditie die al even aangaat, ook dit jaar verzorgt Zeus de IT van de 12-urenloop, met als centerpiece het automatisch telsysteem. Alle extra handen zijn welkom gedurdende het jaar om dit op punt te krijgen.

@@ -6,6 +6,7 @@ time: '13-10-2021 18:00'
 end: '13-10-2021 23:30'
 location: 'Studententuin - Achtertuin, Campus Sterre, tussen S5 en S8'
 banner: https://zeus.ugent.be/zeuswpi/spelletjesAvond.jpg
+header_text_background: true
 ---
 
 Heb je een cool gezelschapsspel en zoek je mensen om mee te spelen? Heb je zin om mensen te leren kennen? Of wil je gewoon een gezellige avond spelletjes spelen? Kom zeker naar de Zeus-spelletjesavond!
