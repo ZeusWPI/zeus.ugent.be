@@ -2,6 +2,7 @@
 title: "Hacktoberfest codenight"
 created_at: 08-10-2021
 time: '28-10-2021 18:00'
+end: '28-10-2021 22:00'
 location: S9 leslokaal 1.1
 description: Maak 4 pull requests en krijg een gratis t-shirt!
 banner: https://zeus.ugent.be/zeuswpi/hacktoberfest_zeuslogo.jpg
