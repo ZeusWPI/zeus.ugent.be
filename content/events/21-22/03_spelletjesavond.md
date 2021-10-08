@@ -13,6 +13,7 @@ Heb je een cool gezelschapsspel en zoek je mensen om mee te spelen? Heb je zin o
 
 ## Aanwezige spelletjes
 Zeus heeft zelf een stapel aan spelletjes liggen die gemakkelijk te spelen zijn:
+
 - Junkart
 - Magic Maze
 - Concept
