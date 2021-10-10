@@ -24,6 +24,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Set branch name
+        id: vars
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
@@ -52,5 +55,8 @@ jobs:
       - name: Run checks
         run: "nix-shell --run 'nanoc --env=prod check --deploy'"
       - name: Deploy site
-        run: "nix-shell --run 'nanoc --env=prod deploy public'"
+        env:
+          TRAVIS_PULL_REQUEST: ${{ github.event.pull_request.number }}
+          TRAVIS_BRANCH: ${{ steps.vars.outputs.short_ref }}
+        run: "./deploy.sh'"
 
