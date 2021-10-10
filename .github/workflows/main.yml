@@ -29,6 +29,7 @@ jobs:
         with:
           submodules: recursive
           ssh-strict: false
+          ssh-key: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}
       - name: Install Nix
         uses: cachix/install-nix-action@v13
         with:
