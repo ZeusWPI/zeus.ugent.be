@@ -24,12 +24,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout repository and submodules
+      - name: Checkout repository
         uses: actions/checkout@v2
-        with:
-          submodules: recursive
-          ssh-strict: false
-          ssh-key: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}
+      - name: Checkout submodule
+        run: git submodule update --init --recursive --remote
       - name: Install Nix
         uses: cachix/install-nix-action@v13
         with:
