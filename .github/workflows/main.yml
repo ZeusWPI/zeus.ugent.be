@@ -33,6 +33,8 @@ jobs:
           nix_path: nixpkgs=channel:nixos-20.09
       - name: Build site
         run: "nix-shell --run 'nanoc --env=prod'"
+      - name: Run checks
+        run: "nix-shell --run 'nanoc --env=prod check --deploy'"
       - shell: bash
         env:
           PRIVATE_KEY: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}

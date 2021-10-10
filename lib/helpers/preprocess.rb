@@ -120,6 +120,16 @@ module PreprocessHelper
     end
   end
 
+  def convert_tags(type)
+    type = type.to_s
+    @items.find_all("/#{type.downcase}/*/*").each do |item|
+      if item.key?(:tags)
+        item[:tags] = item[:tags]
+          .map{ |tag| tag.split.map(&:capitalize).join(' ') }
+      end
+    end
+  end
+
   def add_report_metadata
     @items.find_all('/about/verslagen/*/*').each do |report|
       report[:academic_year] = report.identifier.to_s.split('/')[-2]

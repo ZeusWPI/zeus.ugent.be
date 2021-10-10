@@ -127,7 +127,7 @@ data:
     - rol: Vicevoorzitter
       naam: Dries Kimpe
     - rol: Penningmeester
-      naam: Rudi Gevaert
+      naam: Rudy Gevaert
   03-04:
     - rol: Voorzitter
       naam: Kristof Verhenne
@@ -411,3 +411,22 @@ data:
     - rol: Evenementen
       naam: Ruben De Facq
       mail: event@zeus.ugent.be
+  21-22:
+    - rol: Voorzitter
+      naam: Francis Klinck
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Arthur Werbrouck
+      mail: voorzitter@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Sammy Delanghe
+      mail: penning@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Jasper Devreker
+      mail: admin@zeus.ugent.be
+    - rol: Assisterend bestuurslid
+      naam: Maxime Bloch
+      mail: assisterend@zeus.ugent.be
+    - rol: Assisterend bestuurslid
+      naam: Ruben De Facq
+      mail: assisterend@zeus.ugent.be
