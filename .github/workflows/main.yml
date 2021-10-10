@@ -28,6 +28,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
+          ssh-strict: false
       - name: Install Nix
         uses: cachix/install-nix-action@v13
         with:
