@@ -48,5 +48,5 @@ jobs:
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
-          rsync -e 'ssh -p 2222' -aglpPrtvz --delete output/ "zeuspr@herbert.ugent.be:/home/zeuspr/public/$PR_NUMBER/""
+          rsync -e 'ssh -p 2222' -aglpPrtvz --delete output/ "zeuspr@herbert.ugent.be:/home/zeuspr/public/$PR_NUMBER/"
 
