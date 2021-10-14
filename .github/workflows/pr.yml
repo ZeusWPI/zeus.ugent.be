@@ -36,6 +36,12 @@ jobs:
           echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
           ssh-add /home/runner/.ssh/id_ed25519
+      - name: Debug ssh for deploy
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh zeuspr@herbert.ugent.be /bin/true > out.dat
+          cat out.dat
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Checkout submodule
