@@ -49,5 +49,9 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          scp -r -P 2222 output/ zeuspr@herbert.ugent.be:/home/zeuspr/public/$PR_NUMBER/
-
+          sftp -P 2222 zeuspr@herbert.ugent.be <<EOF
+          cd /home/zeuspr/public
+          mkdir $PR_NUMBER
+          put -r output
+          quit
+          EOF
