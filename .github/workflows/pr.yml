@@ -5,12 +5,8 @@ name: Pull request build and deploy
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
-  schedule:
-  - cron: "00 06 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -40,8 +36,7 @@ jobs:
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          ssh zeuspr@herbert.ugent.be /bin/true > out.dat
-          cat out.dat
+          ssh zeuspr@herbert.ugent.be /bin/true
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Checkout submodule
