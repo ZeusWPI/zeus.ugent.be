@@ -36,7 +36,7 @@ jobs:
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          ssh zeuspr@herbert.ugent.be /bin/true
+          ssh -p 2222 zeuspr@herbert.ugent.be /bin/true
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Checkout submodule
