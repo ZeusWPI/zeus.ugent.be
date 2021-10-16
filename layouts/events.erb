@@ -6,7 +6,8 @@
       </p>
       <ul class="menu-list">
         <% academic_years_event_items.each do |year, item| %>
-        <% if @item_rep && @item_rep.path == item.path %>
+        <% if @item_rep && @item_rep.path == item.path ||
+            (!is_anything_selected(academic_years_event_items + tag_event_items, @item_rep) && year == @config[:academic_year]) %>
         <li>
           <a href="#" class="is-active">
             <%= pretty_year(year) %>

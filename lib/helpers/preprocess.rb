@@ -82,6 +82,12 @@ module PreprocessHelper
       navigable: true,
       order: 10
     )
+
+    @items.create(
+      '',
+      { academic_year: @config[:academic_year], title: type, is_yearly: true },
+      "/#{type.downcase}/index.html"
+    )
   end
 
   def create_tagly_items(type)
