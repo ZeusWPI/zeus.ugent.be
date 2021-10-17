@@ -39,7 +39,7 @@ jobs:
       - name: Install Nix
         uses: cachix/install-nix-action@v13
         with:
-          nix_path: nixpkgs=channel:nixos-20.09
+          nix_path: nixpkgs=channel:nixos-21.05
       - name: Build site
         run: "nix-shell --run 'nanoc --env=prod'"
       - name: Run checks
