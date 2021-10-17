@@ -7,7 +7,7 @@ let
   };
 in mkShell {
   nativeBuildInputs = [
-    ruby gems bundler libxml2 nodejs yarn cacert git glibcLocales
+    ruby_3_0 gems bundler libxml2 nodejs yarn cacert git glibcLocales
     pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem; })
   ] ++ (if stdenv.isDarwin then [terminal-notifier] else []);
   shellHook = ''
