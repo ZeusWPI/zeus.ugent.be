@@ -52,6 +52,7 @@ jobs:
           sftp -P 2222 zeuspr@herbert.ugent.be <<EOF
           cd /home/zeuspr/public
           mkdir $PR_NUMBER
-          put -r output $PR_NUMBER
+          lcd output
+          put -r ./ $PR_NUMBER
           quit
           EOF
