@@ -749,6 +749,17 @@
     };
     version = "1.0.18";
   };
+  tzinfo = {
+    dependencies = ["concurrent-ruby"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "10qp5x7f9hvlc0psv9gsfbxg4a7s0485wsbq1kljkxq94in91l4z";
+      type = "gem";
+    };
+    version = "2.0.4";
+  };
   uglifier = {
     dependencies = ["execjs"];
     groups = ["production"];

@@ -19,6 +19,9 @@ gem 'builder'
 # for reading time
 gem 'words_counted'
 
+# For correct timezone
+gem 'tzinfo'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499
