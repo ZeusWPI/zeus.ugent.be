@@ -230,3 +230,8 @@ footer.footer {
   background-size: 100% 0.15em;
   background-position: 0 99%;
 }
+
+.compiled_at {
+  font-size: $size-small;
+  color: $grey-light;
+}
