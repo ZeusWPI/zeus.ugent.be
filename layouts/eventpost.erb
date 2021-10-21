@@ -20,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="/assets/stylesheets/katex.css">
 <% end %>
 
+<div vocab="http://schema.org/" typeof="Event">
 <% if item[:banner] %>
 <section class="hero is-medium is-primary is-bold" style="background-image:url('<%= item[:banner] %>');background-position:center;">
 <% elsif item[:color] %>
@@ -44,7 +45,7 @@
                 style="background-color: <%= item[:header_text_background_color] %>"
                <% end %>>
             <p class="title is-1-responsive event-title">
-              <b>
+              <b property="name">
                 <%= item[:title] %>
               </b>
               <span class="event-social-icons">
@@ -58,19 +59,19 @@
                 </a>
               </span>
             </p>
-            <p class="subtitle is-3-responsive">
+            <p class="subtitle is-3-responsive" property="description">
               <%= item[:description] %>
             </p>
             <ul class="fa-ul is-4-responsive">
               <li>
                 <%= fa 'clock-o', li: true %>
-                <%= item[:time].strftime '%A %d %B %Y %H:%M' %>
+                <span property="startDate" content="<%=item[:time]%>"> <%= item[:time].strftime '%A %d %B %Y %H:%M' %></span>
                 <% if item[:end] %>
                     <span>
                         -
                     </span>
+                    <span property="endDate" content="<%=item[:time]%>">
                     <% if (item[:end].strftime '%d %B %Y') != (item[:time].strftime '%d %B %Y') %>
-                        <span>
                             <%= item[:end].strftime '%d %B ' %>
                         </span>
                     <% end %>
@@ -82,16 +83,17 @@
                     <span>
                         <%= item[:end].strftime '%H:%M' %>
                     </span>
+                    </span>
                 <% end %>
               </li>
-              <li><%= fa 'map-marker', li: true %><%= item[:location] %></li>
+              <li><%= fa 'map-marker', li: true %><span property="location"><%= item[:location] %></span></li>
             </ul>
           </div>
         </div>
 
         <% if item[:image] %>
         <div class="is-narrow column banner-image">
-          <img src="<%= item[:image] %>" alt="banner">
+          <img src="<%= item[:image] %>" alt="banner" property="image">
         </div>
         <% end %>
       </div>
@@ -131,3 +133,4 @@
 </section>
 <% end %>
 <!-- END SPONSORED BY -->
+</div>
