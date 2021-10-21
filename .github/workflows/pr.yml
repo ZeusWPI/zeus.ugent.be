@@ -56,3 +56,8 @@ jobs:
           put -r ./ $PR_NUMBER
           quit
           EOF
+      - name: Place comment on PR
+        env:
+          PR_NR: ${{ github.event.pull_request.number }}
+          COMMENT_TOKEN: ${{ secrets.COMMENT_TOKEN }}
+        run: bash ./comment.sh
