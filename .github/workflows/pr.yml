@@ -29,10 +29,12 @@ jobs:
         with:
           key: nix-${{ hashFiles('packages.nix') }}
           nix_file: 'packages.nix'
+      - name: Set environment variable
+        run: "export LANG=en_US.UTF-8"
       - name: Build site
-        run: "nix-shell --run 'nanoc --env=prod'"
+        run: "nanoc --env=prod"
       - name: Run checks
-        run: "nix-shell --run 'nanoc --env=prod check --deploy'"
+        run: "nanoc --env=prod check --deploy"
       - name: Add private key
         shell: bash
         env:
