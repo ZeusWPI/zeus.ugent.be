@@ -1,3 +1,7 @@
+require 'tzinfo'
+
+$tz = TZInfo::Timezone.get('Europe/Brussels')
+
 module PreprocessHelper
   def required_attrs
     {
@@ -110,9 +114,15 @@ module PreprocessHelper
       # HACK: Strings in a format like "2017-10-05T20:45:00+0200" automatically get converted to Time
       event[:time] = event[:time].to_s
       event[:time] = DateTime.parse(event[:time])
+      t = event[:time]
+      event[:time] = $tz.local_datetime(t.year, t.month, t.day, t.hour, t.minute, t.second)
 
-      event[:end] = event[:end].to_s if event[:end]
-      event[:end] = DateTime.parse(event[:end]) if event[:end]
+      if event[:end]
+        event[:end] = event[:end].to_s
+        event[:end] = DateTime.parse(event[:end])
+        t = event[:end]
+        event[:end] = $tz.local_datetime(t.year, t.month, t.day, t.hour, t.minute, t.second)
+      end
     end
   end
 

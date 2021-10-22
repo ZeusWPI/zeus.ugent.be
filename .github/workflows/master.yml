@@ -22,6 +22,21 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Checkout submodule
+        run: git submodule update --init --recursive --remote
+      - name: Cache install Nix packages
+        uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
+        with:
+          key: nix-${{ hashFiles('packages.nix') }}
+          nix_file: 'packages.nix'
+      - name: Set environment variable
+        run: "export LANG=en_US.UTF-8"
+      - name: Build site
+        run: "nanoc --env=prod"
+      - name: Run checks
+        run: "nanoc --env=prod check --deploy"
       - name: Add private key
         shell: bash
         env:
@@ -34,19 +49,7 @@ jobs:
           echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
           ssh-add /home/runner/.ssh/id_ed25519
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Checkout submodule
-        run: git submodule update --init --recursive --remote
-      - name: Install Nix
-        uses: cachix/install-nix-action@v13
-        with:
-          nix_path: nixpkgs=channel:nixos-21.05
-      - name: Build site
-        run: "nix-shell --run 'nanoc --env=prod'"
-      - name: Run checks
-        run: "nix-shell --run 'nanoc --env=prod check --deploy'"
       - name: Deploy to production
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: "nix-shell --run 'nanoc --env=prod deploy public'"
+        run: "nanoc --env=prod deploy public"
