@@ -19,25 +19,27 @@
 <link rel="stylesheet" type="text/css" href="/assets/stylesheets/katex.css">
 <% end %>
 
-<div class="blog-heading">
-  <div class="titlewrap">
-    <h1 class="title is-1-responsive has-text-centered animated fadeIn">
-      <%= item[:title] %>
-    </h1>
-    <% if item[:author] %>
-    <h2 class="subtitle is-4-responsive has-text-centered animated fadeInLeft">
-      door <%= item[:author] %>
-    </h2>
-    <% end %>
-    <div class="details animated fadeInRight">
-      <small>
-        Geschreven op <%= item[:created_at] %><br>
-        Leestijd: <%= reading_time @item %>
-      </small>
+<div vocab="http://schema.org/" typeof="BlogPosting">
+  <div class="blog-heading">
+    <div class="titlewrap">
+      <h1 class="title is-1-responsive has-text-centered animated fadeIn" property="name">
+        <%= item[:title] %>
+      </h1>
+      <% if item[:author] %>
+      <h2 class="subtitle is-4-responsive has-text-centered animated fadeInLeft">
+        door <span property="author"><%= item[:author] %></span>
+      </h2>
+      <% end %>
+      <div class="details animated fadeInRight">
+        <small>
+          Geschreven op <span property="dateCreated"><%= item[:created_at] %></span><br>
+          Leestijd: <%= reading_time @item %>
+        </small>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="columns animated fadeIn">
-  <%= yield %>
+  <div class="columns animated fadeIn" property="articleBody">
+    <%= yield %>
+  </div>
 </div>
