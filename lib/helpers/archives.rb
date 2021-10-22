@@ -28,6 +28,11 @@ module ArchiveHelper
     "'#{year[0]} - '#{year[1]}"
   end
 
+  def is_anything_selected(things, item)
+    things.any? { |_, thing| thing.path == item.path}
+  end
+
+
   def posts_in_year(y)
     items.find_all("/blog/#{y}/*").sort_by { |x| x[:created_at] }.reverse
   end

@@ -58,7 +58,7 @@ module EventsHelper
   end
 
   def academic_years_event_items
-    items.find_all('/events/*').reject { |e| e[:academic_year].nil? }.map { |e| [e[:academic_year], e] }.sort_by(&:first).reverse
+    items.find_all('/events/*').reject { |e| e[:academic_year].nil? }.uniq { |p| p[:academic_year] }.map { |e| [e[:academic_year], e] }.sort_by(&:first).reverse
   end
 
   def grouped_events

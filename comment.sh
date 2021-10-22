@@ -1,7 +1,5 @@
 #!/bin/bash
 
-PR_NR=$TRAVIS_PULL_REQUEST
-
 function performQuery() {
     NEW_QUERY_STR="{\"query\":\"$1\"}"
     echo $NEW_QUERY_STR

@@ -1,10 +1,14 @@
+require 'tzinfo'
+
+$tz = TZInfo::Timezone.get('Europe/Brussels')
+
 module TimeHelper
   def christmastime?
-    timehelper([[Time.new(Time.now.year, 12, 6), Time.new(Time.now.year, 12, 31)]])
+    timehelper([[Time.new($tz.now.year, 12, 6), Time.new($tz.now.year, 12, 31)]])
   end
 
   def studytime?
-    year = Time.now.year
+    year = $tz.now.year
     timehelper([
                  [Time.new(year, 12, 14), Time.new(year, 12, 31)],
                  [Time.new(year, 1, 1), Time.new(year, 2, 7)],
@@ -14,7 +18,7 @@ module TimeHelper
   end
 
   def new_member_time?
-    year = Time.now.year
+    year = $tz.now.year
     timehelper([[Time.new(year, 9, 20), Time.new(year, 10, 15)]])
   end
 
@@ -23,6 +27,6 @@ module TimeHelper
   end
 
   def periodhelper(startdate, enddate)
-    Time.now.between?(startdate, enddate)
+    $tz.now.between?(startdate, enddate)
   end
 end

@@ -22,6 +22,8 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 
 **Locatie**: Therminal: Hoveniersberg 24, Gent
 
+**Meenemen**: Verdeeldoos + ethernetkabel (indien je dit hebt)
+
 ## Toernooien
 
 Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt. 
