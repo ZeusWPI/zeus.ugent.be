@@ -42,9 +42,13 @@ jobs:
           key: nix-${{ hashFiles('packages.nix') }}
           nix_file: 'packages.nix'
       - name: Build site
-        run: "nix-shell --run 'nanoc --env=prod'"
+        env:
+          LANG: "en_US.UTF-8"
+        run: "nanoc --env=prod"
       - name: Run checks
-        run: "nix-shell --run 'nanoc --env=prod check --deploy'"
+        env:
+          LANG: "en_US.UTF-8"
+        run: "nanoc --env=prod check --deploy"
       - name: Deploy site to staging area
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
