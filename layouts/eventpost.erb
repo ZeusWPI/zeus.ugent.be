@@ -70,7 +70,7 @@
                     <span>
                         -
                     </span>
-                    <span property="endDate" content="<%=item[:time]%>">
+                    <span property="endDate" content="<%=item[:end]%>">
                     <% if (item[:end].strftime '%d %B %Y') != (item[:time].strftime '%d %B %Y') %>
                             <%= item[:end].strftime '%d %B ' %>
                         </span>
