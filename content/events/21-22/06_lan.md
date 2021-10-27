@@ -14,7 +14,7 @@ tags:
 
 # Game Over! Try Again.
 
-Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Dit jaar in samenwerking met WiNA! Voor het negende jaar op rij weer een hele nacht om je favoriete games te spelen met je vrienden, deel te nemen aan toernooien en meer.
+Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Dit jaar in samenwerking met WiNA! Voor het tiende jaar op rij weer een hele nacht om je favoriete games te spelen met je vrienden, deel te nemen aan toernooien en meer.
 
 **Datum**: Vrijdag 5 november - Zaterdag 6 oktober
 
@@ -22,14 +22,15 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 
 **Locatie**: Therminal: Hoveniersberg 24, Gent
 
-**Meenemen**: Verdeeldoos + ethernetkabel (indien je dit hebt)
+**Meenemen**: Verdeeldoos + ethernetkabel (indien je dit nodig hebt)
+
+**inschrijven**: Inschrijven is enkel nodig voor het toernooi. Voor de LAN-party zelf kan je gewoon afkomen!
 
 ## Toernooien
 
-Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Laat ons bij het inschrijven dan ook zeker weten wat je graag speelt. 
+Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Inschrijven kan via volgende link:
+https://forms.gle/Ba3CHoZL3X6SV1Ht5
 
-## Inschrijven
-Inschrijvingen en verdere communicatie zal op een later tijdstip nog aangevuld worden. 
 
 Tot dan!
 
