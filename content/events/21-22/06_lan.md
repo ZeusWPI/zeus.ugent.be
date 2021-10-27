@@ -5,8 +5,7 @@ created_at: 22-09-2021
 time: "05-11-2021 18:00"
 end: "06-11-2021 04:00"
 location: "Therminal"
-banner: https://zeus.ugent.be/zeuswpi/KK0m_nz7.jpg
-
+banner: https://zeus.ugent.be/zeuswpi/rZN1dGOl.png
 tags:
   - Lan Party
   - Gaming
