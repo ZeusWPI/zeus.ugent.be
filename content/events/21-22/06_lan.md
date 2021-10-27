@@ -29,7 +29,7 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 ## Toernooien
 
 Denk je dat je goed bent in de games die je speelt? Kom je eer dan verdedigen tijdens een van onze toernooien. Inschrijven kan via volgende link voor League of Legends en FIFA:
-https://forms.gle/Ba3CHoZL3X6SV1Ht5
+<https://forms.gle/Ba3CHoZL3X6SV1Ht5>
 
 DEADLINE: 3 november om 23:59
 
