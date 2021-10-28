@@ -3,6 +3,11 @@
   text-align: justify;
 }
 
+// Small helper to make a div full width
+.is-full-width {
+  width: 100%;
+}
+
 pre .line-numbers {
   margin-right: 10px;
   margin-left: -10px;
@@ -10,17 +15,17 @@ pre .line-numbers {
 
 // Override box styling without round corners
 .box {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 a.box:hover {
   color: $blue;
   transform: translateY(-1px);
-  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
 // Add some hero attributes to make backgrounds prettier
@@ -90,7 +95,7 @@ footer.footer {
     flex-direction: column;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.30s ease-in-out;
+    transition: all 0.3s ease-in-out;
     position: absolute;
     top: 100%;
     background-color: white;
@@ -188,13 +193,13 @@ footer.footer {
 
     figcaption {
       position: absolute;
-      background-color: rgba(0,0,0,.7);
+      background-color: rgba(0, 0, 0, 0.7);
       color: white;
       bottom: 0;
       width: 100%;
       padding: 10px 20px;
 
-      transition: all .1s;
+      transition: all 0.1s;
 
       opacity: 0;
     }
@@ -224,8 +229,16 @@ footer.footer {
 }
 
 .underline--magical {
-  background-image: -webkit-linear-gradient(to right,  $zeus-orange, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
-  background-image: linear-gradient(to right, $zeus-orange, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: -webkit-linear-gradient(
+    to right,
+    $zeus-orange,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(
+    to right,
+    $zeus-orange,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: 100% 0.15em;
   background-position: 0 99%;

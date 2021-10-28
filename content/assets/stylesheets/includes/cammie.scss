@@ -23,7 +23,7 @@
     }
 
     &.display {
-      transition: opacity .5s ease-in-out;
+      transition: opacity 0.5s ease-in-out;
       opacity: 1;
     }
 
@@ -37,6 +37,7 @@
 
       background-color: $cammie-controls-color;
       color: white;
+
       &:hover {
         background-color: $zeus-orange;
         cursor: pointer;
@@ -45,25 +46,24 @@
       &.diag i {
         transform: rotate(45deg);
       }
-      
     }
   }
 }
-#cammie-section {
-  button{
-    background-color: $orange;
-    color: white;
-    margin-top: 5px;
-    border-radius: 0;
-    border: none;
-    width: 100%;
-    &:hover{
-      color: #363636;
-    }
-    &:active{
-      background-color: #b36b00; //dark orange
-      color: #363636;
-    }
+
+.button-cammie {
+  background-color: $orange;
+  color: white;
+  margin-top: 5px;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+
+  &:hover {
+    color: #363636;
   }
 
+  &:active {
+    background-color: #b36b00; //dark orange
+    color: #363636;
+  }
 }

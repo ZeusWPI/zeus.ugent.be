@@ -58,37 +58,52 @@ socket.on('replymessage', function(obj) {
       </div>
     </div>
   </div>
-  <nav class="nav columns">
+
+  <nav class="columns mt-0">
     <div class="column">
-      <button class="button ctrl" data-command="set_pos" data-x="24" data-y="16">
+      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="24" data-y="16">
         Kleine tafel
       </button>
     </div>
     <div class="column">
-      <button class="button ctrl" data-command="set_pos" data-x="61" data-y="10">
+      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="61" data-y="10">
         Grote tafel
       </button>
     </div>
     <div class="column">
-      <button class="ctrl button" data-command="set_pos" data-x="10" data-y="12">
+      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="10" data-y="12">
         Zetel
       </button>
     </div>
     <div class="column">
-      <button class="ctrl button" data-command="set_pos" data-x="26" data-y="6">
+      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="26" data-y="6">
         Deur
       </button>
     </div>
   </nav>
+
   <div class="columns">
-    <p id="chat-response"></p>
-    <div class="field has-addons ">
-      <div class="field control">
-          <input class="input chatbox" type="text" placeholder="Zeus is de max!">
-      </div>
-      <a class="button send control">
-        Send to kelder
-      </a>
+    <div class="column is-12">
+      <form id="cammieForm">
+
+        <!-- Response Error -->
+        <div id="cammieFormResponseError" class="notification is-danger is-light is-hidden"></div>
+
+        <!-- Response Success -->
+        <div id="cammieFormResponseSuccess" class="notification is-success is-light is-hidden"></div>
+
+        <!-- Message box -->
+        <div class="field has-addons">
+          <div class="control is-full-width">
+            <input class="input is-medium is-full-widtd" name="message" type="text" placeholder="Message...">
+          </div>
+          <div class="control">
+            <button class="button is-medium is-primary" type="submit">
+              Send to kelder
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </section>
