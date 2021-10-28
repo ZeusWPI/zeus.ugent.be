@@ -16,7 +16,7 @@ $("#cammieForm").submit((e) => {
     success() {
       responseError.addClass("is-hidden");
       responseSuccess.removeClass("is-hidden");
-      responseSuccess.text("Message has been successfully send.");
+      responseSuccess.text("Message has been successfully sent.");
       formMessage.val("");
     },
     error() {
