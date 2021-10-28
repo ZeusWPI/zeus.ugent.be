@@ -80,15 +80,21 @@ socket.on('replymessage', function(obj) {
       </button>
     </div>
   </nav>
+
   <div class="columns">
-    <p id="chat-response"></p>
-    <div class="field has-addons ">
-      <div class="field control">
-          <input class="input chatbox" type="text" placeholder="Zeus is de max!">
+    <div class="column is-12">
+      <p id="chat-response"></p>
+
+      <div class="field has-addons">
+        <div class="control is-full-width">
+          <input class="input is-medium is-full-width chatbox" type="text" placeholder="Zeus is de max!">
+        </div>
+        <div class="control">
+          <a class="button is-medium is-primary">
+            Send to kelder
+          </a>
+        </div>
       </div>
-      <a class="button send control">
-        Send to kelder
-      </a>
     </div>
   </div>
 </section>
