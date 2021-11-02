@@ -12,16 +12,18 @@ with pkgs;
 stdenv.mkDerivation {
     name = "dart-sass-${version}";
     inherit version;
-    
+
     src = fetchurl {
         inherit sha256;
         url = "https://github.com/sass/dart-sass/archive/${version}.tar.gz";
     };
 
-    installPhase = ''
+    buildPhase = ''
         export HOME=$PWD
         ${dart}/bin/dart pub get
         ${dart}/bin/dart compile exe -Dversion=${version} bin/sass.dart -o sass
+    '';
+    installPhase = ''
         cp -r . $out
         ln -s $out/sass $out/bin/sass
     '';

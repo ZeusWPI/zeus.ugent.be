@@ -10,6 +10,6 @@ let
   };
 in with pkgs;
   [
-    gems libxml2 nodejs yarn cacert git glibcLocales (import ./dart.nix {})
+    gems libxml2 nodejs yarn cacert git glibcLocales (import ./dart-sass.nix {})
     pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem; })
   ] ++ (if stdenv.isDarwin then [terminal-notifier] else [])
