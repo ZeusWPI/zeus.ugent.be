@@ -19,7 +19,8 @@ stdenv.mkDerivation {
     };
 
     buildPhase = ''
-        export HOME=$PWD
+        export PUB_CACHE=$PWD/.pub-cache
+        export PUB_ENVIRONMENT=nix:install
         ${dart}/bin/dart pub get
         ${dart}/bin/dart compile exe -Dversion=${version} bin/sass.dart -o sass
     '';
