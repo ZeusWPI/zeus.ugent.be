@@ -53,8 +53,8 @@ GEM
     http_parser.rb (0.6.0)
     icalendar (2.7.1)
       ice_cube (~> 0.16)
-    ice_cube (0.16.3)
-    json (2.6.0)
+    ice_cube (0.16.4)
+    json (2.6.1)
     json_schema (0.21.0)
     katex (0.8.0)
       execjs (~> 2.7)
@@ -124,7 +124,7 @@ GEM
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-livereload (0.3.17)
       rack
@@ -135,8 +135,6 @@ GEM
     ref (2.0.0)
     rexml (3.2.5)
     rubypants (0.7.1)
-    sassc (2.4.0)
-      ffi (~> 1.9)
     shellany (0.0.1)
     slow_enumerator_tools (1.1.0)
     terminal-notifier (2.0.0)
@@ -159,7 +157,7 @@ GEM
       rexml (~> 3.2)
     words_counted (1.0.3)
     yui-compressor (0.12.0)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
@@ -179,7 +177,6 @@ DEPENDENCIES
   pandoc-ruby
   puma
   rainpress
-  sassc
   terminal-notifier
   terminal-notifier-guard
   typogruby
@@ -190,4 +187,4 @@ DEPENDENCIES
   yui-compressor
 
 BUNDLED WITH
-   2.2.3
+   2.1.4

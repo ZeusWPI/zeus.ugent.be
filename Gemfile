@@ -9,7 +9,6 @@ gem 'kramdown'
 # Kramdown math mode gems
 gem 'kramdown-math-katex'
 
-gem 'sassc'
 gem 'typogruby'
 
 # Needed for atom_feed in blogging helper

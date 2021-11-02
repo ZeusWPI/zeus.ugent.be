@@ -15,7 +15,6 @@ in with pkgs;
 stdenv.mkDerivation rec {
     name = "dart-sass-${version}";
     inherit version;
-    #system = "x86_64-darwin";
     
     isExecutable = true;
 
@@ -24,14 +23,8 @@ stdenv.mkDerivation rec {
         url = "https://github.com/sass/dart-sass/archive/${version}.tar.gz";
     };
 
-    phases = "unpackPhase installPhase fixupPhase";
+    phases = "unpackPhase installPhase";
 
-    fixupPhase = ''
-        #${patchelf}/bin/patchelf \
-        #    --set-interpreter ${binutils.dynamicLinker} \
-        #    $out/src/dart
-    '';
-    
     installPhase = ''
         export HOME=$PWD
         ${unstable.dart}/bin/dart pub get
