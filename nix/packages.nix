@@ -6,10 +6,10 @@ let
   gems = pkgs.bundlerEnv {
     name = "zeus.ugent.be";
     inherit ruby;
-    gemdir = ./.;
+    gemdir = ../.;
   };
 in with pkgs;
   [
-    gems libxml2 nodejs yarn cacert git glibcLocales
+    gems libxml2 nodejs yarn cacert git glibcLocales (import ./dart.nix {})
     pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem; })
   ] ++ (if stdenv.isDarwin then [terminal-notifier] else [])

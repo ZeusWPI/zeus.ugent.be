@@ -208,14 +208,7 @@ ignore '/assets/stylesheets/includes/**/*'
 compile '/assets/stylesheets/**/*.scss' do
   # This filter is necessary for the workaround present in main.scss and deals with out of date dependencies
   filter :erb
-
-  sass_opts = {
-    syntax: :scss,
-    load_paths: ['content/assets/stylesheets']
-  }
-  sass_opts[:style] = :compressed if production?
-  filter :sassc, sass_opts
-
+  filter :dart_sass
   filter :autoprefixer if production?
   write ext: 'css'
 end
