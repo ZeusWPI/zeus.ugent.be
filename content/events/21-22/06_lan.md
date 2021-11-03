@@ -15,6 +15,10 @@ tags:
 
 Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zijn jaarlijkse LAN-party! Dit jaar in samenwerking met WiNA! Voor het tiende jaar op rij weer een hele nacht om je favoriete games te spelen met je vrienden, deel te nemen aan toernooien en meer.
 
+## ! Discord !
+**Alle communicatie zal verlopen via onze discord server**: https://discord.gg/yECuGtPk
+
+## Info
 **Datum**: Vrijdag 5 november - Zaterdag 6 oktober
 
 **Tijd**: 18:00 tot in de vroege uurtjes
@@ -23,7 +27,9 @@ Tijd om weer een gezellig nachtje te gamen, want Zeus WPI organiseert opnieuw zi
 
 **Meenemen**: Verdeeldoos + ethernetkabel (indien je dit nodig hebt)
 
-**inschrijven**: Inschrijven is enkel nodig voor het toernooi. Voor de LAN-party zelf kan je gewoon afkomen!
+**Inschrijven**: Inschrijven is enkel nodig voor het toernooi. Voor de LAN-party zelf kan je gewoon afkomen!
+
+**CST verplicht**: Door de wijzigingen van de corona regels zal een Covid Safe Ticket verplicht zijn.
 
 ## Toernooien
 
