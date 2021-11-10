@@ -37,7 +37,7 @@ jobs:
             /nix/var/nix/profiles/default/bin/
             /nix/var/nix/profiles/per-user/root/channels
       - name: Build and check site
-        run: "nix-build"
+        run: "nix-build --option sandbox=false"
       - name: Add private key
         shell: bash
         env:
