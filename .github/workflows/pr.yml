@@ -24,11 +24,18 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout submodule
         run: git submodule update --init --recursive --remote
-      - name: Cache install Nix packages
-        uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
+      - name: Install nix
+        uses: cachix/install-nix-action@v14.1
         with:
-          key: nix-${{ hashFiles('*.nix') }}
-          nix_file: 'default.nix'
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Use cached nix store
+        uses: actions/cache@v2
+        with:
+          key: nix-${{ hashFiles('*.nix') }}-v2
+          path: |
+            /nix/store/
+            /nix/var/nix/profiles/default/bin/
+            /nix/var/nix/profiles/per-user/root/channels
       - name: Build and check site
         run: "nix-build"
       - name: Add private key
