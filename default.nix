@@ -1,6 +1,9 @@
-with import <nixpkgs> {};
-
-stdenv.mkDerivation {
+let
+  rev = "70904d4a9927a4d6e05c72c4aaac4370e05107f3";
+  nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${rev}.tar.gz";
+  pkgs = import nixpkgs {};
+in with pkgs;
+pkgs.stdenv.mkDerivation {
   name = "zeus.ugent.be";
 
   # the src can also be a local folder, like:
