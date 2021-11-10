@@ -27,8 +27,8 @@ jobs:
       - name: Cache install Nix packages
         uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
         with:
-          key: nix-${{ hashFiles('packages.nix') }}
-          nix_file: 'packages.nix'
+          key: nix-${{ hashFiles('*.nix') }}
+          nix_file: 'default.nix'
       - name: Build and check site
         run: "nix-build"
       - name: Add private key

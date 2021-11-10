@@ -3,7 +3,7 @@ let
   nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${rev}.tar.gz";
   pkgs = import nixpkgs {};
 in with pkgs;
-pkgs.stdenv.mkDerivation {
+stdenv.mkDerivation {
   name = "zeus.ugent.be";
 
   # the src can also be a local folder, like:
