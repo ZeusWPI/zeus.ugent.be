@@ -29,12 +29,8 @@ jobs:
         with:
           key: nix-${{ hashFiles('packages.nix') }}
           nix_file: 'packages.nix'
-      - name: Set environment variable
-        run: "export LANG=en_US.UTF-8"
-      - name: Build site
-        run: "nanoc --env=prod"
-      - name: Run checks
-        run: "nanoc --env=prod check --deploy"
+      - name: Build and check site
+        run: "nix-build"
       - name: Add private key
         shell: bash
         env:
@@ -55,7 +51,7 @@ jobs:
           sftp -P 2222 zeuspr@herbert.ugent.be <<EOF
           cd /home/zeuspr/public
           mkdir $PR_NUMBER
-          lcd output
+          lcd result
           put -r ./ $PR_NUMBER
           quit
           EOF
