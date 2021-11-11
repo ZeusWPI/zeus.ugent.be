@@ -24,6 +24,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout submodule
         run: git submodule update --init --recursive --remote
+      - name: Prepare restore of nix cache
+        run: |
+          sudo mkdir -p --verbose /nix
+          sudo chown --verbose "$USER:" /nix 
       - name: Use cached nix store
         uses: actions/cache@v2
         with:
