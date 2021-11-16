@@ -115,6 +115,7 @@ compile '/blog/*/*.md' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
+  filter :colorize_syntax
 
   filter :html_press if production?
 end

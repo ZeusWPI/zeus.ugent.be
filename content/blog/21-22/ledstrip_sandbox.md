@@ -41,7 +41,7 @@ Every rectangle in the diagram is a separate thread. When a user uploads new cod
 Here's some example Lua code that can run on the LED strip:
 
 
-```
+<pre><code>#!lua
 function set_all_leds(red, green, blue)
   for idx=1,ledamount() do
     led(idx, red, green, blue) -- this will call native code
@@ -54,7 +54,7 @@ while true do
   set_all_leds(0, 255, 0) -- green
   delay(1000)
 end
-```
+</code></pre>
 
 ## Functionality
 
