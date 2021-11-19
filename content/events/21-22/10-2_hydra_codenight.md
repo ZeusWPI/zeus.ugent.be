@@ -5,7 +5,7 @@ author: Maxime Bloch
 created_at: 2021-11-19
 time: '2021-11-25T18:00:00+00:00'
 end: '2021-11-25T23:59:00+00:00'
-location: Kelder
+location: De Kelder
 locationlink: "$kelder"
 banner: https://zeus.ugent.be/zeuswpi/O7ZTXtn5.png
 header_text_background: true
