@@ -10,6 +10,8 @@ banner: https://zeus.ugent.be/zeuswpi/picoctf_banner.jpg
 header_text_background: true
 ---
 
+**Update**: we zouden graag weten of de voorkeur van de deelnemers uitgaat naar een fysiek of online event. Gelieve je dus in te schrijven via [Gandalf](https://event.fkgent.be/events/331) als wil komen naar het event.
+
 Omdat we bij Zeus security belangrijk vinden organiseren we een CTF. Maak je geen zorgen als je nog niet veel weet van hacken of beveiliging, het event is heel beginnersvriendelijk.
 
 ### Wat is een CTF?
