@@ -1,5 +1,5 @@
 ---
-title: "miniCTF"
+title: "[CANCELLED] miniCTF"
 created_at: 14-11-2021
 time: '09-12-2021 18:00'
 end: '09-12-2021 22:00'
@@ -10,7 +10,9 @@ banner: https://zeus.ugent.be/zeuswpi/picoctf_banner.jpg
 header_text_background: true
 ---
 
-**Update**: we zouden graag weten of de voorkeur van de deelnemers uitgaat naar een fysiek of online event. Gelieve je dus in te schrijven via [Gandalf](https://event.fkgent.be/events/331) als wil komen naar het event.
+**Update2** wegens de slechte coronasituatie hebben we beslist dat het geen optie was om het event fysiek te laten doorgaan
+en omdat een belangrijk stuk van het event niet goed zou vertalen naar een online event, hebben we beslist om dit event
+niet te laten doorgaan. In het tweede semester komt er nog steeds een andere CTF, die dan hopelijk wel fysiek kan doorgaan.
 
 Omdat we bij Zeus security belangrijk vinden organiseren we een CTF. Maak je geen zorgen als je nog niet veel weet van hacken of beveiliging, het event is heel beginnersvriendelijk.
 
