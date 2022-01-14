@@ -355,4 +355,15 @@ data:
           url: https://github.com/chvp
         - icon: twitter
           url: https://twitter.com/char_vp
-
+  2022:
+    - name: Robbert Gurdeep Singh
+      nickname: beardhatcode
+      photo: https://zeus.ugent.be/zeuswpi/beardhatcode.jpg
+      quote: De deadline voor het project is om 13:37:42
+      description: Dansen, Data die open is, Dependent type systems
+      links:
+        - icon: github
+          url: https://github.com/beardhatcode
+        - icon: map
+          url: https://www.openstreetmap.org/user/beardhatcode
+        - url: https://beardhatcode.be
