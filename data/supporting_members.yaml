@@ -367,3 +367,11 @@ data:
         - icon: map
           url: https://www.openstreetmap.org/user/beardhatcode
         - url: https://beardhatcode.be
+    - name: Nicky Vandeghinste
+      nickname: nickyname
+      photo: https://zeus.ugent.be/zeuswpi/OVMcPb3O.jpg
+      quote: <nickyname> Weet je, als je tetten hebt, is elke talk eigenlijk een TET-talk
+      description: Durft dingen doen, houdt van ice teas en jullie. Ik snap de obsessie van Zeus met tiramisu niet.
+      links:
+        - icon: twitter
+          url: https://twitter.com/NickyVdg
