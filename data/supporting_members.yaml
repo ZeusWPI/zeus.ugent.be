@@ -512,3 +512,17 @@ data:
           url: https://github.com/chvp
         - icon: twitter
           url: https://twitter.com/char_vp
+    - name: Lorin Werthen
+      nickname: don
+      photo: https://zeus.ugent.be/zeuswpi/sJ7VLsol.jpg
+      quote: <don> TIS WAAR SILOX TIS WAAR <don> IK HAAT ZEUS
+      description: |
+        Klimmer, Diepe leerder, Bliep bloeper
+        Vader van luipaardgekkos
+        Verdwijnt af en toe naar het Fontainebleau bos
+      links:
+        - icon: github
+          url: https://github.com/werthen
+        - url: http://werthen.com/
+        - icon: linkedin
+          url: https://www.linkedin.com/in/werthen/
