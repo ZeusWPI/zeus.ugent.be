@@ -145,6 +145,10 @@ compile '/*_search.json' do
   filter :erb
 end
 
+compile '/wina_image_api.json' do
+  filter :erb
+end
+
 compile '/**/*.ics' do
   filter :erb
 end
