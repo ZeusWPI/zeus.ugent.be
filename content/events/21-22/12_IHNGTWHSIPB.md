@@ -4,8 +4,8 @@ description: De Ik Heb Nog Genoeg Tijd Want Het Semester Is Pas Begonnen-Codenig
 created_at: 09-02-2022 13:55
 time: '17-02-2022 17:30'
 end: '17-02-2022 22:30'
-location: 'Leslokaal 1.1 - S9'
-locationlink: $s9
+location: 'De Kelder'
+locationlink: $kelder
 ---
 
 Het semester is nog maar pas begonnen, de proffen hebben je nog geen 10.000 deadlines gegeven. Het perfecte moment om aan de projecten van Zeus te werken!
