@@ -4,7 +4,7 @@ status: additional
 
 ##### Website
 
-De [website van Hydra](https://hydra.ugent.be) maakt gebruik van <span lang="en">Google Analytics</span> (zie details in de paragraaf [_Gebruik van <span lang="en">Google Analytics</span>_](#google-analytics)) voor het verzamelen van bezoekersinformatie. Dit om te weten hoeveel gebruikers de website gebruiken, hoe deze gebruikers de website vinden en hoe lang ze er blijven.
+Bij het gebruik van de [website van Hydra](https://hydra.ugent.be) wordt enkel technische data verzameld.
 
 ##### Apps
 
