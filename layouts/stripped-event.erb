@@ -1,0 +1,107 @@
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    Zeus WPI | <%= item[:title] || 'Werkgroep Informatica van de Universiteit Gent' %>
+  </title>
+
+  <link rel="icon" href="/assets/images/favicon32.png" type="image/x-icon" />
+
+  <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
+
+  <!-- Android theme color -->
+  <meta name="theme-color" content="#FF7F00">
+
+  <meta property="fb:app_id" content="597670540410704">
+
+  <!-- Custom CSS -->
+  <%= asset :css, :main %>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+
+<body class="site">
+<div class="wrapper">
+  <% if item[:banner] %>
+    <section class="hero is-medium is-primary is-bold" style="background-image:url('<%= item[:banner] %>');background-position:center;">
+  <% elsif item[:color] %>
+    <% gradient = if item[:gradient].nil? || item[:gradient]
+                    'linear-gradient(141deg,rgba(255,255,255,0),rgba(0,0,0,.60))'
+                  else
+                    'none'
+                  end %>
+    <div class="hero is-medium is-primary is-bold" style="background-image: <%= gradient %>; background-color:<%= item[:color] %>;">
+  <% else %>
+    <section class="hero is-medium is-primary is-bold">
+  <% end %>
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column has-vertical-center">
+          <div class="header-text <%= item[:header_text_background] and !item[:header_text_background_color] ? 'light-background' : '' %>"
+               <% if item[:header_text_background_color] %>
+               style="background-color: <%= item[:header_text_background_color] %>"
+               <% end %>>
+            <p class="title is-1-responsive event-title">
+              <b property="name">
+                <%= item[:title] %>
+              </b>
+              <span class="event-social-icons">
+                <% if item[:facebook] %>
+                <a href="<%= item[:facebook] %>">
+                  <%= fa :facebook %>
+                </a>
+                <% end %>
+                <a href="<%= item.path rep: :ical %>">
+                  <%= fa :calendar %>
+                </a>
+              </span>
+            </p>
+            <p class="subtitle is-3-responsive" property="description">
+              <%= item[:description] %>
+            </p>
+            <ul class="fa-ul is-4-responsive">
+              <li>
+                <%= fa 'clock-o', li: true %>
+                <span property="startDate" content="<%=item[:time]%>"> <%= item[:time].strftime '%A %d %B %Y %H:%M' %></span>
+                <% if item[:end] %>
+                    <span>
+                        -
+                    </span>
+                  <span property="endDate" content="<%=item[:end]%>">
+                    <% if (item[:end].strftime '%d %B %Y') != (item[:time].strftime '%d %B %Y') %>
+                            <%= item[:end].strftime '%d %B ' %>
+                      </span>
+                    <% end %>
+                    <% if (item[:end].strftime '%Y') != (item[:time].strftime '%Y') %>
+                        <span>
+                            <%= item[:end].strftime '%Y ' %>
+                        </span>
+                    <% end %>
+                    <span>
+                        <%= item[:end].strftime '%H:%M' %>
+                    </span>
+                    </span>
+                <% end %>
+              </li>
+              <li><%= fa 'map-marker', li: true %><span property="location"><%= item[:location] %></span></li>
+            </ul>
+          </div>
+        </div>
+
+        <% if item[:image] %>
+          <div class="is-narrow column banner-image">
+            <img src="<%= item[:image] %>" alt="banner" property="image">
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  </section>
+</div>
+</body>
+</html>
