@@ -44,6 +44,7 @@ preprocess do
   add_report_metadata
   add_project_metadata
   convert_locations
+  create_banner_items
 end
 
 #
@@ -119,7 +120,9 @@ postprocess do
   # For each upcoming event, open the banner representation in
   # puppeteer and create an image of that page.
   # This is used for the WINA image API.
-  upcoming_events.each { |item| generate_screenshot(item) }
+  upcoming_events.each do |item|
+    generate_screenshot(item)
+  end
 end
 
 #
