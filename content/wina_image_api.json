@@ -1,5 +1,5 @@
 [
-  <% upcoming_events.each do |event| %>
+  <% upcoming_events.first(1).each do |event| %>
     "<%= "https://zeus.ugent.be#{event.path}banner.png" %>",
   <% end %>
   "https://zeus.ugent.be/zeuswpi/zeuskelder_banner.jpg"

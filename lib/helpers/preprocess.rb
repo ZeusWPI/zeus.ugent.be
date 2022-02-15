@@ -177,7 +177,7 @@ module PreprocessHelper
     # The items are actually created in the postprocessing step.
     # However, to keep nanoc from complaining about stale items,
     # create an item for the banners.
-    upcoming_events.each do |event|
+    upcoming_events.first(1).each do |event|
       output = "#{event.identifier.without_exts}/banner.png"
       items.create(output, { binary: true }, output)
     end
