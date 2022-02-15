@@ -102,17 +102,27 @@ compile '/events/*/*', rep: :ical do
   write ext: 'ics'
 end
 
-compile '/events/*/*', rep: :stripped do
+# For upcoming events, generate a banner.
+# This will be converted into images by the post processing step, see below.
+compile '/events/*/*', rep: :banner do
   # Don't do anything if the event is not upcoming.
   if @item[:time] >= Date.today
     layout '/stripped-event.*'
     filter :erb
-    filter :kramdown, {math_engine: :katex}
-    filter :screenshot
-    filename = item.identifier.without_exts + '/banner.png'
-    write filename
+    filter :kramdown, { math_engine: :katex }
+    # Needed for puppeteer
+    filter :relativize_paths, type: :html
+    write "#{item.identifier.without_exts}/banner.html"
   else
     write nil
+  end
+end
+
+postprocess do
+  # For each item with a "banner" representation; open the file
+  items.each do |item|
+    pp item.reps[:banner]
+    generate_screenshot(item) unless item.reps[:banner]&.raw_path.nil?
   end
 end
 
@@ -265,7 +275,7 @@ route '/**/*.{erb,html,md}' do
 end
 
 route %r[/well-known/(.+)] do |rest|
-  "/.well-known/" + rest[0]
+  "/.well-known/#{rest[0]}"
 end
 
 # Let anything else simply pass through
