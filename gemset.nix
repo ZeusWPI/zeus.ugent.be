@@ -363,6 +363,27 @@
     };
     version = "1.0.0";
   };
+  mime-types = {
+    dependencies = ["mime-types-data"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0ipw892jbksbxxcrlx9g5ljq60qx47pm24ywgfbyjskbcl78pkvb";
+      type = "gem";
+    };
+    version = "3.4.1";
+  };
+  mime-types-data = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "003gd7mcay800k2q4pb2zn8lwwgci4bhi42v2jvlidm8ksx03i6q";
+      type = "gem";
+    };
+    version = "3.2022.0105";
+  };
   mini_portile2 = {
     groups = ["default" "test"];
     platforms = [];
@@ -543,6 +564,17 @@
       type = "gem";
     };
     version = "5.5.2";
+  };
+  puppeteer-ruby = {
+    dependencies = ["concurrent-ruby" "mime-types" "websocket-driver"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1q7ldp3wv5mfyvzs2naks37740ciig4vd5f59wr0716v2kzxc8lp";
+      type = "gem";
+    };
+    version = "0.40.3";
   };
   racc = {
     groups = ["default" "test"];
@@ -781,6 +813,27 @@
       type = "gem";
     };
     version = "1.3.6";
+  };
+  websocket-driver = {
+    dependencies = ["websocket-extensions"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0a3bwxd9v3ghrxzjc4vxmf4xa18c6m4xqy5wb0yk5c6b9psc7052";
+      type = "gem";
+    };
+    version = "0.7.5";
+  };
+  websocket-extensions = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0hc2g9qps8lmhibl5baa91b4qx8wqw872rgwagml78ydj8qacsqw";
+      type = "gem";
+    };
+    version = "0.1.5";
   };
   words_counted = {
     groups = ["default"];

@@ -22,6 +22,9 @@ gem 'words_counted'
 # For correct timezone
 gem 'tzinfo'
 
+# Take screenshots for our banner image
+gem 'puppeteer-ruby'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499

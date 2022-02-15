@@ -44,6 +44,7 @@ preprocess do
   add_report_metadata
   add_project_metadata
   convert_locations
+  create_banner_items
 end
 
 #
@@ -100,6 +101,28 @@ end
 compile '/events/*/*', rep: :ical do
   filter :ical
   write ext: 'ics'
+end
+
+# Generate a banner page for each event.
+# This could be filtered by only using the upcoming events,
+# but we cannot have dynamic compile directives, and generating
+# HTML is fast, so there is no need.
+compile '/events/*/*', rep: :banner do
+  layout '/banner.*'
+  filter :erb
+  filter :kramdown, { math_engine: :katex }
+  # Needed to render the resulting page in puppeteer
+  filter :relativize_paths, type: :html
+  write "#{item.identifier.without_exts}/banner.html"
+end
+
+postprocess do
+  # For each upcoming event, open the banner representation in
+  # puppeteer and create an image of that page.
+  # This is used for the WINA image API.
+  upcoming_events.each do |item|
+    generate_screenshot(item)
+  end
 end
 
 #
@@ -251,7 +274,7 @@ route '/**/*.{erb,html,md}' do
 end
 
 route %r[/well-known/(.+)] do |rest|
-  "/.well-known/" + rest[0]
+  "/.well-known/#{rest[0]}"
 end
 
 # Let anything else simply pass through
