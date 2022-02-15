@@ -35,8 +35,12 @@
                   else
                     'none'
                   end %>
+    <div class="logo">
+      <img id="logo" src="<%= zeus_logo_url color: 'white' %>" alt="" />
+    </div>
     <div class="hero is-medium is-primary is-bold" style="background-image: <%= gradient %>; background-color:<%= item[:color] %>;">
   <% else %>
+    <img id="logo" src="<%= zeus_logo_url color: 'white' %>" alt="" />
     <section class="hero is-medium is-primary is-bold">
   <% end %>
   <div class="hero-body">
@@ -57,9 +61,6 @@
                   <%= fa :facebook %>
                 </a>
                 <% end %>
-                <a href="<%= item.path rep: :ical %>">
-                  <%= fa :calendar %>
-                </a>
               </span>
             </p>
             <p class="subtitle is-3-responsive" property="description">
@@ -75,18 +76,13 @@
                     </span>
                   <span property="endDate" content="<%=item[:end]%>">
                     <% if (item[:end].strftime '%d %B %Y') != (item[:time].strftime '%d %B %Y') %>
-                            <%= item[:end].strftime '%d %B ' %>
-                      </span>
+                      <%= item[:end].strftime '%d %B ' %>
                     <% end %>
                     <% if (item[:end].strftime '%Y') != (item[:time].strftime '%Y') %>
-                        <span>
-                            <%= item[:end].strftime '%Y ' %>
-                        </span>
+                      <%= item[:end].strftime '%Y ' %>
                     <% end %>
-                    <span>
-                        <%= item[:end].strftime '%H:%M' %>
-                    </span>
-                    </span>
+                    <%= item[:end].strftime '%H:%M' %>
+                  </span>
                 <% end %>
               </li>
               <li><%= fa 'map-marker', li: true %><span property="location"><%= item[:location] %></span></li>
@@ -102,6 +98,7 @@
       </div>
     </div>
   </div>
+  <span class="info">Meer info op zeus.ugent.be</span>
   </section>
 </div>
 </body>

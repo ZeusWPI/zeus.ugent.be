@@ -5,3 +5,21 @@
 .hero.is-medium .hero-body {
   padding-top: 18rem;
 }
+
+html {
+  font-size: 1.2rem;
+}
+
+#logo {
+  position: absolute;
+  height: 200px;
+  right: 50px;
+  top: 50px;
+}
+
+.info {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  font-size: 2rem;
+}
