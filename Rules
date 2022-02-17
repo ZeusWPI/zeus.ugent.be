@@ -117,10 +117,10 @@ compile '/events/*/*', rep: :banner do
 end
 
 postprocess do
-  # For each upcoming event, open the banner representation in
+  # For the next upcoming event, open the banner representation in
   # puppeteer and create an image of that page.
   # This is used for the WINA image API.
-  upcoming_events.each do |item|
+  upcoming_events.first(1).each do |item|
     generate_screenshot(item)
   end
 end
