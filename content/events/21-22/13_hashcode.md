@@ -29,7 +29,9 @@ Hier kan je dan ook je teams samenstellen.
 
 # Benodigdheden
 
-Naast een eigen laptop vragen we aan elk team om 1 of meer verdeeldozen mee te brengen. Op deze manier is het voor ons haalbaar om iedereen van stroom te voorzien.
+- Je **CST**! Zonder mag je niet binnen. 
+- **1 of meer verdeeldozen** per team. Je kan als team rekenen op 1 stopcontact aansluiting voorzien door ons.
+
 Wij zorgen voor drank en snacks.
 
 # Begint het al te kriebelen?
