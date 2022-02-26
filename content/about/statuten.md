@@ -70,6 +70,7 @@ Bij gelijkstand of andere problemen tijdens het berekenen van de optie die wint,
 </div>
 <div class="box" markdown="1">
 **Art. 14** - De verantwoordelijkheden en rechten van het bestuur zijn:<br>
+
   - Voorzitter: De voorzitter is verantwoordelijk voor de coördinatie van de vereniging en draagt de eindverantwoordelijkheid. De voorzitter leidt de vergaderingen en beslist wanneer de volgende activiteiten zullen plaatsvinden. De voorzitter heeft een algemeen vetorecht.
   - Vicevoorzitter: De vicevoorzitter staat de voorzitter bij en vangt diens taken op indien nodig. De vicevoorzitter helpt mee met het opvolgen van de lopende zaken.
   - Penningmeester: De penningmeester is verantwoordelijk voor alle geldzaken van de vereniging. Hij heeft een financieel vetorecht inzake uitgaven die onder verantwoordelijkheid van de vereniging worden gedaan.
