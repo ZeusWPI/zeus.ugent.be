@@ -7,14 +7,15 @@ location: Campus Sterre, gebouw S9, Auditorium A3
 description: Maak je eigen module voor het OBUS-spel
 banner: https://zeus.ugent.be/zeuswpi/obus.jpg
 header_text_background: true
+locationlink: $s9
 ---
+
+Ooit al *Keep Talking And Nobody Explodes* gespeeld? Zou het niet supercool zijn om dat in real life te kunnen spelen? Kom dan op maandag 14 maart naar het event en maak je eigen module.
 
 We hebben bij Zeus het afgelopen jaar niet stilgestaan en hebben het framework
 voor een eigel spel genaamd OBUS ontwikkeld. OBUS is een spel met twee spelers,
 waarbij een bom moet ontmanteld worden: de ene speler kan de bom zien en er mee interageren,
 de andere speler ziet de bom niet, maar heeft de instructies over hoe die kan ontmanteld worden.
-Sommigen zullen dit misschien herkennen als een spin-off van de game Keep Talking And Nobody Explodes,
-maar dan in real-life in plaats van als computerspel.
 
 Het spel bestaat uit meerdere onderdelen (modules) die elk afzonderlijk moeten opgelost worden. Het framework
 voor hoe de modules communiceren met elkaar is al klaar, in de vorm van een Arduino library, maar de puzzels zelf
