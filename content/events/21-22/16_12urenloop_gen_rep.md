@@ -2,7 +2,7 @@
 title: "12urenloop generale repetitie"
 created_at: 08-03-2022
 time: '9-03-2022 18:00'
-end: '19-03-2022 22:30'
+end: '9-03-2022 22:30'
 location: Campus Sterre, gebouw S9
 description: De generale repetitie van de 12urenloop, met chocomelk :)
 banner:
