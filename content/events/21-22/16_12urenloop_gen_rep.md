@@ -4,7 +4,7 @@ created_at: 08-03-2022
 time: '9-03-2022 18:00'
 end: '19-03-2022 22:30'
 location: Campus Sterre, gebouw S9
-description: De generale repetitie van de 12 urenloop, met chocomelk :)
+description: De generale repetitie van de 12urenloop, met chocomelk :)
 banner:
 header_text_background: false
 locationlink: $s9
