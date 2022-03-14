@@ -63,6 +63,11 @@ We voorzien drank en kleine hapjes.
 
 Na de receptie bieden we de optie om gezellig samen games te spelen. We voorzien Internet en een beamer. Een TM, Minecraft of Nidhogg toernooi kunnen zeker niet ontbreken.
 
+## Pannenkoeken
+
+Na een lange nacht, onbijten we gezellig samen met verse pannenkoeken. Dit staat gepland rond **9u00**. 
+Hiervoor is het handig als je zelf een bord en bestek meebrengt. Dan produceren we niet onnodig afval.
+
 [gandalf]: https://event.fkgent.be/events/341
 [events]: https://mattermost.zeus.gent/zeus/channels/events
 [nerf]: https://event.fkgent.be/events/344
