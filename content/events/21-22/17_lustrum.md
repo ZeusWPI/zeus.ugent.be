@@ -10,9 +10,9 @@ banner: https://zeus.ugent.be/zeuswpi/lustrum_gif_1.gif
 locationlink: $therminal
 ---
 
-# Zeus bestaat 31 jaar!
+# Zeus WPI bestaat 31 jaar!
 
-Zeus bestaat 31 jaar en dat vieren we graag. Daarom organiseren we in het weekende van 19 op 20 ons lustrum weekend!
+Zeus WPI bestaat 31 jaar en dat vieren we graag. Daarom organiseren we in het weekende van 19 op 20 ons lustrum weekend!
 
 # Planning
 
@@ -21,14 +21,14 @@ overzicht:
 
 |       | Zaterdag 19 Maart | Zondag 20 Maart   |
 | ----- | ----------------- | ----------------- |
-|  0 u  |                   | Lan & Games       |
-|  1 u  |                   | Lan & Games       |
-|  2 u  |                   | Lan & Games       |
-|  3 u  |                   | Lan & Games       |
-|  4 u  |                   | Lan & Games       |
-|  5 u  |                   | Lan & Games       |
-|  6 u  |                   | Lan & Games       |
-|  7 u  |                   | Lan & Games       |
+|  0 u  |                   | LAN & Games       |
+|  1 u  |                   | LAN & Games       |
+|  2 u  |                   | LAN & Games       |
+|  3 u  |                   | LAN & Games       |
+|  4 u  |                   | LAN & Games       |
+|  5 u  |                   | LAN & Games       |
+|  6 u  |                   | LAN & Games       |
+|  7 u  |                   | LAN & Games       |
 |  8 u  |                   |                   |
 |  9 u  |                   | Pannenkoeken      |
 | 10 u  |                   | Pannenkoeken      |
@@ -42,9 +42,9 @@ overzicht:
 | 18 u  |                   |                   |
 | 19 u  | Receptie          |                   |
 | 20 u  | Receptie          |                   |
-| 21 u  | Lan & Games       |                   |
-| 22 u  | Lan & Games       |                   |
-| 23 u  | Lan & Games       |                   |
+| 21 u  | LAN & Games       |                   |
+| 22 u  | LAN & Games       |                   |
+| 23 u  | LAN & Games       |                   |
 
 ### Nerf Fight
 
@@ -61,14 +61,14 @@ De receptie is bedoeld voor iedereen die iets met zeus te maken heeft of ooit ie
 inschrijving via [gandalf][gandalf]. De receptie begint om **19u00** en zal ongeveer 2 uur duren. Als dresscode hebben
 we gekozen voor **casual chic**. We voorzien drank en kleine hapjes.
 
-### Lan & Games
+### LAN & Games
 
 Na de receptie bieden we de optie om gezellig samen games te spelen. We voorzien Internet en een beamer. Een TM,
 Minecraft of Nidhogg toernooi kunnen zeker niet ontbreken.
 
 ### Pannenkoeken
 
-Na een lange nacht, onbijten we gezellig samen met verse pannenkoeken. Dit staat gepland rond **9u00**. Hiervoor is het
+Na een lange nacht, ontbijten we gezellig samen met verse pannenkoeken. Dit staat gepland rond **9u00**. Hiervoor is het
 handig als je zelf een bord en bestek meebrengt. Dan produceren we niet onnodig afval.
 
 ### OBUS
