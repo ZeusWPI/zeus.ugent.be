@@ -32,12 +32,12 @@ overzicht:
 |  8 u  |                   |                   |
 |  9 u  |                   | Pannenkoeken      |
 | 10 u  |                   | Pannenkoeken      |
-| 11 u  | Lunch             | TBD               |
-| 12 u  | Lunch             | TBD               |
-| 13 u  |                   | TBD               |
-| 14 u  | Nerf Fight        | TBD               |
-| 15 u  | Nerf Fight        | TBD               |
-| 16 u  | Nerf Fight        | TBD               |
+| 11 u  | Lunch             | OBUS              |
+| 12 u  | Lunch             | OBUS              |
+| 13 u  |                   | OBUS              |
+| 14 u  | Nerf Fight        | OBUS              |
+| 15 u  | Nerf Fight        | OBUS              |
+| 16 u  | Nerf Fight        | OBUS              |
 | 17 u  |                   |                   |
 | 18 u  |                   |                   |
 | 19 u  | Receptie          |                   |
@@ -46,7 +46,7 @@ overzicht:
 | 22 u  | Lan & Games       |                   |
 | 23 u  | Lan & Games       |                   |
 
-## Nerf Fight
+### Nerf Fight
 
 Zaterdag middag vanaf **14u00** houden we een **Nerf Fight** over heel de therminal. Om de spelletjes te kunnen
 voorbereiden vragen we jullie om op voorhand [hier][nerf] in te schrijven.
@@ -55,21 +55,29 @@ We hebben een voorraad pijltjes voorzien, maar je geweer breng je zelf mee. Voor
 we een groepsaankoop, deadline om een bestelling op te geven is 15/03 om 12u00. Communicatie hiervoor verloopt via
 het [~events][events] kanaal op mattermost.
 
-## Receptie
+### Receptie
 
 De receptie is bedoeld voor iedereen die iets met zeus te maken heeft of ooit iets mee te maken had. Je bent welkom na
 inschrijving via [gandalf][gandalf]. De receptie begint om **19u00** en zal ongeveer 2 uur duren. Als dresscode hebben
 we gekozen voor **casual chic**. We voorzien drank en kleine hapjes.
 
-## Lan & Games
+### Lan & Games
 
 Na de receptie bieden we de optie om gezellig samen games te spelen. We voorzien Internet en een beamer. Een TM,
 Minecraft of Nidhogg toernooi kunnen zeker niet ontbreken.
 
-## Pannenkoeken
+### Pannenkoeken
 
 Na een lange nacht, onbijten we gezellig samen met verse pannenkoeken. Dit staat gepland rond **9u00**. Hiervoor is het
 handig als je zelf een bord en bestek meebrengt. Dan produceren we niet onnodig afval.
+
+### OBUS
+
+Zondag vanaf ongeveer **11u00** spelen we de eerste paar spelletjes!
+Nog een moment om niet te missen dus!!
+
+Tot dan!
+
 
 [gandalf]: https://event.fkgent.be/events/341
 [events]: https://mattermost.zeus.gent/zeus/channels/events
