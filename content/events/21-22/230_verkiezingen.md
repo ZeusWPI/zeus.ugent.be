@@ -24,7 +24,7 @@ Er zijn nog geen kandidaten.
 
 ### Verloop
 
-Wordt soon tm verder uitgelegd. Je kan alvast het stuk in de [statuten][statuten] bekijken die over de verkiezingen gaat.
+Wordt soon tm verder uitgelegd. Je kan alvast het stuk in de [statuten][statuten] bekijken die over de verkiezingen gaat. Daarna gaan we eten bij Patrick Foleys.
 
 ### Interesse?
 
