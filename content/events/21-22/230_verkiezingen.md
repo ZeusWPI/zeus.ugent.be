@@ -3,7 +3,7 @@ title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
 created_at: 24-03-2022
 time: '10-05-2022 17:30'
-end: '10-05-2021 20:30'
+end: '10-05-2022 20:30'
 location: Studententuin, Gebouw S9, Campus Sterre, Gent
 locationlink: $s9
 banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
