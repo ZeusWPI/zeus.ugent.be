@@ -29,7 +29,7 @@ Wordt soon tm verder uitgelegd. Je kan alvast het stuk in de [statuten][statuten
 ### Interesse?
 
 Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste 5 mei door via mail naar bestuur@zeus.ugent.be.
-Alle info over de functies en wat het inhoud om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen]. Zit je nog steeds met vragen? Aarzel dan niet om iemand van het huidige bestuur aan te spreken!
+Alle info over de functies en wat het inhoudt om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen]. Zit je nog steeds met vragen? Aarzel dan niet om iemand van het huidige bestuur aan te spreken!
 
 Heb je al prangende vragen voor bepaalde functies, dan kun je die ook al stellen door te mailen naar bestuur@zeus.ugent.be.
 Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand ook verzameld en doorgegeven aan de kandidaten. Maar geen nood, ook tijdens de verkiezingen kunnen er nog spontane vragen gesteld worden.
