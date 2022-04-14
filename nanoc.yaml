@@ -118,5 +118,5 @@ checks:
 deploy:
   public:
     kind: rsync
-    dst:  zeusweb-new@zeus.ugent.be:/home/zeusweb-new/public
+    dst:  zeusweb@pratchett.ugent.be:/var/www/zeusweb
     options: [ '-glpPrtvz', '-e', 'ssh -p 2222', '--delete']
