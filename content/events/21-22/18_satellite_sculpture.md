@@ -21,6 +21,7 @@ Als je wel al kan solderen, is het misschien handig om je soldeerbout en wat sol
 moet je niet wachten op een van onze soldeerbouten.
 
 Als je graag zou willen komen, schrijf dan **ten laatste 25 april** 7€ over naar het 
-Zeus-rekeningnummer BE03 7340 5456 0384 met als mededeling `satelliet <naam familienaam>`.
+Zeus-rekeningnummer BE03 7340 5456 0384 met als mededeling `satelliet` (als je een Tab-account hebt, kan je ook je username
+vermelden).
 Dit geeft ons genoeg tijd om de onderdelen te bestellen. Als je beeldje niet af raakt,
 geen probleem, je kan er later thuis of in de Zeuskelder aan verderwerken
