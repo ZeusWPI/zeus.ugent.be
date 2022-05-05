@@ -20,9 +20,14 @@ traditiegetrouw eten in Patrick Foleys.
 
 Dit jaar zullen de verkiezingen doorgaan op **10 mei 2021** in de studententuin. We starten om **17:30**.
 
-<!-- ## Kandidaten
+## Kandidaten
 
-Er zijn nog geen kandidaten. -->
+| Positie           | Naam             |
+| ----------------- | ---------------- |
+| Voorzitter & Vice | Francis & Ieben  |
+| Penning           | Klaas            |
+| Sysadmin          | Tibo & Jasper    |
+| Project		        | Jan              |
 
 ### Verloop
 
@@ -31,6 +36,11 @@ Er zijn nog geen kandidaten. -->
 > Stemgerechtigde leden zijn de leden die stemrecht hebben op de ledenvergaderingen. Het stemrecht komt toe aan de leden die een opleiding volgen aan de UGent met een focus op informatica. Het bestuur kan het stemrecht ook toekennen aan leden die hebben bijgedragen tot de verdere ontplooiing van de vereniging. Dit stemrecht vervalt samen met het lidmaatschap aan de start van het nieuwe academiejaar.
 
 Het verdere verloop van de verkiezingen wordt uitgelegd op de verkiezingen zelf, maar je kan ook het stuk in de [statuten][statuten] lezen dat over de verkiezingen gaat. Na de verkiezingen gaan we eten in Patrick Foleys.
+
+
+### Patrick Foleys
+
+Zodat we overzichtelijk kunnen bestellen, is er een [Haldis](https://haldis.zeus.gent/order/991) waarop je op voorhand moet bestellen. We hebben om 20:30 daar gereserveerd.
 
 ### Interesse?
 
