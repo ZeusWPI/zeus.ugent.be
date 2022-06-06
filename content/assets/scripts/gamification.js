@@ -2,7 +2,7 @@ var request;
 
 request = new XMLHttpRequest;
 
-request.open('GET', 'https://zeus.ugent.be/game/top4/show.json', true);
+request.open('GET', 'https://gamification.pratchett.zeus.gent/top4.json', true);
 
 request.onload = function() {
   var data, el, i, len, str, x;
