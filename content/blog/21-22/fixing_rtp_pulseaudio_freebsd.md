@@ -48,7 +48,7 @@ the SAP message failed, so the port that's supposed to receive the RTP packets n
 opened. After some searching for that error message in the PulseAudio codebase, this is 
 the code that prints the errormessage:
 
-```c
+<pre><code>#!c
 int pa_sap_recv(pa_sap_context *c, bool *goodbye) {
     struct msghdr m;
     struct iovec iov;
@@ -85,7 +85,7 @@ int pa_sap_recv(pa_sap_context *c, bool *goodbye) {
         goto fail;
     }
 ...
-```
+</code></pre>
 
 Somehow, the size returned by `ioctl(c->fd, FIONREAD, &size)` and `recvmsg(c->fd, &m, 0)`
 were not the same. I then wanted to insert some logging code to figure out what both functions returned, but to do that, I would need to recompile PulseAudio from source.
