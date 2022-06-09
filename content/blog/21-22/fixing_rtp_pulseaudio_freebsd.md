@@ -46,7 +46,7 @@ After some searching, I found the PulseAudio logs in `/var/log/messages`, and no
 `pulseaudio[41410]: [(null)] sap.c: recvmsg() failed: size mismatch` made sense: receiving
 the SAP message failed, so the port that's supposed to receive the RTP packets never gets
 opened. After some searching for that error message in the PulseAudio codebase, this is 
-the code that prints the errormessage:
+the code that prints the error message:
 
 <pre><code>#!c
 int pa_sap_recv(pa_sap_context *c, bool *goodbye) {
@@ -89,7 +89,7 @@ int pa_sap_recv(pa_sap_context *c, bool *goodbye) {
 
 Somehow, the size returned by `ioctl(c->fd, FIONREAD, &size)` and `recvmsg(c->fd, &m, 0)`
 were not the same. I then wanted to insert some logging code to figure out what both functions returned, but to do that, I would need to recompile PulseAudio from source.
-Luckily, this is [very easy on FreeBSD](https://docs.freebsd.org/en/books/handbook/ports/#ports-using-portsnap-method): you fetch the source code of every package, then `cd` into the directory your package is in and run `make`. It will then fetch the source, interactively ask you some questions about what features you want to compile and compile the package. The source and built binaries will then be in the `work/` subdirectory.
+Luckily, this is [very easy on FreeBSD](https://docs.freebsd.org/en/books/handbook/ports/#ports-using-portsnap-method): you fetch the build description of all packages, then `cd` into the directory the package you want to build is in and run `make`. It will then fetch the source, interactively ask you some questions about what features you want to compile and compile the package. The source and built binaries will then be in the `work/` subdirectory.
 I had an issue where I edited the source and executed `make` again, but the code didn't recompile. Some nice people in the FreeBSD Discord told me to remove the `work/.build_done*` and `work/.stage_done*`, this worked.
 
 
@@ -98,7 +98,7 @@ trace also shows that the UDP packet is 207 bytes long, so somehow the `FIONREAD
 is not returning the size of the next packet. This code did work on Linux, so there must
 be some differences in the ioctl on Linux and FreeBSD; and indeed:
 
-- On Linux, the `FIONREAD` ioctl returns the size of the next datagram in the queue
+- On Linux, the `FIONREAD` ioctl returns the size of the next datagram in the queue.
 - On FreeBSD (and other BSDs as well), it returns the size of the entire output buffer:    
   this count also includes the internal metadata and can include multiple datagrams.
 
