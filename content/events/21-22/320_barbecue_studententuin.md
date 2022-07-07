@@ -1,9 +1,9 @@
 ---
 title: Barbecue in studententuin!
 description: Zomervakantie! Barbecue, spelletjes en dan Gentse Feesten!
-created_at: xx-06-2022
-time: '16-07-2022 xx:xx'
-end: '16-07-2022 xx:xx'
+created_at: 07-07-2022
+time: '16-07-2022 12:30'
+end: '16-07-2022 23:59'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: "Studententuin voortuin, 9000 Ghent"
 banner: "https://images0.persgroep.net/rcs/eBWqGxiUnWGoG-SXwY87Y5k2NYE/diocontent/177694046/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7"
@@ -15,12 +15,9 @@ tags:
 ---
 
 Omdat we elkaar niet de hele zomervakantie kunnen missen, organiseren we een zomers evenement!
-Op 16 juli komen we samen voor een lekkere barbecue. Er zullen spelletjes zijn en niet toevallig is het dan Gentse Feesten!
-Na de barbecue kunnen we naar daar afzakken.
+Op 16 juli komen we samen voor een lekkere barbecue. 's Middags kunnen we gezellig samen bijpraten en zullen er gezelschapspelletjes zijn. 
+Om de avond af te sluiten gaan we allen samen naar de Gentse Feesten!
 
-<Vlees>
-
-<Groenten>
-
-<Inschrijven>
-
+We vragen iedereen om hun **eigen grill-items** mee te nemen. Dan kies je zelf welke vleesjes of andere dingen je eet en is iedereen tevreden.
+Voor de groentjes werken we met een **potluck** systeem. Neem elk wat mee waar je zelf genoeg mee zou hebben. Leggen we dit dan samen, is er een gevariëerd aanbod aan groentjes.
+Natuurlijk kan je voor bovenstaande zaken afspreken met enkelen om bijvoorbeeld samen vlees aan te kopen.
