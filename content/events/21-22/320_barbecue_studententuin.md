@@ -1,7 +1,7 @@
 ---
 title: Barbecue in studententuin!
 description: Zomervakantie! Barbecue, spelletjes en dan Gentse Feesten!
-created_at: 10-07-2022
+created_at: 11-07-2022
 time: '16-07-2022 12:30'
 end: '16-07-2022 23:59'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
@@ -23,3 +23,9 @@ Voor de groentjes werken we met een **potluck** systeem. Neem elk wat mee waar j
 Natuurlijk kan je voor bovenstaande zaken afspreken met enkelen om bijvoorbeeld samen vlees aan te kopen.
 
 Voor drank werken we met Tap/Tab, dus je kan dat voordien opladen indien nodig.
+
+Om een idee te hebben van de opkomst vragen we jullie om gratis te registreren via [gandalf][gandalf]. Laattijdig reserveren/afkomen mag zeker nog, maar probeer je alvast in te schrijven van zodra je weet dat je komt. Let op! Je moet nog steeds je eigen eten voorzien (zie hierboven) als je inschrijft.
+
+Tot dan!
+
+[gandalf]: https://event.student.ugent.be/events/351
