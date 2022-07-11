@@ -6,7 +6,7 @@ time: '16-07-2022 12:30'
 end: '16-07-2022 23:59'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: "Studententuin voortuin, 9000 Ghent"
-banner: "https://images0.persgroep.net/rcs/eBWqGxiUnWGoG-SXwY87Y5k2NYE/diocontent/177694046/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7"
+banner: "https://pics.zeus.gent/HLM2wcsYrLPq8VeTEGkVr9htDbVNckiFf9KHwFFG.jpg"
 header_text_background: true
 tags:
   - Barbecue
