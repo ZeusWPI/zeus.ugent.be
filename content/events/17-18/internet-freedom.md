@@ -27,9 +27,9 @@ Regulations like this are not only happening across the Atlantic sea, but also i
 
 Ruben Verborgh is a professor at Ghent University. As an expert in the Web, decentralization, he will bring you up-to-date with the state of Net Neutrality. What is happening and why should it be prevented?
 
-### [Julia Reda](https://juliareda.eu/en/) (European Parliament)
+### [Felix Reda](https://felixreda.eu/en/) (European Parliament)
 
-Julia Reda is a member of the European Parliament. She will tell us about how the [EU copyright reform](https://juliareda.eu/eu-copyright-reform/) will be beneficial to how we can use the Web as a way to express ourselves.
+Felix Reda is a member of the European Parliament. He will tell us about how the [EU copyright reform](https://felixreda.eu/eu-copyright-reform/) will be beneficial to how we can use the Web as a way to express ourselves.
 
 # Info
-The talks are free of charge for everyone and will be held in [Auditorium D](https://soleway.ugent.be/routes/5183) of Campus Plateau - Rozier (Jozef Plateaustraat 22). Ruben Verborgh will start speaking at 19:30. After a short break, Julia Reda is expected to continue at 20:15. After the talks there will be time to discuss the matter with your friends and the speakers with a drink.
+The talks are free of charge for everyone and will be held in [Auditorium D](https://soleway.ugent.be/routes/5183) of Campus Plateau - Rozier (Jozef Plateaustraat 22). Ruben Verborgh will start speaking at 19:30. After a short break, Felix Reda is expected to continue at 20:15. After the talks there will be time to discuss the matter with your friends and the speakers with a drink.
