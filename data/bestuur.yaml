@@ -430,3 +430,22 @@ data:
     - rol: Assisterend bestuurslid
       naam: Ruben De Facq
       mail: assisterend@zeus.ugent.be
+  22-23:
+    - rol: Voorzitter
+      naam: Francis Klinck
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Ieben Smessaert
+      mail: voorzitter@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Klaas Goethals
+      mail: penning@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Tibo Ulens
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Jasper Devreker
+      mail: admin@zeus.ugent.be
+    - rol: Projecten
+      naam: Jan Lecoutere
+      mail: project@zeus.ugent.be
