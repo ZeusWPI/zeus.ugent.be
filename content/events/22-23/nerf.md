@@ -25,4 +25,4 @@ het [~events][events] kanaal. Hier kan je ook andere deelnemers terugvinden om e
 Tot dan!
 
 [events]: https://mattermost.zeus.gent/zeus/channels/events
-[nerf]: https://event.fkgent.be/events/344
+[nerf]: https://event.student.ugent.be/events/352
