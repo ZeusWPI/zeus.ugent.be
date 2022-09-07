@@ -18,7 +18,7 @@ Om de spelletjes te kunnen voorbereiden vragen we jullie om op voorhand [hier][n
 
 ## Benodigheden
 
-We hebben een voorraad pijltjes voorzien, maar je geweer breng je zelf mee.
+We voorzien zelf een enorme voorraad pijltjes, maar je geweer breng je zelf mee.
 We hebben enkele extra geweren, hiervoor kan je informeren op onze Mattermost in
 het [~events][events] kanaal. Hier kan je ook andere deelnemers terugvinden om eventueel een extra geweer van te lenen.
 
