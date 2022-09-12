@@ -1,7 +1,7 @@
 ---
 title: "Esoterische & frustrerende introcodenight"
 created_at: 11-09-2022
-time: '04-10-2022 19:30'
+time: '04-10-2022 18:00'
 end: '04-10-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen
