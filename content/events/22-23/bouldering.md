@@ -1,7 +1,7 @@
 ---
 title: "Zeus gaat boulderen"
 created_at: 11-09-2022 
-time: '12-10-2022 19:30' 
+time: '12-10-2022 18:00' 
 end: '12-10-2022 22:30' 
 location: Klimzaal Bleau Blaarmeersen Gent
 description: Zeus gaat met zen allen boulderen in de klimzaal Bleau Blaarmeersen in Gent.
