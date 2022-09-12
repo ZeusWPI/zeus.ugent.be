@@ -1,7 +1,7 @@
 ---
 title: Capture The Flag
 created_at: 11-09-2022
-time: '16-11-2022 19:30'
+time: '16-11-2022 18:00'
 end: '16-11-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Verkrijg zo veel mogelijk vlaggen en red de dag
