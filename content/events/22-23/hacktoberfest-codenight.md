@@ -1,7 +1,7 @@
 ---
 title: Hacktoberfest codenight
 created_at: 11-09-2022
-time: '27-10-2022 19:30'
+time: '27-10-2022 18:00'
 end: '27-10-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Maak 4 pull requests en krijg een gratis T-shirt of plant een boom!
