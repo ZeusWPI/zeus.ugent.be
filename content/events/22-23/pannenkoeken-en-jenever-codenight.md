@@ -4,7 +4,7 @@ description: In winterthema wordt ons programmeren begeleid door jenever en pann
 created_at: 11-09-2022
 time: '8-12-2022 18:00'
 end: '8-12-2022 23:59'
-banner: 
+banner: https://pics.zeus.gent/3PWc00xS.png
 location: 'De kelder'
 locationlink: $kelder
 ---
