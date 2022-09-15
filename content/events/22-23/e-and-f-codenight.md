@@ -6,7 +6,8 @@ end: '04-10-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen
 header_text_background: true
-banner:
+banner: https://pics.zeus.gent/JnpFxP-T.jpg
+image: https://pics.zeus.gent/a28GvLuO.png
 locationlink: $s9
 tags:
   - Esoterisch
