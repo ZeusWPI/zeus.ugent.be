@@ -6,7 +6,7 @@ end: '07-11-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Test jouw all-round informatica kennis met deze quiz!
 header_text_background: true
-banner:
+banner: https://pics.zeus.gent/5O8jXBmIxtIXIJFwBxpbEsNkqrTuDPZFMrkJbmRp.jpg
 locationlink: $s9
 ---
 
