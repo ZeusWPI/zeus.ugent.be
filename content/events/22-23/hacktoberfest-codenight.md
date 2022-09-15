@@ -6,7 +6,8 @@ end: '27-10-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Maak 4 pull requests en krijg een gratis T-shirt of plant een boom!
 header_text_background: true
-banner:
+banner: https://pics.zeus.gent/FlrsiQmmaptZhiICcAST1PTrXy6WZ1RKpnebOdr6.png
+image: https://pics.zeus.gent/cHpPDxpkrcaEAPxom5gHLTD43YB2aD1a0NVT9Cvz.png
 locationlink: $s9
 ---
 
