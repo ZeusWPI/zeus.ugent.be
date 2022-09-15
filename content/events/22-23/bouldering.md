@@ -6,7 +6,7 @@ end: '12-10-2022 22:30'
 location: Klimzaal Bleau Blaarmeersen Gent
 description: Zeus gaat met zen allen boulderen in de klimzaal Bleau Blaarmeersen in Gent.
 header_text_background: true 
-banner: 
+banner: https://pics.zeus.gent/1cUi0a74iWgBBfdLJzNAUExtAYdgAPjRxfKmnYZF.jpg
 locationlink: Campinglaan 2, 9000 Gent
 ---
 
