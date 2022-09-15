@@ -6,7 +6,7 @@ end: '01-12-2022 22:00'
 location: Auditorium A3, Gebouw S9, Campus Sterre
 description: Altijd al eens willen leren 3D printen? Leer de kneepjes van het vak om je eigen 3D modellen te maken!
 header_text_background: true
-banner:
+banner: https://pics.zeus.gent/mYZ47IUS32NdEKaYTJ2kIW5mHMKtoWuVwk6uMK4n.png
 locationlink: $s9
 ---
 
