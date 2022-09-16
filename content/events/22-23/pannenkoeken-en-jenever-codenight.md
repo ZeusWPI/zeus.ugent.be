@@ -7,6 +7,7 @@ end: '8-12-2022 23:59'
 banner: https://pics.zeus.gent/3PWc00xS.png
 location: 'De kelder'
 locationlink: $kelder
+header_text_background: true
 ---
 
 > Ballmer-peak: The theory that computer programmers obtain quasi-magical, superhuman coding ability when they have a blood alcohol concentration percentage between 0.129% and 0.138%.
