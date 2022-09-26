@@ -83,10 +83,6 @@ data:
     name: Tap
     site: https://tap.zeus.gent/
     repo: https://github.com/ZeusWPI/Tap
-  tappb:
-    name: Tappb
-    site: https://play.google.com/store/apps/details?id=gent.zeus.tappb
-    repo: https://github.com/ZeusWPI/tappb
   tuxcape:
     name: TuxcAPE
     repo: https://github.com/ZeusWPI/Tuxcape
