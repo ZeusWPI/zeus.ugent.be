@@ -32,7 +32,7 @@ data:
   gamification:
     name: Gamification
     site: https://zeus.ugent.be/game
-    repo: https://github.com/ZeusWPI/Gamification
+    repo: https://github.com/ZeusWPI/Gamification2
   gandalf:
     name: Gandalf
     site: https://event.fkgent.be/
