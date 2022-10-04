@@ -58,20 +58,31 @@ function regenerateQR() {
   return;
 }
 
-window.onload = function() {
-  document.getElementById('tab-qr-button').addEventListener('click', function(event) {
-    event.preventDefault();
-    let modal = document.querySelector('.modal');
-    let html = document.querySelector('html');
-    modal.classList.add('is-active');
-    html.classList.add('is-clipped');
+function openPopup() {
+  let modal = document.querySelector('.modal');
+  let html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
 
-    modal.querySelector('.modal-background').addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.classList.remove('is-active');
-      html.classList.remove('is-clipped');
-    });
+  modal.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
   });
+}
+
+window.onload = function() {
+  let paramsString = (new URL(document.location)).searchParams;
+  let searchParams = new URLSearchParams(paramsString);
+  if (searchParams.has("username")) {
+    openPopup();
+    document.getElementById('tabtopup-username').value = searchParams.get("username");
+  }
+  document.getElementById('tab-qr-button').addEventListener('click', function(event){
+    openPopup();
+    event.preventDefault();
+  });
+
   document.getElementById('tabtopup-username').addEventListener('input', regenerateQR);
   document.getElementById('tabtopup-amount').addEventListener('input', regenerateQR);
   regenerateQR();
