@@ -52,13 +52,8 @@ jobs:
           PR_NUMBER: ${{ github.event.pull_request.number }}
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          sftp -P 2222 zeuspr@herbert.ugent.be <<EOF
-          cd /home/zeuspr/public
-          mkdir $PR_NUMBER
-          lcd output
-          put -r ./ $PR_NUMBER
-          quit
-          EOF
+          cd output
+          rsync -aR --rsh='ssh -p 2222' . "zeuspr@herbert.ugent.be:/home/zeuspr/public/$PR_NUMBER/"
       - name: Place comment on PR
         env:
           PR_NR: ${{ github.event.pull_request.number }}
