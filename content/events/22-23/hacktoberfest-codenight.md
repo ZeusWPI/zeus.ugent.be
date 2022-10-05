@@ -18,7 +18,7 @@ Om [Hacktoberfest][hacktob] mooi af te sluiten plant Zeus een codenight voor zow
 
 Hacktoberfest is een event waarbij je een unieke limited-edition t-shirt kan krijgen of een boom kan laten planten bij het aanmaken van slechts 4 pull requests.
 
-Vergeet je zeker niet te registreren als je je t-shirt wilt ontvangen of een boom wil planten: [hacktoberfest/login](https://hacktoberfest.digitalocean.com/login)!
+Vergeet je zeker niet te registreren als je je t-shirt wilt ontvangen of een boom wil planten: [hacktoberfest/auth](https://hacktoberfest.digitalocean.com/auth)!
 
 Heb je al ervaring maar zoek je nog een plek om energie in te steken die je niet kwijt kunt in je super interessante vakken? We hebben een lijst opgesteld met issues die een leuke uitdaging zijn die niet te lang zouden moeten duren zodat je jezelf in een project kan inwerken.
 
