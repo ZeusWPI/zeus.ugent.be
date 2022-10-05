@@ -6,9 +6,11 @@ end: '22-10-2022 03:00'
 location: Therminal, Hoveniersberg 24, 9000 Gent
 description: Zeus' elfde LAN-Party!
 header_text_background: true
-banner: 
+banner: https://pics.zeus.gent/zTVVLv1sQAlbS1WFZG60zQQbk4eOjvWIPudB9Uhd.jpg
 locationlink: $therminal
 ---
+
+![Lan party poster](https://pics.zeus.gent/zv92vxNreqJaj1cLg7M0kj7ODDYzvXhNta2bPCuF.jpg "Lan party poster")
 
 # Geeks Attack XI
 
