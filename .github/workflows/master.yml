@@ -31,6 +31,14 @@ jobs:
         with:
           key: nix-${{ hashFiles('packages.nix') }}
           nix_file: 'packages.nix'
+      - name: Cache Output
+        id: cache-output
+        uses: actions/cache@v3
+        with:
+          path: ./output
+          key: build-${{ github.ref_name }}
+          restore-keys: |
+            build-master
       - name: Set environment variable
         run: "export LANG=en_US.UTF-8"
       - name: Build site
