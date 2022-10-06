@@ -19,7 +19,7 @@ We spreken af om **19u30** aan **klimzaal Bleau**. Dat is aan de watersportbaan/
 
 Voor de mensen die samen naar daar willen **fietsen**, dat kan. We vertrekken strikt om 19u00 aan de voorkant van De Sterre S9.
 
-Inschrijven is verplicht. Gelieve je [hier][boulderen] in te schrijven.
+Inschrijven is verplicht, dat kan je [hier][boulderen].
 
 
 Tot dan!
