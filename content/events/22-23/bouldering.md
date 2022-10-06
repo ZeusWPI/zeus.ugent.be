@@ -1,8 +1,8 @@
 ---
 title: "Zeus gaat boulderen"
 created_at: 11-09-2022 
-time: '12-10-2022 18:00' 
-end: '12-10-2022 22:30' 
+time: '12-10-2022 19:30' 
+end: '12-10-2022 21:30' 
 location: Klimzaal Bleau Blaarmeersen Gent
 description: Zeus gaat met zen allen boulderen in de klimzaal Bleau Blaarmeersen in Gent.
 header_text_background: true 
@@ -12,11 +12,16 @@ locationlink: Campinglaan 2, 9000 Gent
 
 # Zeus gaat boulderen
 
-Details worden later nog aangevuld, aanvangstijd kan wijzigen.
+Om als computernerds aan onze gezondheid te denken, zouden we beter wat sporten.
 
-Je zult je op voorhand [hier][boulderen] moeten schrijven.
+Daarom gaat Zeus samen boulderen. We geven ook wat korting!
+We spreken af om **19u30** aan **klimzaal Bleau**. Dat is aan de watersportbaan/Blaarmeersen.
+
+Voor de mensen die samen naar daar willen **fietsen**, dat kan. We vertrekken strikt om 19u00 aan de voorkant van De Sterre S9.
+
+Inschrijven is verplicht, dat kan je [hier][boulderen].
 
 
 Tot dan!
 
-[boulderen]: 
+[boulderen]: https://event.student.ugent.be/events/355
