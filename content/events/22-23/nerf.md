@@ -12,7 +12,7 @@ locationlink: $therminal
 
 # Nerf Fight
 
-Zondag avond vanaf **19u30** houden we een **Nerf Fight** over héél de therminal. NERF! in een UGent gebouw! *Whats not to like ;)* 
+Zondag avond vanaf **19u30** houden we een **Nerf Fight** over héél de therminal. NERF! in een UGent gebouw! *What's not to like ;)* 
 
 Mensen die samen willen eten ter plaatse zijn welkom vanaf 18 uur. Er wordt geen eten voorzien, maar mogelijks gaan we wel samen eten halen.
 
