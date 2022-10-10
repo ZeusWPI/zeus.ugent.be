@@ -21,7 +21,7 @@ Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die t
 
 **Locatie**: Therminal, Hoveniersberg 24, Gent
 
-**Meenemen**: Stekkerdoos + ethernetkabel
+**Meenemen**: Stekkerdoos + ethernetkabel + jouw pc/laptop
 
 **Inschrijven**: Je moet je niet inschrijven voor de LAN zelf. Info i.v.m. specifieke competities volgt.
 
