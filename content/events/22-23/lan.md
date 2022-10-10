@@ -36,4 +36,4 @@ Er zijn in totaal honderden euro's aan prijzen, dus je hoeft niet eens de beste 
 Tot dan!
 Zeus WPI
 
-<img src="https://pics.zeus.gent/zv92vxNreqJaj1cLg7M0kj7ODDYzvXhNta2bPCuF.jpg" style="max-width:700px" />
+<img src="https://pics.zeus.gent/zv92vxNreqJaj1cLg7M0kj7ODDYzvXhNta2bPCuF.jpg" style="max-width:600px;width:100%;margin:auto;display:block" />
