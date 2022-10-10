@@ -17,7 +17,7 @@ Het is weer de tijd voor de jaarlijkste LAN party van Zeus WPI. Voor iedereen di
 
 **Datum**: Vrijdag 21 oktober - Zaterdag 22 oktober
 
-**Tijd**: xx:xx tot wanneer we niet meer kunnen
+**Tijd**: 18:00 tot wanneer we niet meer kunnen
 
 **Locatie**: Therminal, Hoveniersberg 24, Gent
 
@@ -27,7 +27,11 @@ Het is weer de tijd voor de jaarlijkste LAN party van Zeus WPI. Voor iedereen di
 
 ## Competitions
 
-TBD
+Trackmania, Minecraft, Mario Kart, Nidhogg en nog veel meer!
+
+## Prijzen
+
+Er zijn in totaal honderden euro's aan prijzen, dus je hoeft niet eens de beste te zijn om met iets naar huis te gaan!
 
 Tot dan!
 Zeus WPI
