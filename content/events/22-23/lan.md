@@ -11,7 +11,7 @@ locationlink: $therminal
 ---
 
 # Do you wanna play a game ?
-Het is weer de tijd voor de jaarlijkste LAN party van Zeus WPI. Voor iedereen die tot in de laatste uurtjes gezamelijk wilt gamen.
+Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die tot in de late uurtjes gezamenlijk wilt gamen.
 
 ## Info
 
