@@ -23,7 +23,7 @@ Het is weer de tijd voor de jaarlijkste LAN party van Zeus WPI. Voor iedereen di
 
 **Meenemen**: Stekkerdoos + ethernetkabel
 
-**Inschrijven**: Je moet je niet inschrijven voor de lan zelf. Info volgt i.v.m. competitions
+**Inschrijven**: Je moet je niet inschrijven voor de LAN zelf. Info i.v.m. specifieke competities volgt.
 
 ## Competitions
 
