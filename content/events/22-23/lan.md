@@ -27,7 +27,7 @@ Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die t
 
 ## Competities en timetable
 
-**21u:** Trackmania by Luceda Photonics
+**21u:** TrackMania Nations Forever _by Luceda Photonics_
 
 **22u:** Smash Bros
 
