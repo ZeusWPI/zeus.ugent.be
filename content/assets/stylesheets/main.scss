@@ -26,6 +26,11 @@ body {
   }
 }
 
+.mirror {
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
 
 @import "includes/animations";
 @import "includes/cammie";

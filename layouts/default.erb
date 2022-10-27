@@ -43,12 +43,18 @@
   </head>
 
   <body class="site">
+    <script>
+      // only add mirror css class if mirrored is true in cookie
+      if (document.cookie.includes("mirrored=true")) {
+        document.body.classList.add('mirror');
+      }
+    </script>
     <div class="wrapper">
       <%= yield %>
-      </div>
+    </div>
     <%= render '/partials/_footer.*' %>
 
-  <%= content_for(@item, :scripts) %>
-  <%= asset :js, :search %>
+    <%= content_for(@item, :scripts) %>
+    <%= asset :js, :search %>
   </body>
 </html>
