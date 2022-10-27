@@ -5,7 +5,7 @@ created_at: 24-03-2022
 time: '10-05-2022 17:30'
 end: '10-05-2022 20:30'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
-locationlink: "Studententuin voortuin, 9000 Ghent"
+locationlink: $voortuin
 banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
 header_text_background: true
 tags:

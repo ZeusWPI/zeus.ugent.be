@@ -5,7 +5,7 @@ created_at: 11-07-2022
 time: '16-07-2022 12:30'
 end: '16-07-2022 23:59'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
-locationlink: "Studententuin voortuin, 9000 Ghent"
+locationlink: $voortuin
 banner: "https://pics.zeus.gent/HLM2wcsYrLPq8VeTEGkVr9htDbVNckiFf9KHwFFG.jpg"
 header_text_background: true
 tags:
