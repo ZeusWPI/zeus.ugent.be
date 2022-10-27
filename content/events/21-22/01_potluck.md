@@ -4,6 +4,7 @@ description: Leute en plezier met ons DIY buffet!
 created_at: 17-09-2021
 time: '21-09-2021 18:00'
 location: Studententuin - Achtertuin, Campus Sterre, Gent
+locationlink: $achtertuin
 
 ---
 

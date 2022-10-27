@@ -5,6 +5,7 @@ created_at: 17-09-2021
 time: '13-10-2021 18:00'
 end: '13-10-2021 23:30'
 location: 'Studententuin - Achtertuin, Campus Sterre, tussen S5 en S8'
+locationlink: $voortuin
 banner: https://zeus.ugent.be/zeuswpi/spelletjesAvond.jpg
 header_text_background: true
 ---
