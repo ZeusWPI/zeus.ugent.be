@@ -26,10 +26,21 @@ body {
   }
 }
 
-.mirror {
+.mirrored {
   transform: scaleX(-1);
-  filter: FlipH;
 }
+
+.mirror {
+  transition: 5s;
+  transform: scaleX(-1);
+}
+
+.unmirror {
+  transition: 5s;
+  transform: scaleX(1);
+}
+
+
 
 
 @import "includes/animations";
