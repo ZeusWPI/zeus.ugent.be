@@ -26,11 +26,13 @@
           function switchMirroredInCookie() {
             if (!document.cookie.includes("mirrored=true")) {
               document.cookie = "mirrored=true;path=/";
+              document.body.classList.remove("unmirror");
+              document.body.classList.add("mirror");
             } else {
               document.cookie = "mirrored=false;path=/";
+              document.body.classList.remove("mirror");
+              document.body.classList.add("unmirror");
             }
-            // reload so the css is added (in default.erb)
-            window.location.reload();
           }
         </script>
         <a class="navbar-item" id="mirror" onclick="switchMirroredInCookie()" >
