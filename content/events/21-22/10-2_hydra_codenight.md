@@ -2,7 +2,7 @@
 title: Hydra codenight
 description: Een codenight om de Hydra app terug leven in te blazen en een frisse touch te geven
 author: Maxime Bloch
-created_at: 2021-11-19
+created_at: 19-11-2021
 time: '2021-11-25T18:00:00+00:00'
 end: '2021-11-25T23:59:00+00:00'
 location: De Kelder

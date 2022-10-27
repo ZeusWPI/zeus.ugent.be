@@ -1,7 +1,7 @@
 ---
 title: "Hydra Introsessie & Codenight"
-time: 2017-10-16T18:00:00+0200
-end: 2017-10-16T23:59:00+0200
+time: 2017-10-16 18:00
+end: 2017-10-16 23:59
 location: Zeus WPI
 description: Word een Hydra-held in no time
 created_at: '13-10-2017'
