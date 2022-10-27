@@ -92,17 +92,19 @@ socket.on('replymessage', function(obj) {
         <!-- Response Success -->
         <div id="cammieFormResponseSuccess" class="notification is-success is-light is-hidden"></div>
 
-        <!-- Message box -->
-        <div class="field has-addons">
-          <div class="control is-full-width">
-            <input class="input is-medium is-full-widtd" name="message" type="text" placeholder="Message...">
+        <nav class="columns mt-0">
+          <div class="column">
+            <input class="input is-medium is-full-width" name="name" type="text" placeholder="Name">
           </div>
-          <div class="control">
-            <button class="button is-medium is-primary" type="submit">
+          <div class="column is-half">
+            <input class="input is-medium is-full-width" name="message" type="text" placeholder="Message...">
+          </div>
+          <div class="column">
+            <button class="button is-medium is-primary is-full-width" type="submit">
               Send to kelder
             </button>
           </div>
-        </div>
+        </nav>
       </form>
     </div>
   </div>

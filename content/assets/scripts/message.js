@@ -1,4 +1,5 @@
 const form = $("#cammieForm");
+const formName = form.find('input[name="name"]');
 const formMessage = form.find('input[name="message"]');
 const formButton = form.find('button[type="submit"]');
 const responseError = $("#cammieFormResponseError");
@@ -7,12 +8,12 @@ const responseSuccess = $("#cammieFormResponseSuccess");
 $("#cammieForm").submit((e) => {
   e.preventDefault();
   formButton.addClass("is-loading");
-
   return $.ajax({
     url: "https://kelder.zeus.ugent.be/messages/",
     contentType: "text/plain",
     type: "POST",
-    data: form.find('input[name="message"]').val(),
+    headers: { "X-Username": formName.val()},
+    data: formMessage.val(),
     success() {
       responseError.addClass("is-hidden");
       responseSuccess.removeClass("is-hidden");
