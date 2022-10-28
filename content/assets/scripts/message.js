@@ -12,7 +12,7 @@ $("#cammieForm").submit((e) => {
     url: "https://kelder.zeus.ugent.be/messages/",
     contentType: "text/plain",
     type: "POST",
-    headers: { "X-Username": formName.val()},
+    headers: formName.val() ? { "X-Username": formName.val()} : {},
     data: formMessage.val(),
     success() {
       responseError.addClass("is-hidden");
