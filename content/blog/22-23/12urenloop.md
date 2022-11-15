@@ -8,7 +8,7 @@ De 12urenloop is een jaarlijkse loopwedstrijd aan de Universiteit Gent. De deeln
 studentenverenigingen lopen in een estafetterace die 12 uur duurt zoveel mogelijk rondjes.
 Elk team krijgt één baton (doorgeefstok) toegekend, dus ze kunnen maar één loper tegelijk hebben.
 
-Zeus doet al even de het tellen op de 12urenloop: eerst via een manueel telsysteem waarbij
+Zeus doet al even het tellen op de 12urenloop: eerst via een manueel telsysteem waarbij
 de rugnummers van de lopers worden ingegeven, dan vanaf 2011 met een automatisch
 telsysteem dat werkt via bluetooth-modules in de batons. Voor de rest van de context qua
 de historische hardware en software kan je de [blogpost uit 2011](/blog/10-11/counting-laps-using-bluetooth-dongle-detection-on-the-12-urenloop/) lezen.
@@ -16,7 +16,7 @@ de historische hardware en software kan je de [blogpost uit 2011](/blog/10-11/co
 Het oude telsysteem had een aantal issues:
 
 - De gyrids (de computers die rond het circuit opgesteld waren en de bluetooth-beacons opvingen) begonnen vrij oud te worden en gingen kapot
-- De gyrids pollden welke bluetooth devices er in de buurt waren, waarna de batons antwoordden.
+- De gyrids pollden welke Bluetooth devices er in de buurt waren, waarna de batons antwoordden.
   De detecties van batons was niet betrouwbaar, en de betrouwbaarheid daalde jaar na jaar, waarschijnlijk doordat er steeds meer mensen Bluetooth devices bijhadden.
 - Niemand van de huidige generatie leden in Zeus begrijpt het telprogramma count-von-count echt (het is geschreven in Haskell op de manier waarop je Haskell moet schrijven), wat het lastig maakt om features toe te voegen of als er iets mis loopt tijdens het event te debuggen.
 - ...
@@ -37,7 +37,7 @@ De voordelen van deze microcontrollers ten opzichte van de vorige 'domme' blueto
 
 ## Stations
 
-Er staan verschillende dozen rond het loopcircuit. In elke doos zit een Raspberry Pi, een kleine netwerkswitch, een autobatterij en twee spanningsomvormers (voor de networkswitch en de Pi). Het geheel van die hardware wordt een station genoemd (intussen is de term "Ronny" ook wel populair geworden). De stations zijn onderling via ethernetkabels verbonden met elkaar. De ethernetkabels gaan het parcours rond in een lus. Op het verste station van de centrale IT-container is 1 kabel niet ingeplugd zodat we geen loops in het netwerk hebben. De kabel zelf ligt er wel, zodat als een andere kabel kapot gaat (doordat er bijvoorbeeld een koets over rijdt), we gewoon een kabel moeten insteken om onze stations terug netwerkconnectiviteit te geven.
+Er staan verschillende dozen rond het loopcircuit. In elke doos zit een Raspberry Pi, een kleine netwerkswitch, een autobatterij en twee spanningsomvormers (voor de networkswitch en de Pi). Het geheel van die hardware wordt een station genoemd (intussen is de term "Ronny" ook wel populair geworden). De stations zijn onderling via ethernetkabels verbonden. De ethernetkabels gaan het parcours rond in een lus. Op het verste station van de centrale IT-container is 1 kabel niet ingeplugd zodat we geen loops in het netwerk hebben. De kabel zelf ligt er wel, zodat als een andere kabel kapot gaat (doordat er bijvoorbeeld een koets over rijdt), we gewoon een kabel moeten insteken om onze stations terug netwerkconnectiviteit te geven.
 
 De Raspberry Pi's in de stations luisteren naar de beacon-pakketjes die uitgestuurd worden door de batons en slaan de informatie uit de ontvangen pakketten op in een lokale database:
 
@@ -49,7 +49,7 @@ De Raspberry Pi's in de stations luisteren naar de beacon-pakketjes die uitgestu
 
 Vroeger stuurden de Gyrids die gegevens dan rechtstreeks door naar count-von-count. Hierdoor was de setup
 zeer gevoelig aan netwerk- en ander falen: als er bijvoorbeeld een koets over de netwerkkabels reed (helaas is dit geen theoretisch voorbeeld) of count-von-count down was, dan gingen alle detecties verloren tot de detecties terug toekwamen. Dit is nu opgelost door de detecties vanaf Telraam binnen te trekken in plaats van die vanuit de stations naar Telraam te duwen: er draait een kleine webserver op elk station die een endpoint `/detections/<id>` heeft. Deze geeft alle detecties *na* het meegegeven ID terug: op die manier is het makkelijk
-om alle detecties naar een lokale databank te syncroniseren. Als extra voordeel is het hiermee nu ook mogelijk
+om alle detecties naar een lokale databank te synchroniseren. Als extra voordeel is het hiermee nu ook mogelijk
 om voor elk station alle detecties te downloaden waarmee dan het event gereplayed kan worden. Zo kan er makkelijk gesleuteld worden aan het algoritme in Telraam, zonder telkens een fysiek event te moeten doen.
 
 De spanningsomvormers (buck converters) zetten het voltage van de batterij om in 9V voor de switch en 5V
@@ -73,7 +73,7 @@ Ook qua netwerk zijn we er wat op vooruit gegaan: vroeger trokken we voor onze u
 van de nabijgelegen Sint-Pietersabdij naar de IT-container. De vorige editie hebben we deze 
 kabel vervangen door een "straler" (een point-to-point Wi-Fi verbinding die zich gedraagt als 
 een kabel). Zo moeten we de hoogtewerker niet meer gebruiken, waardoor we veel sneller kunnen opbouwen. Daarnaast hebben we nu ook een reserve-uplink: de TADAAM. Dit is een 4G router
-die maar 40€ kost per maand voor ongelimiteerd internet aan 30 Mbps. Het is mogelijk dat we die naar de komende jaren zullen gebruiken als enige uplink.
+die maar €40 kost per maand voor ongelimiteerd internet aan 30 Mbps. Het is mogelijk dat we die naar de komende jaren zullen gebruiken als enige uplink.
 
 # Software
 
@@ -99,7 +99,7 @@ Loxsi de proxy (vernoemd naar @lox 🧡) is het stuk software die het aantal ron
 
 # Monitoring
 
-We hebben ook veel monitoring geintroduceerd, dit geven we allemaal weer via een Grafana dashboard. We geven (onder andere) het volgende weer:
+We hebben ook veel monitoring geïntroduceerd, dit geven we allemaal weer via een Grafana dashboard. We geven (onder andere) het volgende weer:
 
 - aantal rondjes per team
 - status van de batons: batterijpercentage en of ze gerestart zijn (dit is wanneer hun uptime gedaald is)
