@@ -30,7 +30,7 @@ zowel de hardware als de software te vervangen: count-von-count wordt vervangen 
 
 De batons bevatten een Adafruit Feather nRF52 Bluefruit LE microcontroller en een herlaadbare lithium-ion batterij. Ze zijn geprogrammeerd om 10 keer per seconde een beacon-pakketje te sturen waarin het batterijpercentage en de uptime zitten: op die manier kunnen we monitoren of er batons zijn waarvan de batterij bijna plat is. Via de uptime kunnen we detecteren of de batons rebootten tijdens het event.
 
-De voordelen van deze microcontrollers ten opzichte van de vorige 'domme' bluetooth-chips, is dat tweevoud: ten eerste kunnen we zelf programmeren wat de microcontrollers sturen in de beacon-pakketjes. Hierdoor kunnen we telemetry kunnen meegeven. Ten tweede sturen de microcontrollers nu zelf heel frequent hun beacon-pakket, zonder dat deze gepolled moeten worden.
+De voordelen van deze microcontrollers ten opzichte van de vorige 'domme' bluetooth-chips, is dat tweevoud: ten eerste kunnen we zelf programmeren wat de microcontrollers sturen in de beacon-pakketjes. Hierdoor kunnen we telemetry meegeven. Ten tweede sturen de microcontrollers nu zelf heel frequent hun beacon-pakket, zonder dat deze gepolld moeten worden.
 
 ![Inhoud van de batons](https://pics.zeus.gent/oY4noB478FwToO5jVQFtnO1bVeZXz9AoxJxwgZsP.jpg)
 
@@ -48,7 +48,7 @@ De Raspberry Pi's in de stations luisteren naar de beacon-pakketjes die uitgestu
 - het ID van de detectie (een getal dat strikt stijgt, per station)
 
 Vroeger stuurden de Gyrids die gegevens dan rechtstreeks door naar count-von-count. Hierdoor was de setup
-zeer gevoelig aan netwerk- en ander falen: als er bijvoorbeeld een koets over de netwerkkabels reed (helaas is dit geen theoretisch voorbeeld) of count-von-count down was, dan gingen alle detecties verloren tot de detecties terug toekwamen. Dit is nu opgelost door de detecties vanaf Telraam binnen te trekken in plaats van die vanuit de stations naar Telraam te duwen: er draait een kleine webserver op elk station die een endpoint `/detections/<id>` heeft. Deze geeft alle detecties *na* het meegegeven ID terug: op die manier is het makkelijk
+zeer gevoelig aan netwerk- en ander falen: als er bijvoorbeeld een koets over de netwerkkabels reed (helaas is dit geen theoretisch voorbeeld) of count-von-count down was, dan gingen alle detecties verloren tot de verbinding terug hersteld werd. Dit is nu opgelost door de detecties vanaf Telraam binnen te trekken in plaats van die vanuit de stations naar Telraam te duwen: er draait een kleine webserver op elk station die een endpoint `/detections/<id>` heeft. Deze geeft alle detecties *na* het meegegeven ID terug: op die manier is het makkelijk
 om alle detecties naar een lokale databank te synchroniseren. Als extra voordeel is het hiermee nu ook mogelijk
 om voor elk station alle detecties te downloaden waarmee dan het event gereplayed kan worden. Zo kan er makkelijk gesleuteld worden aan het algoritme in Telraam, zonder telkens een fysiek event te moeten doen.
 
@@ -113,8 +113,26 @@ Op onderstaande screenshot staat een (intussen lichtjes verouderde) versie van d
 # Evaluatie en toekomst
 
 We hebben de vorige 12urenloop-editie het automatisch telsysteem kunnen gebruiken: we hebben 
-enkel de eerste paar uren van het event manueel geteld tot we zagen dat onze automatische 
-telling betrouwbaar was.
+enkel het eerste uur van het event manueel geteld, tot we zagen dat onze automatische 
+telling betrouwbaar was. De rest van het evenement hebben we volledig op de automatische telling
+kunnen draaien. Dit was de eerste editie in lange tijd waarbij we zijn kunnen stoppen met manueel tellen; een indrukwekkende prestatie, gezien we volledig nieuwe hard- en software gebruikten, al zeg ik het zelf.
 
 De 12urenloop-stack is nu een heel pak betrouwbaarder, nauwkeuriger en meer debugbaar; maar 
-natuurlijk stopt ons werk daarmee niet:
+natuurlijk stopt ons werk daarmee niet: er is zeker nog ruimte voor innovatie. Zo zijn we momenteel al naar het volgende aan het kijken:
+
+- Momenteel worden de gewichten van het Hidden-Markov-model manueel bepaald. Ze zijn niet 
+  compleet uit de duim gezogen, maar optimaal zijn ze waarschijnlijk ook niet, wat mogelijk
+  kan leiden tot heel sporadische gemiste rondjes, die dan manueel gecorrigeerd moeten worden. 
+  Deze gemiste rondjes zijn wel heel duidelijk detecteerbaar, maar het zou leuker zijn als de 
+  telling direct perfect is. Hiervoor is Francis in het project voor het vak Machine Learning aan het proberen om de gewichten voor de HMM automatisch te bepalen.
+- Er is momenteel nog geen telemetry over de batterijpercentages van de stations: er hangt wel 
+  een spanningsmeter aan de batterij, maar deze kan enkel daar afgelezen worden.
+  Op zich is het geen 
+  harde vereiste om op afstand de batterij te kunnen monitoren, de auto-batterijen in de 
+  stations zouden lang genoeg mee moeten gaan, maar het is een makkelijke toevoeging die kan 
+  gebeuren met hardware die we al hebben.
+- Het trekken van netwerkkabels tussen de stations is vrij tijdsintensief en duur in
+  materiaalkost, zeker omdat die soms niet herbruikt worden over meerdere events heen. Het zou interessant zijn om alternatieven hiervoor te evalueren, zoals bijvoorbeeld een Wi-Fi mesh-netwerk tussen de verschillende stations.
+
+Zeus kennende, zal het zal waarschijnlijk niet bij het bovenstaande blijven. Ik kijk er al naar 
+uit om over een vijf-tal jaar een blogpost te lezen over wat er allemaal veranderd is.
