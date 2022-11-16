@@ -28,5 +28,14 @@ Iedereen is welkom **vanaf 18u00 in Auditorium A3** (campus Sterre S9). Er zal s
 We zien dit evenement als een '_friendly_' evenement. Er is een scoreboard maar het is de bedoeling dat mensen van alle niveaus plezier hebben.
 Je kan dus volledig zelf kiezen als je in solo of in team werkt en hoe groot dat team is. Teams registreren zal op het evenement zelf gebeuren.
 
+### Praktische details
+
+Hieronder de praktische stappen om te starten met de CTF.
+
+- Je verbind als start met ons lokaal netwerk `Zeus WPI 5G`.
+- Vorm een team: je mag een team zijn op jezelf of samenwerken met 2, 3 of 4. Meer dan 4 moedigen we af en is vaak contraproductief.
+- Claim per team een login. Dit kan door te surfen naar [10.2.1.165:5000](http://10.2.1.165:5000)
+- Surf naar de overzicht van de challenges: [10.2.1.165:4000](http://10.2.1.165:4000). Je vind hier een selectie van challenges door ons gemaakt. Je mag zeker ook andere challenges van PicoCTF doen als je dit ziet zitten.
+- Volg de scores op op ons custom scorebord: [10.2.1.165:8080](http://10.2.1.165:8080)
 
 Tot dan hackers!
