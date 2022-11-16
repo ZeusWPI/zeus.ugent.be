@@ -1,6 +1,6 @@
 ---
 title: Rondjes tellen met Bluetooth Low Energy op de 12urenloop
-created_at: 15-04-2022
+created_at: 15-11-2022
 author: "Jasper Devreker"
 ---
 
