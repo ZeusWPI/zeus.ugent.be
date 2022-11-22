@@ -25,7 +25,7 @@ Using the multimeter in continuity mode, we identified which pin of the debug po
 
 <%= figure 'https://pics.zeus.gent/U3mZM6ZSnn0uVSyNJSwECHN99UjYqTa6aTFI0vvm.jpg', 'Colored PCB traces of mystery header' %>
 
-We then soldered wires (it's not pretty or cleaned, but it works) to the port and used a cheap logic analyser to see what is happening on the IO pins (a logic analyser is a tool that captures and displays multiple signals from a digital device). See the screenshot below for what happens after booting the device.
+We then soldered wires (it's not pretty or clean, but it works) to the port and used a cheap logic analyser to see what is happening on the IO pins (a logic analyser is a tool that captures and displays multiple signals from a digital device). See the screenshot below for what happens after booting the device.
 
 <%= figure 'https://pics.zeus.gent/dZororR96zqGFfsOHv5cWowC3e5RUiL2l4Pls8qS.jpg', 'Logic analyzer connected to board' %>
 
@@ -113,15 +113,15 @@ mmc read addr blk# cnt
 mmc write addr blk# cnt
 </code></pre>
 
-We used the `mmc read` subcommand takes a memory address to put the data in, a block-number from where it will start, and an amound of blocks to read. After the data is read into memory, we need to get it out. We first tried the `md.b` command (memory display bytes). This command takes an address and amount of bytes, and prints those out to the serial console as a hexdump. This process can be automated with a Python script to read out the entire 8GB eMMC storage chip. Unfortunately, this approach proved to be too slow to use: a back-of-the napkin calculation showed that it would take around 49 days to completely transfer all the memory.
+We used the `mmc read` subcommand, which takes a memory address to put the data in, a block-number from where it will start, and an amount of blocks to read. After the data is read into memory, we need to get it out. We first tried the `md.b` command (memory display bytes). This command takes an address and amount of bytes, and prints those out to the serial console as a hexdump. This process can be automated with a Python script to read out the entire 8GB eMMC storage chip. Unfortunately, this approach proved to be too slow to use: a back-of-the napkin calculation showed that it would take around 49 days to completely transfer all the memory.
 
 Luckily, another command was found: `fatwrite`. This will write memory to a file on a FAT filesystem. The box also has a USB port, where a memory stick can be plugged into. Using a combination of `mmc read` and `fatwrite`, we started dumping the eMMC chip. This once again proved to be rather slow and would take ~4 days. The `fatwrite` command was replaced with `usb write`, which removed the overhead of the filesystem and directly dumped the data to the disk, byte for byte exactly the same as the eMMC partition.
 
-With a backup of the eMMC in hand, we can confidently move on to trying to run Linux on the box. Inspecting the eMMC dump, showed that the board is a U212 reference design board, with a Amlogic S905X2 Quad-Core ARM Cortex-A53 SoC.
+With a backup of the eMMC in hand, we can confidently move on to trying to run Linux on the box. Inspecting the eMMC dump, showed that the board is a U212 reference design board, with an Amlogic S905X2 Quad-Core ARM Cortex-A53 SoC.
 
 Looking up this chip, we found the [amlogic-s9xxx-armbian repository on GitHub](https://github.com/ophub/amlogic-s9xxx-armbian/). This Armbian version is specifically made for the chip on our device; we're in luck that someone has already gone through the effort of building this. Armbian is a Debian-based distro specifically for ARM chips (ARM here refers to the instruction set of the CPU; on most laptops, this instruction set is x86).
 
-Getting this to work was once again a path littered with many dead-end sideroads. A crucial piece of information was [this blogpost by 7Ji](https://7ji.github.io/embedded/2022/11/11/amlogic-booting.html) that describes how the bootflow on Amlogic devices works. It became clear that we wouldn't be able to directly boot Linux from the bootloader that was shipped on the device, but that we would first need to boot into a bootloader we control before booting Linux (this to get rid of the weird vendor-specific configuration/code). This practice is called chainloading. We used one of the bootloaders that ships with the Armbian version for the S905X2 chip.
+Getting this to work was once again a path littered with many dead-ends. A crucial piece of information was [this blogpost by 7Ji](https://7ji.github.io/embedded/2022/11/11/amlogic-booting.html) that describes how the bootflow on Amlogic devices works. It became clear that we wouldn't be able to directly boot Linux from the bootloader that was shipped on the device, but that we would first need to boot into a bootloader we control before booting Linux (this to get rid of the weird vendor-specific configuration/code). This practice is called chainloading. We used one of the bootloaders that ships with the Armbian version for the S905X2 chip.
 
 We chainloaded by first loading the bootloader into memory, and then jumping to it.
 
@@ -145,11 +145,11 @@ This starts the second bootloader and drops us into another shell (with odroid2 
 - The Linux kernel
 - A very simple filesystem object called INITRD (Inital RAM Disk). This contains the initial files needed to continue the booting process
 - Arguments for the kernel. These are pretty standard.
-- A FDT file (Flattened device tree). This file describes the hardware and is used by the Linux kernel to load drivers and configure the hardware.
+- An FDT file (Flattened device tree). This file describes the hardware and is used by the Linux kernel to load drivers and configure the hardware.
 
-The first two are provided by the Armbian project, but the FDT is board-specific and didn't seem to be available yet for mainline Linux: we did dump the eMMC storage and find a Device Tree Blob, but this is Android-specific. The Linux kernel used by the Android TV version in the device was forked from mainline to include support for the hardware. Those changes were not mainlined (brought into Linus Torvalds' version) by the hardware vendor, but by other developers, causing the Android DTB and mainline Linux DTB not to be compatible.
+The first two are provided by the Armbian project, but the FDT is board-specific and didn't seem to be available yet for mainline Linux: we did dump the eMMC storage and find a Device Tree Blob, but this is Android-specific. The Linux kernel used by the Android TV version in the device was forked from mainline to include support for the hardware. Those changes were not mainlined (brought into Linus Torvalds' version) by the hardware vendor, but by other developers, causing the Android DTB and mainline Linux DTB to not be compatible.
 
-We used a quick and dirty hack to fix this: trying different device tree blobs for other, similar boards, until the device boots and has the nescessary hardware support. In the end, we used the `meson-g12a-sei510.dtb` blob. Booting then happend like this:
+We used a quick and dirty hack to fix this: trying different device tree blobs for other, similar boards, until the device boots and has the nescessary hardware support. In the end, we used the `meson-g12a-sei510.dtb` blob. Booting then happened like this:
 
 <pre><code>
 fatload usb 0:1 0x11000000 uEnv.txt
@@ -191,7 +191,7 @@ reboot
 
 This now boots the secondary bootloader automatically if possible. From here, we tried to use an extlinux config file to automatically boot Linux; extlinux.conf has a very simple config format where you specify the kernel, initramfs, arguments and the device tree; the bootloader then does the rest of the work booting the device.
 
-Unfortunately ue to a bug in the secondary bootloader, the extlinux config handler seemed to be broken, so automatically booting didn't work there. We also didn't find a way of passing commands from the first bootloader to the second one. 7Ji's blogpost about the bootloader mentioned that if there is a file called `boot.scr` or `aml_autoscript` on the USB memory stick, it would be automatically executed. This proved to be false: there is indeed a `boot_attempt` command that executes these scripts on any storage it can find, but it's not executed by the `bootcmd`.
+Unfortunately, due to a bug in the secondary bootloader, the extlinux config handler seemed to be broken, so automatically booting didn't work there. We also didn't find a way of passing commands from the first bootloader to the second one. 7Ji's blogpost about the bootloader mentioned that if there is a file called `boot.scr` or `aml_autoscript` on the USB memory stick, it would be automatically executed. This proved to be false: there is indeed a `boot_attempt` command that executes these scripts on any storage it can find, but it's not executed by the `bootcmd`.
 
 We didn't want to have to recompile the bootloader, so we patched it with a hexeditor. The new command is shorter than the old command, so we filled the rest with spaces.
 
@@ -200,3 +200,5 @@ We didn't want to have to recompile the bootloader, so we patched it with a hexe
 <%= figure 'https://pics.zeus.gent/1KuJq7Ac8PeNiW4Zwxd1JayXWvnjSC97TXKwPQaF.png', 'Hexdump after editing' %>
 
 We've now reached all our goals: the set-top box automatically boots into Linux, with support for Ethernet and HDMI. The original Android install still boots when the special USB stick is not inserted.
+
+If you have questions or somethings is not clear, feel free to contact me.
