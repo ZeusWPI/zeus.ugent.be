@@ -6,13 +6,13 @@ author: "Jasper Devreker"
 image: "https://pics.zeus.gent/FYEEdmo7BRSmoJJfxNukEShhIckXjOqQhmQoHP0Q.jpg"
 ---
 
-Our mobile Internet Service Provider (ISP) has a bundle where they provide a 4G modem for internet access, and a separate TV set-top box that can be used to watch their TV content or to watch streaming services. This device was sent to us as part of the bundle, but at Zeus, we don't really have a use for it: we don't really watch television in our space. What we do have a need for however, are low-power computers that can run Linux. In this blog post, we will hack this set-top box to run Linux instead of Android TV.
+Our mobile Internet Service Provider (ISP) has a bundle where they provide a 4G modem for internet access, and a separate TV set-top box that can be used to watch their TV content or to watch streaming services. This device was sent to us as part of the bundle, but at Zeus, we don't really have a use for it: we don't really watch television in our space. What we do have a need for, however, are low-power computers that can run Linux. In this blog post, we will hack this set-top box to run Linux instead of Android TV.
 
 The constraints we lay out for this project are that the box must be easily turned back into running the original software again (in theory, we might be asked to give this device back. In practice, these devices are written off as soon as they're sent to customers). This means that we cannot do any destructive inspection/testing and that we cannot overwrite important parts of the on-device storage. We would also like to get the most important hardware of the box working: Ethernet and HDMI.
 
 Our set-top box has an Ethernet port, a USB port, a barrel jack socket for power and an HDMI socket for video. It also has an IR sensor for the remote and several status leds. Looking up the label on the back of the set-top box, we [found the website of the original vendor](https://www.askey.com.tw/products-detail/sti6030/). It's clear that this is a bit like a white-label product: the ISP buys the boxes from the vendor, adds their own branding/apps and then passes on these boxes to their customers. After doing a bit more research, it appeared that nobody had yet tried to put a different operating system on these boxes: we had our work cut out for us.
 
-After opening up the box, we inspected the printed circuit board (PCB) marked as STI6160-D323-ROHS in the device. Unfortunately, most of interesting chips are under an aluminium RF shield, making identification of what chips it uses harder. One chip that is visible, is marked as KLM8G1GETF. This is apparently an eMMC storage chip, made by Samsung. Getting the data stored on it would be very nice to get more information about how to proceed. We identified two posibilities for doing this:
+After opening up the box, we inspected the printed circuit board (PCB) marked as STI6160-D323-ROHS in the device. Unfortunately, most of the interesting chips are under an aluminium RF shield, making identification of what chips it uses harder. One chip that is visible is marked as KLM8G1GETF. This is apparently an eMMC storage chip, made by Samsung. Getting the data stored on it would be very nice to get more information about how to proceed. We identified two possibilities for doing this:
 
 - Desoldering the eMMC chip, soldering it on another PCB and reading it out from there. I personally have some experience with this from a workshop at the HITB conference, so this seemed possible. However, since the eMMC chip has a BGA footprint (ball grid array: the bottom of the chip has very small solder balls that connect it to the PCB) this is very hard to do and has a high chance of failing, which would destroy the device.
 - Soldering wires to the PCB itself, tapping into traces that are used by the chip. Only 5 wires would need to be soldered, but identifying where to solder them to proved to be rather hard. A technique that is used for this, is overlaying a picture of the pinout of the chip on a photo of the PCB. Unfortunately, even with this, we were unable to find the correct PCB traces.
@@ -33,7 +33,7 @@ We then soldered wires (it's not pretty or clean, but it works) to the port and 
 
 On the screenshot, you can see that there is one pin that's constantly high (because of the resistor between it and VCC), and one pin where there are signals. These signals look like serial, so we used the serial protocol decoder to decode the signal, and indeed, it is serial at 115200 baud. From this, it follows that the other pin is probably the RX (receive) pin: it's constantly high because we don't send anything yet.
 
-We detached the logic analyser from the device and then connected a USB to serial adapter, taking care to connect the TX of the adapter to RX on the board and vice versa. We were also careful to get the voltage right by setting the switch on the adaptor to 3.3V (it would be very sad to accidentally blow up the debug port).
+We detached the logic analyser from the device and then connected a USB to serial adapter, taking care of connecting the TX of the adapter to RX on the board and vice versa. We were also careful to get the voltage right by setting the switch on the adaptor to 3.3V (it would be very sad to accidentally blow up the debug port).
 
 <%= figure 'https://pics.zeus.gent/rFpAkUFnumladquA7MFQeVl603U45Qoun2KJf5Vy.jpg', 'Serial adaptor connected to board' %>
 
@@ -117,7 +117,7 @@ We used the `mmc read` subcommand, which takes a memory address to put the data 
 
 Luckily, another command was found: `fatwrite`. This will write memory to a file on a FAT filesystem. The box also has a USB port, where a memory stick can be plugged into. Using a combination of `mmc read` and `fatwrite`, we started dumping the eMMC chip. This once again proved to be rather slow and would take ~4 days. The `fatwrite` command was replaced with `usb write`, which removed the overhead of the filesystem and directly dumped the data to the disk, byte for byte exactly the same as the eMMC partition.
 
-With a backup of the eMMC in hand, we can confidently move on to trying to run Linux on the box. Inspecting the eMMC dump, showed that the board is a U212 reference design board, with an Amlogic S905X2 Quad-Core ARM Cortex-A53 SoC.
+With a backup of the eMMC in hand, we can confidently move on to try to run Linux on the box. Inspecting the eMMC dump, showed that the board is a U212 reference design board, with an Amlogic S905X2 Quad-Core ARM Cortex-A53 SoC.
 
 Looking up this chip, we found the [amlogic-s9xxx-armbian repository on GitHub](https://github.com/ophub/amlogic-s9xxx-armbian/). This Armbian version is specifically made for the chip on our device; we're in luck that someone has already gone through the effort of building this. Armbian is a Debian-based distro specifically for ARM chips (ARM here refers to the instruction set of the CPU; on most laptops, this instruction set is x86).
 
@@ -149,7 +149,7 @@ This starts the second bootloader and drops us into another shell (with odroid2 
 
 The first two are provided by the Armbian project, but the FDT is board-specific and didn't seem to be available yet for mainline Linux: we did dump the eMMC storage and find a Device Tree Blob, but this is Android-specific. The Linux kernel used by the Android TV version in the device was forked from mainline to include support for the hardware. Those changes were not mainlined (brought into Linus Torvalds' version) by the hardware vendor, but by other developers, causing the Android DTB and mainline Linux DTB to not be compatible.
 
-We used a quick and dirty hack to fix this: trying different device tree blobs for other, similar boards, until the device boots and has the nescessary hardware support. In the end, we used the `meson-g12a-sei510.dtb` blob. Booting then happened like this:
+We used a quick and dirty hack to fix this: trying different device tree blobs for other, similar boards, until the device boots and has the necessary hardware support. In the end, we used the `meson-g12a-sei510.dtb` blob. Booting then happened like this:
 
 <pre><code>
 fatload usb 0:1 0x11000000 uEnv.txt
