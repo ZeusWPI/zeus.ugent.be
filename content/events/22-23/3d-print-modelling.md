@@ -12,6 +12,10 @@ locationlink: $s9
 
 # Modelleren voor 3D-printen
 
-Details worden later nog aangevuld, aanvangstijd kan wijzigen.
+Al altijd willen leren je eigen functionele 3D-prints maken? In deze workshop leer je
+hoe je je eigen modellen kan maken met OpenSCAD, een open-source CAD-modelleerprogramma.
+
+Als je je wil voorbereiden op het event, kan je alvast OpenSCAD installeren. Gebruik je
+Visual Studio Code? Dan kan het nuttig zijn om ook de OpenSCAD plugin te installeren.
 
 Tot dan!
