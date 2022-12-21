@@ -1,7 +1,7 @@
 ---
 title: "Biometrics for all! Lockbot gains a new interface"
 created_at: 21-12-2022
-descriptionn: "Because why have one system that can fail, when you can have several"
+description: "Because why have one system that can fail, when you can have several"
 author: "Tibo Ulens"
 ---
 
