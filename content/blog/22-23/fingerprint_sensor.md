@@ -13,9 +13,9 @@ desire to do anything that isn't studying brought on by the exam season, I
 decided everyone's favourite door could do with yet another upgrade: a random
 fingerprint sensor I found in the back of the electronics closet!
 
-# Hardware
+## Hardware
 
-## The Sensor Itself
+### The Sensor Itself
 
 The fingerprint sensor I used is an
 [R503 sensor](https://www.adafruit.com/product/4651) that was lying in the back
@@ -33,7 +33,7 @@ feature map in its internal flash memory, or it can attempt to find a match
 with another, already stored, feature map to allow you to compare two
 fingerprints.
 
-## The Microcontroller
+### The Microcontroller
 
 Seeing as the sensor would need to be able to communicate with
 [lockbot](https://github.com/zeusWPI/lockbot) (the robot attached to our door
@@ -52,7 +52,7 @@ ported the whole thing over to an ESP32 Wi-Fi connected microcontroller.
 Somehow this managed to fix the interrupt bug and I dare not question why
 for fear of my own sanity.
 
-## The Revolutionary "Power" over """Ethernet""" Cable
+### The Revolutionary "Power" over """Ethernet""" Cable
 
 Any electronics project needs power, and the fingerprint sensor is no
 exception. Seeing as it was going to need to be mounted outside the Kelder, it
@@ -75,16 +75,16 @@ carry +5V and the other half to carry ground. That's it.
 
 I was instantly sold.
 
-## The case
+### The case
 
 Ever a lover of 3D printing, Jasper took it upon himself to design and print a
 modernist, bespoke case for the electronics to accentuate its beautiful
 circular lighting and cold, industrial mounting system (translator's note: a
 grey box with holes in it).
 
-# Software
+## Software
 
-## The ESP
+### The ESP
 
 As stated previously, I wanted users to be able to add and remove fingerprints
 using Mattermost commands. To this end, the ESP microcontroller is running a
@@ -108,7 +108,7 @@ will send a message to mattermore to allow it to update its database containing
 users and their fingerprint aliases, to open the door, or to notify the user
 that their command succeeded.
 
-## Mattermore
+### Mattermore
 
 Using Mattermost commands for the sensor means using mattermore to handle them
 correctly.
@@ -123,9 +123,9 @@ sensor detects a known fingerprint, it simply returns its internal ID, however
 we want to know which user this fingerprint belongs to so we can print out a
 nice message in ~kelder to ensure nobody opens the Kelder unnoticed.
 
-# Using The Fingerprint Sensor
+## Using The Fingerprint Sensor
 
-## Adding or enrolling a new fingerprint
+### Adding or enrolling a new fingerprint
 
 You can add a new fingerprint to the system by using the command
 `/fingerprint enroll {alias}` in Mattermost (don't ask me why I called it
@@ -142,7 +142,7 @@ If both of these steps succeed the fingerprint will be stored and can be used
 to open the door. <br/>
 If any steps fail you will need to repeat the enroll command and try again.
 
-## Deleting a fingerprint
+### Deleting a fingerprint
 
 You may delete any of your fingerprints by issuing the
 `/fingerprint delete {alias}` command.
@@ -150,14 +150,14 @@ You may delete any of your fingerprints by issuing the
 Admins may delete others' fingerprints and can do so using
 `/fingerprint delete {user} {alias}`.
 
-## Listing all your fingerprints
+### Listing all your fingerprints
 
 You can get an overview of the fingerprints you have enrolled using
 `/fingerprint list`.
 
 Admins will be able to see all fingerprints.
 
-# A Note On Privacy
+## A Note On Privacy
 
 While the fingerprint sensor can export images of fingerprints, it can only do
 so for whatever finger is currently on the sensor, not for fingerprint
