@@ -5,7 +5,7 @@ descriptionn: "Because why have one system that can fail, when you can have seve
 author: "Tibo Ulens"
 ---
 
-Every Zeus member needs to ender the Kelder at some point, so why not give them
+Every Zeus member needs to enter the Kelder at some point, so why not give them
 ample choice for how they should do so. Inspired by Niko's addition of a
 [Zeus-specific mode to Hydra](https://zeus.gent/blog/21-22/zeus_modus_hydra/)
 which allowed the door to be unlocked using NFC and fueled by the incessant
@@ -26,7 +26,7 @@ a ring shaped LED surrounding the sensor which you can set to red, blue, or
 purple, either constantly on or flashing, thus allowing for some very basic
 user interaction.
 
-Whenever you tell the sensor to scan a fingerprint it takes a picture of
+Whenever you tell the sensor to scan a fingerprint, it takes a picture of
 whatever is on the sensor and uses some fancy feature extraction code to get a
 simplified representation of the fingerprint. It can then either store this
 feature map in its internal flash memory, or it can attempt to find a match
@@ -36,10 +36,11 @@ fingerprints.
 ## The Microcontroller
 
 Seeing as the sensor would need to be able to communicate with
-[lockbot](https://github.com/zeusWPI/lockbot) somehow, and because I wanted
-it to use Mattermost commands to let users add or delete their fingerprint to
-or from the system, the microcontroller controlling the sensor was going to
-have to have some form of networking capability.
+[lockbot](https://github.com/zeusWPI/lockbot) (the robot attached to our door
+that (un)locks it) somehow, and because I wanted it to use Mattermost commands
+to let users add or delete their fingerprint to or from the system, the
+microcontroller controlling the sensor was going to have to have some form of
+networking capability.
 
 At the beginning of the project I was using an Arduino with an ethernet shield
 we had laying around to power the whole thing. This worked fine, however there
@@ -47,8 +48,9 @@ was a strange bug where, whenever the sensor detected a fingerprint and
 triggered an interrupt, the arduino would act as if it were continually
 receiving new interrupts. <br/>
 Fortunately for me however, the ethernet shield randomly broke one day, and I
-ported the whole thing over to an ESP. Somehow this managed to fix the
-interrupt bug and I dare not question why for fear of my own sanity.
+ported the whole thing over to an ESP32 Wi-Fi connected microcontroller.
+Somehow this managed to fix the interrupt bug and I dare not question why
+for fear of my own sanity.
 
 ## The Revolutionary "Power" over """Ethernet""" Cable
 
@@ -63,9 +65,9 @@ Many of you are probably familiar with Power over Ethernet or PoE, a very
 useful concept that lets you use ethernet cables not just to transfer data, but
 also to power whatever it is they are transmitting data to or from. However,
 these systems usually run at 48V and use some fancy electronics wizardry to
-ensure data integrity, so it would've been difficult to intigrate into the
+ensure data integrity, so it would've been difficult to integrate into the
 project. So, naturally, when I heard his suggestion I thought it was a little
-overkill. But Jasper then informed that he wasn't talking about any sort of
+overkill. But Jasper then informed me that he wasn't talking about any sort of
 fancy standardised, tried and tested, system, he actually meant the
 revolutionary "Power" over ""Ethernet"" "standard". An exceptionally simple
 "standard" where you simple use half of the cables in an ethernet cable to
@@ -87,6 +89,7 @@ grey box with holes in it).
 As stated previously, I wanted users to be able to add and remove fingerprints
 using Mattermost commands. To this end, the ESP microcontroller is running a
 *very* basic webserver which can accept 3 commands:
+
  - Enroll - Used to let the issuer of the command add a new fingerprint with an
             alias of their choosing to make it easier to distinguish them
  - Delete - Used to let the issuer of the command delete any of their
@@ -118,7 +121,7 @@ The database was also updated to include a new 'Fingerprint' table used to
 store which users have which fingerprints. This is needed as, whenever the
 sensor detects a known fingerprint, it simply returns its internal ID, however
 we want to know which user this fingerprint belongs to so we can print out a
-nice message in ~kelder to ensure nobody opens the Kelder at 3 AM unnoticed.
+nice message in ~kelder to ensure nobody opens the Kelder unnoticed.
 
 # Using The Fingerprint Sensor
 
