@@ -69,8 +69,8 @@ ensure data integrity, so it would've been difficult to integrate into the
 project. So, naturally, when I heard his suggestion I thought it was a little
 overkill. But Jasper then informed me that he wasn't talking about any sort of
 fancy standardised, tried and tested, system, he actually meant the
-revolutionary "Power" over ""Ethernet"" "standard". An exceptionally simple
-"standard" where you simple use half of the cables in an ethernet cable to
+revolutionary "Power" over """Ethernet""" "standard". An exceptionally simple
+"standard" where you simply use half of the cables in an ethernet cable to
 carry +5V and the other half to carry ground. That's it.
 
 I was instantly sold.
