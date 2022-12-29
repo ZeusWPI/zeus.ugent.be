@@ -2,8 +2,8 @@
 title: 'Intro Codenight 12urenloop & Code Week' 
 description: 'We geven een introductie tot het 12urenloop project'
 created_at: 29-12-2022
-time: '20-02-2022 19:00' 
-end: '20-02-2022 20:00'
+time: '20-02-2023 18:00' 
+end: '24-02-2023 23:00'
 banner: 'https://zeus.ugent.be/zeuswpi/12urenloop-banner.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/12urenloop.png'
 header_text_background: true 
@@ -18,6 +18,7 @@ hoeveel rondjes gelopen heeft. Als goede informatici doen we dit echter niet man
 volautomatisch systeem om dit voor ons te doen.
 
 Als kers op de taart gaat op 8 maart de 6urenloop door in Brugge. Voor de tweede keer gaat Zeus WPI ook hier helpen met rondjes tellen. Want geef toe, niks is leuker dan rondjes tellen op 't Zand van Brugge!
+Het is ook een beetje een generale repitite voor de 12urenloop in Gent.
 
 ## Codeweek
 
