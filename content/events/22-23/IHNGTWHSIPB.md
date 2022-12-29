@@ -23,5 +23,5 @@ We hebben een [lijst](https://github.com/orgs/ZeusWPI/projects/3) opgesteld met 
 
 #### "Maar ik heb al wel een project voor (insert vak hier)"
 
-Waarom één project doen als je ook twee projecten kan doen?
+DAT KAN NIET! Het is letterlijk dag 3 van het semester!
 
