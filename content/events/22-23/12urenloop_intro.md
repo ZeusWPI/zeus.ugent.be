@@ -32,8 +32,8 @@ Een overzichtje van de week
 |---------------|-------|--------|---------|-------|
 |Intro Codenight|TBD    |TBD     |TBD      |TBD    |
 
-- _**CodeNight**_: Iemand aanwezig in de kelder doorheen de dag en avond.
-- _**CodeDag**_: Iemand aanwezig in de kelder doorheen de dag, maar niet noodzakelijk avond (kijk eens op cammie of er iemand aanwezig is).
+- _**CodeNight**_: Iemand aanwezig in de kelder doorheen de avond.
+- _**CodeDag**_: We proberen overdag in de kelder aan het project te werken. Kijk eens op Cammie of iemand aanwezig is, of laat in ~12urenloop op Mattermost weten wanneer je plant af te zakken naar de kelder!
 
 ## Introductie
 
