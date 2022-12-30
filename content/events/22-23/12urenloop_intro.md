@@ -18,7 +18,7 @@ hoeveel rondjes gelopen heeft. Als goede informatici doen we dit echter niet man
 volautomatisch systeem om dit voor ons te doen.
 
 Als kers op de taart gaat op 8 maart de 6urenloop door in Brugge. Voor de tweede keer gaat Zeus WPI ook hier helpen met rondjes tellen. Want geef toe, niks is leuker dan rondjes tellen op 't Zand van Brugge!
-Het is ook een beetje een generale repitite voor de 12urenloop in Gent.
+Het is ook een beetje een generale repetite voor de 12urenloop in Gent.
 
 ## Codeweek
 
@@ -41,6 +41,8 @@ Een overzichtje van de week
 helpen maar nog niet goed weten hoe ons proejct werkt. We spreken af om **18u00** in de Zeus Kelder.
 
 ## Nu al benieuwd?
+
+Je kan al de [blogpost](https://zeus.ugent.be/blog/22-23/12urenloop/) lezen over hoe we de rondjes op 12urenloop tellen.
 
 Kijk gerust eens in onze repositories:
 
