@@ -33,7 +33,7 @@ Een overzichtje van de week
 |Intro Codenight|TBD    |TBD     |TBD      |TBD    |
 
 - _**CodeNight**_: Iemand aanwezig in de kelder doorheen de avond.
-- _**CodeDag**_: We proberen overdag in de kelder aan het project te werken. Kijk eens op Cammie of iemand aanwezig is, of laat in ~12urenloop op Mattermost weten wanneer je plant af te zakken naar de kelder!
+- _**CodeDag**_: We proberen overdag in de kelder aan het project te werken. Kijk eens op [Cammie](https://zeus.ugent.be/cammie/) of iemand aanwezig is, of laat in [~12urenloop op Mattermost](https://mattermost.zeus.gent/zeus/channels/12urenloop) weten wanneer je plant af te zakken naar de kelder!
 
 ## Introductie
 
