@@ -30,14 +30,14 @@ zowel de hardware als de software te vervangen: count-von-count wordt vervangen 
 
 De batons bevatten een Adafruit Feather nRF52 Bluefruit LE microcontroller en een herlaadbare lithium-ion batterij. Ze zijn geprogrammeerd om 10 keer per seconde een beacon-pakketje te sturen waarin het batterijpercentage en de uptime zitten: op die manier kunnen we monitoren of er batons zijn waarvan de batterij bijna plat is. Via de uptime kunnen we detecteren of de batons rebootten tijdens het event.
 
-De voordelen van deze microcontrollers ten opzichte van de vorige 'domme' bluetooth-chips, is dat tweevoud: ten eerste kunnen we zelf programmeren wat de microcontrollers sturen in de beacon-pakketjes. Hierdoor kunnen we telemetry meegeven. Ten tweede sturen de microcontrollers nu zelf heel frequent hun beacon-pakket, zonder dat deze gepolld moeten worden.
+Er zijn twee belangrijke voordelen bij deze microcontrollers ten opzichte van de vorige 'domme' bluetooth-chips: ten eerste kunnen we zelf programmeren wat de microcontrollers sturen in de beacon-pakketjes. Hierdoor kunnen we telemetry meegeven zoals batterijpercentage en uptime. Ten tweede sturen de microcontrollers nu zelf heel frequent hun beacon-pakket, zonder dat deze gepolld moeten worden. Dit zorgt ervoor dat de detectierate van batons een stuk naar boven gaat.
 
 ![Inhoud van de batons](https://pics.zeus.gent/oY4noB478FwToO5jVQFtnO1bVeZXz9AoxJxwgZsP.jpg)
 
 
 ## Stations
 
-Er staan verschillende dozen rond het loopcircuit. In elke doos zit een Raspberry Pi, een kleine netwerkswitch, een autobatterij en twee spanningsomvormers (voor de networkswitch en de Pi). Het geheel van die hardware wordt een station genoemd (intussen is de term "Ronny" ook wel populair geworden). De stations zijn onderling via ethernetkabels verbonden. De ethernetkabels gaan het parcours rond in een lus. Op het verste station van de centrale IT-container is 1 kabel niet ingeplugd zodat we geen loops in het netwerk hebben. De kabel zelf ligt er wel, zodat als een andere kabel kapot gaat (doordat er bijvoorbeeld een koets over rijdt), we gewoon een kabel moeten insteken om onze stations terug netwerkconnectiviteit te geven.
+Er staan verschillende dozen rond het loopcircuit. In elke doos zit een Raspberry Pi, een kleine netwerkswitch, een autobatterij en twee spanningsomvormers (voor de networkswitch en de Pi). Het geheel van die hardware wordt een station genoemd (intussen is de term "Ronny" ook wel populair geworden). De stations zijn onderling via ethernetkabels verbonden. De ethernetkabels gaan het parcours rond in een lus. In de IT-container komen dus twee ethernetkabels toe. Hiervan pluggen we er maar één in de core-netwerkswitch. De andere kabel ligt er, zodat als een kabel in de lus kapot gaat (doordat er bijvoorbeeld een koets over rijdt), we gewoon die reservekabel moeten insteken in de switch in de container om onze stations terug netwerkconnectiviteit te geven.
 
 De Raspberry Pi's in de stations luisteren naar de beacon-pakketjes die uitgestuurd worden door de batons en slaan de informatie uit de ontvangen pakketten op in een lokale database:
 
@@ -47,10 +47,10 @@ De Raspberry Pi's in de stations luisteren naar de beacon-pakketjes die uitgestu
 - Unix timestamp waarop het pakket ontvangen is
 - het ID van de detectie (een getal dat strikt stijgt, per station)
 
-Vroeger stuurden de Gyrids die gegevens dan rechtstreeks door naar count-von-count. Hierdoor was de setup
+Vroeger stuurden de Gyrids die gegevens dan live door naar count-von-count. Hierdoor was de setup
 zeer gevoelig aan netwerk- en ander falen: als er bijvoorbeeld een koets over de netwerkkabels reed (helaas is dit geen theoretisch voorbeeld) of count-von-count down was, dan gingen alle detecties verloren tot de verbinding terug hersteld werd. Dit is nu opgelost door de detecties vanaf Telraam binnen te trekken in plaats van die vanuit de stations naar Telraam te duwen: er draait een kleine webserver op elk station die een endpoint `/detections/<id>` heeft. Deze geeft alle detecties *na* het meegegeven ID terug: op die manier is het makkelijk
-om alle detecties naar een lokale databank te synchroniseren. Als extra voordeel is het hiermee nu ook mogelijk
-om voor elk station alle detecties te downloaden waarmee dan het event gereplayed kan worden. Zo kan er makkelijk gesleuteld worden aan het algoritme in Telraam, zonder telkens een fysiek event te moeten doen.
+om alle detecties naar een lokale databank in Telraam te synchroniseren. Als extra voordeel is het hiermee nu ook mogelijk
+om voor elk station alle detecties te downloaden. Met deze data kan het event gereplayed worden, zodat er makkelijk gesleuteld kan worden aan het algoritme in Telraam zonder telkens een fysiek test-event te moeten doen.
 
 De spanningsomvormers (buck converters) zetten het voltage van de batterij om in 9V voor de switch en 5V
 voor de Raspberry Pi. Ze zijn via een JST-connector verbonden met de autobatterij, waardoor het niet meer 
@@ -87,9 +87,9 @@ Telraam is in Java geschreven. Minder flashy dan count-von-count in Haskell, maa
 
 ## Emmanuel Count
 
-Emmanuel Count (manual count) is de software waarmee we tijdens de eerste uren van de wedstrijd manueel tellen (door de rugnummers van de lopers in te geven). Eenmaal de automatische telling en de manuele telling lang genoeg overeenkomen, kunnen we overschakelen op de automatische telling. Dit kan vrij makkelijk in Telraam.
+Emmanuel Count (manual count) is de software waarmee we tijdens de eerste uren van de wedstrijd manueel tellen (door de rugnummers van de lopers aan te tikken op een tablet). Eenmaal de automatische telling en de manuele telling lang genoeg overeenkomen, kunnen we overschakelen op de automatische telling. Dit kan vrij makkelijk in Telraam.
 
-De manualcount frontend houdt nu zelf de rondjes bij en synct deze naar de backend, zodat het tellen kan doorgaan, ook al breekt de netwerkverbinding of is de backend down. Het is ook ondersteund om via meerdere toestellen tegelijk te tellen, zodat er een vlotte overgang kan gebeuren bij het wisselen van manualcount-personeel.
+De manualcount frontend houdt nu zelf de rondjes bij en synct deze naar de backend, zodat het tellen kan doorgaan, ook al breekt de netwerkverbinding of is de backend down. Het is mogelijk om via meerdere toestellen tegelijk te tellen, zodat er een vlotte overgang kan gebeuren bij het wisselen van manualcount-personeel.
 
 ![Manualcount screenshot](https://pics.zeus.gent/fwrQ226iCJPAwIayJcC8upjfMtRi3m3c1chP1iMG.jpg)
 
@@ -99,10 +99,10 @@ Loxsi de proxy (vernoemd naar @lox 🧡) is het stuk software die het aantal ron
 
 # Monitoring
 
-We hebben ook veel monitoring geïntroduceerd, dit geven we allemaal weer via een Grafana dashboard. We geven (onder andere) het volgende weer:
+We hebben ook veel monitoring geïntroduceerd, dit geven we allemaal weer via een Grafana dashboard. We tonen onder andere het volgende:
 
 - aantal rondjes per team
-- status van de batons: batterijpercentage en of ze gerestart zijn (dit is wanneer hun uptime gedaald is)
+- status van de batons: batterijpercentage en of ze herstart zijn tijdens het event (dit is wanneer hun uptime gedaald is)
 - status van de stations: zijn ze nog bereikbaar over het netwerk? werkt hun HTTP-server nog? hoe lang geleden is de laatste detectie?
 - status van de software (telraam en manualcount)
 
