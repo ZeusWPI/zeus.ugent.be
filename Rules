@@ -129,10 +129,10 @@ end
 # POSTS
 #
 compile '/blog/*/*.md' do
-  filter :colorize_syntax
   filter :erb
   layout '/blogpost.md'
   filter :kramdown, {math_engine: :katex}
+  filter :colorize_syntax
   filter :typogruby_custom
 
   layout '/blogpost.erb'
