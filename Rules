@@ -129,6 +129,7 @@ end
 # POSTS
 #
 compile '/blog/*/*.md' do
+  filter :colorize_syntax
   filter :erb
   layout '/blogpost.md'
   filter :kramdown, {math_engine: :katex}
@@ -138,7 +139,6 @@ compile '/blog/*/*.md' do
   layout '/generic.*'
   layout '/default.*'
   filter :erb
-  filter :colorize_syntax
 
   filter :html_press if production?
 end
