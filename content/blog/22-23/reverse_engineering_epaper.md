@@ -73,7 +73,7 @@ We previously used the Raspberry Pi Pico to communicate with the board; for the 
 A couple of modifications onto this idea were needed to make the attack more reliable:
 
 - Overclocking the Pi Pico to 250 MHz instead of the default 125 MHz. This doubles the precision in glitch length and duration.
-- The Pi Pico does it's serial over software USB. The interrupts from USB sometimes throw of the timings, so we run the USB stack on core 0, and our code on core 1, with interrupts disabled.
+- The Pi Pico does it's serial over software USB. The interrupts from USB sometimes throw off the timings, so we run the USB stack on core 0, and our code on core 1, with interrupts disabled.
 - We set the drive strenght of the power pin to 12 mA, and the slew rate to 'fast' (instead of the default 'slow'). This makes sure that the internal capacitance of the MOSFET gate charges sufficiently fast, so we have a nice sharp edge on the glitch pin.
 - We power-cycle the board after every glitch attempt, to reset it fully. This is done by connecting the 3.3V supply pin to a GPIO pin of the Pi Pico. The CC2510 microcontroller draws so little power that we don't need a MOSFET for this, we can just directly power the board from that GPIO pin.
 
