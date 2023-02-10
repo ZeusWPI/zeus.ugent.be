@@ -3,7 +3,7 @@ title: "Reverse engineering an e-ink display"
 created_at: 04/02/2023
 description: "We bypass read-out protection on the CC2510"
 author: "Jasper Devreker"
-image: "https://pics.zeus.gent/B84W2IoKSKqUvBO5bq3Hst0J1E8W1EtbJWgSgLsP.jpg"
+image: "https://pics.zeus.gent/B7DnXOCbjpueQutFa9mOr9TJDjUpH7OkHZimxt3U.jpg"
 ---
 
 One of our members managed to score some e-ink displays from eBay. These displays are used in shops, where they indicate the price of the items that can be bought. This has two key advantages over regular paper price tags: the text on the e-ink displays can be updated automatically and it's possible to do fancier graphics. e-ink has an important distinction from the more common LCD screens: they only use power when they change their content. This enables the tags to have a small capacity battery and still operate for several years without battery replacement.
@@ -37,7 +37,7 @@ The pictures of the PCB were transformed and overlaid in GIMP. The front and bac
 
 By reading the datasheet of the CC2510, it became clear that there is a debug interface. This interface can be used to put code on the board, to step through the code when debugging or even to read out the code. The debug interface consists of two signal pins: a host-to-microcontroller clock pin, and a bi-directional data pin. To enable the debug interface, the clock needs to be pulsed twice while the reset pin is held low. This makes for a total of 5 wires that need to be attached to the PCB: debug clock, debug data, reset; and then ground and 3.3V to power the board.
 
-<%= figure 'https://pics.zeus.gent/B84W2IoKSKqUvBO5bq3Hst0J1E8W1EtbJWgSgLsP.jpg', 'PCB mounted on 3D-printed holder, debug pins attached to Pi Pico. The battery is in the background, disconnected' %>
+<%= figure 'https://pics.zeus.gent/B7DnXOCbjpueQutFa9mOr9TJDjUpH7OkHZimxt3U.jpg', 'PCB mounted on 3D-printed holder, debug pins attached to Pi Pico. The battery is in the background, disconnected' %>
 
 The CC2510 microcontroller contains an 8051 processor core. 8051 is a rather old 8-bit instruction set, originally made by Intel, but it is used in a lot of embedded products. The debug interface is quite ingenious in how it implements most features: instead of individually imlementing write, read, verify and other features, it has the `DEBUG_INSTR` instruction. This debug instruction takes one to three bytes of arguments, and executes these as an 8051 instruction. After that, it sends the value of the accumulator (ACC/A) register back over the debug interface. Reading out the memory then is a loop of setting an address we want to read out and moving the value at that address into the ACC register.
 
