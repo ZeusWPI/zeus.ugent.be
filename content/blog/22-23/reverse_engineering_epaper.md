@@ -132,6 +132,8 @@ This feels like a cheap cop-out where they say that basically every device is vu
 
 At the time of writing this blog post, 30.19% of the 32K flash memory of the e-ink tag has been read out. This memory was then loaded into Ghidra (a reverse engineering framework), where we confirmed that the dumped code is valid and sensible 8051 code. A next blog post will (hopefully) contain details about the reverse engineered protocol and how to talk with the e-ink tags. All exploit code is available in [this repository](https://github.com/ZeusWPI/pico-glitcher).
 
+**Edit**: reading out the entire memory took 6 days, so about 16 seconds per bytes, or 0.063 bytes per second. I think this might be the slowest bandwidth I've ever encountered.
+
 Thanks [pcy](https://icosahedron.website/@pcy) for answering my many questions and concerns about voltage glitching attacks.
 
 If you have questions, comments or some things are not clear, feel free to email me (j AT zeus DOT ugent . be)
