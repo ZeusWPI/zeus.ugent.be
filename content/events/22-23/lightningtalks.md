@@ -6,7 +6,8 @@ time: '30-03-2023 18:00'
 end: '30-03-2023 22:00'
 location: 'Campus Sterre, Gebouw S9, Auditorium A3'
 locationlink: $s9
-banner: ''
+banner: https://pics.zeus.gent/f8cn9czOrYUsPwZAxiUHr63gDF3f8fHBZaBJzqK2.jpg
+image: https://pics.zeus.gent/_zwUbo1w.png
 header_text_background: true
 ---
 
