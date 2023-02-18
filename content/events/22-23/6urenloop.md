@@ -4,7 +4,8 @@ description: 'Zeus gaat rondjes tellen in Brugge'
 created_at: 16-02-2023
 time: '08-03-2023 18:00'
 end: '08-03-2023 23:59'
-banner: ''
+banner: 'https://pics.zeus.gent/fTmMepDFvczRAvHVU9RGkrLHzUay493Sv1vMsoTe.jpg'
+image: 'https://pics.zeus.gent/6PxsENSVb88Awsbh9BBsGK29jAHLVukeabOPUIpd.png'
 header_text_background: true
 location: 't Zand Brugge'
 ---

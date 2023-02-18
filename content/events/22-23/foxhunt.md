@@ -4,7 +4,7 @@ description: 'Volg het signaal en vind alle stations'
 created_at: 15-02-2023
 time: '09-05-2023 18:00'
 end: '09-05-2023 22:00'
-banner: ''
+image: 'https://pics.zeus.gent/oZHHKPqurOeqzG5hunx6AQ5Qu2aMiyAsSZFGKX98.jpg'
 header_text_background: true
 location: 'Campus Sterre'
 locationlink: $s9

@@ -4,11 +4,11 @@ description: 'Zeus gaat rondjes tellen op het Sint-Pietersplein'
 created_at: 16-02-2023
 time: '26-04-2023 09:00'
 end: '26-04-2023 21:00'
-banner: ''
+banner: 'https://zeus.ugent.be/zeuswpi/12urenloop-banner.jpg'
 header_text_background: true
 location: Sint-Pietersplein
 locationlink: Sint-Pietersplein, Ghent
-image: //zeus.ugent.be/zeuswpi/6eVnYRmi.jpg
+image: https://zeus.ugent.be/zeuswpi/6eVnYRmi.jpg
 ---
 
 # Zeus @ 12urenloop
