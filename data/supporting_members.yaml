@@ -464,8 +464,7 @@ data:
     - name: Wout Schellaert
       nickname: stro
       photo: https://zeus.ugent.be/zeuswpi/1gMbZvu6.jpg
-      quote: |-
-        "
+      quote: \"
       description: Blues, Rust, en liefde
       links:
         - icon: twitter
@@ -526,3 +525,157 @@ data:
         - url: http://werthen.com/
         - icon: linkedin
           url: https://www.linkedin.com/in/werthen/
+  2023:
+    - name: Charlotte Van Petegem
+      nickname: chvp
+      photo: https://zeus.ugent.be/zeuswpi/chvp.jpg
+      quote: TRANS RIGHTS
+      description: Dodona-mens
+      links:
+        - icon: github
+          url: https://github.com/chvp
+        - icon: mastodon
+          url: https://social.chvp.be/@chvp
+        - url: https://www.chvp.be/
+    - name: Kenneth Van den Driessche
+      nickname: tleilaxu
+      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
+      quote: TODO
+      description: Komt wel nog
+      links: []
+    - name: Robbert Gurdeep Singh
+      nickname: beardhatcode
+      photo: https://zeus.ugent.be/zeuswpi/beardhatcode.png
+      quote: De deadline voor het project is om 13:37:42
+      description: Dansen, Data die open is, Dependent type systems
+      links:
+        - icon: github
+          url: https://github.com/beardhatcode
+        - icon: map
+          url: https://www.openstreetmap.org/user/beardhatcode
+        - url: https://beardhatcode.be
+    - name: Titouan Vervack
+      nickname: FlashYoshi
+      photo: https://zeus.ugent.be/zeuswpi/0U6neVQP.jpg
+      quote: Ansible is af!
+      description: |-
+        Puns, weeb, Sigasi, klimt, taart.
+        Houdt écht van Java.
+        Gebruikt tabs én spaces.
+      links:
+        - icon: twitter
+          url: https://twitter.com/tivervac
+        - icon: github
+          url: https://github.com/tivervac
+        - icon: gitlab
+          url: https://gitlab.com/FlashYoshi
+    - name: Stijn Seghers
+      nickname: Procrat
+      photo: https://pics.zeus.gent/DGweQdrabjI1kqu7QuGNITpN0TJtdhjwTVSQbruZ.jpg
+      description: Rust. Anti-kapitalisme. Een van die vreemde mensen die ananas op pizza lekker vindt.
+      links:
+        - icon: github
+          url: https://github.com/Procrat
+        - icon: linkedin
+          url: https://www.linkedin.com/in/stijn-seghers/
+    - name: Nicky Vandeghinste
+      nickname: nickyname
+      photo: https://zeus.ugent.be/zeuswpi/OVMcPb3O.jpg
+      quote: <nickyname> Weet je, als je tetten hebt, is elke talk eigenlijk een TET-talk
+      description: Durft dingen doen, houdt van ice teas en jullie. Ik snap de obsessie van Zeus met tiramisu niet.
+      links:
+        - icon: twitter
+          url: https://twitter.com/NickyVdg
+    - name: Wout Schellaert
+      nickname: stro
+      photo: https://zeus.ugent.be/zeuswpi/1gMbZvu6.jpg
+      quote: \"
+      description: Blues, Rust, en liefde
+      links:
+        - icon: twitter
+          url: https://twitter.com/WoutSchellaert
+        - icon: github
+          url: https://github.com/wschella/
+        - icon: linkedin
+          url: https://www.linkedin.com/in/woutschellaert/
+        - url: http://schellaert.org/
+    - name: Francis Begyn
+      nickname: thecy
+      photo: https://zeus.ugent.be/zeuswpi/Xl5-9fld.jpg
+      quote: Ik wil eigenlijk nog gaan feesten, maar flask migrations zijn fucked
+      description: Ik breek dingen die werken en fix dingen die gebroken zijn.
+      links:
+        - icon: facebook
+          url: https://www.facebook.com/begynfrancis
+        - icon: twitter
+          url: https://twitter.com/fbegyn
+        - icon: linkedin
+          url: https://www.linkedin.com/in/fbegyn/
+        - url: https://francis.begyn.be
+    - name: Felix Van der Jeugt
+      nickname: noctua
+      photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
+      quote: |-
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> Sorry guys
+        <noctua> dwergen
+        <noctua> dwergen
+      description: Komt geen Ice Tea's meer halen in de kelder :(
+      links:
+        - icon: github
+          url: https://www.github.com/ninewise
+        - url: https://users.ugent.be/~fvdrjeug/
+    - name: Rien Maertens
+      nickname: met stokjes
+      photo: https://zeus.ugent.be/zeuswpi/udVo8mPM.jpg
+      quote: Fruit op een pizza is als windows op een laptop.
+      description: Middengewicht typeworstelaar, digitaal ongedierteverdelger,
+        zedenkundig computerkraker en frequent jakkenscheerder.
+      links:
+        - icon: github
+          url: https://github.com/rien
+        - icon: mastodon
+          url: https://toot.rxn.be/@rien
+        - url: https://rien.maertens.io
+    - name: Pieter Vander Vennet
+      nickname: pietervdvn
+      photo: https://zeus.ugent.be/zeuswpi/O_nr6ggA.jpg
+      quote: Is dat al gemapped?
+      description: Na de master Wiskundige informatica af te werken waarbij hij enkele jaren in het Zeus-bestuur heeft gezeten, komt hij nu nog graag eens langs om te kelderen of om het over open kaarten en routeplanning te hebben. Daarnaast is hij ook fan van een overdosis hackerspace en lichtjes, waarvoor hij ieder jaar naar Leipzig afzakt en Zeus-mensjes meeneemt daarnaartoe.
+      links:
+        - icon: map
+          url: https://osm.org/user/Pieter%20Vander%20Vennet
+        - icon: github
+          url: https://github.com/pietervdvn
+        - icon: twitter
+          url: https://twitter.com/pietervdvn
+    - name: Bart Coppens
+      nickname: bcoppens
+      photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
+      quote: |-
+        <WVDSCHEL> I AM BACK
+        <WVDSCHEL> ma nie tegen bcoppens zeggen, anders moet ik verderwerken
+      description: Houdt van security, assembly, en flitsende ASCII spiralen.
+      links:
+        - icon: twitter
+          url: https://twitter.com/bartcopp
+        - url: https://bartcoppens.be
+    - name: Michiel Van den Berghe
+      nickname: michilus
+      photo: https://zeus.ugent.be/zeuswpi/CznJ6WTT.jpg
+      quote: Ik zorg voor de camembert
+      description: Pythonista, space geek, zeppelinbouwer, Albertkanaalfanaat en oude zak met een e-paperfetish. Steekt geregeld elektronica in brand.
+      links:
+        - icon: github
+          url: https://github.com/mivdnber
+    - name: Tom Naessens
+      nickname: Silox
+      photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
+      quote: Raad mij keer een quote aan guys, eentje waarin ik mezelf niet belachelijk maak.
+      description: To be continued.
+      links:
+        - icon: github
+          url: https://github.com/Silox
