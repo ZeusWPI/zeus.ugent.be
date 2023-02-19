@@ -1,5 +1,5 @@
 ---
-title: 'Zeus @ 12urenloop'
+title: 'Zeus @12urenloop'
 description: 'Zeus gaat rondjes tellen op het Sint-Pietersplein'
 created_at: 16-02-2023
 time: '26-04-2023 09:00'

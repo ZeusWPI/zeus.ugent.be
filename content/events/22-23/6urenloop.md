@@ -1,5 +1,5 @@
 ---
-title: 'Zeus @ 6urenloop'
+title: 'Zeus @6urenloop'
 description: 'Zeus gaat rondjes tellen in Brugge'
 created_at: 16-02-2023
 time: '08-03-2023 18:00'
