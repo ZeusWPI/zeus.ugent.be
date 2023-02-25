@@ -586,6 +586,20 @@ data:
       links:
         - icon: twitter
           url: https://twitter.com/NickyVdg
+    - name: Niels De Graef
+      nickname: nielsdg
+      photo: https://pics.zeus.gent/uCNrzMHtrSUH9IHKsLY02gQcbJUJW9oR4GrymhZZ.png
+      quote: 😁
+      description: Doet zo van die gekke dingen in zijn vrije tijd, zoals contributen bij GNOME of mappen op OpenStreetMap
+      links:
+        - icon: github
+          url: https://github.com/nielsdg
+        - icon: gitlab
+          url: https://gitlab.gnome.org/nielsdg
+        - icon: mastodon
+          url: https://mastodon.social/@nielsdg
+        - icon: twitter
+          url: https://twitter.com/NielsDeGraef
     - name: Wout Schellaert
       nickname: stro
       photo: https://zeus.ugent.be/zeuswpi/1gMbZvu6.jpg
