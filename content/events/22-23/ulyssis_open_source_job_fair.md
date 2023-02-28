@@ -4,7 +4,7 @@ description: Zeus bezoekt de Open Source Job Fair van onze Leuvense collega's!
 created_at: 13-02-2023
 time: '22-03-2023 16:00'
 end: '22-03-2023 21:00'
-banner: 'https://zeus.ugent.be/zeuswpi/ulyssis_osjf2022.png'
+banner: 'https://pics.zeus.gent/5cf66AUversgMwDMKvPJAI89DvZr6myKWjay7avv.png'
 location: 'Jubileumzaal KU Leuven'
 locationlink: 'Naamsestraat 22, 3000 Leuven'
 header_text_background: true
