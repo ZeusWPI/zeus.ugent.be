@@ -664,8 +664,8 @@ data:
           url: https://osm.org/user/Pieter%20Vander%20Vennet
         - icon: github
           url: https://github.com/pietervdvn
-        - icon: twitter
-          url: https://twitter.com/pietervdvn
+        - icon: mastodon
+          url: https://en.osm.town/@pietervdvn
     - name: Bart Coppens
       nickname: bcoppens
       photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
