@@ -1,6 +1,6 @@
 ---
 title: 'nix.party'
-description: Celebriting Nix's birthday
+description: Celebrating Nix's birthday
 created_at: 03-03-2023
 time: '10-03-2023 18:00'
 end: '10-03-2023 22:00'
