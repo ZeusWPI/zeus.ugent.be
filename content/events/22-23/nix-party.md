@@ -6,7 +6,7 @@ time: '10-03-2023 18:00'
 end: '10-03-2023 22:00'
 location: 'De Kelder'
 locationlink: $kelder
-banner: 
+banner: https://pics.zeus.gent/rHok3SJmfkInn44wYYVIqZM2gnTyiSWAE0WSgv7Y.png
 image: 
 header_text_background: true
 ---
