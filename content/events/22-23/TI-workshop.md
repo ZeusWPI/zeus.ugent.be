@@ -2,8 +2,8 @@
 title: 'TI-84 workshop'
 description: Leer programmeren op jouw rekenmachine!
 created_at: 13-02-2023
-time: '15-03-2023 18:00'
-end: '15-03-2023 22:00'
+time: '13-03-2023 18:00'
+end: '13-03-2023 22:00'
 location: 'De Kelder'
 locationlink: $kelder
 banner: 'https://pics.zeus.gent/O7YiOx1ntJHW9oWcHmTPvbkc29gkd9mR77MpmV1B.png'
