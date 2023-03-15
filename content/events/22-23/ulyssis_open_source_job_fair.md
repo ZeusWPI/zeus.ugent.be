@@ -16,4 +16,4 @@ Zeus gaat op verkenning uit bij onze Leuvense vrienden.
 Verschillende bedrijven met stuk voor stuk een passie voor FOSS zijn op zoek naar versgeperste IT-ers voor alles van studentenjobs tot full-time posities.
 Meer info kan je vinden op <https://opensourcejobfair.be/>
 
-Kom mee een kijkje nemen en wie weet vind je wel de job van je dromen! We **verzamelen om 17:30 op Gent-Sint-Pieters perron 12** en vertrekken dan samen met de trein naar Leuven, ULYSSIS betaalt de treintickets van en naar terug. **Inschrijving is verplicht ten laatste tegen 21 maart, via [Gandalf](https://event.student.ugent.be/events/373).**
+Kom mee een kijkje nemen en wie weet vind je wel de job van je dromen! We **verzamelen om 17:30 op Gent-Sint-Pieters perron 12** en vertrekken dan samen met de trein naar Leuven. **De trein is gratis, inschrijving is verplicht ten laatste tegen 21 maart, via [Gandalf](https://event.student.ugent.be/events/373).**
