@@ -2,8 +2,8 @@
 title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
 created_at: 15-02-2023
-time: '11-05-2023 17:30'
-end: '11-05-2023 20:30'
+time: '09-05-2023 17:30'
+end: '09-05-2023 20:30'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: $voortuin
 banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
@@ -18,7 +18,7 @@ traditiegetrouw eten in Patrick Foleys.
 
 ## Waar en wanneer?
 
-Dit jaar zullen de verkiezingen doorgaan op **11 mei 2023** in de studententuin. We starten om **17:30**.
+Dit jaar zullen de verkiezingen doorgaan op **9 mei 2023** in de studententuin. We starten om **17:30**.
 
 ## Kandidaten
 
