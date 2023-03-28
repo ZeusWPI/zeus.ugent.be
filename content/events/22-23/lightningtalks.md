@@ -11,7 +11,7 @@ image: https://pics.zeus.gent/_zwUbo1w.png
 header_text_background: true
 ---
 
-<img src="https://pics.zeus.gent/IcB3MBc252WXEph838vrTw1UT0QFwqX2YEA248Gk.png" style="max-width:600px;width:100%;margin:auto;display:block" />
+<img src="https://pics.zeus.gent/IcB3MBc252WXEph838vrTw1UT0QFwqX2YEA248Gk.png" style="max-width:1200px;margin:auto;display:block" />
 (Uurschema nog in opmaak)
 
 Ben je op zoek naar een inspirerende en informatieve ervaring? Dan is de lightning talks van Zeus iets voor jou! Tijdens
