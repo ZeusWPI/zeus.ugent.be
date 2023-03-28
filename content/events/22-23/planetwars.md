@@ -1,8 +1,8 @@
 ---
 title: "PlanetWars Codenight"
 created_at: 15-02-2023 
-time: '04-05-2023 18:00' 
-end: '04-05-2023 22:00' 
+time: '20-04-2023 18:00'
+end: '20-04-2023 22:00'
 description: Maak kennis met onze eigen PlanetWars
 banner: "https://zeus.ugent.be/zeuswpi/kuDGG1-5.png"
 header_text_background: true
