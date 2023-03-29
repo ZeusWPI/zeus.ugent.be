@@ -11,19 +11,26 @@ image: https://pics.zeus.gent/_zwUbo1w.png
 header_text_background: true
 ---
 
-<img src="https://pics.zeus.gent/IcB3MBc252WXEph838vrTw1UT0QFwqX2YEA248Gk.png" style="max-width:1200px;margin:auto;display:block" />
-(Uurschema nog in opmaak)
+<img src="https://pics.zeus.gent/8hLw4Tusu8RFFEHwcRvp3PMj5NP0I0CFrgMcSciu.png" style="max-width:1200px;margin:auto;display:block" />
+
+| Timeslot    | Talk            | Onderwerp (kort)                          |
+| ----------- | --------------- | ----------------------------------------- |
+| 18u10-18u30 | Rien            | Talktechnieken                            |
+| 18u40-19u00 | Charlotte       | NixOS mailserver in 15 minuten            |
+| 19u00-20u00 | **ETEN**, Klaas | :chopsticks:ԅ( ͒ ۝ ͒ )                     |
+| 20u00-20u20 | Michiel         | Testing embedded hardware                 |
+| 20u30-20u50 | Pcy (online)    | EYEWTK about Linkers                      |
+| 21u00-21u20 | Foxie           | Vliegend draakje uit papier :dragon_face: |
+| 21u30-21u50 | Niels           | Composition on Linux: X11 and Wayland     |
+| 22u00-22u20 | Francis B.      | How to route traffic for LAN parties      |
 
 Ben je op zoek naar een inspirerende en informatieve ervaring? Dan is de lightning talks van Zeus iets voor jou! Tijdens
 deze unieke gelegenheid krijg je de kans om naar verschillende korte talks te luisteren, gegeven door een scala aan
 sprekers met verschillende achtergronden en expertises.
 
-Elke spreker kiest een onderwerp dat ze graag willen delen met het publiek, en geeft hun talk meerdere keren aan een klein groepje geïnteresseerden zodat je
-zelf kunt kiezen wanneer je naar welke talk wilt luisteren. Deze talks zijn een perfecte manier om nieuwe ideeën op te
+Elke spreker kiest een onderwerp dat ze graag willen delen met het publiek, deze talks zijn een perfecte manier om nieuwe ideeën op te
 doen, jezelf te verrijken met kennis en inspiratie op te doen.
 
-Met een kleine groep deelnemers kun je vragen stellen, deel uitmaken van het gesprek en dieper ingaan op de onderwerpen
-die aangesneden worden. Dit is een unieke kans om op een meer persoonlijke manier in contact te komen met de sprekers en
-om jezelf te verdiepen in de onderwerpen die jij interessant vindt.
+Elke talk heeft een geplande duur van 20 minuten, gevolgd door een korte pauze van 10 minuten wat de spreker enige flexibiliteit geeft en ook de mogelijkheid tot vragen biedt, of om even gezellig een drankje te nuttigen of te netwerken met andere informatici. 
 
 Mis deze kans niet om deel uit te maken van een intieme en inspirerende ervaring tijdens de lightning talks van Zeus!
