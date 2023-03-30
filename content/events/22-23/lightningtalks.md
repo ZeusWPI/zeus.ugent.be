@@ -11,7 +11,10 @@ image: https://pics.zeus.gent/_zwUbo1w.png
 header_text_background: true
 ---
 
-<img src="https://pics.zeus.gent/8hLw4Tusu8RFFEHwcRvp3PMj5NP0I0CFrgMcSciu.png" style="max-width:1200px;margin:auto;display:block" />
+<img src="https://pics.zeus.gent/8hLw4Tusu8RFFEHwcRvp3PMj5NP0I0CFrgMcSciu.png" style="margin:auto;display:block" />
+
+Hier vindt je het schema. **We starten strikt op 18u10, de [haldis](https://haldis.zeus.gent/order/wjfdsssv) om samen chinees te eten sluit om 18u25!**
+
 
 | Timeslot    | Talk            | Onderwerp                                                                          |
 | ----------- | --------------- | ---------------------------------------------------------------------------------- |
@@ -36,5 +39,7 @@ Elke talk heeft een geplande duur van 20 minuten, gevolgd door een korte pauze v
 Mis deze kans niet om deel uit te maken van een intieme en inspirerende ervaring tijdens de lightning talks van Zeus!
 
 Nuttige info:
+
 - Kom tegen 18u naar A3, we starten stipt om 18u10!
-- We zullen samen Chinees bestellen en opeten na de tweede talk om 19u00 tot 20u00. Houd ~voedsels in Mattermost in de gaten voor een Haldis link om eten te bestellen.
+
+- We zullen samen [Chinees bestellen](https://haldis.zeus.gent/order/wjfdsssv) en opeten na de tweede talk om 19u00 tot 20u00. Geef jouw bestelling door vóór 18u25 via [Haldis](https://haldis.zeus.gent/order/wjfdsssv)!
