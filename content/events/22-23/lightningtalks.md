@@ -11,15 +11,15 @@ image: https://pics.zeus.gent/_zwUbo1w.png
 header_text_background: true
 ---
 
-<img src="https://pics.zeus.gent/8hLw4Tusu8RFFEHwcRvp3PMj5NP0I0CFrgMcSciu.png" style="margin:auto;display:block" />
+<img src="https://pics.zeus.gent/V9Wy26mtqai50OwbVKLvUBz4vED268eoELdjJYy8.png" style="margin:auto;display:block" />
 
-Hier vindt je het schema. **We starten strikt op 18u10, de [haldis](https://haldis.zeus.gent/order/wjfdsssv) om samen chinees te eten sluit om 18u25!**
+Hier vindt je het schema. **We starten strikt om 18u10, de [haldis](https://haldis.zeus.gent/order/wjfdsssv) om samen chinees te eten sluit om 18u25!**
 
 
 | Timeslot    | Talk            | Onderwerp                                                                          |
 | ----------- | --------------- | ---------------------------------------------------------------------------------- |
 | 18u10-18u30 | Rien            | Technieken uit de woord-, theater- en improvisatiekunst om betere technische talks |
-| 18u40-19u00 | Charlotte       | Zet een mailserver op met NixOS in 15 minuten                                      |
+| 18u40-19u00 | Sammy           | Een eenmanszaak beginnen, onderhouden en overleven                                 |
 | 19u00-20u00 | **ETEN**, Klaas | 🥢ԅ( ͒ ۝ ͒ )                                                                         |
 | 20u00-20u20 | Michiel         | Testing embedded hardware the hard way                                             |
 | 20u30-20u50 | Pcy (online)    | Everything you ever wanted to know about linkers                                   |
