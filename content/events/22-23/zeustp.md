@@ -36,7 +36,7 @@ Welkom bij de geheime hackerbijeenkomst. Hier gelden andere regels dan in de bui
 
 Een lichte basis van programmeren en kennis van sockets zal je helpen vlot van start te komen.
 
-Ten tweede is een Ethernet-verbinding een absolute must. Zorg ervoor dat je een laptop met een Ethernet-poort of een dongle meeneemt, anders kun je niet deelnemen aan de belangrijke missies die we hier ondernemen. We hebben een heel beperkte voorraad aan dongles voor de mensen zonder voorzieningen.
+Ten tweede is een Ethernet-verbinding een absolute must. Heb je geen ethernet poort, maar een ethernet dongle, neem die mee, anders kun je niet deelnemen aan de belangrijke missies die we hier ondernemen. Zeus heeft ook enkele ethernet dongles voor de mensen zonder voorzieningen.
 
 Place to be is de Kelder aan S9. Zie onderstaand kaartje.
 
