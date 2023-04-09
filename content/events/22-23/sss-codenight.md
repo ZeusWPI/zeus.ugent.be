@@ -4,7 +4,7 @@ description: 'We zullen het Student Street Soccer event van VEK voor eens en voo
 created_at: 09-04-2023
 time: '13-04-2023 18:00'
 end: '13-04-2023 23:00'
-banner: 'https://www.vek.be/Repository/Banners/30821626_10156112071061578_5626440695210500556_o-cut-2042-733-0-431.jpg'
+banner: 'https://pics.zeus.gent/R1vArdGr174blVDUPnJg0bgQosAV0Qyj5BR9gXHB.jpg'
 header_text_background: true
 location: 'De Kelder'
 locationlink: $kelder
