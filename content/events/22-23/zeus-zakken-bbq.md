@@ -1,6 +1,6 @@
 ---
 title: 'Zeus Zakken BBQ'
-description: 'De Zeus-alumni organiseert een BBQ voor alle Zeusers jong en oud!'
+description: 'De Zeus-alumni organiseren een BBQ voor alle Zeusers jong en oud!'
 created_at: 09-04-2023
 time: '16-04-2023 14:00'
 end: '16-04-2023 23:59'
@@ -9,7 +9,7 @@ header_text_background: true
 location: 'Maaltebruggekasteel, Kortrijksesteenweg 1023'
 ---
 
-De Zeus-alumni organiseert een BBQ voor alle Zeusers jong en oud!
+De Zeus-alumni organiseren een BBQ voor alle Zeusers jong en oud!
 
 Waar en wanneer: 16 april 2023, Maaltebruggekasteel, Kortrijksesteenweg 1023. 
 
