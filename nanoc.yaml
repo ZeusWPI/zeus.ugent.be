@@ -89,31 +89,14 @@ data_sources:
     type: katex
     items_root: /assets/stylesheets
 
-# Configuration for the “check” command, which run unit tests on the site.
-checks:
-  # Configuration for the “internal_links” checker, which checks whether all
-  # internal links are valid.
-  internal_links:
-    # A list of patterns, specified as regular expressions, to exclude from the check.
-    # If an internal link matches this pattern, the validity check will be skipped.
-    # E.g.:
-    #   exclude: ['^/server_status']
-    exclude: []
-
-  # Configuration for the “external_links” checker, which checks whether all
-  # external links are valid.
-  external_links:
-    # A list of patterns, specified as regular expressions, to exclude from the check.
-    # If an external link matches this pattern, the validity check will be skipped.
-    # E.g.:
-    #   exclude: ['^http://example.com$']
-    exclude: []
-
-    # A list of file patterns, specified as regular expressions, to exclude from the check.
-    # If a file matches this pattern, the links from this file will not be checked.
-    # E.g.:
-    #   exclude_files: ['blog/page']
-    exclude_files: []
+checking:
+  enabled_checks:
+    - internal_links
+    - mixed_content
+    - stale
+    - no_hotlinking
+    # External links is disabled because this makes an HTTP request for every external link we have
+    # - external_links
 
 deploy:
   public:
