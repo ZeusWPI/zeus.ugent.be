@@ -709,3 +709,11 @@ data:
         - icon: twitter
           url: https://twitter.com/bartcopp
         - url: https://bartcoppens.be
+    - name: Michiel Van den Berghe
+      nickname: michilus
+      photo: https://zeus.ugent.be/zeuswpi/CznJ6WTT.jpg
+      quote: Ik zorg voor de camembert
+      description: Pythonista, space geek, zeppelinbouwer, Albertkanaalfanaat en oude zak met een e-paperfetish. Steekt geregeld elektronica in brand.
+      links:
+        - icon: github
+          url: https://github.com/mivdnber
