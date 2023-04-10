@@ -675,25 +675,6 @@ data:
         - url: https://robbevanherck.be
         - icon: github
           url: https://github.com/Robbe7730
-    - name: Bart Coppens
-      nickname: bcoppens
-      photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
-      quote: |-
-        <WVDSCHEL> I AM BACK
-        <WVDSCHEL> ma nie tegen bcoppens zeggen, anders moet ik verderwerken
-      description: Houdt van security, assembly, en flitsende ASCII spiralen.
-      links:
-        - icon: twitter
-          url: https://twitter.com/bartcopp
-        - url: https://bartcoppens.be
-    - name: Michiel Van den Berghe
-      nickname: michilus
-      photo: https://zeus.ugent.be/zeuswpi/CznJ6WTT.jpg
-      quote: Ik zorg voor de camembert
-      description: Pythonista, space geek, zeppelinbouwer, Albertkanaalfanaat en oude zak met een e-paperfetish. Steekt geregeld elektronica in brand.
-      links:
-        - icon: github
-          url: https://github.com/mivdnber
     - name: Tom Naessens
       nickname: Silox
       photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
