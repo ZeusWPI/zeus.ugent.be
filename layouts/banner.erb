@@ -67,7 +67,7 @@
             </p>
             <ul class="fa-ul is-4-responsive">
               <li>
-                <%= fa 'clock-o', li: true %>
+                <%= fa 'clock', li: true %>
                 <span property="startDate" content="<%=item[:time]%>"> <%= item[:time].strftime '%A %d %B %Y %H:%M' %></span>
                 <% if item[:end] %>
                     <span>
@@ -84,7 +84,7 @@
                   </span>
                 <% end %>
               </li>
-              <li><%= fa 'map-marker', li: true %><span property="location"><%= item[:location] %></span></li>
+              <li><%= fa 'location-dot', li: true %><span property="location"><%= item[:location] %></span></li>
             </ul>
           </div>
         </div>
