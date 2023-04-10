@@ -572,6 +572,7 @@ data:
     - name: Stijn Seghers
       nickname: Procrat
       photo: https://pics.zeus.gent/DGweQdrabjI1kqu7QuGNITpN0TJtdhjwTVSQbruZ.jpg
+      quote: ""
       description: Rust. Anti-kapitalisme. Een van die vreemde mensen die ananas op pizza lekker vindt.
       links:
         - icon: github
