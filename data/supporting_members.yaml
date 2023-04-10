@@ -696,3 +696,16 @@ data:
           url: https://github.com/feliciaan
         - icon: linkedin
           url: https://linkedin.com/in/feliciaan
+    - name: Bart Coppens
+      nickname: bcoppens
+      photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
+      quote: |-
+        <WVDSCHEL> I AM BACK
+        <WVDSCHEL> ma nie tegen bcoppens zeggen, anders moet ik verderwerken
+      description: Houdt van security, assembly, besturingssystemen, en flitsende ASCII spiralen.
+      links:
+        - icon: mastodon
+          url: https://mastodon.social/@bartcopp
+        - icon: twitter
+          url: https://twitter.com/bartcopp
+        - url: https://bartcoppens.be
