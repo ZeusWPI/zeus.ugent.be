@@ -666,6 +666,15 @@ data:
           url: https://github.com/pietervdvn
         - icon: mastodon
           url: https://en.osm.town/@pietervdvn
+    - name: Robbe Van Herck
+      nickname: Kobbe
+      photo: https://pics.zeus.gent/7MVHuHDXp6xdDdpT4hCaPuVdMWtOEV5Y4oU2QrLV.png
+      quote: Wat is de overtreffende trap van piemels?
+      description: Kobbe is de vriendelijkste krullenbol met spinachtige intenties om samen Vrolijk te weven aan het web van semantische interpretatie en hij zorgt liefkozend voor de voortzetting van kritische zinnen die eeuwig blijven verrassen; Hierboven staat nogmaals een voorbeeld van een meesterwerk gecreëerd door massieve online samenwerking.
+      links:
+        - url: https://robbevanherck.be
+        - icon: github
+          url: https://github.com/Robbe7730
     - name: Bart Coppens
       nickname: bcoppens
       photo: https://zeus.ugent.be/zeuswpi/lmKTWGfn.jpg
@@ -693,3 +702,15 @@ data:
       links:
         - icon: github
           url: https://github.com/Silox
+    - name: Feliciaan De Palmenaer
+      nickname: feliciaan
+      photo: https://zeus.ugent.be/zeuswpi/MgrXVj97.jpg
+      quote: <feliciaan> en dat is dan de het
+      description: Gebruikt computers om economische magie te creëren
+      links:
+        - icon: twitter
+          url: https://twitter.com/feliciaan
+        - icon: github
+          url: https://github.com/feliciaan
+        - icon: linkedin
+          url: https://linkedin.com/in/feliciaan
