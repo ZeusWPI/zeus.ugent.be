@@ -44,8 +44,7 @@ exception_counter = {
   "http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2012/03/board-games.jpg" => 3,
   "//www.johndcook.com/wordvslatex.gif" => 2,
   "https://www.vlaamseprogrammeerwedstrijd.be/current/images/VPW2018grootP.png" => 6,
-  "https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg" => 6,
-  "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg" => 7  
+  "https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg" => 6
 }
 
 exception_counter.default = 0
