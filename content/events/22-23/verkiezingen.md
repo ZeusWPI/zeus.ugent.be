@@ -6,7 +6,7 @@ time: '09-05-2023 17:30'
 end: '09-05-2023 20:30'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: $voortuin
-banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
+banner: "https://pics.zeus.gent/lTeUqmSPl8rlmu58LxeGBijLvf9kbg17K3YtrBQ6.jpg"
 header_text_background: true
 tags:
   - Verkiezingen
