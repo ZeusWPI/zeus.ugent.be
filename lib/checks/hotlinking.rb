@@ -12,6 +12,7 @@ allowed_domains = Set["zeus.ugent.be", "pics.zeus.gent", "zinc.zeus.gent", "hydr
 #  - We would be consuming other people's resources
 # Instead, you can upload images to the Zeus CDN, pics.zeus.gent
 exception_counter = {
+  "https://www.fosdem.org/promo/fosdem/static" => 1,
   "https://www.ubuntu.com/files/countdown/910/countdown-9.10-2/00.png" => 1,
   "https://jaspervdj.be/images/2011-05-09-12-urenloop.jpg" => 1,
   "https://jaspervdj.be/images/2011-05-09-gyrid-node.jpg" => 1,
@@ -36,11 +37,15 @@ exception_counter = {
   "https://fosdem.org/2014/support/promote/tower.png" => 1,
   "https://scontent-a.xx.fbcdn.net/hphotos-frc3/t1/1656245_634301396628862_879654368_n.png" => 3,
   "https://ulyssis.org/wp-content/uploads/2015/03/ULYSSIS-Jobbeurs-poster-finaal.png" => 3,
+  "http://www.foneo-datacenter.eu/images/banner_ownership_eyecatcher.jpg" => 3,
   "//fosdem.org/2017/assets/style/logo-gear-7204a6874eb0128932db10ff4030910401ac06f4e907f8b4a40da24ba592b252.png" => 6,
+  "https://fosdem.org/2017/assets/style/fosdem-home-visual-e16e61f851e13e834abcc31fddc09ddbc7a63a5b29147ae506e9c954e0173089.jpg" => 6,
+  "https://hashcode.withgoogle.com/resources/images/hero_2.jpg" => 16,
+  "http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2012/03/board-games.jpg" => 3,
   "//www.johndcook.com/wordvslatex.gif" => 2,
   "https://www.vlaamseprogrammeerwedstrijd.be/current/images/VPW2018grootP.png" => 6,
-  "https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg" => 3,
-  "https://www.fosdem.org/promo/fosdem/static" => 1
+  "https://preppykitchen.com/wp-content/uploads/2019/08/panncake-feature-n-768x1088.jpg" => 6,
+  "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg" => 7  
 }
 
 exception_counter.default = 0
@@ -49,18 +54,30 @@ Nanoc::Check.define(:no_hotlinking) do
     @output_filenames.each do |filename|
       if filename =~ /html$/
         doc = Nokogiri::HTML.parse(File.read(filename))
+        links = []
+        # Find URLs in source attribute of img tags
         doc.css('img').each do |link|
-            link_src = link.attr('src')
-            uri =  URI(link_src)
-            unless uri.host.nil?
-              unless allowed_domains.include?(uri.host.downcase)
-                if exception_counter[link_src] > 0
-                  exception_counter[link_src] -= 1
-                else
-                  add_issue("Don't hotlink to external site #{link_src}, instead use the Zeus CDN https://pics.zeus.gent to upload your images", subject: filename)
-                end
+            links << link.attr('src')
+        end
+        # Find URLs in style attributes (inline CSS)
+        doc.css('[style]').each do |elem|
+          link_src = elem['style'][/url\((.+)\)/, 1]
+          if link_src
+            links << link_src.delete('"').delete("'")
+          end
+        end
+        links.each do |link_src|
+          uri =  URI(link_src)
+          unless uri.host.nil?
+            unless allowed_domains.include?(uri.host.downcase)
+              if exception_counter[link_src] > 0
+                exception_counter[link_src] -= 1
+              else
+                puts link_src
+                add_issue("Don't hotlink to external site #{link_src}, instead use the Zeus CDN https://pics.zeus.gent to upload your images", subject: filename)
               end
             end
+          end
         end
       end
     end
