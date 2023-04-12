@@ -22,8 +22,7 @@
   <%= asset :css, :banner %>
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
 
 <body class="site">
 <div class="wrapper">
@@ -68,7 +67,7 @@
             </p>
             <ul class="fa-ul is-4-responsive">
               <li>
-                <%= fa 'clock-o', li: true %>
+                <%= fa 'clock', li: true %>
                 <span property="startDate" content="<%=item[:time]%>"> <%= item[:time].strftime '%A %d %B %Y %H:%M' %></span>
                 <% if item[:end] %>
                     <span>
@@ -85,7 +84,7 @@
                   </span>
                 <% end %>
               </li>
-              <li><%= fa 'map-marker', li: true %><span property="location"><%= item[:location] %></span></li>
+              <li><%= fa 'location-dot', li: true %><span property="location"><%= item[:location] %></span></li>
             </ul>
           </div>
         </div>
