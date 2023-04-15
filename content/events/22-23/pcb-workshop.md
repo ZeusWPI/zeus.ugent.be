@@ -1,6 +1,6 @@
 ---
-title: 'PCB workshop'
-description: 'Leer werken met een printplaatje'
+title: 'Soldeerworkshop'
+description: 'Leer solderen'
 created_at: 15-02-2023
 time: '11-05-2023 18:00'
 end: '11-05-2023 22:00'
@@ -13,11 +13,13 @@ locationlink: "$kelder"
 
 # PCB workshop
 
-Jasper heeft onlangs nieuwe electronica op de kop getikt! Het gaat om meer dan 30 RGB LED Matrix modules! Deze modules kunnen helaas nog niet aangestuurd worden. Daarom ontwikkelde Jasper zelf een PCB om de LEDs aan te sturen. Deze PCBs moeten echter nog geassembleerd worden. Join daarom deze workshop en help solderen aan de electronica.
+We hebben recent 30 8x8 RGB LED matrix modules gekregen! Deze modules kunnen helaas nog niet aangestuurd worden. Daarom ontwikkelde Jasper zelf een PCB om de LEDs aan te sturen. Deze PCBs moeten echter nog geassembleerd worden. Join daarom deze workshop en help solderen aan de electronica.
 
-We kijken er al naar uit om zotte dingen te doen met deze RGB LEDs in de kelder!!
+Als je een soldeerbout hebt, neem die dan zeker mee naar het evenement. Heb je er geen, dan kan je er een van ons gebruiken, maar dan kan het zijn dat je wat langer moet wachten.
 
-Deze electronica is niet goedkoop. We zijn [Dekimo](https://www.dekimo.com) heel dankbaar voor de sponsoring!
+De LED-matrix zal nadien opgehangen worden in de kelder, we kijken er al naar uit om te zien wat jullie ermee doen.
+
+Deze electronica is niet goedkoop. We zijn [Dekimo](https://www.dekimo.com) heel dankbaar voor de sponsoring, zo kunnen we dit event gratis aanbieden!
 
 Het is nog niet zeker dat alles klaargeraakt tegen dit event. Voor updates, volg de announcements in Mattermost.
 
