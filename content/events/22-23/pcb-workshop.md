@@ -4,7 +4,8 @@ description: 'Leer werken met een printplaatje'
 created_at: 15-02-2023
 time: '11-05-2023 18:00'
 end: '11-05-2023 22:00'
-image: 'https://pics.zeus.gent/pZEMLGHD7PV3kDhY40UBQAnqSzfAroSzS5GucWYr.jpg'
+banner: 'https://pics.zeus.gent/pZEMLGHD7PV3kDhY40UBQAnqSzfAroSzS5GucWYr.jpg'
+image: 'https://pics.zeus.gent/BhaV1WZkjHYwSvLgKk96LCypnnS86IHxkQnUjnsD.jpg'
 header_text_background: true
 location: De Kelder
 locationlink: "$kelder"
