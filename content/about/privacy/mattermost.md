@@ -2,7 +2,7 @@
 status: additional
 ---
 
-Bij Mattermost is het [standaardprivacybeleid](https://github.com/mattermost/mattermost-server/blob/master/build/PRIVACY_POLICY.md) van een zelf-gehoste Mattermost-applicatie van toepassing.
+Bij Mattermost is het [standaardprivacybeleid](https://mattermost.com/privacy-policy) van een zelf-gehoste Mattermost-applicatie van toepassing.
 
 Op Mattermost kunnen berichten in twee categorieën ingedeeld worden: openbare berichten en private berichten. Onder private berichten worden alle berichten in private gesprekken of besloten kanalen verstaan. Berichten in openbare kanalen vallen onder openbare berichten.
 
