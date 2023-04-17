@@ -7,8 +7,6 @@ location: 'De Kelder'
 locationlink: $kelder
 # banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
 # header_text_background: true
-# tags:
-#   - Verkiezingen
 ---
 
 
