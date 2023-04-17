@@ -40,7 +40,7 @@ Ten tweede is een Ethernet-verbinding een absolute must. Heb je geen ethernet po
 
 Place to be is de Kelder aan S9. Zie onderstaand kaartje.
 
-Eten wordt gezameljk geregeld tijdens het event.
+Eten wordt gezamenlijk geregeld tijdens het event.
 
 ps. 33n 5m44k v00r m4t3 15 33n b0nu5
 
