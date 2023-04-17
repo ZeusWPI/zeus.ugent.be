@@ -5,7 +5,7 @@ time: '02-05-2023 17:30'
 end: '02-05-2023 22:30'
 location: 'De Kelder'
 locationlink: $kelder
-# banner: "https://beeld.ugent.be/files/photos/.117063/w940q85_Z2020_060_001.jpg"
+banner: "https://pics.zeus.gent/m154Fs7kh1AvnDH7TKC4HwS8LgR2kawRL25L6QrK.png"
 # header_text_background: true
 ---
 
