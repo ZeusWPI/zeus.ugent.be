@@ -36,6 +36,8 @@ Een lichte basis van programmeren en kennis van sockets zal je helpen vlot van s
 
 Ten tweede is een Ethernet-verbinding een absolute must. Heb je geen ethernet poort, maar een ethernet dongle, neem die mee, anders kun je niet deelnemen aan de belangrijke missies die we hier ondernemen. Zeus heeft ook enkele ethernet dongles voor de mensen zonder voorzieningen.
 
+Schrijf je zeker ook in zodat we je een zitplek kunnen garanderen: [event.student.ugent.be/events/378](https://event.student.ugent.be/events/378).
+
 Place to be is de Kelder aan S9. Zie onderstaand kaartje.
 
 Eten wordt gezamenlijk geregeld tijdens het event.
