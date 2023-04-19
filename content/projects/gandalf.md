@@ -3,4 +3,4 @@ logo_image: Logos_Gandalf.svg
 priority: 5
 ---
 
-You Shall Not Pass - An advanced e-ticket system for student clubs - [https://event.fkgent.be](https://event.fkgent.be)
+You Shall Not Pass - An advanced e-ticket system for student clubs - [https://event.student.ugent.be](https://event.student.ugent.be)
