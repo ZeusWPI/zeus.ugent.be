@@ -1,7 +1,7 @@
 ---
 title: "NERF Fight"
 created_at: 15-02-2023 
-time: '30-04-2023 13:00' 
+time: '30-04-2023 14:00' 
 end: '30-04-2023 20:00' 
 location: Therminal, Hoveniersberg 24, 9000 Gent
 description: NERF games in de Therminal
