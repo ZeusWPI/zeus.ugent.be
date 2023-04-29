@@ -12,7 +12,7 @@ locationlink: $therminal
 
 # NERF Fight
 
-Op zondag 30 april houden we 's middags vanaf **13u** een nieuwe editie van de populaire **Nerf Fight** over héél de therminal. NERF! in een UGent gebouw! *What's not to like ;)* 
+Op zondag 30 april houden we 's middags vanaf **14u** een nieuwe editie van de populaire **Nerf Fight** over héél de therminal. NERF! in een UGent gebouw! *What's not to like ;)* 
 
 Dit keer gaan we met de mensen die willen achteraf samen eten bestellen.
 
