@@ -22,7 +22,20 @@ Dit jaar zullen de verkiezingen doorgaan op **9 mei 2023** in de studententuin. 
 
 ## Kandidaten
 
-TBA
+We hebben alvast een ruime lijst aan enthousiaste kandidaten!
+
+| Functie                | Persoon | Persoon | Persoon |
+| ---------------------- | ------- | ------- | ------- |
+| Voorzitter             | Tibo    | Jan     |         |
+| Vice                   | Tibo    | Tybo    | Jan     |
+| Penning                | Vincent | Runo    |         |
+| Sysadmin               | Xander  | Laurenz | Francis |
+| Sfeer                  | Bauke   |         |         |
+| Project                | Tibo    | Jan     |         |
+| PR                     | Tybo    |         |         |
+| Event                  | Vincent | Runo    |         |
+
+Je kandidatuur indienen kan nog tot 05/05 om 23u59. Dit via een email naar het zeusbestuur.
 
 ### Verloop
 
@@ -32,10 +45,12 @@ TBA
 
 Het verdere verloop van de verkiezingen wordt uitgelegd op de verkiezingen zelf, maar je kan ook het stuk in de [statuten][statuten] lezen dat over de verkiezingen gaat. Na de verkiezingen gaan we eten in Patrick Foleys.
 
-
 ### Patrick Foleys
 
-Zodat we overzichtelijk kunnen bestellen, zal er een Haldis zijn waarop je op voorhand moet bestellen.
+We verplaatsen ons na de verkiezingen naar de Patrick Foleys!
+Om de bestelling vlot te laten verlopen vragen we je etenskeuze al door te geven vóór **8/5 23u59**.
+
+Je keuze doorgeven kan via [haldis](https://haldis.zeus.gent/order/cmxdj949)
 
 ### Interesse?
 
