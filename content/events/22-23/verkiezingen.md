@@ -28,12 +28,11 @@ We hebben alvast een ruime lijst aan enthousiaste kandidaten!
 | ---------------------- | ------- | ------- | ------- |
 | Voorzitter             | Tibo    | Jan     |         |
 | Vice                   | Tibo    | Tybo    | Jan     |
-| Penning                | Vincent | Runo    |         |
+| Penning                | Vincent | Rune    |         |
 | Sysadmin               | Xander  | Laurenz | Francis |
-| Sfeer                  | Bauke   |         |         |
 | Project                | Tibo    | Jan     |         |
 | PR                     | Tybo    |         |         |
-| Event                  | Vincent | Runo    |         |
+| Event                  | Vincent | Rune    |         |
 
 Je kandidatuur indienen kan nog tot 05/05 om 23u59. Dit via een email naar het zeusbestuur.
 
