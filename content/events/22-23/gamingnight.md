@@ -7,7 +7,6 @@ location: 'De Kelder'
 locationlink: $kelder
 banner: https://pics.zeus.gent/vcDsr0zQ.jpg
 header_text_background: true
-image: https://pics.zeus.gent/spelletjesAvond.jpg
 tags:
   - Gaming
 ---
