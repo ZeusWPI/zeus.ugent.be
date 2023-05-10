@@ -33,7 +33,9 @@ jobs:
         id: cache-output
         uses: actions/cache@v3
         with:
-          path: output
+          path: |
+            ./tmp/
+            ./output/
           key: build-${{ github.ref_name }}
           restore-keys: |
             build-master
