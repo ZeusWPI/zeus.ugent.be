@@ -7,7 +7,7 @@ description: Je raadt nooit wie in '23-'24 ons nieuwe bestuur vormt!
 
 Afgelopen dinsdag kwamen we traditiegetrouw samen in de studententuin om ons huidige bestuur te bedanken voor hun inzet en voornamelijk, om een nieuw bestuur te verkiezen voor het komende academiejaar.
 
-Na een spannende verkiezing waarbij er voor bijna alle functies meerdere kandidaten waren, stellen we met trots ons nieuwe bestuur voor dat Zeus WPI volgend jaar zal vertegenwoordigen:
+De verkiezingen waren spannend omdat er voor bijna alle functies meerdere kandidaten waren. Uiteindelijk is iedereen die dinsdag opkwam, verkozen en dus stellen we met trots ons nieuwe bestuur voor dat Zeus WPI volgend jaar zal vertegenwoordigen:
 
 | Rol             	| Naam                                                                	      |
 |-----------------	|---------------------------------------------------------------------------- |
