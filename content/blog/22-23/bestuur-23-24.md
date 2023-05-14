@@ -10,13 +10,13 @@ Afgelopen dinsdag kwamen we traditiegetrouw samen in de studententuin om ons hui
 Na een spannende verkiezing waarbij er voor bijna alle functies meerdere kandidaten waren, stellen we met trots ons nieuwe bestuur voor dat Zeus WPI volgend jaar zal vertegenwoordigen:
 
 | Rol             	| Naam                                                                	      |
-|-----------------	|----------------------------------------------------------------------------	|
+|-----------------	|---------------------------------------------------------------------------- |
 | Voorzitter      	| Jan "nutty" L.                                               	              |
-| Vice-voorzitter 	| Tibo "goldencapybara" U.                                                   	|
-| Penningmeester  	| Vincent "topvennie" ?                                                      	|
-| Sysadmins       	| Laurenz "lvhb" V. <br /> Xander "xerbalind" B.<br /> Francis "francis." K. 	|
-| PR              	| Tybo "tyboro" ?                                                     	      |
-| Event           	| Rune "runo" ?                                                       	      |
+| Vice-voorzitter 	| Tibo "goldencapybara" U.                                                    |
+| Penningmeester  	| Vincent "topvennie" V                                                       |
+| Sysadmins       	| Laurenz "lvhb" V. <br /> Xander "xerbalind" B.<br /> Francis "francis." K.  |
+| PR              	| Tybo "tyboro" V.                                                     	      |
+| Event           	| Rune "runo" D.                                                       	      |
 
 We wensen de verkozen kandidaten veel succes, en kijken vol verwachting uit naar de plannen en initiatieven van het nieuwe bestuur voor het komende jaar.
 
