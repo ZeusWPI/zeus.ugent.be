@@ -9,16 +9,16 @@ Afgelopen dinsdag kwamen we traditiegetrouw samen in de studententuin om ons hui
 
 De verkiezingen waren spannend omdat er voor bijna alle functies meerdere kandidaten waren. Uiteindelijk is iedereen die dinsdag opkwam, verkozen en dus stellen we met trots ons nieuwe bestuur voor dat Zeus WPI volgend jaar zal vertegenwoordigen:
 
-| Rol             	| Naam                                                                	      |
+| Rol             	| Naam  |
 |-----------------	|---------------------------------------------------------------------------- |
-| Voorzitter      	| Jan "nutty" L.                                               	              |
-| Vice-voorzitter 	| Tibo "goldencapybara" U.                                                    |
-| Penningmeester  	| Vincent "topvennie" V                                                       |
-| Sysadmins       	| Laurenz "lvhb" V. <br /> Xander "xerbalind" B.<br /> Francis "francis." K.  |
-| PR              	| Tybo "tyboro" V.                                                     	      |
-| Event           	| Rune "runo" D.                                                       	      |
+| Voorzitter      	| Jan Lecoutere |
+| Vice-voorzitter 	| Tibo Ulens |
+| Penningmeester  	| Vincent Vallaeys |
+| Sysadmins       	| Laurenz Verherbrugghen <br /> Xander Bil <br /> Francis Klinck  |
+| PR              	| Tybo Verslype  |
+| Event           	| Rune Dyselinck |
 
 We wensen de verkozen kandidaten veel succes, en kijken vol verwachting uit naar de plannen en initiatieven van het nieuwe bestuur voor het komende jaar.
 
-Grote waardering gaat uit naar het afgelopen bestuur dat het afgelopen jaar uitstekend werk heeft verricht. We willen graag ook een speciale shout-out geven aan Jasper "redfast00" Devreker, die maar liefst vijf jaar als bestuurslid zijn toewijding aan Zeus heeft getoond. 
+Grote waardering gaat uit naar het afgelopen bestuur dat het afgelopen jaar uitstekend werk heeft verricht. We willen graag ook een speciale shout-out geven aan Jasper Devreker, die maar liefst vijf jaar als bestuurslid zijn toewijding aan Zeus heeft getoond. 
 Binnenkort™ wordt er een overzicht van de gebeurtenissen van het afgelopen jaar gepubliceerd op onze website.
