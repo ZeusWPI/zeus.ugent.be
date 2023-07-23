@@ -706,8 +706,6 @@ data:
       links:
         - icon: mastodon
           url: https://mastodon.social/@bartcopp
-        - icon: twitter
-          url: https://twitter.com/bartcopp
         - url: https://bartcoppens.be
     - name: Michiel Van den Berghe
       nickname: michilus
