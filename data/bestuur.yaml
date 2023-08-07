@@ -449,3 +449,28 @@ data:
     - rol: Projecten
       naam: Jan Lecoutere
       mail: project@zeus.ugent.be
+  23-24:
+    - rol: Voorzitter
+      naam: Jan Lecoutere
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Tibo Ulens
+      mail: voorzitter@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Vincent Vallaeys
+      mail: penning@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Laurenz Verherbrugghen
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Francis Klinck
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Xander Bil
+      mail: admin@zeus.ugent.be
+    - rol: PR
+      naam: Tybo Verslype
+      mail: pr@zeus.ugent.be
+    - rol: Event
+      naam: Rune Dyselinck
+      mail: event@zeus.ugent.be
