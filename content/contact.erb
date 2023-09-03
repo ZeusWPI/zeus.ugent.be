@@ -5,26 +5,14 @@ order: 10
 narrow_page: true
 icon_size: 2x
 contact_links:
-  - icon: facebook
-    link: https://www.facebook.com/zeus.wpi/
-    description: Facebook
-    action: Like us
   - icon: envelope
     link: ../contact#board
     description: Email
     action: Mail us
-  - icon: twitter
-    link: https://twitter.com/zeuswpi
-    description: Twitter
-    action: Follow us
   - icon: comments
     link: https://mattermost.zeus.gent/
     description: Mattermost
     action: Message us
-  - icon: inbox
-    link: http://lists.zeus.ugent.be/mailman/listinfo/leden
-    description: Mailinglist
-    action: Keep up to date
   - icon: github
     link: https://github.com/ZeusWPI/
     description: GitHub
@@ -33,6 +21,10 @@ contact_links:
     link: 'tel:+3292644751'
     description: Phone
     action: Call us
+  - icon: facebook
+    link: https://www.facebook.com/zeus.wpi/
+    description: Facebook
+    action: Like us
 ---
 
 <% content_for :head do %>
@@ -85,7 +77,7 @@ contact_links:
   <!-- Contact buttons -->
   <div id='contact-icons' class='columns is-centered is-multiline is-mobile'>
   <% @item[:contact_links].each do |option| %>
-  <div class='column is-one-quarter-desktop is-one-third-tablet is-half-mobile'>
+  <div class='column is-one-fifth-desktop is-one-third-tablet is-half-mobile'>
     <div id='<%= option[:description] %>' class='contact-circle-option'>
     <a href='<%= option[:link] %>' class='contact-circle-wrapper'>
       <div class='contact-circle is-centered'>
@@ -176,16 +168,6 @@ contact_links:
       </div>
     </div>
 
-    <!-- Mattermost information -->
-    <div id='mattermost-info' class='tile is-parent'>
-      <div class='tile is-child box content'>
-        <h1 class='title has-text-centered'>Mattermost info</h1>
-        <hr/>
-        <p id='mattermost-info-text' class='is-size-5'>
-          You can register with any valid email address.
-        </p>
-      </div>
-    </div>
     <!-- Embedded map -->
     <div style="z-index: 0" class="map-wrapper box">
         <%= render '/partials/_map.erb', location: "Zeus WPI" %>
