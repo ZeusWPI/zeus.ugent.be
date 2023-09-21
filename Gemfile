@@ -20,6 +20,7 @@ gem 'builder'
 gem 'words_counted'
 
 # For correct timezone
+gem 'tzinfo-data'
 gem 'tzinfo'
 
 # Take screenshots for our banner image
