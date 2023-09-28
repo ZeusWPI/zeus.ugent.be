@@ -19,7 +19,7 @@ Hierdoor zullen er herverkiezingen georganiseerd worden.
 
 Deze herverkiezingen zullen plaats vinden in de kelder op 5 oktober. Na de verkiezingen volgt er een open vergadering.
 
-Als je wil stemmen en stemgerechtigd bent, registreer je dan op voorhand op [MSRS][msrs], het "Membership Registration System". Voor de duidelijkheid, bij deze nog eens het relevante artikel uit de statuten over wie stemrecht heeft:
+Als je wil stemmen en stemgerechtigd bent, registreer je dan op voorhand op [MSRS](https://msrs.zeus.gent), het "Membership Registration System". Voor de duidelijkheid, bij deze nog eens het relevante artikel uit de statuten over wie stemrecht heeft:
 
 > Stemgerechtigde leden zijn de leden die stemrecht hebben op de ledenvergaderingen. Het stemrecht komt toe aan de leden die een opleiding volgen aan de UGent met een focus op informatica. Het bestuur kan het stemrecht ook toekennen aan leden die hebben bijgedragen tot de verdere ontplooiing van de vereniging. Dit stemrecht vervalt samen met het lidmaatschap aan de start van het nieuwe academiejaar.
 
