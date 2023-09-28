@@ -17,7 +17,7 @@ Hierdoor zullen er herverkiezingen georganiseerd worden.
 
 ### Verloop
 
-Deze herverkiezingen zullen plaats vinden in de kelder op 5 oktober. Na de verkiezingen volgt er een open vergadering.
+Deze herverkiezingen zullen plaats vinden in de kelder op 5 oktober om 18 uur. Na de verkiezingen volgt er een open vergadering.
 
 Als je wil stemmen en stemgerechtigd bent, registreer je dan op voorhand op [MSRS](https://msrs.zeus.gent), het "Membership Registration System". Voor de duidelijkheid, bij deze nog eens het relevante artikel uit de statuten over wie stemrecht heeft:
 
