@@ -29,5 +29,9 @@ Nog enkele puntjes om niet te vergeten:
 - Een winnaar komt niet in kostuum, denk aan sportieve kledij.
 - Breng alle NERF geweren mee die je hebt.
 
+Gelieve je ook [hier][nerf] in te schrijven.
+
 Tot dan!
 
+[events]: https://mattermost.zeus.gent/zeus/channels/events
+[nerf]: https://event.student.ugent.be/events/386
