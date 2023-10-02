@@ -29,5 +29,7 @@ Nog enkele puntjes om niet te vergeten:
 - Een winnaar komt niet in kostuum, denk aan sportieve kledij.
 - Breng alle NERF geweren mee die je hebt.
 
+Gelieve je ook in te schrijven op https://event.student.ugent.be/events/386
+
 Tot dan!
 
