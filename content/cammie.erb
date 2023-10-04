@@ -6,10 +6,6 @@ title: Cammie
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js" integrity="sha256-ohm5bQuo4yRByZrO3JFkHnUxob0EsucKvzTA4ZUQ87g=" crossorigin="anonymous"></script>
 <script type="text/javascript" charset="utf-8">
-var socket = io("https://kelder.zeus.ugent.be");
-socket.on('replymessage', function(obj) {
-    alert("Kelder says: " + obj['message']);
-})
 </script>
 <%= asset :js, :cammie %>
 <%= asset :js, :message %>
