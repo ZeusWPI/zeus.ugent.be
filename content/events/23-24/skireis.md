@@ -6,6 +6,7 @@ end: '10-02-2024 10:00'
 location: Italië
 banner: https://pics.zeus.gent/YKWNx2cuueG7Qm2DvoowrQeFMZ6NK7KmxUw9da1t.jpg
 header_text_background: true
+facebook: https://www.facebook.com/events/848032040358052/
 ---
 
 # De skireis van Zeus WPI!
@@ -87,4 +88,6 @@ beperkte plaatsen beschikbaar. Inschrijvingen tot 22/10
 - Diefstal verzekering materiaal (19 euro)
 
 ### Inschrijven
-Inschrijven kan [hier](www.ceneka.be/skitrip)
+Inschrijven kan [hier][ceneka]
+
+[ceneka]: www.ceneka.be/skitrip
