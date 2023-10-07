@@ -90,4 +90,4 @@ beperkte plaatsen beschikbaar. Inschrijvingen tot 22/10
 ### Inschrijven
 Inschrijven kan [hier][ceneka]
 
-[ceneka]: www.ceneka.be/skitrip
+[ceneka]: https://www.ceneka.be/skitrip
