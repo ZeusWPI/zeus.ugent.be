@@ -1,8 +1,8 @@
 ---
 title: Geeks Attack XII
 created_at: 19-09-2023
-time: '27-10-2023 18:00'
-end: '28-10-2023 06:00'
+time: '10-11-2023 18:00'
+end: '11-11-2023 06:00'
 location: Therminal, Hoveniersberg 24, 9000 Gent
 description: Zeus' twaalfde LAN-Party!
 header_text_background: true
