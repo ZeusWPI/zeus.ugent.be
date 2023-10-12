@@ -5,6 +5,7 @@ time: '11-10-2023 18:00'
 end: '11-10-2023 22:00'
 location: Kelder Zeus WPI, Gebouw S9, Campus Sterre
 description: Maak kennis met Zeus WPI op een avond vol exotische en frustrerende programmeertalen.
+facebook: https://www.facebook.com/events/1306326510015522/
 header_text_background: true
 banner: https://pics.zeus.gent/JnpFxP-T.jpg
 image: https://pics.zeus.gent/a28GvLuO.png
