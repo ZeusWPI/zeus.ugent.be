@@ -38,9 +38,9 @@ beperkte plaatsen beschikbaar. Inschrijvingen tot 22/10
 	- Terugreis: Zaterdag 10 februari 2024, vertrek omstreeks 10:00 uur.
 
 ### Inbegrepen in de prijs
-798 euro/persoon
+719 euro/persoon
 
-- Skipas: 6 dagen, totaal 3 gebieden: 2 dagen Dolomiti di Brenta (Madonna di Campiglio – Folgarida – Marilleva), 3 dagen Pejo Gletsjer & 1 dag Passo Tonale – Ponte di Legno
+- Skipas: 5 of 6 (voor 29 euro extra) dagen, totaal 3 gebieden: 2 dagen Dolomiti di Brenta (Madonna di Campiglio – Folgarida – Marilleva), 2 of 3 dagen Pejo Gletsjer & 1 dag Passo Tonale – Ponte di Legno
 
 - Halfpension: ontbijtbuffet + 3-gangenavondmaal
 
