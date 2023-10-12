@@ -9,6 +9,7 @@ header_text_background: true
 banner: https://pics.zeus.gent/FlrsiQmmaptZhiICcAST1PTrXy6WZ1RKpnebOdr6.png
 image: https://pics.zeus.gent/FdXvqUbhJ54xNez6SBrroB1SGtgWh8XRnJzLBh6v.png
 locationlink: $s9
+facebook: https://www.facebook.com/events/860634435461865
 ---
 
 # Hacktoberfest codenight
