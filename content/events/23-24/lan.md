@@ -15,7 +15,7 @@ Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die t
 
 ## Info
 
-**Datum**: Vrijdag 27 oktober - Zaterdag 28 oktober
+**Datum**: Vrijdag 10 november - Zaterdag 11 november
 
 **Tijd**: 18:00 tot wanneer we niet meer kunnen
 
@@ -25,6 +25,9 @@ Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die t
 
 **Inschrijven**: Je moet je niet inschrijven voor de LAN zelf.
 
+## Competities
+
+Meer info over de competities volgt later!
 
 Tot dan!  
 Zeus WPI
