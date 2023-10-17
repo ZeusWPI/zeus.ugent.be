@@ -59,7 +59,7 @@
 
     <% unless past_events_in_year_or_tag(@item).empty? %>
       <div class="content">
-        <h1>Past events</h1>
+        <h1 id="pastevents">Past events</h1>
       </div>
       <% past_events_in_year_or_tag(@item).each_slice(1) do |slice| %>
       <div class="columns">

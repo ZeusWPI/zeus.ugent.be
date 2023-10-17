@@ -21,7 +21,9 @@
     <div class="tile is-parent">
       <div class="tile is-child">
         <div class="block has-text-centered">
-          <span class="title is-2-responsive underline--magical">Upcoming Events</span>
+          <a href="./events/">
+            <span class="title is-2-responsive underline--magical">Upcoming Events</span>
+          </a>
         </div>
         <% unless upcoming_events.empty? %>
           <% upcoming_events.each do |event| %>
@@ -41,7 +43,9 @@
       <div class="tile is-parent">
         <div class="tile is-child">
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Top Coders</span>
+            <a href="https://gamification.zeus.gent/" target="_blank">
+              <span class="title is-2-responsive underline--magical">Top Coders</span>
+            </a>
           </div>
           <div class="box gamification-tile">
             <div class="content">
@@ -60,7 +64,9 @@
 
 
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Previous Events</span>
+            <a href='./events/#pastevents'>
+              <span class="title is-2-responsive underline--magical">Previous Events</span>
+            </a>
           </div>
           <% previous_events[0..3].each do |event| %>
             <div class="block">
@@ -82,7 +88,9 @@
             </p>
           </div>
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Blogposts</span>
+            <a href="./blog">
+              <span class="title is-2-responsive underline--magical">Blogposts</span>
+            </a>
           </div>
           <% sorted_articles[0..3].each do |post| %>
             <%= render '/partials/_blog_preview.*', post: post %>
