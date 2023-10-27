@@ -16,9 +16,14 @@ socket.on('replymessage', function(obj) {
 <% end %>
 
 <section id="cammie-section">
+  <div id="cammieFeedDisconnected" class="notification is-danger is-light is-hidden">
+    Camera feed automatically disconnected due to inactivity, reload the page to resume viewing
+    <br>
+    Cammie is meant for checking if the kelder is busy before coming and shouldn't be left open for longer periods of time
+  </div>
   <div id="cammie-body">
     <figure class="image is-16by9">
-      <img id="cammie-feed" alt="cammie" src="https://kelder.zeus.ugent.be/camera/cammie" onerror="cammie_error()">
+      <img id="cammie-feed" alt="cammie" src="https://kelder.zeus.ugent.be/camera/cammie" onerror="cammie_error()" onload="cammie_loaded()">
     </figure>
     <div id="cammie-ctrls">
       <div class="columns is-mobile">
@@ -59,7 +64,7 @@ socket.on('replymessage', function(obj) {
     </div>
   </div>
 
-  <nav class="columns mt-0">
+  <nav id="cammie-ctrls-2" class="columns mt-0">
     <div class="column">
       <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="43" data-y="15">
         Kleine tafel
