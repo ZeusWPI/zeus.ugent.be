@@ -23,8 +23,27 @@ debounce = function(func, wait, initial) {
   };
 };
 
+var cammieError = false;
 function cammie_error() {
-	$("#cammie-feed").attr("src","/assets/images/cammie_down.svg")
+  cammieError = true;
+  document.getElementById("cammie-ctrls").remove();
+  document.getElementById("cammie-ctrls-2").remove();
+  $("#cammie-feed").attr("src","/assets/images/cammie_down.svg")
+}
+var cammieTimerStarted = false;
+function cammie_loaded() {
+  if (cammieTimerStarted) {
+    return;
+  }
+  showWarning = function() {
+    if (!cammieError) {
+      document.getElementById("cammieFeedDisconnected").classList.remove("is-hidden");
+      document.getElementById("cammie-ctrls").remove();
+      document.getElementById("cammie-ctrls-2").remove();
+    }
+  };
+  setTimeout(showWarning, 25000);
+  cammieTimerStarted = true;
 }
 
 $("#cammie-ctrls").mousemove(debounce(function() {
