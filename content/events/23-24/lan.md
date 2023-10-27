@@ -6,7 +6,7 @@ end: '11-11-2023 06:00'
 location: Therminal, Hoveniersberg 24, 9000 Gent
 description: Zeus' twaalfde LAN-Party!
 header_text_background: true
-banner: https://pics.zeus.gent/mk9ycenvLqzPUxyR26nTCKx4RepiPVDN9jSy1A0y.png
+banner: https://pics.zeus.gent/tuHAoN4S5RhP2KXfKNalgNJx44AwmrqgQTm5LlOP.png
 locationlink: $therminal
 ---
 
