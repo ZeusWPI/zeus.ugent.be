@@ -2,8 +2,8 @@
 title: Hydra codenight
 description: Een codenight om samen te werken aan nieuwe features voor in de Hydra-app!
 created_at: 19-09-2023
-time: '07-11-2023 18:00'
-end: '07-11-2023 22:00'
+time: '30-11-2023 18:00'
+end: '30-11-2023 22:00'
 location: De Kelder
 locationlink: "$kelder"
 banner: https://pics.zeus.gent/O7ZTXtn5.png
