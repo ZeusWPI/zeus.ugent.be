@@ -26,36 +26,39 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 **Locatie**: Therminal, Hoveniersberg 24, Gent
 
-**Meenemen**: Jouw pc / laptop + stekkerdoos. Er wordt wifi voorzien, indien je liever ethernet hebt pak je best een ethernetkabel mee.
+**Meenemen**: Jouw pc / laptop + stekkerdoos. Er wordt wifi voorzien, indien je ethernet wilt pak je best een ethernetkabel mee van ongeveer 1-2 meter.
 
 **Inschrijven**: Je moet je niet inschrijven voor de LAN zelf.
 
 ## Competities
 
 Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer.
-Daarbij is er €1000 aan prijzen te winnen!
+Daarbij is er een totaal van €1000 aan prijzen te winnen!
+Waardoor iedereen kans maakt op een prijs.
+De specifieke tijdschema van de competities volgt nog.
 
 Buiten de competities is er ook een ruimte voorzien met couch games.
 
 ## Eten & Drank
 
-We gaan 's avonds achter pizzas en doorheen de LAN-party is er drank voorzien.
+We gaan 's avonds pizza's halen en doorheen de LAN-party is er drank voorzien.
 
 ## Logistiek
 
 De LAN-party gaat door in de therminal, dicht gelegen bij het Sint-Pietersplein.
 Deelnemers die graag hun desktop meepakken kunnen dit met de auto doen.
 
-### Wegwijzer Therminal
+#### Wegwijzer Therminal
 
 Ga via het Sint-Pietersnieuwstraat naar het begin van de Hoveniersberg, een small straatje naast het Donorcentrem Gent.
 Volg de straat naar beneden tot aan de trappen. Onderaan de trappen ga naar links en volg het padje tot bij de ingang.
 
-### Materiaal afzetten met de auto
+#### Materiaal afzetten met de auto
 
-Het is mogelijk om bvb je desktop af te zetten met de auto. 
-Het afzetten is mogelijk tussen 17h00 en 17h30 en ophalen is mogelijk om 03h00 of 06h00.
-Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het subject [Auto Materiaal] 
+Het is mogelijk om je desktop af te zetten met de auto. 
+Afzetten is mogelijk tussen 17h30 en 18h30 en ophalen is mogelijk om 03h00 of 06h00.
+Het is niet mogelijk om je auto te parkeren bij de Therminal maar het Sint-Pietersplein parking ligt op wandelafstand.
+Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het onderwerp [Auto Materiaal] 
 
 
 Tot dan!  
