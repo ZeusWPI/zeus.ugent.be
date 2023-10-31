@@ -32,12 +32,12 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 ## Competities
 
-Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer.
-Daarbij is er een totaal van €1000 aan prijzen te winnen!
-Waardoor iedereen kans maakt op een prijs.
+Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer. 
+Daarbij is er een totaal van €1000 aan prijzen te winnen! 
+Waardoor iedereen kans maakt op een prijs. 
 Het specifieke tijdschema van de competities volgt nog.
 
-Er ook een ruimte voorzien speciaal v
+Er ook een ruimte voorzien speciaal voor couch games!
 
 ## Eten & Drank
 
