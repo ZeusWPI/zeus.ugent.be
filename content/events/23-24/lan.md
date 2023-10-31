@@ -35,13 +35,13 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer.
 Daarbij is er een totaal van €1000 aan prijzen te winnen!
 Waardoor iedereen kans maakt op een prijs.
-De specifieke tijdschema van de competities volgt nog.
+Het specifieke tijdschema van de competities volgt nog.
 
-Buiten de competities is er ook een ruimte voorzien met couch games.
+Er ook een ruimte voorzien speciaal v
 
 ## Eten & Drank
 
-We gaan 's avonds pizza's halen en doorheen de LAN-party is er drank voorzien.
+We gaan 's avonds pizza's halen en doorheen de LAN-party is er drank voorzien aan schappelijke prijzen.
 
 ## Logistiek
 
