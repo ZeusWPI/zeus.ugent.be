@@ -11,12 +11,11 @@ locationlink: $therminal
 facebook: https://www.facebook.com/events/2323839811149177/
 ---
 
-# Do you wanna play a game ?
+# Do you wanna play a game?
 
 Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die tot in de late uurtjes gezamenlijk wilt gamen.
 We organiseren meerdere competities met **€1000** aan prijzen!
 Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
-
 
 ## Info
 
@@ -32,12 +31,12 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 ## Competities
 
-Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer. 
-Daarbij is er een totaal van €1000 aan prijzen te winnen! 
-Waardoor iedereen kans maakt op een prijs. 
+Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer.
+Daarbij is er een totaal van €1000 aan prijzen te winnen!
+Waardoor iedereen kans maakt op een prijs.
 Het specifieke tijdschema van de competities volgt nog.
 
-Er ook een ruimte voorzien speciaal voor couch games!
+Er is ook een ruimte voorzien speciaal voor couch games!
 
 ## Eten & Drank
 
@@ -55,11 +54,10 @@ Volg de straat naar beneden tot aan de trappen. Onderaan de trappen ga naar link
 
 #### Materiaal afzetten met de auto
 
-Het is mogelijk om je desktop af te zetten met de auto. 
+Het is mogelijk om je desktop af te zetten met de auto.
 Afzetten is mogelijk tussen 17h30 en 18h30 en ophalen is mogelijk om 03h00 of 06h00.
 Het is niet mogelijk om je auto te parkeren bij de Therminal maar het Sint-Pietersplein parking ligt op wandelafstand.
-Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het onderwerp [Auto Materiaal] 
-
+Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het onderwerp [Auto Materiaal].
 
 Tot dan!  
 Zeus WPI
