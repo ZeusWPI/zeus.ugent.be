@@ -25,7 +25,7 @@ Het begon allemaal op 1 juli 2014, in het [verslag](https://zeus.ugent.be/about/
 De vloer, toen al een onuitputtelijke bron aan rood gruis, begon ieder Zeuslid die regelmatig de kelder binnenkwam (en weer buiten kwam, voor de helft in het rood) grondig op de zenuwen te werken.
 
 Onwetend naar de omvang van deze queeste, beslisten zij om van de gelegenheid gebruik te maken de volledige kelder te herinrichten.
-Dit project zou de geschiedenis ingaan als de _[KELDERRENOVATIEZ](https://zeus.ugent.be/wiki/doku.php?id=archief:kelderrenovatiez)_.
+Dit project zou de geschiedenis ingaan als de.
 
 In april van datzelfde academiejaar gingen deze renovaties inderdaad door.
 Een hoop nieuwe tafels werden in de kelder gesmeten en de meeste leden zijn tevreden.
