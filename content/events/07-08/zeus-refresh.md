@@ -15,5 +15,3 @@ Dit houdt dus wel in dat zowel de website, mail en IRC down kunnen zijn (geldt o
 Aangezien 2 en 3 februari in het weekend vallen, zal alle activiteit die dagen over ssh gebeuren, en zal er dus ook (normaal) niets down gaan. Als je een van de volgende dagen in de buurt van de S9 op de Sterre bent, aarzel dan niet om eens langs te komen!
 
 Het bestuur.
-
-[wiki]: https://zeus.ugent.be/wiki/Zeus_Refresh
