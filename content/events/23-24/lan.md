@@ -29,15 +29,13 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 **Inschrijven**: Je moet je niet inschrijven voor de LAN zelf.
 
-## Competities
+## Competities en Timetable
 
-Er zijn 5 competities met een totale prijzenpot van €1250
-- Trackmania Nation Forever Hosted by RedPencil.io
-- Team Fortress 2 (Medics Only) Hosted by Prior-IT
-- Minecraft Ultra Hardcore
-- Minecraft Missle Wars
-- Nidhogg
-- Mario Kart WII
+**20u:** Trackmania Nation Forever _Hosted by redpencil.io_
+**21u30:** Minecraft Missile Wars
+**23u:** Team Fortress 2 (Medics Only) _Hosted by Prior-IT_
+**00u:** Mario Kart WII & Nidhogg
+**02u:** Minecraft Ultra Hardcore
 
 ## Eten & Drank
 
