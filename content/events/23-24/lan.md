@@ -27,15 +27,20 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 **Meenemen**: Jouw pc / laptop + stekkerdoos. Er wordt wifi voorzien, indien je ethernet wilt pak je best een ethernetkabel mee van ongeveer 1-2 meter.
 
-**Inschrijven**: Je moet je niet inschrijven voor de LAN zelf.
+**Inschrijven niet nodig**
 
 ## Competities en Timetable
 
 **20u:** Trackmania Nation Forever _Hosted by redpencil.io_
+
 **21u30:** Minecraft Missile Wars
+
 **23u:** Team Fortress 2 (Medics Only) _Hosted by Prior-IT_
+
 **00u:** Mario Kart WII & Nidhogg
+
 **02u:** Minecraft Ultra Hardcore
+
 
 ## Eten & Drank
 
