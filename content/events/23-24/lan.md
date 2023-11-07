@@ -14,7 +14,7 @@ facebook: https://www.facebook.com/events/2323839811149177/
 # Do you wanna play a game?
 
 Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die tot in de late uurtjes gezamenlijk wilt gamen.
-We organiseren meerdere competities met **€1000** aan prijzen!
+We organiseren meerdere competities met **€1250** aan prijzen!
 Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 ## Info
@@ -27,16 +27,20 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 **Meenemen**: Jouw pc / laptop + stekkerdoos. Er wordt wifi voorzien, indien je ethernet wilt pak je best een ethernetkabel mee van ongeveer 1-2 meter.
 
-**Inschrijven**: Je moet je niet inschrijven voor de LAN zelf.
+**Inschrijven niet nodig**
 
-## Competities
+## Competities en Timetable
 
-Er zijn meerdere competities waaronder Trackmania Nations Forever, Team Fortress 2, Minecraft en meer.
-Daarbij is er een totaal van €1000 aan prijzen te winnen!
-Waardoor iedereen kans maakt op een prijs.
-Het specifieke tijdschema van de competities volgt nog.
+**20u:** Trackmania Nation Forever _Hosted by redpencil.io_
 
-Er is ook een ruimte voorzien speciaal voor couch games!
+**21u30:** Minecraft Missile Wars
+
+**23u:** Team Fortress 2 (Medics Only) _Hosted by Prior-IT_
+
+**00u:** Mario Kart WII & Nidhogg
+
+**02u:** Minecraft Ultra Hardcore
+
 
 ## Eten & Drank
 
