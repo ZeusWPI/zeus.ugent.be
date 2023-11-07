@@ -109,6 +109,9 @@ data:
     name: Endorsement
     repo: https://git.zeus.gent/bestuur/endorsement
     site: https://endorsement.zeus.gent/
+  wiki:
+    name: Wiki
+    site: https://zeus.ugent.be/wiki
   kers:
     name: KeRS
     repo: https://git.zeus.gent/bestuur/kers

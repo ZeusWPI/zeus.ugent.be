@@ -135,7 +135,7 @@ zit ons, ondertussen vast, team 12UL'ers te zwoegen om alles op tijd af te krijg
 Goesting om te helpen of meer te leren? Ga op slack eens kijken in #12urenloop of poke het bestuur; ze zullen je zeker verder kunnen introduceren.
 
 Oh en nog een leuk weetje: twee jaar geleden hadden we het \<_Al dan niet fantastische_\> idee om mee te _lopen_ op de 12UL.
-Vol trots dat we het eerste jaar effectief hebben kunnen vollopen,
+Vol trots dat we het eerste jaar effectief hebben kunnen vollopen \<_Als je ons niet gelooft, kijk maar eens op onze [wiki](https://zeus.ugent.be/wiki/doku.php?id=zeusloopt>)_\>,
 maar toch geen goesting meer om nog volledige uren te lopen sloegen we vorig jaar de handen in elkaar met de rest van de WVK verenigingen.
 Ook dit jaar zetten we dit verder, dus als je zin hebt om mee te lopen met Zeus en de rest van de WVK verenigingen, iedereen is welkom om bij ons te lopen!!
 
