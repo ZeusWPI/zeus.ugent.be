@@ -42,7 +42,7 @@ function cammie_loaded() {
       document.getElementById("cammie-ctrls-2").remove();
     }
   };
-  setTimeout(showWarning, 25000);
+  setTimeout(showWarning, 300000);
   cammieTimerStarted = true;
 }
 
