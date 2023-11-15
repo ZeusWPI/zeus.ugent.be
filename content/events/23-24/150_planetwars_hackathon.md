@@ -8,6 +8,7 @@ location: Auditorium A3, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: 'https://zeus.ugent.be/zeuswpi/kuDGG1-5.png'
 header_text_background: true
+facebook: https://www.facebook.com/events/2347885922061228
 tags:
     - Code Hacking
 ---
