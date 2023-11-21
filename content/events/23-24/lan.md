@@ -13,7 +13,7 @@ facebook: https://www.facebook.com/events/2323839811149177/
 
 # Do you wanna play a game?
 
-Het is weer tijd voor de jaarlijkste LAN-party van Zeus WPI. Voor iedereen die tot in de late uurtjes gezamenlijk wilt gamen.
+Het is weer tijd voor de jaarlijkse LAN-party van Zeus WPI. Voor iedereen die tot in de late uurtjes gezamenlijk wilt gamen.
 We organiseren meerdere competities met **€1250** aan prijzen!
 Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
@@ -44,7 +44,7 @@ Ook voor de liefhebbers van party / couch games hebben we alles voorzien!
 
 ## Eten & Drank
 
-We gaan 's avonds pizza's halen en doorheen de LAN-party is er drank voorzien aan schappelijke prijzen.
+We gaan 's avonds (rond 19:15) pizza's halen en doorheen de LAN-party is er drank voorzien aan schappelijke prijzen.
 
 ## Logistiek
 
