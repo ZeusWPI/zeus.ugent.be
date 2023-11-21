@@ -27,8 +27,8 @@ module BlogHelper
   end
 
   def current_academic_year
-    year = Time.current.year
-    month = Time.current.month
+    year = Time.now.year
+    month = Time.now.month
     start_year = month < 9 ? year - 1 : year
     "#{start_year % 100}-#{(start_year + 1) % 100}"
   end
