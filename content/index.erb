@@ -21,7 +21,11 @@
     <div class="tile is-parent">
       <div class="tile is-child">
         <div class="block has-text-centered">
-          <span class="title is-2-responsive underline--magical">Upcoming Events</span>
+          <span class="title is-2-responsive underline--magical">
+            <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: black; text-decoration: none;">
+             Upcoming Events
+             </a>
+          </span>
         </div>
         <% unless upcoming_events.empty? %>
           <% upcoming_events.each do |event| %>
@@ -41,7 +45,11 @@
       <div class="tile is-parent">
         <div class="tile is-child">
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Top Coders</span>
+            <span class="title is-2-responsive underline--magical">
+              <a href="https://gamification.zeus.gent" style="color: black; text-decoration: none;">
+              Top Coders
+              </a>
+            </span>
           </div>
           <div class="box gamification-tile">
             <div class="content">
@@ -60,7 +68,11 @@
 
 
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Previous Events</span>
+            <span class="title is-2-responsive underline--magical">
+              <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: black; text-decoration: none;">
+              Previous Events
+              </a>
+            </span>
           </div>
           <% previous_events[0..3].each do |event| %>
             <div class="block">
@@ -72,7 +84,11 @@
       <div class="tile is-parent">
         <div class="tile is-child">
           <div class='content has-text-centered box'>
-            <h2>About Zeus WPI</h2>
+            <h2>
+              <a href="https://zeus.ugent.be/about/about/" style="color: black; text-decoration: none;">
+                About Zeus WPI
+              </a>
+            </h2>
             <p>
             Zeus WPI is the student association for Computer Science at Ghent University. Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
             </p>
@@ -82,7 +98,11 @@
             </p>
           </div>
           <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">Blogposts</span>
+            <span class="title is-2-responsive underline--magical">
+              <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: black; text-decoration: none;">
+              Blogpost
+              </a>
+            </span>
           </div>
           <% sorted_articles[0..3].each do |post| %>
             <%= render '/partials/_blog_preview.*', post: post %>
