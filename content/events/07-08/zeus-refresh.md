@@ -16,4 +16,3 @@ Aangezien 2 en 3 februari in het weekend vallen, zal alle activiteit die dagen o
 
 Het bestuur.
 
-[wiki]: https://zeus.ugent.be/wiki/Zeus_Refresh
