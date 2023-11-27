@@ -10,7 +10,7 @@ banner: https://pics.zeus.gent/O7ZTXtn5.png
 header_text_background: true
 ---
 
-Dinsdag, 7 november, doen we een **Hydra codenight**! 
+Donderdag, 30 november, doen we een **Hydra codenight**! 
 
 [Hydra](https://hydra.ugent.be/) is DE app om steeds op de hoogte te blijven van het laatste nieuws en de activiteiten van jouw favoriete studentenverenigingen. Lees de schamper, zoek hypersnel het restomenu op en veel meer.... Of dat is toch de bedoeling 👀 .
 
