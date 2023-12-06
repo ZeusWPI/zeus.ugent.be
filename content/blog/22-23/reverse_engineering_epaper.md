@@ -136,7 +136,7 @@ At the time of writing this blog post, 30.19% of the 32K flash memory of the e-i
 
 Thanks [pcy](https://icosahedron.website/@pcy) for answering my many questions and concerns about voltage glitching attacks.
 
-If you have questions, comments or some things are not clear, feel free to email me (j AT zeus DOT ugent . be)
+If you have questions, comments or some things are not clear, feel free to email me <a class="email" href="mailto:%7a%65%75%73%62%6c%6f%67%40%64%65%76%72%65%6b%65%72%2e%62&#101;">zeusblog@<span>not</span>devreker.be</a>
 
 
 [^1]: The Hardware Hacker, by Andrew 'bunnie' Huang

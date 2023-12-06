@@ -201,4 +201,4 @@ We didn't want to have to recompile the bootloader, so we patched it with a hexe
 
 We've now reached all our goals: the set-top box automatically boots into Linux, with support for Ethernet and HDMI. The original Android install still boots when the special USB stick is not inserted.
 
-If you have questions or some things are not clear, feel free to contact me (j AT zeus DOT ugent . be)
+If you have questions or some things are not clear, feel free to contact me: <a class="email" href="mailto:%7a%65%75%73%62%6c%6f%67%40%64%65%76%72%65%6b%65%72%2e%62&#101;">zeusblog@<span>not</span>devreker.be</a>

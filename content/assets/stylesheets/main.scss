@@ -38,8 +38,9 @@ body {
   transform: scaleX(1);
 }
 
-
-
+a.email span {
+	display: none;
+}
 
 @import "includes/animations";
 @import "includes/cammie";
