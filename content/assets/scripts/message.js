@@ -14,7 +14,7 @@ socket.on('replymessage', function(obj) {
 $("#cammieForm").submit((e) => {
   e.preventDefault();
   formButton.addClass("is-loading");
-  socket.timeout(4000).emit("message",{username: formName.val(), message: formMessage.val()},(err,_) => {
+  socket.timeout(3000).emit("message",{username: formName.val(), message: formMessage.val()},(err,_) => {
     if (err) {
       responseSuccess.addClass("is-hidden");
       responseError.removeClass("is-hidden");
@@ -25,5 +25,6 @@ $("#cammieForm").submit((e) => {
       responseSuccess.text("Message has been successfully sent.");
       formMessage.val("");
     }
+    formButton.removeClass("is-loading");
   })
 });
