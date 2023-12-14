@@ -6,7 +6,7 @@ author: "Jasper Devreker"
 image: "https://pics.zeus.gent/rqJc7p6pSbb6FInNNyadKy2tZy2uWqDaFtuU5KPx.jpg" 
 ---
 
-This is the second article in a series about reverse engineering the ESP32 Wi-Fi networking stack, with the goal of building our own open-source MAC layer. In the [previous article](https://zeus.ugent.be/blog/blog/23-24/open-source-esp32-wifi-mac/) in this series, we built static and dynamic analysis tools for reverse engineering. We also started reverse engineering the transmit path of sending packets, and concluded with a rough roadmap and a call for contributors.
+This is the second article in a series about reverse engineering the ESP32 Wi-Fi networking stack, with the goal of building our own open-source MAC layer. In the [previous article](https://zeus.ugent.be/blog/23-24/open-source-esp32-wifi-mac/) in this series, we built static and dynamic analysis tools for reverse engineering. We also started reverse engineering the transmit path of sending packets, and concluded with a rough roadmap and a call for contributors.
 
 In this part, we'll continue reverse engineering, starting with the 'receiving packets' functionality: last time, we succesfully transmitted packets. The goal of this part is to have both transmitting and receiving working. To prove that our setup is working, we'll try to connect to an access point and send some UDP packets to a computer also connected to the network.
 
