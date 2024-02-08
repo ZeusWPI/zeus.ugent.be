@@ -5,7 +5,7 @@ time: '08-03-2024 10:00'
 end: '09-03-2024 18:00'
 location: De Kelder, Gebouw S9, Campus Sterre
 locationlink: $kelder
-banner: https://www.cybersecuritychallenge.be/assets/images/header-bg.jpg
+banner: https://pics.zeus.gent/uCnM5GOxbazhdPfO7Vd6tB3upSgehSTHkCedBm7I.jpg
 header_text_background: true
 tags:
   - Capture The Flag
