@@ -11,4 +11,4 @@ tags:
   - Gaming
 ---
 
-> **Meer info komt later**
+# SPELLEN! KELDER! MENSEN! NU!
