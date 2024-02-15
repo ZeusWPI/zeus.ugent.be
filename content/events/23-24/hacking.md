@@ -11,8 +11,7 @@ tags:
   - Capture The Flag
 ---
 
-Ben je geïnteresseerd in hacking maar stoppen je hackingskills bij cmatrix en [hackertyper](https://hackertyper.net/)
-Dan is dit event iets voor jou!
+Ben je geïnteresseerd in hacking maar stoppen je hackingskills bij cmatrix en [hackertyper](https://hackertyper.net/), dan is dit event iets voor jou!
 
 Tijdens dit event geven we uitleg over CTFs, een hackingwedstrijd waar je opdrachten krijgt uit verschillende categorieën.
 We zullen elk van deze categoriën toelichten met informatie en enkele praktische voorbeelden.
