@@ -14,7 +14,7 @@ tags:
 Ben je geïnteresseerd in hacking maar stoppen je hackingskills bij cmatrix en [hackertyper](https://hackertyper.net/)
 Dan is dit event iets voor jou!
 
-Tijdens dit event geven we uitleg over CTFs, een hackingwedstrijd waar je opdrachten krijgt uit verschillende categoriën.
+Tijdens dit event geven we uitleg over CTFs, een hackingwedstrijd waar je opdrachten krijgt uit verschillende categorieën.
 We zullen elk van deze categoriën toelichten met informatie en enkele praktische voorbeelden.
 
 Er wordt geen voorkennis verwacht, we leggen alles uit op het niveau van een eerstejaarsstudent, maar is interessant voor iedereen die iets wil bijleren over CTFs.
