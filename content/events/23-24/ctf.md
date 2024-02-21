@@ -11,4 +11,8 @@ tags:
   - Capture The Flag
 ---
 
-> **Meer info komt later**
+Als vervolg op de introductie van vorige week organiseren we een (oefen) CTF (Capture The Flag).
+
+Er zullen challenges zijn van verschillende moeilijkheden, dus iedereen kan deelnemen. Als je nog niet veel ervaring hebt zullen er ook zeus-mensen aanwezig zijn om helpen wanneer je vragen hebt.
+
+Als je graag zou deelnemen aan de [Cyber Security Challenge Belgium](https://zeus.gent/events/23-24/ctf/), is dit het perfecte event om wat ervaring op te doen (en misschien een team te vinden als je er nog geen hebt!)
