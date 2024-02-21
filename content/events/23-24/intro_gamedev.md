@@ -13,10 +13,14 @@ header_text_background: true
 # introductie tot Gamedevelopment
 
 Heb je al langer het ideale game idee? Is game design iets dat jouw aanspreekt of wil je iets nieuws leren?
-Dan helpen wij je graag verder met deze introductie waarvoor je nog geen voorkennis nodig hebt.
+Dan helpen wij je graag verder met deze introductie.
 
 ## Godot
 
 Omdat we als Zeus een grote voorstander van open source zijn, maken we gebruik van de game engine [Godot](https://godotengine.org/).
 Na een korte introductie laten we je aan de slag om een heuse, door zeus geïnspireerde, game te maken.
 Zo kan je na deze avond aan de slag om de game van je dromen te maken!
+
+## Voorbereiding
+
+Je hebt geen voorkennis nodig maar om ervoor te zorgen dat je zo snel mogelijk aan de slag [download je godot](https://godotengine.org/download) best al op voorhand.
