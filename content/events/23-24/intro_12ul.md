@@ -2,7 +2,7 @@
 title: 'Intro 12urenloop' 
 description: 'We geven een introductie tot het 12urenloop project'
 time: '25-03-2024 18:00' 
-end: '25-03-2024 23:00'
+end: '25-03-2024 22:30'
 banner: 'https://zeus.ugent.be/zeuswpi/12urenloop-banner.jpg'
 image: 'https://zeus.ugent.be/zeuswpi/12urenloop.png'
 header_text_background: true 

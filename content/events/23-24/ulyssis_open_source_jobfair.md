@@ -2,7 +2,7 @@
 title: 'ULYSSIS Jobavond'
 description: Zeus bezoekt de Open Source Job Fair van onze Leuvense collega's!
 time: '06-03-2024 17:30'
-end: '06-03-2024 21:00'
+end: '06-03-2024 22:30'
 banner: 'https://pics.zeus.gent/5cf66AUversgMwDMKvPJAI89DvZr6myKWjay7avv.png'
 location: 'Jubileumzaal KU Leuven'
 locationlink: 'Naamsestraat 22, 3000 Leuven'
