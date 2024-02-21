@@ -10,5 +10,13 @@ image: https://pics.zeus.gent/YU3bTypc.png
 header_text_background: true
 ---
 
-We tonen en demonstreren aan de hand van een, door zeus geïnspireerde, game de game engine [Godot](https://godotengine.org/).
+# introductie tot Gamedevelopment
+
+Heb je al langer het ideale game idee? Is game design iets dat jouw aanspreekt of wil je iets nieuws leren?
+Dan helpen wij je graag verder met deze introductie waarvoor je nog geen voorkennis nodig hebt.
+
+## Godot
+
+Omdat we als Zeus een grote voorstander van open source zijn, maken we gebruik van de game engine [Godot](https://godotengine.org/).
+Na een korte introductie laten we je aan de slag om een heuse, door zeus geïnspireerde, game te maken.
 Zo kan je na deze avond aan de slag om de game van je dromen te maken!

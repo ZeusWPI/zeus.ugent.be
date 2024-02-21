@@ -1,8 +1,8 @@
 ---
 title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
-time: '08-05-2023 17:30'
-end: '08-05-2023 20:30'
+time: '08-05-2024 17:30'
+end: '08-05-2024 20:30'
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: $voortuin
 banner: "https://pics.zeus.gent/lTeUqmSPl8rlmu58LxeGBijLvf9kbg17K3YtrBQ6.jpg"
