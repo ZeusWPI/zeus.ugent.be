@@ -10,6 +10,6 @@ header_text_background: true
 ---
 
 We overlopen de volledige cyclus van hardware tot software!
-Beginnend met een paar onderdelen solderen we onze weg naar een microcontroller.
-Daarna verbinden we de zelfgemaakte microcontroller met ledjes, knoppen, ... en kan je jouw programmeer skills boven halen om ze aan te sturen.
-Neem achteraf de microcontroller ook mee naar huis als aandenken!
+Beginnend met een microcontroller te solderen om het daarna te verbinden met ledjes, knoppen , ...
+Die kan je dan weer aansturen door zelfgeschreven software.
+Achteraf kan je jouw eigen microcontroller ook meepakken als aandenken!
