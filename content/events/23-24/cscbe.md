@@ -11,7 +11,7 @@ tags:
   - Capture The Flag
 ---
 
-Na de [intro hacking en CTF](https://zeus.gent/events/23-24/hacking/) en de [CTF](https://zeus.gent/events/23-24/ctf/) van de afgelopen weken zijn jullie nu klaar om mee te doen aan een echte CTF wedstrijd!!! We doen met een paar teams van Zeus WPI mee met de [CSCBE](https://www.cybersecuritychallenge.be/)
+Na de [intro hacking en CTF](https://zeus.gent/events/23-24/hacking/) en de [CTF](https://zeus.gent/events/23-24/ctf/) van de afgelopen weken zijn jullie nu klaar om mee te doen aan een echte CTF wedstrijd!!! We doen met een paar teams van Zeus WPI mee met de [CSCBE](https://www.cybersecuritychallenge.be/).
 
 De eerste ronde van de CSCBE gaat online door, en zeus stelt de kelder te beschikking voor teams die willen deelnemen. De wedstrijd start op vrijdag 8 maart om 10 uur 's en eindigd op zaterdag om 18:00. Zorg zeker voor een slaapplek, want de hele nacht doorwerken is niet aangeraden :p Ook als je nog lessen hebt vrijdag is dit okay, dan kun je na de les beginnen.
 
