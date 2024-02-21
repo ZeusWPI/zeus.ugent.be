@@ -11,4 +11,8 @@ tags:
   - Linux
 ---
 
-> **Meer info komt later**
+Zeus helpt elk jaar de nieuwe (en minder nieuwe) informaticastudenten met het installeren van Linux op hun laptops.
+
+Ben je niet zeker hoe het allemaal werkt, of waar te beginnen? Heb je een poging ondernomen maar is ineens alles kapot? Of wil je wat hulp om zaken te verbeteren? In elk geval verwelkomt Zeus je donderdag 7 maart in onze kelder, gebouw S9, wij helpen je verder!
+
+Tot dan!
