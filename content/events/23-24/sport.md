@@ -10,4 +10,4 @@ locationlink:
 ---
 
 > We zijn nog druk bezig met een sport activiteit te organiseren!
-> Kijk zeker later nog eens terug voor meer details
+> Kijk zeker later nog eens terug voor meer details.
