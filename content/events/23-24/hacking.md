@@ -21,5 +21,3 @@ Er wordt geen voorkennis verwacht, we leggen alles uit op het niveau van een eer
 Dit event is ook een voorbereiding op het [CTF event](https://zeus.gent/events/23-24/ctf/) en op de [Cyber Security Challenge Belgium](https://www.cybersecuritychallenge.be/).
 
 [Slides en challenges kun je hier vinden](https://git.zeus.gent/ZeusWPI/intro_hacking_ctf)
-
-Als je nog verder wilt doen kun je eens kijken op [PicoCTF](https://picoctf.org/)
