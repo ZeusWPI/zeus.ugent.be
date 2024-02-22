@@ -19,3 +19,5 @@ We zullen elk van deze categoriën toelichten met informatie en enkele praktisch
 Er wordt geen voorkennis verwacht, we leggen alles uit op het niveau van een eerstejaarsstudent, maar is interessant voor iedereen die iets wil bijleren over CTFs.
 
 Dit event is ook een voorbereiding op het [CTF event](https://zeus.gent/events/23-24/ctf/) en op de [Cyber Security Challenge Belgium](https://www.cybersecuritychallenge.be/).
+
+[Slides en challenges kun je hier vinden](https://git.zeus.gent/ZeusWPI/intro_hacking_ctf)
