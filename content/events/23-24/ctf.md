@@ -17,4 +17,4 @@ Er zullen challenges zijn van verschillende moeilijkheden, dus iedereen kan deel
 
 Als je graag zou deelnemen aan de [Cyber Security Challenge Belgium](https://zeus.gent/events/23-24/ctf/), is dit het perfecte event om wat ervaring op te doen (en misschien een team te vinden als je er nog geen hebt!)
 
-Als je niet kan wachten kun je al eens kijken naar de challenges op [PicoCTF](https://picoctf.org/)[PicoCTF].
+Als je niet kan wachten kun je al eens kijken naar de challenges op [PicoCTF](https://picoctf.org/).
