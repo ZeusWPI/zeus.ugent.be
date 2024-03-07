@@ -1,15 +1,46 @@
 ---
 title: Microcontrollers
 description: Maak je eigen microcontroller
-time: '19-03-2024 18:00'
+time: '19-03-2024 19:00'
 end: '19-03-2024 22:30'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/MaBumBRTBzVX3K0XBYPGDP4cIgu90efV10DOBLL2.jpg
+image: https://pics.zeus.gent/jso2KUls3aFx73LWskOHOu9T2i3IxgHvKWuNtXBi.svg
 header_text_background: true
 ---
 
-We overlopen de volledige cyclus van hardware tot software!
-Beginnend met een paar onderdelen solderen we onze weg naar een microcontroller.
-Daarna verbinden we de zelfgemaakte microcontroller met ledjes, knoppen, ... en kan je jouw programmeer skills boven halen om ze aan te sturen.
-Neem achteraf de microcontroller ook mee naar huis als aandenken!
+# Microcontrollers
+
+Ben je geïnteresseerd in microcontrollers en embedded systems? 
+Wil je leren hoe je jouw programmeervaardigheden kunt toepassen op fysieke apparaten? 
+Dan is dit perfect voor jou!
+
+## Voorkennis
+
+De focus ligt op de hardware (microcontroller, weerstanden, electrische circuits, ...) en we gaan ervan uit dat je nog niets kent. 
+We gaan daarom ook de volledige basis uitleggen en alle nodig stappen en kennis overlopen die je nodig hebt.
+
+Arduino gebruikt als programmeer taal een variant op C++.
+We verwachten niet dat je de taal al kan, we gaan je daarbij helpen om alles onder de knie te krijgen.
+We gaan er echter wel van uit dat je al een basis hebt in een andere taal (een introductie cursus voor python, java, ... volstaat).
+
+## Verloop
+
+We proberen een introductie tot microcontrollers te overlopen.
+Beginnend bij een microcontroller die we verbinden met een breadboard.
+Daarna kunnen aan de hand van de breadboard circuits maken gebruik makend van leds, potentiometers en knoppen.
+Als het circuit gemaakt is moet je er natuurlijk nog code voor schrijven en dat is dan de laatste stap.
+
+## Einde
+
+Op het eind van de avond ga je in staat zijn om simpele dingen aan te sturen via je microcontroller.
+Dankzij [Dekimo](https://www.dekimo.com/) kan je alles meepakken naar huis en er nog zo veel mee werken als je wilt.
+
+## Info
+
+Datum: 19/03
+Startuur: 19h00
+Plaats: Leslokaal 3.4, S9 campus Sterre
+
+Dit event is mogelijk gemaakt door [Dekimo](https://www.dekimo.com/)
