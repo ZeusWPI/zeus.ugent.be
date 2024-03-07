@@ -29,8 +29,8 @@ Maar we gaan er wel van uit dat je al een basis hebt in een andere taal (een int
 
 We proberen een introductie tot microcontrollers te overlopen.
 Beginnend bij een microcontroller die we verbinden met een breadboard.
-Daarna kunnen aan de hand van de breadboard circuits maken gebruik makend van leds, potentiometers en knoppen.
-Als het circuit gemaakt is moet je er natuurlijk nog code voor schrijven en dat is dan de laatste stap.
+Daarna beginnen we aan de circuits te maken met de leds, potentiometers en knoppen.
+Eenmaal dat het circuit gemaakt is moet je er natuurlijk nog code voor geschreven en daarmee houden we ons op het einde mee bezig.
 
 ## Einde
 
