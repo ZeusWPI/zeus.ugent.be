@@ -37,6 +37,11 @@ Als het circuit gemaakt is moet je er natuurlijk nog code voor schrijven en dat 
 Op het eind van de avond ga je in staat zijn om simpele dingen aan te sturen via je microcontroller.
 Dankzij [Dekimo](https://www.dekimo.com/) kan je alles meepakken naar huis en er nog zo veel mee werken als je wilt.
 
+## Inschrijven
+
+Inschrijven kan via [deze link](https://event.student.ugent.be/events/396).
+**Let op: inschrijven is verplicht**
+
 ## Info
 
 Datum: 19/03
