@@ -14,16 +14,16 @@ header_text_background: true
 
 Ben je geïnteresseerd in microcontrollers en embedded systems? 
 Wil je leren hoe je jouw programmeervaardigheden kunt toepassen op fysieke apparaten? 
-Dan is dit perfect voor jou!
+Dan is dit evenement perfect voor jou!
 
 ## Voorkennis
 
-De focus ligt op de hardware (microcontroller, weerstanden, electrische circuits, ...) en we gaan ervan uit dat je nog niets kent. 
-We gaan daarom ook de volledige basis uitleggen en alle nodig stappen en kennis overlopen die je nodig hebt.
+Voor de hardware (microcontroller, weerstanden, electrische circuits, ...) gaan we ervan uit dat je nog niets weet. 
+Daarom gaan we ook de volledige basis uitleggen en alle nodig stappen en kennis overlopen die je nodig hebt.
 
 Arduino gebruikt als programmeer taal een variant op C++.
 We verwachten niet dat je de taal al kan, we gaan je daarbij helpen om alles onder de knie te krijgen.
-We gaan er echter wel van uit dat je al een basis hebt in een andere taal (een introductie cursus voor python, java, ... volstaat).
+Maar we gaan er wel van uit dat je al een basis hebt in een andere taal (een introductie cursus voor python, java, ... volstaat).
 
 ## Verloop
 
@@ -43,4 +43,4 @@ Datum: 19/03
 Startuur: 19h00
 Plaats: Leslokaal 3.4, S9 campus Sterre
 
-Dit event is mogelijk gemaakt door [Dekimo](https://www.dekimo.com/)
+Dit event is mede mogelijk gemaakt door [Dekimo](https://www.dekimo.com/)
