@@ -6,7 +6,7 @@ end: '19-03-2024 22:30'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/MaBumBRTBzVX3K0XBYPGDP4cIgu90efV10DOBLL2.jpg
-image: https://pics.zeus.gent/jso2KUls3aFx73LWskOHOu9T2i3IxgHvKWuNtXBi.svg
+image: https://pics.zeus.gent/ZuV5Z0IIgYYeD9PPP1dzknY1cLEjxYnnktOodTyt.png
 header_text_background: true
 ---
 
