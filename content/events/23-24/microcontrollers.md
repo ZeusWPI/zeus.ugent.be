@@ -6,7 +6,7 @@ end: '19-03-2024 22:30'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/MaBumBRTBzVX3K0XBYPGDP4cIgu90efV10DOBLL2.jpg
-image: https://pics.zeus.gent/ZuV5Z0IIgYYeD9PPP1dzknY1cLEjxYnnktOodTyt.png
+image: https://pics.zeus.gent/8IfSFLuqNNJCHdn7djKyQvCYMaM0QPVDDkjHlPEt.png
 header_text_background: true
 ---
 
@@ -39,8 +39,7 @@ Dankzij [Dekimo](https://www.dekimo.com/) kan je alles meepakken naar huis en er
 
 ## Inschrijven
 
-Inschrijven kan via [deze link](https://event.student.ugent.be/events/396).
-**Let op: inschrijven is verplicht**
+Inschrijven kan via [deze link](https://event.student.ugent.be/events/396). **Inschrijven is verplicht**
 
 ## Info
 
