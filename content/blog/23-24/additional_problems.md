@@ -33,7 +33,7 @@ The challenge provides a Python file, which runs a server accessible through a T
 The server implements a form of homomorphic encryption: with homomorphic encryption, addition of two ciphertexts results in a ciphertext that decrypts to the addition of the two plaintexts.
 Here, the encryption was implemented with a secret 128-bit prime `p`, an `N` between 128 and 255. The cryptosystem works as follows:
 
-```python
+<pre><code>#!python
 def dghv_encrypt(p, N, m):
     """
     Encrypt a value to later decrypt with `dghv_decrypt`
@@ -57,7 +57,7 @@ def dghv_add(c1, c2):
     """
     return c1 + c2 # We will add bootstrapping to make this fully homomorphic in v2.0
 
-```
+</code></pre>
 
 Encryption, decryption and adding works on byte-based granularity: every byte is encrypted separately.
 
@@ -77,14 +77,16 @@ Note that other than the initial ciphertext printed at startup, we never have ac
 
 If you add too many plaintexts, the `N*r` terms become greater than `p`, making the decryption step `(c % p) % N` not work correctly anymore. Suppose you always send zero-filled plaintext, and it eventually decrypts to a value `x != 0`, then we have:
 
-```
+<pre><code>
 (p*q + N*r + (m_0 + m_1 + m_... + m_n) % p) % N == x
 
 because all message bytes m_n are 0, we have
 
 (p*q + N*r % p) % N == x
 
-now, let N*r > p, but smaller than 2*p (we can be sure of this, since r only increases with maximum 2**128 / N / 4 per encryption and p is a 128 bit prime), then we have
+now, let N*r > p, but smaller than 2*p (we can be sure of this,
+since r only increases with maximum 2**128 / N / 4 per encryption
+and p is a 128 bit prime), then we have
 
 N*r = p + a
 and thus (p % N + a % N) = 0 (mod N, of course)
@@ -104,16 +106,18 @@ a % N = x
 and since x < N,
 
 p % N == N - x
-```
+
+</code></pre>
 
 We can then iterate through all prime values of N between 128 and 255 to get each value of `p % N_i`; once we have these values, we can use the Chinese Remainder Theorem to calculate p (since the product of all those primes is bigger than 128 bits, p is uniquely determined).
 
 
 # Solution script
 
-This script was written in the heat of the moment, so it's not the cleanest, but it works:
+This script was written in the heat of the moment, so it's not the cleanest, but it works.
+It uses the excellent pwntools library.
 
-```python
+<pre><code>#!python
 from pwn import remote
 
 conn = remote('additional_problems.challenges.cybersecuritychallenge.be', 1340)
@@ -214,4 +218,4 @@ for cipher in ciphertexts:
     print(chr(dghv_decrypt(recovered, 128, cipher)), end='')
 
 print('')
-```
+</code></pre>
