@@ -31,7 +31,7 @@ This challenge proved to be among the hardest challenges at CSCBE, with only one
 
 The challenge provides a Python file, which runs a server accessible through a TCP socket.
 The server implements a form of homomorphic encryption: with homomorphic encryption, addition of two ciphertexts results in a ciphertext that decrypts to the addition of the two plaintexts.
-Here, the encryption was implemented with a secret 128-bit prime `p`, an `N` between 128 and 255. The cryptosystem works as follows:
+Here, the encryption was implemented with a secret 128-bit prime `p`, and an `N` between 128 and 255. The cryptosystem works as follows:
 
 <pre><code>#!python
 def dghv_encrypt(p, N, m):
@@ -78,38 +78,37 @@ Note that other than the initial ciphertext printed at startup, we never have ac
 If you add too many plaintexts, the `N*r` terms become greater than `p`, making the decryption step `(c % p) % N` not work correctly anymore. Suppose you always send zero-filled plaintext, and it eventually decrypts to a value `x != 0`, then we have:
 
 <pre><code>
-(p*q + N*r + (m_0 + m_1 + m_... + m_n) % p) % N == x
+(p*q + N*r + (m_0 + m_1 + m_... + m_n)) % p % N == x
 
 because all message bytes m_n are 0, we have
 
-(p*q + N*r % p) % N == x
+(p*q + N*r) % p % N == x
 
 now, let N*r > p, but smaller than 2*p (we can be sure of this,
 since r only increases with maximum 2**128 / N / 4 per encryption
 and p is a 128 bit prime), then we have
 
-N*r = p + a
-and thus (p % N + a % N) = 0 (mod N, of course)
+N*r = p + a.
 
-then we have, by substituting N*r for p + a
+By substituting N*r for p + a
 
-((p*q + p + a) % p) % N == x
+(p*q + p + a) % p % N == x
 
 which is then equal to
 
-(a % p) % N == x
+a % p % N == x
 
 and thus, since a < p,
 
 a % N = x
 
-and since x < N,
+and since 0 < x < N,
 
-p % N == N - x
+p % N == N - x.
 
 </code></pre>
 
-We can then iterate through all prime values of N between 128 and 255 to get each value of `p % N_i`; once we have these values, we can use the Chinese Remainder Theorem to calculate p (since the product of all those primes is bigger than 128 bits, p is uniquely determined).
+We can then iterate through all prime values of N between 128 and 255 to get each value of `p % N_i`; once we have these values, we can use [the Chinese Remainder Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem) to calculate p (since the product of all those primes is bigger than 128 bits, p is uniquely determined).
 
 
 # Solution script
