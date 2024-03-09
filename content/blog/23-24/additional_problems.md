@@ -25,7 +25,7 @@ Access the server via `nc IP_ADDRESS PORT` (the server is now down, but you can 
 
 # Introduction
 
-This challenge proved to be among the hardest challenges at CSCBE, with only one team submitting a flag.
+This challenge proved to be among the hardest challenges at CSCBE, with only one team submitting a flag. The teams at Zeus WPI ended up in 2nd, 9th (virtual, since winners are not allowed to participate again), 52nd and 83rd and 104th place at the online qualifiers.
 
 # Description
 
