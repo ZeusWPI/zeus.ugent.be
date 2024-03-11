@@ -10,6 +10,6 @@ banner: https://zeus.ugent.be/zeuswpi/datacenter.jpg
 header_text_background: true
 ---
 
-Omdat wij als echte Zeussers en Zeusinnen fan zijn van snelle computers en flikkerende lichtjes organiseren we in samenwerking met de medewerkers van de HPC een rondleiding door het datacenter in gebouw S10. Wil je weten waar Ufora, de Zeus servers en zo veel meer draaien? Schrijf je dan in via [TODO](https://event.student.ugent.be/)!
+Omdat wij als echte Zeussers en Zeusinnen fan zijn van snelle computers en flikkerende lichtjes organiseren we in samenwerking met de medewerkers van de HPC een rondleiding door het datacenter in gebouw S10. Wil je weten waar Ufora, de Zeus servers en zo veel meer draaien? Schrijf je dan in via [Gandalf](https://event.student.ugent.be/events/397)!
 
 **Inschrijven is verplicht**
