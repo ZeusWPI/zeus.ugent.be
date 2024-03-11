@@ -17,7 +17,7 @@ traditiegetrouw eten in Patrick Foleys.
 
 ## Waar en wanneer?
 
-Dit jaar zullen de verkiezingen doorgaan op **8 mei 2023** in de studententuin. We starten om **17:30**.
+Dit jaar zullen de verkiezingen doorgaan op **8 mei 2024** in de studententuin. We starten om **17:30**.
 
 ## Kandidaten
 
