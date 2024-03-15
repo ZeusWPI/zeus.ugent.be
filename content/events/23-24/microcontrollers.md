@@ -1,6 +1,6 @@
 ---
 title: Microcontrollers
-description: Maak je eigen microcontroller
+description: Leer werken met microcontrollers!
 time: '19-03-2024 19:00'
 end: '19-03-2024 22:30'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
@@ -28,7 +28,7 @@ We gaan er echter wel van uit dat je al een basis programmeren hebt in een ander
 
 We beginnen bij de microcontroller die we verbinden met een breadboard.
 Daarna maken we het wat interessanter door de microcontroller en het breadboard uit te breiden met leds, potentiometers en knoppen.
-Tenslotte schrijven we code voor onze microcontrollers om NASA te hacken.
+Tenslotte schrijven we code voor onze microcontrollers om ze aan te sturen.
 
 ## Einde
 
