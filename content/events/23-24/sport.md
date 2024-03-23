@@ -1,5 +1,5 @@
 ---
-title: 'Zeus Sport'
+title: 'Zeus Loopt'
 description: 'Tijd voor het jaarlijks sport evenement!'
 time: '28-03-2024 18:00'
 end: '28-03-2024 20:00'
