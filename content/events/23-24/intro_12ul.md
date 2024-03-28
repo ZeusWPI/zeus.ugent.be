@@ -16,25 +16,16 @@ locationlink: $kelder
 hoeveel rondjes gelopen heeft. Als goede informatici doen we dit echter niet manueel maar werken we aan een
 volautomatisch systeem om dit voor ons te doen.
 
-## introductie
-
-Om vooruitgang te maken in dit project en nieuwe leden te introduceren tot wat dit eigenlijk allemaal inhoudt, organiseren we in de week van 25 tem. 29 maart een codeweek!
-Dat wil zeggen dat we heel de week aan allerhande issues zullen werken. Spring dus zeker eens binnen in de Kelder om mee
-te helpen.
-
-Een overzichtje van de week
-
-|Maandag        |Dinsdag|Woensdag|Donderdag|Vrijdag|
-|---------------|-------|--------|---------|-------|
-|Intro Codenight|TBD    |TBD     |TBD      |TBD    |
-
-- _**CodeNight**_: Iemand aanwezig in de kelder doorheen de avond.
-- _**CodeDag**_: We proberen overdag in de kelder aan het project te werken. Kijk eens op [Cammie](https://zeus.ugent.be/cammie/) of iemand aanwezig is, of laat in [~12urenloop op Mattermost](https://mattermost.zeus.gent/zeus/channels/12urenloop) weten wanneer je plant af te zakken naar de kelder!
-
 ## Introductie
 
-**Maandag 25/03** zullen we daarboven een introductie tot het project geven voor de mensen die geïnteresseerd zijn om te
-helpen maar nog niet goed weten hoe ons proejct werkt. We spreken af om **18u00** in de Zeus Kelder.
+Om vooruitgang te maken in dit project en nieuwe leden te introduceren tot wat dit eigenlijk allemaal inhoudt, organiseren we **maandag 25/03** een introductie tot ons telsysteem!
+Weet je nog niet goed hoe ons project werkt, kom dan zeker om **18u00** naar de Zeus Kelder.
+We geven een volledige introductie en overlopen de plannen voor dit semester.
+
+## Uittesten
+
+**Donderdag 28/03** testen we ons systeem opnieuw uit.
+Zin om mee een paar rondjes te lopen? Kijk dan zeker eens naar [het evenement](https://zeus.gent/events/23-24/sport/).
 
 ## Nu al benieuwd?
 

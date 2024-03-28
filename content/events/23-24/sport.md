@@ -1,13 +1,17 @@
 ---
-title: 'Zeus Sport'
+title: 'Zeus Loopt'
 description: 'Tijd voor het jaarlijks sport evenement!'
-time: '28-03-2024 00:00'
-end: '28-03-2024 23:59'
-banner: 'https://pics.zeus.gent/HOuBjVvhNZIBYu1k3V3dcDjR6zwRhcx0pZBPv4En.jpg'
+time: '28-03-2024 18:00'
+end: '28-03-2024 20:00'
+banner: 'https://pics.zeus.gent/fTmMepDFvczRAvHVU9RGkrLHzUay493Sv1vMsoTe.jpg'
 header_text_background: true
-location:
-locationlink:
+location: 'Campus Sterre, Gebouw S9, Zeus Kelder' 
 ---
 
-> We zijn nog druk bezig met een sport activiteit te organiseren!
-> Kijk zeker later nog eens terug voor meer details.
+# Mini urenloop
+
+24 april is het weer tijd voor de 12urenloop.
+Om ervoor te zorgen dat ons telsysteem goed werkt houden we onze eigen mini urenloop!
+
+Wil je ons helpen om te kijken of alles goed werkt of heb je gewoon zin om wat te lopen?
+Kom dan zeker af **donderdag 28/03** voor je weekelijkse sportmomentje!
