@@ -1,15 +1,14 @@
 ---
 title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
-time: '08-05-2024 17:30'
-end: '08-05-2024 20:30'
+time: "08-05-2024 17:30"
+end: "08-05-2024 20:30"
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: $voortuin
 banner: "https://pics.zeus.gent/lTeUqmSPl8rlmu58LxeGBijLvf9kbg17K3YtrBQ6.jpg"
 header_text_background: true
 tags:
-  - Verkiezingen
-
+    - Verkiezingen
 ---
 
 Ook dit jaar moet er een nieuw bestuur gekozen worden voor uw favoriete vereniging. Out with the old, in with the new. Omdat wij democratie wel een leuk idee vinden, organiseren we ook dit jaar verkiezingen. Nadien gaan we
@@ -25,7 +24,7 @@ Je kandidatuur indienen kan nog tot 05/05 om 23u59. Dit via een email naar het [
 
 ### Verloop
 
- Als je wil stemmen en stemgerechtigd bent, registreer je dan op voorhand op [MSRS][msrs], het "Membership Registration System". Voor de duidelijkheid, bij deze nog eens het relevante artikel uit de statuten over wie stemrecht heeft:
+Als je wil stemmen en stemgerechtigd bent, registreer je dan op voorhand op [MSRS][msrs], het "Membership Registration System". Voor de duidelijkheid, bij deze nog eens het relevante artikel uit de statuten over wie stemrecht heeft:
 
 > Stemgerechtigde leden zijn de leden die stemrecht hebben op de ledenvergaderingen. Het stemrecht komt toe aan de leden die een opleiding volgen aan de UGent met een focus op informatica. Het bestuur kan het stemrecht ook toekennen aan leden die hebben bijgedragen tot de verdere ontplooiing van de vereniging. Dit stemrecht vervalt samen met het lidmaatschap aan de start van het nieuwe academiejaar.
 
@@ -45,6 +44,6 @@ Heb je al prangende vragen voor mensen die opkomen voor bepaalde functies, dan k
 Om de verkiezingen zo vlot mogelijk te laten verlopen worden deze al op voorhand ook verzameld en doorgegeven aan de kandidaten. Maar geen nood, ook tijdens de verkiezingen kunnen er nog spontane vragen gesteld worden.
 
 [bestuur-mm]: https://mattermost.zeus.gent/zeus/channels/bestuur
-[functieprofielen]: https://git.zeus.gent/bestuur/drive/-/blob/master/varia/functieprofielen.md
+[functieprofielen]: https://git.zeus.gent/ZeusWPI/drive/src/branch/master/varia/functieprofielen.md
 [statuten]: https://zeus.ugent.be/about/statuten/#hoofdstuk-iii---het-bestuur
 [msrs]: https://msrs.zeus.gent/
