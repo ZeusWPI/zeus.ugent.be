@@ -23,4 +23,4 @@ Zo kan je na deze avond aan de slag om de game van je dromen te maken!
 
 ## Voorbereiding
 
-Je hebt geen voorkennis nodig maar om ervoor te zorgen dat je zo snel mogelijk aan de slag [download je godot](https://godotengine.org/download) best al op voorhand.
+Je hebt geen voorkennis nodig maar om ervoor te zorgen dat je zo snel mogelijk aan de slag kan [download je godot](https://godotengine.org/download) best al op voorhand.
