@@ -87,7 +87,8 @@ data:
     name: TuxcAPE
     repo: https://github.com/ZeusWPI/Tuxcape
   zauth:
-    name: Zeus AUTHentication Service
+    name: Zeus Authentication Service
+    site: https://zauth.zeus.gent
     repo: https://github.com/ZeusWPI/zauth
   zinc:
     name: ZINC
