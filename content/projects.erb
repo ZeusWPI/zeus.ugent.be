@@ -3,6 +3,9 @@ navigable: true
 title: Projecten
 order: 30
 ---
+
+<h1 class='title is-1 has-text-centered'>Active projects</h1>
+
 <div class="container project content">
   <article id="hydra" class="columns">
     <div class="column is-one-quarter" id="logo-column">
@@ -43,9 +46,17 @@ order: 30
   </article>
 </div>
 
-
 <div class="columns is-multiline is-variable is-3">
-  <% all_projects.each do |project| %>
+  <% active_projects.each do |project| %>
     <%= render '/partials/_project.erb', project: project%>
   <% end %>
+</div>
+
+<h1 class='title is-1 has-text-centered'>Dormant projects</h1>
+
+<div class="columns is-multiline is-variable is-3">
+  <% dormant_projects.each do |project| %>
+    <%= render '/partials/_project.erb', project: project%>
+  <% end %>
+</div>
 </div>

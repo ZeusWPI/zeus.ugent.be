@@ -7,4 +7,12 @@ module ProjectsHelper
   def all_projects
     all_project_items.sort_by{|project| -(project[:priority] || 0)}
   end
+
+  def active_projects
+    all_projects.find_all{|project| project[:active]}
+  end
+
+  def dormant_projects
+    all_projects.find_all{|project| project[:active]}
+  end
 end
