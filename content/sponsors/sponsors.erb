@@ -1,43 +1,39 @@
 ---
 narrow_page: true
 subnavigation:
-  bar: about
-  identifier: sponsorende-leden
-  name: Sponsorende leden
-  order: 700
+  bar: sponsors
+  identifier: sponsors
+  name: Sponsors
+  order: 20
 ---
 
-<h1 class='title is-1 has-text-centered'>Sponsorende leden</h1>
+<h1 class='title is-1 has-text-centered'>Sponsors</h1>
 
-<div id='sponsoring-members' class="content">
-  <% if current_sponsoring_members.nil? %>
-    Nog geen sponsorende leden voor dit academiejaar. Interesse? Contacteer het bestuur.
+<div id='sponsors' class="content">
+  <% if current_sponsors.nil? %>
+    No sponsors yet for this academic year. Interested? Contact the board.
   <% else %>
-    <% current_sponsoring_members.shuffle.each do |member| %>
-      <div id="<%= member[:nickname] %>" class="box sponsoring-member">
+    <% current_sponsors.shuffle.each do |sponsor| %>
+      <div id="<%= sponsor[:name] %>" class="box sponsoring-member">
         <article class="columns is-mobile">
           <div class="column is-gapless is-narrow logo-wrapper">
-            <% if member[:photo] %>
-              <img src="<%= member[:photo] %>" alt="<%= member[:name] %>">
+            <% if sponsor[:photo] %>
+              <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
             <% else %>
               <div class="logo-initial has-text-centered">
-                <%= member[:name].chars.first %>
+                <%= sponsor[:name].chars.first %>
               </div>
             <% end %>
-            <div class="name"><%= member[:name] %></div>
-            <div class="username">(<%= member[:nickname] %>)</div>
+            <div class="name"><%= sponsor[:name] %></div>
           </div>
           <div class="column">
             <div>
-              <blockquote>
-                <%= to_HTML(member[:quote]) %>
-              </blockquote>
               <p class="description">
-                <%= to_HTML(member[:description]) %>
+                <%= to_HTML(sponsor[:description]) %>
               </p>
             </div>
             <div class="links">
-              <% member[:links].each do |link| %>
+              <% sponsor[:links].each do |link| %>
                 <% if link[:icon] %>
                   <a class="social-icon" href="<%= link[:url] %>" target="_blank">
                       <span class="icon">
