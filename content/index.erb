@@ -90,11 +90,13 @@
               </a>
             </h2>
             <p>
-            Zeus WPI is the student association for Computer Science at Ghent University. Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+            Zeus WPI is the student association for Computer Science at Ghent University.
+            Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
             </p>
 
             <p>
-            We organize various tech related talks by experts (eg. professors, PhD's, Richard Stallman, Felix Reda, ...), hands-on coding events and introductory lectures for cool technologies. Together we build interesting applications for Ghent University students (Hydra), for FaculteitenKonvent and 12urenloop, and ofcourse for ourselves. 
+            We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
+            Together we build applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='https://12urenloop.be/'>12urenloop</a> and of course for ourselves.
             </p>
           </div>
           <div class="block has-text-centered">
@@ -104,7 +106,7 @@
               </a>
             </span>
           </div>
-          <% sorted_articles[0..3].each do |post| %>
+          <% sorted_articles[0..2].each do |post| %>
             <%= render '/partials/_blog_preview.*', post: post %>
           <%end%>
         </div>
@@ -117,5 +119,64 @@
         </div>
       </div>
     </div>
+    <!--Sponsors -->
+    <div class="tile is-parent">
+      <div id='sponsoring-members' class="tile is-child">
+        <div class="block has-text-centered">
+          <span class="title is-2-responsive underline--magical">
+            <a href="https://zeus.ugent.be/sponsors/members" style="color: black; text-decoration: none;">
+              Sponsoring members
+            </a>
+          </span>
+        </div>
+        <% if current_sponsoring_members.nil? %>
+          <div class="block has-text-centered">
+            <p>No sponsoring members yet for this academic year. Interested? Contact the board.</p>
+          </div>
+        <% else %>
+          <div class="columns is-centered is-multiline is-mobile">
+            <% current_sponsoring_members.shuffle.each do |member| %>
+              <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
+                <figure class="image is-squared">
+                  <a href="https://zeus.ugent.be/sponsors/members/#<%= member[:nickname] %>">
+                    <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
+                  </a>
+                </figure>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <div id="sponsors" class="tile is-child">
+        <div class="block has-text-centered">
+          <span class="title is-2-responsive underline--magical">
+            <a href="https://zeus.ugent.be/sponsors/sponsors" style="color: black; text-decoration: none;">
+              Sponsors
+            </a>
+          </span>
+        </div>
+        <% if current_sponsors.nil? %>
+          <div class="block has-text-centered">
+            <p>No sponsors yet for this academic year. Interested? Contact the board.</p>
+          </div>
+        <% else %>
+          <div class="columns is-centered is-multiline is-mobile">
+            <% current_sponsors.shuffle.each do |sponsor| %>
+              <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
+                <figure class="image is-squared">
+                  <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
+                    <img class="is-rounded" src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+                  </a>
+                </figure>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>
+
+<!-- TODO: Change url -->
