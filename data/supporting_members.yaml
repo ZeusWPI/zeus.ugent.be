@@ -790,3 +790,11 @@ data:
           url: https://mastodon.social/@nielsdg
         - icon: twitter
           url: https://twitter.com/NielsDeGraef
+    - name: Tom Naessens
+      nickname: Silox
+      photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
+      quote: Raad mij keer een quote aan guys, eentje waarin ik mezelf niet belachelijk maak.
+      description: To be continued.
+      links:
+        - icon: github
+          url: https://github.com/Silox
