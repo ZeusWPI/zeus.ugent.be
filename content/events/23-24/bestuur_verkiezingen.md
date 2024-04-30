@@ -20,7 +20,7 @@ Dit jaar zullen de verkiezingen doorgaan op **8 mei 2024** in de studententuin. 
 
 ## Kandidaten
 
-Je kandidatuur indienen kan nog tot 07/05 om 23u59. Dit via een email naar het [zeusbestuur](mailto:bestuur@zeus.ugent.be).
+Je kandidatuur indienen kan nog tot 07/05 om 20u00. Dit via een email naar het [zeusbestuur](mailto:bestuur@zeus.ugent.be).
 
 ### Verloop
 
@@ -37,7 +37,7 @@ De bestelling wordt later dit jaar open gesteld.
 
 ### Interesse?
 
-Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste **7 mei** door via mail naar [bestuur@zeus.ugent.be](mailto:bestuur@zeus.ugent.be).
+Voel je je gemotiveerd, heb jij zin om volgend jaar bestuur te worden? Stuur dan nu je kandidatuur ten laatste **7 mei om 20u00** door via mail naar [bestuur@zeus.ugent.be](mailto:bestuur@zeus.ugent.be).
 Alle info over de functies en wat het inhoudt om in het bestuur te zitten kun je vinden in het bestand [functieprofielen][functieprofielen]. Zit je nog steeds met vragen? Aarzel dan niet om iemand van het huidige bestuur aan te spreken!
 
 Heb je al prangende vragen voor mensen die opkomen voor bepaalde functies, dan kun je die ook al stellen door te mailen naar [bestuur@zeus.ugent.be](mailto:bestuur@zeus.ugent.be).
