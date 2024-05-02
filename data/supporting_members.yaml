@@ -798,3 +798,9 @@ data:
       links:
         - icon: github
           url: https://github.com/Silox
+    - name: Kenneth Van den Driessche
+      nickname: tleilaxu
+      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
+      quote: TODO
+      description: Komt wel nog
+      links: []
