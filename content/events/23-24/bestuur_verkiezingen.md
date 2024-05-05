@@ -16,7 +16,7 @@ traditiegetrouw eten in Patrick Foleys.
 
 ## Waar en wanneer?
 
-Dit jaar zullen de verkiezingen doorgaan op **8 mei 2024** in de studententuin. We starten om **17:30**.
+Dit jaar zullen de verkiezingen doorgaan op **8 mei 2024** in de studententuin. We starten om **17u30**.
 
 ## Kandidaten
 
@@ -33,7 +33,9 @@ Het verdere verloop van de verkiezingen wordt uitgelegd op de verkiezingen zelf,
 ### Patrick Foleys
 
 We verplaatsen ons na de verkiezingen naar de Patrick Foleys!
-De bestelling wordt later dit jaar open gesteld.
+Om de bestelling vlot te laten verlopen vragen we je etenskeuze al door te geven vóór **7/5 12u00**.
+
+Je keuze doorgeven kan via [haldis](https://haldis.zeus.gent/order/w5dn83sg)
 
 ### Interesse?
 
