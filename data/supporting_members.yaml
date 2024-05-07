@@ -804,3 +804,18 @@ data:
       quote: TODO
       description: Komt wel nog
       links: []
+    - name: Titouan Vervack
+      nickname: FlashYoshi
+      photo: https://zeus.ugent.be/zeuswpi/0U6neVQP.jpg
+      quote: Ansible is af!
+      description: |-
+        Puns, weeb, Sigasi, klimt, taart.
+        Houdt écht van Java.
+        Gebruikt tabs én spaces.
+      links:
+        - icon: twitter
+          url: https://twitter.com/tivervac
+        - icon: github
+          url: https://github.com/tivervac
+        - icon: gitlab
+          url: https://gitlab.com/FlashYoshi
