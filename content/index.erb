@@ -137,11 +137,11 @@
           <div class="columns is-centered is-multiline is-mobile">
             <% current_sponsoring_members.shuffle.each do |member| %>
               <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
-                <figure class="image is-squared">
+                <div class="rounded-container">
                   <a href="https://zeus.ugent.be/sponsors/members/#<%= member[:nickname] %>">
                     <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
                   </a>
-                </figure>
+                </div>
               </div>
             <% end %>
           </div>
@@ -165,11 +165,11 @@
           <div class="columns is-centered is-multiline is-mobile">
             <% current_sponsors.shuffle.each do |sponsor| %>
               <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
-                <figure class="image is-squared">
+                <div class="rounded-container">
                   <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
                     <img class="is-rounded" src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
                   </a>
-                </figure>
+                </div>
               </div>
             <% end %>
           </div>
@@ -178,5 +178,3 @@
     </div>
   </div>
 </div>
-
-<!-- TODO: Change url -->
