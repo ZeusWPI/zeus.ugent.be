@@ -8,38 +8,37 @@
 @import "node_modules/bulma/bulma";
 @import "node_modules/bulma-timeline/src/sass/index.sass";
 
-
 // Sticky footer
 body {
-  &.site {
-    overflow-x: hidden;
+    &.site {
+        overflow-x: hidden;
 
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
 
-  .wrapper {
-    flex: 1;
-  }
+    .wrapper {
+        flex: 1;
+    }
 }
 
 .mirrored {
-  transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .mirror {
-  transition: 5s;
-  transform: scaleX(-1);
+    transition: 5s;
+    transform: scaleX(-1);
 }
 
 .unmirror {
-  transition: 5s;
-  transform: scaleX(1);
+    transition: 5s;
+    transform: scaleX(1);
 }
 
 a.email span {
-	display: none;
+    display: none;
 }
 
 @import "includes/animations";
@@ -55,3 +54,4 @@ a.email span {
 @import "includes/about";
 @import "includes/privacy";
 @import "includes/toc";
+@import "includes/index.scss";

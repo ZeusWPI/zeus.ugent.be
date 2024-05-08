@@ -1,0 +1,16 @@
+.rounded-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Maintain aspect ratio (1:1 square) */
+    border-radius: 50%; /* Make it rounded */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.rounded-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
