@@ -835,3 +835,11 @@ data:
           url: https://github.com/Procrat
         - icon: linkedin
           url: https://www.linkedin.com/in/stijn-seghers/
+    - name: Nicky Vandeghinste
+      nickname: nickyname
+      photo: https://zeus.ugent.be/zeuswpi/OVMcPb3O.jpg
+      quote: <nickyname> Weet je, als je tetten hebt, is elke talk eigenlijk een TET-talk
+      description: Durft dingen doen, houdt van ice teas en jullie. Ik snap de obsessie van Zeus met tiramisu niet.
+      links:
+        - icon: twitter
+          url: https://twitter.com/NickyVdg
