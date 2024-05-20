@@ -1,3 +1,4 @@
 Contact: mailto:admin@zeus.ugent.be
 Preferred-Languages: nl,en
-Policy: https://git.zeus.gent/bestuur/drive/-/blob/master/varia/responsible_disclosure_policy_nl.md
+Policy: https://git.zeus.gent/ZeusWPI/drive/raw/branch/master/varia/responsible_disclosure_policy_nl.md
+Policy: https://git.zeus.gent/ZeusWPI/drive/raw/branch/master/varia/responsible_disclosure_policy_en.md
