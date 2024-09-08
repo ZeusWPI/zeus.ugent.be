@@ -843,3 +843,15 @@ data:
       links:
         - icon: twitter
           url: https://twitter.com/NickyVdg
+    - name: Pieter Vander Vennet
+      nickname: pietervdvn
+      photo: https://zeus.ugent.be/zeuswpi/O_nr6ggA.jpg
+      quote: Is dat al gemapped?
+      description: Na de master Wiskundige informatica af te werken waarbij hij enkele jaren in het Zeus-bestuur heeft gezeten, komt hij nu nog graag eens langs om te kelderen of om het over open kaarten en routeplanning te hebben. Daarnaast is hij ook fan van een overdosis hackerspace en lichtjes, waarvoor hij ieder jaar naar Leipzig afzakt en Zeus-mensjes meeneemt daarnaartoe.
+      links:
+        - icon: map
+          url: https://osm.org/user/Pieter%20Vander%20Vennet
+        - icon: github
+          url: https://github.com/pietervdvn
+        - icon: mastodon
+          url: https://en.osm.town/@pietervdvn
