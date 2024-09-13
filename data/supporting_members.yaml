@@ -855,3 +855,11 @@ data:
           url: https://github.com/pietervdvn
         - icon: mastodon
           url: https://en.osm.town/@pietervdvn
+    - name: Jasper Devreker
+      nickname: j
+      photo: https://pics.zeus.gent/m83ZZjf5sE4iPhxrtnL2jp79d0JyZt5v8bOTlcPL.jpg
+      quote: "<j> fucking hell, 'buienradar', more like 'buien? raad maar!'"
+      description: Doet in zijn vrije tijd security, hardware, embedded software, reverse engineering en andere dingen die pijn doen
+      links:
+        - icon: wifi
+          url: https://esp32-open-mac.be/
