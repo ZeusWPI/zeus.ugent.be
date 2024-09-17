@@ -12,7 +12,7 @@ header_text_background: true
 # Moeilijk Zeusprotocol
 Zeus heeft een protocol bedacht, en we hebben een server, maar niemand kan er mee communiceren! Schrijf jij een implentatie zodat je met onze server kan communiceren?
 
-Dit is een iets moeilijker evenement, maar iedereen is welkom!
+Dit is een iets moeilijker evenement waarvoor je best al in het 2de jaar zit, maar iedereen is welkom en we zullen er zijn als je vragen hebt!
 
 Extra info volgt!
 

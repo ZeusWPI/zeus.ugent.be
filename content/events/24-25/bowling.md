@@ -1,6 +1,6 @@
 ---
 title: Bowlen
-description: Zeus gaat bowlen! O
+description: Zeus gaat bowlen!
 time: '20-11-2024 18:00'
 end: '20-11-2024 23:00'
 location: TBD

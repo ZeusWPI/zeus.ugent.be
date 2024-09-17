@@ -12,5 +12,7 @@ tags:
 ---
 
 # Mario-Kart & Trackmania Keldernight
-Leer de kelder kennen (locatie en de mensen) door samen racinggames te spelen! Er zullen switches aanwezig zijn, maar je mag er altijd nog meebrengen :)
+Leer de kelder kennen (locatie en de mensen) door samen racinggames te spelen!
+
+Er zullen switches en een beamer aanwezig zijn, voor Trackmania breng je best je eigen laptop mee.
 

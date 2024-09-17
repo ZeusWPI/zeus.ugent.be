@@ -12,11 +12,13 @@ header_text_background: true
 
 # Esotherische Kennismakingsavond
 
-Tweede week, tijd om kennis te maken met Zeus, andere studenten en vreemde programmeertalen!
+Tweede week, tijd om eens iets te programmeren! Maak je geen zorgen als je nog maar enkele lessen achter de rug hebt, deze programmeertalen zul je nooit zien in de richting.
+
+Als je nog niet kun programmeren, zullen we er zijn om je vragen te beantwoorden.
 
 Maak een programma door een doolhof te tekenen in ascii-art, of Hello World met
     `++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
 
-We voorzien een lijst van interessante talen, en enkele opdrachten die je kunt proberen in een van deze talen.
+We voorzien een lijst van interessante talen, en enkele opdrachten die je kunt proberen te volbrengen in een van deze talen.
 
-Als je nog niet kunt programmeren, geen probleem, want niemand kan goed programmeren in deze talen! We zullen ook aanwezig zijn om te helpen waar nodig :)
+Als je van al dat denken honger krijgt, zullen we ook samen eten bestellen!

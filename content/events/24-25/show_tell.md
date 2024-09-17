@@ -1,9 +1,9 @@
 ---
 title: Show & Tell Zeusprojecten
 description: Uitleg over hoe je kan meewerken aan bestaande en nieuwe zeusprojecten
-time: '08-10-2024 18:00'
-end: '08-10-2024 23:00'
-location: Kelder, Gebouw S9, Campus Sterre
+time: '10-10-2024 18:00'
+end: '10-10-2024 23:00'
+location: Leslokaal 3.4, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/ELRRrny1JbSpqad5qcaGyJUU51kQNQzL13xwhABq.jpg
 header_text_background: true

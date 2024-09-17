@@ -11,9 +11,9 @@ header_text_background: true
 ---
 
 # Spaghetticode codenight
-Code spaghetti
+Tijd om alle good practices te vergeten (is er daar geen spreekwoord voor? Omgekeerde van onder het stof halen)!
 
-Hoe meer spaghetti, hoe meer punten
+Deze avond staat in teken van zo onduidelijk mogelijke code schrijven. Het soort code waarvan je morgen al niet meer weet hoe het werkt!
 
-Schrijf het meeste spaghetti
+Doorheen de avond geven we je code punten. Hoe meer spaghetti code, hoe meer punten je zal scoren. Op het einde van de avond kunnen we de meester van lelijke code bekronen!
 
