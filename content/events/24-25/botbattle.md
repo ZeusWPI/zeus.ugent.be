@@ -11,7 +11,7 @@ header_text_background: true
 
 # Botbattle CenEka Codenight
 
-Op 17 oktober gaat de CenEka Botbattle van start! Iedereen is welkom in de kelder om aan hun bot te werken. We bespreken mogelijke strategieën en kijken hoe hoog we kunnen scoren.
+Op 17 oktober doen wij mee met de CenEka Botbattle! Iedereen is welkom in de kelder om aan hun bot te werken. We bespreken mogelijke strategieën en kijken hoe hoog we kunnen scoren.
 
 CenEka voorziet voorbeeldcode en documentatie, dus dit is zeker voor iedereen haalbaar!
 
