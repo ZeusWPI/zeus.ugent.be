@@ -28,7 +28,7 @@
           </span>
         </div>
         <% unless upcoming_events.empty? %>
-          <% upcoming_events.each do |event| %>
+          <% upcoming_events.first(3).each do |event| %>
             <div class="block">
               <%= render '/partials/_events_tile.*', event: event %>
             </div>
