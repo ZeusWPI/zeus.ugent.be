@@ -14,5 +14,4 @@ Wil je snel dingen leren doen? Dan is dit het event voor jou!
 
 We voorzien een paar snelle workshops die je kan volgen naar keuze.
 
-Exacte workshops en info volgt!
-
+De exacte workshops en info volgt!
