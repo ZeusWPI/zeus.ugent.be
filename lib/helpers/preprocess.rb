@@ -20,6 +20,7 @@ module PreprocessHelper
     {
       '$kelder' => 'Zeus WPI, Gent',
       '$s9' => 'S9, Gent',
+      '$s5' => 'S5, Gent',
       '$therminal' => 'De Therminal, Gent',
       '$voortuin' => 'Studententuin voortuin, Gent',
       '$achtertuin' => 'Studententuin achtertuin, Gent'
