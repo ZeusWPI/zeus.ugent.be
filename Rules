@@ -11,6 +11,7 @@ require 'kramdown-math-katex'
 # First ignore the node_modules, we do not need any of it on the site directly.
 ignore '/node_modules/**/*'
 ignore '/assets/stylesheets/bulma/**/*'
+ignore '/assets/stylesheets/bulma-timeline/**/*'
 
 #
 #
@@ -20,8 +21,6 @@ ignore '/assets/stylesheets/bulma/**/*'
 
 
 preprocess do
-  `yarn`
-
   # We don't want to compile old blogposts in development
   ignore_old_content('blog', 'events', 'about/verslagen') if development?
 
@@ -240,7 +239,7 @@ compile '/assets/stylesheets/**/*.scss' do
 
   sass_opts = {
     syntax: :scss,
-    load_paths: ['content/assets/stylesheets','node_modules/'],
+    load_paths: ['content/assets/stylesheets'],
   }
   sass_opts[:style] = :compressed if production?
   filter :dart_sass_custom, sass_opts

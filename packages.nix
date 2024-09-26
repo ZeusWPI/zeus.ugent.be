@@ -10,6 +10,6 @@ let
   };
 in with pkgs;
   [
-    gems libxml2 nodejs yarn cacert git glibcLocales
+    gems libxml2 nodejs cacert git glibcLocales
     pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem etoolbox; })
   ] ++ (if stdenv.isDarwin then [terminal-notifier] else [chromium])

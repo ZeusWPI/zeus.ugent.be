@@ -52,7 +52,7 @@ $timeline-content-padding: 0.55em 0 0 2em;
 // @import "bulma/bulma";
 @import "bulma/sass/utilities/mixins";
 @import "bulma/sass/utilities/_index";
-// @import "node_modules/bulma-timeline/src/sass/index.sass";
+@import "bulma-timeline/src/sass/index";
 
 // Sticky footer
 body {
