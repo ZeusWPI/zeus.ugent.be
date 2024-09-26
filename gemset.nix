@@ -875,6 +875,17 @@
     };
     version = "1.7.0";
   };
+  terser = {
+    dependencies = ["execjs"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "176swgmwq0cc4z2134x12j9vjvx5y3nrlpbb8p6p0zhsn2wi2cf0";
+      type = "gem";
+    };
+    version = "1.2.3";
+  };
   thor = {
     groups = ["default" "nanoc"];
     platforms = [];

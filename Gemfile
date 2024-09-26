@@ -32,6 +32,9 @@ gem 'sass-embedded'
 gem 'pstore'
 gem 'logger'
 
+# Not found in Github actions
+gem 'terser'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499
