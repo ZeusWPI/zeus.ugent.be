@@ -64,7 +64,7 @@
         <h1>Past events</h1>
       </div>
       <% past_events_in_year_or_tag(@item).each_slice(1) do |slice| %>
-      <div class="columns">
+      <div class="block">
         <% slice.each do |event| %>
         <div class="tile is-parent ">
           <%= render '/partials/_events_tile.*', event: event %>
