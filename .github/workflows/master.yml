@@ -27,9 +27,9 @@ jobs:
       - name: Checkout submodule
         run: git submodule update --init --recursive --remote
       - name: Cache install Nix packages
-        uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
+        uses: rikhuijzer/cache-install@c90964bcac3286c8571cb849f7caffb9e8b9cb37
         with:
-          key: nix-${{ hashFiles('packages.nix') }}
+          key: nix-${{ hashFiles('packages.nix', 'gemset.nix') }}
           nix_file: 'packages.nix'
       - name: Cache Output
         id: cache-output
