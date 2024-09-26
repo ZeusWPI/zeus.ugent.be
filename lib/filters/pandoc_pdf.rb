@@ -13,6 +13,8 @@ class PandocPDF < Nanoc::Filter
 
     # Make sure all backslashes are escaped in the LaTeX code
     content = content.gsub('\\', '\\\\')
+    # Also escape tildes
+    content = content.gsub('~', '\textasciitilde{}')
 
     PandocRuby.convert(content, *args)
 
