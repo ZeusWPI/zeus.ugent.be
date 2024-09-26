@@ -1,15 +1,6 @@
 // CSS related to the TOC
 
 #table-of-contents {
-  @include tablet {
-    position: absolute;
-    left: 100%;
-  }
-
-  @include mobile {
-    text-align: center;
-  }
-
   #markdown-toc {
     @extend .menu-list;
 
@@ -17,6 +8,15 @@
       margin: 0;
       list-style: none;
     }
+  }
+
+  @include tablet {
+    position: absolute;
+    left: 100%;
+  }
+
+  @include mobile {
+    text-align: center;
   }
 }
 

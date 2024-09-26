@@ -40,23 +40,23 @@ a.box:hover {
       border-bottom: none;
     }
 
-    &:visited:hover {
-      color: $link-hover;
-    }
+    // &:visited:hover {
+    //   color: $button-link-hover;
+    // }
   }
 }
 
 footer .content a {
   &:not(.button) {
-    color: $text-light;
+    color: $text-weak;
 
     &:visited {
-      color: $text-light;
+      color: $text-weak;
     }
 
-    &:hover {
-      color: $link-hover;
-    }
+    // &:hover {
+    //   color: $button-link-hover;
+    // }
   }
 }
 

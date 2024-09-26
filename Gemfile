@@ -50,6 +50,7 @@ end
 
 group :nanoc do
   gem 'guard-nanoc'
+  gem 'nanoc-dart-sass'
 end
 
 group :test do

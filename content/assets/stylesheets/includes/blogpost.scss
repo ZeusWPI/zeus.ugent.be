@@ -14,10 +14,11 @@
     margin: auto;
 
     .title {
+      font-weight: bolder;
+
       @include tablet {
         font-size: 4rem;
       }
-      font-weight: bolder;
     }
 
     .subtitle {

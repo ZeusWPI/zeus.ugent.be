@@ -1,13 +1,13 @@
 {
   "name": "zeus.ugent.be",
   "preferGlobal": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "",
   "description": "The Official Zeus WPI site",
   "license": "MIT",
   "repository": "https://github.com/ZeusWPI/zeus.ugent.be",
   "dependencies": {
-    "bulma": "0.9.1",
-    "bulma-timeline": "^3.0.4"
+    "bulma-timeline": "^3.0.4",
+    "sass": "^1.79.3"
   }
 }

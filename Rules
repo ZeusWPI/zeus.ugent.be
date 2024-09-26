@@ -10,6 +10,7 @@ require 'kramdown-math-katex'
 # Important!!!
 # First ignore the node_modules, we do not need any of it on the site directly.
 ignore '/node_modules/**/*'
+ignore '/assets/stylesheets/bulma/**/*'
 
 #
 #
@@ -231,18 +232,18 @@ compile '/assets/scripts/**/*.js' do
 end
 
 ignore '/data/**/*'
-
 ignore '/assets/stylesheets/includes/**/*'
+
 compile '/assets/stylesheets/**/*.scss' do
   # This filter is necessary for the workaround present in main.scss and deals with out of date dependencies
   filter :erb
 
   sass_opts = {
     syntax: :scss,
-    load_paths: ['content/assets/stylesheets']
+    load_paths: ['content/assets/stylesheets','node_modules/'],
   }
   sass_opts[:style] = :compressed if production?
-  filter :sassc, sass_opts
+  filter :dart_sass_custom, sass_opts
 
   filter :autoprefixer if production?
   write ext: 'css'
