@@ -1,3 +1,5 @@
+require 'sass'
+
 module DartSassCustom
   class Filter < Nanoc::Filter
     identifier :dart_sass_custom
