@@ -33,7 +33,7 @@ jobs:
           nix_file: 'packages.nix'
       - name: Cache Output
         id: cache-output
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ./tmp/
