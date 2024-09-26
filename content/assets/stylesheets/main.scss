@@ -45,9 +45,13 @@ $timeline-content-padding: 0.55em 0 0 2em;
 
 @use "bulma/sass" with (
     $primary: $zeus-orange,
-    $link: $zeus-orange
+    $link: $zeus-orange,
 );
 
+a, .tabs li.is-active a {
+    color: $link;
+    border-bottom-color: $link;
+}
 
 // @import "bulma/bulma";
 @import "bulma/sass/utilities/mixins";
