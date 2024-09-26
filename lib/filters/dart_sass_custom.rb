@@ -16,7 +16,7 @@ module DartSassCustom
       result = Sass.compile_string(
         content,
         **params,
-        syntax:,
+        syntax: syntax
       )
       result.css
     end
