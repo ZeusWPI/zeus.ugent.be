@@ -228,7 +228,7 @@ end
 # ASSETS
 #
 compile '/assets/scripts/**/*.js' do
-  filter :uglify_js, harmony: true if production?
+  filter :terser if production?
 end
 
 ignore '/data/**/*'
