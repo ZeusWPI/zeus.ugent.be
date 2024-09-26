@@ -26,6 +26,8 @@ gem 'tzinfo'
 # Take screenshots for our banner image
 gem 'puppeteer-ruby'
 
+gem 'sass-embedded'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499
@@ -50,7 +52,6 @@ end
 
 group :nanoc do
   gem 'guard-nanoc'
-  gem 'nanoc-dart-sass'
 end
 
 group :test do

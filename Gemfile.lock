@@ -105,9 +105,6 @@ GEM
       slow_enumerator_tools (~> 1.0)
       tty-platform (~> 0.2)
       zeitwerk (~> 2.1)
-    nanoc-dart-sass (1.0.3)
-      nanoc-core (~> 4.12)
-      sass-embedded (~> 1.56)
     nanoc-deploying (1.0.2)
       nanoc-checking (~> 1.0)
       nanoc-cli (~> 4.11, >= 4.11.15)
@@ -210,12 +207,12 @@ DEPENDENCIES
   kramdown
   kramdown-math-katex
   nanoc
-  nanoc-dart-sass
   nanoc-live
   pandoc-ruby
   puma
   puppeteer-ruby
   rainpress
+  sass-embedded
   sassc
   terminal-notifier
   terminal-notifier-guard
