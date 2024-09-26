@@ -11,6 +11,9 @@ class PandocPDF < Nanoc::Filter
 
     args[:o] = output_filename + '.pdf'
 
+    # Make sure all backslashes are escaped in the LaTeX code
+    content = content.gsub('\\', '\\\\')
+
     PandocRuby.convert(content, *args)
 
     FileUtils.mv(output_filename + '.pdf', output_filename)
