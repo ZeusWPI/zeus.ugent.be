@@ -28,6 +28,10 @@ gem 'puppeteer-ruby'
 
 gem 'sass-embedded'
 
+# Silences warnings that they will be no longer part of the standard library in Ruby 3.5
+gem 'pstore'
+gem 'logger'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499

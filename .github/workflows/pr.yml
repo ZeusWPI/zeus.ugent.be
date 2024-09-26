@@ -42,9 +42,9 @@ jobs:
       - name: Set environment variable
         run: "export LANG=en_US.UTF-8"
       - name: Build site
-        run: "nanoc --env=prod"
+        run: "bundle exec nanoc --env=prod"
       - name: Run checks
-        run: "nanoc --env=prod check --deploy"
+        run: "bundle exec nanoc --env=prod check --deploy"
       - name: Add private key
         shell: bash
         env:
