@@ -1,4 +1,4 @@
-require 'sass'
+require 'sass-embedded'
 
 module DartSassCustom
   class Filter < Nanoc::Filter
