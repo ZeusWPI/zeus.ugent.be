@@ -51,6 +51,14 @@ Our official meeting reports are added as a submodule so they update automatical
 git submodule update --init --recursive
 ```
 
+### For Nix users
+
+If you are using Nix, you can use the provided `shell.nix` file to get a shell with all the required dependencies.
+
+```bash
+nix-shell
+```
+
 ### Deploying
 
 The latest and greatest builds on master get deployed automatically using [travis](https://travis-ci.org).
