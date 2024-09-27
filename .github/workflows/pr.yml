@@ -20,31 +20,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Checkout submodule
-        run: git submodule update --init --recursive --remote
-      - name: Cache install Nix packages
-        uses: rikhuijzer/cache-install@c90964bcac3286c8571cb849f7caffb9e8b9cb37
-        with:
-          key: nix-${{ hashFiles('packages.nix', 'gemset.nix') }}
-          nix_file: 'packages.nix'
-      - name: Cache Output
-        id: cache-output
-        uses: actions/cache@v4
-        with:
-          path: |
-            ./tmp/
-            ./output/
-          key: build-${{ github.ref_name }}
-          restore-keys: |
-            build-master
-      - name: Set environment variable
-        run: "export LANG=en_US.UTF-8"
-      - name: Build site
-        run: "bundle exec nanoc --env=prod"
-      - name: Run checks
-        run: "bundle exec nanoc --env=prod check --deploy"
+      - uses: ./.github/actions/build_site
       - name: Add private key
         shell: bash
         env:
