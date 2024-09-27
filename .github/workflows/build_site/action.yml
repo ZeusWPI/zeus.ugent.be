@@ -4,8 +4,6 @@ description: Build the site using nanoc
 runs:
   using: 'composite'
   steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
     - name: Checkout submodule
       shell: bash
       run: git submodule update --init --recursive --remote
