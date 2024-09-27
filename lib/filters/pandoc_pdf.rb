@@ -15,6 +15,8 @@ class PandocPDF < Nanoc::Filter
     content = content.gsub('\\', '\\\\')
     # Also escape tildes
     content = content.gsub('~', '\textasciitilde{}')
+    # And remove any markdown images
+    content = content.gsub(/!\[.*\]\(.*\)/, '')
 
     PandocRuby.convert(content, *args)
 
