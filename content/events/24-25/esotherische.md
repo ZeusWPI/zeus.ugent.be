@@ -14,7 +14,7 @@ header_text_background: true
 
 Tweede week, tijd om eens iets te programmeren! Maak je geen zorgen als je nog maar enkele lessen achter de rug hebt, deze programmeertalen zul je nooit zien in de richting.
 
-Als je nog niet kun programmeren, zullen we er zijn om je vragen te beantwoorden.
+Als je nog niet kan programmeren, zullen we er zijn om je vragen te beantwoorden.
 
 Maak een programma door een doolhof te tekenen in ascii-art, of Hello World met
     `++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
