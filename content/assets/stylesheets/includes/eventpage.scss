@@ -22,10 +22,10 @@
 
 .header-text {
   padding: 20px;
+  color: var(--bulma-text-40-invert);
 
   &.light-background {
     background-color: rgba(0, 0, 0, 0.75);
-    color: var(--bulma-text-40-invert);
   }
 }
 
