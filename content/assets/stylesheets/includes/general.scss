@@ -230,12 +230,12 @@ footer.footer {
   background-image: -webkit-linear-gradient(
     to right,
     $zeus-orange,
-    #ffffff
+    var(--bulma-body-background-color)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background-image: linear-gradient(
     to right,
     $zeus-orange,
-    #ffffff
+    var(--bulma-body-background-color)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: 100% 0.15em;
