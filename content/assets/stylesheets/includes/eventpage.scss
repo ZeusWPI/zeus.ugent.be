@@ -22,6 +22,7 @@
 
 .header-text {
   padding: 20px;
+  color: var(--bulma-text-40-invert);
 
   &.light-background {
     background-color: rgba(0, 0, 0, 0.75);
@@ -57,11 +58,11 @@
 }
 
 .event-tile-image {
+  max-width:200px;
+  max-height:200px;
+
   // For now, don't show the event tile image on mobile, takes too much space
   @include mobile {
     display: none;
   }
-
-  max-width:200px;
-  max-height:200px;
 }

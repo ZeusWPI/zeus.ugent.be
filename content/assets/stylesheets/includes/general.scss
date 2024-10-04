@@ -18,8 +18,6 @@ pre .line-numbers {
   margin-bottom: 10px;
 
   transition: all 0.15s ease;
-
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 a.box:hover {
@@ -40,23 +38,23 @@ a.box:hover {
       border-bottom: none;
     }
 
-    &:visited:hover {
-      color: $link-hover;
-    }
+    // &:visited:hover {
+    //   color: $button-link-hover;
+    // }
   }
 }
 
 footer .content a {
   &:not(.button) {
-    color: $text-light;
+    color: $text-weak;
 
     &:visited {
-      color: $text-light;
+      color: $text-weak;
     }
 
-    &:hover {
-      color: $link-hover;
-    }
+    // &:hover {
+    //   color: $button-link-hover;
+    // }
   }
 }
 
@@ -232,12 +230,12 @@ footer.footer {
   background-image: -webkit-linear-gradient(
     to right,
     $zeus-orange,
-    #ffffff
+    var(--bulma-body-background-color)
   ); /* Chrome 10-25, Safari 5.1-6 */
   background-image: linear-gradient(
     to right,
     $zeus-orange,
-    #ffffff
+    var(--bulma-body-background-color)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-size: 100% 0.15em;

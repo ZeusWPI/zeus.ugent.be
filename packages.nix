@@ -1,8 +1,8 @@
 let
-  rev = "70904d4a9927a4d6e05c72c4aaac4370e05107f3";
+  rev = "759537f06e6999e141588ff1c9be7f3a5c060106";
   nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/archive/${rev}.tar.gz";
   pkgs = import nixpkgs {};
-  ruby = pkgs.ruby_3_0;
+  ruby = pkgs.ruby_3_3;
   gems = pkgs.bundlerEnv {
     name = "zeus.ugent.be";
     inherit ruby;
@@ -10,6 +10,6 @@ let
   };
 in with pkgs;
   [
-    gems libxml2 nodejs yarn cacert git glibcLocales chromium
-    pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem; })
-  ] ++ (if stdenv.isDarwin then [terminal-notifier] else [])
+    gems libxml2 nodejs cacert git glibcLocales
+    pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem etoolbox; })
+  ] ++ (if stdenv.isDarwin then [terminal-notifier] else [chromium])

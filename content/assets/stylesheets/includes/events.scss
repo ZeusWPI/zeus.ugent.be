@@ -1,3 +1,4 @@
+
 .box.event-preview {
   border-radius: 0px;
   display: flex;
@@ -16,11 +17,7 @@
   padding-top:0px;
     box-shadow : none;
     width: 60%;
-    //for better spacing on mobile
 
-    @include mobile {
-      width: 100%;
-    }
     .title {
       font-size: 1.7em;
       font-weight: 500;
@@ -49,6 +46,11 @@
     .time {
       font-size: 1.6em;
       font-weight: 400;
+    }
+
+    //for better spacing on mobile
+    @include mobile {
+      width: 100%;
     }
   }
 

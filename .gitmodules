@@ -3,3 +3,9 @@
 	#url = ssh://git@git.zeus.gent:2222/bestuur/drive.git
 	url = https://git.zeus.gent/zeuswpi/drive.git
 	branch = master
+[submodule "content/assets/stylesheets/bulma"]
+	path = content/assets/stylesheets/bulma
+	url = https://github.com/jgthms/bulma
+[submodule "content/assets/stylesheets/bulma-timeline"]
+	path = content/assets/stylesheets/bulma-timeline
+	url = https://github.com/ymkapuriya/bulma-timeline

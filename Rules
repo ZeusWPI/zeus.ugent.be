@@ -10,6 +10,8 @@ require 'kramdown-math-katex'
 # Important!!!
 # First ignore the node_modules, we do not need any of it on the site directly.
 ignore '/node_modules/**/*'
+ignore '/assets/stylesheets/bulma/**/*'
+ignore '/assets/stylesheets/bulma-timeline/**/*'
 
 #
 #
@@ -19,8 +21,6 @@ ignore '/node_modules/**/*'
 
 
 preprocess do
-  `yarn`
-
   # We don't want to compile old blogposts in development
   ignore_old_content('blog', 'events', 'about/verslagen') if development?
 
@@ -227,22 +227,22 @@ end
 # ASSETS
 #
 compile '/assets/scripts/**/*.js' do
-  filter :uglify_js, harmony: true if production?
+  filter :terser if production?
 end
 
 ignore '/data/**/*'
-
 ignore '/assets/stylesheets/includes/**/*'
+
 compile '/assets/stylesheets/**/*.scss' do
   # This filter is necessary for the workaround present in main.scss and deals with out of date dependencies
   filter :erb
 
   sass_opts = {
     syntax: :scss,
-    load_paths: ['content/assets/stylesheets']
+    load_paths: ['content/assets/stylesheets'],
   }
   sass_opts[:style] = :compressed if production?
-  filter :sassc, sass_opts
+  filter :dart_sass_custom, sass_opts
 
   filter :autoprefixer if production?
   write ext: 'css'

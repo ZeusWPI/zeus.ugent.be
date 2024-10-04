@@ -22,29 +22,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Checkout submodule
-        run: git submodule update --init --recursive --remote
-      - name: Cache install Nix packages
-        uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
-        with:
-          key: nix-${{ hashFiles('packages.nix') }}
-          nix_file: 'packages.nix'
-      - name: Cache Output
-        id: cache-output
-        uses: actions/cache@v3
-        with:
-          path: |
-            ./tmp/
-            ./output/
-          key: build-${{ github.ref_name }}
-          restore-keys: |
-            build-master
-      - name: Set environment variable
-        run: "export LANG=en_US.UTF-8"
-      - name: Build site
-        run: "nanoc --env=prod"
-      - name: Run checks
-        run: "nanoc --env=prod check --deploy"
+      - uses: ./.github/workflows/build_site
       - name: Add private key
         shell: bash
         env:

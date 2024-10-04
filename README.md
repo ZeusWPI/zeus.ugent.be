@@ -14,10 +14,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need Ruby (gem), yarn and pandoc (optional). Installation instructions are listed below.
+You will need Ruby (gem) and pandoc (optional). Installation instructions are listed below.
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-* [yarn](yarnpkg.com/en/docs/install)
 * [pandoc](https://pandoc.org/installing.html) (optional, install if you want to see the reports)
 
 ### Installing
@@ -28,11 +27,10 @@ If bundler is not yet installed on your system, make sure to install it using th
 gem install bundler
 ```
 
-In the root directory of the project, execute following commands
+In the root directory of the project, execute following command
 
 ```bash
 bundle install
-yarn install
 ```
 
 You will (momentarily) also need `pandoc` and `latex` to compile the reports from the board meetings. Refer to your OS package manager to install these things.
@@ -51,6 +49,14 @@ Our official meeting reports are added as a submodule so they update automatical
 
 ```bash
 git submodule update --init --recursive
+```
+
+### For Nix users
+
+If you are using Nix, you can use the provided `shell.nix` file to get a shell with all the required dependencies.
+
+```bash
+nix-shell
 ```
 
 ### Deploying
