@@ -18,8 +18,12 @@ Wat voorkennis van programmeren is nuttig. Als je nog niet zo ervaren bent (of n
 
 Als je nog niet zeker bent of je graag wilt of kunt helpen, kom je dat hopelijk hier te weten!
 
-De exacte lijst van project volgt nog, maar deze komen zeker aan bod:
+We gaan de volgende projecten overlopen
 
 - [ZeSS](https://github.com/zeusWPI/zess)
 - [SCC](https://github.com/zeusWPI/scc)
+- [Haldis](https://github.com/zeusWPI/haldis) & [Tab](https://github.com/zeusWPI/tab)
 - [Zauth](https://github.com/ZeusWPI/zauth)
+- [Dapm](https://github.com/zeusWPI/dapm)
+
+En we gaan ook een gloednieuw project voorstellen!
