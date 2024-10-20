@@ -19,7 +19,7 @@ Doorheen de avond voorzien we pizza, snacks en drank aan schappelijke prijzen.
 
 ## Info
 
-**Datum**: Vrijdag 25 oktober - Zaterdag 11 oktober
+**Datum**: Vrijdag 25 oktober - Zaterdag 26 oktober
 
 **Tijd**: 18:00 tot wanneer we niet meer kunnen
 
