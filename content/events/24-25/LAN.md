@@ -57,7 +57,7 @@ Volg de straat naar beneden tot aan de trappen. Onderaan de trappen ga naar link
 Het is mogelijk om je desktop af te zetten met de auto.
 Afzetten is mogelijk tussen 17h30 en 18h30 en ophalen is mogelijk om 03h00 of 06h00.
 Het is niet mogelijk om je auto te parkeren bij de Therminal maar het Sint-Pietersplein parking ligt op wandelafstand.
-Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het onderwerp [Auto Materiaal].
+Gelieve hiervoor contact op te nemen via mail naar lanparty@zeus.ugent.be met het onderwerp \[Auto Materiaal\].
 
 Tot dan!
 Zeus WPI

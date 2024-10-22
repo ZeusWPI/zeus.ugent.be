@@ -1,13 +1,22 @@
 const form = $("#cammieForm");
-const formName = form.find('input[name="name"]');
-const formMessage = form.find('input[name="message"]');
+const formName = $('#cammieFormName');
+const formMessage = $('#cammieFormMessage');
 const formButton = form.find('button[type="submit"]');
 const responseError = $("#cammieFormResponseError");
 const responseSuccess = $("#cammieFormResponseSuccess");
+const modal = $("#cammieFormModal");
+const modalName = $("#cammieModalName");
+const modalCancel = $("#cammieModalCancel");
 
 $("#cammieForm").submit((e) => {
   e.preventDefault();
   formButton.addClass("is-loading");
+
+  if (!formName.val() || formName.val() === "") {
+    modal.addClass("is-active");
+    return
+  }
+
   return $.ajax({
     url: "https://kelder.zeus.ugent.be/messages/",
     contentType: "text/plain",
@@ -29,4 +38,15 @@ $("#cammieForm").submit((e) => {
       formButton.removeClass("is-loading");
     },
   });
+});
+
+$("#cammieModalSend").on("click", e => {
+  modal.removeClass("is-active");
+  formName.val(modalName.val() || "-");
+  modal.removeClass("is-active");
+  form.submit();
+});
+
+$("#cammieModalCancel").on("click", e => {
+  modal.removeClass("is-active");
 });
