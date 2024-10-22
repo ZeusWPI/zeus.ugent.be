@@ -104,12 +104,35 @@ socket.on('replymessage', function(obj) {
         <!-- Response Success -->
         <div id="cammieFormResponseSuccess" class="notification is-success is-light is-hidden"></div>
 
+        <!-- No username modal -->
+        <div id="cammieFormModal" class="modal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Empty username message</p>
+            </header>
+            <section class="modal-card-body">
+              <p>It's pleasent for us to know who we're communicating with.</p>
+              <p>You can still let us know if you'd like 🙂</p>
+              <div class="column">
+                <input id="cammieModalName" class="input is-medium is-full-width" name="name" type="text" placeholder="Name" />
+              </div>
+            </section>
+            <footer class="modal-card-foot">
+              <div class="buttons">
+                <button id="cammieModalSend" type="button" class="button is-primary">Send to kelder</button>
+                <button id="cammieModalCancel" type="button" class="button">Cancel</button>
+              </div>
+            </footer>
+          </div>
+        </div>
+
         <nav class="columns mt-0">
           <div class="column">
-            <input class="input is-medium is-full-width" name="name" type="text" placeholder="Name">
+            <input id="cammieFormName" class="input is-medium is-full-width" name="name" type="text" placeholder="Name" />
           </div>
           <div class="column is-half">
-            <input class="input is-medium is-full-width" name="message" type="text" placeholder="Message...">
+            <input id="cammieFormMessage" class="input is-medium is-full-width" name="message" type="text" placeholder="Message..." />
           </div>
           <div class="column">
             <button class="button is-medium is-primary is-full-width" type="submit">
