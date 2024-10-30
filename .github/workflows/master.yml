@@ -29,15 +29,11 @@ jobs:
         shell: bash
         env:
           PRIVATE_KEY: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           mkdir -p /home/runner/.ssh
           echo "$PRIVATE_KEY" > /home/runner/.ssh/id_ed25519
           chmod 600 /home/runner/.ssh/id_ed25519
           echo -e "[pratchett.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIs8YMbO+aiTRlbi7++8CAqzq46zNLMsYAH3ycub6zkCFPKwIsePDlHJhMgTWG54Vwon60UT6FYyrBYbVfAWY1I=\n[pratchett.zeus.gent]:2222 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIs8IQpKz24LZuZZ43yEMqelfKmk+3C62+FA15HHZEK6\n" >> ~/.ssh/known_hosts
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add /home/runner/.ssh/id_ed25519
       - name: Deploy to production
         env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: "nanoc --env=prod deploy public"
