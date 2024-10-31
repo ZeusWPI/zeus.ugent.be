@@ -1,8 +1,8 @@
 ---
 title: Zeus doet boardgames
 description: We spelen boardgames! Met mensen! En Robots!
-time: '06-11-2024 20:00'
-end: '06-11-2024 24:00'
+time: '05-11-2024 20:00'
+end: '05-11-2024 24:00'
 location: Worlds' End Comics & Games Center
 banner: https://pics.zeus.gent/YnZfF3IvFuJAQVcRrUz1fBYb8j38pU0akmKLIZCN.jpg
 image: https://pics.zeus.gent/yo4hDfbt.jpg
