@@ -18,4 +18,4 @@ Er worden een aantal tutorials tegelijktijd gegeven zodat er altijd wel een onde
 
 De exacte onderwerpen en tijdschema volgt nog!
 
-![poster](https://pics.zeus.gent/tibvbcxqJFVcWnifKRpropSntOczEiLcm9Lxu6Lq.png)
+![poster](https://pics.zeus.gent/2XNVPcvCxE2VCMeUWziPqkce0dxe2vyik5hXj993.png)
