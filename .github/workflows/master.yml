@@ -35,5 +35,4 @@ jobs:
           chmod 600 /home/runner/.ssh/id_ed25519
           echo -e "[pratchett.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIs8YMbO+aiTRlbi7++8CAqzq46zNLMsYAH3ycub6zkCFPKwIsePDlHJhMgTWG54Vwon60UT6FYyrBYbVfAWY1I=\n[pratchett.zeus.gent]:2222 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIs8IQpKz24LZuZZ43yEMqelfKmk+3C62+FA15HHZEK6\n" >> ~/.ssh/known_hosts
       - name: Deploy to production
-        env:
         run: "nanoc --env=prod deploy public"
