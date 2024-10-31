@@ -16,6 +16,6 @@ Leer in het kort hoe je iets doet!
 Doorheen de avond geven meerdere persoon een korte uitleg over hun onderwerp.
 Er worden een aantal tutorials tegelijktijd gegeven zodat er altijd wel een onderwerp bij zit die je interesseert!
 
-De exacte onderwerpen en tijdschema volgt!
+De exacte onderwerpen en tijdschema volgt nog!
 
 ![poster](https://pics.zeus.gent/tibvbcxqJFVcWnifKRpropSntOczEiLcm9Lxu6Lq.png)
