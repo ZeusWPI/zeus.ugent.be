@@ -14,6 +14,8 @@ header_text_background: true
 Leer in het kort hoe je iets doet!
 
 Doorheen de avond geven meerdere persoon een korte uitleg over hun onderwerp.
-Er spreken 4 mensen tegelijkertijd zodat er altijd wel een onderwerp bij zit die je interesseert!
+Er worden een aantal tutorials tegelijktijd gegeven zodat er altijd wel een onderwerp bij zit die je interesseert!
 
-De exacte tutorials en info volgt!
+De exacte onderwerpen en tijdschema volgt!
+
+![poster](https://pics.zeus.gent/tibvbcxqJFVcWnifKRpropSntOczEiLcm9Lxu6Lq.png)
