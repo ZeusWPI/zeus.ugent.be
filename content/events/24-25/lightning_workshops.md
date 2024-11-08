@@ -1,6 +1,6 @@
 ---
 title: Lightning Tutorials
-description: Leer hoe je dingen doet! Maar snel! SNELLER!
+description: Leer in het kort hoe je dingen doet!
 time: '13-11-2024 18:00'
 end: '13-11-2024 23:00'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
@@ -11,11 +11,30 @@ header_text_background: true
 
 # Lightning Tutorials
 
-Leer in het kort hoe je iets doet!
+Een aantal sprekers geven een korte introductie tot een bepaald onderwerp.
+Er worden telkens 2 tutorials tegelijkertijd gegeven. Het is mogelijk om op het eind van de avond alles te hebben beluisterd.
 
-Doorheen de avond geven meerdere persoon een korte uitleg over hun onderwerp.
-Er worden een aantal tutorials tegelijktijd gegeven zodat er altijd wel een onderwerp bij zit die je interesseert!
+Er wordt plaats voorzien buiten leslokaal 3.4 voor tussen tutorials door of voor wie een rondje wilt overslaan.
 
-De exacte onderwerpen en tijdschema volgt nog!
+## Planning
+
+| Tijdslot | Onderwerp 1 | Onderwerp 2 |
+| 18h00 - 18h20 | Introductie tot Podman | Self-Hosting met docker compose |
+| 18h20 - 18h40 | Self-Hosting met docker compose | Introductie tot Nix & NixOS |
+| 18h40 - 19h00 | Introductie tot Nix & NixOS | Introductie tot Podman |
+| 19h00 - 20h00 | **Eten** | |
+| 20h00 - 20h20 | Hoe maak je een internet kabel | GUI programming on Linux |
+| 20h20 - 20h40 | GUI programming on Linux | Prometheus, (un)common knowledge |
+| 20h40 - 21h00 | Prometheus, (un)common knowledge | Hoe maak je een internet kabel |
+
+## Sprekers
+
+| Onderwerp | Spreker(s) |
+| GUI programming on Linux | Niels |
+| Hoe maak je een internet kabel | Francis K. |
+| Introductie tot Nix & NixOS | Rien |
+| Introductie tot Podman | Xander & Mathieu |
+| Prometheus, (un)common knowledge | Francis B. |
+| Self-Hosting met docker compose | Jonas |
 
 ![poster](https://pics.zeus.gent/2XNVPcvCxE2VCMeUWziPqkce0dxe2vyik5hXj993.png)
