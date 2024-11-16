@@ -38,6 +38,7 @@ Er wordt plaats voorzien buiten leslokaal 3.4 voor tussen tutorials door of voor
 | Self-Hosting met docker compose | Jonas |
 
 ## slides
+
 | Onderwerp | Slide(s) |
 | Self-Hosting met docker compose | https://github.com/Reavershark/vps |
 | Introductie tot Nix & NixOS | https://github.com/rien/nix-tutorial |
