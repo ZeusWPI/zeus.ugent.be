@@ -37,4 +37,10 @@ Er wordt plaats voorzien buiten leslokaal 3.4 voor tussen tutorials door of voor
 | Prometheus, (un)common knowledge | Francis B. |
 | Self-Hosting met docker compose | Jonas |
 
+## slides
+| Onderwerp | Slide(s) |
+| Self-Hosting met docker compose | https://github.com/Reavershark/vps |
+| Introductie tot Nix & NixOS | https://github.com/rien/nix-tutorial |
+| GUI programming on Linux | https://docs.google.com/presentation/d/1CQrSmlV9OfWKLI4_rUIm60xIs4rsXucNXLVSCaeZgBU |
+
 ![poster](https://pics.zeus.gent/2XNVPcvCxE2VCMeUWziPqkce0dxe2vyik5hXj993.png)
