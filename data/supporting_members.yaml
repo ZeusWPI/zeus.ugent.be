@@ -720,12 +720,12 @@ data:
       nickname: chvp
       photo: https://zeus.ugent.be/zeuswpi/chvp.jpg
       quote: TRANS RIGHTS
-      description: Dodona-mens
+      description: Ex-Dodona-mens
       links:
         - icon: github
           url: https://github.com/chvp
         - icon: mastodon
-          url: https://social.chvp.be/@chvp
+          url: https://ohai.social/@chvp
         - url: https://www.chvp.be/
     - name: Wout Schellaert
       nickname: stro
