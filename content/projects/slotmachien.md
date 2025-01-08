@@ -4,6 +4,6 @@ priority: -1
 active: false
 ---
 
-This repository contains all applications related to SlotMachien; a Lego MindStorms robot designed to turn a specific lock.
+This repository contains all applications related to SlotMachien, a Lego Mindstorms robot designed to turn a specific lock.
 
-Now replaced by Doorkeeper
+Now replaced by [Doorkeeper](#doorkeeper).

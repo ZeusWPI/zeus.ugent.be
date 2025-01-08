@@ -5,4 +5,4 @@ priority: 5
 active: false
 ---
 
-Enrolment system for new members of FK-clubs at Ghent University.
+Enrolment system for new members of FK clubs at Ghent University.

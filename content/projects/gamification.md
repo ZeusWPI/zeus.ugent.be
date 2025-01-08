@@ -4,4 +4,4 @@ priority: 30
 active: true
 ---
 
-Gamification of Zeus member engagement. Get points for coding! View the [scoreboard](https://zeus.ugent.be/game).
+Gamification of Zeus member engagement. Get points for coding! https://gamification.zeus.gent/
