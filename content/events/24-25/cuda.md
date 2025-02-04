@@ -22,10 +22,10 @@ We maken gebruik van C en C++ code, een basiskennis hiervan is dus vereist.
 
 ### Je hebt een GPU
 
-Zorg dat alle benodigheden werken op voorhand. Het is een hands-on workshop waardoor je veel zal missen als je alles nog moet installeren!
+Zorg dat alles werkt op voorhand. Het is een hands-on workshop waardoor je veel zal missen als je het nog moet installeren ter plaatse!
 
 Om gebruik te maken van de GPU hebben we de [CUDA toolkit](https://developer.nvidia.com/cuda-toolkit) nodig.
-Zowel Linux als Windows is supported.
+Zowel Linux als Windows is ondersteund.
 
 Achteraf kan je aan de hand van [deze voorbeelden](https://developer.nvidia.com/cuda-code-samples) kijken of alles goed werkt.
 

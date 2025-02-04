@@ -1,6 +1,6 @@
 ---
 title: CTF Intro
-description: Introuctie tot CTF 
+description: Introductie tot CTF 
 time: '27-02-2025 18:30'
 end: '27-02-2025 22:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre

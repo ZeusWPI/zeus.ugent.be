@@ -12,7 +12,7 @@ locationlink: $kelder
 
 # Zeus @12urenloop 
 
-Ook dit jaar tellen we weer de rondjes op de 12urenloop, dit jaar gebeurt dit op 29 april. 
+Ook dit jaar tellen we weer de rondjes op de 12urenloop, ditmaal op 29 april. 
 Turven op een blad zou te makkelijk zijn dus hebben we hiervoor een volledig automatisch telsysteem ontwikkeld!
 
 ## Introductie 

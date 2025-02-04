@@ -1,6 +1,6 @@
 ---
 title: CTF
-description: Strijd tegen elkaar in CTF
+description: Strijd tegen elkaar in een CTF competitie
 time: '04-03-2025 18:30'
 end: '04-03-2025 23:00'
 location: Leslokaal 3.4, Gebouw S9, Campus Sterre
@@ -12,7 +12,7 @@ header_text_background: true
 # CTF 
 
 Strijd in teams tegen elkaar voor alle eer en roem in Zeus! 
-We voorzien enkele challenges van verschillende moeilijksgraden.
+We voorzien enkele challenges van verschillende moeilijkheidsgraden.
 
 ## Wat is CTF?
 
