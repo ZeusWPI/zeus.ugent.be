@@ -1,11 +1,11 @@
 <% if @event[:banner] %>
-  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg highlighted"
+  <a href="<%= @event.path %>" class="tile event-tile box backgroundimg highlighted"
     style="background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.65)), url('<%= @event[:banner] %>');">
 <% elsif @event[:color] %>
-  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg highlighted"
+  <a href="<%= @event.path %>" class="tile event-tile box backgroundimg highlighted"
     style="background-image: linear-gradient(to top right,rgba(255,255,255,0),rgba(0,0,0,.60)); background-color:<%= @event[:color] %>;">
 <% else %>
-  <a href="<%= @event.path %>" class="tile event-tile is-child box backgroundimg">
+  <a href="<%= @event.path %>" class="tile event-tile box backgroundimg">
 <% end %>
   <div class="content event-content">
   <% if @event[:image] %>

@@ -20,6 +20,7 @@
         <% end %>
         <% end %>
       </ul>
+      <% if @config[:show_tags] %>
       <p class="menu-label">
         Tag
       </p>
@@ -38,6 +39,7 @@
         <% end %>
         <% end %>
       </ul>
+      <% end %>
     </aside>
   </div>
 
@@ -47,9 +49,9 @@
         <h1>Upcoming events</h1>
       </div>
       <% upcoming_events_in_year_or_tag(@item).each_slice(1) do |slice| %>
-      <div class="columns">
+      <div class="block">
         <% slice.each do |event| %>
-        <div class="tile is-parent ">
+        <div class="tile container">
           <%= render '/partials/_events_tile.*', event: event %>
         </div>
         <% end %>
@@ -62,7 +64,7 @@
         <h1>Past events</h1>
       </div>
       <% past_events_in_year_or_tag(@item).each_slice(1) do |slice| %>
-      <div class="columns">
+      <div class="block">
         <% slice.each do |event| %>
         <div class="tile is-parent ">
           <%= render '/partials/_events_tile.*', event: event %>

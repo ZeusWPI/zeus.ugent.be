@@ -136,6 +136,8 @@ At the time of writing this blog post, 30.19% of the 32K flash memory of the e-i
 
 Thanks [pcy](https://icosahedron.website/@pcy) for answering my many questions and concerns about voltage glitching attacks.
 
+**2025-01-24 update**: it turned out that one of the pages of the dump got corrupted (all 0xff bytes); I have since switched to working on another unrelated project (esp32-open-mac) and have not worked further on reproducing the attack again to get an uncorrupted page and be able to reverse engineer the firmware. For other people trying this attack: it would be good to create a custom PCB that has all the nescessary components needed to execute the glitching attack instead of modifying a regular PCB. This would make it a lot easier to swap in different microcontrollers in case one of the pages is corrupted.
+
 If you have questions, comments or some things are not clear, feel free to email me <a class="email" href="mailto:%7a%65%75%73%62%6c%6f%67%40%64%65%76%72%65%6b%65%72%2e%62&#101;">zeusblog@<span>not</span>devreker.be</a>
 
 

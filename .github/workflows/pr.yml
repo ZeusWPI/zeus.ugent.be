@@ -22,45 +22,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Checkout submodule
-        run: git submodule update --init --recursive --remote
-      - name: Cache install Nix packages
-        uses: rikhuijzer/cache-install@249745afd54c8e2be0eb99aa6032b52629239b48
-        with:
-          key: nix-${{ hashFiles('packages.nix') }}
-          nix_file: 'packages.nix'
-      - name: Cache Output
-        id: cache-output
-        uses: actions/cache@v3
-        with:
-          path: |
-            ./tmp/
-            ./output/
-          key: build-${{ github.ref_name }}
-          restore-keys: |
-            build-master
-      - name: Set environment variable
-        run: "export LANG=en_US.UTF-8"
-      - name: Build site
-        run: "nanoc --env=prod"
-      - name: Run checks
-        run: "nanoc --env=prod check --deploy"
+      - uses: ./.github/workflows/build_site
       - name: Add private key
         shell: bash
         env:
           PRIVATE_KEY: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           mkdir -p /home/runner/.ssh
           echo "$PRIVATE_KEY" > /home/runner/.ssh/id_ed25519
           chmod 600 /home/runner/.ssh/id_ed25519
           echo -e "[zeus.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC87/Q3H8f7ghmA+iCtKGaNyk0fx3Z36Xrn+eGv8a4pD7MXeu6Uwr0aN5HnkcbRWXFtMwnAU3ptoP90vH7qu99w=\n[herbert.ugent.be]:2222 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGLnJMh2DgqpVnHxOmeV6KffvzZGEVfniq0NFHRGZoL4f7Uc8xeG9gn3cc7lCL02F9LwWZNwR4gSqhGt/RK2S54=\n" >> ~/.ssh/known_hosts
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add /home/runner/.ssh/id_ed25519
       - name: Deploy site to staging area
         env:
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           cd output
           rsync -aR --rsh='ssh -p 2222' . "zeuspr@herbert.ugent.be:/home/zeuspr/public/$PR_NUMBER/"

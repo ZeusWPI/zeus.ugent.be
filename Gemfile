@@ -26,6 +26,15 @@ gem 'tzinfo'
 # Take screenshots for our banner image
 gem 'puppeteer-ruby'
 
+gem 'sass-embedded'
+
+# Silences warnings that they will be no longer part of the standard library in Ruby 3.5
+gem 'pstore'
+gem 'logger'
+
+# Not found in Github actions
+gem 'terser'
+
 group :development do
   gem 'adsf'
   # puma instead of thin, see https://github.com/nanoc/nanoc/issues/1499

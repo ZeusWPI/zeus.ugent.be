@@ -17,16 +17,16 @@
 
 <div vocab="http://schema.org/" typeof="Event">
 <% if item[:banner] %>
-<section class="hero is-medium is-primary is-bold" style="background-image:url('<%= item[:banner] %>');background-position:center;">
+<section class="hero is-medium is-link is-bold" style="background-image:url('<%= item[:banner] %>');background-position:center;">
 <% elsif item[:color] %>
   <% gradient = if item[:gradient].nil? || item[:gradient]
                   'linear-gradient(141deg,rgba(255,255,255,0),rgba(0,0,0,.60))'
                 else
                   'none'
                 end %>
-                <section class="hero is-medium is-primary is-bold" style="background-image: <%= gradient %>; background-color:<%= item[:color] %>;">
+                <section class="hero is-medium is-link is-bold" style="background-image: <%= gradient %>; background-color:<%= item[:color] %>;">
 <% else %>
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-medium is-link is-bold">
 <% end %>
   <div class="hero-head">
     <%= render '/partials/_navbar.*', zeus_logo_color: :white, transparent_nav: true %>
@@ -39,7 +39,7 @@
                <% if item[:header_text_background_color] %>
                 style="background-color: <%= item[:header_text_background_color] %>"
                <% end %>>
-            <p class="title is-1-responsive event-title">
+            <p class="is-1-responsive event-title">
               <b property="name">
                 <%= item[:title] %>
               </b>
@@ -54,7 +54,7 @@
                 </a>
               </span>
             </p>
-            <p class="subtitle is-3-responsive" property="description">
+            <p class="is-3-responsive" property="description">
               <%= item[:description] %>
             </p>
             <ul class="fa-ul is-4-responsive">

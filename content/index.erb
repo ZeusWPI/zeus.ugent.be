@@ -13,109 +13,164 @@
 <% end %>
 
 <div id="homepage">
-  <div class="tile is-vertical is-ancestor">
-    <% if studytime? %>
-      <%= render '/tiles/blokmap.*' %>
+  <div class='fixed-grid has-2-cols'>
+    <div class='grid'>
+
+  <% if studytime? %>
+    <%= render '/tiles/blokmap.*' %>
+  <% end %>
+
+  <!--next event tile -->
+  <div class='cell is-col-span-2'>
+    <div class="block has-text-centered">
+      <span class="title is-2-responsive underline--magical">
+        <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          Upcoming Events
+          </a>
+      </span>
+    </div>
+    <% unless upcoming_events.empty? %>
+      <% upcoming_events.first(3).each do |event| %>
+        <div class="block">
+          <%= render '/partials/_events_tile.*', event: event %>
+        </div>
+      <% end %>
+    <% else %>
+      <div class="block content has-text-centered">
+        There are currently no upcoming events. If you have a suggestion, let us know on mattermost in <a href="https://mattermost.zeus.gent/zeus/channels/events">~events</a>!
+        <hr>
+      </div>
     <% end %>
-    <!--next event -->
-    <div class="tile is-parent">
-      <div class="tile is-child">
-        <div class="block has-text-centered">
-          <span class="title is-2-responsive underline--magical">
-            <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: black; text-decoration: none;">
-             Upcoming Events
-             </a>
-          </span>
-        </div>
-        <% unless upcoming_events.empty? %>
-          <% upcoming_events.each do |event| %>
-            <div class="block">
-              <%= render '/partials/_events_tile.*', event: event %>
-            </div>
-          <% end %>
-        <% else %>
-          <div class="block content has-text-centered">
-            There are currently no upcoming events. If you have a suggestion, let us know on mattermost in <a href="https://mattermost.zeus.gent/zeus/channels/events">~events</a>!
-            <hr>
-          </div>
-        <% end %>
-      </div>
-    </div>
-    <div class="tile">
-      <div class="tile is-parent">
-        <div class="tile is-child">
-          <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">
-              <a href="https://gamification.zeus.gent" style="color: black; text-decoration: none;">
-              Top Coders
-              </a>
-            </span>
-          </div>
-          <div class="box gamification-tile">
-            <div class="content">
-              <div class="tile-header">
-                <h1 class="has-text-centered">
-                  <a href="https://gamification.zeus.gent">
-                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                  </a>
-                </h1>
-              </div>
-              <div id="gamification-coders" >
-                <!-- EMPTY -->
-              </div>
-            </div>
-          </div>
+  </div>
 
+  <!-- Columns Section -->  
+  <div class='cell is-col-span-2 columns'>
+    <!-- Left column -->
+    <div class='column is-half'>
+      <!-- Gamification Section -->
+      <div class="block has-text-centered">
+        <span class="title is-2-responsive underline--magical">
+          <a href="https://gamification.zeus.gent" style="color: var(--bulma-body-color); text-decoration: none;">
+            Top Coders
+          </a>
+        </span>
+      </div>
+      <div class="box gamification-tile">
+        <div class="content">
+          <div class="tile-header">
+            <h1 class="has-text-centered">
+              <a href="https://gamification.zeus.gent">
+                <i class="fa fa-trophy" aria-hidden="true"></i>
+              </a>
+            </h1>
+          </div>
+          <div id="gamification-coders" >
+            <!-- EMPTY -->
+          </div>
+        </div>
+      </div>
 
-          <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">
-              <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: black; text-decoration: none;">
-              Previous Events
-              </a>
-            </span>
-          </div>
-          <% previous_events[0..3].each do |event| %>
-            <div class="block">
-              <%= render '/partials/_events_tile.*', event: event %>
-            </div>
-          <%end%>
-        </div>
+      <!-- Previous events section -->
+      <div class="block has-text-centered">
+        <span class="title is-2-responsive underline--magical">
+          <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          Previous Events
+          </a>
+        </span>
       </div>
-      <div class="tile is-parent">
-        <div class="tile is-child">
-          <div class='content has-text-centered box'>
-            <h2>
-              <a href="https://zeus.ugent.be/about/about/" style="color: black; text-decoration: none;">
-                About Zeus WPI
-              </a>
-            </h2>
-            <p>
-            Zeus WPI is the student association for Computer Science at Ghent University. Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
-            </p>
+      <% previous_events[0..3].each do |event| %>
+      <div class="block">
+        <%= render '/partials/_events_tile.*', event: event %>
+      </div>
+      <%end%>
+    </div>
 
-            <p>
-            We organize various tech related talks by experts (eg. professors, PhD's, Richard Stallman, Felix Reda, ...), hands-on coding events and introductory lectures for cool technologies. Together we build interesting applications for Ghent University students (Hydra), for FaculteitenKonvent and 12urenloop, and ofcourse for ourselves. 
-            </p>
-          </div>
-          <div class="block has-text-centered">
-            <span class="title is-2-responsive underline--magical">
-              <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: black; text-decoration: none;">
-              Blogpost
-              </a>
-            </span>
-          </div>
-          <% sorted_articles[0..3].each do |post| %>
-            <%= render '/partials/_blog_preview.*', post: post %>
-          <%end%>
+    <!-- Right column -->
+    <div class='column is-half'>
+      <div class='content has-text-centered box'>
+        <h2>
+          <a href="https://zeus.ugent.be/about/about/" style="color: var(--bulma-body-color); text-decoration: none;">
+            About Zeus WPI
+          </a>
+        </h2>
+        <p>
+          Zeus WPI is the student association for Computer Science at Ghent University.
+          Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+        </p>
+
+        <p>
+          We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
+          Together we build applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='https://12urenloop.be/'>12urenloop</a> and of course for ourselves.
+        </p>
+      </div>
+
+      <!-- Blogpost section -->
+      <div class="block has-text-centered">
+        <span class="title is-2-responsive underline--magical">
+          <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          Blogpost
+          </a>
+        </span>
+      </div>
+      <% sorted_articles[0..2].each do |post| %>
+        <%= render '/partials/_blog_preview.*', post: post %>
+      <%end%>
+    </div>
+  </div>
+
+  <!--Sponsoring members tile -->
+  <div class='cell is-col-span-2' id='sponsoring-members'>
+    <div class="block has-text-centered">
+      <span class="title is-2-responsive underline--magical">
+        <a href="https://zeus.ugent.be/sponsors/members/" style="color: var(--bulma-body-color); text-decoration: none;">
+          Sponsoring members
+        </a>
+      </span>
+    </div>
+    <% if current_sponsoring_members.nil? %>
+    <div class="block has-text-centered">
+      <p>No sponsoring members yet for this academic year. Interested? Contact the board.</p>
+    </div>
+    <% else %>
+    <div class="columns is-centered is-multiline is-mobile">
+      <% current_sponsoring_members.shuffle.each do |member| %>
+      <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
+        <div class="rounded-container">
+          <a href="https://zeus.ugent.be/sponsors/members/#<%= member[:nickname] %>">
+            <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
+          </a>
         </div>
       </div>
+      <% end %>
     </div>
-    <div class="tile">
-      <!--top coders -->
-      <div class="tile is-parent">
-        <div class="tile is-child">
+    <% end %>
+  </div>
+
+  <!--Sponsors tile -->
+  <div class='cell is-col-span-2' id="sponsors">
+    <div class="block has-text-centered">
+      <span class="title is-2-responsive underline--magical">
+        <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
+          Sponsors
+        </a>
+      </span>
+    </div>
+    <% if current_sponsors.nil? %>
+    <div class="block has-text-centered">
+      <p>No sponsors yet for this academic year. Interested? Contact the board.</p>
+    </div>
+    <% else %>
+    <div class="columns is-centered is-multiline is-mobile">
+      <% current_sponsors.shuffle.each do |sponsor| %>
+      <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
+        <div class="rounded-container">
+          <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
+            <img class="is-rounded" src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+          </a>
         </div>
       </div>
+      <% end %>
     </div>
+    <% end %>
   </div>
 </div>

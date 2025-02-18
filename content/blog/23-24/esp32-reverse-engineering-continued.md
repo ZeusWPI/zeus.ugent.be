@@ -1,12 +1,12 @@
 ---
 title: "Unveiling secrets of the ESP32 part 2: reverse engineering RX"
-created_at: '2023-12-06'
+created_at: '2023-12-07'
 description: "Reverse engineering the ESP32 Wi-Fi receive registers and showing off a proof-of-concept"
 author: "Jasper Devreker"
 image: "https://pics.zeus.gent/rqJc7p6pSbb6FInNNyadKy2tZy2uWqDaFtuU5KPx.jpg" 
 ---
 
-This is the second article in a series about reverse engineering the ESP32 Wi-Fi networking stack, with the goal of building our own open-source MAC layer. In the [previous article](https://zeus.ugent.be/blog/blog/23-24/open-source-esp32-wifi-mac/) in this series, we built static and dynamic analysis tools for reverse engineering. We also started reverse engineering the transmit path of sending packets, and concluded with a rough roadmap and a call for contributors.
+This is the second article in a series about reverse engineering the ESP32 Wi-Fi networking stack, with the goal of building our own open-source MAC layer. In the [previous article](https://zeus.ugent.be/blog/23-24/open-source-esp32-wifi-mac/) in this series, we built static and dynamic analysis tools for reverse engineering. We also started reverse engineering the transmit path of sending packets, and concluded with a rough roadmap and a call for contributors.
 
 In this part, we'll continue reverse engineering, starting with the 'receiving packets' functionality: last time, we succesfully transmitted packets. The goal of this part is to have both transmitting and receiving working. To prove that our setup is working, we'll try to connect to an access point and send some UDP packets to a computer also connected to the network.
 
@@ -26,9 +26,9 @@ As a short recap, the transmit functionality worked by:
 
 The receive functionality seems to use the same DMA struct, but in a slightly different way:
 
-1. Set up a linked list of DMA structs, where the `next` field of the struct points to the next DMA struct in the linked list. The final DMA struct points to NULL. Every `address` field points to a buffer, and the lenght and size fields are set to the size of the buffer.
+1. Set up a linked list of DMA structs, where the `next` field of the struct points to the next DMA struct in the linked list. The final DMA struct points to NULL. Every `address` field points to a buffer, and the length and size fields are set to the size of the buffer.
 2. Write the address of the first DMA struct to a memory mapped IO address (`WIFI_BASE_RX_DSCR`). Now the setup is done, and we can receive packets.
-3. When a packet is received by the hardware, it will put the packet into the address of the first available DMA struct. The `length` field will indicate the lenght of the packet; the `size` field will not be updated. The `has_data` field will be set to 1.
+3. When a packet is received by the hardware, it will put the packet into the address of the first available DMA struct. The `length` field will indicate the length of the packet; the `size` field will not be updated. The `has_data` field will be set to 1.
 4. Interrupt 0 will fire to notify the processor that a packet was received. This interrupt will notify a non-interrupt task that a packet was received. We should avoid to do much processing in the interrupt, since we want to return as quickly as possible.
 5. Outside of the interrupt, we can then look at the linked list of DMA structs to see which ones have their `has_data` bit set. The address buffers can then be passed up further in the Wi-Fi MAC stack. We want to avoid running out of DMA structs to receive packets into, so we have to extend the linked list. We could do it by just allocating a new DMA struct and space for a packet and putting it at the end of the DMA linked list, but this constant allocating and deallocating would be rather inefficient. Instead, we recycle existing DMA structs by resetting their fields and inserting them at the end of the linked list.
 
@@ -40,7 +40,7 @@ The ESP32 also seems to have this implemented, but luckily for us, the ESP32 als
 
 # Connecting to an access point
 
-Now that we can send and receive working, you'd think that we'd be able to connect to an access point and start sending packets, right? Well, not entirely: since this is such a big project, we only implemented the bare minimum to proceed in every phase. This is the same approach Ladybird takes to build a novel browser:
+Now that we have send and receive working, you'd think that we'd be able to connect to an access point and start sending packets, right? Well, not entirely: since this is such a big project, we only implemented the bare minimum to proceed in every phase. This is the same approach Ladybird takes to build a novel browser:
 
 > If you tried to build a browser one spec at a time, or even one feature at a time, you’d most likely run out of steam and lose interest altogether.
 > So instead of that, we tend to focus on building “vertical slices” of functionality. This means setting practical, cross-cutting goals, such as “let’s get twitter.com/awesomekling to load”, “let’s get login working on discord.com”, and other similar objectives.
@@ -66,7 +66,7 @@ Apparently, MAC addresses aren't just 6 arbitrary bytes with the first 3 bytes b
 
 After fixing this by using a different MAC address, we started to receive frames back from the access point. Because we didn't implement sending ACKs back, we received every frame from the access point 4 times: since the access point didn't receive any ACKs back, it would assume the packet was not received correctly. At that point, that wasn't a problem: the AP would happily proceed with association request and response.
 
-However, when we started to send data packets, we'd immediately started to receive disassociation frames from the AP as a reply to our data packets. The only difference between the (working) Scapy implementation and the current ESP32 implementation, was not sending ACKs back; so I guess implementing that is nescessary after all.
+However, when we started to send data packets, we'd immediately started to receive disassociation frames from the AP as a reply to our data packets. The only difference between the (working) Scapy implementation and the current ESP32 implementation, was not sending ACKs back; so I guess implementing that is necessary after all.
 
 Sending ACK frames back in software is not as easy as it seems though: the ACK frame needs to be sent exactly one SIFS (Short Interframe Space) time period after the last symbol of the received frame. For 802.11b, such a SIFS is only 10 microseconds; the round-trip-time through the hardware and software is already more than 10 us, so we can't implement this in software. The proprietary network stack does send ACK frames back, so this must be implemented somehow. And indeed, sending ACKs is implemented in hardware: by writing to a memory-mapped IO address, you can configure a MAC address for which the hardware will automatically send back an ACK.
 
@@ -95,7 +95,7 @@ The two hardest (but most important) tasks are implementing hardware initializat
 
 ## Bonus: Charlotte breaking everything
 
-Charlotte playing music completely broke the setup: the music setup at our hackerspace works via RTP (Realtime Transport Protocol). Under the hood, RTP sends UDP packets containing the audio data to a multicast address; so these packets was also transmitted over the Wi-Fi. Because this was a lot of packets per second, the receive buffer was always full, and very few other packets could be received/ACKed. This made it clear that hardware filtering would need to be implemented sooner than later; reverse engineering turned out to be not as much work as expected.
+Charlotte playing music completely broke the setup: the music setup at our hackerspace works via RTP (Realtime Transport Protocol). Under the hood, RTP sends UDP packets containing the audio data to a multicast address; so these packets were also transmitted over the Wi-Fi. Because this was a lot of packets per second, the receive buffer was always full, and very few other packets could be received/ACKed. This made it clear that hardware filtering would need to be implemented sooner than later; reverse engineering turned out to be not as much work as expected.
 
 The hardware filtering seems to have two 'slots', for every slot you can filter on a destination MAC address and on a BSSID (not sure if you can do both in each slot or you have to choose). By default, the hardware will not let any packets through. The hardware will only send an ACK frame back if the packet was let through via one of the filters and was copied into an RX DMA buffer: packets that were copied into an RX DMA buffer because of promiscuous mode will not result in an ACK frame getting sent.
 
@@ -103,7 +103,7 @@ The hardware filtering seems to have two 'slots', for every slot you can filter 
 
 This is a sizeable project that could definitely use multiple contributors; I'd really like to collaborate with other people to create a fully functional, open-source Wi-Fi stack for the ESP32. If this sounds like something you'd like to work on, contact me via <a class="email" href="mailto:%7a%65%75%73%62%6c%6f%67%40%64%65%76%72%65%6b%65%72%2e%62&#101;">zeusblog@<span>not</span>devreker.be</a>, maybe we can have a weekly hacking session?
 
-As far as I know, this is the first undertaking to build an open source 802.11 MAC for an affordable microcontroller. If you want to financially support this project, you can wire money via https://zeus.ugent.be/contact/#payment-info, please put "ESP32" in the transaction description, so our treasurer knows what the money is for. Please do not donate if you're a student or if you're not financially independent. If you're a company and would like to donate hardware (for example, a faraday cage or measuring equipment that might be useful), please contact me.
+As far as I know, this is the first undertaking to build an open source 802.11 MAC for an affordable microcontroller. If you want to financially support this project, you can wire money via <https://zeus.ugent.be/contact/#payment-info>, please put "ESP32" in the transaction description, so our treasurer knows what the money is for. Please do not donate if you're a student or if you're not financially independent. If you're a company and would like to donate hardware (for example, a faraday cage or measuring equipment that might be useful), please contact me.
 
 [This project](https://nlnet.nl/project/ESP32-opendrivers/) was funded through the [NGI0 Core Fund](https://nlnet.nl/core/), a fund established by NLnet with financial support from the European Commission's Next Generation Internet programme, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101092990.
 

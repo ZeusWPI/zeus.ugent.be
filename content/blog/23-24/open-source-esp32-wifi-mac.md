@@ -6,6 +6,8 @@ author: "Jasper Devreker"
 image: "https://pics.zeus.gent/rqJc7p6pSbb6FInNNyadKy2tZy2uWqDaFtuU5KPx.jpg" 
 ---
 
+(This is part 1 of this series, part 2 is [here](https://zeus.ugent.be/blog/23-24/esp32-reverse-engineering-continued/))
+
 The ESP32 is a popular microcontroller known in the maker community for its low price (~ €5) and useful features:  it has a dual-core CPU, built-in Wi-Fi and Bluetooth connectivity and 520 KB of RAM. It is also used commercially, in devices ranging from smart CO₂-meters to industrial automation controllers. Most of the software development kit that is used to program for the ESP32 [is open-source](https://github.com/espressif/esp-idf), except notably the wireless bits (Wi-Fi, Bluetooth, low-level RF functions): that functionality is distributed as precompiled libraries, that are then compiled into the firmware the developer writes.
 
 A closed-source Wi-Fi implementation has several disadvantages compared to an open-source implementation though:
@@ -76,7 +78,7 @@ To dynamically analyze the firmware on real hardware, we use the JTAG hardware d
 
 In additon to the JTAG debugger, we also connected a USB Wi-Fi dongle directly to the ESP32: the ESP32-WROOM-32U variant of the ESP32 has an antenna connector. We connect that antenna connector to a 60 dB attenuator (this weakens the signal by 60dB), then connect that to the antenna connector of the wireless dongle. That way we'll be able to only receive the packets coming from the ESP32, and the ESP32 will only receive packets sent by the wireless dongle.
 
-This idea unfortunately did not entirely work: enough radio waves from outside access points leaked into the antenna connector that the wireless dongle also receieved their packets. We tried to build a low-cost faraday cage from a paint can to prevent this, but this only attenuated outside signals with an extra 10dB: this removed some APs, but not all of them. The current solution is definitely not ideal, so we've started work on building a better and larger faraday cage, from conducting fabric and with fiber-optic data communication.
+This idea unfortunately did not entirely work: enough radio waves from outside access points leaked into the antenna connector that the wireless dongle also received their packets. We tried to build a low-cost faraday cage from a paint can to prevent this, but this only attenuated outside signals with an extra 10dB: this removed some APs, but not all of them. The current solution is definitely not ideal, so we've started work on building a better and larger faraday cage, from conducting fabric and with fiber-optic data communication.
 
 <%= figure 'https://pics.zeus.gent/rqJc7p6pSbb6FInNNyadKy2tZy2uWqDaFtuU5KPx.jpg', 'Wi-Fi dongle connected to the ESP32, with two 30 dB attenuators in between' %>
 
@@ -165,7 +167,7 @@ Since the beginning of writing this blog post, receiving packets was also implem
 
 This is a sizeable project that could definitely use multiple contributors; I'd really like to collaborate with other people to create a fully functional, open-source Wi-Fi stack for the ESP32. If this sounds like something you'd like to work on, contact me via <a class="email" href="mailto:%7a%65%75%73%62%6c%6f%67%40%64%65%76%72%65%6b%65%72%2e%62&#101;">zeusblog@<span>not</span>devreker.be</a>, maybe we can have a weekly hacking session?
 
-As far as I know, this is the first undertaking to build an open source 802.11 MAC for an affordable microcontroller. If you want to financially support this project, you can wire money via https://zeus.ugent.be/contact/#payment-info, please put "ESP32" in the transaction description, so our treasurer knows what the money is for. Please do not donate if you're a student or if you're not financially independent. If you're a company and would like to donate hardware (for example, a faraday cage or measuring equipment that might be useful), please contact me.
+As far as I know, this is the first undertaking to build an open source 802.11 MAC for an affordable microcontroller. If you want to financially support this project, you can wire money via <https://zeus.ugent.be/contact/#payment-info>, please put "ESP32" in the transaction description, so our treasurer knows what the money is for. Please do not donate if you're a student or if you're not financially independent. If you're a company and would like to donate hardware (for example, a faraday cage or measuring equipment that might be useful), please contact me.
 
 [This project](https://nlnet.nl/project/ESP32-opendrivers/) was funded through the [NGI0 Core Fund](https://nlnet.nl/core/), a fund established by NLnet with financial support from the European Commission's Next Generation Internet programme, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101092990.
 

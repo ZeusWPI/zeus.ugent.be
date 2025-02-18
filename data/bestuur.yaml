@@ -453,9 +453,6 @@ data:
     - rol: Voorzitter
       naam: Vincent Vallaeys
       mail: voorzitter@zeus.ugent.be
-    - rol: Vicevoorzitter
-      naam: Tibo Ulens
-      mail: voorzitter@zeus.ugent.be
     - rol: Penningmeester
       naam: Rune Dyselinck
       mail: penning@zeus.ugent.be
@@ -471,3 +468,31 @@ data:
     - rol: PR
       naam: Tybo Verslype
       mail: pr@zeus.ugent.be
+  24-25:
+    - rol: Voorzitter
+      naam: Vincent Vallaeys
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Hannes Klinckaert
+      mail: voorzitter@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Rune Dyselinck
+      mail: penning@zeus.ugent.be
+    - rol: Hoofdsysadmin
+      naam: Xander Bil
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Mathieu Strypsteen
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Axel Dezittere
+      mail: admin@zeus.ugent.be
+    - rol: Event
+      naam: Lander De Geeter
+      mail: event@zeus.ugent.be
+    - rol: PR
+      naam: Tybo Verslype
+      mail: pr@zeus.ugent.be
+    - rol: Assisterend bestuurslid
+      naam: Jan Lecoutere
+      mail: assisterend@zeus.ugent.be

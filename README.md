@@ -14,10 +14,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You will need Ruby (gem), yarn and pandoc (optional). Installation instructions are listed below.
+You will need Ruby (gem) and pandoc (optional). Installation instructions are listed below.
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-* [yarn](yarnpkg.com/en/docs/install)
 * [pandoc](https://pandoc.org/installing.html) (optional, install if you want to see the reports)
 
 ### Installing
@@ -28,11 +27,10 @@ If bundler is not yet installed on your system, make sure to install it using th
 gem install bundler
 ```
 
-In the root directory of the project, execute following commands
+In the root directory of the project, execute following command
 
 ```bash
 bundle install
-yarn install
 ```
 
 You will (momentarily) also need `pandoc` and `latex` to compile the reports from the board meetings. Refer to your OS package manager to install these things.
@@ -45,12 +43,22 @@ bundle exec nanoc live
 
 Go to <http://localhost:3000> to view the site! When developing, the site gets regenerated when editing files. A simple refresh will show the new changes.
 
-### Optional: install submodules
+### Not optional: install submodules
 
 Our official meeting reports are added as a submodule so they update automatically. For normal development, it is not required to initialize these. But if you want to deploy to production (or test the report generation), you will have to initialize the submodule.
 
 ```bash
 git submodule update --init --recursive
+```
+
+**This is also needed for bulma**
+
+### For Nix users
+
+If you are using Nix, you can use the provided `shell.nix` file to get a shell with all the required dependencies.
+
+```bash
+nix-shell
 ```
 
 ### Deploying
@@ -74,7 +82,7 @@ If you want to deploy this on your own system for whatever reason, just serve th
 
 ## Uploading media files
 
-Before using mediafiles on the site, upload them via https://zeus.ugent.be/zeuswpi/, our own custom [uploading service](https://github.com/ZeusWPI/ZeusWPI). You'll receive the server-filename which is available at the aforementioned url.
+Before using mediafiles on the site, upload them via [pics.zeus.gent](https://pics.zeus.gent/), our own custom [uploading service](https://github.com/ZeusWPI/ZeusWPI). You'll receive the server-filename which is available at the aforementioned url.
 The file must be less than 1MB!
 
 To upload remove the . in action="./zeuswpi" in following code so it looks like this:

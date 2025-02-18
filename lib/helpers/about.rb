@@ -15,6 +15,14 @@ module AboutHelper
     sponsoring_members_of(@config[:sponsoring_members_year])
   end
 
+  def sponsors_of(year)
+    data_from(:sponsors)[year]
+  end
+
+  def current_sponsors
+    sponsors_of(@config[:sponsors_year])
+  end
+
   def all_bestuur
     data_from(:bestuur).sort_by(&method(:academic_year_sort)).reverse.to_h
   end
