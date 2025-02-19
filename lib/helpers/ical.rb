@@ -19,6 +19,7 @@ module IcalHelper
     e.description = "#{item[:description]}\n\n#{item.reps[:text].compiled_content}"
     e.location = item[:location]
     e.url = @config[:base_url] + item.path
+    e.uid = item.path.sub(/^\/events\//, '').chomp('/').tr('/', '-') + '@zeus.gent'
 
     e
   end
