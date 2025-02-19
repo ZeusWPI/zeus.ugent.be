@@ -14,7 +14,7 @@ locationlink: $therminal
 Samen maken we voor de 4de keer de Therminal onveilig!
 Doorheen het volledig gebouw spelen we enkele game modes.
 
-## Benodigheden
+## Benodigdheden
 
 We voorzien pijltjes _maar geen geweren_. Breng dus zeker je eigen geweer mee, indien je er geen hebt kan je eens rondvragen in het [events kanaal][events] op Mattermost.
 Heb je meerdere geweren dan zijn er zeker mensen die het gaan apprecieren als je ze aanbiedt.
