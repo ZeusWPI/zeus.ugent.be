@@ -1,8 +1,8 @@
 ---
 title: Zeus zoekt bestuur
 description: Wie wordt het volgende glorizeus bestuur?
-time: "06-05-2025 17:30"
-end: "06-05-2025 20:30"
+time: "08-05-2025 17:30"
+end: "08-05-2025 20:30"
 location: Voortuin van de studententuin (aan S5, Campus Sterre)
 locationlink: $voortuin
 banner: "https://pics.zeus.gent/lTeUqmSPl8rlmu58LxeGBijLvf9kbg17K3YtrBQ6.jpg"
@@ -19,7 +19,7 @@ Kom jij samen met ons de beste kandidaten hiervoor te kiezen?
 
 ## Waar en Wanneer?
 
-De verkiezingen gaan door op 5 mei en starten **stipt** om 17h30.
+De verkiezingen gaan door op 8 mei en starten **stipt** om 17h30.
 Daarna eten we traditiegetrouw in de Patrick Foleys.
 
 ## Kandidaten 
