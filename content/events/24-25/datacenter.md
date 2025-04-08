@@ -1,5 +1,5 @@
 --- 
-title: Zeus bezoekt de datacenter van Gent 
+title: Zeus bezoekt het datacenter van Gent 
 description: Neem een kijkje naar de servers die Gent draaiende houdt
 created_at: 07-04-2025
 time: '05-05-2025 09h00'
@@ -18,7 +18,7 @@ De rondleiding wordt georganiseerd door [District09](https://district09.gent/nl)
 
 ## Planning 
 
-De definitieve planning is nog niet bekent maar je kan je ongeveer verwachten aan het volgende:
+De definitieve planning is nog niet bekend maar je kan je ongeveer verwachten aan het volgende:
 
 1. Inleiding District09
 2. Bezoek datacenter
