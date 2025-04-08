@@ -12,9 +12,9 @@ header_text_background: true
 
 # Datacenter 
 
-Op 5 mei gaan we een kijkje gaan nemen bij één van de datacentra van stad Gent. We krijgen er een rondleiding alsook uitgebreid uitleg hoe alles precies werkt.
+Op 5 mei gaan we een kijkje gaan nemen bij het datacenter van stad Gent. We krijgen er een rondleiding alsook uitgebreid uitleg hoe alles precies werkt.
 
-De rondleiding wordt georganiseerd door [District09](https://district09.gent/nl), de digitale partner van stad Gent en ze beheren de datacentra.
+De rondleiding wordt georganiseerd door [District09](https://district09.gent/nl), de digitale partner van stad Gent en zij beheren het datacenter.
 
 ## Planning 
 
