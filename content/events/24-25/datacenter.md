@@ -33,4 +33,4 @@ De definitieve planning is nog niet bekend maar je kan je ongeveer verwachten aa
 
 Inschrijven kan op [Gandalf](https://event.student.ugent.be/events/405).
 
-**Inschrijven is verplicht**
+**Inschrijven kan tot zondag 27 april 23h55 en is verplicht**
