@@ -19,12 +19,12 @@ Kom jij samen met ons de beste kandidaten hiervoor te kiezen?
 
 ## Waar en Wanneer?
 
-De verkiezingen gaan door op 8 mei en starten **stipt** om 17h30.
+De verkiezingen gaan door op 8 mei en starten **stipt** om 18h00.
 Daarna eten we traditiegetrouw in de Patrick Foleys.
 
 ## Kandidaten 
 
-Je kandidatuur indienen kan door middel van een mailtje te sturen naar `bestuur@zeus.ugent.be` tot en met 04/05 20h00.
+Je kandidatuur indienen kan door middel van een mailtje te sturen naar `bestuur@zeus.ugent.be` tot en met 07/05 23h59.
 
 ### Verloop
 
