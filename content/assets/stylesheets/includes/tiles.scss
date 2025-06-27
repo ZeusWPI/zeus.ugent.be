@@ -136,16 +136,12 @@ $top_coder_size: 80px;
     background-color: rgba(0, 0, 0, 0.2);
   }
 
-  .content {
-    position: relative;
+  h1, h2, h3 {
+    color: white;
+  }
 
-    h1, h2, h3 {
-      color: white;
-    }
-
-    h2 {
-      margin-top: 0;
-    }
+  h2 {
+    margin-top: 0;
   }
 }
 
