@@ -496,3 +496,40 @@ data:
     - rol: Assisterend bestuurslid
       naam: Jan Lecoutere
       mail: assisterend@zeus.ugent.be
+  25-26:
+    - rol: Voorzitter
+      naam: Xander Bil
+      mail: voorzitter@zeus.ugent.be
+    - rol: Vicevoorzitter
+      naam: Hannes Klinckaert
+      mail: voorzitter@zeus.ugent.be
+    - rol: Penningmeester
+      naam: Rune Dyselinck
+      mail: penning@zeus.ugent.be
+    - rol: Hoofdsysadmin
+      naam: Mathieu Strypsteen
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Axel Dezittere
+      mail: admin@zeus.ugent.be
+    - rol: Sysadmin
+      naam: Saturn Casaer
+      mail: admin@zeus.ugent.be
+    - rol: Event
+      naam: Lander De Geeter
+      mail: event@zeus.ugent.be
+    - rol: Event
+      naam: Nathan Onraet
+      mail: event@zeus.ugent.be
+    - rol: PR
+      naam: Tybo Verslype
+      mail: pr@zeus.ugent.be
+    - rol: PR
+      naam: Robin Paret
+      mail: pr@zeus.ugent.be
+    - rol: Project
+      naam: Jonas Meeuws
+      mail: project@zeus.ugent.be
+    - rol: Assisterend bestuurslid
+      naam: Lily Cailliau
+      mail: assisterend@zeus.ugent.be
