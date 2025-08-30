@@ -162,13 +162,13 @@
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
       <% current_sponsors.shuffle.each do |sponsor| %>
-        <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
-          <div class='column is-4-desktop is-one-fifth-tablet is-one-third-mobile'>
+        <div class='column is-4-desktop is-one-fifth-tablet is-one-third-mobile'>
+          <a href="/sponsors/sponsors/#<%= sponsor[:name] %>">
             <div style="background: <%= sponsor[:background] %>; border-radius: 8px; padding: 10px; display: flex; justify-content: center; align-items: center;">
               <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       <% end %>
     </div>
     <% end %>
