@@ -1,3 +1,9 @@
+<head>
+  <script type="module" src="http://localhost:3001/zapp-components/zapp-components.esm.js"></script>
+  <script nomodule src="http://localhost:3001/zapp-components/zapp-components.js"></script>
+  <link rel="stylesheet" href="http://localhost:3001/zapp-components/assets/global.css">
+</head>
+
 <div id="navbar">
   <div class="navbar <%= 'is-transparent' if defined? @transparent_nav %>">
     <div class="navbar-brand">
@@ -46,6 +52,10 @@
             Schrijf je in!
           </a>
         <%end%>
+
+        <div style="width: 2.8rem; aspect-ratio: 1/1; display: flex; justify-content: center; align-items: center;">
+          <zapp-v01></zapp-v01>
+        </div>
       </div>
       <!-- TODO: Remove this is-hidden-touch, it's just a convenience for now -->
       <div class="navbar-end is-hidden-touch">
