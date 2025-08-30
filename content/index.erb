@@ -24,7 +24,7 @@
   <div class='cell is-col-span-2'>
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+        <a href="/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
           Upcoming Events
           </a>
       </span>
@@ -73,7 +73,7 @@
       <!-- Previous events section -->
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
-          <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
           Previous Events
           </a>
         </span>
@@ -89,7 +89,7 @@
     <div class='column is-half'>
       <div class='content has-text-centered box'>
         <h2>
-          <a href="https://zeus.ugent.be/about/about/" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="/about/about/" style="color: var(--bulma-body-color); text-decoration: none;">
             About Zeus WPI
           </a>
         </h2>
@@ -107,7 +107,7 @@
       <!-- Blogpost section -->
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
-          <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="/blog/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
           Blogpost
           </a>
         </span>
@@ -122,7 +122,7 @@
   <div class='cell is-col-span-2' id='sponsoring-members'>
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
+        <a href="/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
           Sponsoring members
         </a>
       </span>
@@ -136,7 +136,7 @@
       <% current_sponsoring_members.shuffle.each do |member| %>
       <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
         <div class="rounded-container">
-          <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= member[:nickname] %>">
+          <a href="/sponsors/sponsors/#<%= member[:nickname] %>">
             <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
           </a>
         </div>
@@ -150,7 +150,7 @@
   <div class='cell is-col-span-2' id="sponsors">
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
+        <a href="/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
           Sponsors
         </a>
       </span>
@@ -162,13 +162,13 @@
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
       <% current_sponsors.shuffle.each do |sponsor| %>
-        <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
-          <div class='column is-4-desktop is-one-fifth-tablet is-one-third-mobile'>
+        <div class='column is-4-desktop is-one-fifth-tablet is-one-third-mobile'>
+          <a href="/sponsors/sponsors/#<%= sponsor[:name] %>">
             <div style="background: <%= sponsor[:background] %>; border-radius: 8px; padding: 10px; display: flex; justify-content: center; align-items: center;">
               <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       <% end %>
     </div>
     <% end %>
