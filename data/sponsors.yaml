@@ -10,3 +10,19 @@ data:
         - url: https://zeus.ugent.be
         - icon: facebook
           url: https://www.facebook.com/zeus.wpi
+  2025:
+    - name: "Vintecc"
+      photo: /assets/images/vintecc-full.svg
+      background: "white"
+      description: |-
+        We accelerate your industry through intelligent innovation, using tailor-made software solutions and state-of-the-art Al technology.
+      links:
+        - url: https://vintecc.com
+        - icon: facebook
+          url: https://www.facebook.com/vintecc
+        - icon: linkedin
+          url: https://www.linkedin.com/company/vintecc
+        - icon: instagram-square
+          url: https://www.instagram.com/wearevintecc
+        - icon: youtube
+          url: https://www.youtube.com/channel/UC9qfgzmToly5zkc7SvNo0Tg

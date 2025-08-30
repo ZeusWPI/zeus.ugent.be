@@ -1,15 +1,19 @@
 ---
 narrow_page: true
-subnavigation:
-  bar: sponsors
-  identifier: sponsors
-  name: Sponsors
-  order: 20
 ---
 
 <h1 class='title is-1 has-text-centered'>Sponsors</h1>
 
 <div id='sponsors' class="content">
+  <div class="has-text-centered" style="margin-bottom: 1.5rem;">
+    <a class="button is-primary is-medium" href="/assets/files/zeus-sponsorbrochure-25-26.pdf" download="sponsorbrochure.pdf">
+      <span class="icon">
+        <i class="fa fa-download"></i>
+      </span>
+      <span>Download sponsorbrochure (PDF)</span>
+    </a>
+  </div>
+
   <% if current_sponsors.nil? %>
     <div class="has-text-centered">
       No sponsors yet for this academic year. Interested? Contact the board.
@@ -20,7 +24,9 @@ subnavigation:
         <article class="columns is-mobile">
           <div class="column is-gapless is-narrow logo-wrapper">
             <% if sponsor[:photo] %>
-              <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+              <div style="background: <%= sponsor[:background] %>; border-radius: 8px; padding: 10px; display: flex; justify-content: center; align-items: center;">
+                  <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+              </div>
             <% else %>
               <div class="logo-initial has-text-centered">
                 <%= sponsor[:name].chars.first %>
@@ -36,6 +42,59 @@ subnavigation:
             </div>
             <div class="links">
               <% sponsor[:links].each do |link| %>
+                <% if link[:icon] %>
+                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                      <span class="icon">
+                        <i class="fa fa-<%= link[:icon] %> fa-brands fa-2x"></i>
+                      </span>
+                  </a>
+                <% else %>
+                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                      <span class="icon">
+                        <%= fa :globe, {:size => "2x"} %>
+                      </span>
+                  </a>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </article>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
+<h1 class='title is-1 has-text-centered'>Sponsoring members</h1>
+
+<div id='sponsoring-members' class="content">
+  <% if current_sponsoring_members.nil? %>
+    No sponsoring members yet for this academic year. Interested? Contact the board.
+  <% else %>
+    <% current_sponsoring_members.shuffle.each do |member| %>
+      <div id="<%= member[:nickname] %>" class="box sponsoring-member">
+        <article class="columns is-mobile">
+          <div class="column is-gapless is-narrow logo-wrapper">
+            <% if member[:photo] %>
+              <img src="<%= member[:photo] %>" alt="<%= member[:name] %>">
+            <% else %>
+              <div class="logo-initial has-text-centered">
+                <%= member[:name].chars.first %>
+              </div>
+            <% end %>
+            <div class="name"><%= member[:name] %></div>
+            <div class="username">(<%= member[:nickname] %>)</div>
+          </div>
+          <div class="column">
+            <div>
+              <blockquote>
+                <%= to_HTML(member[:quote]) %>
+              </blockquote>
+              <p class="description">
+                <%= to_HTML(member[:description]) %>
+              </p>
+            </div>
+            <div class="links">
+              <% member[:links].each do |link| %>
                 <% if link[:icon] %>
                   <a class="social-icon" href="<%= link[:url] %>" target="_blank">
                       <span class="icon">
