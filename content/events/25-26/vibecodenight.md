@@ -5,8 +5,8 @@ time: '18-11-2025 18:00'
 end: '18-11-2025 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
-banner: //zeus.ugent.be/zeuswpi/6DthpGAV.png
-image: //zeus.ugent.be/zeuswpi/VPQevc5x.gif
+banner: https://pics.zeus.gent/irIt5tSeLmOAux6aK8eENtF8i6UOC0S8GesQEcmL.png
+image: https://pics.zeus.gent/irIt5tSeLmOAux6aK8eENtF8i6UOC0S8GesQEcmL.png
 header_text_background: true
 ---
 
