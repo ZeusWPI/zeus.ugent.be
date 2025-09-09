@@ -16,8 +16,8 @@ Tweede week, tijd om eens iets te programmeren! Maak je geen zorgen als je nog m
 
 Als je nog niet kan programmeren, zullen we er zijn om je vragen te beantwoorden.
 
-Maak een programma door een doolhof te tekenen in ascii-art, of Hello World met
-    `++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
+Maak een programma door een [doolhof te tekenen in ascii-art](https://esolangs.org/wiki/Maze), of Hello World met
+    [`++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`](https://en.wikipedia.org/wiki/Brainfuck)
 
 We voorzien een lijst van interessante talen, en enkele opdrachten die je kunt proberen te volbrengen in een van deze talen.
 
