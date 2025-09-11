@@ -1,15 +1,5 @@
 ---
 data:
-  2023:
-    - name: "Example"
-      photo: https://pics.zeus.gent/zeus_round.png
-      description: |-
-        Example Sponsor
-        Zeus WPI
-      links:
-        - url: https://zeus.ugent.be
-        - icon: facebook
-          url: https://www.facebook.com/zeus.wpi
   2025:
     - name: "Vintecc"
       photo: /assets/images/vintecc-full.svg

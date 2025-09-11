@@ -1,5 +1,10 @@
 ---
 narrow_page: true
+subnavigation:
+  bar: sponsors
+  identifier: sponsors
+  name: Sponsors
+  order: 10
 ---
 
 <h1 class='title is-1 has-text-centered'>Sponsors</h1>
@@ -22,19 +27,21 @@ narrow_page: true
     <% current_sponsors.shuffle.each do |sponsor| %>
       <div id="<%= sponsor[:name] %>" class="box sponsoring-member">
         <article class="columns is-mobile">
-          <div class="column is-gapless is-narrow logo-wrapper">
+          <div class="column is-gapless is-narrow logo-wrapper is-flex is-justify-content-center is-align-items-center">
+            <div class="name"><%= sponsor[:name] %></div>
+          </div>
+          <div class="column">
             <% if sponsor[:photo] %>
-              <div style="background: <%= sponsor[:background] %>; border-radius: 8px; padding: 10px; display: flex; justify-content: center; align-items: center;">
-                  <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+              <div class="is-flex is-justify-content-center is-align-items-center">
+                <div class="box p-3 is-flex is-justify-content-center is-align-items-center is-inline-block" style="background: <%= sponsor[:background] %>;">
+                    <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+                </div>
               </div>
             <% else %>
               <div class="logo-initial has-text-centered">
                 <%= sponsor[:name].chars.first %>
               </div>
             <% end %>
-            <div class="name"><%= sponsor[:name] %></div>
-          </div>
-          <div class="column">
             <div>
               <p class="description">
                 <%= to_HTML(sponsor[:description]) %>
@@ -46,59 +53,6 @@ narrow_page: true
                   <a class="social-icon" href="<%= link[:url] %>" target="_blank">
                       <span class="icon">
                         <i class="fa fa-<%= link[:icon] %> fa-brands fa-2x"></i>
-                      </span>
-                  </a>
-                <% else %>
-                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                      <span class="icon">
-                        <%= fa :globe, {:size => "2x"} %>
-                      </span>
-                  </a>
-                <% end %>
-              <% end %>
-            </div>
-          </div>
-        </article>
-      </div>
-    <% end %>
-  <% end %>
-</div>
-
-<h1 class='title is-1 has-text-centered'>Sponsoring members</h1>
-
-<div id='sponsoring-members' class="content">
-  <% if current_sponsoring_members.nil? %>
-    No sponsoring members yet for this academic year. Interested? Contact the board.
-  <% else %>
-    <% current_sponsoring_members.shuffle.each do |member| %>
-      <div id="<%= member[:nickname] %>" class="box sponsoring-member">
-        <article class="columns is-mobile">
-          <div class="column is-gapless is-narrow logo-wrapper">
-            <% if member[:photo] %>
-              <img src="<%= member[:photo] %>" alt="<%= member[:name] %>">
-            <% else %>
-              <div class="logo-initial has-text-centered">
-                <%= member[:name].chars.first %>
-              </div>
-            <% end %>
-            <div class="name"><%= member[:name] %></div>
-            <div class="username">(<%= member[:nickname] %>)</div>
-          </div>
-          <div class="column">
-            <div>
-              <blockquote>
-                <%= to_HTML(member[:quote]) %>
-              </blockquote>
-              <p class="description">
-                <%= to_HTML(member[:description]) %>
-              </p>
-            </div>
-            <div class="links">
-              <% member[:links].each do |link| %>
-                <% if link[:icon] %>
-                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                      <span class="icon">
-                        <%= fa link[:icon], {:size => "2x"} %>
                       </span>
                   </a>
                 <% else %>
