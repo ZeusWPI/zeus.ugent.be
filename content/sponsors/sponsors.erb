@@ -27,10 +27,7 @@ subnavigation:
     <% current_sponsors.shuffle.each do |sponsor| %>
       <div id="<%= sponsor[:name] %>" class="box sponsoring-member">
         <article class="columns is-mobile">
-          <div class="column is-gapless is-narrow logo-wrapper is-flex is-justify-content-center is-align-items-center">
-            <div class="name"><%= sponsor[:name] %></div>
-          </div>
-          <div class="column">
+          <div class="column px-5">
             <% if sponsor[:photo] %>
               <div class="is-flex is-justify-content-center is-align-items-center">
                 <div class="box p-3 is-flex is-justify-content-center is-align-items-center is-inline-block" style="background: <%= sponsor[:background] %>;">
