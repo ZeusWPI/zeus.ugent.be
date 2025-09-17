@@ -8,7 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/YnZfF3IvFuJAQVcRrUz1fBYb8j38pU0akmKLIZCN.jpg
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Zeus speelt bordspelen!

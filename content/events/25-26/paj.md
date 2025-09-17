@@ -8,7 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/zpEUvqMr0kbJMbBCwYfIOpy5QB1vJLLaOoW4OG8S.jpg
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Pannenkoeken en Jenever ~~codenight~~

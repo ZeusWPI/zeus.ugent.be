@@ -8,7 +8,7 @@ locationlink: $kelder
 banner: https://pics.zeus.gent/mYZ47IUS32NdEKaYTJ2kIW5mHMKtoWuVwk6uMK4n.png
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Workshop

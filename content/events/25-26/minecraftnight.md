@@ -8,7 +8,7 @@ locationlink: $kelder
 banner: https://pics.zeus.gent/Gc0ahAesw3xrqd4KwnoGEd68ymFW7kgbtIV93yVO.png
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Minecraft Night
