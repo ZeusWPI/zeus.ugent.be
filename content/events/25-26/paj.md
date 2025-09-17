@@ -1,6 +1,6 @@
 ---
-title: Pannenkoeken en Jenever codenight
-description: Schrijf code, eet pannenkoek, drink jenever!
+title: Pannenkoeken en Jenever ~~codenight~~
+description: Schrijf code?, eet pannenkoek, drink jenever!
 time: '11-12-2025 18:00'
 end: '12-12-2025 04:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
@@ -10,8 +10,8 @@ header_text_background: true
 ---
 ---
 
-# Pannenkoeken en Jenever codenight
-Schrijf code, eet pannenkoek, drink jenever!
+# Pannenkoeken en Jenever ~~codenight~~
+Schrijf code?, eet pannenkoek, drink jenever!
 
 > Ballmer-peak: The theory that computer programmers obtain quasi-magical, superhuman coding ability when they have a blood alcohol concentration percentage between 0.129% and 0.138%.
 
