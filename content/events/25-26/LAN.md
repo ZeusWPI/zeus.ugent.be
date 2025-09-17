@@ -5,7 +5,7 @@ time: '25-10-2025 18:00'
 end: '26-10-2025 06:00'
 location: Therminal, Hoveniersberg 24, 9000 Gent
 locationlink: $therminal
-banner: 
+banner: https://pics.zeus.gent/rhLkrCKqszXjbUkptZF1XiHzoO5IW6wXLpydPE7n.jpg
 header_text_background: true
 facebook: 
 ---
