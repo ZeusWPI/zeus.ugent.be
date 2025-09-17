@@ -8,7 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/uDciuMg16pGXelYvBJMO7A9zGb0O0ehBdTxdWQ8P.png
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Botbattle CenEka Codenight

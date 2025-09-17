@@ -7,7 +7,7 @@ location: O'Learys - Dok Noord 7/301, Gent
 locationlink:
 banner: https://pics.zeus.gent/vYSZtlxihNgEtNqattxg3XxsQYLhYU3zmFrH5wyN.jpg
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Bowlen

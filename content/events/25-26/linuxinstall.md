@@ -8,7 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/oLHa12qa.jpg
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Linux Install Party

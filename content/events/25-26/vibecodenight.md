@@ -8,7 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/irIt5tSeLmOAux6aK8eENtF8i6UOC0S8GesQEcmL.png
 image: https://pics.zeus.gent/irIt5tSeLmOAux6aK8eENtF8i6UOC0S8GesQEcmL.png
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # VibeCodeNight

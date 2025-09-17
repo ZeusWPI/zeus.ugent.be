@@ -8,7 +8,7 @@ locationlink: $kelder
 banner: https://zeus.ugent.be/zeuswpi/obus.jpg
 image:
 header_text_background: true
-tags:
+tags: {}
 ---
 
 # Keep Talking & Nobody Explodes (Part II)
