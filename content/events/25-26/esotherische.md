@@ -8,6 +8,7 @@ locationlink: $s9
 banner: https://pics.zeus.gent/JnpFxP-T.jpg
 image: https://pics.zeus.gent/a28GvLuO.png
 header_text_background: true
+tags:
 ---
 
 # Esotherische Kennismakingsavond
