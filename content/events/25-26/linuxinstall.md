@@ -6,7 +6,9 @@ end: '14-10-2025 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/oLHa12qa.jpg
+image:
 header_text_background: true
+tags:
 ---
 
 # Linux Install Party

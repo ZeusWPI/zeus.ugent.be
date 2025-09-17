@@ -6,7 +6,9 @@ end: '24-09-2025 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $kelder
 banner: https://pics.zeus.gent/Gc0ahAesw3xrqd4KwnoGEd68ymFW7kgbtIV93yVO.png
+image:
 header_text_background: true
+tags:
 ---
 
 # Minecraft Night

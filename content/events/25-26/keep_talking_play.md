@@ -3,10 +3,12 @@ title: Keep Talking & Nobody Explodes Speel avond
 description: Na implementatie volgt testen, speel heel de avond Keep Talking & Nobody Explodes, ZEUS EDITIE
 time: '13-11-2025 18:00' 
 end: '13-11-2025 23:00'
-header_text_background: true 
-banner: https://zeus.ugent.be/zeuswpi/obus.jpg
 location: 'Zeuskelder, Gebouw S9, Campus Sterre'
 locationlink: $kelder
+banner: https://zeus.ugent.be/zeuswpi/obus.jpg
+image:
+header_text_background: true
+tags:
 ---
 
 # Keep Talking & Nobody Explodes (Speel Avond)
