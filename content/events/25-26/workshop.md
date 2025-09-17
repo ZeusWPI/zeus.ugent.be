@@ -1,15 +1,14 @@
 ---
-title: Bowlen
-description: Zeus gaat bowlen!
-time: '2-12-2025 18:30'
-end: '2-12-2025 21:00'
-location: O'Learys - Dok Noord 7/301, Gent
-banner: https://pics.zeus.gent/vYSZtlxihNgEtNqattxg3XxsQYLhYU3zmFrH5wyN.jpg
+title: Workshop
+description: Zeus doet toffe workshop
+time: '27-11-2025 18:00'
+end: '27-11-2025 23:00'
+location: Zeuskelder, Gebouw S9, Campus Sterre
+locationlink: $kelder
 header_text_background: true
 ---
 
-# Bowlen
+# Workshop
 
-Zeus gaat bowlen bij O'Learys!
-
-**Meer info volgt**
+Zeus volgt een workshop, meer details volgen nog.
+Het woord *OpenSCAD* is al gevallen en er gaan al geruchten dat een **redfast00** zou verschijnen!
