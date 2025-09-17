@@ -1,8 +1,8 @@
 ---
 title: Keep Talking & Nobody Explodes (Part II)
 description: Maak je eigen module
-time: '11-05-2025 18:00' 
-end: '11-05-2025 23:00'
+time: '11-11-2025 18:00' 
+end: '11-11-2025 23:00'
 header_text_background: true 
 banner: https://zeus.ugent.be/zeuswpi/obus.jpg
 location: 'Zeuskelder, Gebouw S9, Campus Sterre'
