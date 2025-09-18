@@ -1,5 +1,5 @@
 ---
-title: 'NERF Fight: ZeusWpi x VVN'
+title: 'NERF Fight: ZeusWPI x VVN'
 time: '3-11-2025 00:00' 
 end: '7-11-2025 23:59' 
 location: TBD
