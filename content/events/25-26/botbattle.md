@@ -1,0 +1,22 @@
+---
+title: Botbattle CenEka Codenight
+description: Werk samen aan een softwarebot om deel te nemen aan de botbattle van CenEka
+time: '28-10-2025 18:00'
+end: '28-10-2025 23:00'
+location: Zeuskelder, Gebouw S9, Campus Sterre
+locationlink: $s9
+banner: https://pics.zeus.gent/uDciuMg16pGXelYvBJMO7A9zGb0O0ehBdTxdWQ8P.png
+image:
+header_text_background: true
+tags: {}
+---
+
+# Botbattle CenEka Codenight
+
+Op 28 oktober doen wij mee met de CenEka Botbattle! Iedereen is welkom in de kelder om aan hun bot te werken. We bespreken mogelijke strategieën en kijken hoe hoog we kunnen scoren.
+We krijgen ook ons eigen apart leaderboard, speciaal voor dit event.
+
+CenEka voorziet voorbeeldcode en documentatie, dus dit is zeker voor iedereen haalbaar!
+
+Eens de nieuwe editie online staat kun je alle informatie vinden op [https://botbattle.be](https://botbattle.be).
+
