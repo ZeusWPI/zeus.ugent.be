@@ -1,7 +1,7 @@
 ---
 title: 'NERF Fight: ZeusWpi x VVN'
-time: '10-2025' 
-end: '10-2025' 
+time: '3-11-2025 00:00' 
+end: '7-11-2025 23:59' 
 location: TBD
 description: NERF games met VVN
 header_text_background: true 
@@ -14,6 +14,8 @@ locationlink: $therminal
 Samen maken we voor de 5de keer de buurt onveilig!
 Dit keer samen met VVN.
 Doorheen het volledig gebouw spelen we enkele game modes.
+
+Momenteel is de datum nog niet vastgelegd, maar zal vallen in de week van 3 november.
 
 ## Benodigdheden
 
