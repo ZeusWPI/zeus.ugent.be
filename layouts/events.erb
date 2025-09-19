@@ -46,9 +46,17 @@
   <div class="column">
     <% unless upcoming_events_in_year_or_tag(@item).empty? %>
       <div class="content">
-        <h1>Upcoming events</h1>
-        <p>Alle events zijn toegankelijk voor alle jaren, behalve als het anders staat vermeld. </p>
-        <p>Er zullen ook altijd Zeus-leden zijn die kunnen helpen als je iets niet begrijpt. 🙂</p>
+      <div class="card">
+        <div class="card-header">
+        <p class="card-header-title title is-4">Info</p>
+        </div>
+        <div class="card-content">
+          <p>Alle events zijn toegankelijk voor alle jaren, behalve als het anders staat vermeld. </p>
+          <p>Er zullen ook altijd Zeus-leden aanwezig zijn die kunnen helpen als je iets niet begrijpt. 🙂</p>
+          <button class="button is-primary" onclick="window.location.href='/ical.ics'">Zet events in je persoonlijke kalender</button>
+        </div>
+      </div>
+      <h1>Upcoming events</h1>
       </div>
       <% upcoming_events_in_year_or_tag(@item).each_slice(1) do |slice| %>
       <div class="block">
