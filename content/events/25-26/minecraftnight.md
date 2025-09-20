@@ -3,7 +3,7 @@ title: Minecraft Night
 description: Leer Zeus WPI (en elkaar) kennen door samen een avondje minecraft te spelen.
 time: '24-09-2025 18:00'
 end: '24-09-2025 23:00'
-location: Zeuskelder, Gebouw S9, Campus Sterre
+location: Auditorium A0, Gebouw S9, Campus Sterre
 locationlink: $kelder
 banner: https://pics.zeus.gent/Gc0ahAesw3xrqd4KwnoGEd68ymFW7kgbtIV93yVO.png
 image:
