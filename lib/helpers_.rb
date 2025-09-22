@@ -24,3 +24,4 @@ include AboutHelper
 include ReportsHelper
 include PrivacyHelper
 include BannerHelper
+include I18nHelper
