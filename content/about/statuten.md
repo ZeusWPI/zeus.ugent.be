@@ -7,10 +7,10 @@ subnavigation:
   order: 200
 ---
 
-# Statuten
+# <%= t("about.statutes.title") %>
 {:.title.is-1.has-text-centered}
 
-## Revisie academiejaar 2021-2022
+## <%= t("about.statutes.revision_year") %>
 {:.subtitle.is-2.has-text-centered}
 
 <div class="content" markdown="1">
