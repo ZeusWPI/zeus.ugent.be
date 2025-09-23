@@ -9,6 +9,16 @@ nl:
     cammie: "Cammie"
     mirror: "Spiegel"
     sign_up: "Schrijf je in!"
+  subnavigation:
+    about_zeus: "Zeus WPI"
+    statutes: "Statuten"
+    privacy_policy: "Privacybeleid"
+    history: "Historiek"
+    former_boards: "Oud-bestuur"
+    reports: "Verslagen"
+    sponsors:
+      sponsoring_members: "Sponsorende Leden"
+      sponsors: "Sponsors"
   index:
     upcoming_events: "Aankomende Events"
     no_events_string: "Er zijn momenteel geen aankomende events. Als je een suggestie hebt, laat het ons weten op mattermost in"

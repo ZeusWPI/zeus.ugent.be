@@ -3,7 +3,7 @@ narrow_page: true
 subnavigation:
   bar: about
   identifier: statuten
-  name: Statuten
+  name: subnavigation.statutes
   order: 200
 ---
 
