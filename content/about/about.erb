@@ -7,35 +7,32 @@ subnavigation:
   order: 100
 ---
 
-<h1 class="title is-1 has-text-centered">About Zeus WPI</h1>
+<h1 class="title is-1 has-text-centered"><%= t('about.about_zeus.title') %></h1>
 
 <div class="content">
   <p>
-    Zeus WPI is the student association for Computer Science at Ghent University.
-    Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+    <%= t('about.about_zeus.content_1') %>
   </p>
 
   <p>
-    We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
-    Together we build applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='https://12urenloop.be/'>12urenloop</a> and of course for ourselves.
+    <%= t('about.about_zeus.content_2', hydra: '<a href="https://hydra.ugent.be">Hydra</a>', urenloop: '<a href="https://urenloop.ugent.be">12urenloop</a>') %>
   </p>
 
   <p>
-    Be sure to check out the <a href='../../projects'>project page</a>!
+    <%= t('about.about_zeus.content_3', project_page: '<a href="https://zeus.ugent.be/projects">project page</a>') %>
   </p>
 
   <p>
-    Everybody is welcome at Zeus WPI, regardless of your academic background. What truly matters is your passion for computer science and a bit of (tolerance for) geekiness won't hurt either!
+    <%= t('about.about_zeus.content_4') %>
   </p>
 
-  <h2>The board</h2>
+  <h2><%= t('about.about_zeus.board.title') %></h2>
   <p id="board">
-    The board is the oil in the machine and is the driving force behind the organization of events and projects.
-    The Zeus WPI board in <%= pretty_year @config[:academic_year] %> is:
+    <%= t('about.about_zeus.board.content', year: pretty_year(@config[:academic_year])) %>
   </p>
 
   <blockquote>
-    Mail us all at: <a href='mailto:bestuur@zeus.ugent.be'>bestuur@zeus.ugent.be</a>
+    <%= t('about.about_zeus.board.mail')%> <a href='mailto:bestuur@zeus.ugent.be'>bestuur@zeus.ugent.be</a>
   </blockquote>
 
   <%= render '/partials/_current_bestuur.*' %>
