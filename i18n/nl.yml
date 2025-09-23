@@ -1,0 +1,19 @@
+nl:
+  index:
+    upcoming_events: "Aankomende Events"
+    no_events_string: "Er zijn momenteel geen aankomende events. Als je een suggestie hebt, laat het ons weten op mattermost in"
+    top_coders: "Top Coders"
+    previous_events: "Afgelopen Events"
+    about:
+      title: "Over Zeus WPI"
+      content_1: "Zeus WPI is de studentenvereniging voor Informatica aan de Universiteit Gent. 
+          Ons doel is om een stimulerende omgeving te bieden voor gemotiveerde studenten die hun vaardigheden willen uitbreiden door deel te nemen aan interessante projecten uit de echte wereld."
+      content_2: "We organiseren verschillende tech-gerelateerde events, zoals lezingen door experts, hands-on codeerevenementen en inleidende lezingen over interessante technologieën.
+          Samen bouwen we applicaties voor studenten van de Universiteit Gent (%{hydra}), voor %{urenloop} en natuurlijk voor onszelf."
+    blogpost: "Blogpost"
+    sponsoring_members: 
+      title: "Sponsorende Leden"
+      empty: "Nog geen sponsorende leden voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+    sponsors:
+      title: "Sponsors"
+      empty: "Nog geen sponsors voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."

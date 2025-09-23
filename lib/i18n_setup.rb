@@ -2,7 +2,7 @@ require 'i18n'
 
 I18n.load_path += Dir[File.expand_path('../i18n/*.yml', __dir__)]
 
-I18n.default_locale = :en
+I18n.default_locale = :nl
 
 I18n.available_locales = [:en, :nl]
 
