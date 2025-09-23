@@ -4,12 +4,6 @@ en:
     no_events_string: "There are currently no upcoming events. If you have a suggestion, let us know on mattermost in"
     top_coders: "Top Coders"
     previous_events: "Previous Events"
-    about:
-      title: "About Zeus WPI"
-      content_1: "Zeus WPI is the student association for Computer Science at Ghent University.
-          Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects."
-      content_2: "We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
-          Together we build applications for Ghent University students (%{hydra}), for %{urenloop} and of course for ourselves."
     blogpost: "Blogpost"
     sponsoring_members: 
       title: "Sponsoring Members"
@@ -17,3 +11,16 @@ en:
     sponsors:
       title: "Sponsors"
       empty: "No sponsors yet for this academic year. Interested? Contact the board."
+  about:
+    about_zeus:
+      title: "About Zeus WPI"
+      content_1: "Zeus WPI is the student association for Computer Science at Ghent University.
+          Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects."
+      content_2: "We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
+          Together we build applications for Ghent University students (%{hydra}), for %{urenloop} and of course for ourselves."
+      content_3: "Be sure to check out our %{project_page}!"
+      content_4: "Everybody is welcome at Zeus WPI, regardless of your academic background. What truly matters is your passion for computer science and a bit of (tolerance for) geekiness won't hurt either!"
+      board:
+        title: "The board"
+        content: "The board is the oil in the machine and is the driving force behind the organization of events and projects. The Zeus WPI board in %{year} is:"
+        mail: "Mail us all at:"
