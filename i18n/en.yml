@@ -24,3 +24,6 @@ en:
         title: "The board"
         content: "The board is the oil in the machine and is the driving force behind the organization of events and projects. The Zeus WPI board in %{year} is:"
         mail: "Mail us all at:"
+    statutes:
+      title: "Statutes"
+      revision_year: "Revision academic year 2021-2022"
