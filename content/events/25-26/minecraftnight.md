@@ -17,6 +17,8 @@ De eerste dag is altijd moeizaam, veel gewoon te worden en je kent niemand! Als 
 
 We hebben onze eigen plugin geschreven die zal zorgen voor een interessante ervaring!
 
+Zorg dat je je eigen laptop meehebt en de laatste versie van Minecraft Java edition (1.21.8) hebt gedownload.
+
 Voor de hongerigen zal er eten besteld worden tijdens het event!
 
 Tot dan!
