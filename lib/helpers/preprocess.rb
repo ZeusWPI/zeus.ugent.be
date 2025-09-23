@@ -79,7 +79,7 @@ module PreprocessHelper
     years.each do |year|
       @items.create(
         '',
-        { academic_year: year, title: type, is_yearly: true },
+        { academic_year: year, title: "navigation.#{type.downcase}", is_yearly: true },
         "/#{type.downcase}/#{year}.html"
       )
     end

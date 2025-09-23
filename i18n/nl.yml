@@ -1,4 +1,14 @@
 nl:
+  navigation:
+    about: "Over"
+    contact: "Contact"
+    blog: "Blog"
+    events: "Events"
+    projects: "Projecten"
+    sponsors: "Sponsors"
+    cammie: "Cammie"
+    mirror: "Spiegel"
+    sign_up: "Schrijf je in!"
   index:
     upcoming_events: "Aankomende Events"
     no_events_string: "Er zijn momenteel geen aankomende events. Als je een suggestie hebt, laat het ons weten op mattermost in"

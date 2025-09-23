@@ -1,4 +1,14 @@
 en:
+  navigation:
+    about: "About"
+    contact: "Contact"
+    blog: "Blog"
+    events: "Events"
+    projects: "Projects"
+    sponsors: "Sponsors"
+    cammie: "Cammie"
+    mirror: "Mirror"
+    sign_up: "Sign up!"
   index:
     upcoming_events: "Upcoming Events"
     no_events_string: "There are currently no upcoming events. If you have a suggestion, let us know on mattermost in"
