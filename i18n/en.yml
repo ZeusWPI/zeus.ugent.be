@@ -1,0 +1,19 @@
+en:
+  index:
+    upcoming_events: "Upcoming Events"
+    no_events_string: "There are currently no upcoming events. If you have a suggestion, let us know on mattermost in"
+    top_coders: "Top Coders"
+    previous_events: "Previous Events"
+    about:
+      title: "About Zeus WPI"
+      content_1: "Zeus WPI is the student association for Computer Science at Ghent University.
+          Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects."
+      content_2: "We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
+          Together we build applications for Ghent University students (%{hydra}), for %{urenloop} and of course for ourselves."
+    blogpost: "Blogpost"
+    sponsoring_members: 
+      title: "Sponsoring Members"
+      empty: "No sponsoring members yet for this academic year. Interested? Contact the board."
+    sponsors:
+      title: "Sponsors"
+      empty: "No sponsors yet for this academic year. Interested? Contact the board."

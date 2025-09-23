@@ -25,7 +25,7 @@
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
         <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
-          Upcoming Events
+          <%= t('index.upcoming_events') %>
           </a>
       </span>
     </div>
@@ -37,7 +37,7 @@
       <% end %>
     <% else %>
       <div class="block content has-text-centered">
-        There are currently no upcoming events. If you have a suggestion, let us know on mattermost in <a href="https://mattermost.zeus.gent/zeus/channels/events">~events</a>!
+        <%= t('index.no_events_string') %> <a href="https://mattermost.zeus.gent/zeus/channels/events">~events</a>!
         <hr>
       </div>
     <% end %>
@@ -51,7 +51,7 @@
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
           <a href="https://gamification.zeus.gent" style="color: var(--bulma-body-color); text-decoration: none;">
-            Top Coders
+            <%= t('index.top_coders') %>
           </a>
         </span>
       </div>
@@ -74,7 +74,7 @@
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
           <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
-          Previous Events
+          <%= t('index.previous_events') %>
           </a>
         </span>
       </div>
@@ -90,17 +90,15 @@
       <div class='content has-text-centered box'>
         <h2>
           <a href="https://zeus.ugent.be/about/about/" style="color: var(--bulma-body-color); text-decoration: none;">
-            About Zeus WPI
+            <%= t('index.about.title') %>
           </a>
         </h2>
         <p>
-          Zeus WPI is the student association for Computer Science at Ghent University.
-          Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.
+          <%= t('index.about.content_1') %>
         </p>
 
         <p>
-          We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies.
-          Together we build applications for Ghent University students (<a href='https://hydra.ugent.be/'>Hydra</a>), for <a href='https://12urenloop.be/'>12urenloop</a> and of course for ourselves.
+          <%= t('index.about.content_2', hydra: '<a href="https://hydra.ugent.be">Hydra</a>', urenloop: '<a href="https://urenloop.ugent.be">12urenloop</a>') %>
         </p>
       </div>
 
@@ -108,7 +106,7 @@
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
           <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
-          Blogpost
+          <%= t('index.blogpost') %>
           </a>
         </span>
       </div>
@@ -123,13 +121,13 @@
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
         <a href="https://zeus.ugent.be/sponsors/members/" style="color: var(--bulma-body-color); text-decoration: none;">
-          Sponsoring members
+          <%= t('index.sponsoring_members.title') %>
         </a>
       </span>
     </div>
     <% if current_sponsoring_members.nil? %>
     <div class="block has-text-centered">
-      <p>No sponsoring members yet for this academic year. Interested? Contact the board.</p>
+      <p><%= t('index.sponsoring_members.empty') %></p>
     </div>
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
@@ -151,13 +149,13 @@
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
         <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
-          Sponsors
+          <%= t('index.sponsors.title') %>
         </a>
       </span>
     </div>
     <% if current_sponsors.nil? %>
     <div class="block has-text-centered">
-      <p>No sponsors yet for this academic year. Interested? Contact the board.</p>
+      <p><%= t('index.sponsors.empty') %></p>
     </div>
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
