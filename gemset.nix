@@ -258,6 +258,17 @@
     };
     version = "0.8.0";
   };
+  i18n = {
+    dependencies = ["concurrent-ruby"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "03sx3ahz1v5kbqjwxj48msw3maplpp2iyzs22l4jrzrqh4zmgfnf";
+      type = "gem";
+    };
+    version = "1.14.7";
+  };
   icalendar = {
     dependencies = ["ice_cube" "ostruct"];
     groups = ["default"];
