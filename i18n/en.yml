@@ -44,6 +44,21 @@ en:
         title: "The board"
         content: "The board is the oil in the machine and is the driving force behind the organization of events and projects. The Zeus WPI board in %{year} is:"
         mail: "Mail us all at:"
+        function: "Function"
+        name: "Name"
+        email: "E-mail"
+    privacy_policy:
+      title: "Privacy Policy"
+      table_of_contents: 
+        title: "Table of Contents"
+        summary: "Summary"
+        structure: "Structure"
+        application: "When and where does this privacy policy apply?"
+        access_rights: "Who has access to the collected data?"
+        data: "What data is collected and what is it used for?"
+        contact_info: "How do you contact us and exercise your rights?" 
+        projects_overview: "Overview of projects"
+        services_overview: "Overview of services"
     statutes:
       title: "Statutes"
       revision_year: "Revision academic year 2021-2022"
