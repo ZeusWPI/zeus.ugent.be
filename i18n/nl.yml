@@ -1,6 +1,6 @@
 nl:
   navigation:
-    about: "Over"
+    about: "Over ons"
     contact: "Contact"
     blog: "Blog"
     events: "Events"
@@ -24,7 +24,7 @@ nl:
     no_events_string: "Er zijn momenteel geen aankomende events. Als je een suggestie hebt, laat het ons weten op mattermost in"
     top_coders: "Top Coders"
     previous_events: "Afgelopen Events"
-    blogpost: "Blogpost"
+    blogpost: "Blogposts"
     sponsoring_members: 
       title: "Sponsorende Leden"
       empty: "Nog geen sponsorende leden voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."

@@ -24,7 +24,7 @@ en:
     no_events_string: "There are currently no upcoming events. If you have a suggestion, let us know on mattermost in"
     top_coders: "Top Coders"
     previous_events: "Previous Events"
-    blogpost: "Blogpost"
+    blogpost: "Blogposts"
     sponsoring_members: 
       title: "Sponsoring Members"
       empty: "No sponsoring members yet for this academic year. Interested? Contact the board."
