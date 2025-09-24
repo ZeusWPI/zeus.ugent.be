@@ -44,6 +44,21 @@ nl:
         title: "Het bestuur"
         content: "Het bestuur is de smeerolie in de machine en de drijvende kracht achter de organisatie van events en projecten. Het Zeus WPI bestuur in %{year} is:"
         mail: "Mail ons allemaal op:"
+        function: "Functie"
+        name: "Naam"
+        email: "E-mail"
+    privacy_policy:
+      title: "Privacybeleid"
+      table_of_contents: 
+        title: "Inhoudstabel"
+        summary: "Samenvatting"
+        structure: "Opbouw"
+        application: "Wanneer en waar is dit privacybeleid van toepassing?"
+        access_rights: Wie heeft toegang tot de verzamelde data?"
+        data: "Welke data worden verzameld en waarvoor worden ze gebruikt?"
+        contact_info: "Hoe contacteert u ons en laat u uw rechten gelden?" 
+        projects_overview: "Overzicht der projecten"
+        services_overview: "Overzicht der diensten"
     statutes:
       title: "Statuten"
       revision_year: "Revisie academiejaar 2021-2022"
