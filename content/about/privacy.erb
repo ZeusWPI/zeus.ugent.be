@@ -1,5 +1,5 @@
 ---
-title: Privacybeleid
+title: subnavigation.privacy_policy
 narrow_page: true
 typography: true
 toc: true
@@ -10,20 +10,20 @@ subnavigation:
   order: 300
 ---
 
-<h1 class="title is-1 has-text-centered" id="top">Privacybeleid</h1>
+<h1 class="title is-1 has-text-centered" id="top"><%=t('subnavigation.privacy_policy')%></h1>
 <div id="table-of-contents" class="menu column is-4">
   <p class="menu-label">
-    Inhoudstabel
+    <%= t('about.privacy_policy.table_of_contents.title') %>
   </p>
   <ul class="toc-depth-1" id="markdown-toc">
-    <li><a href="#samenvatting" id="markdown-toc-samenvatting">Samenvatting</a></li>
-    <li><a href="#opbouw" id="markdown-toc-opbouw">Opbouw</a></li>
-    <li><a href="#wanneer" id="markdown-toc-wanneer">Wanneer en waar is dit privacybeleid van toepassing?</a></li>
-    <li><a href="#wie" id="markdown-toc-wie">Wie heeft toegang tot de verzamelde data?</a></li>
-    <li><a href="#welke" id="markdown-toc-welke">Welke data worden verzameld en waarvoor worden ze gebruikt?</a></li>
-    <li><a href="#contact" id="markdown-toc-contact">Hoe contacteert u ons en laat u uw rechten gelden?</a></li>
-    <li><a href="#projecten" id="markdown-toc-projecten">Overzicht der projecten</a></li>
-    <li><a href="#diensten" id="markdown-toc-diensten">Overzicht der diensten</a></li>
+    <li><a href="#samenvatting" id="markdown-toc-samenvatting"><%= t('about.privacy_policy.table_of_contents.summary') %></a></li>
+    <li><a href="#opbouw" id="markdown-toc-opbouw"><%= t('about.privacy_policy.table_of_contents.structure') %></a></li>
+    <li><a href="#wanneer" id="markdown-toc-wanneer"><%= t('about.privacy_policy.table_of_contents.application') %></a></li>
+    <li><a href="#wie" id="markdown-toc-wie"><%= t('about.privacy_policy.table_of_contents.access_rights') %></a></li>
+    <li><a href="#welke" id="markdown-toc-welke"><%= t('about.privacy_policy.table_of_contents.data') %></a></li>
+    <li><a href="#contact" id="markdown-toc-contact"><%= t('about.privacy_policy.table_of_contents.contact_info') %></a></li>
+    <li><a href="#projecten" id="markdown-toc-projecten"><%= t('about.privacy_policy.table_of_contents.projects_overview') %></a></li>
+    <li><a href="#diensten" id="markdown-toc-diensten"><%= t('about.privacy_policy.table_of_contents.services_overview') %></a></li>
   </ul>
 </div>
 <div class="content">
@@ -33,7 +33,7 @@ subnavigation:
 
   <p>Zeus WPI biedt een waaier aan diensten en projecten aan aan haar leden en het algemene publiek. Met dit privacybeleid wil ze aangeven hoe en waarvoor ze data verzamelt.</p>
 
-  <h2 class="title is-2" id="samenvatting">Samenvatting</h2>
+  <h2 class="title is-2" id="samenvatting"><%= t('about.privacy_policy.table_of_contents.summary') %></h2>
 
   <p>Zeus verzamelt vier grote categorieën van data:</p>
   <ol>
@@ -45,11 +45,11 @@ subnavigation:
 
   <p>In de regel heeft enkel het bestuur toegang tot de data. Op individuele basis kunnen projectontwikkelaars ook toegang krijgen tot de data van een specifiek project, indien dit nodig zou blijken voor de verdere ontwikkeling en ontplooiing van het desbetreffende project.</p>
 
-  <h2 class="title is-2" id="opbouw">Opbouw</h2>
+  <h2 class="title is-2" id="opbouw"><%= t('about.privacy_policy.table_of_contents.structure') %></h2>
 
   <p>Het privacybeleid begint met een uiteenzetting van het beleid dat van toepassing is op alle gegevensverzameling of -verwerking die Zeus doet. Dit eerste deel wordt het algemene deel genoemd. Vervolgens worden alle projecten opgesomd die bijkomende gegevens verzamelen, of waarbij bijkomende uitleg nuttig is. Sommige projecten hebben ook uitzonderingen op het algemene deel. Dit deel wordt aangeduid als het project-specifieke deel. Tot slot volgt een lijst van diensten die door meerdere projecten gebruikt worden, en waarnaar verwezen wordt in het project-specifieke deel.</p>
 
-  <h2 class="title is-2" id="wanneer">Wanneer en waar is dit privacybeleid van toepassing?</h2>
+  <h2 class="title is-2" id="wanneer"><%= t('about.privacy_policy.table_of_contents.application') %></h2>
 
   <p>Zeus stelt projecten beschikbaar aan haar leden en het publiek in het algemeen. Daarbovenop worden de diensten en projecten van Zeus ook door derden gebruikt. Onder de Algemene Verordening Gegevensbescherming (AVG / <em lang="en"><abbr title="General Data Protection Regulation">GDPR</abbr></em>) kan Zeus verschillende rollen vervullen. Meer informatie over deze termen vindt u o.a. <a href="https://ec.europa.eu/info/law/law-topic/data-protection/reform/rules-business-and-organisations/obligations/controller-processor/what-data-controller-or-data-processor_nl">hier</a>.</p>
 
@@ -71,7 +71,7 @@ subnavigation:
 
   <p>Als Zeus optreedt als verwerker, zal Zeus in het algemeen slechts de absoluut noodzakelijke data verzamelen om de integriteit en goede werking van haar systemen in stand te houden: enkel technische informatie, zoals beschreven in paragraaf <em><a href="#technisch">Technische gegevens</a></em>.</p>
 
-  <h2 class="title is-2" id="wie">Wie heeft toegang tot de verzamelde data?</h2>
+  <h2 class="title is-2" id="wie"><%= t('about.privacy_policy.table_of_contents.access_rights') %></h2>
 
   <p>In de eerste plaats heeft het bestuur van Zeus toegang tot de gegevens, en in het bijzonder hebben de systeemadministrators toegang tot de data. Het bestuur beperkt zijn inzage in de gegevens tot het strikt noodzakelijke om zijn mandaat te vervullen.</p>
 
@@ -85,7 +85,7 @@ subnavigation:
     De ontwikkelaars van Hydra krijgen toegang de API-server en kunnen zo aan de serverlogs.
   </div>
 
-  <h2 class="title is-2" id="welke">Welke data worden verzameld en waarvoor worden ze gebruikt?</h2>
+  <h2 class="title is-2" id="welke"><%= t('about.privacy_policy.table_of_contents.data') %></h2>
 
   Zeus verzamelt vier grote categorieën van data.
 
@@ -166,7 +166,7 @@ subnavigation:
     Als blijkt uit de <span lang="en">analytics</span> dat een bepaald deel van Hydra niet vaak gebruikt wordt, kan Zeus overwegen om dat onderdeel te schrappen, om zo meer aandacht te kunnen geven aan de delen die wel vaak gebruikt worden.
   </div>
 
-  <h2 class="title is-2" id="contact">Hoe contacteert u ons en laat u uw rechten gelden?</h2>
+  <h2 class="title is-2" id="contact"><%= t('about.privacy_policy.table_of_contents.contact_info') %></h2>
 
   <p>Om uw rechten te laten gelden of om vragen of opmerkingen over te maken, kan u Zeus contacteren via de <%= link_to "contactpagina", "/contact" %>.</p>
 
@@ -181,7 +181,7 @@ subnavigation:
     <li><strong>Recht op bezwaar.</strong> Indien u meent dat Zeus uw gegevens verwerken op onrechtmatige basis, kan u bezwaar aantekenen.</li>
   </ul>
 
-  <h2 class="title is-2" id="projecten">Overzicht der projecten</h2>
+  <h2 class="title is-2" id="projecten"><%= t('about.privacy_policy.table_of_contents.projects_overview') %></h2>
 
   <h3 class="title is-3" id="specifiek">Project-specifieke bepalingen</h3>
 
@@ -228,7 +228,7 @@ subnavigation:
     <% end %>
   </ul>
 
-  <h2 class="title is-2" id="diensten">Overzicht der diensten</h2>
+  <h2 class="title is-2" id="diensten"><%= t('about.privacy_policy.table_of_contents.services_overview') %></h2>
 
   <p>Verschillende projecten gebruiken dezelfde diensten van derden. In plaats van deze informatie meerdere keren in het beleid te plaatsen, wordt de informatie hier eenmaal vermeld. Vanuit de beschrijving van de projecten wordt er dan verwezen naar deze bijlagen.</p>
 
