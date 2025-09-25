@@ -24,24 +24,24 @@
         </a>
       </p>
       <p>
-        Made with <%= fa :heart, class: 'heart' %> by Zeus WPI
+        <%= t('footer.text', heart: fa(:heart, class: 'heart')) %>
       </p>
       <p>
         <a href="https://github.com/ZeusWPI/zeus.ugent.be">
-          <span class="hidden-xs"> View on GitHub </span>
+          <span class="hidden-xs"> <%= t('footer.github')%> </span>
           <%= fa :github %>
         </a> |
         <a href="/about/privacy">
-          <span class="hidden-xs">Privacy</span>
+          <span class="hidden-xs"><%= t('footer.privacy')%></span>
           <%= fa :'user-secret' %>
         </a> |
         <a href="/.well-known/security.txt">
-          <span class="hidden-xs">Responsible Disclosure Policy</span>
+          <span class="hidden-xs"><%= t('footer.rdp')%></span>
           <%= fa :'lock' %>
         </a>        
       </p>
       <p class="compiled_at">
-        Page last compiled on: <%= $tz.now.strftime("%Y/%m/%d %H:%M") %>
+        <%= t('footer.compiled_at', time: l($tz.now, format: :short)) %>
       </p>
     </div>
   </div>
