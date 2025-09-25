@@ -71,6 +71,7 @@ nl:
       title: "Historiek"
     former_boards:
       title: "Oud-bestuur"
+      content: "Alle vorige besturen van ZeusWPI, van nu tot het prille begin."
     reports:
       title: "Verslagen"
       links: "Verslag %{date}"

@@ -11,7 +11,7 @@ subnavigation:
 
 <div class="content">
 
-  <p>Alle vorige besturen van Zeus, van nu tot het prille begin.</p>
+  <p><%= t('about.former_boards.content') %></p>
 
   <% all_bestuur.each do |year, bestuur| %>
 
@@ -20,8 +20,8 @@ subnavigation:
     <table class="table board-table">
       <thead>
       <tr>
-        <th>Functie</th>
-        <th>Naam</th>
+        <th><%= t('about.about_zeus.board.function') %></th>
+        <th><%= t('about.about_zeus.board.name') %></th>
       </tr>
       </thead>
       <tbody>
