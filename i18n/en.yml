@@ -1,4 +1,9 @@
 en:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%d %B %Y"
+      short: "%d %b"
   navigation:
     about: "About"
     contact: "Contact"
@@ -46,7 +51,10 @@ en:
         mail: "Mail us all at:"
         function: "Function"
         name: "Name"
-        email: "E-mail"
+        email: "E-mail"  
+    statutes:
+      title: "Statutes"
+      revision_year: "Revision academic year 2021-2022"
     privacy_policy:
       title: "Privacy Policy"
       table_of_contents: 
@@ -59,6 +67,10 @@ en:
         contact_info: "How do you contact us and exercise your rights?" 
         projects_overview: "Overview of projects"
         services_overview: "Overview of services"
-    statutes:
-      title: "Statutes"
-      revision_year: "Revision academic year 2021-2022"
+    history:
+      title: "History"
+    former_boards:
+      title: "Former Boards"
+    reports:
+      title: "Reports"
+      links: "Report %{date}"
