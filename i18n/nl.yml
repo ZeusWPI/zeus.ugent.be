@@ -1,4 +1,9 @@
 nl:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%d %B %Y"
+      short: "%d %b"
   navigation:
     about: "Over ons"
     contact: "Contact"
@@ -47,6 +52,9 @@ nl:
         function: "Functie"
         name: "Naam"
         email: "E-mail"
+    statutes:
+      title: "Statuten"
+      revision_year: "Revisie academiejaar 2021-2022"
     privacy_policy:
       title: "Privacybeleid"
       table_of_contents: 
@@ -59,6 +67,10 @@ nl:
         contact_info: "Hoe contacteert u ons en laat u uw rechten gelden?" 
         projects_overview: "Overzicht der projecten"
         services_overview: "Overzicht der diensten"
-    statutes:
-      title: "Statuten"
-      revision_year: "Revisie academiejaar 2021-2022"
+    history:
+      title: "Historiek"
+    former_boards:
+      title: "Oud-bestuur"
+    reports:
+      title: "Verslagen"
+      links: "Verslag %{date}"
