@@ -71,6 +71,7 @@ en:
       title: "History"
     former_boards:
       title: "Former Boards"
+      content: "All previous boards of ZeusWPI, from now to the very beginning."
     reports:
       title: "Reports"
       links: "Report %{date}"
