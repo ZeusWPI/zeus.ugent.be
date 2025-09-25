@@ -78,6 +78,28 @@ en:
     reports:
       title: "Reports"
       links: "Report %{date}"
+  contact:
+    title: "Contact us"
+    subtitle: "bleep bloop"
+    varia:
+      title: "Varia"
+      payment_info:
+        title: "Pay us"
+        instructions: "Please use the message %{msg} when manually topping up your Tab balance"
+        qr_button: "Top up Tab balance"
+        tap_topup:
+          title: "Top up Tab with EPC QR code"
+          username: "Zeus username:"
+          help: "This is not necessarily the same as your Mattermost username, contact the board if you forgot your username"
+          amount: "Amount (euro):"
+        tab: "Use Tab"
+      call_info:
+        title: "Call us"
+        internal: "Internal: %{internal}"
+      find_info:
+        title: "Find us"
+        instructions: "You can find our hiding place, or what we call %{kelder} at the basement level of following address:"
+        fi_nr: "The FI-number (internal UGent-ID for rooms) is %{fi_nr}"
   footer:
     text: "Made with %{heart} by the Zeus WPI"
     github: "View on GitHub"

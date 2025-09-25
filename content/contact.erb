@@ -41,23 +41,23 @@ contact_links:
   <div class="modal-content">
     <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Top up Tab with EPC QR code</p>
+      <p class="modal-card-title"><%= t('contact.varia.payment_info.tap_topup.title')%></p>
     </header>
     <section class="modal-card-body">
       <div style="height: 256px; width:256px; border: 10px solid white;"><div id="tabtopup-qrcode"></div></div>
       <p id='tabtopup-message'></p>
       <div class="field">
-        <label class="label" for="tabtopup-username">Zeus username:</label>
+        <label class="label" for="tabtopup-username"><%= t('contact.varia.payment_info.tap_topup.username')%></label>
           <div class="control has-icons-left">
              <input id="tabtopup-username" type="text" class="input" placeholder="j" name="tabtopup-username">
              <span class="icon is-small is-left">
               <%= fa :user, fw: true %>
              </span>
           </div>
-        <p class="help">This is not necessarily the same as your Mattermost username, contact the board if you forgot your username</p>
+        <p class="help"><%= t('contact.varia.payment_info.tap_topup.help')%></p>
       </div>
       <div class="field">
-        <label class="label" for="tabtopup-amount">Amount (euro):</label>
+        <label class="label" for="tabtopup-amount"><%= t('contact.varia.payment_info.tap_topup.amount')%></label>
           <div class="control has-icons-left">
              <input id="tabtopup-amount" type="text" step="0.01" class="input" value="5.0" name="tabtopup-amount">
              <span class="icon is-small is-left">
@@ -71,8 +71,8 @@ contact_links:
 </div>
 
 <div class="content">
-  <h1 class='title is-1 has-text-centered'>Contact us</h1>
-  <h2 class='subtitle is-4 has-text-centered has-text-weight-light'>bleep bloop</h2>
+  <h1 class='title is-1 has-text-centered'><%= t('contact.title') %></h1>
+  <h2 class='subtitle is-4 has-text-centered has-text-weight-light'><%= t('contact.subtitle') %></h2>
 
   <!-- Contact buttons -->
   <div id='contact-icons' class='columns is-centered is-multiline is-mobile'>
@@ -95,9 +95,9 @@ contact_links:
   </div>
 
   <div id="board">
-    <h2>The board (<%= pretty_year @config[:academic_year] %>)</h2>
+    <h2><%= t('about.about_zeus.board.title')%> (<%= pretty_year @config[:academic_year] %>)</h2>
     <blockquote>
-      Mail us all at: <a href='mailto:bestuur@zeus.ugent.be'>bestuur@zeus.ugent.be</a>
+      <%= t('about.about_zeus.board.mail')%> <a href='mailto:bestuur@zeus.ugent.be'>bestuur@zeus.ugent.be</a>
     </blockquote>
 
     <%= render '/partials/_current_bestuur.*' %>
@@ -109,46 +109,46 @@ contact_links:
   <div id='contact-info'>
     <!-- Payment information -->
     <div id='payment-info' class='tile is-child box content has-text-centered'>
-      <h1 class='title has-text-centered'>Pay us</h1>
+      <h1 class='title has-text-centered'><%= t("contact.varia.payment_info.title")%></h1>
       <hr/>
       <p id='banknumber' class='is-size-5'>
         BE03 7340 5456 0384
       </p>
       <p class='is-size-5'>
-        <b>Please use the message <wbr>"TAB&nbsp;<em>&lt;username&gt;</em>" when manually topping up your Tab balance</b>
+        <b><%= t("contact.varia.payment_info.instructions", msg: %Q(<wbr>"TAB&nbsp;<em>&lt;username&gt;</em>")) %></b>
       </p>
       <a id="tab-qr-button" class="button">
-        <%= fa :qrcode, fw: true %> Top up Tab balance
+        <%= fa :qrcode, fw: true %> <%= t("contact.varia.payment_info.qr_button")%>
       </a>
       <a class='button' href='https://tab.zeus.gent' target='_blank'>
-        <%= fa :euro, fw: true %> Use Tab
+        <%= fa :euro, fw: true %> <%= t("contact.varia.payment_info.tab")%>
       </a>
     </div>
 
     <!-- Calling information -->
     <div id='calling-info' class='box content has-text-centered'>
-      <h1 class='title has-text-centered'>Call us</h1>
+      <h1 class='title has-text-centered'><%= t('contact.varia.call_info.title') %></h1>
       <hr/>
       <p id='phone-number' class='is-size-5'>
         +32 9 264 47 51<br/>
-        Internal: 4751
+        <%= t("contact.varia.call_info.internal", internal: 4751) %>
       </p>
     </div>
 
     <!-- Address information -->
     <div id='address-info' class='tile is-parent'>
       <div class='box content'>
-        <h1 class='title has-text-centered'>Find us</h1>
+        <h1 class='title has-text-centered'><%= t('contact.varia.find_info.title')%></h1>
         <hr/>
         <p class='is-size-5'>
-          You can find our hiding place, or what we call <strong>'de kelder'</strong> at the basement level of following address:
+        <%= t('contact.varia.find_info.instructions', kelder: "<strong>'de kelder'</strong>") %>
         </p>
         <blockquote id='address' class='is-size-5'>
           Krijgslaan 281<br/>
           Campus Sterre S9<br/>
           9000 Gent<br/>
         </blockquote>
-        <p>The FI-number (internal UGent-ID for rooms) is 40.09.090.010</p>
+        <p><%= t('contact.varia.find_info.fi_nr', fi_nr: '40.09.090.010' )%></p>
         <div id='contact-location-buttons'>
           <a class='button' href='https://www.google.com/maps/place/Zeus+WPI/@51.023115,3.7103,17z/data=!4m5!3m4!1s0x0:0x49fd54f81cafeb5f!8m2!3d51.0231149!4d3.7103?hl=en-US'>
             <%= fa :'location-dot', fw: true %> Google Maps
