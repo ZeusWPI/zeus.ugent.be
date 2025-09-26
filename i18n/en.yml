@@ -7,6 +7,7 @@ en:
   time:
     formats:
       short: "%Y/%m/%d %H:%M"
+      event: "%A %d %B, %H:%M"
   navigation:
     about: "About"
     contact: "Contact"
@@ -105,6 +106,19 @@ en:
     empty:
       title: "Sorry."
       subtitle: "No blog posts yet this year."
+      soon: "Soon™"
+  events:
+    academic_year: "Academic Year"
+    info:
+      title: "Info"
+      content_1: "Events are open to all years, unless stated otherwise."
+      content_2: "There will also always be Zeus members present who can help if you don't understand something. 🙂"
+      button: "Add events to your personal calendar"
+    upcoming: "Upcoming Events"
+    past: "Past Events"
+    empty:
+      title: "Sorry."
+      subtitle: "No events planned yet this year."
       soon: "Soon™"
   footer:
     text: "Made with %{heart} by the Zeus WPI"
