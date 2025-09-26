@@ -120,6 +120,13 @@ nl:
       title: "Sorry."
       subtitle: "Er zijn nog geen events gepland dit jaar."
       soon: "Binnenkort™"
+  projects:
+    active_title: "Actieve Projecten"
+    dormant_title: "Inactieve Projecten"
+    hydra:
+      title: "Hydra"
+      description_1: "Android- en iOS-app die alle informatie biedt die een student aan de Universiteit Gent nodig heeft."
+      description_2: "Voor een overzicht van de functies, bezoek de %{website} van het project."
   footer:
     text: "Gemaakt met %{heart} door het Zeus WPI"
     github: "Bekijk op GitHub"

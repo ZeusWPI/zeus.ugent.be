@@ -4,7 +4,7 @@ title: navigation.projects
 order: 30
 ---
 
-<h1 class='title is-1 has-text-centered'>Active projects</h1>
+<h1 class='title is-1 has-text-centered'><%= t('projects.active_title') %></h1>
 
 <div class="container project content">
   <article id="hydra" class="columns">
@@ -14,10 +14,11 @@ order: 30
       </div>
     </div>
     <div class="column rows">
-      <p class="title">Hydra</p>
+      <p class="title"><%= t('projects.hydra.title') %></p>
       <p class="description subtitle">
-        Android and iOS app providing all the information a student at Ghent University needs.<br>
-        For an overview of the features, visit the project's <a href="https://hydra.ugent.be/">website</a>.
+        <%= t('projects.hydra.description_1') %><br>
+        <%= t('projects.hydra.description_2', website: '<a href="https://hydra.ugent.be/">website</a>') %>
+
       </p>
       <div class="columns links">
         <div class="has-text-centered">
@@ -52,7 +53,7 @@ order: 30
   <% end %>
 </div>
 
-<h1 class='title is-1 has-text-centered'>Dormant projects</h1>
+<h1 class='title is-1 has-text-centered'><%= t('projects.dormant_title') %></h1>
 
 <div class="columns is-multiline is-variable is-3">
   <% dormant_projects.each do |project| %>
