@@ -100,6 +100,12 @@ nl:
         title: "Vind ons"
         instructions: "Onze schuilplaats, of wat wij %{kelder} noemen, vindt je in de kelderverdieping van het volgende adres:"
         fi_nr: "Het FI-nummer (interne UGent-ID voor lokalen) is %{fi_nr}"
+  blog:
+    academic_year: "Academiejaar"
+    empty:
+      title: "Sorry."
+      subtitle: "Er zijn nog geen blogposts dit jaar."
+      soon: "Binnenkort™"
   footer:
     text: "Gemaakt met %{heart} door het Zeus WPI"
     github: "Bekijk op GitHub"
