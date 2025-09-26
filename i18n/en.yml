@@ -100,6 +100,12 @@ en:
         title: "Find us"
         instructions: "You can find our hiding place, or what we call %{kelder} at the basement level of following address:"
         fi_nr: "The FI-number (internal UGent-ID for rooms) is %{fi_nr}"
+  blog:
+    academic_year: "Academic Year"
+    empty:
+      title: "Sorry."
+      subtitle: "No blog posts yet this year."
+      soon: "Soon™"
   footer:
     text: "Made with %{heart} by the Zeus WPI"
     github: "View on GitHub"
