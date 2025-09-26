@@ -127,6 +127,13 @@ nl:
       title: "Hydra"
       description_1: "Android- en iOS-app die alle informatie biedt die een student aan de Universiteit Gent nodig heeft."
       description_2: "Voor een overzicht van de functies, bezoek de %{website} van het project."
+  sponsors:
+    sponsoring_members:
+      title: "Sponsorende Leden"
+      empty: "Nog geen sponsorende leden voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+    sponsors:
+      title: "Sponsors"
+      empty: "Nog geen sponsors voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
   footer:
     text: "Gemaakt met %{heart} door het Zeus WPI"
     github: "Bekijk op GitHub"
