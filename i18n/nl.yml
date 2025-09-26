@@ -7,6 +7,7 @@ nl:
   time:
     formats:
       short: "%Y/%m/%d %H:%M"
+      event: "%A %d %B, %H:%M"
   navigation:
     about: "Over ons"
     contact: "Contact"
@@ -105,6 +106,19 @@ nl:
     empty:
       title: "Sorry."
       subtitle: "Er zijn nog geen blogposts dit jaar."
+      soon: "Binnenkort™"
+  events:
+    academic_year: "Academiejaar"
+    info:
+      title: "Info"
+      content_1: "Alle events zijn toegankelijk voor alle jaren, behalve als het anders staat vermeld."
+      content_2: "Er zullen ook altijd Zeus-leden aanwezig zijn die kunnen helpen als je iets niet begrijpt. 🙂"
+      button: "Zet events in je persoonlijke kalender"
+    upcoming: "Aankomende Events"
+    past: "Afgelopen Events"
+    empty:
+      title: "Sorry."
+      subtitle: "Er zijn nog geen events gepland dit jaar."
       soon: "Binnenkort™"
   footer:
     text: "Gemaakt met %{heart} door het Zeus WPI"
