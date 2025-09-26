@@ -120,6 +120,13 @@ en:
       title: "Sorry."
       subtitle: "No events planned yet this year."
       soon: "Soon™"
+  projects:
+    active_title: "Active Projects"
+    dormant_title: "Dormant Projects"
+    hydra:
+      title: "Hydra"
+      description_1: "Android and iOS app providing all the information a student at Ghent University needs."
+      description_2: "For an overview of the features, visit the project's %{website}."
   footer:
     text: "Made with %{heart} by the Zeus WPI"
     github: "View on GitHub"
