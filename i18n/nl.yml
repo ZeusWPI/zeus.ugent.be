@@ -134,6 +134,24 @@ nl:
     sponsors:
       title: "Sponsors"
       empty: "Nog geen sponsors voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+  cammie:
+    feed_disconnected_1: "Camera feed automatisch verbroken wegens inactiviteit, herlaad de pagina om verder te kijken"
+    feed_disconnected_2: "Cammie is bedoeld om te controleren of de kelder druk is voordat je komt en moet niet voor langere tijdperioden open blijven staan"
+    controls:
+      small_table: "Kleine tafel"
+      big_table: "Grote tafel"
+      couch: "Zetel"
+      door: "Deur"
+      christmastime: "Kerstboom"
+    message:
+      empty_username:
+        title: "Lege gebruikersnaam bericht"
+        content_1: "Het is leuk om te weten met wie we praten."
+        content_2: "Je kan het ons nog steeds laten weten 🙂"
+        cancel: "Annuleer"
+      send: "Verstuur naar kelder"
+      name_placeholder: "Naam"
+      message_placeholder: "Bericht..."
   footer:
     text: "Gemaakt met %{heart} door het Zeus WPI"
     github: "Bekijk op GitHub"
