@@ -134,6 +134,24 @@ en:
     sponsors:
       title: "Sponsors"
       empty: "No sponsors yet for this academic year. Interested? Contact the board."
+  cammie:
+    feed_disconnected_1: "Camera feed automatically disconnected due to inactivity, reload the page to resume viewing"
+    feed_disconnected_2: "Cammie is meant for checking if the kelder is busy before coming and shouldn't be left open for longer periods of time"
+    controls:
+      small_table: "Small table"
+      big_table: "Big table"
+      couch: "Couch"
+      door: "Door"
+      christmastime: "Christmas tree"
+    message:
+      empty_username:
+        title: "Empty username message"
+        content_1: "It's nice to know who's talking to us."
+        content_2: "You can still let us know 🙂"
+        cancel: "Cancel"
+      send: "Send to kelder"
+      name_placeholder: "Name"
+      message_placeholder: "Message..."
   footer:
     text: "Made with %{heart} by the Zeus WPI"
     github: "View on GitHub"
