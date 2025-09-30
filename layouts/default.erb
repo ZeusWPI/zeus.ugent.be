@@ -83,6 +83,14 @@
           }
           if (typeof value === 'string') el.textContent = value ?? el.textContent;
         });
+
+          document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            const keys = key.split('.');
+            let value = translations;
+            for (let k of keys) value = value?.[k];
+            if (typeof value === 'string') el.placeholder = value ?? el.placeholder;
+          });
       }
 
       // Load default locale

@@ -13,9 +13,9 @@ title: navigation.cammie
 
 <section id="cammie-section">
   <div id="cammieFeedDisconnected" class="notification is-danger is-light is-hidden">
-    <%= t('cammie.feed_disconnected_1') %>
+    <span data-i18n="cammie.feed_disconnected_1"></span>
     <br>
-    <%= t('cammie.feed_disconnected_2') %>
+    <span data-i18n="cammie.feed_disconnected_2"></span>
   </div>
   <div id="cammie-body">
     <figure class="image is-16by9">
@@ -62,29 +62,24 @@ title: navigation.cammie
 
   <nav id="cammie-ctrls-2" class="columns mt-0">
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="43" data-y="15">
-        <%= t('cammie.controls.small_table') %>
+      <button data-i18n='cammie.controls.small_table' class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="43" data-y="15">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="32" data-y="6">
-        <%= t('cammie.controls.big_table') %>
+      <button data-i18n="cammie.controls.big_table" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="32" data-y="6">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="64" data-y="10">
-        <%= t('cammie.controls.couch') %>
+      <button data-i18n="cammie.controls.couch" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="64" data-y="10">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="30" data-y="4">
-        <%= t('cammie.controls.door') %>
+      <button data-i18n="cammie.controls.door" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="30" data-y="4">
       </button>
     </div>
     <% if christmastime? %>
       <div class="column">
-        <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="-110" data-y="25">
-          <%= t('cammie.controls.christmastime') %>
+        <button data-i18n="cammie.controls.christmastime" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="-110" data-y="25">
         </button>
       </div>
     <% end %>
@@ -105,19 +100,19 @@ title: navigation.cammie
           <div class="modal-background"></div>
           <div class="modal-card">
             <header class="modal-card-head">
-              <p class="modal-card-title"><%= t('cammie.message.empty_username.title') %></p>
+              <p data-i18n="cammie.message.empty_username.title" class="modal-card-title"></p>
             </header>
             <section class="modal-card-body">
-              <p><%= t('cammie.message.empty_username.content_1') %></p>
-              <p><%= t('cammie.message.empty_username.content_2') %></p>
+              <p data-i18n="cammie.message.empty_username.content_1"></p>
+              <p data-i18n="cammie.message.empty_username.content_2"></p>
               <div class="column">
                 <input id="cammieModalName" class="input is-medium is-full-width" name="name" type="text" placeholder="Name" />
               </div>
             </section>
             <footer class="modal-card-foot">
               <div class="buttons">
-                <button id="cammieModalSend" type="button" class="button is-primary"><%= t('cammie.message.send') %></button>
-                <button id="cammieModalCancel" type="button" class="button"><%= t('cammie.message.empty_username.cancel') %></button>
+                <button data-i18n="cammie.message.send" id="cammieModalSend" type="button" class="button is-primary"></button>
+                <button data-i18n="cammie.message.empty_username.cancel" id="cammieModalCancel" type="button" class="button"></button>
               </div>
             </footer>
           </div>
@@ -125,14 +120,13 @@ title: navigation.cammie
 
         <nav class="columns mt-0">
           <div class="column">
-            <input id="cammieFormName" class="input is-medium is-full-width" name="name" type="text" placeholder="<%= t('cammie.message.name_placeholder') %>" />
+            <input data-i18n-placeholder="cammie.message.name_placeholder" id="cammieFormName" class="input is-medium is-full-width" name="name" type="text" placeholder="" />
           </div>
           <div class="column is-half">
-            <input id="cammieFormMessage" class="input is-medium is-full-width" name="message" type="text" placeholder="<%= t('cammie.message.message_placeholder') %>" />
+            <input data-i18n-placeholder="cammie.message.message_placeholder" id="cammieFormMessage" class="input is-medium is-full-width" name="message" type="text" placeholder="" />
           </div>
           <div class="column">
-            <button class="button is-medium is-primary is-full-width" type="submit">
-              <%= t('cammie.message.send') %>
+            <button data-i18n="cammie.message.send" class="button is-medium is-primary is-full-width" type="submit">
             </button>
           </div>
         </nav>
