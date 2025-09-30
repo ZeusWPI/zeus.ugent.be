@@ -13,6 +13,6 @@ tags: {}
 
 Omdat wij als echte Zeussers fan zijn van snelle computers en flikkerende lichtjes organiseren we in samenwerking met het datacenter team van wacht een rondleiding door het datacenter in gebouw S10. Wil je weten waar Ufora, de Zeus servers en zo veel meer draaien?
 
-Inschrijvingslink volgt nog!!
+[Schrijf je hier in!](https://event.student.ugent.be/events/406)
 
 **Inschrijven is verplicht**
