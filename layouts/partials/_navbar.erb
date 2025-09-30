@@ -23,8 +23,7 @@
     <div class="navbar-menu">
       <div class="navbar-start">
         <% navigables.each do |i| %>
-        <a class="navbar-item <%= 'is-active' if child_of(i) %>" href="<%= i.path %>">
-          <%= t(i[:title]) %>
+        <a class="navbar-item <%= 'is-active' if child_of(i) %>" href="<%= i.path %>" data-i18n="<%= i[:title] %>">
         </a>
         <% end %>
 
@@ -42,14 +41,13 @@
             }
           }
         </script>
-        <a class="navbar-item" id="mirror" onclick="switchMirroredInCookie()" >
-          <%= t('navigation.mirror') %>
+        <a data-i18n="navigation.mirror" class="navbar-item" id="mirror" onclick="switchMirroredInCookie()" >
+
         </a>
         <!-- Mirror -->
 
         <% if new_member_time? %>
-          <a class="navbar-item" id="ledenformulier" href="https://zeus.gent/ledenformulier">
-            <%= t('navigation.sign_up') %>
+          <a data-i18n="navigation.sign_up" class="navbar-item" id="ledenformulier" href="https://zeus.gent/ledenformulier">
           </a>
         <%end%>
 

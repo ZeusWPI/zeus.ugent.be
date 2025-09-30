@@ -2,8 +2,7 @@
   <ul>
     <% subnavigables(@item[:subnavigation][:bar]).map { |e| e[:subnavigation] }.each do |nav| %>
     <li class="<%= 'is-active' if @selected == nav[:identifier] %>">
-      <a href="<%= "/#{nav[:bar]}/#{nav[:identifier]}" %>">
-        <%= t(nav[:name]) %>
+      <a href="<%= "/#{nav[:bar]}/#{nav[:identifier]}" %> " data-i18n="<%= nav[:name] %>">
       </a>
     </li>
     <% end %>
