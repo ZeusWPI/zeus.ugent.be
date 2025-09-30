@@ -124,9 +124,45 @@ nl:
     active_title: "Actieve Projecten"
     dormant_title: "Inactieve Projecten"
     hydra:
-      title: "Hydra"
       description_1: "Android- en iOS-app die alle informatie biedt die een student aan de Universiteit Gent nodig heeft."
       description_2: "Voor een overzicht van de functies, bezoek de %{website} van het project."
+    active:
+      12ul:
+        description: "Applicatie om rondes te tellen op basis van Bluetooth-dongle-detectie."
+      zauth:
+        description: "Een systeem om alle verschillende inlogproblemen terug te voeren naar één enkel probleem."
+      zeus_ugent_be:
+        description: "Zelfs deze site is een Zeus project!"
+      tab:
+        description: "💰 Ja. We moeten drinken. Maar we moeten ook betalen. Dit zorgt voor het betalen."
+      tap:
+        description: "💰 Ja. We moeten drinken. Maar we moeten ook betalen. Dit zorgt voor het drinken."
+      haldis:
+        description: "Haldis is je vriendelijke buurtbediende. Hij zorgt ervoor dat we niet meer hoeven bij te houden wie wat waar bestelt. Start een bestelling en laat mensen met een simpele muisklik items toevoegen! Nooit meer prijzen berekenen en lijstjes maken!"
+      gamification:
+        description: "Gamificatie van Zeus-ledenbetrokkenheid. Verdien punten door te coderen!"
+      gandalf:
+        description: "You Shall Not Pass - Een geavanceerd e-ticketsysteem voor studentenverenigingen."
+      saruman:
+        description: "Saruman is een materiaalbeheertool waarmee partners spullen kunnen reserveren."
+    dormant:
+      blokmap:
+        description: "Een verzameling studielocaties die je helpt een plek te vinden om te studeren tijdens examens."
+      g2:
+        description: "Geestelijke opvolger van Gamification; biedt toegang tot bestaande Zeus-projecten."
+      mozaic:
+        description: "MOZAIC is het Massive Online Zeus Artificial Intelligence Competition-platform. Het heeft als doel een flexibel platform te bieden waarop je je eigen AI-wedstrijd kunt organiseren."
+      cat:
+        description: "Houd bij wie wie een knuffel heeft gegeven. We hebben allemaal wel eens behoefte aan wat affectie..."
+      doorkeeper:
+        description: "Slotmachien is dood. Lang leve Doorkeeper!" 
+      lana:
+        description: "Lana is een chatbot die je helpt bij je dagelijkse activiteiten aan de Universiteit Gent."
+      fk_enrolment:
+        description: "Inschrijvingssysteem voor nieuwe leden van FK-clubs aan de Universiteit Gent."
+      slotmachien:
+        description_1: "Deze repository bevat alle applicaties met betrekking tot SlotMachien, een Lego Mindstorms-robot die is ontworpen om een specifiek slot te openen."
+        description_2: "Nu vervangen door %{doorkeeper}."
   sponsors:
     sponsoring_members:
       title: "Sponsorende Leden"
