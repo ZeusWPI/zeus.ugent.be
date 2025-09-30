@@ -57,11 +57,10 @@
       </div>
       <!-- TODO: Remove this is-hidden-touch, it's just a convenience for now -->
       <div class="navbar-end is-hidden-touch">
-        <form action="/search/?" method="get" class="navbar-item nav-search">
-          <div id="tipue_search_input">
-            <input type="text" name="q" id="tipue_search_input_field" autocomplete="off">
-          </div>
-        </form>
+      <div class="language-switcher">
+        <a href="#" data-locale="en">EN</a>
+        <a href="#" data-locale="nl">NL</a>
+      </div>
         <a class="navbar-item social-icon" href="https://github.com/ZeusWPI" target="_blank">
           <span class="icon">
             <%= fa :github %>
@@ -82,10 +81,6 @@
             <%= fa :calendar %>
           </span>
         </a>
-      </div>
-      <div class="language-switcher">
-        <a href="#" data-locale="en">EN</a>
-        <a href="#" data-locale="nl">NL</a>
       </div>
       <div style="width: 2.8rem; aspect-ratio: 1/1; display: flex; justify-content: center; align-items: center;">
         <zapp-v01></zapp-v01>
