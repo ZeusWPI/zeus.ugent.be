@@ -3,17 +3,19 @@ narrow_page: true
 subnavigation:
   bar: about
   identifier: verslagen
-  name: Verslagen
+  name: subnavigation.reports
   order: 600
 ---
 
-<h1 class="title is-1 has-text-centered">Reports</h1>
+<h1 class="title is-1 has-text-centered"><%= t('about.reports.title') %></h1>
 
 <div class="content">
   <% reports.group_by {|r| r[:academic_year]}.each do |year, y_reports| %>
     <h2><%= academic_year_string(year) %></h2>
     <% y_reports.each do |report| %>
-      <a href="<%= report.reps[:pdf]&.path || report.identifier %>">Report <%= report[:date].strftime('%d %B %Y') %></a><br>
+      <a href="<%= report.reps[:pdf]&.path || report.identifier %>">
+        <%= t('about.reports.links', date: l(report[:date], format: :long))%>
+      </a><br>
     <% end %>
   <% end %>
 </div>

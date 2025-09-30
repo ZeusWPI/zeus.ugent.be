@@ -23,7 +23,7 @@
       <hr/>
 
       <div class="is-size-7-mobile  event-time-loc">
-        <%= fa :'clock' , fw: true %><%= @event[:time].strftime('%A %d %B, %H:%M') %>
+        <%= fa :'clock' , fw: true %><%= l(@event[:time], format: :event) %>
         <br>
         <%= fa :'location-dot', fw: true %><%= @event[:location] %>
       </div>
