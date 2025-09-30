@@ -89,14 +89,18 @@
       loadLocale(currentLocale);
 
       // Language switcher
-      document.querySelectorAll('.language-switcher a').forEach(link => {
-        link.addEventListener('click', e => {
-          e.preventDefault();
-          const locale = link.dataset.locale;
-          if (locale !== currentLocale) loadLocale(locale);
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.language-switcher a').forEach(link => {
+          link.addEventListener('click', e => {
+            e.preventDefault();
+            const locale = link.dataset.locale;
+            console.log("Clicked locale:", locale);
+            if (locale !== currentLocale) loadLocale(locale);
+          });
         });
       });
     </script>
+
     <div class="wrapper">
       <%= yield %>
     </div>
