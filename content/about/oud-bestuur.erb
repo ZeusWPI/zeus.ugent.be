@@ -7,11 +7,11 @@ subnavigation:
   order: 500
 ---
 
-<h1 class="title is-1 has-text-centered"><%= t('about.former_boards.title')%></h1>
+<h1 class="title is-1 has-text-centered" data-i18n='about.former_boards.title'></h1>
 
 <div class="content">
 
-  <p><%= t('about.former_boards.content') %></p>
+  <p data-i18n='about.former_boards.content'></p>
 
   <% all_bestuur.each do |year, bestuur| %>
 
@@ -20,8 +20,8 @@ subnavigation:
     <table class="table board-table">
       <thead>
       <tr>
-        <th><%= t('about.about_zeus.board.function') %></th>
-        <th><%= t('about.about_zeus.board.name') %></th>
+        <th data-i18n='about.about_zeus.board.function'></th>
+        <th data-i18n='about.about_zeus.board.name'></th>
       </tr>
       </thead>
       <tbody>

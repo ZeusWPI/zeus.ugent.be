@@ -61,7 +61,7 @@
         "board": {
           "title": "The board",
           "content": "The board is the oil in the machine and is the driving force behind the organization of events and projects. The Zeus WPI board in %{year} is:",
-          "mail": "Mail us all at:",
+          "mail": "Mail us all at: %{mail}",
           "function": "Function",
           "name": "Name",
           "email": "E-mail"

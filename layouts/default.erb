@@ -81,7 +81,24 @@
           for (let k of keys) {
             value = value?.[k] ?? value;
           }
-          if (typeof value === 'string') el.textContent = value ?? el.textContent;
+          if (typeof value === 'string') {
+            // check for HTML arguments
+            let args = {};
+            const argsAttr = el.getAttribute('data-i18n-args');
+            if (argsAttr) {
+              try {
+                args = JSON.parse(argsAttr);
+              } catch(e) { console.error("Invalid JSON in data-i18n-args", e); }
+            }
+
+            // replace placeholders like %{hydra}, %{urenloop} with HTML
+            Object.keys(args).forEach(argKey => {
+              const re = new RegExp(`%\\{${argKey}\\}`, 'g');
+              value = value.replace(re, args[argKey]);
+            });
+
+            el.innerHTML = value; // use innerHTML so links render
+          }
         });
 
           document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
