@@ -91,7 +91,6 @@
               } catch(e) { console.error("Invalid JSON in data-i18n-args", e); }
             }
 
-            // replace placeholders like %{hydra}, %{urenloop} with HTML
             Object.keys(args).forEach(argKey => {
               const re = new RegExp(`%\\{${argKey}\\}`, 'g');
               value = value.replace(re, args[argKey]);

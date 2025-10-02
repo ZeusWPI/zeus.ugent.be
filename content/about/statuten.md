@@ -7,10 +7,10 @@ subnavigation:
   order: 200
 ---
 
-# <%= t("about.statutes.title") %>
+# <span data-i18n="about.statutes.title"></span>
 {:.title.is-1.has-text-centered}
 
-## <%= t("about.statutes.revision_year") %>
+## <span data-i18n="about.statutes.revision_year"></span>
 {:.subtitle.is-2.has-text-centered}
 
 <div class="content" markdown="1">
