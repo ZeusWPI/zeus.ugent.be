@@ -1,12 +1,11 @@
 ---
 title: 'NERF Fight: ZeusWPI x VVN'
-time: '3-11-2025 00:00' 
-end: '7-11-2025 23:59' 
-location: TBD
+time: '6-11-2025 19:00' 
+end: '6-11-2025 22:30' 
+location: S9, De Sterre
 description: NERF games met VVN
 header_text_background: true 
 banner: https://pics.zeus.gent/V1Wiz7SXkDqiFJqrXIjlhzNYjO7PS5nIDyTh4GDX.jpg
-locationlink: $therminal
 ---
 
 # NERF Fight: ZeusWPI x VVN
@@ -31,7 +30,7 @@ Nog enkele belangrijke puntjes:
 
 ## Inschrijven 
 
-**hier volgt later nog info over**
+Inschrijven kan [hier](https://event.student.ugent.be/events/407).
 
 
 Tot dan!
