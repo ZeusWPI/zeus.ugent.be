@@ -1,12 +1,8 @@
 require 'htmlcompressor'
 require 'rainpress'
-require 'uglifier'
+require 'terser'
 
-class UglifyProxy < Uglifier
-  alias_method :compress, :compile
-end
-
-JS_COMPRESSOR = UglifyProxy.new
+JS_COMPRESSOR = Terser.new
 CSS_COMPRESSOR = Rainpress
 
 Nanoc::Filter.define(:html_press) do |content, options|

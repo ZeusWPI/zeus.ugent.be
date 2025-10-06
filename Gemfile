@@ -53,7 +53,6 @@ group :production do
   # Compiling reports from .md to .pdf
   gem 'pandoc-ruby'
 
-  gem 'uglifier', '>= 4.0.0'
   gem 'rainpress'
 end
 
