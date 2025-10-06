@@ -10,6 +10,6 @@ let
   };
 in with pkgs;
   [
-    gems (lowPrio gems.wrappedRuby) libxml2 nodejs cacert git glibcLocales
+    gems (lowPrio gems.wrappedRuby) libxml2 nodejs cacert git glibcLocales bundix
     pandoc (texlive.combine { inherit (texlive) scheme-basic xetex unicode-math enumitem booktabs ulem etoolbox; })
   ] ++ (if stdenv.isDarwin then [terminal-notifier] else [chromium])
