@@ -61,6 +61,14 @@ If you are using Nix, you can use the provided `shell.nix` file to get a shell w
 nix-shell
 ```
 
+If you modify the `Gemfile`, you can update the `Gemfile.lock` and `gemset.nix` by the following in the `nix-shell`:
+
+```bash
+bundix --magic
+```
+
+Afterwards, restart the `nix-shell`.
+
 ### Deploying
 
 The latest and greatest builds on master get deployed automatically using [travis](https://travis-ci.org).
