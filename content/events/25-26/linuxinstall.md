@@ -18,6 +18,6 @@ Maar waarom upgraden naar Windows 11 als je ook Linux kunt installeren?
 
 Of je nu een dual boot wil uitproberen of onmiddelijk de stap zult maken, wij gaan je helpen met de installatie en het gebruik van Linux.
 
-Klik [hier](https://soleway.ugent.be/routes/1316) voor een route naar het Auditorium, waar het event zal plaatsvinden.
+Vind [hier](https://soleway.ugent.be/routes/1316) een route naar het auditorium, waar het event zal plaatsvinden.
 
 Deze activiteit is uitzonderlijk ook toegankelijk voor buitenstaanders en niet-informatici.
