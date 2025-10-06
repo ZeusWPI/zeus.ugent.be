@@ -928,17 +928,6 @@
     };
     version = "1.2024.2";
   };
-  uglifier = {
-    dependencies = ["execjs"];
-    groups = ["production"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "1apmqsad2y1avffh79f4lfysfppz94fvpyi7lkkj3z8bn60jpm3m";
-      type = "gem";
-    };
-    version = "4.2.1";
-  };
   w3c_validators = {
     dependencies = ["json" "nokogiri" "rexml"];
     groups = ["test"];
