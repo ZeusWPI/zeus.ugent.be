@@ -3,14 +3,14 @@ narrow_page: true
 subnavigation:
   bar: about
   identifier: statuten
-  name: Statuten
+  name: subnavigation.statutes
   order: 200
 ---
 
-# Statuten
+# <span data-i18n="about.statutes.title"></span>
 {:.title.is-1.has-text-centered}
 
-## Revisie academiejaar 2021-2022
+## <span data-i18n="about.statutes.revision_year"></span>
 {:.subtitle.is-2.has-text-centered}
 
 <div class="content" markdown="1">

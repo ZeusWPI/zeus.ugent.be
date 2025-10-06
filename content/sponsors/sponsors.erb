@@ -3,16 +3,16 @@ narrow_page: true
 subnavigation:
   bar: sponsors
   identifier: sponsors
-  name: Sponsors
+  name: subnavigation.sponsors.sponsors
   order: 20
 ---
 
-<h1 class='title is-1 has-text-centered'>Sponsors</h1>
+<h1 class='title is-1 has-text-centered'><%= t('sponsors.sponsors.title') %></h1>
 
 <div id='sponsors' class="content">
   <% if current_sponsors.nil? %>
     <div class="has-text-centered">
-      No sponsors yet for this academic year. Interested? Contact the board.
+      <%= t('sponsors.sponsors.empty') %>
     </div>
   <% else %>
     <% current_sponsors.shuffle.each do |sponsor| %>

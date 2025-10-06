@@ -1,0 +1,256 @@
+{  
+  "en": {
+    "date": {
+      "formats": {
+        "default": "%Y-%m-%d",
+        "long": "%d %B %Y",
+        "short": "%d %b"
+      }
+    },
+    "time": {
+      "formats": {
+        "short": "%Y/%m/%d %H:%M",
+        "event": "%A %d %B, %H:%M"
+      }
+    },
+    "navigation": {
+      "about": "About",
+      "contact": "Contact",
+      "blog": "Blog",
+      "events": "Events",
+      "projects": "Projects",
+      "sponsors": "Sponsors",
+      "cammie": "Cammie",
+      "mirror": "Mirror",
+      "sign_up": "Sign up!"
+    },
+    "subnavigation": {
+      "about_zeus": "Zeus WPI",
+      "statutes": "Statutes",
+      "privacy_policy": "Privacy Policy",
+      "history": "History",
+      "former_boards": "Former Boards",
+      "reports": "Reports",
+      "sponsors": {
+        "sponsoring_members": "Sponsoring Members",
+        "sponsors": "Sponsors"
+      }
+    },
+    "index": {
+      "upcoming_events": "Upcoming Events",
+      "no_events_string": "There are currently no upcoming events. If you have a suggestion, let us know on mattermost in",
+      "top_coders": "Top Coders",
+      "previous_events": "Previous Events",
+      "blogpost": "Blogposts",
+      "sponsoring_members": {
+        "title": "Sponsoring Members",
+        "empty": "No sponsoring members yet for this academic year. Interested? Contact the board."
+      },
+      "sponsors": {
+        "title": "Sponsors",
+        "empty": "No sponsors yet for this academic year. Interested? Contact the board."
+      }
+    },
+    "about": {
+      "about_zeus": {
+        "title": "About Zeus WPI",
+        "content_1": "Zeus WPI is the student association for Computer Science at Ghent University. Our goal is to provide a stimulating environment for motivated students looking to expand their skills by engaging in interesting real-world projects.",
+        "content_2": "We organize various tech related events, such as talks by experts, hands-on coding events and introductory lectures for interesting technologies. Together we build applications for Ghent University students (%{hydra}), for %{urenloop} and of course for ourselves.",
+        "content_3": "Be sure to check out our %{project_page}!",
+        "content_4": "Everybody is welcome at Zeus WPI, regardless of your academic background. What truly matters is your passion for computer science and a bit of (tolerance for) geekiness won't hurt either!",
+        "board": {
+          "title": "The board",
+          "content": "The board is the oil in the machine and is the driving force behind the organization of events and projects. The Zeus WPI board in %{year} is:",
+          "mail": "Mail us all at: %{mail}",
+          "function": "Function",
+          "name": "Name",
+          "email": "E-mail"
+        }
+      },
+      "statutes": {
+        "title": "Statutes",
+        "revision_year": "Revision academic year 2021-2022"
+      },
+      "privacy_policy": {
+        "title": "Privacy Policy",
+        "table_of_contents": {
+          "title": "Table of Contents",
+          "summary": "Summary",
+          "structure": "Structure",
+          "application": "When and where does this privacy policy apply?",
+          "access_rights": "Who has access to the collected data?",
+          "data": "What data is collected and what is it used for?",
+          "contact_info": "How do you contact us and exercise your rights?",
+          "projects_overview": "Overview of projects",
+          "services_overview": "Overview of services"
+        }
+      },
+      "history": {
+        "title": "History"
+      },
+      "former_boards": {
+        "title": "Former Boards",
+        "content": "All previous boards of ZeusWPI, from now to the very beginning."
+      },
+      "reports": {
+        "title": "Reports",
+        "links": "Report %{date}"
+      }
+    },
+    "contact": {
+      "title": "Contact us",
+      "subtitle": "bleep bloop",
+      "varia": {
+        "title": "Varia",
+        "payment_info": {
+          "title": "Pay us",
+          "instructions": "Please use the message %{msg} when manually topping up your Tab balance",
+          "qr_button": "Top up Tab balance",
+          "tap_topup": {
+            "title": "Top up Tab with EPC QR code",
+            "username": "Zeus username:",
+            "help": "This is not necessarily the same as your Mattermost username, contact the board if you forgot your username",
+            "amount": "Amount (euro):"
+          },
+          "tab": "Use Tab"
+        },
+        "call_info": {
+          "title": "Call us",
+          "internal": "Internal: %{internal}"
+        },
+        "find_info": {
+          "title": "Find us",
+          "instructions": "You can find our hiding place, or what we call %{kelder} at the basement level of following address:",
+          "fi_nr": "The FI-number (internal UGent-ID for rooms) is %{fi_nr}"
+        }
+      }
+    },
+    "blog": {
+      "academic_year": "Academic Year",
+      "empty": {
+        "title": "Sorry.",
+        "subtitle": "No blog posts yet this year.",
+        "soon": "Soon™"
+      }
+    },
+    "events": {
+      "academic_year": "Academic Year",
+      "info": {
+        "title": "Info",
+        "content_1": "Events are open to all years, unless stated otherwise.",
+        "content_2": "There will also always be Zeus members present who can help if you don't understand something. 🙂",
+        "button": "Add events to your personal calendar"
+      },
+      "upcoming": "Upcoming Events",
+      "past": "Past Events",
+      "empty": {
+        "title": "Sorry.",
+        "subtitle": "No events planned yet this year.",
+        "soon": "Soon™"
+      }
+    },
+    "projects": {
+      "active_title": "Active Projects",
+      "dormant_title": "Dormant Projects",
+      "hydra": {
+        "description_1": "Android and iOS app providing all the information a student at Ghent University needs.",
+        "description_2": "For an overview of the features, visit the project's %{website}."
+      },
+      "active": {
+        "12ul": {
+          "description": "Application to count laps based on Bluetooth dongle detection."
+        },
+        "zauth": {
+          "description": "A system to trace all the different login issues back to a single problem."
+        },
+        "zeus_ugent_be": {
+          "description": "Even this site is a Zeus project!"
+        },
+        "tab": {
+          "description": "💰 Yes. We have to drink. But we also have to pay. This does the paying part."
+        },
+        "tap": {
+          "description": "💰 Yes. We have to drink. But we also have to pay. This does the drinking part."
+        },
+        "haldis": {
+          "description": "Haldis is your friendly neighbourhood servant. He exists so we don't need to keep tabs of who is ordering what from where. Start an order and let people add items with a simple mouse click! No more calculating prices and making lists!"
+        },
+        "gamification": {
+          "description": "Gamification of Zeus member engagement. Get points for coding!"
+        },
+        "gandalf": {
+          "description": "You Shall Not Pass - An advanced e-ticket system for student clubs."
+        },
+        "saruman": {
+          "description": "Saruman is a material management tool where partners can reserve stuff."
+        }
+      },
+      "dormant": {
+        "blokmap": {
+          "description": "A collection of study locations that helps you find a place to study during exams."
+        },
+        "g2": {
+          "description": "Spiritual successor to Gamification; provides a gateway to existing Zeus projects."
+        },
+        "mozaic": {
+          "description": "MOZAIC is the Massive Online Zeus Artificial Intelligence Competition platform. It aims to provide a flexible platform to host your very own AI competition."
+        },
+        "cat": {
+          "description": "Keep track of who has given hugs to whom. We all need some affection sometimes…"
+        },
+        "doorkeeper": {
+          "description": "Slotmachien is dead. Long live Doorkeeper!"
+        },
+        "lana": {
+          "description": "Lana is a chatbot that helps you with your daily activities at Ghent University."
+        },
+        "fk_enrolment": {
+          "description": "Enrolment system for new members of FK clubs at Ghent University."
+        },
+        "slotmachien": {
+          "description_1": "This repository contains all applications related to SlotMachien, a Lego Mindstorms robot designed to turn a specific lock.",
+          "description_2": "Now replaced by %{doorkeeper}."
+        }
+      }
+    },
+    "sponsors": {
+      "sponsoring_members": {
+        "title": "Sponsoring Members",
+        "empty": "No sponsoring members yet for this academic year. Interested? Contact the board."
+      },
+      "sponsors": {
+        "title": "Sponsors",
+        "empty": "No sponsors yet for this academic year. Interested? Contact the board."
+      }
+    },
+    "cammie": {
+      "feed_disconnected_1": "Camera feed automatically disconnected due to inactivity, reload the page to resume viewing",
+      "feed_disconnected_2": "Cammie is meant for checking if the kelder is busy before coming and shouldn't be left open for longer periods of time",
+      "controls": {
+        "small_table": "Small table",
+        "big_table": "Big table",
+        "couch": "Couch",
+        "door": "Door",
+        "christmastime": "Christmas tree"
+      },
+      "message": {
+        "empty_username": {
+          "title": "Empty username message",
+          "content_1": "It's nice to know who's talking to us.",
+          "content_2": "You can still let us know 🙂",
+          "cancel": "Cancel"
+        },
+        "send": "Send to kelder",
+        "name_placeholder": "Name",
+        "message_placeholder": "Message..."
+      }
+    },
+    "footer": {
+      "text": "Made with %{heart} by the Zeus WPI",
+      "github": "View on GitHub",
+      "privacy": "Privacy",
+      "rdp": "Responsible Disclosure Policy",
+      "compiled_at": "Page last compiled on: %{time}"
+    }
+  }
+}
