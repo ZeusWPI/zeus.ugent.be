@@ -27,6 +27,7 @@ gem 'tzinfo'
 gem 'puppeteer-ruby'
 
 gem 'sass-embedded'
+gem 'google-protobuf', '~> 4.32.0'
 
 # Silences warnings that they will be no longer part of the standard library in Ruby 3.5
 gem 'pstore'

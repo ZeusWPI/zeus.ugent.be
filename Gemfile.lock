@@ -29,7 +29,7 @@ GEM
     execjs (2.10.0)
     ffi (1.17.0)
     formatador (1.1.0)
-    google-protobuf (4.28.3)
+    google-protobuf (4.32.0)
       bigdecimal
       rake (>= 13)
     guard (2.19.0)
@@ -202,6 +202,7 @@ DEPENDENCIES
   adsf
   autoprefixer-rails
   builder
+  google-protobuf (~> 4.32.0)
   guard-nanoc
   highline
   htmlcompressor
