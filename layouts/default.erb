@@ -58,5 +58,15 @@
 
     <%= content_for(@item, :scripts) %>
     <%= asset :js, :search %>
+    
+    <!-- Zapp Dropdown iframe needs to be directly relative to body -->
+    <!-- local testing:  -->
+    <!-- production: https://zapp.zeus.gent/zapp-iframe/dropdown.html -->
+
+    <iframe sandbox="allow-scripts"
+      id="zappdropdown"
+      src="https://zapp.zeus.gent/zapp-iframe/dropdown.html"
+      style="border-style: none; z-index: 20; position: absolute; left: 0; top: 0; height: 0vh; width: 0vw; overflow: hidden; visibility: hidden;"
+    ></iframe>
   </body>
 </html>
