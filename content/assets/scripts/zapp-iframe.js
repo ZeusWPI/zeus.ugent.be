@@ -4,18 +4,18 @@ let dropheight = 0;
 let opened = false;
 
 const outsideclickhandler = (ev) => {
-const path = ev.composedPath();
-const clickedInside =
-    path.some((n) => n && n.id === 'zappbutton') ||
-    path.some((n) => n && n.id === 'zappdropdown');
-if (!clickedInside) {
-    opened = false;
-    const dropdown = document.getElementById("zappdropdown");
-    dropdown.style.visibility = opened ? "visible" : "hidden";
-    dropdown.contentWindow.postMessage({type: "outsideclick"}, "*")
-    document.getElementById("zappbutton").contentWindow.postMessage({type: "outsideclick"}, "*")
-    dropdown.contentWindow.postMessage({type: "outsideclick"}, "*")
-}
+    const path = ev.composedPath();
+    const clickedInside =
+        path.some((n) => n && n.id === 'zappbutton') ||
+        path.some((n) => n && n.id === 'zappdropdown');
+    if (!clickedInside) {
+        opened = false;
+        const dropdown = document.getElementById("zappdropdown");
+        dropdown.style.visibility = opened ? "visible" : "hidden";
+        dropdown.contentWindow.postMessage({type: "outsideclick"}, "*")
+        document.getElementById("zappbutton").contentWindow.postMessage({type: "outsideclick"}, "*")
+        dropdown.contentWindow.postMessage({type: "outsideclick"}, "*")
+    }
 };
 window.addEventListener("click", outsideclickhandler);
 const GAP = 4;
@@ -39,10 +39,10 @@ function position(){
     if(top + dropheight > vh - GAP){
         const topAbove = vrect.y - dropheight - GAP;
         if(topAbove >= GAP){
-        top = topAbove;
+            top = topAbove;
         }else{
         // Clamp inside viewport
-        top = Math.max(GAP, Math.min(top, vh - dropheight - GAP));
+            top = Math.max(GAP, Math.min(top, vh - dropheight - GAP));
         }
     }
 
@@ -70,22 +70,22 @@ window.onmessage = function(e){
         let msg = JSON.parse(e.data);
         if(msg.type === "buttonclick"){
         opened = !opened;
-        dropdown.style.visibility = opened ? "visible" : "hidden";
-        dropdown.contentWindow.postMessage({type: 'state', state: opened}, "*")
-        if(opened) openAnimation();
+            dropdown.style.visibility = opened ? "visible" : "hidden";
+            dropdown.contentWindow.postMessage({type: 'state', state: opened}, "*")
+            if(opened) openAnimation();
         }else if(msg.type === "dropdown-box" && !setsize){
-        setsize = true;
-        dropwidth = msg.box.width;
-        dropheight = msg.box.height;
-        dropdown.style.width = `${dropwidth}px`;
-        dropdown.style.height = `${dropheight + 7}px`;
+            setsize = true;
+            dropwidth = msg.box.width;
+            dropheight = msg.box.height;
+            dropdown.style.width = `${dropwidth}px`;
+            dropdown.style.height = `${dropheight + 7}px`;
         }else if(msg.type === "state"){
-        opened = msg.state;
-        dropdown.style.visibility = opened ? "visible" : "hidden";
-        button.contentWindow.postMessage(msg, "*")
+            opened = msg.state;
+            dropdown.style.visibility = opened ? "visible" : "hidden";
+            button.contentWindow.postMessage(msg, "*")
         }
         else{
-        console.error("no supported msg type: " + msg.type)
+            console.error("no supported msg type: " + msg.type)
         }
     }catch(err){
         console.error(err);
