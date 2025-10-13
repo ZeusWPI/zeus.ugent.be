@@ -1,8 +1,8 @@
 ---
 title: Workshop modelleren voor 3D-printen
 description: Altijd al eens willen leren 3D printen? Leer de kneepjes van het vak om je eigen 3D modellen te ontwerpen en printen!
-time: '27-11-2025 18:00'
-end: '27-11-2025 22:00'
+time: '25-11-2025 18:00'
+end: '25-11-2025 22:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $kelder
 banner: https://pics.zeus.gent/mYZ47IUS32NdEKaYTJ2kIW5mHMKtoWuVwk6uMK4n.png
