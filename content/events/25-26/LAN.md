@@ -33,7 +33,13 @@ Doorheen de avond voorzien we pizza, snacks en drank aan schappelijke prijzen.
 
 ## Competities
 
-TBA
+| Game                    | Uur   |
+| ----------------------- | ----- |
+| Trackmania              | 19u30 | 
+| Minecraft (teams van 3) | 22u   |
+| Mario Kart              | 0u30  |
+
+*Deze uren kunnen doorheen de avond wijzigen*
 
 ## VR Room
 
