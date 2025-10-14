@@ -3,15 +3,15 @@ narrow_page: true
 subnavigation:
   bar: sponsors
   identifier: members
-  name: Sponsoring Members
+  name: subnavigation.sponsors.sponsoring_members
   order: 10
 ---
 
-<h1 class='title is-1 has-text-centered'>Sponsoring members</h1>
+<h1 class='title is-1 has-text-centered'><%= t('sponsors.sponsoring_members.title') %></h1>
 
 <div id='sponsoring-members' class="content">
   <% if current_sponsoring_members.nil? %>
-    No sponsoring members yet for this academic year. Interested? Contact the board.
+    ><%= t('sponsors.sponsoring_members.empty') %>
   <% else %>
     <% current_sponsoring_members.shuffle.each do |member| %>
       <div id="<%= member[:nickname] %>" class="box sponsoring-member">

@@ -3,15 +3,15 @@ narrow_page: true
 subnavigation:
   bar: about
   identifier: oud-bestuur
-  name: Oud-bestuur
+  name: subnavigation.former_boards
   order: 500
 ---
 
-<h1 class="title is-1 has-text-centered">Oud-bestuur</h1>
+<h1 class="title is-1 has-text-centered" data-i18n='about.former_boards.title'></h1>
 
 <div class="content">
 
-  <p>Alle vorige besturen van Zeus, van nu tot het prille begin.</p>
+  <p data-i18n='about.former_boards.content'></p>
 
   <% all_bestuur.each do |year, bestuur| %>
 
@@ -20,8 +20,8 @@ subnavigation:
     <table class="table board-table">
       <thead>
       <tr>
-        <th>Functie</th>
-        <th>Naam</th>
+        <th data-i18n='about.about_zeus.board.function'></th>
+        <th data-i18n='about.about_zeus.board.name'></th>
       </tr>
       </thead>
       <tbody>

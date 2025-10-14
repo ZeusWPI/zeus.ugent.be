@@ -1,6 +1,6 @@
 ---
 navigable: true
-title: Cammie
+title: navigation.cammie
 ---
 <% content_for :scripts do %>
 <script src="https://code.jquery.com/jquery-3.0.0.min.js" charset="utf-8"></script>
@@ -13,9 +13,9 @@ title: Cammie
 
 <section id="cammie-section">
   <div id="cammieFeedDisconnected" class="notification is-danger is-light is-hidden">
-    Camera feed automatically disconnected due to inactivity, reload the page to resume viewing
+    <span data-i18n="cammie.feed_disconnected_1"></span>
     <br>
-    Cammie is meant for checking if the kelder is busy before coming and shouldn't be left open for longer periods of time
+    <span data-i18n="cammie.feed_disconnected_2"></span>
   </div>
   <div id="cammie-body">
     <figure class="image is-16by9">
@@ -62,29 +62,24 @@ title: Cammie
 
   <nav id="cammie-ctrls-2" class="columns mt-0">
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="43" data-y="15">
-        Kleine tafel
+      <button data-i18n='cammie.controls.small_table' class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="43" data-y="15">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="32" data-y="6">
-        Grote tafel
+      <button data-i18n="cammie.controls.big_table" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="32" data-y="6">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="64" data-y="10">
-        Zetel
+      <button data-i18n="cammie.controls.couch" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="64" data-y="10">
       </button>
     </div>
     <div class="column">
-      <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="30" data-y="4">
-        Deur
+      <button data-i18n="cammie.controls.door" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="30" data-y="4">
       </button>
     </div>
     <% if christmastime? %>
       <div class="column">
-        <button class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="-110" data-y="25">
-          Kerstboom
+        <button data-i18n="cammie.controls.christmastime" class="button is-primary is-full-width ctrl" data-command="set_pos" data-x="-110" data-y="25">
         </button>
       </div>
     <% end %>
@@ -105,19 +100,19 @@ title: Cammie
           <div class="modal-background"></div>
           <div class="modal-card">
             <header class="modal-card-head">
-              <p class="modal-card-title">Empty username message</p>
+              <p data-i18n="cammie.message.empty_username.title" class="modal-card-title"></p>
             </header>
             <section class="modal-card-body">
-              <p>It's nice to know who's talking to us.</p>
-              <p>You can still let us know 🙂</p>
+              <p data-i18n="cammie.message.empty_username.content_1"></p>
+              <p data-i18n="cammie.message.empty_username.content_2"></p>
               <div class="column">
                 <input id="cammieModalName" class="input is-medium is-full-width" name="name" type="text" placeholder="Name" />
               </div>
             </section>
             <footer class="modal-card-foot">
               <div class="buttons">
-                <button id="cammieModalSend" type="button" class="button is-primary">Send to kelder</button>
-                <button id="cammieModalCancel" type="button" class="button">Cancel</button>
+                <button data-i18n="cammie.message.send" id="cammieModalSend" type="button" class="button is-primary"></button>
+                <button data-i18n="cammie.message.empty_username.cancel" id="cammieModalCancel" type="button" class="button"></button>
               </div>
             </footer>
           </div>
@@ -125,14 +120,13 @@ title: Cammie
 
         <nav class="columns mt-0">
           <div class="column">
-            <input id="cammieFormName" class="input is-medium is-full-width" name="name" type="text" placeholder="Name" />
+            <input data-i18n-placeholder="cammie.message.name_placeholder" id="cammieFormName" class="input is-medium is-full-width" name="name" type="text" placeholder="" />
           </div>
           <div class="column is-half">
-            <input id="cammieFormMessage" class="input is-medium is-full-width" name="message" type="text" placeholder="Message..." />
+            <input data-i18n-placeholder="cammie.message.message_placeholder" id="cammieFormMessage" class="input is-medium is-full-width" name="message" type="text" placeholder="" />
           </div>
           <div class="column">
-            <button class="button is-medium is-primary is-full-width" type="submit">
-              Send to kelder
+            <button data-i18n="cammie.message.send" class="button is-medium is-primary is-full-width" type="submit">
             </button>
           </div>
         </nav>

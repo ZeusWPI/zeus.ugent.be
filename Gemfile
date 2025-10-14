@@ -2,6 +2,7 @@
 source 'https://rubygems.org'
 
 gem 'nanoc'
+gem 'i18n'
 
 gem 'icalendar' # ical files
 gem 'kramdown'

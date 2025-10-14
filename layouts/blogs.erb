@@ -2,7 +2,7 @@
   <div class="column is-2 is-narrow">
     <aside class="menu">
       <p class="menu-label">
-        Academiejaar
+        <%= t('blog.academic_year') %>
       </p>
       <ul class="menu-list">
         <% academic_years_blog_items.each do |year, item| %>
@@ -52,9 +52,9 @@
     </div>
     <% if posts_in_year_or_with_tag(item).empty? %>
       <div class="content has-text-centered">
-        <h1>Sorry.</h1>
-        <h2>No blog posts yet this year.</h2>
-        <h4 class="has-text-grey"><i>Soon TM.<i></h4>
+        <h1><%= t('blog.empty.title') %></h1>
+        <h2><%= t('blog.empty.subtitle') %></h2>
+        <h4 class="has-text-grey"><i><%= t('blog.empty.soon') %><i></h4>
       </div>
     <% end %>
   </div>

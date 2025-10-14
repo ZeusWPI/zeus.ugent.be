@@ -1,0 +1,196 @@
+nl:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%d %B %Y"
+      short: "%d %b"
+  time:
+    formats:
+      short: "%Y/%m/%d %H:%M"
+      event: "%A %d %B, %H:%M"
+  navigation:
+    about: "Over ons"
+    contact: "Contact"
+    blog: "Blog"
+    events: "Events"
+    projects: "Projecten"
+    sponsors: "Sponsors"
+    cammie: "Cammie"
+    mirror: "Spiegel"
+    sign_up: "Schrijf je in!"
+  subnavigation:
+    about_zeus: "Zeus WPI"
+    statutes: "Statuten"
+    privacy_policy: "Privacybeleid"
+    history: "Historiek"
+    former_boards: "Oud-bestuur"
+    reports: "Verslagen"
+    sponsors:
+      sponsoring_members: "Sponsorende Leden"
+      sponsors: "Sponsors"
+  index:
+    upcoming_events: "Aankomende Events"
+    no_events_string: "Er zijn momenteel geen aankomende events. Als je een suggestie hebt, laat het ons weten op mattermost in"
+    top_coders: "Top Coders"
+    previous_events: "Afgelopen Events"
+    blogpost: "Blogposts"
+    sponsoring_members: 
+      title: "Sponsorende Leden"
+      empty: "Nog geen sponsorende leden voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+    sponsors:
+      title: "Sponsors"
+      empty: "Nog geen sponsors voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+  about:
+    about_zeus:
+      title: "Over Zeus WPI"
+      content_1: "Zeus WPI is de studentenvereniging voor Informatica aan de Universiteit Gent. 
+          Ons doel is om een stimulerende omgeving te bieden voor gemotiveerde studenten die hun vaardigheden willen uitbreiden door deel te nemen aan interessante projecten uit de echte wereld."
+      content_2: "We organiseren verschillende tech-gerelateerde events, zoals lezingen door experts, hands-on codeerevenementen en inleidende lezingen over interessante technologieën.
+          Samen bouwen we applicaties voor studenten van de Universiteit Gent (%{hydra}), voor %{urenloop} en natuurlijk voor onszelf."
+      content_3: "Bekijk zeker onze %{project_page}!"
+      content_4: "Iedereen is welkom bij Zeus WPI, ongeacht je academische achtergrond. Wat echt telt is je passie voor informatica en een beetje (tolerantie voor) geekiness kan geen kwaad!"
+      board:
+        title: "Het bestuur"
+        content: "Het bestuur is de smeerolie in de machine en de drijvende kracht achter de organisatie van events en projecten. Het Zeus WPI bestuur in %{year} is:"
+        mail: "Mail ons allemaal op:"
+        function: "Functie"
+        name: "Naam"
+        email: "E-mail"
+    statutes:
+      title: "Statuten"
+      revision_year: "Revisie academiejaar 2021-2022"
+    privacy_policy:
+      title: "Privacybeleid"
+      table_of_contents: 
+        title: "Inhoudstabel"
+        summary: "Samenvatting"
+        structure: "Opbouw"
+        application: "Wanneer en waar is dit privacybeleid van toepassing?"
+        access_rights: Wie heeft toegang tot de verzamelde data?"
+        data: "Welke data worden verzameld en waarvoor worden ze gebruikt?"
+        contact_info: "Hoe contacteert u ons en laat u uw rechten gelden?" 
+        projects_overview: "Overzicht der projecten"
+        services_overview: "Overzicht der diensten"
+    history:
+      title: "Historiek"
+    former_boards:
+      title: "Oud-bestuur"
+      content: "Alle vorige besturen van ZeusWPI, van nu tot het prille begin."
+    reports:
+      title: "Verslagen"
+      links: "Verslag %{date}"
+  contact:
+    title: "Contacteer ons" 
+    subtitle: "bleep bloop"
+    varia:
+      title: "Varia"
+      payment_info:
+        title: "Betaal ons"
+        instructions: "Gebruik aub de beschrijving %{msg} wanneer je manueel je Tab-saldo bijvult"
+        qr_button: "Vul Tab-saldo bij"
+        tap_topup:
+          title: "Vul Tab bij met EPC QR-code"
+          username: "Zeus gebruikersnaam:"
+          help: "Dit is niet noodzakelijk dezelfde als je Mattermost gebruikersnaam, contacteer het bestuur als je je gebruikersnaam vergeten bent"
+          amount: "Bedrag (euro):"
+        tab: "Gebruik Tab"
+      call_info:
+        title: "Bel ons"
+        internal: "Intern: %{internal}"
+      find_info:
+        title: "Vind ons"
+        instructions: "Onze schuilplaats, of wat wij %{kelder} noemen, vindt je in de kelderverdieping van het volgende adres:"
+        fi_nr: "Het FI-nummer (interne UGent-ID voor lokalen) is %{fi_nr}"
+  blog:
+    academic_year: "Academiejaar"
+    empty:
+      title: "Sorry."
+      subtitle: "Er zijn nog geen blogposts dit jaar."
+      soon: "Binnenkort™"
+  events:
+    academic_year: "Academiejaar"
+    info:
+      title: "Info"
+      content_1: "Alle events zijn toegankelijk voor alle jaren, behalve als het anders staat vermeld."
+      content_2: "Er zullen ook altijd Zeus-leden aanwezig zijn die kunnen helpen als je iets niet begrijpt. 🙂"
+      button: "Zet events in je persoonlijke kalender"
+    upcoming: "Aankomende Events"
+    past: "Afgelopen Events"
+    empty:
+      title: "Sorry."
+      subtitle: "Er zijn nog geen events gepland dit jaar."
+      soon: "Binnenkort™"
+  projects:
+    active_title: "Actieve Projecten"
+    dormant_title: "Inactieve Projecten"
+    hydra:
+      description_1: "Android- en iOS-app die alle informatie biedt die een student aan de Universiteit Gent nodig heeft."
+      description_2: "Voor een overzicht van de functies, bezoek de %{website} van het project."
+    active:
+      12ul:
+        description: "Applicatie om rondes te tellen op basis van Bluetooth-dongle-detectie."
+      zauth:
+        description: "Een systeem om alle verschillende inlogproblemen terug te voeren naar één enkel probleem."
+      zeus_ugent_be:
+        description: "Zelfs deze site is een Zeus project!"
+      tab:
+        description: "💰 Ja. We moeten drinken. Maar we moeten ook betalen. Dit zorgt voor het betalen."
+      tap:
+        description: "💰 Ja. We moeten drinken. Maar we moeten ook betalen. Dit zorgt voor het drinken."
+      haldis:
+        description: "Haldis is je vriendelijke buurtbediende. Hij zorgt ervoor dat we niet meer hoeven bij te houden wie wat waar bestelt. Start een bestelling en laat mensen met een simpele muisklik items toevoegen! Nooit meer prijzen berekenen en lijstjes maken!"
+      gamification:
+        description: "Gamificatie van Zeus-ledenbetrokkenheid. Verdien punten door te coderen!"
+      gandalf:
+        description: "You Shall Not Pass - Een geavanceerd e-ticketsysteem voor studentenverenigingen."
+      saruman:
+        description: "Saruman is een materiaalbeheertool waarmee partners spullen kunnen reserveren."
+    dormant:
+      blokmap:
+        description: "Een verzameling studielocaties die je helpt een plek te vinden om te studeren tijdens examens."
+      g2:
+        description: "Geestelijke opvolger van Gamification; biedt toegang tot bestaande Zeus-projecten."
+      mozaic:
+        description: "MOZAIC is het Massive Online Zeus Artificial Intelligence Competition-platform. Het heeft als doel een flexibel platform te bieden waarop je je eigen AI-wedstrijd kunt organiseren."
+      cat:
+        description: "Houd bij wie wie een knuffel heeft gegeven. We hebben allemaal wel eens behoefte aan wat affectie..."
+      doorkeeper:
+        description: "Slotmachien is dood. Lang leve Doorkeeper!" 
+      lana:
+        description: "Lana is een chatbot die je helpt bij je dagelijkse activiteiten aan de Universiteit Gent."
+      fk_enrolment:
+        description: "Inschrijvingssysteem voor nieuwe leden van FK-clubs aan de Universiteit Gent."
+      slotmachien:
+        description_1: "Deze repository bevat alle applicaties met betrekking tot SlotMachien, een Lego Mindstorms-robot die is ontworpen om een specifiek slot te openen."
+        description_2: "Nu vervangen door %{doorkeeper}."
+  sponsors:
+    sponsoring_members:
+      title: "Sponsorende Leden"
+      empty: "Nog geen sponsorende leden voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+    sponsors:
+      title: "Sponsors"
+      empty: "Nog geen sponsors voor dit academiejaar. Geïnteresseerd? Contacteer het bestuur."
+  cammie:
+    feed_disconnected_1: "Camera feed automatisch verbroken wegens inactiviteit, herlaad de pagina om verder te kijken"
+    feed_disconnected_2: "Cammie is bedoeld om te controleren of de kelder druk is voordat je komt en moet niet voor langere tijdperioden open blijven staan"
+    controls:
+      small_table: "Kleine tafel"
+      big_table: "Grote tafel"
+      couch: "Zetel"
+      door: "Deur"
+      christmastime: "Kerstboom"
+    message:
+      empty_username:
+        title: "Lege gebruikersnaam bericht"
+        content_1: "Het is leuk om te weten met wie we praten."
+        content_2: "Je kan het ons nog steeds laten weten 🙂"
+        cancel: "Annuleer"
+      send: "Verstuur naar kelder"
+      name_placeholder: "Naam"
+      message_placeholder: "Bericht..."
+  footer:
+    text: "Gemaakt met %{heart} door het Zeus WPI"
+    github: "Bekijk op GitHub"
+    privacy: "Privacy"
+    rdp: "Responsible Disclosure Policy"
+    compiled_at: "Pagina voor het laatst gecompileerd op: %{time}"
