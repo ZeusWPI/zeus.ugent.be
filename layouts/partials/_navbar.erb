@@ -1,9 +1,3 @@
-<head>
-  <script type="module" src="https://zapp.zeus.gent/zapp-components/zapp-components.esm.js"></script>
-  <script nomodule src="https://zapp.zeus.gent/zapp-components/zapp-components.js"></script>
-  <link rel="stylesheet" href="https://zapp.zeus.gent/zapp-components/assets/global.css">
-</head>
-
 <div id="navbar">
   <div class="navbar <%= 'is-transparent' if defined? @transparent_nav %>">
     <div class="navbar-brand">
@@ -83,9 +77,14 @@
           </span>
         </a>
       </div>
-      <div style="width: 2.8rem; aspect-ratio: 1/1; display: flex; justify-content: center; align-items: center;">
-        <zapp-v01></zapp-v01>
-      </div>
+      <iframe sandbox="allow-scripts allow-popups"
+        id="zappbutton"
+        src="https://zapp.zeus.gent/zapp-iframe/button.html"
+        style="height: 3.7em; aspect-ratio: 1 / 1; border: none; overflow: hidden; scrollbar-width: 0;"
+      >
+      </iframe>
+
+      
     </div>
   </div>
 </div>
