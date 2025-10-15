@@ -122,7 +122,7 @@
   <div class='cell is-col-span-2' id='sponsoring-members'>
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/sponsors/members/" style="color: var(--bulma-body-color); text-decoration: none;">
+        <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
           Sponsoring members
         </a>
       </span>
@@ -136,7 +136,7 @@
       <% current_sponsoring_members.shuffle.each do |member| %>
       <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
         <div class="rounded-container">
-          <a href="https://zeus.ugent.be/sponsors/members/#<%= member[:nickname] %>">
+          <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= member[:nickname] %>">
             <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
           </a>
         </div>
@@ -162,13 +162,13 @@
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
       <% current_sponsors.shuffle.each do |sponsor| %>
-      <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
-        <div class="rounded-container">
-          <a href="https://zeus.ugent.be/sponsors/sponsors/#<%= sponsor[:name] %>">
-            <img class="is-rounded" src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+        <div class='column is-4-desktop is-half-tablet is-three-quarters-mobile'>
+          <a href="/sponsors/sponsors/#<%= sponsor[:name] %>">
+            <div class="box p-3 is-flex is-justify-content-center is-align-items-center" style="background: <%= sponsor[:background] %>;">
+              <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+            </div>
           </a>
         </div>
-      </div>
       <% end %>
     </div>
     <% end %>
