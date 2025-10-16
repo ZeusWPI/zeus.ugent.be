@@ -1033,7 +1033,7 @@ data:
       quote: "<jay> kijk. mensen moeten gewoon stoppen met buggy code te schrijven
 <jay> als je weet wat je doet en geen domme dingen doet dan zijn al die dingen niet nodig
 <jay> borrow checkers en zo zijn copium voor incompetentie"
-      descriptiono: "85% persoon, 15% trolling. Heeft een obsessie om computers veel tegelijk te laten doen, maar kan zelf niet multitasken. Pest GCC met vage templates."
+      description: "85% persoon, 15% trolling. Heeft een obsessie om computers veel tegelijk te laten doen, maar kan zelf niet multitasken. Pest GCC met vage templates."
       links:
         - icon: github
           url: https://github.com/jay-tux
