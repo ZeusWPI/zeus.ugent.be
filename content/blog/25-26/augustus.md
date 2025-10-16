@@ -5,8 +5,6 @@ description: "Zeus maandelijks nieuws"
 author: "Hannes Klinckaert"
 ---
 
-# Wat heeft Zeus gedaan, de afgelopen maan?
-
 We kijken even naar wat er is gebeurd tijdens de zomermaanden!
 
 Het is zomer, wat kun je anders doen dan je in een kelder verstoppen voor de hitte en een hoop code schrijven? Dat is in ieder geval gebeurd! De highlights zijn:
