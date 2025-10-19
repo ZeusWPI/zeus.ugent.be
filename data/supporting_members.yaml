@@ -1014,7 +1014,7 @@ data:
           url: https://esp32-open-mac.be/
     - name: Seppe Van Rijsselberghe
       nickname: seppevr
-      photo: https://pics.zeus.gent/HTz4aBDOTBqisJYlbzIwvRGMXMBs1yg9SbWOlOen.jpg
+      photo: https://pics.zeus.gent/yfoCaxZUegVywpwdGUX9DR2oj2kUDdOJdm3ca7WW.jpg
       quote: ""
       description:  Occasioneel loper, fervent kaarter, python scripter, dagelijks slaper.
       links: []
@@ -1022,7 +1022,7 @@ data:
       nickname: vincent
       photo: https://pics.zeus.gent/aw9FXkNgBii5mnWUDiEWyiSnaWYBL4HGHWFrI2us.jpg
       quote: "<Vincent> Tuurlijk is het niet open source, want het werkt goed!"
-      description: Zoekt werk om uit de kelder te geraken
+      description: Zoekt werk om uit de kelder te geraken.
       links:
         - icon: github
           url: https://github.com/Topvennie 
@@ -1030,9 +1030,7 @@ data:
     - name: Jonas Sys
       nickname: jay
       photo: https://pics.zeus.gent/8y8CqaY40zLBLMEXtV2wUAA7ojfV1KPH2pMvVqzD.png
-      quote: "<jay> kijk. mensen moeten gewoon stoppen met buggy code te schrijven
-<jay> als je weet wat je doet en geen domme dingen doet dan zijn al die dingen niet nodig
-<jay> borrow checkers en zo zijn copium voor incompetentie"
+      quote: "<jay> kijk. mensen moeten gewoon stoppen met buggy code te schrijven\n<jay> als je weet wat je doet en geen domme dingen doet dan zijn al die dingen niet nodig\n<jay> borrow checkers en zo zijn copium voor incompetentie"
       description: "85% persoon, 15% trolling. Heeft een obsessie om computers veel tegelijk te laten doen, maar kan zelf niet multitasken. Pest GCC met vage templates."
       links:
         - icon: github
