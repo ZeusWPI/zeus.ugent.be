@@ -1036,3 +1036,9 @@ data:
         - icon: github
           url: https://github.com/jay-tux
         - url: https://jaytux.com
+    - name: Klaas Goethals
+      nickname: klagoeth
+      description: Zeus is de max
+      quote: ""
+      links:
+        - url: https://klaasgoethals.be
