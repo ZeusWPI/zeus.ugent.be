@@ -1022,7 +1022,7 @@ data:
       description: Rustig Rusten en tussendoor lopen en boulderen.
       links:
         - icon: github
-          url: github.com/iwijn
+          url: https://github.com/iwijn
         - icon: linkedin
-          url: linkedin.com/in/iwijn
-        - url: iwijn.com
+          url: https://linkedin.com/in/iwijn
+        - url: https://iwijn.com
