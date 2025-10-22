@@ -855,14 +855,6 @@ data:
           url: https://github.com/pietervdvn
         - icon: mastodon
           url: https://en.osm.town/@pietervdvn
-    - name: Jasper Devreker
-      nickname: j
-      photo: https://pics.zeus.gent/m83ZZjf5sE4iPhxrtnL2jp79d0JyZt5v8bOTlcPL.jpg
-      quote: "<j> fucking hell, 'buienradar', more like 'buien? raad maar!'"
-      description: Doet in zijn vrije tijd security, hardware, embedded software, reverse engineering en andere dingen die pijn doen
-      links:
-        - icon: wifi
-          url: https://esp32-open-mac.be/
 
   2025:
     - name: Charlotte Van Petegem
@@ -925,20 +917,6 @@ data:
       links:
         - icon: github
           url: https://github.com/mivdnber
-    - name: Niels De Graef
-      nickname: nielsdg
-      photo: https://pics.zeus.gent/uCNrzMHtrSUH9IHKsLY02gQcbJUJW9oR4GrymhZZ.png
-      quote: 😁
-      description: Doet zo van die gekke dingen in zijn vrije tijd, zoals contributen bij GNOME of mappen op OpenStreetMap
-      links:
-        - icon: github
-          url: https://github.com/nielsdg
-        - icon: gitlab
-          url: https://gitlab.gnome.org/nielsdg
-        - icon: mastodon
-          url: https://mastodon.social/@nielsdg
-        - icon: twitter
-          url: https://twitter.com/NielsDeGraef
     - name: Tom Naessens
       nickname: Silox
       photo: https://zeus.ugent.be/zeuswpi/KoAqGb0L.jpg
@@ -968,12 +946,6 @@ data:
           url: https://github.com/tivervac
         - icon: gitlab
           url: https://gitlab.com/FlashYoshi
-    - name: Arne Bertrand
-      nickname: abeforzeus
-      photo: https://zeus.ugent.be/zeuswpi/dictkelder.jpg
-      quote: TODO
-      description: Komt wel nog
-      links: []
     - name: Stijn Seghers
       nickname: Procrat
       photo: https://pics.zeus.gent/DGweQdrabjI1kqu7QuGNITpN0TJtdhjwTVSQbruZ.jpg
@@ -1040,5 +1012,17 @@ data:
       nickname: klagoeth
       description: Zeus is de max
       quote: ""
+      photo: https://pics.zeus.gent/kPR5Z7OXTva8fLOZGUekI5Ob17e6uM3wImj2ojhl.png
       links:
         - url: https://klaasgoethals.be
+    - name: Iwijn Voeten
+      nickname: iwijn
+      quote: "Doorgaan impliceert dat je Weg bent."
+      photo: https://pics.zeus.gent/lE07lSESbSncA8TlLI6fmyVy7cmtO2sBwIuD1Jvl.png
+      description: Rustig Rusten en tussendoor lopen en boulderen.
+      links:
+        - icon: github
+          url: github.com/iwijn
+        - icon: linkedin
+          url: linkedin.com/in/iwijn
+        - url: iwijn.com
