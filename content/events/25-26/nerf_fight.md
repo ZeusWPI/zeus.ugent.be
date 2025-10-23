@@ -1,5 +1,5 @@
 ---
-title: 'NERF Fight: ZeusWPI x VVN'
+title: 'NERF Fight: Zeus WPI x VVN'
 time: '6-11-2025 19:00' 
 end: '6-11-2025 22:30' 
 location: S9, De Sterre
@@ -8,7 +8,7 @@ header_text_background: true
 banner: https://pics.zeus.gent/V1Wiz7SXkDqiFJqrXIjlhzNYjO7PS5nIDyTh4GDX.jpg
 ---
 
-# NERF Fight: ZeusWPI x VVN
+# NERF Fight: Zeus WPI x VVN
 
 Samen maken we voor de 5de keer de buurt onveilig!
 Dit keer samen met VVN.
