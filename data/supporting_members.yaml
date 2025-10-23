@@ -1034,3 +1034,15 @@ data:
         - icon: linkedin
           url: https://linkedin.com/in/iwijn
         - url: https://iwijn.com
+    - name: Feliciaan De Palmenaer
+      nickname: feliciaan
+      photo: https://zeus.ugent.be/zeuswpi/MgrXVj97.jpg
+      quote: <feliciaan> en dat is dan de het
+      description: Gebruikt computers om economische magie te creëren
+      links:
+        - icon: twitter
+          url: https://twitter.com/feliciaan
+        - icon: github
+          url: https://github.com/feliciaan
+        - icon: linkedin
+          url: https://linkedin.com/in/feliciaan
