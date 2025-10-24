@@ -14,8 +14,6 @@ Samen maken we voor de 5de keer de buurt onveilig!
 Dit keer samen met VVN.
 Doorheen het volledig gebouw spelen we enkele game modes.
 
-Momenteel is de datum nog niet vastgelegd, maar zal vallen in de week van 3 november.
-
 ## Benodigdheden
 
 We voorzien pijltjes _maar geen geweren_. Breng dus zeker je eigen geweer mee, indien je er geen hebt kan je eens rondvragen in het [events kanaal][events] op Mattermost.
