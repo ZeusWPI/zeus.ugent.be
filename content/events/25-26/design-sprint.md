@@ -3,7 +3,7 @@ title: Web Design Sprint UGent Sailing
 description: Our mission? To finalize our website and program a suite of new frontend and backend features. It's the perfect time to bring your skills to the table, meet awesome people from different associations, and build something incredible together.
 time: '27-10-2025 16:00'
 end: '27-10-2025 23:00'
-location: Industriële Scheikunde, Technologiepark 125.
+location: Industriële Scheikunde, Technologiepark 125, tweede verdieping.
 locationlink: https://www.openstreetmap.org/way/107245242
 banner: /assets/images/banner_UGS_Design_Sprint.png
 image: /assets/images/image_UGS_Design_Sprint.png
