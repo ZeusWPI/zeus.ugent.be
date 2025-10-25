@@ -4,7 +4,6 @@ description: Our mission? To finalize our website and program a suite of new fro
 time: '27-10-2025 16:00'
 end: '27-10-2025 23:00'
 location: Industriële Scheikunde, Technologiepark 125, tweede verdieping.
-locationlink: https://www.openstreetmap.org/way/107245242
 banner: /assets/images/banner_UGS_Design_Sprint.png
 image: /assets/images/image_UGS_Design_Sprint.png
 header_text_background: true
