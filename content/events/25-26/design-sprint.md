@@ -4,8 +4,8 @@ description: Our mission? To finalize our website and program a suite of new fro
 time: '27-10-2025 16:00'
 end: '27-10-2025 23:00'
 location: Industriële Scheikunde, Technologiepark 125, tweede verdieping.
-banner: /assets/images/banner_UGS_Design_Sprint.png
-image: /assets/images/image_UGS_Design_Sprint.png
+banner: https://pics.zeus.gent/0KD8TyI5XWSUOz9dIkCBqAwnOXROFqEO0ytrZCqQ.png
+image: https://pics.zeus.gent/0KD8TyI5XWSUOz9dIkCBqAwnOXROFqEO0ytrZCqQ.png
 header_text_background: true
 tags: {}
 facebook: https://forms.gle/kk2jkBiJJEBznGT8A
