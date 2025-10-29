@@ -500,36 +500,48 @@ data:
     - rol: Voorzitter
       naam: Xander Bil
       mail: voorzitter@zeus.ugent.be
+      mattermost: xerbalind
     - rol: Vicevoorzitter
       naam: Hannes Klinckaert
       mail: voorzitter@zeus.ugent.be
+      mattermost: hannes
     - rol: Penningmeester
       naam: Rune Dyselinck
       mail: penning@zeus.ugent.be
+      mattermost: runo
     - rol: Hoofdsysadmin
       naam: Mathieu Strypsteen
       mail: admin@zeus.ugent.be
+      mattermost: mstrypst
     - rol: Sysadmin
       naam: Axel Dezittere
       mail: admin@zeus.ugent.be
+      mattermost: axel
     - rol: Sysadmin
       naam: Saturn Casaer
       mail: admin@zeus.ugent.be
+      mattermost: caturn
     - rol: Event
       naam: Lander De Geeter
       mail: event@zeus.ugent.be
+      mattermost: landgeet
     - rol: Event
       naam: Nathan Onraet
       mail: event@zeus.ugent.be
+      mattermost: nathano
     - rol: PR
       naam: Tybo Verslype
       mail: pr@zeus.ugent.be
+      mattermost: tyboro
     - rol: PR
       naam: Robin Paret
       mail: pr@zeus.ugent.be
+      mattermost: robinp
     - rol: Project
       naam: Jonas Meeuws
       mail: project@zeus.ugent.be
+      mattermost: jnms
     - rol: Assisterend bestuurslid
       naam: Lily Cailliau
       mail: assisterend@zeus.ugent.be
+      mattermost: lily
