@@ -5,6 +5,8 @@
       <th>Name</th>
       <th>E-mail</th>
       <th></th>
+      <th>Mattermost</th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -21,9 +23,19 @@
       </td>
       <td>
         <% if lid[:mail] %>
-        <a href="mailto:<%= lid[:mail] %>">
-          <%= fa :envelope %>
-        </a>
+          <a href="mailto:<%= lid[:mail] %>">
+            <%= fa :envelope %>
+          </a>
+        <% end %>
+      </td>
+      <td>
+        <%= lid[:mattermost] %>
+      </td>
+      <td>
+        <% if lid[:mattermost] %>
+          <a href="https://chat.zeus.gent/zeus/messages/@<%= lid[:mattermost] %>" target="_blank">
+            <%= fa :message %>
+          </a>
         <% end %>
       </td>
     </tr>

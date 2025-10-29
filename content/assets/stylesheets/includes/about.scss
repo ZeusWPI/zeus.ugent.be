@@ -17,7 +17,8 @@
         grid-template-areas:
         "func func"
         "name name"
-        "email link";
+        "email mail_link"
+        "mattermost chat_link";
 
         width: 87vw;
       }
@@ -32,11 +33,21 @@
       > tr > td:nth-child(4) {
         display: grid;
         justify-items: end;
-        grid-area: link;
+        grid-area: mail_link;
         border: none;
       }
       > tr > td:nth-child(1) {
         grid-area: func;
+        border: none;
+      }
+      > tr > td:nth-child(5) {
+        grid-area: mattermost;
+        border: none;
+      }
+      > tr > td:nth-child(6) {
+        display: grid;
+        justify-items: end;
+        grid-area: chat_link;
         border: none;
       }
       > tr > td:nth-child(3):before {
@@ -53,7 +64,14 @@
         width: 100%
       }
       > tr > td:nth-child(4):before {
-        grid-area: link;
+        grid-area: mail_link;
+      }
+      > tr > td:nth-child(5):before {
+        content: "Mattermost: ";
+        font-weight: bold;
+      }
+      > tr > td:nth-child(6):before {
+        grid-area: chat_link;
       }
     }
   }
@@ -61,7 +79,7 @@
 
 table.board-table {
   tbody > tr > td:nth-child(1), thead > tr > th:nth-child(1) {
-    width: 40%;
+    width: 30%;
   }
 }
 
