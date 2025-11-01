@@ -14,6 +14,8 @@ Enkele weken geleden werden we gecontacteerd door de vakgroep [HortiRoot](https:
 In hun lab hebben ze een redelijk aantal Epson *flatbed foto scanners* omgebouwd om er kleine plantjes in petriplaten op te kunnen groeien.
 Hiermee kunnen ze met korte tijdsintervallen scans nemen, om *timelapses* te maken van de groei in hoge resolutie.
 
+![A metal frame holding 4 scanners in place, sitting in a lab. On the left there is an electrical box where the LED controls and Arduinos are housed.](https://pics.zeus.gent/ImlHShBfCz0cCAXIKl1QEcGk3aEvKeFBuolFn3VA.png)
+
 De UGent workshop [WE62](https://www.ugent.be/we/en/faculty/faculty-offices/technical-scientific-workshop/overview) heeft hun geholpen met de hardware mods:
 - Het deksel (lid) werd verwijderd. De elektronica verantwoordelijk voor de "closed" detectie wordt nu nagebootst door een arduino.
 - Over het bed kan nu een kunststoffen plaat geschoven worden waar de petriplaten in passen.
