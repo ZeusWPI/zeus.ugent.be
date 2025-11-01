@@ -21,6 +21,7 @@ Kortom helpen we de bio-ingenieurs om *timelapses* te maken van plantengroei.
 Voor details over het project, zie [deze blog post](https://zeus.gent/blog/25-26/hortiroot-intro/)!
 
 We zoeken mensen die:
+
 - Graag samen een *gloednieuwe webapp* willen maken voor het beheer van timelapses.
 - Met *Wireshark*, *libusb* en hun favoriete programmeertaal bij de hand, samen de scanners volledig willen automatiseren op Raspberry Pi's.
 - Geen schrik hebben van een beetje elektronica en Raspberry Pi GPIO's om de belichting van de planten te regelen.
