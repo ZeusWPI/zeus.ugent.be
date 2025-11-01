@@ -17,6 +17,7 @@ Hiermee kunnen ze met korte tijdsintervallen scans nemen, om *timelapses* te mak
 ![A metal frame holding 4 scanners in place, sitting in a lab. On the left there is an electrical box where the LED controls and Arduinos are housed.](https://pics.zeus.gent/ImlHShBfCz0cCAXIKl1QEcGk3aEvKeFBuolFn3VA.png)
 
 De UGent workshop [WE62](https://www.ugent.be/we/en/faculty/faculty-offices/technical-scientific-workshop/overview) heeft hun geholpen met de hardware mods:
+
 - Het deksel (lid) werd verwijderd. De elektronica verantwoordelijk voor de "closed" detectie wordt nu nagebootst door een arduino.
 - Over het bed kan nu een kunststoffen plaat geschoven worden waar de petriplaten in passen.
 - Een frame werd gemaakt om alles op zijn plaats te houden, en zodat de scans *verticaal* gemaakt kunnen worden.
@@ -58,6 +59,7 @@ De geproduceerde afbeeldingen worden dan van de node naar de machine waar de web
 Gebruikers kunnen dan die *timelapses* beheren vanuit de webapp op het lokaal netwerk, en eveneens ook de afbeeldingen downloaden.
 
 Wat is reeds geïmplementeerd?
+
 - Nodes:
     - Er is een script dat nieuw aangesloten scanners detecteert en ze meteen correct initializeert.
         - Dit gebeurt [hier](https://git.zeus.gent/ZeusWPI/hortiroot-scanners/src/commit/f125641dc8/sc/source/sc/scanner/initialize.d#L40) door specifieke `USB_BULK` pakketten te sturen, onder andere met de firmware blob.
