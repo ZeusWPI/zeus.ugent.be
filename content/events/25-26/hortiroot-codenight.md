@@ -1,6 +1,6 @@
 ---
 title: HortiRoot codenight
-description: Zeus helpt bio-ingenieurs om *timelapses* te maken van plantengroei.
+description: Zeus helpt bio-ingenieurs om timelapses te maken van plantengroei.
 time: '04-11-2025 18:00'
 end: '04-11-2025 22:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
