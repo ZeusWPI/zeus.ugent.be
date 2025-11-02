@@ -69,7 +69,7 @@ Wat is reeds geïmplementeerd?
         - Soms faalt het initializeren door een "permission denied", omdat de udev rule nog niet geactiveerd is op het moment dat `libusb` het apparaat detecteert.
           Als *root* uitvoeren fixt het...
         - Het protocol dat gebruikt wordt bovenop `USB_BULK` is *ESC/I*.
-          Enkele links naar documentatie hierover zijn [hier](https://git.zeus.gent/ZeusWPI/hortiroot-scanners/src/commit/f125641dc8/sc/source/sc/scanner/initialize.d#L40) te vinden.
+          Enkele links naar documentatie hierover zijn [hier](https://git.zeus.gent/ZeusWPI/hortiroot-scanners/src/commit/f125641dc8/epsonscan2) te vinden.
         - Dit protocol verder ontdekken kan nog steeds handig zijn:
           Het lukt momenteel niet om elke scanner uniek te identificeren.
           Ze dragen geen *serial number* zoals de meeste USB devices.
