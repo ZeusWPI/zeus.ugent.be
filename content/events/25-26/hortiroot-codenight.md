@@ -28,3 +28,5 @@ We zoeken mensen die:
 - Willen helpen op gelijk welke manier! Is het nu documenteren, een testnetwerk opzetten, mee om eten gaan of de pi's in ansible steken. Je bent meer dan welkom 🙂.
 
 Join al vast het [~horitroot-scanners](https://mattermost.zeus.gent/zeus/channels/hortiroot-scanners) kanaal op Mattermost.
+
+(Banner komt uit de verzameling van het [IRRI](http://www.irri.org/).)
