@@ -1,6 +1,6 @@
 ---
 title: HortiRoot scanners
-created_at: 01-11-2025
+created_at: 03-11-2025
 description: Zeus helpt bio-ingenieurs om *timelapses* te maken van plantengroei.
 author: Jonas Meeuws
 tags:
@@ -52,7 +52,7 @@ Door de communicatie te onderscheppen, konden we een programma maken dat de scan
 Waarom exact dit nodig is, is nog niet helemaal duidelijk.
 
 We zijn opgelucht dat dit werkt, omdat dit betekent dat we helemaal geen nood hebben aan Windows, virtuele machines, USB multiplexers of het automatisch navigeren van menu's.
-In de plaats kunnen we volledig werken met de betrouwbare en voorspelbare software die we gewend en geliefd zijn.
+In de plaats kunnen we volledig werken met de betrouwbare en voorspelbare software die we gewend zijn.
 
 Het plan is om scanners per ~4 te groeperen, die samen aangestuurd worden door 1 *node* (Raspberry Pi).
 Deze *nodes* worden ontdekt op het lokale netwerk door de backend van een webapplicatie.
