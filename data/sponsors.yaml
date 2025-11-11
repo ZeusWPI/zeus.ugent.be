@@ -29,14 +29,14 @@ data:
           url: https://www.youtube.com/@aikidosecurity
         - icon: X
           url: https://twitter.com/AikidoSecurity
-    - name: "Reproduct"
-      photo: /assets/images/reproduct.jpg
-      background: "white"
-      description: |-
-        Reproduct is the place to be voor de kwalitatieve verwerking en eindafwerking van al uw printwerk.
-      links:
-        - url: https://reproduct.be/
-        - icon: facebook
-          url: https://www.facebook.com/profile.php?id=100063754575471
-        - icon: linkedin
-          url: https://www.linkedin.com/company/reproduct/
+    #- name: "Reproduct"
+    #  photo: /assets/images/reproduct.jpg
+    #  background: "white"
+    #  description: |-
+    #    Reproduct is the place to be voor de kwalitatieve verwerking en eindafwerking van al uw printwerk.
+    #  links:
+    #    - url: https://reproduct.be/
+    #    - icon: facebook
+    #      url: https://www.facebook.com/profile.php?id=100063754575471
+    #    - icon: linkedin
+    #      url: https://www.linkedin.com/company/reproduct/
