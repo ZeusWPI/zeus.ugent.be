@@ -1046,3 +1046,15 @@ data:
           url: https://github.com/feliciaan
         - icon: linkedin
           url: https://linkedin.com/in/feliciaan
+    - name: Michiel Lachaert
+      nickname: michiel
+      photo: https://pics.zeus.gent/pxZni5D9XxhiPOWKOeSpTTQ5bv4ftXKC6n2m79l0.jpg
+      quote: 🦆 Quack!
+      description: Slurpt subsidies
+      links:
+        - url: https://michiel.lachaert.be/
+        - icon: github
+          url: https://github.com/milachae
+        - icon: linkedin
+          url: https://www.linkedin.com/in/michiellachaert/
+
