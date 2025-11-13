@@ -124,9 +124,45 @@ en:
     active_title: "Active Projects"
     dormant_title: "Dormant Projects"
     hydra:
-      title: "Hydra"
       description_1: "Android and iOS app providing all the information a student at Ghent University needs."
       description_2: "For an overview of the features, visit the project's %{website}."
+    active:
+      12ul:
+        description: "Application to count laps based on Bluetooth dongle detection."
+      zauth:
+        description: "A system to trace all the different login issues back to a single problem."
+      zeus_ugent_be:
+        description: "Even this site is a Zeus project!"
+      tab:
+        description: "💰 Yes. We have to drink. But we also have to pay. This does the paying part."
+      tap:
+        description: "💰 Yes. We have to drink. But we also have to pay. This does the drinking part."
+      haldis:
+        description: "Haldis is your friendly neighbourhood servant. He exists so we don't need to keep tabs of who is ordering what from where. Start an order and let people add items with a simple mouse click! No more calculating prices and making lists!"
+      gamification:
+        description: "Gamification of Zeus member engagement. Get points for coding!"
+      gandalf:
+        description: "You Shall Not Pass - An advanced e-ticket system for student clubs."
+      saruman:
+        description: "Saruman is a material management tool where partners can reserve stuff."
+    dormant:
+      blokmap:
+        description: "A collection of study locations that helps you find a place to study during exams."
+      g2:
+        description: "Spiritual successor to Gamification; provides a gateway to existing Zeus projects."
+      mozaic:
+        description: "MOZAIC is the Massive Online Zeus Artificial Intelligence Competition platform. It aims to provide a flexible platform to host your very own AI competition."
+      cat:
+        description: "Keep track of who has given hugs to whom. We all need some affection sometimes…"
+      doorkeeper:
+        description: "Slotmachien is dead. Long live Doorkeeper!" 
+      lana:
+        description: "Lana is a chatbot that helps you with your daily activities at Ghent University."
+      fk_enrolment:
+        description: "Enrolment system for new members of FK clubs at Ghent University."
+      slotmachien:
+        description_1: "This repository contains all applications related to SlotMachien, a Lego Mindstorms robot designed to turn a specific lock."
+        description_2: "Now replaced by %{doorkeeper}."
   sponsors:
     sponsoring_members:
       title: "Sponsoring Members"
