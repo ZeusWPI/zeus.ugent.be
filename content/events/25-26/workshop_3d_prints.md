@@ -4,7 +4,7 @@ description: Altijd al eens willen leren 3D printen? Leer de kneepjes van het va
 time: '25-11-2025 18:00'
 end: '25-11-2025 22:00'
 location: A0, Gebouw S9, Campus Sterre
-locationlink: $kelder
+locationlink: $s9
 banner: https://pics.zeus.gent/mYZ47IUS32NdEKaYTJ2kIW5mHMKtoWuVwk6uMK4n.png
 image:
 header_text_background: true
