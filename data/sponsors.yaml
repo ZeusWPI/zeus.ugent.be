@@ -16,3 +16,27 @@ data:
           url: https://www.instagram.com/wearevintecc
         - icon: youtube
           url: https://www.youtube.com/channel/UC9qfgzmToly5zkc7SvNo0Tg
+    - name: "Aikido security"
+      photo: /assets/images/aikido-logo.png
+      background: "white"
+      description: |-
+        One system to secure your application from code to cloud - to runtime. Get complete visibility, without the noise.
+      links:
+        - url: https://www.aikido.dev/
+        - icon: linkedin
+          url: https://www.linkedin.com/company/aikido-security/
+        - icon: youtube
+          url: https://www.youtube.com/@aikidosecurity
+        - icon: X
+          url: https://twitter.com/AikidoSecurity
+    #- name: "Reproduct"
+    #  photo: /assets/images/reproduct.jpg
+    #  background: "white"
+    #  description: |-
+    #    Reproduct is the place to be voor de kwalitatieve verwerking en eindafwerking van al uw printwerk.
+    #  links:
+    #    - url: https://reproduct.be/
+    #    - icon: facebook
+    #      url: https://www.facebook.com/profile.php?id=100063754575471
+    #    - icon: linkedin
+    #      url: https://www.linkedin.com/company/reproduct/
