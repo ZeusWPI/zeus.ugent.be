@@ -190,10 +190,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1d99vyhmyp2n5zd0qmfymzwbcn71dbnwwvc0m4z14msjb7b8dvf0";
+      sha256 = "1awndc5nswpc1xdlid2wkikj45adbhmbfqizz8rr5fz9h01dqjz6";
       type = "gem";
     };
-    version = "4.28.3";
+    version = "4.32.0";
   };
   guard = {
     dependencies = ["formatador" "listen" "lumberjack" "nenv" "notiffany" "pry" "shellany" "thor"];
