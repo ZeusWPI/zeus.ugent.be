@@ -15,14 +15,14 @@ subnavigation:
       No sponsors yet for this academic year. Interested? Contact the board.
     </div>
   <% else %>
-    <% current_sponsors.shuffle.each do |sponsor| %>
+    <% current_sponsors.each do |sponsor| %>
       <div id="<%= sponsor[:name] %>" class="box sponsoring-member">
         <article class="columns is-mobile">
           <div class="column px-5">
             <% if sponsor[:photo] %>
               <div class="is-flex is-justify-content-center is-align-items-center">
-                <div class="box p-3 is-flex is-justify-content-center is-align-items-center is-inline-block" style="background: <%= sponsor[:background] %>;">
-                    <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
+                <div class="box p-3 column is-half-desktop is-half-tablet is-three-quarters-mobile is-flex is-justify-content-center is-align-items-center" style="background: <%= sponsor[:background] %>;">
+                    <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>" style="height: 100%">
                 </div>
               </div>
             <% else %>

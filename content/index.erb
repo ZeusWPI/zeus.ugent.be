@@ -161,10 +161,10 @@
     </div>
     <% else %>
     <div class="columns is-centered is-multiline is-mobile">
-      <% current_sponsors.shuffle.each do |sponsor| %>
+      <% current_sponsors.each do |sponsor| %>
         <div class='column is-4-desktop is-half-tablet is-three-quarters-mobile'>
           <a href="/sponsors/sponsors/#<%= sponsor[:name] %>">
-            <div class="box p-3 is-flex is-justify-content-center is-align-items-center" style="background: <%= sponsor[:background] %>;">
+            <div class="box p-3 is-flex is-justify-content-center is-align-items-center" style="background: <%= sponsor[:background] %>; aspect-ratio: 3/1">
               <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
             </div>
           </a>
