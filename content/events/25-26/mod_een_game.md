@@ -8,4 +8,5 @@ locationlink: $s9
 tags: {}
 ---
 
-Placeholder description
+Ooit al eens een mod voor een game willen schrijven, maar wist je niet waar te beginnen?
+Kom naar onze workshop waar wij een kleine intro geven over hoe je (unity) games kunt modden.

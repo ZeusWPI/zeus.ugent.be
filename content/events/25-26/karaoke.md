@@ -8,4 +8,5 @@ locationlink: $s9
 tags: {}
 ---
 
-Placeholder description
+Heb je graag Guitar Hero, maar zonder de guitaren, dan is dit event voor jou.
+Of je nu goed kan zingen of totaal niet, is er een microfoon voor jou in de kelder aanwezig.

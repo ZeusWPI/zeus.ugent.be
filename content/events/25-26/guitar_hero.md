@@ -8,4 +8,5 @@ locationlink: $s9
 tags: {}
 ---
 
-placeholder
+Na het grote succes van de Guitar Hero Night in het eerste semester doen we een encore.
+Kom opnieuw rocken met ons deze donderdag, deze keer met meer microfoons.

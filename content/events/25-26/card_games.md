@@ -8,4 +8,5 @@ locationlink: $s9
 tags: {}
 ---
 
-Placeholder description
+Mao, Weerwolven, Muffin Time, 
+Deze games en meer gaan we in de kelder spelen, kom erbij en geniet van een gezellige avond aan kaartspelletjes.
