@@ -5,7 +5,10 @@ time: '26-03-2026 17:30'
 end: '26-03-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
-tags: {}
+banner: https://pics.zeus.gent/c1MLXS1IahBfMwK2nLDB2oibW2pXXZNvFOOrev1p.jpg
+header_text_background: true
 ---
 
-TTRPG met Prime & VVN
+We spelen TTRPGs (TableTop Role-Playing Games) met Prime en VVN!
+
+Meer info volgt
