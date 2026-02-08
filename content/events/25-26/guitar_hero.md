@@ -4,7 +4,7 @@ description: Placeholder description
 time: '05-03-2026 18:00'
 end: '05-03-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
-locationlink: $s9
+locationlink: $kelder
 banner: https://pics.zeus.gent/D4J2SPmbA5dJPP4zl2pQBcT8s0oLVcmqadvwNBPW.png
 header_text_background: true
 ---

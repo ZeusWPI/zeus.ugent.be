@@ -19,7 +19,7 @@ module PreprocessHelper
   def predefined_locations
     {
       '$kelder' => 'Zeus WPI, Gent',
-      '$s9' => 'S9, Gent',
+      '$s9' => 'Krijgslaan 281-S9, 9000 Gent',
       '$s5' => 'S5, Gent',
       '$therminal' => 'De Therminal, Gent',
       '$voortuin' => 'Studententuin voortuin, Gent',

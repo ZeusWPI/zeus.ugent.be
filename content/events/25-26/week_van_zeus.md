@@ -4,7 +4,7 @@ description: Zeus programmeert een week lang.
 time: '16-02-2026 18:00'
 end: '19-02-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
-locationlink: $s9
+locationlink: $kelder
 banner: https://pics.zeus.gent/kc61uO3rJy8DWLAf1DfSWEhayxQbYfxHKWvgjTwv.jpg
 tags: {}
 header_text_background: true 

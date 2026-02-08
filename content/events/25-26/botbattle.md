@@ -4,7 +4,7 @@ description:  programmeer een bot, stijg in de ranking, win prijzen.
 time: '03-03-2026 18:00'
 end: '03-03-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
-locationlink: $s9
+locationlink: $kelder
 banner: https://pics.zeus.gent/6CEhrObANBrRvLsltuJ1mVlxREFz9nOJ4OqEvh8t.png
 header_text_background: true
 ---

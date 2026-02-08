@@ -4,7 +4,7 @@ description: Kom gezellig party games spelen in de kelder!
 time: '10-02-2026 18:00'
 end: '10-02-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
-locationlink: $s9
+locationlink: $kelder
 banner: https://pics.zeus.gent/lustrum_2022.jpg
 header_text_background: true
 ---

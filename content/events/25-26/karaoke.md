@@ -4,7 +4,7 @@ description: Zingen op je favoriete muziek
 time: '12-05-2026 18:00'
 end: '12-05-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
-locationlink: $s9
+locationlink: $kelder
 banner: https://pics.zeus.gent/u3KVIRzhrwoJXNYrVztnRtd0BZ9PyrsnSzrROj3F.jpg
 header_text_background: true
 ---
