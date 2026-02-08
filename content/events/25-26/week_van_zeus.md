@@ -7,6 +7,7 @@ location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/kc61uO3rJy8DWLAf1DfSWEhayxQbYfxHKWvgjTwv.jpg
 tags: {}
+header_text_background: true 
 ---
 
 ## IHNGTWHSIPB-Codeweek

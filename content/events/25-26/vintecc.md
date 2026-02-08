@@ -7,6 +7,7 @@ location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/kSA1U1ADHA6BRUO7cNfPNt5NHZb2OQM0YsdPMb2z.jpg
 tags: {}
+header_text_background: true 
 ---
 
 Ethernet, Bluetooth, Wifi, IP... Allemaal communicatiemethodes waar we elke dag op steunen, maar wat als die allemaal niet bestonden?
