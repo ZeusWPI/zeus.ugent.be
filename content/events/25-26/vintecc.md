@@ -5,7 +5,7 @@ time: '31-03-2026 18:00'
 end: '31-03-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
-banner: https://live.staticflickr.com/3867/14452760238_66a9d382fe_b.jpg
+banner: https://pics.zeus.gent/kSA1U1ADHA6BRUO7cNfPNt5NHZb2OQM0YsdPMb2z.jpg
 tags: {}
 ---
 
@@ -19,8 +19,8 @@ voorbeelden ter inspiratie:
 
 Er is materiaal genoeg: Microcontrollers, Raspberry Pi's, webcams, een computer om AI modellen op te draaien, LoRa gateways (look it up). Ook onze sponsor Vintecc leent ons wat van hun industriële apparatuur zoals PLCs met speciale protocollen zoals OpcUA, Modbus, CAN etc.
 
-Elke link verbinden we alle links met elkaar (zoals de foto hieronder) om een soort Gartic Phone voor computers te maken.
-![Adapter chain](https://us1.discourse-cdn.com/spiceworks/optimized/4X/b/a/1/ba147a8c27fa174ea7e3d6d3685df142e7daea6e_2_690x388.jpeg)
+Elke link verbinden we alle links met elkaar (een beetje zoals de foto hieronder) om een soort Gartic Phone voor computers te maken.
+![Adapter chain](https://pics.zeus.gent/nVN52U98M9CCjSXISRExu7cS1JjcYz9GIMLR1uQT.jpg)
 
 Dankzij onze sponsor Vintecc is er ook uitzonderlijk gratis eten beschikbaar voor deelnemers!
 
