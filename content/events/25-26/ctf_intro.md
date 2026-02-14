@@ -1,8 +1,8 @@
 ---
 title: Introductie tot Capture The Flag
 description: Introductie tot CTF
-time: '24-02-2026 18:00'
-end: '24-02-2026 23:00'
+time: '25-02-2026 18:00'
+end: '25-02-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/AsUFApGJa0MAxRDS9grfC950Gn6cTyWAGvDoEFIo.png
