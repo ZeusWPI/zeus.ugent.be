@@ -26,9 +26,9 @@ Vanaf dinsdag werken we elke avond samen aan 1 of meerdere specifieke projecten.
 
 | Dag       | Project   |
 | --------- | --------- |
-| dinsdag   | TBD       |
-| woensdag  | TBD       |
-| donderdag | TBD       |
-| (vrijdag) | (TBD)     |
+| dinsdag   | [Zauth](https://github.com/ZeusWPI/zauth) / [ZPI](https://github.com/ZeusWPI/zpi) / [LEDDY](https://github.com/ZeusWPI/LEDDY) / [ledstrip](https://git.zeus.gent/Kelder/ledstrip_sandbox) |
+| woensdag  | [Taþ(dmin)](https://github.com/ZeusWPI/tabdmin) / [Haldis](https://github.com/ZeusWPI/haldis) / [Hydra](https://github.com/ZeusWPI/hydra) |
+| donderdag | [Hortiroot scanners](https://git.zeus.gent/ZeusWPI/salsa)      |
+| (vrijdag) | Zeus scant plantjes @Coupure  |
 
 *vibe coding niet toegestaan*
