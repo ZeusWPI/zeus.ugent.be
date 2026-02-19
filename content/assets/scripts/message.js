@@ -7,7 +7,7 @@ const responseSuccess = $("#cammieFormResponseSuccess");
 const modal = $("#cammieFormModal");
 const modalName = $("#cammieModalName");
 
-const socket = new WebSocket("ws://kelder.zeus.ugent.be/ws/messages");
+const socket = new WebSocket("wss://kelder.zeus.ugent.be/ws/messages");
 
 socket.onmessage = function (ev) {
   let frame;
