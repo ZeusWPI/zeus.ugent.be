@@ -6,6 +6,7 @@ end: '27-04-2026 22:00'
 location: Auditorium A2, Gebouw S9, Campus Sterre
 locationlink: $s9
 tags: {}
+color: '#17345b'
 ---
 
 # Drone hacking workshop
@@ -16,6 +17,6 @@ Zeus organiseert samen met [Senhive](https://senhive.com/) een drone hacking wor
 
 Het event start om 18:00, er wordt eten voorzien.
 
-======
+---
 
 Senhive is een Belgisch bedrijf gespecialiseerd in counter-drone systems voor verschillende sectoren: aerospace, defence, security en critical infrastructure. Alle research, development en productie gebeurt in Belgie. Het flagship-product, SENID+, detecteert cooperatieve en niet-cooperatieve drones in een straal van 25 km via RF, akoestische en optische oplossingen.
