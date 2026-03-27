@@ -3,7 +3,7 @@ title: Link outside the box - Sponsored by Vintecc
 description: Hoe cursed kunnen we informatie doorsturen naar elkaar?
 time: '31-03-2026 18:00'
 end: '31-03-2026 23:00'
-location: Zeuskelder, Gebouw S9, Campus Sterre
+location: Lokaal 3.4, Gebouw S9, Campus Sterre
 locationlink: $s9
 banner: https://pics.zeus.gent/kSA1U1ADHA6BRUO7cNfPNt5NHZb2OQM0YsdPMb2z.jpg
 tags: {}
@@ -25,5 +25,4 @@ Uiteindelijk verbinden we alle links met elkaar (een beetje zoals de foto hieron
 
 Dankzij onze sponsor Vintecc is er ook uitzonderlijk gratis eten beschikbaar voor deelnemers!
 
-Er zijn ook prijzen voor de meest creatieve en indrukwekkende links.
 Dus als je op een gezellige manier wilt leren hoe protocollen werken en hoe je ze zelf kan ontwerpen is dit het event voor jou.
