@@ -19,4 +19,4 @@ Het event start om 18:00, er wordt eten voorzien.
 
 ---
 
-Senhive is een Belgisch bedrijf gespecialiseerd in counter-drone systems voor verschillende sectoren: aerospace, defence, security en critical infrastructure. Alle research, development en productie gebeurt in Belgie. Het flagship-product, SENID+, detecteert cooperatieve en niet-cooperatieve drones in een straal van 25 km via RF, akoestische en optische oplossingen.
+Senhive is een Belgisch bedrijf gespecialiseerd in counter-drone systems voor verschillende sectoren: aerospace, defence, security en critical infrastructure. Alle research, development en productie gebeurt in België. Het flagship-product, SENID+, detecteert cooperatieve en niet-cooperatieve drones in een straal van 25 km via RF, akoestische en optische oplossingen.
