@@ -2,7 +2,7 @@ module FontAwesomeHelper
   def fa(icon, opts = {})
     classes = ['fa', "fa-#{icon}"]
 
-    classes << "fa-brands" if ["twitter", "mastodon", "github", "gitlab", "facebook", "linkedin", "wikipedia-w"].include? "#{icon}"
+    classes << "fa-brands" if ["twitter", "mastodon", "github", "gitlab", "facebook", "linkedin", "wikipedia-w", "instagram"].include? "#{icon}"
 
     classes << "fa-#{opts[:size]}" if opts[:size]
     classes << 'fa-li' if opts[:li]
