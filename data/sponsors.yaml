@@ -29,14 +29,14 @@ data:
           url: https://www.youtube.com/@aikidosecurity
         - icon: X
           url: https://twitter.com/AikidoSecurity
-    #- name: "Reproduct"
-    #  photo: /assets/images/reproduct.jpg
-    #  background: "white"
-    #  description: |-
-    #    Reproduct is the place to be voor de kwalitatieve verwerking en eindafwerking van al uw printwerk.
-    #  links:
-    #    - url: https://reproduct.be/
-    #    - icon: facebook
-    #      url: https://www.facebook.com/profile.php?id=100063754575471
-    #    - icon: linkedin
-    #      url: https://www.linkedin.com/company/reproduct/
+    - name: "Senhive"
+      photo: /assets/images/senhive-logo.svg
+      background: "#1f3159"
+      description: |-
+        Senhive specialises in advanced counter-drone systems and autonomous sensor networks designed for high-security environments.
+      links:
+        - url: https://www.senhive.com
+        - icon: linkedin
+          url: https://www.linkedin.com/company/senhive
+        - icon: instagram-square
+          url: https://instagram.com/senhive_be
