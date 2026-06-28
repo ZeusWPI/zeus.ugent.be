@@ -559,13 +559,17 @@ data:
       mail: penning@zeus.ugent.be
       mattermost: purple_cosmic
     - rol: Sysadmin
+      naam: Hannes Klinckaert
+      mail: admin@zeus.ugent.be
+      mattermost: hannes
+    - rol: Sysadmin
       naam: Axel Dezittere
       mail: admin@zeus.ugent.be
       mattermost: axel
     - rol: Sysadmin
-      naam: Hannes Klinckaert
+      naam: Saturn Casaer
       mail: admin@zeus.ugent.be
-      mattermost: hannes
+      mattermost: caturn
     - rol: Event
       naam: Lander De Geeter
       mail: event@zeus.ugent.be
@@ -586,6 +590,10 @@ data:
       naam: Luniya De Wannemaeker
       mail: project@zeus.ugent.be
       mattermost: lunakitpi
+    - rol: Kelder Beheerder
+      naam: Lucas De Backer
+      mail: project@zeus.ugent.be
+      mattermost: slumfie
     - rol: Assisterend bestuurslid
       naam: Jasper De Gussemé
       mail: assisterend@zeus.ugent.be
