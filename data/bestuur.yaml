@@ -545,3 +545,57 @@ data:
       naam: Lily Cailliau
       mail: assisterend@zeus.ugent.be
       mattermost: lily
+  26-27:
+    - rol: Voorzitter
+      naam: Nathan Onraet
+      mail: voorzitter@zeus.ugent.be
+      mattermost: nathano
+    - rol: Vicevoorzitter
+      naam: Saturn Casaer
+      mail: voorzitter@zeus.ugent.be
+      mattermost: caturn
+    - rol: Penningmeester
+      naam: Elias Verhelst
+      mail: penning@zeus.ugent.be
+      mattermost: purple_cosmic
+    - rol: Sysadmin
+      naam: Hannes Klinckaert
+      mail: admin@zeus.ugent.be
+      mattermost: hannes
+    - rol: Sysadmin
+      naam: Axel Dezittere
+      mail: admin@zeus.ugent.be
+      mattermost: axel
+    - rol: Sysadmin
+      naam: Saturn Casaer
+      mail: admin@zeus.ugent.be
+      mattermost: caturn
+    - rol: Event
+      naam: Lander De Geeter
+      mail: event@zeus.ugent.be
+      mattermost: landgeet
+    - rol: Event
+      naam: Lily Cailliau
+      mail: event@zeus.ugent.be
+      mattermost: lily
+    - rol: PR
+      naam: Arnout De Paepe
+      mail: pr@zeus.ugent.be
+      mattermost: arnoutdp
+    - rol: PR
+      naam: Margot Wauters
+      mail: pr@zeus.ugent.be
+      mattermost: hcney
+    - rol: Project
+      naam: Luniya De Wannemaeker
+      mail: project@zeus.ugent.be
+      mattermost: lunakitpi
+    - rol: Kelderbeheerder
+      naam: Lucas De Backer
+      mail: project@zeus.ugent.be
+      mattermost: slumfie
+    - rol: Assisterend bestuurslid
+      naam: Jasper De Gussemé
+      mail: assisterend@zeus.ugent.be
+      mattermost: jasperdg
+
