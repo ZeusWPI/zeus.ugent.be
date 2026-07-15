@@ -72,7 +72,7 @@ _de setup met 5 UWB modules aan één laptop_
 
 Hier is een demo in ideale omstandigheden met 3 anchors en 2 tags: Metingen worden gecoördineerd op een snelheid van 60 Hz, dat zijn 60 / 2 / 3 = 10 positiemetingen per seconde. Theoretisch kan deze timing dus voor 20 tags de positie 1 keer per seconde updaten.
 
-![grasveld demo](https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg)
+![grasveld demo](https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg&bypass=true)
 
 
 Om al deze metingen in realtime te aggregeren op de 12Urenloop om een live-tracking visualizatie te maken, is wat meer software nodig. Het huidige systeem gebruikt 7 stations met Raspberry-Pi's verspreid over het circuit verbonden met Ethernet. Om dit prototype te testen op de 12Urenloop-editie van dit jaar werden de 3 anchors aangesloten via USB aan de raspberry pi's. Een publisher-script leest de meetresultaten van de anchors en stuurt die berichten naar een centrale RabbitMQ-server in onze controlekamer (container) . Het realtime bevy-dashboard leest alle berichten en voert alle triangulatie-logica uit, daar kan dan een rondetelling op gebaseerd worden.

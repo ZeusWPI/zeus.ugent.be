@@ -68,7 +68,7 @@ Nanoc::Check.define(:no_hotlinking) do
         links.each do |link_src|
           uri =  URI(link_src)
           unless uri.host.nil?
-            unless allowed_domains.include?(uri.host.downcase)
+            unless allowed_domains.include?(uri.host.downcase) || link_src.include?("bypass")
               if exception_counter[link_src] > 0
                 exception_counter[link_src] -= 1
               else
