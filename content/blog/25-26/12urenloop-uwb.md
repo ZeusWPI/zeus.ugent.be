@@ -87,3 +87,5 @@ Er wordt geschat dat er 7-10 anchors zullen nodig zijn om op het volledige circu
 Dit kan worden opgelost door het hergebruiken van timeslots tussen anchors die niet tegelijk in het bereik van een tag kunnen zijn.
 
 Daarmee is de basis van de proof-of-concept af. Het systeem werd getest op één bocht van het 12Urenloop circuit de dagg voor de wedstrijd. De resultaten waren (na calibratie) voldoende kwalitatief om een accurate tracking mee te doen.
+
+De repository met alle code is te vinden op [Github](https://github.com/12urenloop/Lapocalypse3000) .
