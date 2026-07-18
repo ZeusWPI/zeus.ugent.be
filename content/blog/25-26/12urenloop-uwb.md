@@ -60,7 +60,7 @@ Na deze initiële resultaten was het tijd om een positionerings-test te doen: 2 
 
 De getrianguleerde positie werd in realtime gevisualiseerd door een dashboard gemaakt met [Bevy](https://bevy.org) .
 
-![realtime positie demo](https://mattermost.zeus.gent/files/n9cp37pfxfgojr1f7beqoi3osc/public?h=4UiGkuFYTRZQ9xIhak6DNkQ_FP2tSEMUwgD-BkLStXg)
+![realtime positie demo](https://mattermost.zeus.gent/files/n9cp37pfxfgojr1f7beqoi3osc/public?h=4UiGkuFYTRZQ9xIhak6DNkQ_FP2tSEMUwgD-BkLStXg&bypass=true)
 
 Om dit systeem te laten werken met 2 tags op hoge snelheid zonder dat er over elkaar wordt gepraat op het radiokanaal, is er synchronisatie nodig tussen anchors: Die moeten weten wanneer het aan hun beurt is om een bericht uit te sturen en wanneer ze moeten wachten om de rest hun metingen te laten doen. In de implementatie werkt dat door een gedeelde klok tussen alle anchors: Elke anchor krijgt een tijd-slot toegewezen in een interval. Met een interval van 1 seconde en tijd-slots van 10 milliseconden kan je bijvoorbeeld 100 afstandsmetingen maken per seconde.
 
