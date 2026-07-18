@@ -23,7 +23,7 @@ Deze technologie wordt o.a. gebruikt in Iphones en Airtags; om de afstand en ric
 
 Er werd sinds 2021 al gepraat over UWB gebruiken bij de 12Urenloop, want het biedt enkele grote voordelen:
 - Exacte positiemeting: Het huidige bluetooth-systeem geeft een goede inschatting van de voortgang op het circuit (door de snelheid te berekenen), maar geen positiemetingen. 
-- Met positionering kan een ronde ronde geteld op het exacte moment dat iemand over de startlijn gaat, Dit lukt niet met bestaande RFID systemen die voor loopraces worden gebruikt, want bij 12Urenloop is er een startlijn per team (aan de tent van elk team van verenigingen).
+- Met positionering kan een ronde geteld op het exacte moment dat iemand over de startlijn gaat, Dit lukt niet met bestaande RFID systemen die voor loopraces worden gebruikt, want bij 12Urenloop is er een startlijn per team (aan de tent van elk team van verenigingen).
 - Meer statistieken over individuele lopers: Maximum/minimumsnelheid, snelheid in bochten etc.
 - Een signaal met minder ruis, want er is veel ruis door bluetooth-signalen van de honderden toeschouwers.
 
@@ -60,7 +60,9 @@ Na deze initiële resultaten was het tijd om een positionerings-test te doen: 2 
 
 De getrianguleerde positie werd in realtime gevisualiseerd door een dashboard gemaakt met [Bevy](https://bevy.org) .
 
-![realtime positie demo](https://mattermost.zeus.gent/files/n9cp37pfxfgojr1f7beqoi3osc/public?h=4UiGkuFYTRZQ9xIhak6DNkQ_FP2tSEMUwgD-BkLStXg&bypass=true)
+<video width="100%" aspect-ratio=1 controls>
+  <source src="https://mattermost.zeus.gent/files/n9cp37pfxfgojr1f7beqoi3osc/public?h=4UiGkuFYTRZQ9xIhak6DNkQ_FP2tSEMUwgD-BkLStXg&bypass=true" type="video/mp4">
+</video>
 
 Om dit systeem te laten werken met 2 tags op hoge snelheid zonder dat er over elkaar wordt gepraat op het radiokanaal, is er synchronisatie nodig tussen anchors: Die moeten weten wanneer het aan hun beurt is om een bericht uit te sturen en wanneer ze moeten wachten om de rest hun metingen te laten doen. In de implementatie werkt dat door een gedeelde klok tussen alle anchors: Elke anchor krijgt een tijd-slot toegewezen in een interval. Met een interval van 1 seconde en tijd-slots van 10 milliseconden kan je bijvoorbeeld 100 afstandsmetingen maken per seconde.
 
@@ -72,8 +74,9 @@ _de setup met 5 UWB modules aan één laptop_
 
 Hier is een demo in ideale omstandigheden met 3 anchors en 2 tags: Metingen worden gecoördineerd op een snelheid van 60 Hz, dat zijn 60 / 2 / 3 = 10 positiemetingen per seconde. Theoretisch kan deze timing dus voor 20 tags de positie 1 keer per seconde updaten.
 
-![grasveld demo](https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg&bypass=true)
-
+<video width="100%" aspect-ratio=1 controls>
+  <source src="https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg&bypass=true" type="video/mp4">
+</video>
 
 Om al deze metingen in realtime te aggregeren op de 12Urenloop om een live-tracking visualizatie te maken, is wat meer software nodig. Het huidige systeem gebruikt 7 stations met Raspberry-Pi's verspreid over het circuit verbonden met Ethernet. Om dit prototype te testen op de 12Urenloop-editie van dit jaar werden de 3 anchors aangesloten via USB aan de raspberry pi's. Een publisher-script leest de meetresultaten van de anchors en stuurt die berichten naar een centrale RabbitMQ-server in onze controlekamer (container) . Het realtime bevy-dashboard leest alle berichten en voert alle triangulatie-logica uit, daar kan dan een rondetelling op gebaseerd worden.
 
