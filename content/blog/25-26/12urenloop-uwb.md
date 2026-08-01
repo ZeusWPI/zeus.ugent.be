@@ -115,6 +115,8 @@ In order to actually take this system in use, the tags will need to be integrate
 
 The repository with all the code can be found on [Github](https://github.com/12urenloop/Lapocalypse3000).
 
+A big thanks to 12Urenloop and everyone at Zeus that helped.
+
 You can contact me at [uwb@robinp.be](mailto:uwb@robinp.be) .
 
 # Nederlands
@@ -213,5 +215,7 @@ Daarmee is de basis van de proof-of-concept af. Het systeem werd getest op één
 Om dit systeem daadwerkelijk in gebruik te nemen, moet de tag geïntegreerd worden in de baton waar nu het bluetooth-systeem in zit, en betere power- en betrouwbaarheidsmetingen zullen moeten genomen worden.
 
 De repository met alle code is te vinden op [Github](https://github.com/12urenloop/Lapocalypse3000) .
+
+Een dikke merci aan 12Urenloop en iedereen van Zeus die hulp heeft geboden.
 
 Je kan me contacteren via [uwb@robinp.be](mailto:uwb@robinp.be) .
