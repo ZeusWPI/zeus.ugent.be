@@ -95,7 +95,7 @@ _The crazy setup with 5 UWB modules hooked up to a single laptop, we didn't have
 Here's a demo under ideal conditions with 3 anchors and 2 tags: measurements are coordinated at a rate of 60 Hz, which comes out to 60 / 2 / 3 = 10 position measurements per second. In theory, this timing could therefore update the position of 20 tags once per second.
 
 <video width="100%" aspect-ratio=1 controls>
-  <source src="https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg&bypass=true" type="video/mp4">
+  <source src="https://mattermost.zeus.gent/files/jbebfiyzgfywbmozkod176t74o/public?h=5_E_HyTIOl5SYYzaZ5DUgd1leVyDLLcwy-zEMyZzVJ0&bypass=true" type="video/mp4">
 </video>
 
 _The graphics from the triangulation application was overlayed on a video recording of the test for analysis, some miscalibration remains here in certain regions_
@@ -196,7 +196,7 @@ _de crazy setup met 5 UWB modules aan één laptop, we hadden geen makkelijke ma
 Hier is een demo in ideale omstandigheden met 3 anchors en 2 tags: Metingen worden gecoördineerd op een snelheid van 60 Hz, dat zijn 60 / 2 / 3 = 10 positiemetingen per seconde. Theoretisch kan deze timing dus voor 20 tags de positie 1 keer per seconde updaten.
 
 <video width="100%" aspect-ratio=1 controls>
-  <source src="https://mattermost.zeus.gent/files/a3uyukxq7fr3xgh8smr41m8c8y/public?h=9EqalStLvKMUJPbeFxvve5GTdjRCBi3U7PJmxrKU3Yg&bypass=true" type="video/mp4">
+  <source src="https://mattermost.zeus.gent/files/jbebfiyzgfywbmozkod176t74o/public?h=5_E_HyTIOl5SYYzaZ5DUgd1leVyDLLcwy-zEMyZzVJ0&bypass=true" type="video/mp4">
 </video>
 
 Om al deze metingen in realtime te aggregeren op de 12Urenloop om een live-tracking visualizatie te maken, is wat meer software nodig. Het huidige systeem gebruikt 7 stations met Raspberry-Pi's verspreid over het circuit verbonden met Ethernet. Om dit prototype te testen op de 12Urenloop-editie van dit jaar werden de 3 anchors aangesloten via USB aan de raspberry pi's. Een publisher-script leest de meetresultaten van de anchors en stuurt die berichten naar een centrale RabbitMQ-server in onze controlekamer (container) . Het realtime bevy-dashboard leest alle berichten en voert alle triangulatie-logica uit, daar kan dan een rondetelling op gebaseerd worden.
