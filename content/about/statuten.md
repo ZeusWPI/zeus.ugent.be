@@ -19,7 +19,7 @@ subnavigation:
 **Art. 1** - De vereniging draagt de naam: "Zeus - Werkgroep Informatica", kortweg "Zeus", of "Zeus WPI".<br>
 </div>
 <div class="box" markdown="1">
-**Art. 2** - De vereniging heeft haar zetel te Krijgslaan 281, S9 B-9000 GENT. Bij beslissing van het bestuur kan de zetel evenwel verplaatst worden naar een andere plaats.<br>
+**Art. 2** - De vereniging heeft haar zetel te Krijgslaan 299, S9 B-9000 GENT. Bij beslissing van het bestuur kan de zetel evenwel verplaatst worden naar een andere plaats.<br>
 </div>
 <div class="box" markdown="1">
 **Art. 3** - De vereniging heeft als website zeus.ugent.be. Bij beslissing van het bestuur kan dit webadres veranderd worden.<br>
