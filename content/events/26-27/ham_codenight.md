@@ -10,3 +10,5 @@ image:
 header_text_background: true
 tags: {}
 ---
+
+De huidige functionaliteit van het menu systeem in haldis leaves much to be desired. Daarom zijn we gestart aan een klein projectje die deze op zich beheert. Help mee met dit project af te maken zodat de prijzen van de menus makkelijk up-to-date gehouden kunnen worden.
