@@ -10,3 +10,17 @@ image:
 header_text_background: true
 tags: {}
 ---
+
+# Bowlen
+
+Na het succes van de vorige jaren gaat Zeus dit jaar weer bowlen bij O'Learys!
+
+Iedereen is welkom, maar inschrijven is wel verplicht.
+
+Meer info over de prijs en de inschrijvingslink volgt later.
+
+Het bowlen zal ongeveer 2 uurtjes duren.
+
+Meer info over O'Learys: [https://olearys.be/gent-event-center/](https://olearys.be/gent-event-center/)
+
+Hopelijk to dan!
