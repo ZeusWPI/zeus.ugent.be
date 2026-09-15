@@ -179,6 +179,8 @@ en:
       big_table: "Big table"
       couch: "Couch"
       door: "Door"
+      3d_printer: "3d printer"
+      chick: "Chick"
       christmastime: "Christmas tree"
     message:
       empty_username:

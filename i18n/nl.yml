@@ -179,6 +179,8 @@ nl:
       big_table: "Grote tafel"
       couch: "Zetel"
       door: "Deur"
+      3d_printer: "3d printer"
+      chick: "Kuiken"
       christmastime: "Kerstboom"
     message:
       empty_username:
