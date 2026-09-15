@@ -73,6 +73,7 @@ nl:
         services_overview: "Overzicht der diensten"
     history:
       title: "Historiek"
+      jump_current_year: "Spring naar het huidige academiejaar"
     former_boards:
       title: "Oud-bestuur"
       content: "Alle vorige besturen van ZeusWPI, van nu tot het prille begin."

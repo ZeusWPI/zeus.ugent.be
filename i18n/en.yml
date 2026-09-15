@@ -73,6 +73,7 @@ en:
         services_overview: "Overview of services"
     history:
       title: "History"
+      jump_current_year: "Jump to the current academic year"
     former_boards:
       title: "Former Boards"
       content: "All previous boards of ZeusWPI, from now to the very beginning."
