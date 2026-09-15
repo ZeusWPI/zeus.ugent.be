@@ -15,7 +15,7 @@
         </li>
         <% else %>
         <li>
-          <%= link_to pretty_year(year), item %>
+          <a href="<%= localized_path(item.path) %>"><%= pretty_year(year) %></a>
         </li>
         <% end %>
         <% end %>
@@ -34,7 +34,7 @@
         </li>
         <% else %>
         <li>
-          <%= link_to tag, item %>
+          <a href="<%= localized_path(item.path) %>"><%= tag %></a>
         </li>
         <% end %>
         <% end %>
@@ -53,7 +53,7 @@
         <div class="card-content">
           <p><%= t('events.info.content_1') %></p>
           <p><%= t('events.info.content_2') %></p>
-          <a href="/ical.ics" class="button is-primary">
+          <a href="<%= localized_path('/ical.ics') %>" class="button is-primary">
             <%= t('events.info.button') %>
           </a>
         </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="nl">
+<html lang="<%= current_locale %>">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,7 +9,7 @@
       Zeus WPI | <%= item[:title] || 'Werkgroep Informatica van de Universiteit Gent' %>
     </title>
 
-    <link rel="icon" href="/assets/images/favicon32.png" type="image/x-icon">
+    <link rel="icon" href="<%= localized_path('/assets/images/favicon32.png') %>" type="image/x-icon">
 
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
 
@@ -24,7 +24,7 @@
     <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Make sure search engines only cache one deployment of this site -->
-    <link rel="canonical" href="<%= "#{@config[:base_url]}#{@item.path}" %>">
+    <link rel="canonical" href="<%= "#{@config[:base_url]}#{localized_path(@item.path)}" %>">
     
     <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
     <script>
@@ -42,7 +42,7 @@
     <!-- / Fathom -->
 
     <%= content_for(@item, :head) %>
-    <script src='/assets/scripts/zapp-iframe.js' async></script>
+    <script src='<%= localized_path('/assets/scripts/zapp-iframe.js') %>' async></script>
   </head>
 
   <body class="site">

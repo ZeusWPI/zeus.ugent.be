@@ -2,7 +2,7 @@
   <ul>
     <% subnavigables(@item[:subnavigation][:bar]).map { |e| e[:subnavigation] }.each do |nav| %>
     <li class="<%= 'is-active' if @selected == nav[:identifier] %>">
-      <a href="<%= "/#{nav[:bar]}/#{nav[:identifier]}" %>">
+      <a href="<%= localized_path("/#{nav[:bar]}/#{nav[:identifier]}") %>">
         <%= t(nav[:name]) %>
       </a>
     </li>

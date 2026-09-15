@@ -12,12 +12,12 @@
             <%= fa :facebook %>
           </span>
         </a>
-        <a class="icon" href="/feed.xml" target="_blank">
+        <a class="icon" href="<%= localized_path('/feed.xml') %>" target="_blank">
           <span class="icon">
             <%= fa :rss %>
           </span>
         </a>
-        <a class="icon" href="/ical.ics">
+        <a class="icon" href="<%= localized_path('/ical.ics') %>">
           <span class="icon">
             <%= fa :calendar %>
           </span>
@@ -31,11 +31,11 @@
           <span class="hidden-xs"> <%= t('footer.github')%> </span>
           <%= fa :github %>
         </a> |
-        <a href="/about/privacy">
+        <a href="<%= localized_path('/about/privacy') %>">
           <span class="hidden-xs"><%= t('footer.privacy')%></span>
           <%= fa :'user-secret' %>
         </a> |
-        <a href="/.well-known/security.txt">
+        <a href="<%= localized_path('/.well-known/security.txt') %>">
           <span class="hidden-xs"><%= t('footer.rdp')%></span>
           <%= fa :'lock' %>
         </a>        
