@@ -24,7 +24,7 @@
   <div class='cell is-col-span-2'>
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+        <a href="<%= localized_path("/events/#{current_academic_year}/") %>" style="color: var(--bulma-body-color); text-decoration: none;">
           <%= t('index.upcoming_events') %>
           </a>
       </span>
@@ -73,7 +73,7 @@
       <!-- Previous events section -->
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
-          <a href="https://zeus.ugent.be/events/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="<%= localized_path("/events/#{current_academic_year}/") %>" style="color: var(--bulma-body-color); text-decoration: none;">
           <%= t('index.previous_events') %>
           </a>
         </span>
@@ -89,7 +89,7 @@
     <div class='column is-half'>
       <div class='content has-text-centered box'>
         <h2>
-          <a href="https://zeus.ugent.be/about/about/" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="<%= localized_path('/about/about/') %>" style="color: var(--bulma-body-color); text-decoration: none;">
             <%= t('about.about_zeus.title') %>
           </a>
         </h2>
@@ -105,7 +105,7 @@
       <!-- Blogpost section -->
       <div class="block has-text-centered">
         <span class="title is-2-responsive underline--magical">
-          <a href="https://zeus.ugent.be/blog/<%= current_academic_year %>" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="<%= localized_path("/blog/#{current_academic_year}/") %>" style="color: var(--bulma-body-color); text-decoration: none;">
           <%= t('index.blogpost') %>
           </a>
         </span>
@@ -120,7 +120,7 @@
   <div class='cell is-col-span-2' id='sponsoring-members'>
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/sponsors/members/" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="<%= localized_path('/sponsors/members/') %>" style="color: var(--bulma-body-color); text-decoration: none;">
           <%= t('index.sponsoring_members.title') %>
         </a>
       </span>
@@ -134,7 +134,7 @@
       <% current_sponsoring_members.shuffle.each do |member| %>
       <div class='column is-2-desktop is-one-fifth-tablet is-one-third-mobile'>
         <div class="rounded-container">
-          <a href="https://zeus.ugent.be/sponsors/members/#<%= member[:nickname] %>">
+          <a href="<%= localized_path('/sponsors/members/') %>#<%= member[:nickname] %>">
             <img class="is-rounded" src="<%= member[:photo] %>" alt="<%= member[:name] %>">
           </a>
         </div>
@@ -148,7 +148,7 @@
   <div class='cell is-col-span-2' id="sponsors">
     <div class="block has-text-centered">
       <span class="title is-2-responsive underline--magical">
-        <a href="https://zeus.ugent.be/sponsors/sponsors/" style="color: var(--bulma-body-color); text-decoration: none;">
+          <a href="<%= localized_path('/sponsors/sponsors/') %>" style="color: var(--bulma-body-color); text-decoration: none;">
           <%= t('index.sponsors.title') %>
         </a>
       </span>
@@ -161,7 +161,7 @@
     <div class="columns is-centered is-multiline is-mobile">
       <% current_sponsors.each do |sponsor| %>
         <div class='column is-4-desktop is-half-tablet is-three-quarters-mobile'>
-          <a href="/sponsors/sponsors/#<%= sponsor[:name] %>">
+          <a href="<%= localized_path('/sponsors/sponsors/') %>#<%= sponsor[:name] %>">
             <div class="box p-3 is-flex is-justify-content-center is-align-items-center" style="background: <%= sponsor[:background] %>; aspect-ratio: 3/1">
               <img src="<%= sponsor[:photo] %>" alt="<%= sponsor[:name] %>">
             </div>

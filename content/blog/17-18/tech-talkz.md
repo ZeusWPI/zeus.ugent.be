@@ -6,14 +6,14 @@ author: Rien
 ---
 CenEka, een studentenvereniging van de faculteit Ingenieurswetenschappen en Architectuur, organiseert samen met Zeus WPI zes talks doorheen het jaar. Deze talks zullen gaan over wat nieuw en boeiend is in het huidige technologielandschap.
 
-# [Talk I: Nanopixel](<%= @items['/events/17-18/nanopixel.md'].path %>)
+# [Talk I: Nanopixel](<%= localized_path(@items['/events/17-18/nanopixel.md'].path) %>)
 _Datum: 07/11_
 
 [NanoPixel](https://www.nanopixel.be/nl) een bedrijf met als missie om hun diensten en producten te _revolutioneren_ en een bijzondere meerwaarde te creëren voor hun klanten. Ze komen uitleg geven over de toepassingen en de know-how van **3D Visuals** en in het bijzonder **Virtual Reality**.
 
-Meer info op de [eventpagina](<%= @items['/events/17-18/nanopixel.md'].path %>) van dit event.
+Meer info op de [eventpagina](<%= localized_path(@items['/events/17-18/nanopixel.md'].path) %>) van dit event.
 
-# [Talk II: The web we take for granted - Our freedom at stake](<%= @items['/events/17-18/internet-freedom.md'].path %>)
+# [Talk II: The web we take for granted - Our freedom at stake](<%= localized_path(@items['/events/17-18/internet-freedom.md'].path) %>)
 
 _Datum: 23/11_
 
