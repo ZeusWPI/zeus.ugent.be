@@ -10,7 +10,14 @@ author_uri: ""
 base_url: http://localhost:3000
 
 environments:
+  en:
+    output_dir: output/en
+    base_url: https://zeus.ugent.be
+  nl:
+    output_dir: output/nl
+    base_url: https://zeus.ugent.be
   prod:
+    output_dir: output/nl
     base_url: https://zeus.ugent.be
 
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`
@@ -56,7 +63,7 @@ text_extensions:
 # The path to the directory where all generated files will be written to. This
 # can be an absolute path starting with a slash, but it can also be path
 # relative to the site directory.
-output_dir: output
+output_dir: output/nl
 
 # A list of index filenames, i.e. names of files that will be served by a web
 # server when a directory is requested. Usually, index files are named

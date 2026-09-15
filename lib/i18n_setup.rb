@@ -6,6 +6,10 @@ I18n.default_locale = :nl
 
 I18n.available_locales = [:en, :nl]
 
+# Each locale is compiled in a separate Nanoc invocation, so locale state is
+# fixed once when the build process starts.
+I18n.locale = ENV.fetch('SITE_LOCALE', 'nl').to_sym
+
 # Fallback to default locale if translation is missing
 I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
 
