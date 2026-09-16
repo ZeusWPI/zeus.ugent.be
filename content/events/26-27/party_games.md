@@ -10,3 +10,7 @@ image:
 header_text_background: true
 tags: {}
 ---
+
+We spelen samen party games, tijdens een ontspannende avond in de kelder.
+
+We bestellen (zoals altijd) ook samen eten. Iedereen welkom!
