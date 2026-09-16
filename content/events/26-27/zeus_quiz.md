@@ -10,3 +10,9 @@ image:
 header_text_background: true
 tags: {}
 ---
+Hoeveel weet jij over Zeus, informatica en alles errond?
+
+Verwacht een combinatie van meerdere formats met zowel obscure als meer gekende zaken.
+Kom je kennis testen!
+
+(dit is nog een tijdelijke beschrijving en zal later meer details bevatten)
