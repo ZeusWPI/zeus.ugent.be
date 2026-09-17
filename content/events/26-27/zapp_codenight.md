@@ -5,7 +5,7 @@ time: '10-11-2026 18:00'
 end: '10-11-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $kelder
-banner:https://pics.zeus.gent/zYE8g75hRnslu4QWXf5kBBoI83Eyfu8sHaJD7pVD.webp
+banner: https://pics.zeus.gent/zYE8g75hRnslu4QWXf5kBBoI83Eyfu8sHaJD7pVD.webp
 image:
 header_text_background: true
 tags: {}
