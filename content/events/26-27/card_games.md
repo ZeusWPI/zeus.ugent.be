@@ -10,3 +10,6 @@ image:
 header_text_background: true
 tags: {}
 ---
+Hou jij van gezelschap? Hou jij van spelletjes? Dan heb ik goed nieuws!! 
+Je kan samen met anderen een hele avond lang met kaarten en gezelschapsspelletjes spelen! 
+Kom naar de kelder om een potje te kaarten of zit allemaal rond een bord terwijl je rustig de avond met je vrienden doorbrengt. 
