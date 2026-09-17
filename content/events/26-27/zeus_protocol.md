@@ -10,3 +10,11 @@ image:
 header_text_background: true
 tags: {}
 ---
+
+We hebben een protocol gemaakt dat jullie nu mogen implementeren.
+
+Het protocol is niet zo moeilijk, maar je zult wel zelf code moeten schrijven om ermee te communiceren om een reeks aan opdrachten te volbrengen.
+Als je dit lukt, spreek je officieel het zeusprotocol (van dit jaar)!
+
+Verdere info volgt nog :)
+
