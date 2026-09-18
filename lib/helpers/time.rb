@@ -19,7 +19,7 @@ module TimeHelper
 
   def new_member_time?
     year = $tz.now.year
-    timehelper([[Time.new(year, 9, 20), Time.new(year, 10, 15)]])
+    timehelper([[Time.new(year, 9, 17), Time.new(year, 10, 15)]])
   end
 
   def timehelper(ranges)
