@@ -86,6 +86,17 @@ bundle exec nanoc --env=prod check --deploy
 bundle exec nanoc deploy --target public --env=prod
 ```
 
+### Locales
+
+The site is compiled separately for Dutch and English. Interface text, dates,
+and times come from `i18n/nl.yml` and `i18n/en.yml`.
+
+Blog posts and event descriptions remain in the language in which they were
+written for now. Translating authored content requires separate translated
+source files and is outside the first multilingual version.
+
+Make sure to add translations for your strings when adding them to the site.
+
 If you want to deploy this on your own system for whatever reason, just serve the files using a webserver like nginx or Apache.
 
 ## Uploading media files
