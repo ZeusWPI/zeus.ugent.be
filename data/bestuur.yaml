@@ -551,9 +551,9 @@ data:
       mail: voorzitter@zeus.ugent.be
       mattermost: nathano
     - rol: Vicevoorzitter
-      naam: Saturn Casaer
+      naam: Luniya De Wannemaeker
       mail: voorzitter@zeus.ugent.be
-      mattermost: caturn
+      mattermost: lunakitpi
     - rol: Penningmeester
       naam: Elias Verhelst
       mail: penning@zeus.ugent.be
@@ -587,9 +587,9 @@ data:
       mail: pr@zeus.ugent.be
       mattermost: hcney
     - rol: Project
-      naam: Luniya De Wannemaeker
+      naam: Mathieu Strypsteen
       mail: project@zeus.ugent.be
-      mattermost: lunakitpi
+      mattermost: mstrypst
     - rol: Kelderbeheerder
       naam: Lucas De Backer
       mail: faciliteit@zeus.ugent.be
