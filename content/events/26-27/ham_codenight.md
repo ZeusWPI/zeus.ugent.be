@@ -1,5 +1,5 @@
 ---
-title: Ham codenight
+title: HAM Codenight
 description: Haldis heeft menu's nodig! We schrijven een rust webserver hiervoor!
 time: '13-10-2026 18:00'
 end: '13-10-2026 23:00'
