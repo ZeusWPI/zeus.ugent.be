@@ -10,7 +10,7 @@ subnavigation:
 # Statuten
 {:.title.is-1.has-text-centered}
 
-## Revisie academiejaar 2021-2022
+## Revisie academiejaar 2026-2027
 {:.subtitle.is-2.has-text-centered}
 
 <div class="content" markdown="1">
