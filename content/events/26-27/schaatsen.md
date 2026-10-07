@@ -13,7 +13,7 @@ tags: {}
 
 Zeus WPI gaat voor het eerst (officieel) gaan schaatsen !
 
-Iedereen is welkom zolang er tickets beschikbaar zijn.
+Iedereen is welkom zolang er [tickets](https://event.student.ugent.be/events/414) beschikbaar zijn.
 
 Onze reservatie loopt van 20:15 tot 21:30, wees zeker op tijd (kom liefst zelfs wat vroeger)
 Rond 20:00 zullen we met de fiets naar daar vertrekken. 
