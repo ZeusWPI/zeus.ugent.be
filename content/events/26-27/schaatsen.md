@@ -13,10 +13,11 @@ tags: {}
 
 Zeus WPI gaat voor het eerst (officieel) gaan schaatsen !
 
-Iedereen is welkom zolang er [tickets](https://event.student.ugent.be/events/414) beschikbaar zijn.
+Iedereen is welkom zolang er (betalende) [tickets](https://event.student.ugent.be/events/414) beschikbaar zijn.
+Er zijn een beperkt aantal (30) plaatsen, op is op!
 
-Onze reservatie loopt van 20:15 tot 21:30, wees zeker op tijd (kom liefst zelfs wat vroeger)
-Rond 20:00 zullen we met de fiets naar daar vertrekken. 
+Onze reservatie loopt van 20:15 tot 21:30, wees zeker op tijd (kom liefst zelfs wat vroeger).
+Rond 20:00 zullen we met de fiets naar daar vertrekken (vanuit de Zeus kelder). 
 Indien je geen fiets hebt zoek je best op voorhand uit hoe je naar de Kristalijn kan komen.
 
 Meer info over Kristalijn: [https://www.kristallijn.be/schaatsen](https://www.kristallijn.be/schaatsen)
