@@ -1,8 +1,8 @@
 ---
 title: Zeus on Ice
 description: Kom gezellig schaatsen spelen in de Kristalijn!
-time: '26-11-2026 20:00'
-end: '26-11-2026 21:30'
+time: '26-10-2026 20:00'
+end: '26-10-2026 21:30'
 location: IJsbaan Kristalijn, Warmoezeniersweg 20, 9000 Gent
 locationlink: 
 banner: https://pics.zeus.gent/dmljtA98EsTqsrpTzPcuiyizg5yE67qHWS4lCAHn.png
