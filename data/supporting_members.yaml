@@ -1279,8 +1279,8 @@ data:
 #          url: https://mastodon.social/@nielsdg
 #        - icon: twitter
 #          url: https://twitter.com/NielsDeGraef
-      - name: Rune Dyselinck
-        nickname: runo
-        photo: 
-        quote: 
-        description:
+   - name: Rune Dyselinck
+     nickname: runo
+     photo: 
+     quote:
+     description:
