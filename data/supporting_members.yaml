@@ -1077,7 +1077,7 @@ data:
       nickname: chvp
       photo: https://zeus.ugent.be/zeuswpi/chvp.jpg
       quote: TRANS RIGHTS
-      description: Ex-ex-Dodona-mens
+      description: Ex-ex-ex-Dodona-mens
       links:
         - icon: github
           url: https://github.com/chvp
@@ -1281,6 +1281,6 @@ data:
 #          url: https://twitter.com/NielsDeGraef
    - name: Rune Dyselinck
      nickname: runo
-     photo: 
-     quote:
-     description:
+     photo: "" 
+     quote: ""
+     description: ""
