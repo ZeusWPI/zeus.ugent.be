@@ -15,4 +15,4 @@ Op onze LAN-party spelen we al jaren TrackMania Nations Forever, maar dit jaar z
  
 Liefst heb je de base-game al gedownload op voorhand, zodat je sneller kan beginnen racen. De benodigde instellingen komen mogelijks nog online (hier), en worden sowieso de avond zelf nog eens overlopen.
 
-<a href="https://git.zeus.gent/ZeusWPI/drive/src/branch/master/activiteiten/2026-2027/Trackmania/Handleiding" download>Hier</a> kan je de handleiding downloaden
+<a href="https://git.zeus.gent/ZeusWPI/drive/src/branch/master/activiteiten/2026-2027/Trackmania/Handleiding" download>Hier</a> kan je de handleiding downloaden.
