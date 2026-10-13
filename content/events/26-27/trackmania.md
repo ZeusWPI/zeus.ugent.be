@@ -14,3 +14,5 @@ tags: {}
 Op onze LAN-party spelen we al jaren TrackMania Nations Forever, maar dit jaar zullen we voor het eerst (proberen) TrackMania2020 te spelen! Om met deze 'nieuwe' game en zijn physics al eens kennis te maken, wordt er een (of meerdere) servers opgezet, met verschillende oefen-tracks. Er zal ook minstens 1 iemand (of meerdere personen) aanwezig zijn om alle game-gerelateerde vragen te beantwoorden.
  
 Liefst heb je de base-game al gedownload op voorhand, zodat je sneller kan beginnen racen. De benodigde instellingen komen mogelijks nog online (hier), en worden sowieso de avond zelf nog eens overlopen.
+
+<a href="https://git.zeus.gent/ZeusWPI/drive/src/branch/master/activiteiten/2026-2027/Trackmania/Handleiding" download>Hier</a> kan je de handleiding downloaden
