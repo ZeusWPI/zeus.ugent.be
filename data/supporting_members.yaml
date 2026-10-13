@@ -1097,22 +1097,22 @@ data:
         - icon: linkedin
           url: https://www.linkedin.com/in/woutschellaert/
         - url: http://schellaert.org/
-#    - name: Felix Van der Jeugt
-#      nickname: noctua
-#      photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
-#      quote: |-
-#        <noctua> dwergen
-#        <noctua> dwergen
-#        <noctua> dwergen
-#        <noctua> dwergen
-#        <noctua> Sorry guys
-#        <noctua> dwergen
-#        <noctua> dwergen
-#      description: Komt geen Ice Tea's meer halen in de kelder :(
-#      links:
-#        - icon: github
-#          url: https://www.github.com/ninewise
-#        - url: https://users.ugent.be/~fvdrjeug/
+    - name: Felix Van der Jeugt
+      nickname: noctua
+      photo: https://zeus.ugent.be/zeuswpi/9_L03Pm8.jpg
+      quote: |-
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> dwergen
+        <noctua> Sorry guys
+        <noctua> dwergen
+        <noctua> dwergen
+      description: Komt geen Ice Tea's meer halen in de kelder :(
+      links:
+        - icon: github
+          url: https://www.github.com/ninewise
+        - url: https://users.ugent.be/~fvdrjeug/
     - name: Rien Maertens
       nickname: met stokjes
       photo: https://zeus.ugent.be/zeuswpi/udVo8mPM.jpg
