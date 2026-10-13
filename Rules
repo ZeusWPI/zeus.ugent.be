@@ -21,6 +21,8 @@ ignore '/assets/stylesheets/bulma-timeline/**/*'
 
 
 preprocess do
+  `npm install`
+
   # We don't want to compile old blogposts in development
   ignore_old_content('blog', 'events', 'about/verslagen') if development?
 
@@ -65,6 +67,7 @@ compile '/blog/*' do
   layout '/default.*'
   filter :erb
 
+  filter :critical_css if production?
   filter :html_press if production?
 end
 
@@ -79,6 +82,7 @@ compile '/events/*' do
   layout '/default.*'
   filter :erb
 
+  filter :critical_css if production?
   filter :html_press if production?
 end
 
@@ -90,6 +94,7 @@ compile '/events/*/*' do
   layout '/default.*'
   filter :erb
 
+  filter :critical_css if production?
   filter :html_press if production?
 end
 
@@ -140,6 +145,7 @@ compile '/blog/*/*.md' do
   layout '/default.*'
   filter :erb
 
+  filter :critical_css if production?
   filter :html_press if production?
 end
 
@@ -212,6 +218,7 @@ compile '/**/*.erb' do
   layout '/generic.*'
   layout '/default.*'
 
+  filter :critical_css if production?
   filter :html_press if production?
 end
 
@@ -221,6 +228,9 @@ compile '/**/*.md' do
 
   layout '/generic.*'
   layout '/default.*'
+
+  filter :critical_css if production?
+  filter :html_press if production?
 end
 
 #

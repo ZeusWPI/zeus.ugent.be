@@ -18,11 +18,9 @@
 
     <meta property="fb:app_id" content="597670540410704">
 
-    <!-- Custom CSS -->
-    <%= asset :css, :main %>
 
     <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Make sure search engines only cache one deployment of this site -->
     <link rel="canonical" href="<%= "#{@config[:base_url]}#{@item.path}" %>">
     
@@ -70,4 +68,6 @@
       style="border-style: none; z-index: 200; position: absolute; left: 0; top: 0; height: 0vh; width: 0vw; overflow: hidden; visibility: hidden;"
     ></iframe>
   </body>
+    <!-- Custom CSS -->
+    <%= asset :css, :main %>
 </html>
