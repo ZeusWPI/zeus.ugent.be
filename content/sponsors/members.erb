@@ -37,6 +37,7 @@ subnavigation:
               </p>
             </div>
             <div class="links">
+              <% if not(member[:links].nil)? %>
               <% member[:links].each do |link| %>
                 <% if link[:icon] %>
                   <a class="social-icon" href="<%= link[:url] %>" target="_blank">
