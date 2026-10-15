@@ -37,19 +37,21 @@ subnavigation:
               </p>
             </div>
             <div class="links">
-              <% member[:links].each do |link| %>
-                <% if link[:icon] %>
-                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                      <span class="icon">
-                        <%= fa link[:icon], {:size => "2x"} %>
+              <% if member[:links].any? %>
+                <% member[:links].each do |link| %>
+                  <% if link[:icon] %>
+                    <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                        <span class="icon">
+                          <%= fa link[:icon], {:size => "2x"} %>
+                       </span>
+                    </a>
+                  <% else %>
+                    <a class="social-icon" href="<%= link[:url] %>" target="_blank">
+                        <span class="icon">
+                          <%= fa :globe, {:size => "2x"} %>
                       </span>
-                  </a>
-                <% else %>
-                  <a class="social-icon" href="<%= link[:url] %>" target="_blank">
-                      <span class="icon">
-                        <%= fa :globe, {:size => "2x"} %>
-                      </span>
-                  </a>
+                    </a>
+                  <% end %>
                 <% end %>
               <% end %>
             </div>
