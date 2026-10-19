@@ -12,6 +12,7 @@ require 'kramdown-math-katex'
 ignore '/node_modules/**/*'
 ignore '/assets/stylesheets/bulma/**/*'
 ignore '/assets/stylesheets/bulma-timeline/**/*'
+ignore '/assets/**/*' if ENV['SKIP_SHARED'] == '1'
 
 #
 #
@@ -193,8 +194,16 @@ end
 
 # Note drive/verslagen is 'linked' as a data source to /about/verslagen/
 compile '/about/verslagen/*/*.md', rep: :pdf do
-  filter :pandoc_pdf, args: { f: :markdown, 'pdf-engine': 'xelatex', template: 'templates/report.tex' } if production?
-  write ext: (production? ? 'pdf' : 'md')
+  if production?
+    if ENV['SKIP_SHARED'] != '1'
+      filter :pandoc_pdf, args: { f: :markdown, 'pdf-engine': 'xelatex', template: 'templates/report.tex' }
+      write ext: 'pdf'
+    else
+      write nil
+    end
+  else
+    write ext: 'md'
+  end
 end
 
 #
