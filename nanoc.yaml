@@ -10,6 +10,8 @@ author_uri: ""
 base_url: http://localhost:3000
 
 environments:
+  shared:
+    output_dir: output/shared
   en:
     output_dir: output/en
     base_url: https://zeus.ugent.be

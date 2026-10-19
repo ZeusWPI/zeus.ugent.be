@@ -7,6 +7,9 @@ module I18nHelper
     path = path.to_s
     return path unless path.start_with?('/')
 
+    # Assets and reports are built once and shared by both locales.
+    return path if path.start_with?('/assets/') || path.start_with?('/about/verslagen/')
+
     # Nanoc paths do not include the locale because both locale builds share
     # the same source tree; add it only when rendering a site link.
     return path if path.match?(%r{^/(?:en|nl)(?:/|$)})
