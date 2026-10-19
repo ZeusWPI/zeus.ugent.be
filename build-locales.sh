@@ -53,5 +53,5 @@ build_locale() {
 		--focus='/well-known*'
 }
 
-build_locale nl prod
-build_locale en en
+build_locale nl nl_prod
+build_locale en en_prod

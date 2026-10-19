@@ -12,14 +12,13 @@ base_url: http://localhost:3000
 environments:
   shared:
     output_dir: output/shared
-  en:
+  deploy:
+    output_dir: output
+  nl_prod:
+    output_dir: output/nl
+    base_url: https://zeus.ugent.be
+  en_prod:
     output_dir: output/en
-    base_url: https://zeus.ugent.be
-  nl:
-    output_dir: output/nl
-    base_url: https://zeus.ugent.be
-  prod:
-    output_dir: output/nl
     base_url: https://zeus.ugent.be
 
 # The syntax to use for patterns in the Rules file. Can be either `"glob"`

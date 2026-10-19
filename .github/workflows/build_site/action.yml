@@ -27,7 +27,10 @@ runs:
       run: "export LANG=en_US.UTF-8"
     - name: Build site
       shell: bash
-      run: "bundle exec nanoc --env=prod"
-    - name: Run checks
+      run: "./build-locales.sh"
+    - name: Check Dutch site
       shell: bash
-      run: "bundle exec nanoc --env=prod check --deploy"
+      run: "bundle exec nanoc --env=nl_prod check --deploy"
+    - name: Check English site
+      shell: bash
+      run: "bundle exec nanoc --env=en_prod check --deploy"
