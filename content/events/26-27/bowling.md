@@ -15,9 +15,11 @@ tags: {}
 
 Na het succes van de vorige jaren gaat Zeus dit jaar weer bowlen bij O'Learys!
 
-Iedereen is welkom, maar inschrijven is wel verplicht.
+Iedereen is welkom, maar inschrijven is wel verplicht en kost €7 (dat is €3 euro goedkoper dan vorig jaar :O).
 
-Meer info over de prijs en de inschrijvingslink volgt later.
+Inschrijven kan via deze link [https://event.student.ugent.be/events/415](https://event.student.ugent.be/events/415)
+
+Wees er snel bij, want er zijn een beperkt aantal (36) plaatsen, op is op!
 
 Het bowlen zal ongeveer 2 uurtjes duren.
 
