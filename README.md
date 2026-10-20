@@ -43,6 +43,16 @@ bundle exec nanoc live
 
 Go to <http://localhost:3000> to view the site! When developing, the site gets regenerated when editing files. A simple refresh will show the new changes.
 
+This runs one locale at a time. To preview the complete production build locally,
+run `./build-locales.sh` and then serve the generated `output/` directory:
+
+```bash
+./build-locales.sh
+python3 -m http.server 3000 --directory output
+```
+
+Then visit `/nl/` or `/en/` at <http://127.0.0.1:3000>.
+
 ### Not optional: install submodules
 
 Our official meeting reports are added as a submodule so they update automatically. For normal development, it is not required to initialize these. But if you want to deploy to production (or test the report generation), you will have to initialize the submodule.
@@ -77,13 +87,16 @@ For manual deployment, run
 
 ```bash
 # Build the site for production
-bundle exec nanoc --env=prod
+./build-locales.sh
 
-# Run checks
-bundle exec nanoc --env=prod check --deploy
+# Check the Dutch site
+bundle exec nanoc --env=nl_prod check --deploy
 
-# Deploy it to the server
-bundle exec nanoc deploy --target public --env=prod
+# Check the English site
+bundle exec nanoc --env=en_prod check --deploy
+
+# Deploy all locales and shared files
+nanoc --env=deploy deploy public
 ```
 
 ### Locales
