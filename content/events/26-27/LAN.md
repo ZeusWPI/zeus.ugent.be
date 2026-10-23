@@ -17,7 +17,7 @@ Tijd voor de 15de editie van onze LAN-party!
 We hebben dit jaar weer de 3 grote zalen, dus we nemen heel de Therminal over!
 
 
-De competitites gaan door om:
+De competities gaan door om:
 
 - 20u: Trackmania 2020 (niet meer Nations Forever!!)
 
