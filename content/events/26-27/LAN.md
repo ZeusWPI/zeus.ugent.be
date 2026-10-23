@@ -1,5 +1,5 @@
 ---
-title: Geeks Attack XV
+title: Geeks Attack XV - LAN Party
 description: De enige echte Zeus lanparty in de therminal!
 time: '30-10-2026 18:00'
 end: '31-10-2026 06:00'
