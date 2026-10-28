@@ -1280,7 +1280,7 @@ data:
 #          url: https://twitter.com/NielsDeGraef
     - name: Rune Dyselinck
       nickname: runo
-      photo: "" 
+      photo: "https://pics.zeus.gent/5SKp32Jpo8g1h4bPrFGhzqQsnnuLdrgp57T86VUu.jpg" 
       quote: "runo: wij zijn niet zoals wina, wij hebben geen bier in de kelder, bij ons is het allemaal op!"
       description: "Software Engineer by day, drunk driver by night"
       links:
