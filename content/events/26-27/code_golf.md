@@ -1,8 +1,8 @@
 ---
 title: Code Golf
 description: Wie schrijft de kortste oplossing?
-time: '03-11-2026 18:00'
-end: '03-11-2026 23:00'
+time: '05-11-2026 18:00'
+end: '05-11-2026 23:00'
 location: Zeuskelder, Gebouw S9, Campus Sterre
 locationlink: $kelder
 banner: https://pics.zeus.gent/6AOG7Iu8P09r9Y2wfLyQH2933O9Y9uG5QsMY2IOX.png
